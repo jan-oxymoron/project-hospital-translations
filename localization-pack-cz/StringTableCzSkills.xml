@@ -1,0 +1,122 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_CZ_SKILLS">
+        
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+            <!-- Departments -->
+            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Žádné oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Pohotovost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>JIP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Ortopedie a traumatologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Kardiologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_NEUROLOGY</LocID>                                               <Text>Neurologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_RADIOLOGY</LocID>                                               <Text>Radiologie</Text>  </GameDBLocalizedString>
+
+
+            <!-- Character levels-->
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_1</LocID>                                              <Text>Stážista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_2</LocID>                                              <Text>Rezident</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_3</LocID>                                              <Text>Atestovaný doktor (I. stupně)</Text>  </GameDBLocalizedString> <!-- https://cs.wikipedia.org/wiki/Atestace_(l%C3%A9ka%C5%99stv%C3%AD) -->
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_4</LocID>                                              <Text>Atestovaný doktor (II. stupně)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>Specialista</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Sestra stážist(k)a</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Sestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Zkušená sestra</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Stážista technolog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Technolog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>Technolog specialista</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_1</LocID>                                             <Text>Uklízeč</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_2</LocID>                                             <Text>Pokročilý uklízeč</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_3</LocID>                                             <Text>Zkušený uklízeč</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Doctor's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE</LocID>                           <Text>Všeobecná praxe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE_DESCRIPTION</LocID>               <Text>Všeobecná praxe umožňuje doktorům provádět běžná vyšetření a léčbu a ovlivňuje rychlost při běžných procedurách.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS</LocID>                                  <Text>Diagnostika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>                      <Text>Diagnostika ovlivňuje, jak často doktoři určí špatnou diagnózu nebo budou potřebovat konzultovat s dalšími doktory.</Text>  </GameDBLocalizedString>
+
+            <!-- Doctor's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Akutní medicína</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Lékařská specializace akutní medicína umožňuje provádět specializovaé procedury pro diagnostiku a léčbu kritických pacientů na pohotovosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Pokročilá diagnostika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Lékařská specializace pokročilá diagnostika umožňuje provádět diferenciální diagnostiku v rámci vyšetření.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Kritická medicína</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Lékařská specializace kritická medicína umožňuje provádět speciální vyšetření na JIP.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>Všeobecná chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>Lékařská specializace všeobecná chirurgie se používá u vyšetření a předepisování léčby na oddělení chirurgie a umožňuje také asistovat u operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>Chirurgie dovoluje vést operace a úroveň této dovednosti určuje, jak často se vyskytnou pooperační komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>Lékařská specializace interna se používá u vyšetření a předepisování léčby na oddělení interna a umožňuje také asistovat u operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>Interna-chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>Interna-chirurgie dovoluje vést operace a úroveň této specializace určuje, jak často se vyskytnou pooperační komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>Ortopedie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>Lékařská specializace ortopedie se používá u vyšetření a předepisování léčby na oddělení ortopedie a traumatologie a umožňuje také asistovat u operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>Orto-chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>Orto-chirurgie dovoluje vést operace a úroveň této specializace určuje, jak často se vyskytnou pooperační komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>Kardiologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>                       <Text>Lékařská specializace kardiologie se používá u vyšetření a předepisování léčby na oddělení kardiologie a umožňuje také asistovat u operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>                               <Text>Kardiochirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>Kardiochirurgie dovoluje vést operace a úroveň této specializace určuje, jak často se vyskytnou pooperační komplikace..</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>Neurologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>Lékařská specializace neurologie se používá u vyšetření a předepisování léčby na oddělení neurologie a umožňuje také asistovat u operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>Neurochirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>Neurochirurgie dovoluje vést operace a úroveň této specializace určuje, jak často se vyskytnou pooperační komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Anesteziologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Anesteziologie je potřeba, aby doktor mohl plnit roli anesteziologa na sále a také dává vyšší šanci přežití pacientům, které tento doktor stabilizuje. \nZnižuje riziko úmrtí pacienta počas kolapsu. \nZnižuje pravděpodobnost výskytu pooperačních komplikací.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Nurse's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>Péče o pacienty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>                 <Text>Umožňuje pracovat v roli sestry a starat se o pacienty.</Text>  </GameDBLocalizedString>
+
+            <!-- Nurse's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>Recepční</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>Receptionist represent point of first contact with patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Instrumentář/ka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>Instrumentář/ka má na starost lékařské nástroje při operacích.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Klinický/á specialist/ka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>Klinický/á specialist/ka.</Text>  </GameDBLocalizedString> <!-- TODO -->
+
+            
+            <!-- Lab guys QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>Biochemie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>Biochemie umožňuje provádět různé laboratorní testy.</Text>  </GameDBLocalizedString>
+
+            <!-- Lab guys SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>                      <Text>Pokročilá biochemie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>Pokročilá biochemie zvyšuje efektivitu laboratorních testů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Radiologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>Radologie je potřebná k obsluze přístrojů na oddělení radiologie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>GIT</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>GIT umožňuje provádět specilizovaná vyšetření na chirurgii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>USG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>USG je potřeba k provádění vyšetření a léčby ultrazvukem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>Kardiologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>Kardiologie umožňuje používat specilizované vybavení na kardiologii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>                         <Text>Neurologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY_DESCRIPTION</LocID>             <Text>Neurologie umožňuje používat specilizované vybavení na neurologii.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Janitor QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>Efektivita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>Efektivita určuje, jak uklízeči plánují svůj postup během uklízení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Šikovnost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>Šikovnost zvyšuje rychlost uklízení.</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

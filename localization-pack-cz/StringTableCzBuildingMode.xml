@@ -1,0 +1,711 @@
+<Database>
+    <GameDBStringTable ID="LOC_CZ_BUILDING_MODE">
+        
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!--actually in beta-->
+            <!--indoor flooring-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CONSTRUCTION</LocID>      	            <Text>Stavební podklad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE_TILES</LocID>      	            <Text>Bílé dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GREEN_LINE</LocID>      		            <Text>Tlustá barevná čára</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLUE_LINE</LocID>      		            <Text>Tenká barevná čára</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_APRICOT</LocID>                  <Text>Barevné dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_BEIGE</LocID>                    <Text>Světlé barevné dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_TINY</LocID>                     <Text>Malé dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED</LocID>               		<Text>Dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED_COLOR</LocID>                <Text>Barevné dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED_AMAZON</LocID>               <Text>Světlé dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_FILLED</LocID>      		    	<Text>Plné dlaždice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE</LocID>      			            <Text>Bílá</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLACK</LocID>     			            <Text>Černá</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLUE</LocID>      		            	<Text>Tmavá jednolitá</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_COLORED_DARK_LINE</LocID>      		    <Text>Tmavá s bílou čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_COLORED_LIGHT</LocID>      		        <Text>Světlá jednolitá</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_COLORED_LIGHT_LINE</LocID>      		    <Text>Světlá s bílou čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_RIGHT</LocID>                       <Text>Lamino</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_LEFT</LocID>                        <Text>Lamino</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_DARK_RIGHT</LocID>                  <Text>Dřevo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_DARK_LEFT</LocID>      	            <Text>Dřevo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_COLORED_LIGHT</LocID>      		    <Text>Linoleum - světlé</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_LIGHT_LINE</LocID>      		    <Text>Linoleum - světlé s čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_COLORED_DARK</LocID>      		    <Text>Linoleum - tmavé</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_DARK_LINE</LocID>      		    	<Text>Linoleum - tmavé s čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_PANNELS</LocID>      		    		<Text>Lesklá</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROOF</LocID>      		    			<Text>Střešní panely</Text>  </GameDBLocalizedString>
+            
+            <!--outdoor flooring-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CONCRETE_BRICK</LocID>                   <Text>Betonová dlažba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_INTERLOCKING_PAWMENT</LocID>             <Text>Zámková dlažba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS</LocID>                            <Text>Tráva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_DARK</LocID>                       <Text>Tmavá tráva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD</LocID>                             <Text>Asfalt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE</LocID>                             <Text>Čára</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_DETAIL</LocID>                      <Text>Detaily na silnici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_DRAIN_LEFT</LocID>                  <Text>Kanál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_PEDESTRIAN_CROSSING_NW</LocID>           <Text>Přechod</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_PEDESTRIAN_CROSSING_NE</LocID>           <Text>Přechod</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_AMBULANCE_L</LocID>                 <Text>Vyhrazený prostor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_AMBULANCE_R</LocID>                 <Text>Vyhrazený prostor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CONSTRUCTION_OUTSIDE</LocID>             <Text>Čtvercové panely</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_SAND</LocID>                             <Text>Pískek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRAVEL</LocID>                           <Text>Štěrk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_DIRT</LocID>                             <Text>Hlína</Text>  </GameDBLocalizedString>
+            
+            <!--not present in game-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_TILES</LocID>                            <Text>Big tiles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_01</LocID>                         <Text>Grass1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_02</LocID>                         <Text>Grass2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_03</LocID>                         <Text>Grass3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_NONE</LocID>                             <Text>Empty nothingness</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_BLUE</LocID>      	            <Text>Ceramic blue</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_RANDOM_COLORED</LocID>      		        <Text>Random colored</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_DONT_USE</LocID>      		    		<Text>Test</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DEFAULT</LocID>                           <Text>Bílá zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_TILES</LocID>                    <Text>Holý beton</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_BRICKS</LocID>                            <Text>Cihlová zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_BRICKS_SOCLE</LocID>                      <Text>Cihlová zeď s podezdívkou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_OUTSIDE</LocID>                  <Text>Bílá se vzorem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_OUTSIDE_BOTTOM</LocID>           <Text>Bílá se vzorem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_OUTSIDE_TOP</LocID>              <Text>Bílá se vzorem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_COLOR</LocID>                    <Text>Cihly a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_COLOR_BOTTOM</LocID>             <Text>Cihly a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_COLOR_TOP</LocID>                <Text>Cihly a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_PLATES</LocID>                            <Text>Hliník - bílý</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_PLATES_COLORED</LocID>                    <Text>Hliník - barevný</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LIGHTWOOD_ALL</LocID>                     <Text>Světlé dřevěné obložení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LIGHTWOOD_TOP</LocID>                     <Text>Světlé dřevo a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LIGHTWOOD_BOTTOM</LocID>                  <Text>Světlé dřevo a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DARKWOOD_ALL</LocID>                      <Text>Tmavé dřevěné obložení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DARKWOOD_TOP</LocID>                      <Text>Tmavé dřevo a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DARKWOOD_BOTTOM</LocID>                   <Text>Tmavé dřevo a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE</LocID>                     <Text>Bílé kachličky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE_HALF</LocID>                <Text>Bílé kachličky a bílá omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE_HALF_COLORED</LocID>        <Text>Bílé kachličky a barevná omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE_LINE</LocID>                <Text>Bílé kachličky s čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_ORANGE</LocID>                    <Text>Barevné kachličky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_COLORED_HALF_WHITE</LocID>        <Text>Barevné kachličky a bílá omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_COLORED_HALF</LocID>              <Text>Barevné kachličky a omítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_WC</LocID>                                <Text>Zeď na WC</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_GREEN</LocID>                             <Text>Barevná zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LINE</LocID>                              <Text>Pruh uprostřed</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_TWOLINES</LocID>                          <Text>Dva pruhy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_THICK_LINE_ORANGE</LocID>                 <Text>Tlustý pruh</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LINE_HALF_BLUE</LocID>                    <Text>Tlustý a tenký pruh</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_HALF_GREEN</LocID>                        <Text>Dva pruhy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_HALF</LocID>                              <Text>Barevná a bílá</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_UPPER_HALF</LocID>                        <Text>Bílá a barevná</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LINE_ORANGE</LocID>                       <Text>Berevná s bílým pruhem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_WOOND_PANELING_ORANGE</LocID>             <Text>Pruh dřevěného obložení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_TEST</LocID>                           	<Text>Dont use</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WINDOW_DEFAULT</LocID>                              <Text>Okno se žaluziemi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_TALL</LocID>                                 <Text>Vysoké okno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GLASS_WALL_DOUBLELINES</LocID>                      <Text>Prosklená zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_FLAT</LocID>                                 <Text>Průhled</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GLASS_WALL_COLOR</LocID>                            <Text>Prosklená zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_GLASS_TALL</LocID>                           <Text>Vysoké okno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_GLASS_SMALL</LocID>                          <Text>Malé okno</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DOOR_DEFAULT</LocID>                                <Text>Běžné dveře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_WINDOW</LocID>                                 <Text>Dveře s průhledem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_XRAY</LocID>                                   <Text>Dveře pro rentgen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_XRAY</LocID>                            <Text>Dveře pro rentgen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_WC</LocID>                                     <Text>WC dveře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE</LocID>                                 <Text>Dveře s průhledem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_SLIDING</LocID>                         <Text>Posuvné dveře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_TALL_WINDOW_SINGLE</LocID>                     <Text>Dveře s oknem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_WINDOW</LocID>                     		<Text>Dveře s oknem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_GLASS</LocID>                     				<Text>Skleněné dvaře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_GLASS</LocID>                     		<Text>Skleněné dvaře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_RESTRICTED</LocID>                     		<Text>Zákaz vstupu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_RESTRICTED_DOUBLE</LocID>                     	<Text>Zákaz vstupu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_ELEVATOR</LocID>                     	<Text>Dveře výtahu</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING</LocID>                           <Text>Čekárna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING_DESCRIPTION</LocID>               <Text>Čekárny je potřeba umístit v dosahu každé ordinace, laboratoře a místností na radiologii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE</LocID>                    <Text>Ordinace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE_DESCRIPTION</LocID>        <Text>Běžná ordinace na klinice, provádí se zde základní vyšetření a léčba. \n\nPotřebný personál:\n1x doktor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM</LocID>                       <Text>Společenká místnost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM_DESCRIPTION</LocID>           <Text>Společenká místnost slouží zaměstnancům jako místo k odpočinku a po umístění lednice a jídelního stolu také jako jídelna.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION</LocID>                         <Text>Recepce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION_DESCRIPTION</LocID>             <Text>Recepce zajišťuje, aby příchozí pacienti ve vážném stavu dostali přednost při volání do ordinací.\n\nPotřebný personál:\n1x sestra s kvalifickací recepce.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR</LocID>                          <Text>Chodba</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR_DESCRIPTION</LocID>              <Text>Chodba je užitečná pro přiřazení volně přístupných objektů ke konkrétnímu oddělení. Také v ní fungují automatická světla a uklízení chodby uklízeči.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB</LocID>                          <Text>STAT laboratoř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_DESCRIPTION</LocID>              <Text>STAT laboratoř poskytuje množství rychlých testů pro potrvzení diagnóz.\n\nPotřebný personál:\n1x technolog s kvalifikací biochemie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS</LocID>                       <Text>CHIRO laboratoř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS_DESCRIPTION</LocID>           <Text>CHIRO laboratoř poskytuje množství rychlých testů pro potrvzení diagnóz.\n\nPotřebný personál:\n1x technolog s kvalifikací biochemie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM</LocID>                       <Text>MED laboratoř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM_DESCRIPTION</LocID>           <Text>MED laboratoř poskytuje množství rychlých testů pro potrvzení diagnóz.\n\nPotřebný personál:\n1x technolog s kvalifikací biochemie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT</LocID>                       <Text>ORTO laboratoř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT_DESCRIPTION</LocID>           <Text>ORTO laboratoř poskytuje množství rychlých testů pro potrvzení diagnóz.\n\nPotřebný personál:\n1x technolog s kvalifikací biochemie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR</LocID>                      <Text>KARDIO laboratoř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR_DESCRIPTION</LocID>          <Text>KARDIO laboratoř poskytuje množství rychlých testů pro potrvzení diagnóz.\n\nPotřebný personál:\n1x technolog s kvalifikací biochemie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE</LocID>                       <Text>NEURO laboratoř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE_DESCRIPTION</LocID>           <Text>NEURO laboratoř poskytuje množství rychlých testů pro potrvzení diagnóz.\n\nPotřebný personál:\n1x technolog s kvalifikací biochemie.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM</LocID>                        <Text>Rentgen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM_DESCRIPTION</LocID>            <Text>Běžný rentgen pro snímkování různých částí těla, především pohybového aparátu. \n\nPotřebný personál:\n1x technolog se specializací radiologie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM</LocID>                           <Text>CT</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM_DESCRIPTION</LocID>               <Text>CT, výpočetní tomografie, je pokročilá zobrazovací technika umožňující prostorové zobrazení vnitřních orgánů. \n\nPotřebný personál:\n1x technolog se specializací radiologie.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM</LocID>                          <Text>MRI</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM_DESCRIPTION</LocID>              <Text>Magnetická rezonance je přesná zobrazovací technika založená na rozdílném chování tkání v silném magnetickém poli a nenese rizika způsobená zářením. \n\nPotřebný personál:\n1x technolog se specializací radiologie.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM</LocID>                  <Text>Angiografie</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM_DESCRIPTION</LocID>      <Text>Angiografie je radiologická zobrazovací technika pro kvalitní znázornění cév.\n\nPotřebný personál:\n1x technolog se specializací radiologie.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM</LocID>               <Text>Pokoj - pozorování</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM_DESCRIPTION</LocID>   <Text>Pokoj pro dočasnou hospitalizaci pacientů s podezřením na vážné symptomy a komplikace.\n\nPotřebný personál:\n1x doktor v pracovně doktorů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC</LocID>      			                <Text>WC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC_DESCRIPTION</LocID>      			    <Text>...kam i královna musí pěšky.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET</LocID>                   <Text>Úklidová místnost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET_DESCRIPTION</LocID>       <Text>Zde je uloženo vybavení pro uklízeče, místnost slouží jako jejich základna a pracoviště.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS</LocID>                     <Text>Ultrazvuk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS_DESCRIPTION</LocID>         <Text>Toto pracoviště poskytuje několik vyšetření/léčbu na základě ultrazvuku. \n\nPotřebný personál:\n\n1x technolog se specializací ultrazvuk.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_OT</LocID>                     <Text>Ultrazvuk</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_OT_DESCRIPTION</LocID>         <Text>Toto pracoviště poskytuje několik vyšetření/léčbu na základě ultrazvuku. \n\nPotřebný personál:\n\n1x technolog se specializací ultrazvuk.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_CAR</LocID>                    <Text>Ultrazvuk</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_CAR_DESCRIPTION</LocID>        <Text>Toto pracoviště poskytuje několik vyšetření/léčbu na základě ultrazvuku. \n\nPotřebný personál:\n\n1x technolog se specializací ultrazvuk.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_GS</LocID>                <Text>Kardiografie</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_GS_DESCRIPTION</LocID>    <Text>Toto pracoviště poskytuje specializovaná vyšetření kardiovaskulárního systému. \n\nPotřebný personál:\n\n1x technolog se specializací kardiografie.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_IM</LocID>                <Text>Kardiografie</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_IM_DESCRIPTION</LocID>    <Text>Toto pracoviště poskytuje specializovaná vyšetření kardiovaskulárního systému. \n\nPotřebný personál:\n\n1x technolog se specializací kardiografie.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_CAR</LocID>               <Text>Kardiografie</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_CAR_DESCRIPTION</LocID>   <Text>Toto pracoviště poskytuje specializovaná vyšetření kardiovaskulárního systému. \n\nPotřebný personál:\n\n1x technolog se specializací kardiografie.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_NE</LocID>                <Text>Kardiografie</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>    <Text>Toto pracoviště poskytuje specializovaná vyšetření kardiovaskulárního systému. \n\nPotřebný personál:\n\n1x technolog se specializací kardiografie.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEURODIAGNOSTIC_UNIT_NE</LocID>                   <Text>Neurolab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEURODIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>       <Text>Toto pracoviště poskytuje specializovaná neurologická vyšetření. \n\nPotřebný personál:\n\n1x technolog se specializací neurologie.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER</LocID>                      <Text>Trauma centrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER_DESCRIPTION</LocID>          <Text>Trauma centrum přijímá kritické pacienty přivážené sanitkou a zachraňuje pacienty v těžkém stavu po kolapsu.\n\nPotřebný personál:\n(Pracovna doktorů a sesterna)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE</LocID>                               <Text>Vyšetřovna</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE_DESCRIPTION</LocID>                   <Text>Probíhají zde základní vyšetření a léčba hospitalizovaných pacientů.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE</LocID>                               <Text>Vyšetřovna</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE_DESCRIPTION</LocID>                   <Text>Probíhají zde základní vyšetření a léčba hospitalizovaných pacientů.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE</LocID>                               <Text>Vyšetřovna</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE_DESCRIPTION</LocID>                   <Text>Probíhají zde základní vyšetření a léčba hospitalizovaných pacientů.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE</LocID>                       <Text>Vyšetřovna</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>           <Text>Probíhají zde základní vyšetření a léčba hospitalizovaných pacientů.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</LocID>                        <Text>Vyšetřovna</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE_DESCRIPTION</LocID>            <Text>Probíhají zde základní vyšetření a léčba hospitalizovaných pacientů.</Text></GameDBLocalizedString>
+              
+            <!-- Room types for testing - will need update -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION</LocID>                            <Text>Sesterna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION_DESCRIPTION</LocID>                <Text>Pracovna sester pro hospitalizované pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM</LocID>                              <Text>Pracoviště lékařů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM_DESCRIPTION</LocID>                  <Text>Pracoviště lékařů pro hospitalizované pacienty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD</LocID>                            <Text>Běžný pokoj</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD_DESCRIPTION</LocID>                <Text>Běžný pokoj pro hospitalizované pacienty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</LocID>              <Text>Prioritní pokoj</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD_DESCRIPTION</LocID>  <Text>Pokoj pro závažnější stavy, těžší případy a monitorované pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT</LocID>                       <Text>JIP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT_DESCRIPTION</LocID>           <Text>Jednotka intenzivní péče udržuje při životě pacienty v kritickém stavu.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE</LocID>                <Text>Chirurgická ordinace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE_DESCRIPTION</LocID>    <Text>Probíhají zde základní vyšetření a léčba příchozích pacientů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</LocID>              <Text>Interna - ordinace</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE_DESCRIPTION</LocID>  <Text>Probíhají zde základní vyšetření a léčba příchozích pacientů.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE</LocID>                   <Text>Ortopedická ordinace</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE_DESCRIPTION</LocID>       <Text>Probíhají zde základní vyšetření a léčba příchozích pacientů.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE</LocID>                     <Text>Cardiologická ordinace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>         <Text>Probíhají zde základní vyšetření a léčba příchozích pacientů.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE</LocID>                      <Text>Neurologická ordinace</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE_DESCRIPTION</LocID>          <Text>Probíhají zde základní vyšetření a léčba příchozích pacientů.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_OPERATING_ROOM</LocID>                    <Text>Operační sál</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_OPERATING_ROOM_DESCRIPTION</LocID>        <Text>Operační sál plně vybavený i pro nejobtížnější operace. \n\nPotřebný personál: \n1x Doktor - chirurg \n1 Doktor (asistent) \n1x Anesteziolog \n1x Sestra (operační) \n1x Sesta \n(Pracovna doktorů a sesterna)</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP</LocID>                        		<Text>Operační sál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP_DESCRIPTION</LocID>            		<Text>Operační sál</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT</LocID>                        <Text>Židle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT_DESCRIPTION</LocID>            <Text>Židle do čekáren, na recepci nebo k jídelnímu stolu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL</LocID>                          <Text>Stolička</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL_DESCRIPTION</LocID>              <Text>Menší stolička pro použití v laboratořích a ordinacích.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01</LocID>                      <Text>Kancelářská židle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01_DESCRIPTION</LocID>          <Text>Kancelářská židle k pracovním stolům na všech pracovištích.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER</LocID>                               <Text>Informační plakát</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DESCRIPTION</LocID>                   <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES</LocID>                      <Text>Plakát - tepny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES_DESCRIPTION</LocID>          <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION</LocID>                     <Text>Plakát - trávení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION_DESCRIPTION</LocID>         <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE</LocID>                           <Text>Plakát - oko</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE_DESCRIPTION</LocID>               <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART</LocID>                         <Text>Plakát - srdce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART_DESCRIPTION</LocID>             <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER</LocID>                         <Text>Plakát - játra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER_DESCRIPTION</LocID>             <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL</LocID>                         <Text>Plakát - lebka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL_DESCRIPTION</LocID>             <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS</LocID>                         <Text>Plakát - tenisový loket</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS_DESCRIPTION</LocID>             <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS</LocID>                         <Text>Plakát - žíly</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS_DESCRIPTION</LocID>             <Text>Dekorace, která pomáhá zabavit znuděné pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT</LocID>                        <Text>Kaktus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT_DESCRIPTION</LocID>            <Text>Pichlavá dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WC</LocID>                                   <Text>Wc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WC_DESCRIPTION</LocID>                       <Text>Bílé. Ne zlaté.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR</LocID>                               <Text>Zrcadlo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR_DESCRIPTION</LocID>                   <Text>Dekorace na wc.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV</LocID>                              <Text>Informační obrazovka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV_DESCRIPTION</LocID>                  <Text>Společně s vyvolávacím systémem urychluje volání pacientů z čekáren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER</LocID>                           <Text>Sušič rukou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER_DESCRIPTION</LocID>               <Text>Pro WC.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE</LocID>                         <Text>Konferenční stolek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_DESCRIPTION</LocID>             <Text>Malý stolek pro umístění televize, rádia a dekorací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART</LocID>                          <Text>Úklidový vozík</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART_DESCRIPTION</LocID>              <Text>Příslušenství pro uklízeče.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER</LocID>                      <Text>Pítko</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER_DESCRIPTION</LocID>          <Text>Osvěžení pro pacienty a personál.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK</LocID>                                 <Text>Umyvadlo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_DESCRIPTION</LocID>                     <Text>Nezbytné vybavení toalet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT</LocID>                         <Text>Okrasná rostlina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_DESCRIPTION</LocID>             <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM</LocID>               <Text>Okrasná rostlina - Anthurium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM_DESCRIPTION</LocID>   <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02</LocID>                      <Text>Okrasná rostlina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02_DESCRIPTION</LocID>          <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN</LocID>                            <Text>Odpadkový koš</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_DESCRIPTION</LocID>                <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02</LocID>                         <Text>Odpadkový koš</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02_DESCRIPTION</LocID>             <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE</LocID>                        <Text>Vyvolávací systém</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE_DESCRIPTION</LocID>            <Text>Společně s informační obrazovkou urychluje volání pacientů z čekáren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE</LocID>                               <Text>Lednička</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE_DESCRIPTION</LocID>                   <Text>Bezedný zdroj jídla pro personál.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER</LocID>                               <Text>Skříňky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER_DESCRIPTION</LocID>                   <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE</LocID>                            <Text>Kartotéka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_DESCRIPTION</LocID>                <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_SMALL</LocID>                      <Text>Kartotéka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_SMALL_DESCRIPTION</LocID>          <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHELF</LocID>                                <Text>Police</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHELF_DESCRIPTION</LocID>                    <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE</LocID>                             <Text>Knihovna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE_DESCRIPTION</LocID>                 <Text>Knihovna s odbornou literaturou umožňuje personálu vzdělávat se ve volném čase.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE</LocID>                      <Text>Automat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE_DESCRIPTION</LocID>          <Text>Automat umožňuje hladovým pacientům utratit peníze za svačinu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP</LocID>                        <Text>Vyšetřovací lampa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP_DESCRIPTION</LocID>            <Text>Povinné vybacení do ordinací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC</LocID>                                   <Text>Počítač</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC_DESCRIPTION</LocID>                       <Text>Vytvoří pracoviště pro jednoho zaměstnane, lze umístit na pracovní stoly nebo na recepci.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TV</LocID>                                   <Text>TV</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TV_DESCRIPTION</LocID>                       <Text>Televize pro zabavení personálu ve volném čase.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIO</LocID>                                <Text>Rádio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIO_DESCRIPTION</LocID>                    <Text>Rádio pro zabavení personálu ve volném čase.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER</LocID>                              <Text>Tiskárna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER_DESCRIPTION</LocID>                  <Text>Tiskárna pro rychlý tisk receptů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER</LocID>                         <Text>Odkladač na recepty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER_DESCRIPTION</LocID>             <Text>Materiál pro ruční psaní receptů, pomalejší, než tiskárna.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL</LocID>                           <Text>Hodiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL_DESCRIPTION</LocID>               <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS</LocID>                      <Text>Zásuvky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS_DESCRIPTION</LocID>          <Text>Dekorace, umožňuje umístění dalších objektů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS</LocID>                        <Text>Skříňka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS_DESCRIPTION</LocID>            <Text>Dekorace, umožňuje umístění dalších objektů, včetně dřezu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL</LocID>                         <Text>Nástěnná skříňka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL_DESCRIPTION</LocID>             <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN</LocID>                         <Text>Dřez</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN_DESCRIPTION</LocID>             <Text>Umožňuje mytí rukou a nástrojů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN</LocID>                      <Text>Zástěna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN_DESCRIPTION</LocID>          <Text>Dekorace do ordinací a vyšetřoven.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP</LocID>                           <Text>Stolní lampa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP_DESCRIPTION</LocID>               <Text>Dekorace a zdroj světla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST</LocID>                             <Text>Oční test</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST_DESCRIPTION</LocID>                 <Text>Nezbytné vybavení ordinací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER</LocID>                          <Text>RTG prohlížeč</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER_DESCRIPTION</LocID>              <Text>Prohlížeč RTG snímků umožňuje zobrazování vytvořených RTG snímků.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL</LocID>                   <Text>Ovládací panel rentgenu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL_DESCRIPTION</LocID>       <Text>Ovládá pohyb ramena rentgenu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET</LocID>                    <Text>Skříňka s vybavením</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_DESCRIPTION</LocID>        <Text>Nezbytné vybavení všech místností, kde probíhají vyšetření a léčba.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL</LocID>               <Text>Skříňka s vybavením na zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL_DESCRIPTION</LocID>   <Text>Nezbytné vybavení všech místností, kde probíhají vyšetření a léčba.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT</LocID>                  <Text>Recepční stolek (levý)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT_DESCRIPTION</LocID>      <Text>Nezbytné vybavení recepcí, přidání počítače a židle vytvoří pracoviště.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE</LocID>                <Text>Recepční stolek (střed)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>    <Text>Nezbytné vybavení recepcí, přidání počítače a židle vytvoří pracoviště.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT</LocID>                 <Text>Recepční stolek (pravý)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT_DESCRIPTION</LocID>     <Text>Nezbytné vybavení recepcí, přidání počítače a židle vytvoří pracoviště.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK</LocID>                             <Text>Laboratorní dřez</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK_DESCRIPTION</LocID>                 <Text>Nezbyné vybavení laboratoří pro mytí rukou a vybavení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE</LocID>                            <Text>Mikroskop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE_DESCRIPTION</LocID>                <Text>Nezbyné vybavení laboratoří, používá se na analýzu různých kultur mikrobů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03</LocID>                         <Text>Biohazard koš</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03_DESCRIPTION</LocID>             <Text>Povinné vybavení pro bezpečnou likvidaci biologického materiálu a vzorků.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF</LocID>                            <Text>Laboratorní police</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_DESCRIPTION</LocID>                <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT</LocID>                        <Text>Laboratorní sklo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT_DESCRIPTION</LocID>            <Text>Nezbytné vybavení pro přípravu laboratorních vzorků.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER</LocID>                  <Text>Krevní analyzér</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER_DESCRIPTION</LocID>      <Text>Vybavení laboratoří, používá se v širokém spektru metod analýzy krevních vzorků.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE</LocID>                      <Text>Ultracentrifuga</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE_DESCRIPTION</LocID>          <Text>Zařízení pro přípravu a separaci vzorků pro další testování a analýzu.</Text>  </GameDBLocalizedString>   
+            <GameDBLocalizedString>      <LocID>OBJECT_RIA</LocID>              		            <Text>RIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RIA_DESCRIPTION</LocID>              		<Text>RIA se používá při imunologických testech, měří hladinu protilátek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE</LocID>              		<Text>Sklad na vzorky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE_DESCRIPTION</LocID>          <Text>Laboratorní vzorky se zde skladují před testováním na specializovaných přístrojích.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE</LocID>                                 <Text>Strom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_DESCRIPTION</LocID>                     <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP</LocID>                          <Text>Pouliční lampa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_DESCRIPTION</LocID>              <Text>Venkovní dekorace a zdroj světla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL</LocID>                           <Text>Stromek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL_DESCRIPTION</LocID>               <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THUYA</LocID>              		            <Text>Strom - tůje</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THUYA_DESCRIPTION</LocID>              		<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM</LocID>                          <Text>Keřík</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM_DESCRIPTION</LocID>              <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT</LocID>                          	<Text>Průduch vzduchotechniky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT_DESCRIPTION</LocID>                <Text>Dekorace na střechu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND</LocID>                         <Text>Klimatizační jednotka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND_DESCRIPTION</LocID>             <Text>Dekorace na střechu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE</LocID>                       <Text>Mobilní skříňka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE_DESCRIPTION</LocID>           <Text>Dekorace, umožňuje umístění dalších objektů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION</LocID>                         <Text>Dezinfekce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION_DESCRIPTION</LocID>             <Text>Může zastoupit umyvadlo, umisťuje se na zeď.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF</LocID>                       <Text>Závěsné světlo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF_DESCRIPTION</LocID>           <Text>Závěsná vyšetřovací lampa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE</LocID>                      <Text>Noční stolek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_DESCRIPTION</LocID>          <Text>Potřebný u nemocničních postelí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER</LocID>                       <Text>Koš na prádlo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER_DESCRIPTION</LocID>           <Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET</LocID>                       	<Text>Zásuvky k posteli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_DESCRIPTION</LocID>           	<Text>Pro umístění nad nemocniční postel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN</LocID>                       <Text>Závěs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN_DESCRIPTION</LocID>          	<Text>Pro dodání špetky soukromí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL</LocID>               <Text>Skříň s vybavením</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_DESCRIPTION</LocID>   <Text>Nezbytné vybavení všech místností, kde probíhají vyšetření a léčba.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE</LocID>             <Text>Skříňka s vybavením (mobilní)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE_DESCRIPTION</LocID> <Text>Nezbytné vybavení vytížených místností, kde probíhají vyšetření a léčba.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION</LocID>             		<Text>Mobilní pracoviště</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION_DESCRIPTION</LocID> 		<Text>Umožňuje předepisovat procedury přímo na jednotkách, kde je umístěno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL</LocID>             		<Text>Monitor životních funkcí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_DESCRIPTION</LocID> 		<Text>Monitor životních funkcí na HDU, JIP a pozorování.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR</LocID>                        <Text>Defibrilátor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR_DESCRIPTION</LocID>            <Text>Defibrilátor umožňuje při kolapsech dostat srdce zpět do normálního rytmu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND</LocID>                          <Text>Stojan na infuze</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND_DESCRIPTION</LocID>              <Text>(součást kompozitního objektu)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS</LocID>                 <Text>Operatční světla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS_DESCRIPTION</LocID>     <Text>Závěsná světla pro operační sály.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST</LocID>                             <Text>Fast USG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST_DESCRIPTION</LocID>                 <Text>Speciální ultrazvuk na trauma centra a JIP.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANESTHETIC_MACHINE</LocID>                   <Text>Anesteziologická stanice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANESTHETIC_MACHINE_DESCRIPTION</LocID>       <Text>Přístroj pro uvedení pacientů do celkové anestezie a sledování jejich životních funkcí během operací. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MONITORING_MACHINE</LocID>                   <Text>Vylepšený monitor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MONITORING_MACHINE_DESCRIPTION</LocID>       <Text>Vylepšený monitor životních funkcí, verze zavěšená pod strop.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_SUPPORT</LocID>                   		<Text>Mechanický ventilátor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_SUPPORT_DESCRIPTION</LocID>       		<Text>Podpora dýchání kritických pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILATOR_WALL</LocID>                   	<Text>Defibrilátor na zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILATOR_WALL_DESCRIPTION</LocID>       	<Text>Defibrilátor umožňuje při kolapsech dostat srdce zpět do normálního rytmu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAND_STAINLESS</LocID>                   	<Text>Ocelový stolek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAND_STAINLESS_DESCRIPTION</LocID>       	<Text>Ocelový stolek umožňuje umístění různých zařízení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD</LocID>                   		<Text>Nástěnka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_DESCRIPTION</LocID>       		<Text>Dekorace do kanceláří a dalších místností.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_BOARD</LocID>                   		<Text>Informační tabule</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_BOARD_DESCRIPTION</LocID>       		<Text>Dekorace do kanceláří a dalších místností.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OXYGEN_TANK</LocID>                   		<Text>Kyslíková bomba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OXYGEN_TANK_DESCRIPTION</LocID>       		<Text>Dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR</LocID>                <Text>Podpora životních funkcí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DESCRIPTION</LocID>    <Text>Podpora životních funkcí kritických pacientů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT2</LocID>                       <Text>Laboratorní nádobí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT2_DESCRIPTION</LocID>           <Text>Vybavení pro přípravu laboratorních vzorků. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_CONTROL_PANEL</LocID>                	<Text>Kontrolní panel angiografu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_CONTROL_PANEL_DESCRIPTION</LocID>    	<Text>Kontrolní panel pro obsluhu angiografu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIOLOGY_VIEWER</LocID>                		<Text>Prohlížeč snímků</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIOLOGY_VIEWER_DESCRIPTION</LocID>    		<Text>Prohlížeč radiologických snímků.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_IMAGING</LocID>                		<Text>Angiografický monitor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_IMAGING_DESCRIPTION</LocID>    		<Text>Zobrazuje angiografické snímky cév v reálném čase.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SUCTION_MACHINE</LocID>                		<Text>Odsávání</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SUCTION_MACHINE_DESCRIPTION</LocID>   		<Text>Přístroj pro odsávání tekutin během operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SURGERY_INSTRUMENTS</LocID>                	<Text>Chirurgické nástroje</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SURGERY_INSTRUMENTS_DESCRIPTION</LocID>   	<Text>Potřebné pro většinu operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROCAUTERY_MACHINE</LocID>               <Text>Elektrokoagulační nůž</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROCAUTERY_MACHINE_DESCRIPTION</LocID>   <Text>Tepelný chirurgický nástroj pro odstranění poškozených tkání a zastavení krvácení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMETNS_TABLE</LocID>                	<Text>Stolek na nástroje</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMETNS_TABLE_DESCRIPTION</LocID>   		<Text>Stolek pro umístění chirurgických nástrojů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_WALL</LocID>                	<Text>Skříň na chirurgické oděvy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_WALL_DESCRIPTION</LocID>   		<Text>Skříň na chirurgické pláště a příslušenství.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF</LocID>                			<Text>Skříň na chirurgické oděvy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_DESCRIPTION</LocID>   			<Text>Skříň na chirurgické pláště a příslušenství.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET</LocID>                		<Text>Vyhřívaná skříň</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DESCRIPTION</LocID>   		<Text>Udržuje přikrývky, infuze a tekutiny ve spráné teplotě.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DOUBLE</LocID>               <Text>Vyhřívaná skříň</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DOUBLE_DESCRIPTION</LocID>   <Text>Udržuje přikrývky, infuze a tekutiny ve spráné teplotě.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBBING_SINK</LocID>               		<Text>Chirurgické umyvadlo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBBING_SINK_DESCRIPTION</LocID>   		<Text>Nezbytné při sterilizaci před operacemi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_TALL</LocID>               		<Text>Vyhřívaná skříň</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_TALL_DESCRIPTION</LocID>   		<Text>Udržuje přikrývky, infuze a tekutiny ve spráné teplotě.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_04</LocID>                         <Text>Biohazard koš</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_04_DESCRIPTION</LocID>             <Text>Povinné vybavení pro bezpečnou likvidaci biologického materiálu a vzorků.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_SATELITE</LocID>                        <Text>Satelit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_SATELITE_DESCRIPTION</LocID>            <Text>Dekorace na střechy.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_IRON</LocID>                         	<Text>Železný plot</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_IRON_DESCRIPTION</LocID>             	<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_GLASS</LocID>                         	<Text>Skleněné zábradlí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_GLASS_DESCRIPTION</LocID>             	<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_ROPE</LocID>                         	<Text>Zábrana</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_ROPE_DESCRIPTION</LocID>             	<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FOUNTAIN</LocID>                         	<Text>Fontána</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FOUNTAIN_DESCRIPTION</LocID>             	<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OUTSIDE_TRASH_BIN</LocID>                    <Text>Venkovní koš</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OUTSIDE_TRASH_BIN_DESCRIPTION</LocID>        <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_HOSPITAL</LocID>                        <Text>Značka: nemocnice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_HOSPITAL_DESCRIPTION</LocID>            <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_CROSSWALK</LocID>                       <Text>Značka: přechod</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_CROSSWALK_DESCRIPTION</LocID>           <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_TALL</LocID>                        	<Text>Strom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_TALL_DESCRIPTION</LocID>            	<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_YOUNG</LocID>                        	<Text>Stromek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_YOUNG_DESCRIPTION</LocID>            	<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CONCRETE_FLOWER_POT</LocID>                  <Text>Květiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CONCRETE_FLOWER_POT_DESCRIPTION</LocID>      <Text>Květiny v betonovém květináči, venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WOODEN_FLOWER_POT</LocID>                    <Text>Květiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WOODEN_FLOWER_POT_DESCRIPTION</LocID>        <Text>Květiny v dřevěném květinááči, venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEDGE</LocID>                         		<Text>Živý plot</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEDGE_DESCRIPTION</LocID>             		<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_SMALL</LocID>                        <Text>Drobné květiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_SMALL_DESCRIPTION</LocID>            <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_TALL</LocID>                         <Text>Vysoké květiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_TALL_DESCRIPTION</LocID>             <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH</LocID>                         		<Text>Keř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_DESCRIPTION</LocID>             		<Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRASONOGRAPH</LocID>                       <Text>Ultrazvuk</Text>     </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRASONOGRAPH_DESCRIPTION</LocID>           <Text>Povinné vybavení.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DIALISIS</LocID>                         	<Text>Dialyzační přístroj</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DIALISIS_DESCRIPTION</LocID>             	<Text>Používá se na dialýzu a plazmaferésu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROENCEPHALOGRAPH</LocID>                <Text>EEG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROENCEPHALOGRAPH_DESCRIPTION</LocID>    <Text>Elektroencefalograf zaznamenává změny elektrického potenciálu způsobené mozkovou aktivitou.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELASTOGRAPH</LocID>                         	<Text>Elastograf</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELASTOGRAPH_DESCRIPTION</LocID>             	<Text>Elastograf měří fyzické vlastnosti měkkých tkání.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_SQUERE</LocID>                         <Text>Čtvercový stolek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_SQUERE_DESCRIPTION</LocID>             <Text>Čtvercový stolek pro umístění různého vybavení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_EQUIPMENT</LocID>                      <Text>Stolek na vybavení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_EQUIPMENT_DESCRIPTION</LocID>          <Text>Stolek pro umístění různého vybavení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TONOMETER</LocID>                         	<Text>Tonometr</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TONOMETER_DESCRIPTION</LocID>             	<Text>Tonometr je zařízení měřící nitrooční tlak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_AUDIOMETER</LocID>                         	<Text>Audiometr</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_AUDIOMETER_DESCRIPTION</LocID>             	<Text>Audiometr měří ostrost sluchu v širokém rozsahu frekvencí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CRP_SCAN</LocID>                         	<Text>CRP tester</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CRP_SCAN_DESCRIPTION</LocID>             	<Text>CRP test je rychlý krevní test na C-reaktivní protein, jehož zvýšená hladina bývá příznakem infekce.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SPIROMETER</LocID>                         	<Text>Spirometr</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SPIROMETER_DESCRIPTION</LocID>             	<Text>Spirometr měří funkci plic.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHOCKWAVE</LocID>                         	<Text>Litotriptor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHOCKWAVE_DESCRIPTION</LocID>             	<Text>Litotripse je metoda využívající rázové vlny používaná na drcení ledvinových a žlučníkových kamenů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROMYOGRAPH</LocID>                      <Text>EMG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROMYOGRAPH_DESCRIPTION</LocID>          <Text>Elektromyograf měří elektrické signály v kosterním svalstvu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_ANALYZER</LocID>                      	<Text>Laboratorní analyzátor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_ANALYZER_DESCRIPTION</LocID>          	<Text>Univerzální laboratorní analyzátor pro vyšetřování různých typů biologických vzorků.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STOOL_ANALYZER</LocID>                      	<Text>Analyzátor stolice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STOOL_ANALYZER_DESCRIPTION</LocID>          	<Text>Analyzátor stolice.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THERMAL_CYCLER</LocID>                      	<Text>PCR</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THERMAL_CYCLER_DESCRIPTION</LocID>          	<Text>PCR je laboratorní přístroj pro analýzu DNA polymerázy.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELEKTROCARDIOGRAPH</LocID>                   <Text>EKG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELEKTROCARDIOGRAPH_DESCRIPTION</LocID>       <Text>Elektrokardiograf je standardní přístroj pro zobrazení elektrických signálů v srdci.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAMPIMETER</LocID>                   		<Text>Kampimetr</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAMPIMETER_DESCRIPTION</LocID>       		<Text>Kampimetr testuje citlivost zraku v různých oblastech zorného pole.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_WALL</LocID>                   			<Text>Střešní římsa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_WALL_DESCRIPTION</LocID>       			<Text>Střešní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_TRAY_DELIVERY</LocID>                   <Text>Obědový vozík</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_TRAY_DELIVERY_DESCRIPTION</LocID>       <Text>Pro vození jídla pacientům.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPHTHALMIC_EQUIPMENT</LocID>                 <Text>Vybavení pro oční vyšetření</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPHTHALMIC_EQUIPMENT_DESCRIPTION</LocID>     <Text>Vybavení pro oční vyšetření.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SIMPLE_CROSS</LocID>       			<Text>Kříž na zeď</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SIMPLE_CROSS_DESCRIPTION</LocID>       <Text>Kříž na zeď.\nPozn.: červený kříž je chráněný symbol a není možné jej používat ve hrách.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MED_CROSS</LocID>       			    <Text>Medicínský kříž</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ARROW_L</LocID>       			        <Text>Šipka doleva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ARROW_R</LocID>       			        <Text>Šipka doprava</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_0</LocID>       			    <Text>Číslo 0</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_1</LocID>       			    <Text>Číslo 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_2</LocID>       			    <Text>Číslo 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_3</LocID>       			    <Text>Číslo 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_4</LocID>       			    <Text>Číslo 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_5</LocID>       			    <Text>Číslo 5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_6</LocID>       			    <Text>Číslo 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_7</LocID>       			    <Text>Číslo 7</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_8</LocID>       			    <Text>Číslo 8</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_9</LocID>       			    <Text>Číslo 9</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_ER</LocID>       			        <Text>Pohotovost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_ICU</LocID>       			        <Text>Jip</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_IM</LocID>       			        <Text>Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_GS</LocID>       			        <Text>Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_OT</LocID>       			        <Text>Ortopedie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_NE</LocID>       			        <Text>Neurologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_CAR</LocID>       			        <Text>Kardiologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_RAD</LocID>       			        <Text>Radiologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_GP</LocID>       			        <Text>Ordinace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_WAIT</LocID>       			    <Text>Čekárna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_STAT_LAB</LocID>       			<Text>Laboratoř</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_RECEPTION</LocID>       			<Text>Recepce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_CLEANING</LocID>       			<Text>Úklidová místnost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_WC</LocID>       			        <Text>WC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_OPERATING</LocID>       			<Text>Operační sál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_NEURODIAGNOSTIC</LocID>       	<Text>Neurolab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_XRAY</LocID>       			    <Text>Rentgen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_COMMON</LocID>       			    <Text>Společenká místnost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_INPATIENT_WARD</LocID>       			<Text>Běžný pokoj</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_ONCALL</LocID>       			    <Text>Pracoviště lékařů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NURSES_STATION</LocID>       			<Text>Sesterna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_CT</LocID>       			        <Text>CT</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_INPATIENT_OFFICE</LocID>       		<Text>Vyšetřovna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SONOGRAPHY_UNIT</LocID>       			<Text>Ultrazvuk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CORRIDOR</LocID>       			    <Text>Chodba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CARDIOVASCULAR_UNIT</LocID>       		<Text>Kardiografie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_OBSERVATION</LocID>       		<Text>Pozorování</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIGH_PRIORITY</LocID>       			<Text>Prioritní pokoj</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ANGIOGRAPHY</LocID>       			    <Text>Angiografie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MRI</LocID>       			            <Text>MRI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECALS_DESCRIPTION</LocID>       			<Text>Dekorace na zeď.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_ELEVATOR</LocID>                      <Text>Výtah</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_ELEVATOR_DESCRIPTION</LocID>          <Text>Výtah se automaticky umístí do všech pater.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_DEFAULT</LocID>                       <Text>Čtvercový sloup</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_DEFAULT_DESCRIPTION</LocID>           <Text>Jdou na něj umístit objekty stejně jako na zeď.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_CIRCLE_BIG</LocID>                    <Text>Kulatý sloup</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_CIRCLE_BIG_DESCRIPTION</LocID>        <Text>Jdou na něj umístit objekty stejně jako na zeď.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DINING_TABLE</LocID>               <Text>Jídelní stůl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DINING_TABLE_DESCRIPTION</LocID>   <Text>Jídlo u stolu zlepší náladu personálu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CAMP_BED</LocID>                   <Text>Vyšetřovací lehátko</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CAMP_BED_DESCRIPTION</LocID>       <Text>Potřebné pro většinu vyšetření v ordinacích a na vyšetřovnách.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH</LocID>                      <Text>Dvojsedačka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_DESCRIPTION</LocID>          <Text>Dvojsedačka do čekáren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_SOFA</LocID>                       <Text>Gauč</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_SOFA_DESCRIPTION</LocID>           <Text>Pohodlný gauč pro personál pro využití ve volném čase.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DRESSING_SCREEN</LocID>            <Text>Zástěna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DRESSING_SCREEN_DESCRIPTION</LocID><Text>Dekorace do vyšetřoven a ordinací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK</LocID>                <Text>Pracovní stůl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK_DESCRIPTION</LocID>    <Text>Pracovní stůl. Umístěním pracovní židle a počítače na něm vznikne pracoviště pro jednoho zaměstnance.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_LAB_DESK</LocID>                   <Text>Laboratorní stůl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_LAB_DESK_DESCRIPTION</LocID>       <Text>Laboratorní stůl pro umístění laboratorního vybavení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BASIC_BED</LocID>                  <Text>Postel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BASIC_BED_DESCRIPTION</LocID>      <Text>Nemocniční postel pro všechny typy pokojů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_MODERN_BED</LocID>                 <Text>Moderní postel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_MODERN_BED_DESCRIPTION</LocID>     <Text>Pohodlná nemocniční postel pro všechny typy pokojů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER</LocID>       			<Text>Nosítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_DESCRIPTION</LocID>      <Text>Nosítka pro převoz imobilních pacientů. Dostatek nosítek v různých místnostech včetně chodeb pomáhá zefektivnit nemocnici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OPERATING_TABLE</LocID>       		<Text>Operační stůl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OPERATING_TABLE_DESCRIPTION</LocID><Text>Odehrávají se zde různá dramata.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK2</LocID>               <Text>Pracovní stůl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK2_DESCRIPTION</LocID>   <Text>Pracovní stůl. Umístěním pracovní židle a počítače na něm vznikne pracoviště pro jednoho zaměstnance.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OUTSIDE_BENCH</LocID>              <Text>Lavička</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OUTSIDE_BENCH_DESCRIPTION</LocID>  <Text>Venkovní dekorace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_01</LocID>               <Text>Ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_01_DESCRIPTION</LocID>   <Text>Po umístění ambulance začnou pojišťovny posílat vážné případy.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_XRAY</LocID>                          <Text>Rentgen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_XRAY_DESCRIPTION</LocID>              <Text>Běžný rentgen pro snímkování různých částí těla, především pohybového aparátu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_CT</LocID>                            <Text>CT</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_CT_DESCRIPTION</LocID>                <Text>CT, výpočetní tomografie, je pokročilá zobrazovací technika umožňující prostorové zobrazení vnitřních orgánů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_MRI</LocID>                           <Text>MRI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_MRI_DESCRIPTION</LocID>               <Text>Magnetická rezonance je přesná zobrazovací technika založená na rozdílném chování tkání v silném magnetickém poli a nenese rizika způsobená zářením.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_ANGIOGRAPH</LocID>                    <Text>Angiograf</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_ANGIOGRAPH_DESCRIPTION</LocID>        <Text>Angiografie je radiologická zobrazovací technika pro kvalitní znázornění cév.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GP_OFFICE_SIMPLE_ABBR</LocID>           <Text>Ordinace - 6 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_X_RAY_ABBR</LocID>                      <Text>Rentgen - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ANGIOGRAPHY_ABBR</LocID>                <Text>CAG (angiografie) - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CT_ABBR</LocID>                         <Text>CT - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MRI_ABBR</LocID>                        <Text>MRI - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_COMMON_ROOM_ABBR</LocID>                <Text>Společenká místnost - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GP_OFFICE_LARGE_ABBR</LocID>            <Text>Ordinace - 6 x 8</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GP_OFFICE_SMALL_ABBR</LocID>            <Text>Ordinace - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_WAITING_ROOM_LARGE_ABBR</LocID>         <Text>Čekárna - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_WAITING_ROOM_SMALL_ABBR</LocID>         <Text>Čekárna - 8 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RESTROOM_ABBR</LocID>                   <Text>WC - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RESTROOM_SMALL_ABBR</LocID>             <Text>WC - 6 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CORRIDOR_LARGE_ABBR</LocID>             <Text>Chodba - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CORRIDOR_SMALL_ABBR</LocID>             <Text>Chodba - 12 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RECEPTION_LARGE_ABBR</LocID>            <Text>Recepce - 6 x 16</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RECEPTION_SMALL_ABBR</LocID>            <Text>Recepce - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_ABBR</LocID>         <Text>Pracoviště lékařů - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_ABBR</LocID>         <Text>Pracoviště lékařů - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_ABBR</LocID>       <Text>Sesterna - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_ABBR</LocID>       <Text>Sesterna - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OBSERVATION_ROOM_LARGE_ABBR</LocID>     <Text>Pozorování - 14 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OBSERVATION_ROOM_SMALL_ABBR</LocID>     <Text>Pozorování - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_TRAUMA_CENTER_ABBR</LocID>              <Text>Traumacentrum - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_ER_ABBR</LocID>                <Text>STAT laboratoř - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CLEANING_CLOSET_ABBR</LocID>            <Text>Úklidová místnost - 4 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_WARD_LARGE_ABBR</LocID>       <Text>Běžný pokoj - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_WARD_SMALL_ABBR</LocID>       <Text>Běžný pokoj - 4 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_LARGE_ABBR</LocID>   <Text>Prioritní pokoj - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_SMALL_ABBR</LocID>   <Text>Prioritní pokoj - 4 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_GS_ABBR</LocID>                <Text>STAT laboratoř (chirurgie) - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ICU_LARGE_ABBR</LocID>                  <Text>JIP - 16 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ICU_SMALL_ABBR</LocID>                  <Text>JIP - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_GS_OFFICE_LARGE_ABBR</LocID> <Text>Ordinace - chirurgie - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_GS_OFFICE_SMALL_ABBR</LocID> <Text>Ordinace - chirurgie - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_GS_OFFICE_ABBR</LocID>        <Text>Vyšetřovna - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_GS_OFFICE_SMALL_ABBR</LocID>  <Text>Vyšetřovna - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SONOGRAPHY_UNIT_GS_ABBR</LocID>         <Text>Ultrazvuk - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_GS_ABBR</LocID>     <Text>Kardiografie - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OPERATING_THEATRE_ABBR</LocID>          <Text>Operační sál - 12 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ALLOWED</LocID>                                     <Text>sem lze umístit.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_ROOM</LocID>                                <Text>sem lze umístit.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_CROPS_ROOM</LocID>                          <Text>sem lze umístit, ale ořízne další místnost.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKED</LocID>                         <Text>je zablokovaný/á jiným objektem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKED_ALREADY_PLACED</LocID>          <Text>už je umístěný/á.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKING_NEIGHBOURS</LocID>             <Text>sem lze umístit, ale zablokuje přístup k jinému objektu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ATTACHMENT_NO_PARENT</LocID>            <Text>je potřeba umístit na jiný objekt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ATTACHMENT_WRONG_PARENT</LocID>         <Text>nemůže být umístěn/a na tento typ objektu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_NO_ACCESS</LocID>                       <Text>tu nebude přístupný/á.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_NO_WALL</LocID>                         <Text>se musí zavěsit na zeď.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_INDOORS</LocID>                    <Text>patří jen dovnitř.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_OUTDOORS</LocID>                   <Text>patří jen ven.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_LOCKED_AREA</LocID>                     <Text>nemůže být umístěn/a mimo pozemek nemocnice.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MISSING_REQUIREMENT</LocID>                         <Text>(chybí požadované vybavení)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONNECTED</LocID>                                   <Text>sem lze umístit (připojeno).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SIZE_REQUIREMENT_NOT_MATCHED</LocID>                <Text>potřebuje minimální velikost:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKED_ROOM</LocID>                    <Text>(zablokovaný další místností).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_NOT_ACCESSIBLE</LocID>                      <Text>sem lze umístit, ale nepůjde používat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_ADDS_FOUNDATIONS</LocID>                    <Text>sem lze umístit, k ceně se přičte rozšíření základů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AT_DEPARTMENT</LocID>                   <Text>nelze umístit na tomto oddělení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_LOCKED_INSURANCE</LocID>                <Text>ještě není odemčený/á.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_LIMIT_REACHED</LocID>                   <Text>dosáhla celkového limitu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ROOF</LocID>                            <Text>nepatří na střechu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_TOO_CLOSE</LocID>                       <Text>je příliš blízko zdí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_IN_MIDAIR</LocID>                       <Text>nemůže být umístěn/a ve vzduchu.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>THIS_PREFAB</LocID>                                 <Text>Tento prefab</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DELETE_ROOM_HINT</LocID>                            <Text>Smaže místnost po kliknutí na kterékoli pole, které zabírá.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BUILDING_CREATE_FLOOR</LocID>                       <Text>Přistavit parto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUILDING_CREATE_FOUNDATIONS</LocID>                 <Text>Základy</Text>  </GameDBLocalizedString>
+            
+            <!-- ============= newly added objects ================== -->
+
+
+            <!-- ============= DEPRECATED ================== -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSERY_ROOM</LocID>                      <Text>DEPRECATED</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSERY_ROOM_DESCRIPTION</LocID>          <Text>DEPRECATED</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_PHARMACY_STORAGE</LocID>                  <Text>DEPRECATED</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_PHARMACY_STORAGE_DESCRIPTION</LocID>      <Text>DEPRECATED</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_EQUIPMENT_STORAGE</LocID>                 <Text>DEPRECATED</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_EQUIPMENT_STORAGE_DESCRIPTION</LocID>     <Text>DEPRECATED</Text>  </GameDBLocalizedString>
+
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+
+

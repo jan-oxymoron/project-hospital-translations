@@ -1,0 +1,704 @@
+<Database>
+    <GameDBStringTable ID="LOC_CZ_UI">
+        
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- Menus -->
+            <GameDBLocalizedString>      <LocID>QUIT</LocID>                                <Text>Ukončit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OK</LocID>                                  <Text>Ok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DELETE</LocID>                              <Text>Smazat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CANCEL</LocID>                              <Text>Zrušit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WIDTH</LocID>                               <Text>Šířka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HEIGHT</LocID>                              <Text>Výška</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NAME</LocID>                                <Text>Jméno</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TITLE_SCREEN_MAP_EDITOR</LocID>             <Text>Map Editor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TITLE_SCREEN_GAME_TEST</LocID>              <Text>Sandbox</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TITLE_SCREEN_ANIM_TEST</LocID>              <Text>Anim Test</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_01</LocID>                   <Text>Tutoriál 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_01_DESCRIPTION</LocID>       <Text>Nauč se základy diagnostiky a léčení pacientů.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_01a</LocID>                  <Text>Tutoriál 1 A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_01b</LocID>                  <Text>Tutoriál 1 B</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02</LocID>                   <Text>Tutoriál 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02_DESCRIPTION</LocID>       <Text>Postav malou kliniku.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03</LocID>                   <Text>Tutoriál 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION</LocID>       <Text>Management a hospitalizace</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04</LocID>                   <Text>Tutoriál 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04_DESCRIPTION</LocID>       <Text>Hospitalizace</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01</LocID>                   <Text>Kampaň 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION</LocID>       <Text>Neefektivní</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02</LocID>                   <Text>Kampaň 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION</LocID>       <Text>V dluzích</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03</LocID>                   <Text>Kampaň 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03_DESCRIPTION</LocID>       <Text>Státní podpora</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_01</LocID>                    <Text>ZELENÁ LOUKA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_01_DESCRIPTION</LocID>        <Text>Postav nemocnici na zelené louce.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_01_BIG</LocID>                <Text>ZELENÁ LOUKA (96 x 96)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_01_BIG_DESCRIPTION</LocID>    <Text> </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_02</LocID>                    <Text>ZÁKLADNÍ KLINIKA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_02_DESCRIPTION</LocID>        <Text>Začni s malou fungující klinikou.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_03</LocID>                    <Text>MALÁ NEMOCNICE</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_03_DESCRIPTION</LocID>        <Text>Přeskoč stavění a vrhni se na diagnostiku!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW</LocID>                      <Text>Nová...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE</LocID>                     <Text>Uložit...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD</LocID>                     <Text>Načíst...</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>Nová hra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>Uložit hru</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID>                 <Text>Načíst hru</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_PREFAB</LocID>                         <Text>Uložit prefab</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_LOG</LocID>        <Text>Vše do logu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_RESTORE_DEFAULTS</LocID>      <Text>Vrátit výchozí nastavení</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>KEYBOARD_LAYOUT</LocID>                     <Text>Zobrazit klávesové zkratky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_CONTROLS_HEADING</LocID>           <Text>Klávesové zkratky</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_BUILD</LocID>                    <Text>Stavění</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_FLOORS</LocID>                   <Text>Podlahy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_WALLS</LocID>                    <Text>Zdi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_DOORS</LocID>                    <Text>Dveře\nOkna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_ROOMS</LocID>                    <Text>Místnosti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_OBJECTS</LocID>                  <Text>Objekty</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING</LocID>                             <Text>Nahrávám...</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TEXTURES_HI_RES</LocID>                     <Text>Kvalita textur: vysoká</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TEXTURES_LO_RES</LocID>                     <Text>Kvalita textur: nízká</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>STATISTICS_PERIOD_DAY</LocID>               <Text>Den</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STATISTICS_PERIOD_WEEK</LocID>              <Text>Týden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STATISTICS_PERIOD_MONTH</LocID>             <Text>Měsíc</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>UI_ROOM_MISSING_EQUIPMENT</LocID>           <Text>CHYBÍ VYBAVENÍ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_INACCESSIBLE</LocID>                <Text>NEPŘÍSTUPNÉ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_INACCESSIBLE_PATIENTS</LocID>       <Text>(NEPŘÍSTUPNÉ PRO PACIENTY)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_MISSING_STAFF</LocID>               <Text>(CHYBÍ PERSONÁL)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>UI_DEPARTMENT_CLOSED</LocID>                <Text>(ZAVŘENÉ ODDĚLENÍ)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_DAY</LocID>                   <Text>VYUŽITÍ PŘES DEN: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_NIGHT</LocID>                 <Text>VYUŽITÍ PŘES NOC: </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>...až do rána bílého!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE_SKIP</LocID>        	<Text>Zrušit: ESC nebo pravá myš.</Text>  </GameDBLocalizedString>
+
+            <!-- Tooltips -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_GAME_MODE_BUTTON</LocID>            <Text>Herní mód (F5)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_MODE_BUTTON</LocID>        <Text>Stavění (F6)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_MODE_BUTTON</LocID>       <Text>Management (F7)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_MODE_BUTTON</LocID>          <Text>Události</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MAIN_MENU_BUTTON</LocID>            <Text>Hlavní menu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TUTORIAL</LocID>                    <Text>Tutoriály</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_STEP_ONE_HOUR</LocID>             <Text>Přeskočit noc (lze zrušit přes ESC)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_GAME_PAUSE</LocID>            	<Text>Pauza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_SPEED_NORMAL</LocID>            	<Text>Normální rychlost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_SPEED_FAST4X</LocID>            	<Text>Zrychlení (4x)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_SPEED_FAST8X</LocID>            	<Text>Zrychlení (10x)</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_MANAGEMENT</LocID>             	<Text>Otevře kartu správy nemocnice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CALENDAR</LocID>             		<Text>Den / týden / měsíc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TOTAL_CURED_PATIENTS</LocID>       <Text>Vyléčení / celkový počet pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_WARNINGS</LocID>             		<Text>Problémy v nemocnici</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>             	<Text>Prestiž\n(podíl vyléčených / spokojenost zaměstnanců a pacientů)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE</LocID>                   <Text>Prestiž</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>Má vliv na počet pacientů přicházejících do nemocnice a může ovlivnit i platby od pojišťoven</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>Efekivita zvoleného oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_BUDGET_BALANCE</LocID>             <Text>Současný stav účtu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TIME_CURRENT</LocID>             	<Text>Současná rychlost</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_MANAGEMENT</LocID>             	<Text>Přepni na spávu zvoleného oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURRENT</LocID>             		<Text>Přepni na spávu zvoleného oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_OPEN_OVERVIEW</LocID>            <Text>Přepni na spávu zvoleného oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_HIDE</LocID>                           <Text>Zobrazit/skrýt denní plán</Text>  </GameDBLocalizedString>
+            
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_FLOOR_UP</LocID>             			<Text>O patro výš</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_FLOOR_DOWN</LocID>             		<Text>O patro níž</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_SELECT_FLOOR</LocID>             		<Text>Přistavšt parto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_WALLS_DOWN</LocID>             		<Text>Skrýt všechny zdi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_WALLS_AUTO</LocID>             		<Text>Automaticky skrývat zdi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_WALLS_FULL</LocID>             		<Text>Zobrazit zdi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ZOOM_IN</LocID>             			<Text>Přiblížit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ZOOM_OUT</LocID>             			<Text>Oddálit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_LOGISTICS</LocID>         <Text>Zobrazovat průhledné objekty a management módu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_DOORS</LocID>             <Text>Průhledná dveře a okna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ADD_FAVOURITE</LocID>             		<Text>Přidat mezi sledované</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_PATIENT_BALANCE</LocID>             		<Text>Platba za pacienta</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_CLEAR_LOG</LocID>             			<Text>Vymazat zprávy v logu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_OPEN_LOG</LocID>             			<Text>Otevřít log</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_CLOSE_LOG</LocID>             			<Text>Skrýt log</Text>  </GameDBLocalizedString>
+                        
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CENTER_CHARACTER</LocID>        	<Text>Kliknutí na portrét vycentruje kameru na tuto postavu.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>STAFF_BUSY</LocID>             	            <Text>Vytížený personál.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_NOT_QUALIFIED</LocID>             	<Text>Personál není kvalifikovaný.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE</LocID>             	    <Text>Chybí doktor/sestra.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_LAB</LocID>             	<Text>Chybí technolog.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EQUIPMENT_BUSY</LocID>             	        <Text>Vybavení se používá.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EQUIPMENT_UNAVAILABLE</LocID>             	<Text>Chybí vybavení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_ROOM</LocID>        	                    <Text>Chybí místnost.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_CAN_NOT_PRESCRIBE</LocID>        	<Text>Doktor nemá kvalifikaci k předepsání.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMERGENCY_NO_SURGERY</LocID>        	    <Text>Operuje se pouze na specializovaných odděleních.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_NIGHT</LocID>        	    <Text>Chybí personál na noční směně.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_FREE_BED</LocID>        	                <Text>Chybí volné postele nebo jsou v nefunkční místnosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PATIENT_CAN_NOT_TALK</LocID>        	    <Text>Pacient nemůže mluvit.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALREADY_HOSPITALIZED</LocID>        	    <Text>Pacient už je hospitalizován se stejnou nebo vyšší prioritou.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>REQUIRED_HOSPITALIZATION_UNAVAILABLE</LocID><Text>Hospitalizace potřebná pro léčbu není dostupná na tomto oddělení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMERGENCY_NO_HOSPITALIZATION</LocID>        <Text>Tato hospitalizace není poskytovaná na pohotovosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNKNOWN</LocID>        	                    <Text>Neznámý důvod.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ONLY_CLINIC</LocID>        	                <Text>Pouze na klinice.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_AVAILABLE_DEPARTMENT</LocID>        	<Text>Nelze provést na pacientově oddělení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_NOT_AVAILABLE</LocID>        	    <Text>Není dostupné:</Text>  </GameDBLocalizedString>
+            
+            <!-- Cards -->
+            <GameDBLocalizedString>      <LocID>SEGMENT_NONE</LocID>                        <Text>nic</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PERSONAL_INFO_GENDER</LocID>                <Text>Pohlaví:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERSONAL_INFO_OCCUPATION</LocID>            <Text>Zaměstnání:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERSONAL_INFO_INSURANCE</LocID>             <Text>Pojištění:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERSONAL_INFO_BALANCE</LocID>               <Text>Platba:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERSONAL_INFO_VACCINATION</LocID>           <Text>Očkování:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERSONAL_INFO_SALARY</LocID>                <Text>Plat:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERSONAL_INFO_EMPLOYED</LocID>              <Text>Zaměstnán/a:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PRIORITY</LocID>            <Text>Priorita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CONTROLS</LocID>            <Text>Rozhodování</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PLAYER_CONTROL</LocID>      <Text>hráč</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SYMPTOMS_CURRENT</LocID>    <Text>Symptomy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SYMPTOMS_HIDDEN</LocID>     <Text>Skryté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_SYMPTOMS</LocID>             <Text>Počet symptomů, o kterých pacient a personál neví. Blikající ikona značí blížící se kolaps.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PLAYER_CONTROL</LocID>                      <Text>Pod hráčovou kontrolou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AI_CONTROL</LocID>                          <Text>Léčen/a doktory</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FAVORITE</LocID>                            <Text>Sledovaný/á</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIDDEN_SYMPTOM_1</LocID>                    <Text>Skrytý symptom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIDDEN_SYMPTOM_2_TO_4</LocID>               <Text>Skryté symptomy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIDDEN_SYMPTOM_5_OR_MORE</LocID>            <Text>Skytých symptomů</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_DIAGNOSIS_DOCTOR</LocID>    <Text>Doktor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_DIAGNOSIS_FINAL</LocID>     <Text>Určená diagnóza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_DIAGNOSIS_POSSIBLE</LocID>  <Text>Možné diagnózy</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EXAMINATIONS_PLANNED</LocID><Text>Plánovaná</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EXAMINATIONS_ACTIVE</LocID> <Text>Aktivní vyšetření</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EXAMINATIONS_FINISHED</LocID><Text>Dokončená</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EXAMINATIONS_RECOMMENDED</LocID><Text>Dostupná vyšetření</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_TREATMENTS_PLANNED</LocID>  <Text>Plánovaná</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_TREATMENTS_ACTIVE</LocID>   <Text>Aktivní léčba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_TREATMENTS_FINISHED</LocID> <Text>Dokončená</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_TREATMENTS_RECOMMENDED</LocID><Text>Dostupná léčba</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_LEVEL</LocID>               <Text>Úroveň</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SKILLS</LocID>              <Text>Kvalifikace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SPECIALIZATIONS</LocID>     <Text>Specializace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SELECT_SPECIALIZATION_WARNING</LocID>       <Text>Výběrem se nahradí stávající specializace, nová bude na úrovni 0%.</Text>  </GameDBLocalizedString>
+                        
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SUPERVISOR</LocID>          <Text>Nadřízený</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CURRENT_PATIENTS</LocID>    <Text>Pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_RELEASED_PATIENTS</LocID>   <Text>Propuštění</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENTS</LocID>            <Text>Pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_MOST_CRITICAL</LocID><Text>Nejkritičtější</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_MOST_ANGRY</LocID>  <Text>Nejnaštvanější</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_MOST_HAPPY</LocID>  <Text>Nejšťastnější</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_STATISTICS</LocID>  <Text>Statistiky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_NEEDS</LocID>       <Text>Potřeby</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROOMS</LocID>               <Text>Místnosti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EXISTING_ROOMS</LocID>      <Text>Postavené</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_MISSING_ROOMS</LocID>       <Text>Chybějící</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_OPTIONAL_ROOMS</LocID>      <Text>Dobrovolné</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CLINIC</LocID>              <Text>Klinika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_HOSPITALIZATION</LocID>     <Text>Hospitalizace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SURGERY</LocID>             <Text>Operace</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOCKED_BY_INSURANCE</LocID>                 <Text>Odemkne se po splnění podmínek pojišťoven</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES</LocID>           <Text>Personál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY</LocID>       <Text>Personál - den</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NIGHT</LocID>     <Text>Personál - noc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_DOCTOR</LocID><Text>Primář</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_NURSE</LocID><Text>Vrchní sestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CERTAINTY</LocID> <Text>Jistota</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_EMPLOYEE_COUNT</LocID><Text>Počet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NEEDS</LocID>     <Text>Potřeby</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CERTAINTY_LOW</LocID>                       <Text>Nízká</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CERTAINTY_MEDIUM</LocID>                    <Text>Střední</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CERTAINTY_HIGH</LocID>                      <Text>Vysoká</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EVENTS</LocID>              <Text>Události</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_START_EVENT</LocID>                 <Text>Spustit událost</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIRING_CARD_HIRE_STAFF</LocID>              <Text>Najmout personál</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITAL_MANAGEMENT</LocID>                 <Text>Správa nemocnice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INSURANCE_OBJECTIVE</LocID>                 <Text>Bonusová podmínka: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INSURANCE_UNLOCK_OBJECTIVE</LocID>          <Text>Podmínka k odemčení: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INSURANCE_OBJECTIVES_COMPLETE</LocID>       <Text>Podmínky splněny.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INSURANCE_REWARD</LocID>                    <Text>Odměna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INSURANCE_NUMBER_OF_PATIENTS</LocID>        <Text>Posílá</Text>  </GameDBLocalizedString>
+
+            <!-- Various descriptions -->
+            <GameDBLocalizedString>      <LocID>DESC_NONE</LocID>                   	<Text>nic</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEGATIVE_NO</LocID>                    	<Text>ne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DESC_ROOM_SIZE</LocID>                  <Text>Miniální velikost:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DESC_ROOM_EQUIPMENT</LocID>     		<Text>Pro seznam potřebného vybavení klikni na podlahu v místnost v logistice.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DESC_ROOM_LOCKED</LocID>     		    <Text>Odemkni splněním podmínek pojišťoven.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_LEVEL_DESCRIPTION</LocID>     	<Text>Určuje, které procedury může zaměstnanec vykonávat.</Text>  </GameDBLocalizedString>
+
+            <!-- Insuracne objectives -->
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS</LocID>                <Text>Vyléči {1} pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_IMMOBILE_PATIENTS</LocID>       <Text>Vyléči {1} pacienty/ů přivezených sanitkou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY</LocID>        <Text>Vyléči {1} pacientů za den</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_DEPARTMENT</LocID>   <Text>Vyléči {1} pacientů za den na oddělení {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_SUCCESS_RATE</LocID>          <Text>Vyléči {1} pacientů za den</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_ROOMS</LocID>                   <Text>Postav a najmi personál pro: {1} {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_DEPARTMENT</LocID>    <Text>Otevři kliniku na oddělení {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_DEPARTMENT</LocID> <Text>Otevři hospitalizaci na oddělení {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NUMBER_OF_AMBULANCES</LocID>            <Text>Kup {1} sanitku/sanitky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BALANCE</LocID>                         <Text>Dosáhni {1} na účtu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BANK_BALANCE</LocID>                    <Text>Měj bankovní zůstatek nad nulou.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY</LocID>                  <Text>Dosáhni výdělku {1} dní v řadě.</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance objective rewards -->
+            <GameDBLocalizedString>      <LocID>REWARD</LocID>                          <Text>Odměna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_ROOM</LocID>                     <Text>{1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Hospitalizace na oddělení: {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>A {1} vládní grant</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>{1} pacientů na kliniku denně</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>{1} pacientů v sanitce denně</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>Ambulance</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>YESTERDAY</LocID>        	                <Text>Včera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TODAY</LocID>        	                    <Text>Dnes</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NO_NAME</LocID>        	                    <Text>Nepojmenovaná nemocnice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DEPARTMENT</LocID>        	                <Text>Oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DEPARTMENT_CLOSED</LocID>        	        <Text>Oddělení (zavřené)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DEPARTMENTS</LocID>        	                <Text>Oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INSURANCE</LocID>        	                <Text>Pojišťovny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STATISTICS</LocID>        	                <Text>Statistiky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUDGET</LocID>        	                    <Text>Rozpočet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AMBULANCES</LocID>        	                <Text>Ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STAFF</LocID>        	        <Text>Personál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_PATIENTS</LocID>        	        <Text>Pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HOSPITAL</LocID>        	        <Text>Nemocnice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BANK</LocID>        	            <Text>Bankovní půjčky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_INTEREST</LocID>        	        <Text>Denní úrok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_LOAN</LocID>        	            <Text>Půjčka</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE</LocID>        	    <Text>Pojštění</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_SERVICES</LocID>        	        <Text>Služby</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES</LocID>        	        <Text>Platy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_TOTAL</LocID>        	        <Text>Celkem</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_ALL_TIME</LocID>      <Text>Dlouhodobé</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_LAST_DAY</LocID>      <Text>Poslení den</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_LEVEL</LocID>        	    <Text>Vyber úroveň zkušeností kandidátů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_RANDOM</LocID>        	            <Text>Náhodné</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_GENERATE</LocID>        	    <Text>Vyhledej za poplatek nové kandidáty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_REVEAL_PERKS</LocID>        	<Text>Odhal skryté vlastnosti za $1000</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>REQUIRED_SKILL</LocID>        	            <Text>Potřebná specializace: </Text>  </GameDBLocalizedString>
+            
+            <!-- Patient card -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_PATIENT</LocID>   <Text>Nekontrolovaný / Ovládaný hráčem / Sledovaný</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_EMPLOYEE</LocID>  <Text>Přidat zaměstnance mezi sledované - až 10 postav se zobrazí na hlavním panelu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_PERKS</LocID>                              <Text>Skryté vlastnosti</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_GO_TO_DOCTOR</LocID>                              <Text>Přepne na doktora</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CRITICAL_PATIENT</LocID>                          <Text>Pacient v kritickém stavu. Nejméně jeden symptom hrozí kolapsem.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DIAGNOSIS_FINISHED_DIAGNOSIS</LocID>              <Text>Historie diagnóz TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DIAGNOSIS_PATIENT_BALANCE</LocID>                 <Text>Zobrazí platby TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DIAGNOSIS_OPEN_DIAGNOSIS_LIST</LocID>             <Text>Zobrazí tabulku s detaily možných diagnóz</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_CURRENT_SYMPTOMS</LocID>                 <Text>Aktuální symptomy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PASSED_SYMPTOMS</LocID>                  <Text>Potlačené symptomy TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_SORT_SYMPTOMS</LocID>                    <Text>Seřadit symptomy TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_OPEN_SYMPTOMS_LIST</LocID>               <Text>Zobrazí tabulku s detaily symptomů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PRIORITY_SEND_HOME</LocID>               <Text>Pošle vyléčeného pacienta domů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SEND_TO_ANOTHER_HOSPITAL</LocID>                  <Text>Pošle nevyléčeného pacienta do jiné nemocnice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PRIORITY_HOSPITALIZE</LocID>             <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PRIORITY_SEND_TO_ICU</LocID>             <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PRIORITY_BUTTON</LocID>                  <Text>TODO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EXAMINATION_PLANNED_EXAMINATIONS</LocID>          <Text>Plánovaná vyšetření</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EXAMINATION_FINISHED_EXAMINATIONS</LocID>         <Text>Dokončená vyšetření</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EXAMINATION_RECOMMENDED_EXAMINATIONS</LocID>      <Text>Dostupná vyšetření</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EXAMINATION_OPEN_EXAMINATION_LIST</LocID>         <Text>Otevře tabulku vyšetření TODO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_ADD_ALL_TREATMENTS</LocID>              <Text>Naplánuje veškerou dostupnou léčbu TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_PLANNED_TREATMENTS</LocID>              <Text>Plánovaná léčba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_CURRENT_TREATMENTS</LocID>              <Text>Aktuální léčba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_FINISHED_TREATMENTS</LocID>             <Text>Dokončená léčba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_RECOMMENDED_TREATMENTS</LocID>          <Text>Aktuální léčba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_OPEN_TREATMENT_LIST</LocID>             <Text>TODO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT</LocID>                        <Text>Výběr oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_ICU</LocID>                    <Text>Z ICU je možné propouštět pouze vyléčené pacienty.</Text>  </GameDBLocalizedString>
+            
+            <!-- Character card -->
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DAY_SHIFT</LocID>                                 <Text>Denní směna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ASSIGN_WORKSPACE</LocID>                          <Text>Přiřadit pracoviště</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CHANGE_SHIFT</LocID>                              <Text>Přesunout zaměstnance mezi denní/noční směnou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_RELEASE</LocID>                                   <Text>Propustit zaměstnance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_NIGHT_SHIFT</LocID>                               <Text>Noční směna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_OPEN_SHIFT_LIST</LocID>                           <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_RENAME_CHARACTER</LocID>                          <Text>Přejmenovat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CONTROLED_PATIENTS</LocID>           	          <Text>Zobrazí tabulku převzatých/sledovaných pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FOLLOW_BUTTON</LocID>           	              <Text>Sledovat tuto postavu ve scéně</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_OPEN_WORK_LIST</LocID>                            <Text>TODO</Text>  </GameDBLocalizedString>
+                                                                                                        
+            <GameDBLocalizedString>      <LocID>TOOLTIP_OPEN_PATIENT_LIST</LocID>                         <Text>Otevře tabulku pacientů</Text>  </GameDBLocalizedString>
+                                                                                                        
+            <!-- Hiring card -->                                                                        
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRE_DOCTORS</LocID>                              <Text>Najmout doktory</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRE_NURSES</LocID>                               <Text>Najmout sestry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRE_LAB_SPECIALISTS</LocID>                      <Text>Najmout technology</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRE_MAINTENANCE_WORKERS</LocID>                  <Text>Najmout uklízeče</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_REFERRAL</LocID>                             <Text>Pacient od praktického lékaře objednaný na specializované oddělení.</Text>  </GameDBLocalizedString>
+            
+            <!-- Department card -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_HIRE_STAFF</LocID>                     <Text>Najmout personál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_BUDGET</LocID>               	      <Text>Rozpočet oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_DRESS_CODE</LocID>                     <Text>Nastavení uniforem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_QUARANTINE</LocID>                     <Text>Karanténa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CLOSE</LocID>               		      <Text>Zavřít oddělení - hospitalizovaní pacienti budou převezeni, personál odejde domů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_TIME_SWITCH</LocID>                    <Text>Den / Týden / Měsíc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>                 <Text>Vyléčení / celkový počet pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>           		      <Text>Problémy na oddělení</Text>  </GameDBLocalizedString>
+                                                                                                         
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>           	      <Text>Zobrazí tabulku zaměstnanců tohoto oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>Správně vybraný primář zvyšuje efektivitu práce na oddělení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_RESTORE</LocID>              <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_CHART</LocID>                <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_GAUGE</LocID>                <Text>Nastaví, jak pečlivě budou doktoři vyšetřovat před určením diagnózy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_DOCTORS</LocID>              <Text>Doktoři / pracoviště</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_NURSES</LocID>               <Text>Sestry / pracoviště</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_LAB_SPECIALISTS</LocID>      <Text>Technologové / pracoviště</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_MAINTENANCE</LocID>          <Text>Uklízeči / pracoviště</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_LIST</LocID>         	      <Text>Zobrazí tabulku pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_HOSPITALIZED</LocID>          <Text>Hospitalizovaní pacienti / kapacita lůžek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_CLINIC</LocID>                <Text>Pacienti na klinice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_LOW_PRIORITY</LocID>          <Text>Patienti na běžných pokojích</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_HIGH_PRIORITY</LocID>         <Text>Patienti na HDU pokojích</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_DEAD</LocID>                  <Text>Mrtví pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_WAITING</LocID>               <Text>Pacienti v čekárnách</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_SCHEDULED</LocID>             <Text>Objednaní pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_CURED</LocID>         	      <Text>Vyléčení / nevyléčení pacienti</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_LOGISTICS_ROOMS</LocID>         		  <Text>TODO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PIN</LocID>                            <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_NAME</LocID>                           <Text>Přejmenovat oddělení</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_NEED_HUNGER</LocID>                    <Text>Hlad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_NEED_BLADDER</LocID>                   <Text>WC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_NEED_REST</LocID>                      <Text>Odpočinek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_NEED_SATISFACTION</LocID>              <Text>Spokojenost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_NEED_DISCOMFORT</LocID>                <Text>Nepohodlí</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_PREFABS</LocID>                         <Text>Přejít na prefaby místností pro toto oddělení.</Text>  </GameDBLocalizedString>
+            
+            <!-- Hospital card -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_PIN_PANEL_BUTTON</LocID>                          <Text>Karta se nebude automaticky zavírat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CLOSE_PANEL_BUTTON</LocID>                        <Text>Zavřít</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_MODIFY_NAME</LocID>                      <Text>Přejmenovat nemocnici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_SELECT</LocID>                         <Text>Výběr oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_DEPARTMENTS</LocID>                      <Text>Oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE</LocID>                        <Text>Pojišťovny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_STATISTICS</LocID>                       <Text>Statistiky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_BUDGET</LocID>                           <Text>Rozpočet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_WARNINGS</LocID>                         <Text>Problémy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CURED_PATIENTS</LocID>                   <Text>Celkem vyléčených pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TIME_SWITCH_CONTROL</LocID>              <Text>Den / Týden / Měsíc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_RANDOM</LocID>                             <Text>Náhodný výběr</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_DEPARTMENT_NEW</LocID>                   <Text>Přidat oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_DEPARTMENT_REMOVE</LocID>                <Text>Zavřít oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_DEPARTMENT_NAME</LocID>                  <Text>Přejmenovat oddělení</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_ADD_DEPARTMENT</LocID>                   <Text>Přidat oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_DEPARTMENT_ACTIVE</LocID>                <Text>Zvolené oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_DEPARTMENT_NOT_ACTIVE</LocID>            <Text>Neaktivní oddělení</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_REMOVE_ADD</LocID>             <Text>Zapnout/vypnout příjem pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_INSURANCE_COMPANY</LocID>      <Text>Pojišťovna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_DISEASES_PATIENTS</LocID>      <Text>Denní počet nemocných</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_TRAUMAS_PATIENTS</LocID>       <Text>Denní počet zraněných</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_PRICE_MODIFIER</LocID>         <Text>Výše plateb za diagnózy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_OBJECTIVE</LocID>              <Text>Podmínka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_PAYMENT</LocID>                <Text>$</Text>  </GameDBLocalizedString>
+            
+            <!-- Logistics -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_ASSIGN</LocID>                           <Text>Přiřadit zaměstnance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_LOCK</LocID>                             <Text>Zamknout TODO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_SELECT_DEPARTMENT</LocID>                <Text>Výběr oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_FREE</LocID>                             <Text>Nastaví oblast přístupnou pro pacienty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_STAFF_ONLY</LocID>                       <Text>Nastaví oblast přístupnou pouze pro vyšetřované pacienty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                        <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_RESTRICTED</LocID>                       <Text>Nastaví oblast přístupnou pouze pro personál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_REMOVE</LocID>                           <Text>Mazání označení místností</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Building panel -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FOUNDATIONS_AREA</LocID>                  <Text>Pokládání základů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_CONSTRUCTIONS</LocID>                     <Text>Zdi, podlahy, meteriály</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_DOORS_WINDOWS</LocID>                     <Text>Dveře a okna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_OBJECTS</LocID>                           <Text>Nábytek, přístroje, dekorace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFABS</LocID>                           <Text>Prefaby</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FOUNDATIONS</LocID>                       <Text>Pokládání základů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FOUNDATIONS_DYNAMITE</LocID>              <Text>Vybourání všeho včetně základů a označení místností</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FOUNDATIONS_ADD_WALLS</LocID>             <Text>Postavit zdi okolo základů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FOUNDATIONS_BULDOZER</LocID>              <Text>Vybagruje zdi a objekty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FOUNDATIONS_TRASH</LocID>                 <Text>Mazání objektů</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FOUNDATIONS_MOVE</LocID>                  <Text>Přesouvání objektů (klikni na objekt ve scéně)</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_WALLS</LocID>                             <Text>Zdi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS</LocID>                            <Text>Podlahy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PILLAR</LocID>                            <Text>Sloupy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_AMBULANCE</LocID>                         <Text>Sanitky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_STAIRS</LocID>                            <Text>Výtahy</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_EQUIPMENT</LocID>                         <Text>Medicínské vybavení a přístroje</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FURNITURE</LocID>                         <Text>Nábytek a příslušenství</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_DECALS</LocID>                            <Text>Dekorace na zdi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_DECORATIONS</LocID>                       <Text>Dekorace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_OUTDOOR</LocID>                           <Text>Venkovní objekty</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_GENERAL</LocID>                    <Text>Prefaby - místnosti pro všeobecné použití</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_EMERGENCY</LocID>                  <Text>Prefaby pro pohotovost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_SURGERY</LocID>                    <Text>Prefaby pro chirurgii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ICU</LocID>                        <Text>Prefaby pro JIP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_RADIOLOGY</LocID>                  <Text>Prefaby pro radiologii</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_WALLS_RECTANGLE</LocID>                   <Text>Stavba zdí (obdélník/celá místnost)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_OUTDOOR_FLOOR</LocID>                     <Text>Venkovní podlahy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_WALLS_REMOVE_WALLS</LocID>                <Text>Bourání zdí (v řadě)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_WALLS_REMOVE_WALLS_RECTANGULAR</LocID>    <Text>Bourání zdí (obdélník)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_DOORS_REMOVE_DOORS</LocID>                <Text>Bourání zdí/oken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_EQUIPMENT_REMOVE</LocID>                  <Text>Mazání objektů</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_OWN</LocID>                        <Text>Uložené prefaby</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_SAVE</LocID>                       <Text>Ulož prefab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_CREATE</LocID>                     <Text>Vytvořit prefab (klikni a táhni ve scéně)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_DELETE</LocID>                     <Text>Smaž uložený prefab</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STATUS</LocID>                          <Text>Stav oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STATUS_OUTPATIENTS</LocID>              <Text>Klinika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STATUS_HOSPITALIZATION</LocID>          <Text>Hospitalizace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_EQUIPMENT</LocID>                       <Text>Vybavní</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF</LocID>                           <Text>Personál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_DAY_SHIFT</LocID>                       <Text>Personál na denní směně</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_NIGHT_SHIFT</LocID>                     <Text>Personál na noční směně</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STRETCHERS</LocID>                      <Text>Nosítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SURGERY_EQUIPMENT</LocID>                          <Text>Operační sál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SURGERY_STAFF</LocID>                              <Text>Zaměstnanci na operace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SURGERY_STAFF_DETAILS</LocID>                      <Text>2x chirurg\n1x anesteziolog\n1x sestra na operace\n2x sestra</Text>  </GameDBLocalizedString>
+            
+            <!-- LOGISTICS/MANAGEMENT, EMPLOYEES TABLE -->
+            <GameDBLocalizedString>      <LocID>ALL_EMPLOYEES</LocID>                                      <Text>Všechny profese</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS</LocID>                                            <Text>Doktoři</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>RECEPTIONISTS</LocID>                                      <Text>Recepční</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGISTS</LocID>                                  <Text>Technologové</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITORS</LocID>                                           <Text>Uklízeči</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NURSES</LocID>                                             <Text>Sestry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECH_CARDIO</LocID>                                    <Text>Kardio tech.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECH_USG</LocID>                                       <Text>USG tech.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEONS</LocID>                                           <Text>Chirurgové</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGISTS</LocID>                                  <Text>Anestesi\nologové</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGERY_NURSES</LocID>                                     <Text>Sestry na operace</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DOCTOR</LocID>                                             <Text>Doktor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_CLINIC_DESCRIPTION</LocID>                          <Text>Dokror v ordinaci na klinice, který diagnostikuje a léčí pacienty. Požadovaná specializace:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>RECEPTIONIST</LocID>                                       <Text>Recepční</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>RECEPTIONIST_DESCRIPTION</LocID>                           <Text>Sestra se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST</LocID>                                   <Text>Technolog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_DESCRIPTION</LocID>                       <Text>Technolog vyšetřující pacienty specializovaným vybavením, se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR</LocID>                                            <Text>Uklízeč</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_DESCRIPTION</LocID>                                <Text>Uklízeč</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Nosítka</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DOCTOR_HOSPITALIZATION_DESCRIPTION</LocID>                <Text>Doktor v TODO on-call roomu se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE</LocID>                                             <Text>Sestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_DESCRIPTION</LocID>                                 <Text>Sestra v sesterně se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO</LocID>                           <Text>Kardio tech</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO_DESCRIPTION</LocID>               <Text>Technolog se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG</LocID>                              <Text>USG tech</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG_DESCRIPTION</LocID>                  <Text>Technolog se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON</LocID>                                           <Text>Chirurg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_DESCRIPTION</LocID>                               <Text>Doktor na pracovišti lékařů se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST</LocID>                                  <Text>Anestesiolog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST_DESCRIPTION</LocID>                      <Text>Doktor na pracovišti lékařů se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGERY_NURSE</LocID>                                     <Text>Sestra na operace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGERY_NURSE_DESCRIPTION</LocID>                         <Text>Sestra v sesterně se specializací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                        <Text>Nosítka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STRETCHERS_DESCRIPTION</LocID>                            <Text>Slouží k převozu pacientů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_REQUIRED</LocID>                    <Text>Potřebný personál: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_COUNT_DAY</LocID>                   <Text>Den: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_COUNT_NIGHT</LocID>                 <Text>Noc: </Text>  </GameDBLocalizedString>
+
+
+            <!-- Tables -->
+            <GameDBLocalizedString>      <LocID>TABLE_YES</LocID>                           <Text>Ano</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_NO</LocID>                            <Text>Ne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DAYS</LocID>                          <Text>Dny</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_HEADING</LocID>                   <Text>Oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_DEPARTMENT</LocID>                <Text>Oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_BEDS</LocID>                      <Text>Postele</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_WAITING</LocID>                   <Text>Čekající</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_DOCTORS</LocID>                   <Text>Doktoři</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_CURED</LocID>                     <Text>Vyléčení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_BALANCE</LocID>                   <Text>Stav účtu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DEP_REPUTATION</LocID>                <Text>Prestiž</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS</LocID>     <Text>Zaměstnanci - doktoři</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_NURSES</LocID>      <Text>Zaměstnanci - sestry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_LAB</LocID>         <Text>Zaměstnanci - technologové</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>    <Text>Zaměstnanci - uklízeči</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_ALL</LocID>         <Text>Všichni zaměstnanci</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS_NURSES</LocID><Text>Zaměstnanci - doktoři a sestry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_SELECT</LocID>              <Text>Výběr zaměstnance TODO vybraní zaměstnanci</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_HEADING</LocID>               <Text>Doktoři</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_DOCTOR</LocID>                <Text>Jméno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_DEPARTMENT</LocID>            <Text>Oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_OCCUPATION</LocID>            <Text>Zaměstnání</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_LEVEL</LocID>                 <Text>Úroveň</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_SPEC1</LocID>                 <Text>Hlavní spec.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_SPEC2</LocID>                 <Text>druhá spec.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_SHIFT</LocID>                 <Text>Směna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_SUPERVISOR</LocID>            <Text>Nadřízený</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_GENDER</LocID>                <Text>Pohlaví</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_SALARY</LocID>                <Text>Plat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_EMPLOYED</LocID>              <Text>Zaměstnán/a</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_SATISFACTION</LocID>          <Text>Spokojenost</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_HEADING</LocID>              <Text>Pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_PATIENT</LocID>              <Text>Pacient</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DIAGNOSIS</LocID>            <Text>Diagnóza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_HAZARD</LocID>               <Text>Hazard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DEPARTMENT</LocID>           <Text>Oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DOCTOR</LocID>               <Text>Doktor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_STATE</LocID>                <Text>Stav</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_GENDER</LocID>               <Text>Pohaví/věk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_OCCUPATION</LocID>           <Text>Zaměstnání</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_INSURANCE</LocID>            <Text>Pojišťovna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_BALANCE</LocID>              <Text>Platba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_SATISFACTION</LocID>         <Text>Spokojenost</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_HEADING</LocID>             <Text>Diagnóza</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_DIAGNOSIS</LocID>           <Text>Jméno</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_PROBABILITY</LocID>         <Text>Pravděpodobnost</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_TERM</LocID>                <Text>Popis</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_DEPARTMENT</LocID>          <Text>DOddělení</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_DURATION</LocID>            <Text>Doba trvání</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_VACCINATION</LocID>         <Text>Očkování</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_INSURANCE</LocID>           <Text>Platba/pojištění</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_TREATMENT</LocID>           <Text>Léčba</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_SYMPTOMS</LocID>            <Text>Symptomy</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_HEADING</LocID>              <Text>Symptomy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_SYMPTOMS</LocID>             <Text>Jméno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_HAZARD</LocID>               <Text>Hazard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_EXAMINATION</LocID>          <Text>Vyšetření</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_TREATMENT</LocID>            <Text>Léčba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_DISCOMFORT</LocID>           <Text>Nepohodlí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_COLLAPSE</LocID>             <Text>Kolaps</Text>  </GameDBLocalizedString>
+
+            <!-- Popups -->
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_LEVEL</LocID>         <Text>Přepnout, jestli se tento typ zprávy zobrazuje jako okno nebo jen v logu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP</LocID>                               <Text>okno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOG</LocID>                                 <Text>log</Text>  </GameDBLocalizedString>
+
+            <!-- Tutorial -->
+            <GameDBLocalizedString>      <LocID>BUTTON_NEXT</LocID>                         <Text>Další</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUTTON_PREVIOUS</LocID>                     <Text>Zpět</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUTTON_DONE</LocID>                         <Text>Hotovo</Text>  </GameDBLocalizedString>
+
+            <!-- Dependency tree -->
+            <GameDBLocalizedString>      <LocID>TREE_HEADING</LocID>                        <Text>Závislosti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREE_LOW_HAZARD</LocID>                     <Text>Nízký hazard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREE_HIGH_HAZARD</LocID>                    <Text>Střední/vysoký hazard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREE_IMMOBILE</LocID>                       <Text>Nepohybliví</Text>  </GameDBLocalizedString>
+            
+            <!-- Keyboard -->
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ESCAPE</LocID>                 <Text>Zruší akci, zavře nepřichycené panely, otevře menu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_MOVE_CAMERA</LocID>            <Text>Posun kamery</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ROTATE</LocID>                 <Text>Otáčení objektů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_GAME_MODES</LocID>             <Text>Herní režim / stavění / management</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_DELETE</LocID>                 <Text>Zavře nepřichycené panely</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_FLOORS</LocID>                 <Text>O patro výš/o patro níž</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_SPACE</LocID>                  <Text>Pauza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ENTER</LocID>                  <Text>Potvrzení notifikací v popup okně</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_GAME_SPEED</LocID>             <Text>Přepínání rychlosti hry</Text>  </GameDBLocalizedString>
+            
+            <!-- New confirm dialogs -->
+            <GameDBLocalizedString>      <LocID>CONFIRM_CLOSE_DEPARTMENT</LocID>            <Text>Zavřít oddělení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_CLOSE_DEPARTMENT_TEXT</LocID>       <Text>Opravdu chceš zavřít toto oddělení? Hospitalizovaní pacienti budou odvezeni do jiné nemocnice a personál odejde domů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLOSE_DEPARTMENT</LocID>                    <Text>Zavřít</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR</LocID>             <Text>Přistavit patro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR_TEXT</LocID>        <Text>Chceš přistavit další patro? Výtahy se automaticky přistaví.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR_COPY_TILES</LocID>  <Text>Zkopírovat podlahy z nejvyššího patra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR_COPY_WALLS</LocID>  <Text>Zkopírovat zdi z nejvyššího patra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUILD_NEW_FLOOR</LocID>                     <Text>Přistavit patro</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROLES</LocID>               <Text>Povolené činnosti</Text>  </GameDBLocalizedString>
+
+            <!-- Dress code category names -->
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_CLINIC</LocID>           <Text>Doktoři na klinice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_ON_CALL</LocID>          <Text>Doktoři pro hospitalizaci</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_SURGERY</LocID>                  <Text>Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_NURSES</LocID>                   <Text>Sestry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_TECHNOLOGISTS</LocID>            <Text>Technologové</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_JANITORS</LocID>                 <Text>Uklízeči</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DRESS_CODE</LocID>                          <Text>Barvy uniforem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DRESS_CODE_COLOR</LocID>     <Text>Vybere barvu uniforem</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

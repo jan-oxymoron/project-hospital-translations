@@ -1,0 +1,219 @@
+<Database>
+    <GameDBStringTable ID="LOC_CZ_NOTIFICATIONS">
+        
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- Notifications -->
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN</LocID>                  <Text>Nemocnice přijímá pacienty!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN_TEXT</LocID>             <Text>Nemocnice má vybavení a personál pro přijímání pacientů na klinice. Nepojištění pacienti začínají přicházet.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL</LocID>        <Text>Pojišťovna nabízí uzavření smlouvy!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL_TEXT</LocID>   <Text><![CDATA[Pojišťovna <i>{1}</i> je dostupná pro příjem pacientů!]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK</LocID>             <Text>Zaměstnanec prohýřil noc!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK_TEXT</LocID>        <Text>Další pracovní den nebude pracovat zrovna efektivně...</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM</LocID>                <Text>Na klinice není funkční čekárna!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_TEXT</LocID>           <Text><![CDATA[na klinice není žádná vybavená čekárna v dosahu ordinace typu: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>Okolo diagnostické místnosti není žádná dostupná čekárna!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</LocID>       <Text><![CDATA[Okolo místnosti typu <i>{1}</i> není žádná fungující čekárna.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY</LocID>      <Text>Na radiologii není žádná dostupná čekárna!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY_TEXT</LocID> <Text>Na radiologii není žádná fungující čekárna v dosahu diagnostických místností!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING</LocID>         <Text>Nefunkční oddělení!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING_TEXT</LocID>    <Text>Na klinice není k dispozici funkční oddělení. Pacient odejde.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS</LocID>                <Text>Pacientovi byla určena špatná diagnóza!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_TEXT</LocID>           <Text>Podle výsledků dokončených vyšetření není možné, aby měl pacient diagnózu, která mu byla určena!</Text>  </GameDBLocalizedString>
+                        
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS</LocID>        <Text>Pacient se špatnou diagnózou se vrací!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>Pacientovi se přitížilo, protože byl léčen na špatnou diagnózu.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>Nejasná diagnóza!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Zvaž přistavět další diagnostická pracoviště, laboratioře nebo radiologii. Pacient nebude dlouho čekat.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT</LocID>                   <Text>Pacienta nejde vyléčit!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TEXT</LocID>              <Text><![CDATA[Léčba diagnózy není dostupná: <i>{1}</i>.\nAby pacient neodešel, je potřeba ji rychle zpřístupnit.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION</LocID>             <Text>Pacienta nelze hospitalizovat!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_TEXT</LocID>        <Text><![CDATA[Potřebný typ hospitalizace není dostupný: <i>{1}</i>! Aby pacient neodešel, je potřeba ji rychle zpřístupnit.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS</LocID>          <Text>Komplikovaná diagnóza!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>Diagnostické schopnosti doktora nestačily na určení diagnózy a žádá o konzultaci ohledně výběru dalších vyšetření.</Text>  </GameDBLocalizedString>
+
+            <!-- TODO perk? -->
+            <!--GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM</LocID>       <Text>Patient doesn't have enough money to pay for examination!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM_TEXT</LocID>  <Text>Patient doesn't have enough money to pay for examination!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT</LocID>       <Text>Patient doesn't have enough money to pay for treatment!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT_TEXT</LocID>  <Text>Patient doesn't have enough money to pay for treatment!</Text>  </GameDBLocalizedString-->
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP</LocID>               <Text>Zaměstnanec se zdokonalil!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP_TEXT</LocID>          <Text><![CDATA[Zaměstnanec dosáhl vyšší úrovně v dovednosti: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP</LocID>           <Text>Zaměstnanec dosáhl další úrovně!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_TEXT</LocID>      <Text>Zaměstnanec dosáhl další úrovně, je teď {1} a dostal přidáno!</Text>  </GameDBLocalizedString>
+  
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION</LocID>       <Text>Zaměstnanec dosáhl další úrovně (s první specializací)!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION_TEXT</LocID>  <Text><![CDATA[Zaměstnanec dosáhl další úrovně, je teď <i>{1}</i> a má první specializaci!\nSpecializaci je možné změnit v kartě.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION</LocID>      <Text>Zaměstnanec dosáhl další úrovně (s druhou specializací)!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</LocID> <Text><![CDATA[Zaměstnanec dosáhl další úrovně, je teď <i>{1}</i> a má druhou specializaci!\nSpecializaci je možné změnit v kartě.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE</LocID>                   <Text>Zaměstnanec nemá pracoviště.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>Zaměstnanec nemá pracoviště a nemá co dělat.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL</LocID>                  <Text>Zaměstnanec nemá požadovanou specializaci.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL_TEXT</LocID>             <Text><![CDATA[Specializace <i>{1}</i> je vyžadovaná pro zaměstnance v tomto typu místnosti.]]></Text>  </GameDBLocalizedString>
+      
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL</LocID>                      <Text>Zaměstnanci na klinice potřebují vlastní místnost.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL_TEXT</LocID>                 <Text>Zaměstnanci na klinice potřebují vlastní místnost.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED</LocID>                <Text>Zaměstnanec byl propuštěn.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED_TEXT</LocID>           <Text>Zaměstnanec opustí nemocnici, jakmile dokončí probíhající činnost.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS</LocID>   <Text>Procedury byly dokončeny.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS_TEXT</LocID><Text><![CDATA[Naplánované procedury doběhly (poslední byla <i>{1}</i>), pacient čeká na naplánování dalších vyšetření nebo na určení diagnózy.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT</LocID>   <Text>Procedury u diagnostikovaného pacienta byly dokončeny.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT_TEXT</LocID><Text><![CDATA[Naplánované procedury doběhly (poslední byla <i>{1}</i>), pacient čeká na naplánování léčby nebo na poslání domů.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED</LocID>             <Text>Pacient byl diagnostikován.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED_TEXT</LocID>        <Text>Nyní je možné naplánovat léčbu diagnózy a nebezpečných či nepříjemných symptomů.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED</LocID>     <Text>Sledovaný pacient byl diagnostikován.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED_TEXT</LocID><Text><![CDATA[Sledovanému pacientovi byla určena diagnóza: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED</LocID>       <Text>Sledovaný pacient byl vyléčen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</LocID>  <Text>Sledovaný pacient byl vyléčen a odchází domů.</Text>  </GameDBLocalizedString><!-- TODO check -->
+
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED</LocID> <Text>Test v laboratoři odhalil symptom sledovaného pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</LocID><Text><![CDATA[Test v laboratoři odhalil symptom sledovaného pacienta: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>Na monitorovaném pacientovi se objevil nový symptom.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>Na monitorovaném pacientovi se objevil nový symptom, může být v kritickém stavu.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>Na sledovaném pacientovi se objevil nový symptom.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>Na sledovaném pacientovi se objevil nový symptom, může být v kritickém stavu.</Text>  </GameDBLocalizedString>
+
+            <!-- TODO after beta: levels and first collapse -->
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING</LocID>                <Text>Pacient kolabuje.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING_TEXT</LocID>           <Text>Pacient kolabuje. Personál dělá, co může, aby pacienta stabilizoval.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING</LocID>       <Text>Sledovaný pacient kolabuje.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING_TEXT</LocID>  <Text>Sledovaný pacient kolabuje. Personál dělá, co může, aby pacienta stabilizoval.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING</LocID>      <Text>Monitorovaný pacient kolabuje.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING_TEXT</LocID><Text>Monitorovaný pacient kolabuje. Personál dělá, co může, aby pacienta stabilizoval.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID><Text>TODO.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>TODO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID>  <Text>TODO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>TODO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED</LocID>               <Text>Podmínka splněna!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED_TEXT</LocID>          <Text><![CDATA[Podmínka pro pojišťovnu je splněna: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED</LocID>              	 <Text>Skrytá vlastnost odhalena!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED_TEXT</LocID>          	 <Text><![CDATA[Vypadá to, že postava má skrytou vlastnost: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_OPEN_FOR_PATIENTS</LocID>              <Text>Na klinice začínají ordinační hodiny!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OPEN_FOR_PATIENTS_TEXT</LocID>         <Text>Na klinice začínají ordinační hodiny.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS</LocID>            <Text>Na klinice končí ordinační hodiny!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_TEXT</LocID>       <Text>Na klinice končí ordinační hodiny.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED</LocID>              <Text>Pacient dlouho čeká na postel!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED_TEXT</LocID>         <Text><![CDATA[Všechny postele pro požadovanou úroveň hospitalizace jsou plné: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION</LocID>      <Text>Pacient dlouho čeká na vyšetření!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION_TEXT</LocID> <Text><![CDATA[Vyšetření (<i>{1}</i>) má buďto zabranou místnost, nebo přetížený personál.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TREATMENT</LocID>        <Text>Pacient dlouho čeká na léčbu!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TREATMENT_TEXT</LocID>   <Text><![CDATA[Léčba (<i>{1}</i>) má buďto zabranou místnost, nebo přetížený personál.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE</LocID>             <Text>Pacient po kolapsu čeká na postel!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE_TEXT</LocID>        <Text><![CDATA[Pro danou úroveň hospitalizace není žádná volná postel: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE</LocID>    <Text>Pacienta po kolapsu nelze hospitalizovat!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE_TEXT</LocID> <Text><![CDATA[Požadovaná úroveň hospitalizace není dostupná: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT</LocID>        <Text>Pacient dlouho čeká na převoz!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_TEXT</LocID>   <Text>Je na oddělení dostatek sester a nosítek pro převoz pacientů?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF</LocID><Text>Pacient dlouho čeká na defibrilaci!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF_TEXT</LocID><Text>Je na oddělení dostatek volných sester a volných doktorů na provedení defirbilace?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE</LocID><Text>Pacient dlouho čeká na defibrilaci!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE_TEXT</LocID><Text>Je na oddělení dostatek volných sester na provedení defirbilace?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR</LocID><Text>Pacient dlouho čeká na defibrilaci!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR_TEXT</LocID><Text>Je na oddělení dostatek volných doktorů na provedení defirbilace?</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>Pacient musí být před operací hospitalizován!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>Všechny operace vyžadují hospitalizaci.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>Událost vyřešena.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>Událost se podařilo vyřešit v časovém limitu, gratulujeme!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Událost vypršela.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Událost se nepodařilo vyřešit v časovém limitu.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Pacient zemřel. :(</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>Pacient byl v kritickém stavu a i přes veškeré úsilí se ho nepodařilo zachránit. Zvládla by to efektivněji postavená nemocnice lépe?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING</LocID>           <Text>Pacient odchází.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING_TEXT</LocID>      <Text>Pacient, který se nedočkal léčby, odchází.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY</LocID>        <Text>Pacienta odvážejí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY_TEXT</LocID>   <Text>Pacient, který se nedočkal léčby, bude odvezen do jiné nemocnice.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY</LocID>            <Text>Zkolabovaného pacienta odvážejí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY_TEXT</LocID>       <Text>Pacient čekal po kolapsu příliš dlouho a bude odvezen do jiné nemocnice.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER</LocID>       <Text>Hospitalizace na JIP doběhla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER_TEXT</LocID>  <Text>Hráčův pacient byl stabilizován bude přesunut na odpovídající oddělení.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER</LocID><Text>Hospitalizace skončila.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</LocID> <Text>Hráčův pacient je vyléčen a může jít domů. Propusť pacienta ze své péče.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM</LocID><Text>Pacient leží v nefunkční místnosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM_TEXT</LocID> <Text><![CDATA[Oprav : <i>{1}</i>, jinak pacient bude převezen do jiné dostupné místosti nebo odvezen.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM</LocID>   <Text>Pacient leží ve smazané místnosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TEXT</LocID> <Text><![CDATA[Pacient bude převezen do jiné místnosti nebo jiné nemocnice.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER</LocID>   <Text>Pacient bude převezen do nové místnosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_TEXT</LocID> <Text><![CDATA[Pacientův pokoj byl smazán nebo nefunkční, proto se převeze nové : <i>{1}</i> místnosti]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT</LocID>   <Text>Pacient čeká na převoz do nové místnosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Pacientův pokoj byl smazán nebo je nefunkční, proto je potřeba pacienta převést do nové : <i>{1}</i> místnosti, ale bohužel v pokoji chybí volné postele.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY</LocID>   <Text>Pacienta odvážejí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>Pacientův pokoj byl smazán nebo nefunkční příliš dlouho, proto pacient bude odvezen.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>Achievement odemčen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>Achievement odemčen:\n{1}</Text>  </GameDBLocalizedString>
+            
+            <!-- Popup actions / buttons -->
+            <GameDBLocalizedString>      <LocID>POPUP_HIDDEN_BUTTON</LocID>                  <Text>(skryté)</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_CUSTOM_DELEGATE</LocID>                <Text>(zvláštní)</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_OK</LocID>                             <Text>Ok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_TRY</LocID>                            <Text>Ať se snaží</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_CONTINUE</LocID>                       <Text>Pokračovat</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>Otevřít kartu</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_SEND_HOME</LocID>                      <Text>Poslat domů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Přejít na pojišťovny</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
