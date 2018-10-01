@@ -4,8 +4,9 @@ The localization table is saved in plain text (XML) files, organized into differ
 
 
     Texts in the menu and main user interface
-    Medical terms used in emergency department
-    Medical terms used in orthopaedics department
+    Medical terms - diagnoses
+    Medical terms - examinations
+    Texts for tutorials and campaign
     ...
     Names and descriptions of objects you can build
 
