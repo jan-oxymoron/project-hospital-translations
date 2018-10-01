@@ -1,6 +1,8 @@
 ﻿<Database>
-    <GameDBStringTable ID="LOC_EN_HOSPITAL_DATABASE">
+    <GameDBStringTable ID="LOC_EN_CHARACTERS">
+        
         <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
 
         <Contributors>
             <Name>Oxymoron Games</Name>
@@ -168,38 +170,6 @@
             <GameDBLocalizedString>      <LocID>HOSPITALIZED</LocID>                    <Text>Hospitalized</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZING</LocID>                   <Text>Being hospitalized</Text>  </GameDBLocalizedString>
             
-            <!-- Various descriptions -->
-            <GameDBLocalizedString>      <LocID>DESC_NONE</LocID>                   	<Text>none</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEGATIVE_NO</LocID>                    	<Text>no</Text>  </GameDBLocalizedString>
- 			<GameDBLocalizedString>      <LocID>DESC_ROOM_SIZE</LocID>                  <Text>Minimal room size:</Text>  </GameDBLocalizedString>
- 			<GameDBLocalizedString>      <LocID>DESC_ROOM_EQUIPMENT</LocID>     		<Text>For required equipment click the room marker on the floor in management mode.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DESC_ROOM_LOCKED</LocID>     		    <Text>Unlocked by insurance company objectives.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>STAFF_LEVEL_DESCRIPTION</LocID>     	<Text>Determines which procedures the character can perform.</Text>  </GameDBLocalizedString>
-         
-            <!-- Insuracne objectives -->
-            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS</LocID>                <Text>Treat {1} patient(s)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREATED_IMMOBILE_PATIENTS</LocID>       <Text>Treat {1} patient(s) delivered by ambulance</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY</LocID>        <Text>Treat {1} patients per day</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_DEPARTMENT</LocID>   <Text>Treat {1} patients per day at {2}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREATMENT_SUCCESS_RATE</LocID>          <Text>Treat at least {1} patients during a day</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WORKING_ROOMS</LocID>                   <Text>Build and hire staff for {1} {2}(s)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_DEPARTMENT</LocID>    <Text>Open clinic at {1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_DEPARTMENT</LocID> <Text>Enable hospitalization at {1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NUMBER_OF_AMBULANCES</LocID>            <Text>Purchase {1} ambulance(s)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BALANCE</LocID>                         <Text>Have {1} on your account</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BANK_BALANCE</LocID>                    <Text>Have bank balance above zero</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY</LocID>                  <Text>Have profit for {1} day(s) in a row.</Text>  </GameDBLocalizedString>
-
-            <!-- Insuracne objective rewards -->
-            <GameDBLocalizedString>      <LocID>REWARD</LocID>                          <Text>Reward</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UNLOCK_ROOM</LocID>                     <Text>{1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Hospitalization at {1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>A {1} government grant</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>{1} more clinic patients per day</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>{1} more inpatients per day</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>Ambulances</Text>  </GameDBLocalizedString>
-
             <!-- Daily schedule -->
             <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_STAFF</LocID>                <Text>Day shift</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_STAFF_NIGHT</LocID>          <Text>Night shift</Text>  </GameDBLocalizedString>
