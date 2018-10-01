@@ -13,7 +13,24 @@ The localization table is saved in plain text (XML) files, organized into differ
 This will allow more people to translate one language.
 The game directly reads these XML files, so it's possible to test the changes in the game without sending the files to the developers and waiting for a new version.
 
-Some examples of the texts - the bold texts are the actual part to translate:
+File heading
+============
+This is an example for Czech. Each file has to have a unique ID (change language code!). Values that need to be filled in each file are the language code in lower case (like en, fr, pt_br etc) and localized name (that's what will show in game).
+Feel free to add you name to the list of contributors for any file you've made changes to!
+
+<Database>
+    <GameDBStringTable ID="LOC_CZ_ACHIEVEMENTS">
+        
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+
+Some examples of the texts
+==========================
 
     <GameDBLocalizedString>      <LocID>CANCEL</LocID>                    <Text>Cancel</Text>  </GameDBLocalizedString>
 
