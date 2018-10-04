@@ -1,0 +1,1 @@
+Localization files for the hungarian translation.
