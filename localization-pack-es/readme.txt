@@ -1,1 +1,1 @@
-Localization files for Spanish.
+Localización de los archivos para Español.
