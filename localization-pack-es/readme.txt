@@ -1,1 +1,1 @@
-Localización de los archivos para Español.
+LocalizaciÃ³n de los archivos para EspaÃ±ol.
