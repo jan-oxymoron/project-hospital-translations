@@ -7,6 +7,7 @@
         <Contributors>
             <Name>coermel</Name>
             <Name>Kiran Müller</Name>
+            <Name>Grundner</Name>
         </Contributors>
         
         <LocalizedStrings>
@@ -14,7 +15,7 @@
             <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Keine Abteilung</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Notaufnahme</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Intensivstation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Abteilung für Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Chirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Innere Medizin</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Orthopädie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Kardiologie</Text>  </GameDBLocalizedString>
@@ -50,9 +51,9 @@
 
             <!-- Doctor's SPECIALIZATIONS -->
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Notfallmedizin</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Die Notfallmedizin gibt den Ärzten zugriff auf spezialisierte Verfahren zur Diagnose und Behandlung von kritischen Patienten während eines Notfalls.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Fortgeschrittene Diagnoses</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Die Fortgeschrittene Diagnose gibt den Ärzten zugriff auf weitere Diagnosen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Die Notfallmedizin gibt den Ärzten Zugriff auf spezialisierte Verfahren zur Diagnose und Behandlung von kritischen Patienten während eines Notfalls.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Fortgeschrittene Diagnose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Die fortgeschrittene Diagnose gibt den Ärzten Zugriff auf weitere Diagnosen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Intensivmedizin</Text> </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Die Intensivmedizin gibt den Ärzten Zugang zu speziellen Diagnosemethoden auf der Intensivstation.</Text></GameDBLocalizedString>
             
@@ -77,12 +78,12 @@
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>Die Herzchirurgie erlaubt es dem Arzt als Operateur in der Herzchirurgie zu arbeiten und beeinflusst wie häufig es zu Komplikationen kommt.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>Neurologie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>Die Spezialisierung auf Neurologie wirf für spezielle Untersuchungen und das Anordnen von Behandlungen in der Neurologie benötigt, zudem erlaubt es dem Arzt bei Operationen zu assistieren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>Die Spezialisierung auf Neurologie wird für spezielle Untersuchungen und das Anordnen von Behandlungen in der Neurologie benötigt, zudem erlaubt es dem Arzt bei Operationen zu assistieren.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>Neurochirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>Die Neurochirurgie erlaubt es dem Arzt als Operateur in der Neurochirurgie zu arbeiten und beeinflusst wie häufig es zu Komplikationen kommt.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Anästhesie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Die Anästhesie erlaubt es dem Arzt als Anästhesist zu arbeiten und gibt kollabierten Patienten, die von diesem Arzt stablilisiert wurden, eine extra Überlebenschance. \nReduziert Todeswahrscheinlichkeit bei kollabierten Patienten. \nReduziert Postoperative Komplikationen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Die Anästhesie erlaubt es dem Arzt als Anästhesist zu arbeiten und gibt kollabierten Patienten, die von ihm stablilisiert wurden, eine extra Überlebenschance. \nReduziert Todeswahrscheinlichkeit bei kollabierten Patienten. \nReduziert Postoperative Komplikationen.</Text>  </GameDBLocalizedString>
 
             
             <!-- Nurse's QUALIFICATIONS -->
