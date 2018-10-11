@@ -1,15 +1,16 @@
 <Database>
     <GameDBStringTable ID="LOC_DE_UI">
-        
+
         <LanguageCode>de</LanguageCode>
         <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
 
         <Contributors>
+            <Name>coermel</Name>
             <Name>Pythagorion</Name>
             <Name>Kiran Müller</Name>
             <Name>Grundner</Name>
         </Contributors>
-        
+
         <LocalizedStrings>
             <!-- Menus -->
             <GameDBLocalizedString>      <LocID>QUIT</LocID>                                <Text>Schließen</Text>  </GameDBLocalizedString>
@@ -158,9 +159,9 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ADD_FAVOURITE</LocID>             		<Text>Zu Favoriten hinzufügen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_PATIENT_BALANCE</LocID>             		<Text>Patienten Guthaben</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_CLEAR_LOG</LocID>             			<Text>Lösche Benachrichtigungsprotokoll</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_OPEN_LOG</LocID>             			<Text>Öffne Benachrichtigungsprotokoll</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_CLOSE_LOG</LocID>             			<Text>Schließe Benachrichtigungsprotokoll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_CLEAR_LOG</LocID>             			<Text>Lösche Log</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_OPEN_LOG</LocID>             			<Text>Öffne Log</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_CLOSE_LOG</LocID>             			<Text>Schließe Log</Text>  </GameDBLocalizedString>
                         
             <GameDBLocalizedString>      <LocID>TOOLTIP_CENTER_CHARACTER</LocID>        	<Text>Klicke auf das Portrait um die Kamera auf diese Person zu zentrieren.</Text>  </GameDBLocalizedString>
             
@@ -297,7 +298,7 @@
             <GameDBLocalizedString>      <LocID>TREATMENT_SUCCESS_RATE</LocID>          <Text>Behandle wenigstens {1} Patienten an einem Tag</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKING_ROOMS</LocID>                   <Text>Baue und stelle Personal für {1} {2}(en) ein</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_DEPARTMENT</LocID>    <Text>Öffne {1} Krankenhaus</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_DEPARTMENT</LocID> <Text>Aktiviere die Patientenaufnahme bei {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_DEPARTMENT</LocID> <Text>Aktiviere die Patientenaufnahme in {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NUMBER_OF_AMBULANCES</LocID>            <Text>Kaufe {1} Rettungswagen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BALANCE</LocID>                         <Text>Habe {1} auf dem Konto</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BANK_BALANCE</LocID>                    <Text>Habe einen Kontostand über 0</Text>  </GameDBLocalizedString>
@@ -383,12 +384,11 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_FINISHED_TREATMENTS</LocID>             <Text>Abgeschlossene Behandlungen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_RECOMMENDED_TREATMENTS</LocID>          <Text>Empfohlene Behandlungen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TREATMENT_OPEN_TREATMENT_LIST</LocID>             <Text>Öffne Behandlungsliste</Text>  </GameDBLocalizedString>
-            
+
             <GameDBLocalizedString>      <LocID>SURGERY_REQUIRED_SKILLS</LocID>                           <Text>Benötigt Personal mit Fertigkeit:</Text>  </GameDBLocalizedString>
-            
+
             <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT</LocID>                         <Text>Abteilung wählen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_ICU</LocID>                     <Text>Patienten können nur nach Behandlung von der Intensiv entlassen werden.</Text>  </GameDBLocalizedString>
-            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_ICU</LocID>                     <Text>Patienten können erst nach Behandlung von der ITS entlassen werden.</Text>  </GameDBLocalizedString>
             <!-- Character card -->
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_DAY_SHIFT</LocID>                                 <Text>Tagschicht</Text>  </GameDBLocalizedString>
@@ -674,8 +674,8 @@
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_COLLAPSE</LocID>             <Text>Kollaps Symptome</Text>  </GameDBLocalizedString>
 
             <!-- Popups -->
-            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_LEVEL</LocID>         <Text>Umschalten ob diese Nachricht als Einblendung oder nur im Log angezeigt wird.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>POPUP</LocID>                               <Text>Einblendung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_LEVEL</LocID>         <Text>Umschalten ob diese Nachricht als Popup oder nur im Log angezeigt wird.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP</LocID>                               <Text>Popup</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOG</LocID>                                 <Text>Log</Text>  </GameDBLocalizedString>
 
             <!-- Tutorial -->
