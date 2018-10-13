@@ -1,4 +1,6 @@
-﻿<Database>
+# please proofread
+
+<Database>
     <GameDBStringTable ID="LOC_NL_EVENTS">
     
         <LanguageCode>nl</LanguageCode>
@@ -12,6 +14,7 @@
         <LocalizedStrings>
 
             <!-- Event names -->
+# events is a Dutch word as well so we leave it like that
             <GameDBLocalizedString>      <LocID>EVENT_TEST</LocID>                      <Text>Test event</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Ongeval</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_PANDEMIC</LocID>                  <Text>Epidemie</Text>  </GameDBLocalizedString>
@@ -26,7 +29,11 @@
             <GameDBLocalizedString>      <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>         <Text>Huur werknemer</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>     <Text>Houd aanzien boven {1} sterren voor {2} dagen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_HIGH_INCOME</LocID>  <Text>Houd inkomen {1} of hoger voor {2} dagen</Text>  </GameDBLocalizedString>
-        </LocalizedStrings>
+
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_COMPLETE_HOSPITALIZATION</LocID><Text>Ziekenhuisopname op alle afdelingen</Text>  </GameDBLocalizedString>
+
+	    
+	    </LocalizedStrings>
     </GameDBStringTable>
 </Database>
     
