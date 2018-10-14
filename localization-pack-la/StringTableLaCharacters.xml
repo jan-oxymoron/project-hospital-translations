@@ -2,10 +2,10 @@
     <GameDBStringTable ID="LOC_LA_CHARACTERS">
         
         <LanguageCode>la</LanguageCode>
-        <LanguageNameLocalized>Español (Latinoamérica)</LanguageNameLocalized>
+        <LanguageNameLocalized>Español Latino</LanguageNameLocalized>
 
         <Contributors>
-            <Name>Alejandro Ramírez W, </Name>
+            <Name>Alejandro Ramírez W.</Name>
         </Contributors>
         
     	<LocalizedStrings>
@@ -220,10 +220,10 @@
             <GameDBLocalizedString>      <LocID>STABILIZATION_TEXT</LocID>                          <Text>Estabilización</Text>  </GameDBLocalizedString>
 
             <!-- Patient states -->
-            <GameDBLocalizedString>      <LocID>Spawned</LocID>                                     <Text>Spawned</Text>  </GameDBLocalizedString> <!-- Pendiente de traducción-->
+            <GameDBLocalizedString>      <LocID>Spawned</LocID>                                     <Text>Generado</Text>  </GameDBLocalizedString> <!-- Pendiente de traducción-->
             <GameDBLocalizedString>      <LocID>Idle</LocID>                                        <Text>Desocupado</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>GoingToReception</LocID>                            <Text>Camino a la recepción</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>GoingToReceptionist</LocID>                         <Text>camino al recepcionista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToReceptionist</LocID>                         <Text>Camino al recepcionista</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ExaminedAtReception</LocID>                         <Text>En la recepción</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FindQueueMachine</LocID>                            <Text>Camino a la sala de espera</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>GoToQueueMachine</LocID>                            <Text>Camino a la sala de espera</Text>  </GameDBLocalizedString>
@@ -292,8 +292,8 @@
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_Leaving</LocID>                        <Text>abandonando el lugar</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_Dead</LocID>                           <Text>muerto</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT</LocID>                           <Text>Diagnósticos</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY</LocID>                           <Text>Cirugía</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT</LocID>          <Text>Diagnósticos / observación</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY</LocID>          <Text>Cirugía / trauma</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ASSIST</LocID>                    <Text>Asistente en la cirugía</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</LocID>            <Text>Anestesiólogo en la cirugía</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_CARE</LocID>                      <Text>Cuidado del paciente</Text>  </GameDBLocalizedString>
@@ -375,6 +375,17 @@
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>Realizando pruebas</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>Realizando pruebas</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>Realizando pruebas</Text>  </GameDBLocalizedString>
+            
+			 <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>HAZARD_POSITIVE</LocID>                             <Text>Positivo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_HAD_COFFEE</LocID>                              <Text>tomó café</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB_FOR_HOSPITALIZED</LocID>              <Text>Pruebas y exámenes (hospitalización)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_BREAKFAST</LocID>    <Text>Desayuno de los pacientes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_DINNER</LocID>       <Text>Cena de los pacientes</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadWaitingForTransport</LocID>  <Text>Caso perdido esperando transporte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadTransportedAway</LocID>      <Text>caso perdido transportado fuera del hospital</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadIdle</LocID>                 <Text>caso perdido transportado fuera del hospital</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>
