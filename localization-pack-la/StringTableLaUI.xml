@@ -101,6 +101,7 @@
             
             <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_DAY</LocID>                   <Text>CARGA DE TRABAJO DIURNA: </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_NIGHT</LocID>                 <Text>CARGA DE TRABAJO NOCTURNA: </Text>  </GameDBLocalizedString>
+			
             <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>...y ¡derecho hasta mañana!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE_SKIP</LocID>        	<Text>Presione ESC o haga clic derecho para cancelar.</Text>  </GameDBLocalizedString>
 
@@ -139,6 +140,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_MANAGEMENT_MISSING_STAFF</LocID>            <Text>Falta personal requerido</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_MANAGEMENT_MISSING_ROOMS</LocID>            <Text>Faltan habitaciones requeridas</Text>  </GameDBLocalizedString>
 
+			
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_FLOOR_UP</LocID>             			<Text>Subir nivel</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_FLOOR_DOWN</LocID>             		<Text>Bajar nivel</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_SELECT_FLOOR</LocID>             		<Text>Agregar nuevo nivel</Text>  </GameDBLocalizedString>
@@ -321,9 +323,9 @@
             <GameDBLocalizedString>      <LocID>MANAGEMENT_INTEREST</LocID>        	        <Text>Interés diario</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_LOAN</LocID>        	            <Text>Total Préstamo</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE</LocID>        	    <Text>Aseguradoras</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE</LocID>        	    <Text>Aseguradoras (clínica)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_SERVICES</LocID>        	        <Text>Servicios</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES</LocID>        	        <Text>Salarios</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES</LocID>        	        <Text>Salarios (clínica)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_TOTAL</LocID>        	        <Text>Total</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_ALL_TIME</LocID>      <Text>Histórico</Text>  </GameDBLocalizedString>
@@ -720,11 +722,26 @@
             <GameDBLocalizedString>      <LocID>TREATED</LocID>                             <Text>Tratados</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNTREATED</LocID>                           <Text>No tratados</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WRONGLY_DIAGNOSED</LocID>                   <Text>Tratados erróneamente</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>                       <Text>Pacientes fallecidos</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>      <Text>Pacientes fallecidos / casos perdidos</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>Utilidad diaria</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Pacientes (total/tratados)</Text>  </GameDBLocalizedString>
             
+			 <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Los eventos se desbloquearán cuando abras la hospitalización en todos los departamentos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Solicitar $20 000 prestados.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Pagar $20 000.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>Contratando agencia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE_HOSPITALIZED</LocID>   <Text>Aseguradoras (hospitalización)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES_HOSPITALIZED</LocID>       <Text>Salarios (hospitalización)<Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_BUILDING</LocID>          <Text>Construir</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_EVENTS</LocID>            <Text>Eventos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_AMBULANCES</LocID>        <Text>AmbulanciasAmbulances</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_OTHER</LocID>             <Text>Otros</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GET_GREAT_INTERNS</LocID>                   <Text>¡El (los) siguiente(s) {1} interno(s) disponible(s) para contratar, sería(n) un(os) candidato(s) grandioso(s)!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_BONUS</LocID>                         <Text>Bonificaciones por eventos:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MONEY_BONUS</LocID>                         <Text>Bonificaciones de dinero presupuestado:</Text>  </GameDBLocalizedString>
+
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
