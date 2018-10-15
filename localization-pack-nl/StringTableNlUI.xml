@@ -1,8 +1,11 @@
+<!-- added the new parts (which still need translation) as mentioned here: https://projecthospital.forumotion.eu/t577-english-localization-status#2577 -->
+<!-- the newly UPDATED parts of that post I already translated in here -->
+
+<!-- Next step: proofread and test ingame -->
+
 <Database>
-    <GameDBStringTable ID="LOC_NL_UI">
-        
-#475 still translate
-        
+    <GameDBStringTable ID="LOC_NL_UI">     
+       
         <LanguageCode>nl</LanguageCode>
         <LanguageNameLocalized>Nederlands</LanguageNameLocalized>
 
@@ -112,7 +115,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_GAME_MODE_BUTTON</LocID>            <Text>Speelmodus (F5)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_MODE_BUTTON</LocID>        <Text>Bouwmodus (F6)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_LOGISTICS_MODE_BUTTON</LocID>       <Text>Management modus (F7)</Text>  </GameDBLocalizedString>
-# Events is also a Dutch word so OK like this
+<!-- Events is also a Dutch word so OK like this -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_MODE_BUTTON</LocID>          <Text>Events</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_MAIN_MENU_BUTTON</LocID>            <Text>Hoofdmenu</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TUTORIAL</LocID>                    <Text>Tutorial</Text>  </GameDBLocalizedString>
@@ -563,8 +566,7 @@
 
             <GameDBLocalizedString>      <LocID>NURSES</LocID>                                             <Text>Verplegers</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECH_CARDIO</LocID>                                    <Text>Cardio laborant</Text>  </GameDBLocalizedString>
-#find out what USG actuall is
-            <GameDBLocalizedString>      <LocID>LAB_TECH_USG</LocID>                                       <Text>Urine onderzoeker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECH_USG</LocID>                                       <Text>USG laborant</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGEONS</LocID>                                           <Text>Chirurgen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ANESTHESIOLOGISTS</LocID>                                  <Text>Anesthesisten</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGERY_NURSES</LocID>                                     <Text>Chirurgische verplegers</Text>  </GameDBLocalizedString>
@@ -585,8 +587,7 @@
             <GameDBLocalizedString>      <LocID>NURSE_DESCRIPTION</LocID>                                  <Text>Verpleger in verpleegpost met kwalificatie </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO</LocID>                            <Text>Cardio laborant</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO_DESCRIPTION</LocID>                <Text>Laborant die onderzoeksapparatuur bedient gerelateerd aan</Text>  </GameDBLocalizedString>
-#find out if USG is well translated
-            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG</LocID>                               <Text>Urine onderzoeker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG</LocID>                               <Text>USG laborant</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG_DESCRIPTION</LocID>                   <Text>Laborant die onderzoeks- en behandelingsapparatuur bedient gerelateerd aan</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGEON</LocID>                                            <Text>Chirurg</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGEON_DESCRIPTION</LocID>                                <Text>Dienstdoende dokter, gespecialiseerd in </Text>  </GameDBLocalizedString>
@@ -653,7 +654,7 @@
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_PROBABILITY</LocID>         <Text>Waarschijnlijkheid</Text>  </GameDBLocalizedString> 
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_TERM</LocID>                <Text>Termijn</Text>  </GameDBLocalizedString> 
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_DEPARTMENT</LocID>          <Text>Afdeling</Text>  </GameDBLocalizedString> 
-#find out context of duration and term
+<!--  find out context of duration and term -->
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_DURATION</LocID>            <Text>Duration</Text>  </GameDBLocalizedString> 
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_VACCINATION</LocID>         <Text>Vaccinatie</Text>  </GameDBLocalizedString> 
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_INSURANCE</LocID>           <Text>Verzekering</Text>  </GameDBLocalizedString> 
@@ -729,10 +730,53 @@
             <GameDBLocalizedString>      <LocID>TREATED</LocID>                             <Text>Behandeld</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNTREATED</LocID>                           <Text>Onbehandeld</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WRONGLY_DIAGNOSED</LocID>                   <Text>Verkeerd gediagnostiseerd</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>                       <Text>Overleden patiënten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>                       <Text>Overleden patiënten / verloren zaken</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>Dagelijkse winst</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Patiënten (totaal/behandeld)</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events komen beschikbaar als je opnames kunt toelaten op alle afdelingen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Lening $20 000.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Terugbetalen $20 000.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>Uitzendburo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE_HOSPITALIZED</LocID>   <Text>Verzekering (ziekenhuisopname)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES_HOSPITALIZED</LocID>       <Text>Lonen (ziekenhuisopname)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_BUILDING</LocID>          <Text>Bouwen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_EVENTS</LocID>            <Text>Events</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_AMBULANCES</LocID>        <Text>Ambulances</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_OTHER</LocID>             <Text>Overig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GET_GREAT_INTERNS</LocID>                   <Text>Volgende {1} beschikbare in te huren stagiaires zullen goeie kandidaten zijn!!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_BONUS</LocID>                         <Text>Bonus van events:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_TOTAL_STAFF</LocID>      <Text>Aangenomen personeel / algemene limiet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MONEY_BONUS</LocID>                         <Text>Bonus budget geld:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SANDBOX</LocID>                             <Text>SANDBOX</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN</LocID>                            <Text>CAMPAGNE</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOAD_MAIN_MENU</LocID>                      <Text>LADEN</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS</LocID>                             <Text>OPTIES</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP</LocID>                            <Text>WORKSHOP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CREDITS</LocID>                             <Text>CREDITS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_GAME</LocID>                           <Text>EXIT SPEL</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BACK</LocID>                                <Text>TERUG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SANDBOX_EMPTY_FIELDS</LocID>                <Text>Lege velden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SANDBOX_HOSPITALS</LocID>                   <Text>Ziekenhuizen en klinieken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_MAIN_CAMPAIGN</LocID>              <Text>Campagne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_CHALLENGES</LocID>                 <Text>Challenges</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PRESTIGE</LocID>                            <Text>Bereik {1}% prestige aan het einde van de dag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_DEPARTMENT</LocID>              <Text>Bereik {1}% prestige aan het einde van de dag op {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY_AT_DEPARTMENT</LocID>        <Text>Bereik ${1} dagelijkse winst op {2}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>AMBULANCE_NAME</LocID>                      <Text>Ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AMBULANCE_MAINTENANCE</LocID>               <Text>Onderhoud:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AMBULANCE_ER_CALLS</LocID>                  <Text>Eerste hulp oproepen:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_AMBULACE_STOP_START</LocID>         <Text>Schakel EH oproepen Uit / Aan</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_HOSPITALIZED</LocID> <Text>Opgenomen patiënten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_CLINIC</LocID>       <Text>Patiënten in kliniek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_BOOKMARKED</LocID>   <Text>Favoriete patiënten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_UNTREATED</LocID>    <Text>Niet geholpen patiënten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_ALL</LocID>          <Text>Alle patiënten</Text>  </GameDBLocalizedString>            
+            
             
         </LocalizedStrings>
     </GameDBStringTable>
