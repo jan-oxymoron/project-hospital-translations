@@ -169,10 +169,10 @@
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>Event successful.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>You were able to complete the event in time. Congratulations!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID><Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Event failed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>You were not able to complete the event in time. Don't be sad and try again!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>You were not able to complete the event in time. Your prestige dropped for this day or until you successfully complete an event.\nYou are also given money penalty: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Patient died. :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>Patient's condition was critical and despite your doctor's best efforts they couldn't be saved. Would a more efficient hospital handle this case better?</Text>  </GameDBLocalizedString>
@@ -229,7 +229,8 @@
 
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>You lost a case! :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>Patient's condition is critical and despite your doctor's best efforts the situation got out of control. The patient needs to be immediately transported to a better-equipped facility.</Text>  </GameDBLocalizedString>
-            
+            <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>You were able to complete the event in time. You gained prestige boost for this day and a money reward. Congratulations! \n\nSuccessful events in row: {1}\nMoney reward: ${2}</Text>  </GameDBLocalizedString>
+
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
