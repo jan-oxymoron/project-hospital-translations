@@ -9,6 +9,7 @@
             <Name>Kiran Müller</Name>
             <Name>Stephan Bresnahan</Name>
             <Name>Grundner</Name>
+            <Name>Noah Sp</Name>
         </Contributors>
         
         <LocalizedStrings>
@@ -172,10 +173,10 @@
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>Ereignis abgeschlossen.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>Du hast das Ereignis rechtzeitig abgeschlossen. Herzlichen Glückwunsch!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Ereignis fehlgeschlagen.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Du hast das Ereignis nicht rechtzeitig abgeschlossen. Sei nicht traurig und versuch es erneut!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Du hast das Ereignis nicht rechtzeitig abgeschlossen. Dein Ansehen fällt für diesen Tag. Es sei denn, du schaffst erfolgreich ein Ereignis!\nDu musst außerdem eine Geldstrafe von ${1} erhalten.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Patient gestorben!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>Der Zustand des Patienten war kritisch und trotz der Bemühungen der Ärzte konnte der Patient nicht gerettet werden. Hätte ein besser organisiertes Krankenhaus den Patienten retten können?</Text>  </GameDBLocalizedString>
@@ -216,6 +217,14 @@
             <GameDBLocalizedString>      <LocID>NOTIF_STAFF_EXHAUSTED</LocID>                <Text>Mitarbeiter erschöpft!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_STAFF_EXHAUSTED_TEXT</LocID>           <Text>Die Mitarbeiter müssen am Tag mehrere Pausen einlegen!</Text>  </GameDBLocalizedString>
 
+            <!-- Selber von Noah51 hinzugefügt, zeilen hier nicht gefunden? -->
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>You lost a case! :(</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>Patient's condition is critical and despite your doctor's best efforts the situation got out of control. The patient needs to be immediately transported to a better-equipped facility.</Text>  </GameDBLocalizedString>
+            
+            <!-- NEU HINZUGEFÜGT -->
+            <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>You were able to complete the event in time. You gained prestige boost for this day and a money reward. Congratulations! \n\nSuccessful events in row: {1}\nMoney reward: ${2}</Text>  </GameDBLocalizedString>
+            
             <!-- Popup actions / buttons -->
             <GameDBLocalizedString>      <LocID>POPUP_HIDDEN_BUTTON</LocID>                  <Text>(versteckt)</Text>  </GameDBLocalizedString>     
             <GameDBLocalizedString>      <LocID>POPUP_CUSTOM_DELEGATE</LocID>                <Text>(benutzerdefiniert)</Text>  </GameDBLocalizedString>     

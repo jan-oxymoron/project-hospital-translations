@@ -190,15 +190,14 @@
             <!--CAMPAIGN 03-->
             <!-- ========= -->
             <GameDBLocalizedString>      <LocID>CAMPAIGN_03_WELCOME</LocID>                         <Text>Hi boss, this is our most functional hospital we have. Yes some things need to improve as always. We also need to show that our medical company can really give patients more then MeDevilCare. And we just found a way.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_STATE_SUPPORT</LocID>                   <Text>State is looking to invest into the best medical company around. And with that grand and your skills we can really make a difference.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_MONEY_OBJECTIVE</LocID>                 <Text>You have shown that you can run an efficient hospital that can earn money. And that is one way to be considered for the grant. To earn big amount of money over a period of time. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_STATE_SUPPORT</LocID>                   <Text>State is looking to invest into the best medical company around. And with that grand and your skills we can really make a difference. There are 3 things they will be considering.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_MONEY_OBJECTIVE</LocID>                 <Text>You have shown that you can run an efficient hospital that can earn money. And that is one of the ways to be considered for the grant. To earn big amount of money over a period of time. </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CAMPAIGN_03_PRESTIGE_OBJECTIVE</LocID>              <Text>The other is much harder but also more rewarding and that is keeping a prestige up over a period of time. That means keeping patients and staff happy, even if that means sacrificing money sometimes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_HOSPITALIZATION_OBJECTIVE</LocID>       <Text>The last one is to make hospitalization operational on all departments so we can treat every disease and injury out there. Good news is that we only need to achieve two out of those three criteria to succeed.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CAMPAIGN_03_EVENTS_BOOST</LocID>                    <Text>As before you can use events as a way to boost your prestige and money income.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TASK</LocID>                            <Text>How you choose to approach this challenge is up to you. We wish you good luck and may the best win.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_PRESTIGE_OBJECTIVE_DONE</LocID>         <Text>Congratulations, you have done it. Our company was chosen for the grant thanks to you. And you showed us that you care about your hospital, staff and patients. Keep up the good work.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_MONEY_OBJECTIVE_DONE</LocID>            <Text>Congratulations, you have done it. Our company was chosen for the grant thanks to you. You may have chosen the way we did not expect, but we can't argue with the result. Try to keep up the good work.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_SECRET_OBJECTIVE</LocID>                <Text>Unbelievable, you have managed to meet both conditions. You really are the best. Congratulations, you have won.</Text>  </GameDBLocalizedString>
-
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TWO_OBJECTIVES_DONE</LocID>             <Text>Congratulations, you have done it. Our company was chosen for the grant thanks to you. Now we can start helping even more people. Keep up the good work.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_SECRET_OBJECTIVE</LocID>                <Text>Unbelievable, you have managed to meet all conditions. You really have extraordinary skills when it comes to running a hospital. Congratulations, you have won.</Text>  </GameDBLocalizedString>
 
             <!-- ============== -->
             <!--INGAME TUTORIALS-->
@@ -295,7 +294,7 @@
 
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION</LocID>                <Text>Satisfaction</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_CARD</LocID>           <Text><![CDATA[Click on patient or staff card. <b><i>Satisfaction</i></b> is in the right upper corner.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_INFO</LocID>           <Text><![CDATA[Satisfaction represent mood of certain character, hover  mouse over the icon and see all <b><i>modifiers</i></b>.\n\nTip: basic needs are shown above.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_INFO</LocID>           <Text><![CDATA[Satisfaction represent mood of certain character, hover mouse over the icon and see all <b><i>modifiers</i></b>.\n\nTip: basic needs are shown above.]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_HUNGER</LocID>         <Text><![CDATA[<b><i>Hunger</i></b>, make sure you have enough vending machines and dispensers, your staff has fridge in common room, and you have enough nurses to deliver food for hospitalized patients.]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_BLADDER</LocID>        <Text><![CDATA[<b><i>Bladder</i></b>, you should have enough toilets in sufficient distance for your characters.]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_REST</LocID>           <Text><![CDATA[<b><i>Rest</i></b>, make sure that your staff is not overload by work, have a common room to rest and enough coffee.]]></Text>  </GameDBLocalizedString>
@@ -329,7 +328,15 @@
             <GameDBLocalizedString>      <LocID>EVENT_HEAT</LocID>                                  <Text>A particularly strong heatwave has hit our city. Heart problems, lack of drinking water and spoiled food are the most common causes for ambulance calls in this period.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_STOCK_EXCHANGE</LocID>                        <Text>Crash on the stock exchange! Rescuers have seen an unusually high amount of suicide attempts, brain and heart problems.</Text>  </GameDBLocalizedString>
 
+
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD</LocID>                	<Text>Workload</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_FIND</LocID>           	<Text><![CDATA[Select <b><i>management mode</i></b>. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS</LocID>           	<Text><![CDATA[In certain rooms you can see <b><i>workload value</i></b>, representing work of last 24h. 0% means that staff had nothing to do, 100% means that staff is overloaded by work.\n\nTip: an ideal number is different for each type of room.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_LABS</LocID>         		<Text><![CDATA[Labs has no workload value, but <b><i>number of samplings</i></b> waiting for the exam tests.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_WAITING</LocID>        	<Text><![CDATA[Waiting rooms also has no workload value, but number of <b><i>waiting patients</i></b>.]]></Text>  </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
-</Database>
-    
+</Database> 
