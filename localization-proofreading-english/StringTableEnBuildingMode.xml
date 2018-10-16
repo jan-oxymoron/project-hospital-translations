@@ -17,11 +17,11 @@
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GREEN_LINE</LocID>      		            <Text>Thick colored line</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLUE_LINE</LocID>      		            <Text>Thin colored line</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_APRICOT</LocID>                  <Text>Colored tiles</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_BEIGE</LocID>                    <Text>Lightly colored tiles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_BEIGE</LocID>                    <Text>Light tinted tiles</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_TINY</LocID>                     <Text>Small white ceramic tiles</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED</LocID>               		<Text>Medium white ceramic tiles</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED_COLOR</LocID>                <Text>Colored medium tiles</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED_AMAZON</LocID>               <Text>Lightly colored medium tiles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED_AMAZON</LocID>               <Text>Light tinted medium tiles</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_FILLED</LocID>      		    	<Text>Fully colored medium tiles</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE</LocID>      			            <Text>White floor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLACK</LocID>     			            <Text>Black floor</Text>  </GameDBLocalizedString>
@@ -132,32 +132,32 @@
             <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_ELEVATOR</LocID>                     	<Text>Metal sliding doors</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING</LocID>                           <Text>Waiting room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING_DESCRIPTION</LocID>               <Text>Waiting rooms should be placed within reach of GP offices, laboratories and radiology rooms.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING_DESCRIPTION</LocID>               <Text>Waiting rooms should be placed within reach of each office, lab and radiology room.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE</LocID>                    <Text>Doctor's office</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE_DESCRIPTION</LocID>        <Text>Basic clinical office for simple examinations and treatments. Staff requirements:\n1x Doctor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM</LocID>                       <Text>Common room</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM_DESCRIPTION</LocID>           <Text>The common room is the place for hospital staff to rest, study and eat.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION</LocID>                         <Text>Reception</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION_DESCRIPTION</LocID>             <Text>The reception ensures that patients get triaged correctly upon arrival. \n\nMin. Staff requirements: \n1x Nurse - Receptionist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION_DESCRIPTION</LocID>             <Text>The reception ensures that patients get triaged correctly upon arrival, so patients with high risk get prioritized during their visit.\n\nMin. Staff requirements: \n1x Nurse - Receptionist</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR</LocID>                          <Text>Corridor</Text>   </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR_DESCRIPTION</LocID>              <Text>Mark corridors as this room type to assign the area and equipment to a department and enable automatic lights and janitor's cleaning service.  \n\nMin. Staff requirements: \nNone</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB</LocID>                          <Text>STAT Lab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB</LocID>                          <Text>STAT Lab</Text>  </GameDBLocalizedString> <!-- Lab at Emergency -->
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_DESCRIPTION</LocID>              <Text>The STAT laboratory provides a wide variety of tests to confirm different diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS</LocID>                       <Text>Surgery Lab</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS_DESCRIPTION</LocID>           <Text>The surgical laboratory provides a wide variety of tests to confirm different surgical diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM</LocID>                       <Text>Med Lab</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM_DESCRIPTION</LocID>           <Text>The med laboratory provides a wide variety of laboratory tests to confirm different common medical diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT</LocID>                       <Text>Orthopaedic Lab</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT_DESCRIPTION</LocID>           <Text>The orthopaedic laboratory provides a wide variety of tests to confirm different orthopaedic diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR</LocID>                      <Text>Cardiology Lab</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR_DESCRIPTION</LocID>          <Text>The cardiology laboratory provides a wide variety of tests to confirm different cardiology diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE</LocID>                       <Text>Neurology Lab</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE_DESCRIPTION</LocID>           <Text>The neurology laboratory provides a wide variety of tests to confirm different neurology diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS</LocID>                       <Text>Surgery Lab</Text>  </GameDBLocalizedString> <!-- Lab at General surgery -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS_DESCRIPTION</LocID>           <Text>The surgical laboratory provides a wide variety of tests to confirm different diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM</LocID>                       <Text>Med Lab</Text>  </GameDBLocalizedString> <!-- Lab at Internal medicine -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM_DESCRIPTION</LocID>           <Text>The med laboratory provides a wide variety of laboratory tests to confirm different diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT</LocID>                       <Text>Orthopaedic Lab</Text>  </GameDBLocalizedString> <!-- Lab at Orthopaedy -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT_DESCRIPTION</LocID>           <Text>The orthopaedic laboratory provides a wide variety of tests to confirm different diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR</LocID>                      <Text>Cardiology Lab</Text>  </GameDBLocalizedString> <!-- Lab at Cardiology -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR_DESCRIPTION</LocID>          <Text>The cardiology laboratory provides a wide variety of tests to confirm different diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE</LocID>                       <Text>Neurology Lab</Text>  </GameDBLocalizedString> <!-- Lab at Neourology -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE_DESCRIPTION</LocID>           <Text>The neurology laboratory provides a wide variety of tests to confirm different diagnoses.\nMin. Staff requirements:\n1x Technologist - Biochemist</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM</LocID>                        <Text>X-ray room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM_DESCRIPTION</LocID>            <Text>The X-ray room provides X-ray imaging \n\nMin. Staff requirements: \n1x Technologist - Radiologist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM_DESCRIPTION</LocID>            <Text>The X-ray room provides X-ray imaging of different parts of human body, depicting structures beneath the skin and muscles.\n\nMin. Staff requirements: \n1x Technologist - Radiologist</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM</LocID>                           <Text>CT room</Text>    </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM_DESCRIPTION</LocID>               <Text>CT, short for 'Computed tomography', is a sophisticated x-ray imaging technique for creating high resolution images. \n\nMin. Staff requirements: \n1x Technologist - Radiologist</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM</LocID>                          <Text>MRI room</Text>   </GameDBLocalizedString>
@@ -762,9 +762,6 @@
             <GameDBLocalizedString>      <LocID>BUILDING_CREATE_FLOOR</LocID>                       <Text>Add new floor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BUILDING_CREATE_FOUNDATIONS</LocID>                 <Text>Build foundations</Text>  </GameDBLocalizedString>
 
-            <!-- ============= newly added objects ================== -->
-
-
             <!-- ============= DEPRECATED ================== -->
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSERY_ROOM</LocID>                      <Text>DEPRECATED</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSERY_ROOM_DESCRIPTION</LocID>          <Text>DEPRECATED</Text>  </GameDBLocalizedString>
@@ -773,6 +770,17 @@
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_EQUIPMENT_STORAGE</LocID>                 <Text>DEPRECATED</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_EQUIPMENT_STORAGE_DESCRIPTION</LocID>     <Text>DEPRECATED</Text>  </GameDBLocalizedString>
 
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>OBJECT_DESK_FLOWER</LocID>                 			<Text>Flower</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESK_FLOWER_DESCRIPTION</LocID>     			<Text>Decorating flower for offices and waiting rooms.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_MACHINE</LocID>                 		<Text>Coffee machine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_MACHINE_DESCRIPTION</LocID>     		<Text>Coffe machine, reduces hunger and exhaustion.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PALM</LocID>                 				<Text>Palm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PALM_DESCRIPTION</LocID>     				<Text>Palm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_SMALL</LocID>                 	<Text>Street lamp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_SMALL_DESCRIPTION</LocID>     	<Text>Smaller street lamp, suitable for pathways.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_INFO</LocID>             <Text>Reception desk middle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_INFO_DESCRIPTION</LocID> <Text>Mandatory equipment for receptions. A PC placed on top will create a workspace for one receptionist nurse.</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
