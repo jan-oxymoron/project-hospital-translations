@@ -170,13 +170,13 @@
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>Evento exitoso.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>Lograste completar el evento a tiempo. ¡Felicitaciones!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>{1}</Text>  </GameDBLocalizedString> <!--Lograste completar el evento a tiempo. ¡Felicitaciones!-->
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Evento fallado.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>No lograste completar el evento a tiempo. No estés triste, ¡Inténtalo de nuevo!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>No lograste completar el evento a tiempo. Tu prestigio se verá disminuido por hoy o hasta que completes exitosamente un evento. \nTambién serás penalizado con una multa de: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Murió paciente. :(</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>La condición del paciente era crítica y pese al esfuerzo tus doctores no pudieron salvarlo. ¿Un hospital más eficiente ¿prdría haber tratado mejor su caso?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>La condición del paciente era crítica y pese al esfuerzo tus doctores no pudieron salvarlo. ¿Un hospital más eficiente podría haber tratado mejor su caso?</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING</LocID>           <Text>Paciente deja el hospital.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING_TEXT</LocID>      <Text>Paciente que no pudo ser tratado se va del hospital.</Text>  </GameDBLocalizedString>
@@ -230,6 +230,7 @@
 
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>¡Perdiste un caso! :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>La condición del paciente es crítica y a pesar de los esfuerzos de tus médicos, la situación se salió de control. El paciente debe ser transportado inmediatamente a instalaciones mejores equipadas.</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>Pudiste completar el evento a tiempo. Ganaste prestigio por hoy y una recompensa en dinero. ¡Felicitaciones! \n\nEventos exitosos en línea: {1}\nRecompensa en dinero: ${2}</Text>  </GameDBLocalizedString>
 			
         </LocalizedStrings>
     </GameDBStringTable>
