@@ -734,7 +734,7 @@
             <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>                       <Text>Tote Patienten</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>Täglicher Profit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Patienten (insgesammt/behandelt)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Patienten (insgesamt/behandelt)</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Ereignisse werden freigeschaltet, sobald die Stationen in allen Abteilungen geöffnet wurden.</Text>  </GameDBLocalizedString>
@@ -760,88 +760,91 @@
             <GameDBLocalizedString>      <LocID>EXIT_GAME</LocID>                           <Text>SPIEL VERLASSEN</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BACK</LocID>                                <Text>ZURÜCK</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SANDBOX_EMPTY_FIELDS</LocID>                <Text>FREIE FLÄCHEN</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SANDBOX_HOSPITALS</LocID>                   <Text>KRAKENHÄUSER UND PRAXEN</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SANDBOX_HOSPITALS</LocID>                   <Text>KRAKENHÄUSER UND AMBULANZEN</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CAMPAIGN_MAIN_CAMPAIGN</LocID>              <Text>Kampagne</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_CHALLENGES</LocID>                 <Text>Herausvorderungen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_CHALLENGES</LocID>                 <Text>Herausforderungen</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>PRESTIGE</LocID>                            <Text>Erreiche am Ende des Tages ein Ansehen von {1}%. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_DEPARTMENT</LocID>              <Text>Erreiche am Ende des Tages ein Ansehen von {1}% in der Abteilung {2}.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY_AT_DEPARTMENT</LocID>        <Text>Erreiche ein täglichen Gewinn von ${1} in der Abteilung {2}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_DEPARTMENT</LocID>              <Text>Erreiche am Ende des Tages ein Ansehen von {1}% in der Abteilung: {2}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY_AT_DEPARTMENT</LocID>        <Text>Erreiche ein täglichen Gewinn von ${1} in der Abteilung: {2}.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>AMBULANCE_NAME</LocID>                      <Text>Krankenwagen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AMBULANCE_NAME</LocID>                      <Text>Rettungswagen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>AMBULANCE_MAINTENANCE</LocID>               <Text>Instandhaltung:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>AMBULANCE_ER_CALLS</LocID>                  <Text>Notrufe:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_AMBULACE_STOP_START</LocID>         <Text>Deaktiviere / aktiviere Notrufe</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_HOSPITALIZED</LocID> <Text>Stationierte Patienten</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_CLINIC</LocID>       <Text>Praxispatienten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_CLINIC</LocID>       <Text>Ambulanze Patienten</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_BOOKMARKED</LocID>   <Text>Markierte Patienten</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_UNTREATED</LocID>    <Text>Unbehandelte Patienten</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_ALL</LocID>          <Text>Alle Patienten</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>SCENARIO_OPTIONS</LocID>                    <Text>Szenario optionen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ALLOW_DEATH</LocID>                         <Text>Patienten können sterben</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIO_OPTIONS</LocID>                    <Text>Szenario Optionen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOW_DEATH</LocID>                         <Text>Tode aktivieren</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_ALL</LocID>                          <Text>Schalte alle Abteilungen frei</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FREE_BUILDING</LocID>                       <Text>Freies Bauen</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>EXAMINATION_LEGEND</LocID>                  <Text>Farblegende Untersuchungen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXAMINATION_AVAILABLE_TEXT</LocID>          <Text>Kann geplant oder hingeworfen werden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXAMINATION_AVAILABLE_TEXT</LocID>          <Text>Kann geplant oder verworfen werden</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXAMINATION_NOT_AVAILABLE_TEXT</LocID>      <Text>Nicht verfügbar</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXAMINATION_IN_PROGRESS_TEXT</LocID>        <Text>In bearbeitung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXAMINATION_IN_PROGRESS_TEXT</LocID>        <Text>In Bearbeitung</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXAMINATION_FINISHED_NOTHING_TEXT</LocID>   <Text>Abgeschlossen, hat nichts offenbart</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXAMINATION_FINISHED_FOUND_TEXT</LocID>     <Text>Abgeschlossen, zeigte ein oder mehrere Symptome</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TREATMENT_LEGEND</LocID>                    <Text>Farblegende Behandlungen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREATMENT_AVAILABLE_TEXT</LocID>            <Text>Kann geplant oder hingeworfen werden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_AVAILABLE_TEXT</LocID>            <Text>Kann geplant oder verworfen werden</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATMENT_NOT_AVAILABLE_TEXT</LocID>        <Text>Nicht verfügbar</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATMENT_IN_PROGRESS_TEXT</LocID>          <Text>Aktiv</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATMENT_FINISHED</LocID>                  <Text>Abgeschlossen</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>SYMPTOMS_LEGEND</LocID>                     <Text>Farblegende Symptome</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_HIDDEN</LocID>                     <Text>Versteckt</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYMPTOMS_COLLAPSE</LocID>                   <Text>Hat einen Zusammenbruch verursacht</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_COLLAPSE</LocID>                   <Text>Hat einen Kollaps verursacht</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_HIGH</LocID>                       <Text>Hohe Gefahr</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_MEDIUM</LocID>                     <Text>Mittlere Gefahr</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_LOW</LocID>                        <Text>Geringe Gefahr</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_SUPPRESSED</LocID>                 <Text>unterdrückt</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01</LocID>                  <Text>Herausvorderung 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01</LocID>                  <Text>Herausforderung 1</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION</LocID>      <Text>Notfall</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02</LocID>                  <Text>Herausvorderung 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02</LocID>                  <Text>Herausforderung 2</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION</LocID>      <Text>Allgemeine Chirurgie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03</LocID>                  <Text>Herausvorderung 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03</LocID>                  <Text>Herausforderung 3</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION</LocID>      <Text>Innere Medizin</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04</LocID>                  <Text>Herausvorderung 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04</LocID>                  <Text>Herausforderung 4</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION</LocID>      <Text>Orthopädie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05</LocID>                  <Text>Herausvorderung 5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05</LocID>                  <Text>Herausforderung 5</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION</LocID>      <Text>Kardiologie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06</LocID>                  <Text>Herausvorderung 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06</LocID>                  <Text>Herausforderung 6</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION</LocID>      <Text>Neurologie</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64</LocID>                  <Text>LEERES FELD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64</LocID>                  <Text>LEERES FELD A</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96</LocID>                  <Text>LEERES FELD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96</LocID>                  <Text>LEERES FELD A</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64</LocID>                  <Text>LEERES FELD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64</LocID>                  <Text>LEERES FELD B</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96</LocID>                  <Text>LEERES FELD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96</LocID>                  <Text>LEERES FELD B</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64</LocID>                  <Text>LEERES FELD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64</LocID>                  <Text>LEERES FELD C</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96</LocID>                  <Text>ELEERES FELD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96</LocID>                  <Text>LEERES FELD C</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A</LocID>            <Text>PRAXIS</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>Eine kleine Notfallpraxis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A</LocID>            <Text>AMBULANZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>Eine kleine Ambulanz</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B</LocID>            <Text>KLEINES KRANKENHAUS</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>Ein kleines Krankenhaus mit Allgemeiner Chiruge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>Ein kleines Krankenhaus mit Allgemeiner Chirugie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C</LocID>            <Text>KLEINES KRANKENHAUS</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>Ein kleines Krankenhaus mit Orthopädie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>MITTLERES KRANKENHAUS</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>Ein kleines Krankenhaus mit Allgemeiner- und Inneren Medizin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>Ein mittleres Krankenhaus mit Allgemeiner- und Inneren Medizin</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E</LocID>            <Text>MITTLERES KRANKENHAUS</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>in kleines Krankenhaus mit Orthopädie, Allgemeiner- und Inneren Medizin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>Ein mittleres Krankenhaus mit Orthopädie, Allgemeiner- und Inneren Medizin</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>GROSSES KRANKENHAUS</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>Mit allem Abteilungen!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>AUTOSAVE_ENABLED</LocID><Text>Automatisch Speichern</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AUTOSAVE_EVERY_HOUR</LocID><Text>Jede Stunde speichern</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
