@@ -1,6 +1,8 @@
 <!-- added the new parts (which still need translation) as mentioned here: https://projecthospital.forumotion.eu/t577-english-localization-status#2577 -->
 <!-- the newly UPDATED parts of that post I already translated in here -->
 
+<!-- 16-10-2018 Added the new and updated things as mentioned here: https://projecthospital.forumotion.eu/t577-english-localization-status#2785 -->
+
 <!-- Next step: proofread and test ingame -->
 
 <Database>
@@ -63,13 +65,13 @@
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_03</LocID>                    <Text>KLEIN ZIEKENHUIS</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_03_DESCRIPTION</LocID>        <Text>Sla het bouwen over en stap direct in de schoenen van de dokter. Focus je op de medische aspecten van het spel of maak dit ziekenhuis nog groter en efficiënter!</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW</LocID>                      <Text>Nieuw...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE</LocID>                     <Text>Opslaan...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD</LocID>                     <Text>Laden...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW</LocID>                      <Text>NIEUW SPEL</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE</LocID>                     <Text>SPEL OPSLAAN</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD</LocID>                     <Text>SPEL LADEN</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_SCENARIO</LocID>                       <Text>Scenario opslaan</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOAD_SCENARIO</LocID>                       <Text>Scenario laden</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BACK_TO_GAME</LocID>                        <Text>Terug naar spel</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>                        <Text>Terug naar menu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BACK_TO_GAME</LocID>                        <Text>NAAR SPEL</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>                        <Text>NAAR MENU</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>Nieuw spel</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>Spel opslaan</Text>  </GameDBLocalizedString>
@@ -157,7 +159,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ZOOM_IN</LocID>             			<Text>Inzoomen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ZOOM_OUT</LocID>             			<Text>Uitzoomen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_LOGISTICS</LocID>         <Text>Toon transparante objecten in management modus</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_DOORS</LocID>             <Text>Toon transparante deuren en ramen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_DOORS</LocID>             <Text>Toon transparante deuren, ramen, liften en ambulances</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ADD_FAVOURITE</LocID>             		<Text>Toevoegen aan favorieten</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_PATIENT_BALANCE</LocID>             		<Text>Patiënt balans</Text>  </GameDBLocalizedString>
 
@@ -735,7 +737,6 @@
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>Dagelijkse winst</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Patiënten (totaal/behandeld)</Text>  </GameDBLocalizedString>
 
-            <!-- ============= NEW, NEED TRANSLATING ================== -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events komen beschikbaar als je opnames kunt toelaten op alle afdelingen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Lening $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Terugbetalen $20 000.</Text>  </GameDBLocalizedString>
@@ -777,6 +778,71 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_UNTREATED</LocID>    <Text>Niet geholpen patiënten</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_ALL</LocID>          <Text>Alle patiënten</Text>  </GameDBLocalizedString>            
             
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+           <GameDBLocalizedString>      <LocID>SCENARIO_OPTIONS</LocID>                    <Text>Scenario options</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>ALLOW_DEATH</LocID>                         <Text>Patients can die</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>UNLOCK_ALL</LocID>                          <Text>Unlock all departments</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>FREE_BUILDING</LocID>                       <Text>Free building</Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>      <LocID>EXAMINATION_LEGEND</LocID>                  <Text>Examination color guide</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>EXAMINATION_AVAILABLE_TEXT</LocID>          <Text>Can be planned or cancelled</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>EXAMINATION_NOT_AVAILABLE_TEXT</LocID>      <Text>Not available</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>EXAMINATION_IN_PROGRESS_TEXT</LocID>        <Text>In progress</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>EXAMINATION_FINISHED_NOTHING_TEXT</LocID>   <Text>Finished, did not reveal anything</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>EXAMINATION_FINISHED_FOUND_TEXT</LocID>     <Text>Finished, revealed one or more symptoms</Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>      <LocID>TREATMENT_LEGEND</LocID>                    <Text>Treatment color guide</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>TREATMENT_AVAILABLE_TEXT</LocID>            <Text>Can be planned or cancelled</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>TREATMENT_NOT_AVAILABLE_TEXT</LocID>        <Text>Not available</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>TREATMENT_IN_PROGRESS_TEXT</LocID>          <Text>Active</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>TREATMENT_FINISHED</LocID>                  <Text>Finished</Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>      <LocID>SYMPTOMS_LEGEND</LocID>                     <Text>Symptom color guide</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>SYMPTOMS_HIDDEN</LocID>                     <Text>Hidden</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>SYMPTOMS_COLLAPSE</LocID>                   <Text>Caused a collapse</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>SYMPTOMS_HIGH</LocID>                       <Text>High hazard</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>SYMPTOMS_MEDIUM</LocID>                     <Text>Medium hazard</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>SYMPTOMS_LOW</LocID>                        <Text>Low hazard</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>SYMPTOMS_SUPPRESSED</LocID>                 <Text>Suppressed</Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01</LocID>                  <Text>Challenge 1</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION</LocID>      <Text>Emergency</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02</LocID>                  <Text>Challenge 2</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION</LocID>      <Text>General Surgery</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03</LocID>                  <Text>Challenge 3</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION</LocID>      <Text>Internal Medicine</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04</LocID>                  <Text>Challenge 4</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION</LocID>      <Text>Orthopaedy</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05</LocID>                  <Text>Challenge 5</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION</LocID>      <Text>Cardiology</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06</LocID>                  <Text>Challenge 6</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION</LocID>      <Text>Neurology</Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64</LocID>                  <Text>EMPTY FIELD</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96</LocID>                  <Text>EMPTY FIELD</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64</LocID>                  <Text>EMPTY FIELD</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96</LocID>                  <Text>EMPTY FIELD</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64</LocID>                  <Text>EMPTY FIELD</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96</LocID>                  <Text>EMPTY FIELD</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A</LocID>            <Text>CLINIC</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>A small emergency clinic</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B</LocID>            <Text>SMALL HOSPITAL</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>A small hospital with General Surgery department</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C</LocID>            <Text>SMALL HOSPITAL</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>A small hospital with Orthopaedy department</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>MEDIUM HOSPITAL</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>A hospital with General Surgery and Internal Medicine departments</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E</LocID>            <Text>MEDIUM HOSPITAL</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>A hospital with General Surgery, Internal Medicine and Orthopaedy departments</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>BIG HOSPITAL</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>All departmens!</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>
