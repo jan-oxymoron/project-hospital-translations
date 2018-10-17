@@ -59,12 +59,12 @@
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_03_DESCRIPTION</LocID>        <Text>Пропустите часть зданий и перейдите к обязанности врача. Сосредоточьтесь на медицинской стороне геймплея или сделайте эту больницу более крупной и эффективной!</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW</LocID>                      <Text>Новая...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE</LocID>                     <Text>Сохранить...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD</LocID>                     <Text>Загрузить...</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE</LocID>     <Text>Сохранить игру</Text>  </GameDBLocalizedString>
+			<!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD</LocID>     <Text>Загрузить игру</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_SCENARIO</LocID>                       <Text>Сохранить сценарий</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOAD_SCENARIO</LocID>                       <Text>Загрузить сценарий</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BACK_TO_GAME</LocID>                        <Text>Вернуться к игре</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>                        <Text>Выход в меню</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>BACK_TO_GAME</LocID>        <Text>Вернуться в игру</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>        <Text>Выйти в меню</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>Новая карта</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>Сохранить карту</Text>  </GameDBLocalizedString>
@@ -150,7 +150,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ZOOM_IN</LocID>             			<Text>Приблизить</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ZOOM_OUT</LocID>             			<Text>Отдалить</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_LOGISTICS</LocID>         <Text>Показывать прозрачные объекты в режиме управления</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_DOORS</LocID>             <Text>Показывать прозрачные двери и окна</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString> <LocID>TOOLTIP_VIEW_TRANSPARENCY_DOORS</LocID> <Text>Показать прозрачные двери, окна, лифты и машины скорой помощи</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_ADD_FAVOURITE</LocID>             		<Text>Добавить в избранное</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_PATIENT_BALANCE</LocID>             		<Text>Баланс пациента</Text>  </GameDBLocalizedString>
 
@@ -521,10 +521,10 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_SURGERY</LocID>                    <Text>Шаблоны кабинетов общей хирургии</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ICU</LocID>                        <Text>Шаблоны кабинетов интенсивной терапии</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_RADIOLOGY</LocID>                  <Text>Шаблоны кабинетов радиологии</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INTERNAL_MEDICINE</LocID>          <Text>Templates of Internal Medicine department rooms</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ORTHOPAEDY</LocID>                 <Text>Templates of Orthopaedy department rooms</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_CARDIOLOGY</LocID>                 <Text>Templates of Cardiology department rooms</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_NEUROLOGY</LocID>                  <Text>Templates of Neurology department rooms</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INTERNAL_MEDICINE</LocID>          <Text>Шаблоны кабинетов отделения внутренней медицины</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ORTHOPAEDY</LocID>                 <Text>Шаблоны кабинетов ортопедического отделения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_CARDIOLOGY</LocID>                 <Text>Шаблоны кабинетов кардиологического отделения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_NEUROLOGY</LocID>                  <Text>Шаблоны кабинетов неврологического отделения</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_WALLS_RECTANGLE</LocID>                   <Text>Переместить стены</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_OUTDOOR_FLOOR</LocID>                     <Text>Уличное дорожное покрытие и рельеф</Text>  </GameDBLocalizedString>
@@ -574,7 +574,7 @@
             <GameDBLocalizedString>      <LocID>JANITOR</LocID>                                            <Text>Уборщик</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>JANITOR_DESCRIPTION</LocID>                                <Text>Сотрудники, которые подметают полы и следят за чистотой.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Stretchers</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Носилки</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>DOCTOR_HOSPITALIZATION_DESCRIPTION</LocID>                 <Text>Врач специализирующийся в области конкретного отделения</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE</LocID>                                              <Text>Медсестра</Text>  </GameDBLocalizedString>
@@ -589,8 +589,8 @@
             <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST_DESCRIPTION</LocID>                       <Text>Врач с соответствующей квалификацией</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGERY_NURSE</LocID>                                      <Text>Медсестра хирургии</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGERY_NURSE_DESCRIPTION</LocID>                          <Text>Медсестра с соответствующей квалификацией</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Stretchers</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>STRETCHERS_DESCRIPTION</LocID>                             <Text>Used for transporting patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Носилки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STRETCHERS_DESCRIPTION</LocID>                             <Text>Используется для транспортировки пациентов.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_REQUIRED</LocID>                     <Text>Требуется: </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_COUNT_DAY</LocID>                    <Text>День: </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_COUNT_NIGHT</LocID>                  <Text>Ночь: </Text>  </GameDBLocalizedString>
@@ -690,17 +690,17 @@
             <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_GAME_SPEED</LocID>             <Text>Переключение скорости игры</Text>  </GameDBLocalizedString>
             
             <!-- New confirm dialogs -->
-            <GameDBLocalizedString>      <LocID>CONFIRM_CLOSE_DEPARTMENT</LocID>            <Text>Close department</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CONFIRM_CLOSE_DEPARTMENT_TEXT</LocID>       <Text>Do you really want to close the department? Clinic staff will go home and hospitalized patients will get transported to different hospitals, so drastic renovations can take place.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CLOSE_DEPARTMENT</LocID>                    <Text>Close department</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_CLOSE_DEPARTMENT</LocID>            <Text>Закрыть отделение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_CLOSE_DEPARTMENT_TEXT</LocID>       <Text>Вы действительно хотите закрыть отделение? Сотрудники клиники отправятся домой, а госпитализированные пациенты будут доставлены в разные больницы, поэтому могут быть проведены радикальные ремонтные работы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLOSE_DEPARTMENT</LocID>                    <Text>Закрыть отделение</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR</LocID>             <Text>Build a new floor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR_TEXT</LocID>        <Text>Do you want to add a new floor to the hospital? Elevators will be extended.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR</LocID>             <Text>Построить новый этаж</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR_TEXT</LocID>        <Text>Вы хотите добавить новый этаж в больницу? Лифты будут расширены.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR_COPY_TILES</LocID>  <Text>Copy tiles from the top floor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CONFIRM_BUILD_NEW_FLOOR_COPY_WALLS</LocID>  <Text>Copy walls from the top floor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BUILD_NEW_FLOOR</LocID>                     <Text>Build a new floor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUILD_NEW_FLOOR</LocID>                     <Text>Построить новый этаж</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROLES</LocID>               <Text>Allowed roles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROLES</LocID>               <Text>Разрешенные роли</Text>  </GameDBLocalizedString>
 
             <!-- Dress code category names -->
             <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_CLINIC</LocID>           <Text>Врачи - клиника</Text>  </GameDBLocalizedString>
@@ -708,7 +708,7 @@
             <GameDBLocalizedString>      <LocID>DRESS_CODE_SURGERY</LocID>                  <Text>Surgery scrubs</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_NURSES</LocID>                   <Text>Медсестры</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_TECHNOLOGISTS</LocID>            <Text>Технологи</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DRESS_CODE_JANITORS</LocID>                 <Text>Janitors</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_JANITORS</LocID>                 <Text>Уборщики</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>DRESS_CODE</LocID>                          <Text>Дресс-код</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DRESS_CODE_COLOR</LocID>     <Text>Выберите цвет дресс-кода</Text>  </GameDBLocalizedString>
@@ -742,6 +742,100 @@
             <GameDBLocalizedString>      <LocID>GET_GREAT_INTERNS</LocID>                   <Text>Следующий {1} стажер(ы), доступный для найма, будет отличным кандидатом(ами)!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_BONUS</LocID>                         <Text>Бонус от событий:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MONEY_BONUS</LocID>                         <Text>Бонусные бюджетные деньги:</Text>  </GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_TOTAL_STAFF</LocID>      <Text>Hired employees / overall limit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MONEY_BONUS</LocID>                         <Text>Bonus budget money:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SANDBOX</LocID>                             <Text>Песочница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN</LocID>                            <Text>Кампания</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOAD_MAIN_MENU</LocID>                      <Text>Загрузить</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS</LocID>                             <Text>Опции</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP</LocID>                            <Text>Workshop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CREDITS</LocID>                             <Text>Credits</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_GAME</LocID>                           <Text>Выйти из игры</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BACK</LocID>                                <Text>Назад</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SANDBOX_EMPTY_FIELDS</LocID>                <Text>Пустое поле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SANDBOX_HOSPITALS</LocID>                   <Text>Больницы и клиники</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_MAIN_CAMPAIGN</LocID>              <Text>Кампания</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_CHALLENGES</LocID>                 <Text>Challenges</Text>  </GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      <LocID>PRESTIGE</LocID>                            <Text>Достичь {1}% престижа в конце дня</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_DEPARTMENT</LocID>              <Text>Достичь {1}% престижа в конце дня в {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY_AT_DEPARTMENT</LocID>        <Text>Достичь ${1} ежедневной прибыли при {2}</Text>  </GameDBLocalizedString>
+ 
+            <GameDBLocalizedString>      <LocID>AMBULANCE_NAME</LocID>                      <Text>Ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AMBULANCE_MAINTENANCE</LocID>               <Text>Maintenance:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>AMBULANCE_ER_CALLS</LocID>                  <Text>ER calls:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_AMBULACE_STOP_START</LocID>         <Text>Disable / enable ER calls</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_HOSPITALIZED</LocID> <Text>Hospitalized patients</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_CLINIC</LocID>       <Text>Clinic patients</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_BOOKMARKED</LocID>   <Text>Bookmarked patients</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_UNTREATED</LocID>    <Text>Untreated patients</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_ALL</LocID>          <Text>All patients</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SCENARIO_OPTIONS</LocID>                    <Text>Scenario options</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOW_DEATH</LocID>                         <Text>Patients can die</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_ALL</LocID>                          <Text>Unlock all departments</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FREE_BUILDING</LocID>                       <Text>Free building</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EXAMINATION_LEGEND</LocID>                  <Text>Examination color guide</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXAMINATION_AVAILABLE_TEXT</LocID>          <Text>Can be planned or cancelled</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXAMINATION_NOT_AVAILABLE_TEXT</LocID>      <Text>Not available</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXAMINATION_IN_PROGRESS_TEXT</LocID>        <Text>In progress</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXAMINATION_FINISHED_NOTHING_TEXT</LocID>   <Text>Finished, did not reveal anything</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXAMINATION_FINISHED_FOUND_TEXT</LocID>     <Text>Finished, revealed one or more symptoms</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TREATMENT_LEGEND</LocID>                    <Text>Treatment color guide</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_AVAILABLE_TEXT</LocID>            <Text>Can be planned or cancelled</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_NOT_AVAILABLE_TEXT</LocID>        <Text>Not available</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_IN_PROGRESS_TEXT</LocID>          <Text>Active</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_FINISHED</LocID>                  <Text>Finished</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_LEGEND</LocID>                     <Text>Symptom color guide</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_HIDDEN</LocID>                     <Text>Hidden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_COLLAPSE</LocID>                   <Text>Caused a collapse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_HIGH</LocID>                       <Text>High hazard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_MEDIUM</LocID>                     <Text>Medium hazard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_LOW</LocID>                        <Text>Low hazard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_SUPPRESSED</LocID>                 <Text>Suppressed</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01</LocID>                  <Text>Challenge 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION</LocID>      <Text>Emergency</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02</LocID>                  <Text>Challenge 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION</LocID>      <Text>General Surgery</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03</LocID>                  <Text>Challenge 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION</LocID>      <Text>Internal Medicine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04</LocID>                  <Text>Challenge 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION</LocID>      <Text>Ортопедия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05</LocID>                  <Text>Challenge 5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION</LocID>      <Text>Кардиология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06</LocID>                  <Text>Challenge 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION</LocID>      <Text>Неврология</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64</LocID>                  <Text>Пустое поле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64_DESCRIPTION</LocID>      <Text>Песочница, 64 на 64</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96</LocID>                  <Text>Пустое поле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96_DESCRIPTION</LocID>      <Text>Песочница, 96 на 96</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64</LocID>                  <Text>Пустое поле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64_DESCRIPTION</LocID>      <Text>Песочница, 64 на 64</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96</LocID>                  <Text>Пустое поле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96_DESCRIPTION</LocID>      <Text>Песочница, 96 на 96</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64</LocID>                  <Text>Пустое поле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64_DESCRIPTION</LocID>      <Text>Песочница, 64 на 64</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96</LocID>                  <Text>Пустое поле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96_DESCRIPTION</LocID>      <Text>Песочница, 96 на 96</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A</LocID>            <Text>Клиника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>Небольшая неотложная клиника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B</LocID>            <Text>Маленькая больница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>Небольшая больница с отделением общей хирургии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C</LocID>            <Text>Небольшая больница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>Небольшая больница с ортопедическим отделением</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>Средняя больница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>Больница с отделениями общей хирургии и внутренней медицины</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E</LocID>            <Text>Средняя больница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>Больница с общей хирургией, отделением внутренней медицины и ортопедии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>Большая больница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>Все отделения!</Text>  </GameDBLocalizedString>
 			
         </LocalizedStrings>
     </GameDBStringTable>
