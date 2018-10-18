@@ -1,21 +1,21 @@
 <Database>
-    <GameDBStringTable ID="LOC_Swe_OPTIONS">
+    <GameDBStringTable ID="LOC_SWE_OPTIONS">
     
         <LanguageCode>swe</LanguageCode>
         <LanguageNameLocalized>Svenska</LanguageNameLocalized>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+			<Name>Oxymoron Games</Name>
             <Name>Christoffer Rydström</Name>
         </Contributors>
         
         <LocalizedStrings>
             <GameDBLocalizedString>      <LocID>UI_OPTIONS</LocID>                     <Text>INSTÄLLNINGAR</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UI_OPTIONS_MESSAGES</LocID>            <Text>INSTÄLLNINGAR FÖR MEDDELANDEN</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_OPTIONS_MESSAGES</LocID>            <Text>MEDDELANDEN-INST.</Text>  </GameDBLocalizedString> <!--CHECK translation in-game (Original: "NOTIFICATION OPTIONS")-->
             <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_BLOOD</LocID>             <Text>Visa blod</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_SCHEDULE</LocID>          <Text>Visa aktivt dagligt schema</Text>  </GameDBLocalizedString> <!--CHECK in-game and possible better translation (Original: "Display active daily schedule")-->
             <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_AUTO</LocID>          <Text>Skalera gränssnittet automatiskt</Text>  </GameDBLocalizedString> <!--CHECK in-game, may be to many letters -->
-            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE</LocID>               <Text>Storlek på gränssnittet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE</LocID>               <Text>Storlek på gränssnittet</Text>  </GameDBLocalizedString> <!--CHECK in-game, is this translation correct? ("UI scale")-->
             <GameDBLocalizedString>      <LocID>OPTIONS_UI_TOOLTIP_DELAY</LocID>       <Text>Verktygstips fördröjning (0 - 1s)</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>OPTIONS_VOLUME_SFX</LocID>             <Text>Volym: Ljudeffekter</Text>  </GameDBLocalizedString>
@@ -27,6 +27,10 @@
             <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_PAYMENTS_INGAME</LocID>   <Text>Visa betalningar i spelet</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_XP_INGAME</LocID>         <Text>Visa intjänad XP i spelet</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OPTIONS_TRANSPARENT_OPEN_DOORS</LocID> <Text>Tona ut öppna dörrar</Text>  </GameDBLocalizedString>
+			<!-- ============= NEW, NEED TRANSLATING ================== -->
+           <GameDBLocalizedString>      <LocID>OPTIONS_ALLOW_DEATH</LocID>            <Text>Tillåt dödsfall</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>AUTOSAVE_ENABLED</LocID>               <Text>Aktivera spara automatiskt</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>AUTOSAVE_EVERY_HOUR</LocID>            <Text>Spara automatiskt varje timme</Text>  </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
