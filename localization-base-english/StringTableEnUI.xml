@@ -66,7 +66,7 @@
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>        <Text>EXIT TO MENU</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>New map</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>Save map</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID> <Text>SAVE GAME</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID>                 <Text>Load map</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_PREFAB</LocID>                         <Text>Save prefab</Text>  </GameDBLocalizedString>
             
@@ -293,7 +293,7 @@
             <GameDBLocalizedString>      <LocID>NUMBER_OF_AMBULANCES</LocID>            <Text>Purchase {1} ambulance(s)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BALANCE</LocID>                         <Text>Have {1} on your account</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BANK_BALANCE</LocID>                    <Text>Have bank balance above zero</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY</LocID>                  <Text>Have profit for {1} day(s) in a row.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString><LocID>PROFITABLE_DAYS</LocID>                  <Text>Have profit for {1} day(s) in a row.</Text>  </GameDBLocalizedString>
 
             <!-- Insurance objective rewards -->
             <GameDBLocalizedString>      <LocID>REWARD</LocID>                          <Text>Reward</Text>  </GameDBLocalizedString>
@@ -302,7 +302,7 @@
             <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Hospitalization at {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>A {1} government grant</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>{1} more clinic patients per day</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>{1} more inpatients per day</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString><LocID>MORE_IMMOBILE_PATIENTS</LocID><Text>{1} more patients arriving in an ambulance per day</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>Ambulances</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>YESTERDAY</LocID>        	                <Text>Yesterday</Text>  </GameDBLocalizedString>
@@ -827,13 +827,23 @@
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>A small hospital with General Surgery department</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C</LocID>            <Text>SMALL HOSPITAL</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>A small hospital with Orthopaedy department</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>MEDIUM HOSPITAL</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>A hospital with General Surgery and Internal Medicine departments</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>BIG HOSPITAL</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>All departmens!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E</LocID>            <Text>MEDIUM HOSPITAL</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>A hospital with General Surgery, Internal Medicine and Orthopaedy departments</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>BIG HOSPITAL</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>All departmens!</Text>  </GameDBLocalizedString>
             
+            <GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>WRONG: </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_CLINIC</LocID>               <Text>Clinic is not functional</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_HOSPITALIZATION</LocID>      <Text>Hospitalization is not functional</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_INTAKE</LocID>             <Text>Patients intake:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_PAYMENT</LocID>            <Text>Insurance payment:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DAY_ABBREVIATION</LocID>                    <Text>d</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DAY_SUFFIX</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Day on main panel -->
+
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
