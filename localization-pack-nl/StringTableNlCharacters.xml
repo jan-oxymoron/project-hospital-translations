@@ -1,4 +1,6 @@
-﻿<Database>
+<!-- updated changes/new as mentioned here: https://projecthospital.forumotion.eu/t577-english-localization-status#2577 -->
+
+<Database>
     <GameDBStringTable ID="LOC_NL_CHARACTERS">
         
         <LanguageCode>nl</LanguageCode>
@@ -6,54 +8,56 @@
 
         <Contributors>
             <Name>Oxymoron Games</Name>
+            <Name>PuckStar</Name>
         </Contributors>
         
     	<LocalizedStrings>
             <!-- Employee job titles -->
-            <GameDBLocalizedString>      <LocID>OCCUPATION_DOCTOR</LocID>               <Text>Doctor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_NURSE</LocID>                <Text>Nurse</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_LAB_SPECIALIST</LocID>       <Text>Technologist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_JANITOR</LocID>              <Text>Janitor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>FIRED</LocID>                           <Text>Fired</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_DOCTOR</LocID>               <Text>Dokter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_NURSE</LocID>                <Text>Verpleger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_LAB_SPECIALIST</LocID>       <Text>Laborant</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_JANITOR</LocID>              <Text>Congiërge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FIRED</LocID>                           <Text>Ontslagen</Text>  </GameDBLocalizedString>
 
             <!-- Patient's jobs -->
-            <GameDBLocalizedString>      <LocID>OCCUPATION_OFFICE_JOB</LocID>           <Text>Office clerk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_OFFICE_JOB</LocID>           <Text>Administratief werker</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_MANAGER</LocID>              <Text>Manager</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_ACCOUNTANT</LocID>           <Text>Accountant</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_TEACHER</LocID>              <Text>Teacher</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_COOK</LocID>                 <Text>Cook</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_FACTORY_WORKER</LocID>       <Text>Factory worker</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_CASHIER</LocID>              <Text>Cashier</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_ATHLETE</LocID>              <Text>Athlete</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_ACROBAT</LocID>              <Text>Acrobat</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_RETIRED</LocID>              <Text>Retired</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_TEACHER</LocID>              <Text>Leraar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_COOK</LocID>                 <Text>Kok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_FACTORY_WORKER</LocID>       <Text>Arbeider</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_CASHIER</LocID>              <Text>Kassier</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_ATHLETE</LocID>              <Text>Atleet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_ACROBAT</LocID>              <Text>Acrobaat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_RETIRED</LocID>              <Text>Gepensioneerd</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NONE</LocID>                            <Text>none</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NONE</LocID>                            <Text>geen</Text>  </GameDBLocalizedString>
             
             <!-- Perks staff -->
-            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS</LocID>               	<Text>Good Boss</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS_DESCRIPTION</LocID>      <Text>Improves satisfaction of supervised colleagues every morning.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER</LocID>               <Text>Fast learner</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER_DESCRIPTION</LocID>   <Text>Can level skills much faster.</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_SPARTAN</LocID>              		<Text>Spartan</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_SPARTAN_DESCRIPTION</LocID>   		<Text>All needs are reduced much slower.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_SCHOLAR</LocID>              		<Text>Scholar</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_SCHOLAR_DESCRIPTION</LocID>   		<Text>Uses free time to study.</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON</LocID>              <Text>People person</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON_DESCRIPTION</LocID>  <Text>Reveals hidden perks of people after interacting with them.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS</LocID>               	<Text>Goede baas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS_DESCRIPTION</LocID>      <Text>Verhoogd elke morgen de tevredenheid van personeel onder zijn leiding.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER</LocID>               <Text>Leert snel</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER_DESCRIPTION</LocID>   <Text>Kan nieuwe vaardigheden veel sneller leren.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SPARTAN</LocID>              		<Text>Spartaans</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SPARTAN_DESCRIPTION</LocID>   		<Text>Alle behoeftes verminderen langzamer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SCHOLAR</LocID>              		<Text>Scholier</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SCHOLAR_DESCRIPTION</LocID>   		<Text>Leert tijdens vrije tijd.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON</LocID>              <Text>Mensen mens</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON_DESCRIPTION</LocID>  <Text>Laat verborgen voordelen van iemand zien na hem gesproken te hebben.</Text>  </GameDBLocalizedString>
         	<GameDBLocalizedString>      <LocID>PERK_GAMER</LocID>              		<Text>Gamer</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_GAMER_DESCRIPTION</LocID>  		<Text>Resting is much faster.</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER</LocID>               <Text>Slow learner</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER_DESCRIPTION</LocID>   <Text>Leveling skills is much slower.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_LONG_COMMUTE</LocID>               <Text>Long commute</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_LONG_COMMUTE_DESCRIPTION</LocID>   <Text>Long drive from home. Can be ofter late for work.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM</LocID>                 <Text>Alcoholic</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM_DESCRIPTION</LocID>     <Text>Will often show up late and hungover.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM</LocID>            <Text>Fast metabolism</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM_DESCRIPTION</LocID><Text>Hunger increases much faster.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET</LocID>                 <Text>Dirty feet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET_DESCRIPTION</LocID>     <Text>Very dirty shoes. Leaves dirt everywhere.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES</LocID>        <Text>Practical diagnoses</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_GAMER_DESCRIPTION</LocID>  		<Text>Rusten is veel sneller.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER</LocID>               <Text>Leert langzaam</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER_DESCRIPTION</LocID>   <Text>Vaardigheden leren gaat veel trager.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LONG_COMMUTE</LocID>               <Text>Lange reistijd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LONG_COMMUTE_DESCRIPTION</LocID>   <Text>Woont ver weg. Komt regelmatig te laat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM</LocID>                 <Text>Alcoholverslaafde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM_DESCRIPTION</LocID>     <Text>Komt regelmatig te laat en met een kater.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM</LocID>            <Text>Snelle stofwisseling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM_DESCRIPTION</LocID><Text>Heeft veel sneller trek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET</LocID>                 <Text>Vieze voeten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET_DESCRIPTION</LocID>     <Text>Erg vieze schoenen. Laat overal sporen achter.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES</LocID>        <Text>Praktische diagnoses</Text>  </GameDBLocalizedString>
+<!--  continue here -->
             <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES_DESCRIPTION</LocID><Text>20% bonus experience to diagnoses skill, after successful diagnosis.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE</LocID>               <Text>Restzistance</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE_DESCRIPTION</LocID>   <Text>Rest levels decrease slower.</Text></GameDBLocalizedString>
@@ -115,57 +119,58 @@
             <GameDBLocalizedString>      <LocID>PERK_PIRATE_DESCRIPTION</LocID>         <Text>Does not pay for anything</Text>  </GameDBLocalizedString>
 
             <!-- Need names -->
-            <GameDBLocalizedString>      <LocID>NEED_REST</LocID>                       <Text>Rest</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_REST_DESC</LocID>                  <Text>Employees need to take a break a couple of times every day.\n\nIf rest level drops below two stars, it will start to negatively affect the performance of the employee.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_REST</LocID>                       <Text>Rust uit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_REST_DESC</LocID>                  <Text>Personeel moet regelmatig pauze nemen.\n\nAls rustniveau daalt tot 2 sterren, zal het de prestaties negatief beïnvloeden.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF</LocID>               <Text>Hunger</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF_DESC</LocID>          <Text>Employees need to have access to water and food and ideally will eat a proper lunch in common room every day.\n\nIf hunger level drops below two stars, it will start to negatively affect the performance of the employee.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF</LocID>               <Text>Honger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF_DESC</LocID>          <Text>Personeel moet water en voedsel beschikbaar hebben en idealiter elke dag een goede lunch in de algemene ruimte.\n\nAls hongerniveau onder 2 sterren komt, zal het de prestaties negatief beïnvloeden.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS</LocID>            <Text>Hunger</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS_DESC</LocID>       <Text>Patients need to have access to water or a snack if they're waiting long.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS</LocID>            <Text>Honger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS_DESC</LocID>       <Text>Patiënten moeten de beschikking hebben tot water of een snack als ze lang moeten wachten.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NEED_BLADDER</LocID>                    <Text>Bladder</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_BLADDER_DESC</LocID>               <Text>Restrooms should be available on every floor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_BLADDER</LocID>                    <Text>Blaas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_BLADDER_DESC</LocID>               <Text>Toiletten moeten op elke verdieping aanwezig zijn.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT</LocID>                 <Text>Discomfort</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT_DESC</LocID>            <Text>The level of pain and discomfort caused by symptoms, examinations and treatments.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT</LocID>                 <Text>Ongemak</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT_DESC</LocID>            <Text>Het niveau van ongemak als gevolg van symptomen, onderzoeken en behandelingen.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION</LocID>               <Text>Satisfaction</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION_DESC</LocID>          <Text>The overall satisfaction influenced by needs, other people and environment.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION</LocID>               <Text>Tevredenheid</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION_DESC</LocID>          <Text>De algehele tevredenheid beïnvloed door behoeften, andere mensen en de omgeving.</Text>  </GameDBLocalizedString>
 
             <!-- Satisfaction modifiers -->
-            <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_SIT</LocID>             <Text>couldn't sit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_LONG_WAIT</LocID>               <Text>long wait</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_SHORT_WAIT</LocID>              <Text>short wait</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_DIRTY_ENVIRONMENT</LocID>       <Text>dirty floor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_WAITED_FOR_WC</LocID>           <Text>waited for wc</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_BORED</LocID>                   <Text>bored</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_WASH_HANDS</LocID>      <Text>couldn't wash hands</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_WAITED_FOR_FOOD</LocID>         <Text>waited for food</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_WRONG_DIAG_LAST_TIME</LocID>    <Text>wrongly diagnosed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_ENVIRONMENT</LocID>        <Text>nice environment</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_DOCTOR</LocID>             <Text>nice doctor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_GOOD_BOSS</LocID>               <Text>good boss</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_NO_BOSS</LocID>                 <Text>unattended</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_HAS_BOSS</LocID>                <Text>has boss</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_INSTIPRATOR</LocID>             <Text>inspired</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_DEMOTIVATOR</LocID>             <Text>annoyed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_PATIENT_CURED</LocID>           <Text>treated</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_FIRED</LocID>                   <Text>fired</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_USED</LocID>             <Text>need reduced</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_NOT_USED</LocID>         <Text>need critical</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_EATEN</LocID>              <Text>belly filled</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_NOT_EATEN</LocID>          <Text>hungry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_BOREDOM_REDUCED</LocID>         <Text>entertained</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_RESTED</LocID>                  <Text>rested</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_TIRED</LocID>                   <Text>tired</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_COMFORTABLE</LocID>             <Text>comfortable</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_DISCOMFORTABLE</LocID>          <Text>uncomfortable</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH_STANDING</LocID>      <Text>standing lunch</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH</LocID>               <Text>proper lunch</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_ROUGH_NIGHT</LocID>              <Text>rough night</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_SIT</LocID>             <Text>kon niet zitten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_LONG_WAIT</LocID>               <Text>lang wachten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_SHORT_WAIT</LocID>              <Text>kort wachten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DIRTY_ENVIRONMENT</LocID>       <Text>vuile vloer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_WAITED_FOR_WC</LocID>           <Text>wachtte op een toilet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_BORED</LocID>                   <Text>verveeld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_WASH_HANDS</LocID>      <Text>kon handen niet wassen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_WAITED_FOR_FOOD</LocID>         <Text>wachtte op eten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_WRONG_DIAG_LAST_TIME</LocID>    <Text>verkeerd gediagnostiseerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_ENVIRONMENT</LocID>        <Text>mooie omgeving</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_DOCTOR</LocID>             <Text>aardige dokter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_GOOD_BOSS</LocID>               <Text>goede baas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NO_BOSS</LocID>                 <Text>niemand aanwezig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAS_BOSS</LocID>                <Text>heeft baas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_INSTIPRATOR</LocID>             <Text>geïnspireerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DEMOTIVATOR</LocID>             <Text>geërgerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PATIENT_CURED</LocID>           <Text>behandeld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_FIRED</LocID>                   <Text>ontslagen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_USED</LocID>             <Text>behoefte verminderd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_NOT_USED</LocID>         <Text>behoefte kritisch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_EATEN</LocID>              <Text>buik gevuld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_NOT_EATEN</LocID>          <Text>honger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_BOREDOM_REDUCED</LocID>         <Text>vermaakt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_RESTED</LocID>                  <Text>uitgerust</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TIRED</LocID>                   <Text>moe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_COMFORTABLE</LocID>             <Text>comfortabel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DISCOMFORTABLE</LocID>          <Text>oncomfortabel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH_STANDING</LocID>      <Text>staand gelunched</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH</LocID>               <Text>goede lunch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_ROUGH_NIGHT</LocID>              <Text>slechte nacht</Text>  </GameDBLocalizedString>
+<!--  nog vertalen -->
             <GameDBLocalizedString>      <LocID>SAT_MOD_UNRELEASED</LocID>              <Text>unreleased</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_GOING_HOME</LocID>              <Text>going home</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_GOING_HOME</LocID>              <Text>naar huis</Text>  </GameDBLocalizedString>
 
             <!--TODO to be implemented -->
             <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_DRY_HANDS</LocID>       <Text>couldn't dry hands</Text>  </GameDBLocalizedString>
@@ -185,8 +190,8 @@
             <GameDBLocalizedString>      <LocID>DISC_DISCOMFORT_NONE</LocID>            <Text>no discomfort</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DISC_DISCOMFORT_UNKNOWN</LocID>         <Text>unknown</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>GENDER_MALE</LocID>                     <Text>Male</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>GENDER_FEMALE</LocID>                   <Text>Female</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GENDER_MALE</LocID>                     <Text>Man</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GENDER_FEMALE</LocID>                   <Text>Vrouw</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>HAZARD_UNKNOWN</LocID>                  <Text>unknown hazard</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HAZARD_NONE</LocID>                     <Text>no hazard</Text>  </GameDBLocalizedString>
@@ -292,8 +297,8 @@
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_Leaving</LocID>                        <Text>leaving</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_Dead</LocID>                           <Text>dead</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT</LocID>                           <Text>Diagnostics</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY</LocID>                           <Text>Surgery</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT</LocID>                           <Text>Diagnostics / observation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY</LocID>                           <Text>Surgery / trauma</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ASSIST</LocID>                    <Text>Assist at surgery</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</LocID>            <Text>Anesthesiology at surgery</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_CARE</LocID>                      <Text>Patient care</Text>  </GameDBLocalizedString>
@@ -372,9 +377,21 @@
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ReturningWithSample</LocID>      <Text>Handling samples</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StartWritingNotes</LocID>        <Text>Processing results</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StopWritingNotes</LocID>         <Text>Processing results</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>Running tests</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>Running tests</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>Running tests</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>Testen uitvoeren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>Testen uitvoeren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>Testen uitgevoerd</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>HAZARD_POSITIVE</LocID>                             <Text>Positief</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_HAD_COFFEE</LocID>                              <Text>dronk koffie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB_FOR_HOSPITALIZED</LocID>              <Text>Tests en onderzoeken (ziekenhuisopname)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_BREAKFAST</LocID>    <Text>Patiënten ontbijt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_DINNER</LocID>       <Text>Patiënten diner</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadWaitingForTransport</LocID>  <Text>verloren zaak wacht op transport</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadTransportedAway</LocID>      <Text>verloren zaak getransfereerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadIdle</LocID>                 <Text>verloren zaak getransfereerd</Text>  </GameDBLocalizedString>
+            
             
         </LocalizedStrings>
     </GameDBStringTable>
