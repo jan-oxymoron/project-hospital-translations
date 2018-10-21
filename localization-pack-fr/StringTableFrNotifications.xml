@@ -1,5 +1,5 @@
 <Database>
-    <GameDBStringTable ID="LOC_EN_NOTIFICATIONS">
+    <GameDBStringTable ID="LOC_FR_NOTIFICATIONS">
         
         <LanguageCode>fr</LanguageCode>
         <LanguageNameLocalized>French</LanguageNameLocalized>
@@ -11,37 +11,37 @@
         <LocalizedStrings>
             <!-- Notifications -->
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN</LocID>                  <Text>L’hôpital désormais acceptera des patients !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN_TEXT</LocID>             <Text>L’hôpital a maintenant assez de personnel pour accepter ses premiers patients. Les premières compagnies d’assurance sont automatiquement contactés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN_TEXT</LocID>             <Text>L’hôpital a maintenant assez de personnel pour accepter ses premiers patients. Les premières compagnies d’assurance sont automatiquement contactées.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL</LocID>        <Text>Une compagnie d'assurance peut être contractée !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL_TEXT</LocID>   <Text><![CDATA[La compagnie d’assurance <i>{1}</i> peut être contractée d’envoyer les patients !]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL</LocID>        <Text>Une compagnie d'assurances peut être contractée !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL_TEXT</LocID>   <Text><![CDATA[La compagnie d’assurance <i>{1}</i> peut être contractée pour envoyer des patients !]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK</LocID>             <Text>Un employé se bourré hier soir !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK_TEXT</LocID>        <Text>Un employé se bourré hier soir ! il se sentira pas trop bien aujourd’hui...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK_TEXT</LocID>        <Text>Un employé se bourré hier soir ! Il ne se sentira pas trop bien aujourd’hui...</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM</LocID>                <Text>Il n’y a pas une salle d’attente disponible pour les patients de la clinique !</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_TEXT</LocID>           <Text><![CDATA[Il n’y a pas une salle d’attente valide à portée d’un cabinet médical au <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>Il n’y a pas une salle d’attente disponible autour d’un salle de diagnostic !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>Il n’y a pas une salle d’attente disponible autour d’une salle de diagnostic !</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</LocID>       <Text><![CDATA[Il n’y a pas une salle d’attente valide à portée d’un <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY</LocID>      <Text>Il n’y a pas une salle d’attente disponible en radiologie !</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY_TEXT</LocID> <Text>Il n’y a pas une salle d’attente valide à portée des salles de radiologie !</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING</LocID>         <Text>Un département ne fonctionne pas !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING_TEXT</LocID>    <Text>Il n’y a pas un département qui fonctionne disponible pour les patients de la clinique !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING_TEXT</LocID>    <Text>Il n’y a pas un département fonctionnel disponible pour les patients de la clinique !</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS</LocID>                <Text>Un patient a été mal diagnostiqué !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_TEXT</LocID>           <Text>Selon les examens réalisés, ce n’est pas possible pour le patient d’avoir le diagnostic sélectionné !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_TEXT</LocID>           <Text>Selon les examens réalisés, il n’est pas possible pour le patient d’avoir le diagnostic sélectionné !</Text>  </GameDBLocalizedString>
                         
             <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS</LocID>        <Text>Un patient avec un mauvais diagnostic est revenu !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>Un patient a empiré parce qu’un mauvais diagnostic a été traité.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>L'état du patient s'est aggravé parce qu'un mauvais diagnostic a été traité.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>Il n’y a pas un diagnostic évident !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Il n’y a pas un diagnostic évident ! Prenez en considération d’ajouter plus d’équipement diagnostique, laboratoires ou salles de radiologie. Le patient partira bientôt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>Il n’y a pas de diagnostic évident !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Il n’y a pas de diagnostic évident ! Prenez en considération d’ajouter plus d’équipement de diagnostic, laboratoires ou salles de radiologie. Le patient partira bientôt.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT</LocID>                   <Text>Un patient ne peut pas être complètement traité !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TEXT</LocID>              <Text><![CDATA[Le traitement pour un diagnostic d’un patient n’est pas disponible: <i>{1}</i>.\nFaites-le fonctionner vite, le patient se prépare à partir.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TEXT</LocID>              <Text><![CDATA[Le traitement pour le diagnostic d’un patient n’est pas disponible: <i>{1}</i>.\nFaites-le fonctionner vite, le patient se prépare à partir.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION</LocID>             <Text>Le patient ne peut pas être hospitalisé !</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_TEXT</LocID>        <Text><![CDATA[Le niveau d’hospitalisation requis n’est pas disponible: <i>{1}</i> ! Faites-le fonctionner vite, le patient se prépare à partir.]]></Text>  </GameDBLocalizedString>
@@ -50,83 +50,83 @@
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT_TEXT</LocID><Text><![CDATA[L’hospitalisation sur <i>{1}</i> n'est pas fonctionnelle ou manquante ! Faites-le fonctionner vite, le patient se prépare à partir.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS</LocID>          <Text>Diagnostic compliqué !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>Diagnostiquer un patient s'est révélé être difficile pour le niveau de compétence de médecin.\nVous pouvez aider en sélectionnant l’examen prochain.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>Diagnostiquer un patient s'est révélé être difficile pour le niveau de compétence du médecin.\nVous pouvez aider en sélectionnant le prochain examen.</Text>  </GameDBLocalizedString>
 
             <!-- TODO perk? -->
-            <!--GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM</LocID>       <Text>Le patient n’a pas assez d’argent pour payer pour l’examen !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM_TEXT</LocID>  <Text>Le patient n’a pas assez d’argent pour payer pour l’examen !</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM</LocID>       <Text>Le patient n’a pas assez d’argent pour payer l’examen !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM_TEXT</LocID>  <Text>Le patient n’a pas assez d’argent pour payer l’examen !</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT</LocID>       <Text>Le patient n’a pas assez d’argent pour payer pour le traitement !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT_TEXT</LocID>  <Text>Le patient n’a pas assez d’argent pour payer pour le traitement !</Text>  </GameDBLocalizedString-->
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT</LocID>       <Text>Le patient n’a pas assez d’argent pour payer le traitement !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT_TEXT</LocID>  <Text>Le patient n’a pas assez d’argent pour payer le traitement !</Text>  </GameDBLocalizedString-->
             
-            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP</LocID>               <Text>Un compétence a passé au niveau supérieur !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP_TEXT</LocID>          <Text><![CDATA[Le compétence passé au niveau supérieur: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP</LocID>               <Text>Une compétence est passée au niveau supérieur !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP_TEXT</LocID>          <Text><![CDATA[La compétence passée au niveau supérieur: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP</LocID>           <Text>Un employé a passé au niveau supérieur !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_TEXT</LocID>      <Text>Un employé a passé au niveau supérieur, est maintenant {1} !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP</LocID>           <Text>Un employé est passé au niveau supérieur !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_TEXT</LocID>      <Text>Un employé est passé au niveau supérieur, il est maintenant {1} !</Text>  </GameDBLocalizedString>
   
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION</LocID>       <Text>Un employé a passé au niveau supérieur (spécialisation disponible) !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION_TEXT</LocID>  <Text><![CDATA[Un employé a passé au niveau supérieur, est maintenant <i>{1}</i> et a sélectionné la première spécialisation ! Si vous voudriez la changer, le plus tôt sera le mieux !]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION</LocID>       <Text>Un employé est passé au niveau supérieur (spécialisation disponible) !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION_TEXT</LocID>  <Text><![CDATA[Un employé est passé au niveau supérieur, il est maintenant <i>{1}</i> et a sélectionné sa première spécialisation ! Si vous voulez la changer, le plus tôt sera le mieux !]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION</LocID>      <Text>Un employé a passé au niveau supérieur (spécialisation disponible) !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</LocID> <Text><![CDATA[Un employé a passé au niveau supérieur, est maintenant <i>{1}</i> et a sélectionné la deuxième spécialisation ! Si vous voudriez la changer, le plus tôt sera le mieux !]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION</LocID>      <Text>Un employé est passé au niveau supérieur (spécialisation disponible) !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</LocID> <Text><![CDATA[Un employé est passé au niveau supérieur, il est maintenant <i>{1}</i> et a sélectionné sa deuxième spécialisation ! Si vous voulez la changer, le plus tôt sera le mieux !]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE</LocID>                   <Text>Un employé n’a pas un espace de travail.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>Un employé n’a pas un espace de travail, et sera désœuvré.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE</LocID>                   <Text>Un employé n’a pas d'espace de travail.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>Un employé n’a pas d'espace de travail, et sera inactif.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL</LocID>                  <Text>L’employé n’a pas la spécialisation requise.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL_TEXT</LocID>             <Text><![CDATA[La spécialisation <i>{1}</i> est requise pour les employés dans cette pièce.]]></Text>  </GameDBLocalizedString>
       
-            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL</LocID>                      <Text>Les employés du service ont besoin de leurs bureaux propres.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL_TEXT</LocID>                 <Text>Clinic employees can't share their room with other staff (but feel free to place multiple room markers within one set of walls in management mode).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL</LocID>                      <Text>Les employés de la clinique ont besoin de leur propre bureau.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL_TEXT</LocID>                 <Text>Les employés de la clinique ne peuvent pas partager leur salle avec d'autres membres du personnel (mais n'hésitez pas à placer plusieurs marqueurs de salle dans un même ensemble de murs en mode gestion)..</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED</LocID>                <Text>Un employé a été viré.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED_TEXT</LocID>           <Text>L’employé partira dès qu’il aura fini la procédure en cours.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS</LocID>   <Text>Les procédures ont terminé.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS_TEXT</LocID><Text><![CDATA[Les procédures prévues sont terminées (la dernière a été <i>{1}</i>), le patient attend que vous planifiiez un autre examen ou sélectionniez un diagnostic.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS</LocID>   <Text>Les procédures sont terminées.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS_TEXT</LocID><Text><![CDATA[Les procédures prévues sont terminées (la dernière a été <i>{1}</i>), le patient attend que vous planifiez un autre examen ou que vous choisissiez un diagnostic.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT</LocID>   <Text>Les procédures sont terminées pour un patient diagnostiqué.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT_TEXT</LocID><Text><![CDATA[Les procédures prévues sont terminées (la dernière a été <i>{1}</i>), le patient attend que vous planifiiez un autre traitement ou que vous les renvoyiez chez eux.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT_TEXT</LocID><Text><![CDATA[Les procédures prévues sont terminées (la dernière a été <i>{1}</i>), le patient attend que vous planifiez un autre traitement ou que vous le renvoyiez chez lui.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED</LocID>             <Text>Le patient a été diagnostiqué.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED_TEXT</LocID>        <Text>Les traitements pour le diagnostic et pour les symptômes connus sont disponibles pour être planifié.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED</LocID>             <Text>Un patient a été diagnostiqué.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED_TEXT</LocID>        <Text>Les traitements pour le diagnostic et pour les symptômes connus sont disponibles pour être planifiés.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED</LocID>     <Text>Un patient préféré a été diagnostiqué.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED_TEXT</LocID><Text><![CDATA[Un patient préféré a été diagnostiqué avec <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED</LocID>     <Text>Un patient privilégié a été diagnostiqué</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED_TEXT</LocID><Text><![CDATA[Un patient privilégié a été diagnostiqué avec <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED</LocID>       <Text>Un patient préféré a été traité.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</LocID>  <Text>Un patient préféré a été traité et retourne chez lui.</Text>  </GameDBLocalizedString><!-- TODO check -->
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED</LocID>       <Text>Un patient privilégié a été traité.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</LocID>  <Text>Un patient privilégié a été traité et retourne chez lui.</Text>  </GameDBLocalizedString><!-- TODO check -->
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED</LocID> <Text>Un procédure de laboratoire a découvert un nouveau symptôme.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</LocID><Text><![CDATA[Un procédure de laboratoire a découvert un nouveau symptôme d’un patient préféré: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED</LocID> <Text>Une procédure de laboratoire a découvert un nouveau symptôme.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</LocID><Text><![CDATA[Une procédure de laboratoire a découvert un nouveau symptôme d’un patient privilégié: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>Nouveau symptôme caché a apparu sur un patient surveillé.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>Nouveau symptôme caché a apparu sur un patient surveillé, cela pourrait être critique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>Un nouveau symptôme caché est apparu sur un patient sous surveillance.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>Un nouveau symptôme caché est apparu sur un patient sous surveillance, cela pourrait être critique.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>Nouveau symptôme caché a apparu sur un patient préféré surveillé</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>Nouveau symptôme caché a apparu sur un patient préféré surveillé, cela pourrait être critique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>Un nouveau symptôme caché est apparu sur un patient privilégié sous surveillance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>Un nouveau symptôme caché est apparu sur un patient privilégié sous surveillance, cela pourrait être critique.</Text>  </GameDBLocalizedString>
 
             <!-- TODO after beta: levels and first collapse -->
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING</LocID>                <Text>Un patient effondre.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING_TEXT</LocID>           <Text>Un patient effondre ! Votre personnel fera de son mieux pour les maintenir en vie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING</LocID>                <Text>Un patient s'effondre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING_TEXT</LocID>           <Text>Un patient s'effondre ! Votre personnel fera de son mieux pour le maintenir en vie.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING</LocID>       <Text>Un patient préféré effondre.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING_TEXT</LocID>  <Text>Un patient préféré effondre ! Votre personnel fera de son mieux pour les maintenir en vie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING</LocID>       <Text>Un patient privilégié s'effondre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING_TEXT</LocID>  <Text>Un patient privilégié s'effondre ! Votre personnel fera de son mieux pour le maintenir en vie.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING</LocID>      <Text>Un patient surveillé effondre.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING_TEXT</LocID><Text>Un patient surveillé effondre ! Votre personnel fera de son mieux pour les maintenir en vie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING</LocID>      <Text>Un patient sous surveillance s'effondre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING_TEXT</LocID><Text>Un patient sous surveillance s'effrondre ! Votre personnel fera de son mieux pour le maintenir en vie.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID><Text>Un nouveau symptôme caché a apparu sur votre patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID><Text>Un nouveau symptôme caché est apparu sur votre patient.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Un infirmier a trouvé {1} nouveau(x) symptôme(s) sur votre patient, cela peut être critique.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID>  <Text>Un nouveau symptôme caché a apparu sur un patient préféré.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Un infirmier a trouvé {1} nouveau(x) symptôme(s) sur un patient préféré, cela peut être critique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID>  <Text>Un nouveau symptôme caché est apparu sur un patient privilégié.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Un infirmier a trouvé {1} nouveau(x) symptôme(s) sur un patient privilégié, cela peut être critique.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED</LocID>               <Text>Objectif complet !</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED_TEXT</LocID>          <Text><![CDATA[Un objectif pour une compagnie d’assurance a été complet: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED</LocID>               <Text>Objectif complété !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED_TEXT</LocID>          <Text><![CDATA[Un objectif pour une compagnie d’assurance a été complété: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED</LocID>              	 <Text>Aptitude révélé !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED</LocID>              	 <Text>Aptitude révélée !</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED_TEXT</LocID>          	 <Text><![CDATA[Il semble qu’un personnage a l’aptitude suivante: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_OPEN_FOR_PATIENTS</LocID>              <Text>Le service est maintenant ouvert !</Text>  </GameDBLocalizedString>
@@ -162,7 +162,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR</LocID><Text>Il y a une longue attente pour le défibrillateur !</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR_TEXT</LocID><Text>Y a-t-il assez de médecins disponibles pour le défibrillateur ?</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>Un patient a besoin d'être hospitalisé avant de chirurgie !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>Un patient doit être hospitalisé avant une intervention chirurgicale !<Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>Les procédures chirurgicales ont besoin de précédente hospitalisation.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START</LocID>                    <Text>Flash spécial:</Text>  </GameDBLocalizedString>
@@ -172,10 +172,10 @@
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>Vous avez pu accomplir l'événement à l'heure. Félicitations !</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Événement échoué.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Vous n’avez pas pu accomplir l'événement à l'heure. Ne soyez pas triste, Ressayez !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Vous n’avez pas pu accomplir l'événement à l'heure. Ne soyez pas triste, Réessayez !</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Un patient est mort. :(</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>L'état de patient était critique et malgré les meilleurs efforts de médecin, il n'a pas pu être sauvé. Peut-être un hôpital plus efficace peut mieux s’occuper de ce cas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>L'état du patient était critique et malgré les meilleurs efforts de médecin, il n'a pas pu être sauvé. Peut-être un hôpital plus efficace peut mieux s’occuper de ce cas.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING</LocID>           <Text>Un patient part.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING_TEXT</LocID>      <Text>Un patient qui n'a pas pu être traité part.</Text>  </GameDBLocalizedString>
@@ -184,28 +184,28 @@
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY_TEXT</LocID>   <Text>Le patient qui n'a pas pu être traité est transporté dans un autre hôpital.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY</LocID>            <Text>Un patient effondré est transporté dans un autre hôpital.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY_TEXT</LocID>       <Text>Un patient effondré attendait trop longtemps et est transporté dans un autre hôpital</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY_TEXT</LocID>       <Text>Le patient qui effondré attendait depuis trop longtemps et est transporté dans un autre hôpital.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER</LocID>       <Text>L’hospitalisation ISU est terminée.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER</LocID>       <Text>L’hospitalisation en soins intensifs est terminée.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER_TEXT</LocID>  <Text>Le patient contrôlé a été stabilisé et est maintenant transporté dans un département responsable.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER</LocID><Text>Hospitalisation terminée.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</LocID> <Text>Un patient contrôlé a été traité et est maintenant paré pour retourner chez lui. Relâchez le patient de votre soin.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</LocID> <Text>Un patient contrôlé a été traité et est maintenant paré pour retourner chez lui. Relâchez le patient de vos soin.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM</LocID><Text>Un patient n’a pas une chambre qui fonctionne.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM</LocID><Text>Un patient n’a pas une chambre fonctionnelle.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM_TEXT</LocID> <Text><![CDATA[Réparez: <i>{1}</i> sinon le patient sera transporté dans une autre chambre ou renvoyé.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM</LocID>   <Text>La chambre de patient a été supprimée.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM</LocID>   <Text>La chambre du patient a été supprimée.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TEXT</LocID> <Text><![CDATA[Le patient sera transféré dans une autre chambre ou renvoyé.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER</LocID>   <Text>Le patient est transféré dans une nouvelle chambre.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_TEXT</LocID> <Text><![CDATA[Une chambre de patient a été cassé ou indisponible donc nous devons transférer dans une nouvelle: <i>{1}</i> chambre.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_TEXT</LocID> <Text><![CDATA[Une chambre de patient a été cassé ou indisponible donc nous devons transférer dans une nouvelle : <i>{1}</i> chambre.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT</LocID>   <Text>Un patient attend le transfert vers une nouvelle chambre.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Une chambre de patient a été cassé ou indisponible donc nous transférons lui dans une nouvelle: <i>{1}</i> chambre, mais il n’y a pas un lit disponible.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Une chambre de patient a été cassé ou indisponible donc nous le transférons dans une nouvelle: <i>{1}</i> chambre, mais il n’y a pas un lit disponible.]]></Text>  </GameDBLocalizedString>
            
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY</LocID>   <Text>Un patient est transporté dans un autre hôpital.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>Une chambre de patient a été cassé ou disponible depuis trop longtemps et il est transporté dans un autre hôpital</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>Une chambre de patient a été cassé ou indisponible depuis trop longtemps et il est transporté dans un autre hôpital</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>Succès dévérouillé !</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>Succès dévérouillé :\n{1}</Text>  </GameDBLocalizedString>
