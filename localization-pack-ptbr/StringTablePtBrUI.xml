@@ -63,10 +63,10 @@
             <GameDBLocalizedString>      <LocID>SAVE_SCENARIO</LocID>                       <Text>Salvar cenário</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOAD_SCENARIO</LocID>                       <Text>Carregar cenário</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BACK_TO_GAME</LocID>                        <Text>VOLTAR AO JOGO</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>                        <Text>SAIR PARA O MENU</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>                        <Text>SAIR PARA MENU</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>Novo mapa</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>Salvar mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>SALVAR JOGO</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID>                 <Text>Carregar mapa</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_PREFAB</LocID>                         <Text>Salvar pré-fabricado</Text>  </GameDBLocalizedString>
             
@@ -302,7 +302,7 @@
             <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Internação em {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>${1} de subsídio do governo</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>Mais {1} pacientes de ambulatório por dia</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>Mais {1} pacientes graves por dia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>Mais {1} pacientes chegando em uma ambulância por dia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>Ambulâncias</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>YESTERDAY</LocID>        	                <Text>Ontem</Text>  </GameDBLocalizedString>
@@ -704,7 +704,7 @@
             <!-- Dress code category names -->
             <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_CLINIC</LocID>           <Text>Médicos - ambulatório</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_ON_CALL</LocID>          <Text>Médicos - plantão</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DRESS_CODE_SURGERY</LocID>                  <Text>Roupa cirúrgia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_SURGERY</LocID>                  <Text>Capote cirúrgico</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_NURSES</LocID>                   <Text>Enfermeiros</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_TECHNOLOGISTS</LocID>            <Text>Técnicos</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_JANITORS</LocID>                 <Text>Faxineiros</Text>  </GameDBLocalizedString>
@@ -716,13 +716,13 @@
             <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS</LocID>                   <Text>Satisfação dos pacientes</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PRESTIGE_STAFF</LocID>                      <Text>Satisfação dos funcionários</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PRESTIGE_TREATED</LocID>                    <Text>Porcentagem tratada</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PRESTIGE_DEAD</LocID>                       <Text>Pacientes mortos / casos perdidos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_DEAD</LocID>                       <Text>(Sem) pacientes mortos</Text>  </GameDBLocalizedString>
 
             <!-- Statistics -->
             <GameDBLocalizedString>      <LocID>TREATED</LocID>                             <Text>Tratados</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNTREATED</LocID>                           <Text>Não tratados</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WRONGLY_DIAGNOSED</LocID>                   <Text>Diagnósticos errados</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>                       <Text>Pacientes mortos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>                       <Text>Pacientes mortos / casos perdidos</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>Lucro diário</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Pacientes (total/tratados)</Text>  </GameDBLocalizedString>
@@ -833,6 +833,16 @@
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>Um hospital com departamentos de cirurgia geral, clínica médica e ortopedia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>HOSPITAL GRANDE</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>Todos os departamentos!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>ERRADO: </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_CLINIC</LocID>               <Text>Ambulatório não está funcional</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_HOSPITALIZATION</LocID>      <Text>Internação não está funcional</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_INTAKE</LocID>             <Text>Pacientes admitidos:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_PAYMENT</LocID>            <Text>Pagamento dos planos de saúde:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DAY_ABBREVIATION</LocID>                    <Text>d</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DAY_SUFFIX</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Day on main panel -->
                 
         </LocalizedStrings>
     </GameDBStringTable>

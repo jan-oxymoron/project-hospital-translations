@@ -169,10 +169,10 @@
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>Evento bem-sucedido.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>Você foi capaz de completar o evento a tempo. Parabéns!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Evento fracassado.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Você não foi capaz de completar o evento a tempo. Não fique triste e tente novamente!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Você não foi capaz de completar o evento a tempo. Seu prestígio caiu para este dia ou até você completar com sucesso um evento.\nVocê também recebeu uma multa em dinheiro: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Paciente morreu. :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>O estado do(a) paciente era grave e, apesar dos esforços da equipe médica, ele(a) não pôde ser salvo. Será que um hospital mais eficiente teria lidado melhor com esse caso?</Text>  </GameDBLocalizedString>
@@ -224,11 +224,12 @@
             <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Ver planos de saúde</Text>  </GameDBLocalizedString>
             
             <!-- ============= NEW, NEED TRANSLATING ================== -->
-                        <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>Cirurgia desnecessária!</Text>  </GameDBLocalizedString>
-                        <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>Os cirurgiões não encontraram os sintomas esperados durante a cirurgia! O paciente provavelmente foi erroneamente diagnosticado.\nO plano de saúde aplicou ${1} imediatamente de multa.</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>Cirurgia desnecessária!</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>Os cirurgiões não encontraram os sintomas esperados durante a cirurgia! O paciente provavelmente foi erroneamente diagnosticado.\nO plano de saúde aplicou ${1} imediatamente de multa.</Text>  </GameDBLocalizedString>
             
-                        <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>Você perdeu um caso! :(</Text>  </GameDBLocalizedString>
-                        <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>O quadro do(a)paciente era grave e apesar dos esforços da equipe médica a situação saiu do controle. O(A) paciente precisa ser imediatamente transferido(a) para uma instituição mais bem equipada.</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>Você perdeu um caso! :(</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>O quadro do(a)paciente era grave e apesar dos esforços da equipe médica a situação saiu do controle. O(A) paciente precisa ser imediatamente transferido(a) para uma instituição mais bem equipada.</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>Você foi capaz de completar o evento a tempo. Você ganhou um aumento de prestígio para este dia e um prêmio em dinheiro. Parabéns! \n\nEventos bem-sucedidos em sequência: {1}\nPrêmio em dinheiro: ${2}</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>
