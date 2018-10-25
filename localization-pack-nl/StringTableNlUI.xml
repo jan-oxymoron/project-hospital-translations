@@ -291,7 +291,7 @@
             <GameDBLocalizedString>      <LocID>DESC_ROOM_LOCKED</LocID>     		    <Text>Vrijgespeeld via doelstellingen van verzekeringsmaatschappijen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_LEVEL_DESCRIPTION</LocID>     	<Text>Bepaalt welke handelingen het karakter kan uitvoeren.</Text>  </GameDBLocalizedString>
 
-            <!-- Insuracne objectives -->
+            <!-- Insurance objectives -->
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS</LocID>                <Text>Behandel {1} patiënt(en)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATED_IMMOBILE_PATIENTS</LocID>       <Text>Behandel {1} patiënt(en) aangekomen met een ambulance</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY</LocID>        <Text>Behandel {1} patiënten per dag</Text>  </GameDBLocalizedString>
@@ -303,7 +303,7 @@
             <GameDBLocalizedString>      <LocID>NUMBER_OF_AMBULANCES</LocID>            <Text>Schaf {1} ambulance(s) aan</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BALANCE</LocID>                         <Text>Heb een budget van ten minste {1} </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BANK_BALANCE</LocID>                    <Text>Heb een banksaldo boven nul</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY</LocID>                  <Text>Maak {1} dag(en) op rij winst.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROFITABLE_DAYS</LocID>                 <Text>Maak {1} dag(en) op rij winst.</Text>  </GameDBLocalizedString>
 
             <!-- Insurance objective rewards -->
             <GameDBLocalizedString>      <LocID>REWARD</LocID>                          <Text>Beloning</Text>  </GameDBLocalizedString>
@@ -312,7 +312,7 @@
             <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Zienhuisopnames om {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>A {1} overheidssubsidie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>{1} meer ziekenhuispatiënten per dag</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>{1} meer bedlegerzieke per dag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>{1} meer patiënten die per ambulance komen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>Ambulances</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>YESTERDAY</LocID>        	                <Text>Gisteren</Text>  </GameDBLocalizedString>
@@ -838,13 +838,12 @@
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>Klein ziekenhuis met Orthopedie</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C</LocID>            <Text>Klein ziekenhuis</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>Klein ziekenhuis met Orthopedie</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>Middelgroot ziekenhuis</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>Ziekenhuis met Chirurgie en Interne Geneeskunde</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>Groot ziekenhuis</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>Groot ziekenhuis met alle afdelingen!</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E</LocID>            <Text>Middelgroot ziekenhuis</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>Ziekenhuis met Chirurgie, Interne Geneeskunde en Orthopedie</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>Groot Ziekenhuis</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>Groot Ziekenhuis met alle afdelingen</Text>  </GameDBLocalizedString>
-<!-- Toegevoegd, waren niet in Nederlands document toegevoegd -->
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>Ziekenhuis met Chirurgie en Interne Geneeskunde</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>Groot ziekenhuis</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>Groot ziekenhuis met alle afdelingen</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>Verkeerde: </Text>  </GameDBLocalizedString>
 
            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_CLINIC</LocID>               <Text>Kliniek niet functioneel</Text>  </GameDBLocalizedString>
@@ -857,7 +856,8 @@
 
 <!--EN:Added manually \ NL:Handmatig toegevoegd-->		   
 		   <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>PRESTATIESCHERM</Text>  </GameDBLocalizedString>
-		   <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>AFSLUITEN NAAR DESKTOP</Text>  </GameDBLocalizedString>
+<!--		   <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>AFSLUITEN NAAR DESKTOP</Text>  </GameDBLocalizedString> -->
+		   <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>SPEL VOLLEDIG AFSLUITEN</Text>  </GameDBLocalizedString>
 <!--EN:And added rules \ NL:Einde toegevoegde regels -->
  
         </LocalizedStrings>
