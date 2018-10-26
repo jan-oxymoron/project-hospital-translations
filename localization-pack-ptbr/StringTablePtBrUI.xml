@@ -67,7 +67,7 @@
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>Novo mapa</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>SALVAR JOGO</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID>                 <Text>Carregar mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID>                 <Text>CARREGAR JOGO</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_PREFAB</LocID>                         <Text>Salvar pré-fabricado</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_LOG</LocID>        <Text>Tudo para registro</Text>  </GameDBLocalizedString>
@@ -166,7 +166,7 @@
             <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_LAB</LocID>             	<Text>Técnicos indisponíveis.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EQUIPMENT_BUSY</LocID>             	        <Text>Equipamento necessário em uso.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EQUIPMENT_UNAVAILABLE</LocID>             	<Text>Equipamento necessário indisponível.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NO_ROOM</LocID>        	                    <Text>Faltando sala requerida.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_ROOM</LocID>        	                    <Text>Faltando sala adequada.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_CAN_NOT_PRESCRIBE</LocID>        	<Text>O médico não está qualificado para a prescrição.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMERGENCY_NO_SURGERY</LocID>        	    <Text>A cirurgia somente pode ser realizada em departamentos especializados.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_NIGHT</LocID>        	    <Text>Turno da noite sem pessoal.</Text>  </GameDBLocalizedString>
@@ -299,10 +299,10 @@
             <GameDBLocalizedString>      <LocID>REWARD</LocID>                          <Text>Recompensa</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_ROOM</LocID>                     <Text>{1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Internação em {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Internação no(a) {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>${1} de subsídio do governo</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>Mais {1} pacientes de ambulatório por dia</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>Mais {1} pacientes chegando em uma ambulância por dia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>Mais {1} pacientes chegando de ambulância por dia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>Ambulâncias</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>YESTERDAY</LocID>        	                <Text>Ontem</Text>  </GameDBLocalizedString>
@@ -408,7 +408,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_QUARANTINE</LocID>                     <Text>Colocar todo o departamento em quarentena</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CLOSE</LocID>               		      <Text>Fechar o departamento - Todos os pacientes no departamento deixarão o hospital, funcionários irão para casa.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_TIME_SWITCH</LocID>                    <Text>Dia / Semana / Mês</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>                 <Text>Pacientes curados / total</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>                 <Text> - Pacientes tratados hoje\n - Pacientes não tratados hoje\n - Pacientes encaminhados pelos planos de saúde\n\nClique para abrir tabela de pacientes não tratados.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>           		      <Text>Avisos do departamento</Text>  </GameDBLocalizedString>
                                                                                                          
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>           	      <Text>Abrir tabela do pessoal do departamento</Text>  </GameDBLocalizedString>
@@ -429,7 +429,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_DEAD</LocID>                  <Text>Pacientes mortos</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_WAITING</LocID>               <Text>Pacientes aguardando de fato</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_SCHEDULED</LocID>             <Text>Pacientes agendados</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_CURED</LocID>         	      <Text>Pacientes curados / não curados</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_CURED</LocID>         	      <Text>Pacientes tratados | pacientes não tratados</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_LOGISTICS_ROOMS</LocID>         		  <Text>Abrir lista de salas do departamento</Text>  </GameDBLocalizedString>
 
@@ -511,7 +511,7 @@
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_EQUIPMENT</LocID>                         <Text>Equipamento médico</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FURNITURE</LocID>                         <Text>Móveis e acessórios</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_DECALS</LocID>                            <Text>Decais</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_DECALS</LocID>                            <Text>Decalques</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_DECORATIONS</LocID>                       <Text>Decorações</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_OUTDOOR</LocID>                           <Text>Objetos de exterior</Text>  </GameDBLocalizedString>
 
@@ -611,7 +611,7 @@
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS</LocID>     <Text>Pessoal - médicos</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_NURSES</LocID>      <Text>Pessoal - enfermeiros</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_LAB</LocID>         <Text>Pessoal - laboratório</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>    <Text>Pessoal - empregados civis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>    <Text>Pessoal - faxineiros</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_ALL</LocID>         <Text>Pessoal - todos</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS_NURSES</LocID><Text>Pessoal - médicos e enfermeiros</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_SELECT</LocID>              <Text>Selecionar funcionário</Text>  </GameDBLocalizedString>
@@ -843,7 +843,11 @@
             
             <GameDBLocalizedString>      <LocID>DAY_ABBREVIATION</LocID>                    <Text>d</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DAY_SUFFIX</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Day on main panel -->
-                
+           
+		    <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>CONQUISTAS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>SAIR PARA ÁREA DE TRABALHO</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Departamento não pode ser mudado quando os pacientes estão sendo movidos.</Text>  </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
