@@ -96,7 +96,7 @@
 			<GameDBLocalizedString>	<LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>					<Text>Réputation \n (taux de réussite / satisfaction du personnel et des patients)</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_HOSPITAL_PRESTIGE</LocID>						<Text>Prestige</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>			<Text>Influence le nombre de patients arrivant à votre hôpital et certains paiements </Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID>	<Text>Montre l'efficacité du département. Pris en compte dans la réputation globale de l'hôpital</Text>	</GameDBLocalizedString>
+			<!-- UPDATED 2018_11_26--><GameDBLocalizedString>	<LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID>	<Text>Le prestige du service est la satisfaction moyenne du personnel et des patients, ainsi que l'efficacité globale du traitement.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_HOSPITAL_BUDGET_BALANCE</LocID>					<Text>Solde actuel</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_HOSPITAL_TIME_CURRENT</LocID>					<Text>Échelle de temps actuelle</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_MANAGEMENT</LocID>					<Text>Ouvrir l'onglet "gestion des départements"</Text>	</GameDBLocalizedString>
@@ -115,7 +115,7 @@
 			<GameDBLocalizedString>	<LocID>TOOLTIP_VIEW_ZOOM_IN</LocID>								<Text>Zoomer</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_VIEW_ZOOM_OUT</LocID>							<Text>Dézoomer</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_VIEW_TRANSPARENCY_LOGISTICS</LocID>				<Text>Afficher les objets transparents en mode gestion</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>TOOLTIP_VIEW_TRANSPARENCY_DOORS</LocID>					<Text>Rendre les portes et fenêtres transparentes</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TOOLTIP_VIEW_TRANSPARENCY_DOORS</LocID>					<Text>Rendre les portes, fenêtres, ascenseurs et ambulances transparents</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_VIEW_ADD_FAVOURITE</LocID>						<Text>Ajouter aux Favoris</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_PATIENT_BALANCE</LocID>							<Text>Solde du patient</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_VIEW_CLEAR_LOG</LocID>							<Text>Effacer le journal de notification</Text>	</GameDBLocalizedString>
@@ -237,7 +237,7 @@
 			<GameDBLocalizedString>	<LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID>				<Text>Hospitalisation à {1}</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MONEY_GRANT</LocID>										<Text>{1} $ de subvention gouvernementale</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MORE_MOBILE_PATIENTS</LocID>								<Text>{1} plus de patients par jour en clinique</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>MORE_IMMOBILE_PATIENTS</LocID>							<Text>{1} plus de patients hospitalisés par jour</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>MORE_IMMOBILE_PATIENTS</LocID>							<Text>{1} plus de patients arrivant dans une ambulance par jour</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>UNLOCK_AMBULANCES</LocID>								<Text>Ambulances</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>YESTERDAY</LocID>										<Text>Hier</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TODAY</LocID>											<Text>Aujourd'hui</Text>	</GameDBLocalizedString>
@@ -255,9 +255,9 @@
 			<GameDBLocalizedString>	<LocID>MANAGEMENT_BANK</LocID>									<Text>Emprunts bancaires</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MANAGEMENT_INTEREST</LocID>								<Text>Intérêt quotidien</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MANAGEMENT_LOAN</LocID>									<Text>Total du prêt</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>MANAGEMENT_INSURANCE</LocID>								<Text>Assurance</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>MANAGEMENT_INSURANCE</LocID>								<Text>Assurance (clinique)</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MANAGEMENT_SERVICES</LocID>								<Text>Services</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>MANAGEMENT_WAGES</LocID>									<Text>Salaires</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>MANAGEMENT_WAGES</LocID>									<Text>Salaires (clinique)</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MANAGEMENT_TOTAL</LocID>									<Text>Total</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MANAGEMENT_STATISTICS_ALL_TIME</LocID>					<Text>Tout le temps</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>MANAGEMENT_STATISTICS_LAST_DAY</LocID>					<Text>Le Dernier jour</Text>	</GameDBLocalizedString>
@@ -318,7 +318,7 @@
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_QUARANTINE</LocID>					<Text>Mettre en quarantaine tout le département</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_CLOSE</LocID>							<Text>Fermer le département - Tous les patients du département quitteront votre hôpital, le personnel rentrera chez lui.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_TIME_SWITCH</LocID>					<Text>Jour / Semaine / Mois</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>				<Text>Patients guéris / total</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>				<Text>- Les patients traités aujourd'hui\n - Les patients non traités aujourd'hui\n - Prise en charge des patients par les compagnies d'assurance\n\nCliquez pour ouvrir le tableau des patients non traités.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>						<Text>Avertissements du département</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>					<Text>Ouvrir la table du personnel</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>					<Text>Le médecin en chef ajoute une prime quotidienne au personnel des départements respectifs. Choisis sagement.</Text>	</GameDBLocalizedString>
@@ -337,7 +337,7 @@
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_PATIENTS_DEAD</LocID>					<Text>Patients morts</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_PATIENTS_WAITING</LocID>				<Text>Patients en attente</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_PATIENTS_SCHEDULED</LocID>			<Text>Patients programmés</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_PATIENTS_CURED</LocID>				<Text>Patients guéris / non guéris</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_PATIENTS_CURED</LocID>				<Text>Patients guéris | non guéris</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_LOGISTICS_ROOMS</LocID>				<Text>Ouvrir la liste des pièces du département</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_PIN</LocID>							<Text>Épingler une carte de département à la fenêtre principale</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DEPARTMENT_NAME</LocID>							<Text>Renommer le département</Text>	</GameDBLocalizedString>
@@ -484,7 +484,7 @@
 			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_HEADING_DOCTORS</LocID>					<Text>Employés - Médecins</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_HEADING_NURSES</LocID>					<Text>Employés - Infirmiers</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_HEADING_LAB</LocID>						<Text>Employés - Personnel de laboratoire</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>					<Text>Employés - Employés Civils</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>					<Text>Employés - Concierges</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_HEADING_ALL</LocID>						<Text>Employés - Tous</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_HEADING_DOCTORS_NURSES</LocID>			<Text>Employés - Médecins et infirmiers</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TABLE_EMPLOYEES_SELECT</LocID>							<Text>Sélectionnez un employé</Text>	</GameDBLocalizedString>
@@ -576,7 +576,7 @@
 			<GameDBLocalizedString>	<LocID>DEAD_PATIENTS</LocID>									<Text>Patients décédés / cas perdus</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>STATISTICS_PROFIT</LocID>								<Text>Bénéfice quotidien</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>STATISTICS_PATIENTS</LocID>								<Text>Patients (total / traité)</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>TOOLTIP_EVENTS_UNLOCK</LocID>							<Text>Les événements se déverrouillent lorsque vous ouvrez une hospitalisation sur tous les départements.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TOOLTIP_EVENTS_UNLOCK</LocID>							<Text>Les événements se déverrouillent lorsque vous ouvrez une hospitalisation sur tous les départements, ou ne peut pas être démarré pendant la nuit.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_INCREASE_LOAN</LocID>							<Text>Prêt 20 000 $.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TOOLTIP_DECREASE_LOAN</LocID>							<Text>Rembourser 20 000 $.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>HIRING_AGENCY</LocID>									<Text>Agence de location</Text>	</GameDBLocalizedString>
@@ -681,6 +681,10 @@
 			<GameDBLocalizedString>	<LocID>DAY_SUFFIX</LocID>										<Text> </Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>EXIT_TO_DESKTOP</LocID>									<Text>Quitter vers le bureau</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>UI_ACHIEVEMENTS</LocID>										<Text>Succès</Text>	</GameDBLocalizedString>
+			
+            <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Le service ne peut pas être changé lorsque les patients sont encore transportés, s'effondrent ou sont stabilisés.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>LANGUAGE</Text>  </GameDBLocalizedString>
 		</LocalizedStrings>
 	</GameDBStringTable>
 </Database>
