@@ -1,4 +1,4 @@
-﻿<Database>
+<Database>
     <GameDBStringTable ID="LOC_PTBR_SKILLS">
         
         <LanguageCode>ptbr</LanguageCode>
@@ -10,9 +10,9 @@
         
         <LocalizedStrings>
             <!-- Departments -->
-            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Sem dapartamento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Sem departamento</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Emergência</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Centro de Tratamento Intensivo (CTI)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Centro de Tratamento Intensivo</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Cirurgia geral</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Clínica médica</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Ortopedia</Text>  </GameDBLocalizedString>
@@ -29,8 +29,8 @@
             <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>Chefe de seção</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Estudante de enfermagem</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Enfermeiro residente</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Enfermeiro especialista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Enfermeiro(a) residente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Enfermeiro(a) especialista</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Técnico(a) Júnior</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Técnico(a) Sênior</Text>  </GameDBLocalizedString>
@@ -49,11 +49,11 @@
 
             <!-- Doctor's SPECIALIZATIONS -->
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Medicina de emergência</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Medicina de emergência permite a realização de procedimentos especializados em diagnóstico e tratamento de pacientes graves na Emergência.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Especialização em medicina de emergência permite a realização de procedimentos especializados em diagnóstico e tratamento de pacientes graves na Emergência.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Diagnóstico avançado</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Especialização em diagnóstico avançado confere ao médico a capacidade de realizar diagnóstico diferencial.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Medicina Intensiva</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Medicina Intensiva confere ao médico acesso à métodos diagnósticos especiais utilizados no CTI.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Medicina intensiva</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Especialização em medicina intensiva confere ao médico acesso à métodos diagnósticos especiais utilizados no CTI.</Text></GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>Clínica cirúrgica</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>Especialização em clínica cirúrgica permite realizar exames e prescrever tratamentos no departamento de cirurgia geral, assim como auxilar em procedimentos cirúrgicos.</Text>  </GameDBLocalizedString>
@@ -94,21 +94,21 @@
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Enfermagem cirúrgica</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>O pessoal de enfermagem especializado em procedimentos cirúrgicos representa uma parte importante da equipe cirúrgica.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Enfermagem clínica</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>A especialização em enfermagem clínica permite ao(à) enfermeiro(a) reconhecer sinais e sintomas do paciente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>A especialização em enfermagem clínica permite ao enfermeiro reconhecer sinais e sintomas do paciente.</Text>  </GameDBLocalizedString>
 
             
             <!-- Lab guys QUALIFICATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>Bioquimica clínica</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>Qualificação em bioquimica clínica permite acesso a vários testes do laboratório de análises.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>Bioquímica clínica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>Qualificação em bioquimica clínica permite o acesso a vários exames do laboratório de análises.</Text>  </GameDBLocalizedString>
 
             <!-- Lab guys SPECIALIZATIONS -->
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>                      <Text>Bioquímica avançada</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>O bioquímico avançado aumenta a eficiência dos exames laboratoriais.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Radiologa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Radiologia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>O técnico radiologista é capaz de operar o maquinário das salas que produzem imagens radiológicas e outros equipamentos correlatos.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>Patologista</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>O técnico em patologia é capaz de operar dispositivos de laboratório relacionados à cirurgia geral.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>US</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>USG</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>O técnico em ultrassonografia é capaz de operar os equipamentos de ultrassom.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>Cardiologia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>O técnico em cardiologia é capaz de operar os equipamentos relacionados à Cardiologia.</Text>  </GameDBLocalizedString>
@@ -118,9 +118,9 @@
             
             <!-- Janitor QUALIFICATIONS -->
             <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>Eficiência</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>Eficiência afeta o quão bem os faxineiros planejam a maneira de limpar um cômodo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>A eficiência afeta o quão bem os faxineiros planejam a limpeza de um cômodo.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Destreza</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>Destreza afeta a velocidade de limpeza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>A destreza afeta a velocidade de limpeza.</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>
