@@ -172,7 +172,7 @@
             <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID><Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>이벤트 목표 실패.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>제 시간에 이벤트 목표를 달성하지 못했습니다. 하루동안 혹은 이벤트 목표를 달성할 때까지 병원의 위신이 하락할 것입니다.\n또한 다음의 비용 패널티가 있습니다: ${1}</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>제 시간에 이벤트 목표를 달성하지 못했거나 환자가 죽거나 다른 병원으로 이송되어 버렸습니다. 하루동안 혹은 이벤트 목표를 달성할 때까지 병원의 위신이 하락할 것입니다.\n또한 다음의 비용 패널티가 있습니다: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>환자 사망. :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>환자의 상태가 위중하여 당신의 의사가 최선의 노력을 쏟았지만 결국 환자를 살리지 못했습니다. 더 효율적인 병원이었다면 상황이 더 나았을까요?</Text>  </GameDBLocalizedString>
@@ -229,8 +229,12 @@
 
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>실패 사례! :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>환자의 상태가 위중하여 당신의 의사가 최선의 노력을 쏟았지만 환자의 상태가 통제가능한 영역을 벗어났습니다. 환자는 즉각 더 좋은 장비를 갖춘 시설로 이송되야만 합니다.</Text>  </GameDBLocalizedString>
+            
             <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>제시간에 이벤트 목표를 달성할 수 있었습니다. 하루동안 병원 위신이 상승할 것이고 보상금을 받게 될 것입니다. 축하드립니다! \n\n연이은 이벤트 성공: {1}\n보상금: ${2}</Text>  </GameDBLocalizedString>
-
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>            <Text>부서에서 환자를 진단할 수 없습니다!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>       <Text>환자의 부서에서 더 이상의 검사를 진행할 수 없어 보입니다. 잠재적 진단 리스트 혹은 더 많은 검사를 수행할 수 있는 부서로 변경하는 것을 고려하세요.</Text>  </GameDBLocalizedString>
+            
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
