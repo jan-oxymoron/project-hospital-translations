@@ -730,7 +730,7 @@
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Pacientes (total/tratados)</Text>  </GameDBLocalizedString>
             
  <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Los eventos se desbloquearán cuando abras la hospitalización en todos los departamentos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Los eventos se desbloquearán cuando abras la hospitalización en todos los departamentos, o no pueden ser iniciados durante la noche.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Solicitar $20 000 prestados.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Pagar $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>Agencia de contratación</Text>  </GameDBLocalizedString>
@@ -836,7 +836,7 @@
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>HOSPITAL GRANDE</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>Todos los departamentos, 96 x 96</Text>  </GameDBLocalizedString>
             
-<GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>ERRADO: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>ERRADO: </Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_CLINIC</LocID>               <Text>La clínica no funciona</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_HOSPITALIZATION</LocID>      <Text>La hospitalización no funciona</Text>  </GameDBLocalizedString>
@@ -847,10 +847,13 @@
             <GameDBLocalizedString>      <LocID>DAY_SUFFIX</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Day on main panel -->
 
 
-   <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>LOGROS</Text>  </GameDBLocalizedString>
-   <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>SALIR AL ESCRITORIO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>LOGROS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>SALIR AL ESCRITORIO</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>     <LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>El departamento no puede ser cambiado mientras los pacientes están siendo transportados.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>El departamento no puede ser cambiado cuando los pacientes están siendo transportados, colapsando o estabilizados.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>IDIOMA</Text>  </GameDBLocalizedString>
+            
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
