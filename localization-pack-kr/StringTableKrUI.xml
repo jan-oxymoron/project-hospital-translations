@@ -127,7 +127,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>             	<Text>명성\n(성공 비율 / 직원과 환자의 만족도)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE</LocID>                   <Text>위신</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>병원에 도달하는 환자수와 일부 보험 요금에 영향을 줍니다.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>이 부서의 효율과 집계된 병원의 전반적인 평판을 보여줍니다.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>부서의 위신은 직원과 환자의 평균 만족도, 부서의 전반적인 치료 효율을 나타냅니다.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_BUDGET_BALANCE</LocID>             <Text>현재 은행 잔고</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TIME_CURRENT</LocID>             	<Text>현재 시간</Text>  </GameDBLocalizedString>
             
@@ -728,7 +728,7 @@
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>환자 (전체 환자/치료된 환자)</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>모든 부서들의 입원 기능을 활성화 하면 이벤트가 해제됩니다.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED_2018_10_28 --> <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>모든 부서들의 입원 기능을 활성화 하면 이벤트가 해제됩니다. 밤 동안에는 해금되지 않습니다.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>$20 000 대출받기.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>$20 000 상환하기.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>에이전시 고용하기</Text>  </GameDBLocalizedString>
@@ -846,8 +846,11 @@
 
             <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>달성 과제</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>데스크탑으로 나가기</Text>  </GameDBLocalizedString>
+            
+            <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>환자가 이송, 의식불명, 안정됨 상태에서는 부서를 변경할 수 없습니다.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>     <LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>환자가 이송 중에는 부서를 변경할 수 없습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>언어</Text>  </GameDBLocalizedString>
+            
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
