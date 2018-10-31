@@ -1,9 +1,9 @@
 ﻿<Database>
-    <GameDBStringTable ID="LOC_EN_EVENTS">
+    <GameDBStringTable ID="LOC_HU_EVENTS">
     
         <LanguageCode>hu</LanguageCode>
         <LanguageNameLocalized>Magyar</LanguageNameLocalized>
-        
+
         <Contributors>
             <Name>CrypterEmerald</Name>
         </Contributors>
@@ -12,19 +12,23 @@
 
             <!-- Event names -->
             <GameDBLocalizedString>      <LocID>EVENT_TEST</LocID>                      <Text>Teszt esemény</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Program összeomlás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Baleset</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_PANDEMIC</LocID>                  <Text>Járvány</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_NATURAL_DISASTER</LocID>          <Text>Természeti katasztrófa</Text>  </GameDBLocalizedString>
-
 
             <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENT</LocID>          <Text>Gyógyítás</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENTS</LocID>         <Text>Betegek gyógyítása</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECTIVE_STABILIZE_PATIENT</LocID>     <Text>Lásd el a beteget:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECTIVE_PLACE_ROOM</LocID>            <Text>Elhelyezés</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECTIVE_EQUIP_ROOM</LocID>            <Text>Felszerelés</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>         <Text>Dolgozó felvétele</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>     <Text>Tartsd a hírnevet {1} csillag felett {2} napig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>         <Text>Alkalmazott felvétele</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>     <Text>Tartsd a presztízst {1} csillag felett {2} napig</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_HIGH_INCOME</LocID>  <Text>Bevételed legyen legalább {1} {2} napig</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_COMPLETE_HOSPITALIZATION</LocID><Text>Kórterem minden osztályon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_TREATED_PATIENTS_PERCENTAGE</LocID>  <Text>Láss el a betegek legalább {1}%-át 10 napon át</Text>  </GameDBLocalizedString>
+            
         </LocalizedStrings>
     </GameDBStringTable>
 </Database> 

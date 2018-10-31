@@ -1,0 +1,395 @@
+<Database>
+    <GameDBStringTable ID="LOC_SWE_CHARACTERS">
+        
+        <LanguageCode>swe</LanguageCode>
+        <LanguageNameLocalized>Svenska</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Christoffer Rydström</Name>
+        </Contributors>
+        
+    	<LocalizedStrings>
+            <!-- Employee job titles -->
+            <GameDBLocalizedString>      <LocID>OCCUPATION_DOCTOR</LocID>               <Text>Läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_NURSE</LocID>                <Text>Sköterska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_LAB_SPECIALIST</LocID>       <Text>Tekniker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_JANITOR</LocID>              <Text>Städare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FIRED</LocID>                           <Text>Sparkad</Text>  </GameDBLocalizedString>
+
+            <!-- Patient's jobs -->
+            <GameDBLocalizedString>      <LocID>OCCUPATION_OFFICE_JOB</LocID>           <Text>Kontorsarbetare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_MANAGER</LocID>              <Text>Chef</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_ACCOUNTANT</LocID>           <Text>Revisor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_TEACHER</LocID>              <Text>Lärare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_COOK</LocID>                 <Text>Kock</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_FACTORY_WORKER</LocID>       <Text>Fabriksarbetare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_CASHIER</LocID>              <Text>Kassör</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_ATHLETE</LocID>              <Text>Atlet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_ACROBAT</LocID>              <Text>Akrobat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_RETIRED</LocID>              <Text>Pensionär</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NONE</LocID>                            <Text>inget</Text>  </GameDBLocalizedString>
+            
+            <!-- Perks staff -->
+            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS</LocID>               	<Text>Bra Chef</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS_DESCRIPTION</LocID>      <Text>Förbättrar belåtenheten hos underordnade kollegor varje morgon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER</LocID>               <Text>Lär sig snabbt</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER_DESCRIPTION</LocID>   <Text>Förbättrar sina färdigheter mycket snabbare.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SPARTAN</LocID>              		<Text>Spartansk</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SPARTAN_DESCRIPTION</LocID>   		<Text>Alla behov minskar långsammare.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SCHOLAR</LocID>              		<Text>Plugghäst</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SCHOLAR_DESCRIPTION</LocID>   		<Text>Använder sin lediga tid till att studera.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON</LocID>              <Text>Karismatisk</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON_DESCRIPTION</LocID>  <Text>Låser upp en dold egenhet hos andra efter att ha interagerat med dem.</Text>  </GameDBLocalizedString>
+        	<GameDBLocalizedString>      <LocID>PERK_GAMER</LocID>              		<Text>Gamer</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_GAMER_DESCRIPTION</LocID>  		<Text>Vilar upp sig mycket snabbare.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER</LocID>               <Text>Trögtänkt</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER_DESCRIPTION</LocID>   <Text>Förbättrar sina färdigheter långsammare.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LONG_COMMUTE</LocID>               <Text>Långpendlar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LONG_COMMUTE_DESCRIPTION</LocID>   <Text>Arbetar lång ifrån hemmet. Kan ofta komma sent till jobbet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM</LocID>                 <Text>Alkoholist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM_DESCRIPTION</LocID>     <Text>Kommer ofta sent och bakfull.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM</LocID>            <Text>Snabb metabolism</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM_DESCRIPTION</LocID><Text>Hunger ökar snabbare.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET</LocID>                 <Text>Smutsiga fötter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET_DESCRIPTION</LocID>     <Text>Väldigt smutsiga skor. Smutsar ner överallt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES</LocID>        <Text>Praktiska diagnoser</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES_DESCRIPTION</LocID><Text>20% extra erfarenhet till färdigheten diagnostik, efter en lyckad diagnostisering.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE</LocID>               <Text>Vil(j)a</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE_DESCRIPTION</LocID>   <Text>Behovet av vila sjunker långsammare.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FRESH_PARENT</LocID>               <Text>Nybliven förälder</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FRESH_PARENT_DESCRIPTION</LocID>   <Text>Behovet av vila sjunker snabbare.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE</LocID>                 <Text>Bakteriofob</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE_DESCRIPTION</LocID>     <Text>Tvättar händerna tre gånger mer än vanligt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CHEMIST</LocID>                    <Text>Kemist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CHEMIST_DESCRIPTION</LocID>        <Text>Städar golven mycket fortare.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_COMFORTING</LocID>                 <Text>Tröstande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_COMFORTING_DESCRIPTION</LocID>     <Text>Ger inte patienten obehag under undersökning.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIAGNOSTIC_GENIUS</LocID>          <Text>Diagnostiskt geni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIAGNOSTIC_GENIUS_DESCRIPTION</LocID><Text>Har en fallenhet för diagnostisering!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_EARLY_BIRD</LocID>                 <Text>Guld i mun</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_EARLY_BIRD_DESCRIPTION</LocID>     <Text>Arbetar snabbare under dagen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_NIGHT_OWL</LocID>                  <Text>Nattuggla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_NIGHT_OWL_DESCRIPTION</LocID>      <Text>Arbetar snabbare under natten.</Text></GameDBLocalizedString>
+
+            <!--TODO to be implemented -->
+            <GameDBLocalizedString>      <LocID>PERK_PLEASANT</LocID>                   <Text>Trevlig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PLEASANT_DESCRIPTION</LocID>       <Text>Ger "trevlig personal" modifierare efter att ha interagerat med en patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT</LocID>                 <Text>Otrevlig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_DESCRIPTION</LocID>     <Text>Ger "otäck personal" modifierare efter att ha interagerat med en patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CLEAN_FEET</LocID>                 <Text>Rena fötter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CLEAN_FEET_DESCRIPTION</LocID>     <Text>Väldigt rena skor. Smutsar inte ner golvet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HARD_WORKER</LocID>                <Text>Arbetar hårt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HARD_WORKER_DESCRIPTION</LocID>    <Text>Tar inte rast.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LOYAL</LocID>                      <Text>Lojal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LOYAL_DESCRIPTION</LocID>          <Text>Tar 20% mindre i lön när de går upp i nivå.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED</LocID>                  <Text>Deprimerad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_DESCRIPTION</LocID>      <Text>Ger "deprimerad" modifierare till sig själv.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HEDONIST</LocID>                   <Text>Hedonist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HEDONIST_DESCRIPTION</LocID>       <Text>Tar dubbelt så lång tid på sig att njuta av maten.</Text>  </GameDBLocalizedString>
+
+            <!-- Perks patient -->
+            <GameDBLocalizedString>      <LocID>PERK_COOPERATIVE</LocID>                <Text>Samarbetsvillig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_COOPERATIVE_DESCRIPTION</LocID>    <Text>Snabbar på procedurer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_AGGRESSIVE</LocID>                 <Text>Aggressiv</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_AGGRESSIVE_DESCRIPTION</LocID>     <Text>Avbryter procedurer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_INSPIRATOR</LocID>              	<Text>Motivator</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_INSPIRATOR_DESCRIPTION</LocID>   	<Text>Förbättrar humöret hos personer runt sig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SHAMELESS</LocID>              	<Text>Skamlös</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SHAMELESS_DESCRIPTION</LocID>   	<Text>Det kommer sannolikt att avslöja känsliga symptom.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_MEDICAL_EDUCATION</LocID>          <Text>Medicinsk utbildning</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_MEDICAL_EDUCATION_DESCRIPTION</LocID><Text>Hjälper doktorn med att avslöja symptomer.</Text>  </GameDBLocalizedString>
+        	<GameDBLocalizedString>      <LocID>PERK_FOREIGNER</LocID>              	<Text>Turist</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_FOREIGNER_DESCRIPTION</LocID>  	<Text>Kan inte språket. Långsam kommunikation.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEMOTIVATOR</LocID>                <Text>Irriterande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEMOTIVATOR_DESCRIPTION</LocID>    <Text>Sänker humöret hos personer runt sig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SLOW</LocID>                		<Text>Långsam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SLOW_DESCRIPTION</LocID>     		<Text>Rör sig långsamt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST</LocID>                		<Text>Snabb</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_DESCRIPTION</LocID>     		<Text>Rör sig snabbt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SHY</LocID>            			<Text>Blyg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SHY_DESCRIPTION</LocID>			<Text>Det kommer sannolikt att dölja känsliga symptom</Text>  </GameDBLocalizedString>
+
+            <!--TODO to be implemented -->
+            <GameDBLocalizedString>      <LocID>PERK_PIRATE</LocID>                     <Text>Pirat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PIRATE_DESCRIPTION</LocID>         <Text>Betalar inte för något</Text>  </GameDBLocalizedString>
+
+            <!-- Need names -->
+            <GameDBLocalizedString>      <LocID>NEED_REST</LocID>                       <Text>Vila</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_REST_DESC</LocID>                  <Text>Anställda behöver ta rast ett par gånger varje dag.\n\nOm deras Vila sjunker under två stjärnor, kommer detta att påverka den anställdas prestanda negativt.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF</LocID>               <Text>Hunger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF_DESC</LocID>          <Text>Anställda behöver tillgång till mat och vatten och helst äta en riktig lunch i allrummet varje dag.\n\nOm deras Hunger sjunker under två stjärnor, kommer detta att påverka den anställdas prestanda negativt.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS</LocID>            <Text>Hunger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS_DESC</LocID>       <Text>Anställda behöver tillgång till mat och vatten om de väntar länge.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NEED_BLADDER</LocID>                    <Text>Blåsa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_BLADDER_DESC</LocID>               <Text>Det bör finnas toaletter på varje våning.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT</LocID>                 <Text>Obehag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT_DESC</LocID>            <Text>Nivån av smärta och obehag orsakade av symptomer, undersökningar, och behandlingar.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION</LocID>               <Text>Belåtenhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION_DESC</LocID>          <Text>Den samlade belåtenheten influerad av behov, personer, och miljö.</Text>  </GameDBLocalizedString>
+
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_SIT</LocID>             <Text>kunde inte sitta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_LONG_WAIT</LocID>               <Text>lång vänttid</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_SHORT_WAIT</LocID>              <Text>kort vänttid</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DIRTY_ENVIRONMENT</LocID>       <Text>smutsigt golv</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_WAITED_FOR_WC</LocID>           <Text>väntade på toaletten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_BORED</LocID>                   <Text>uttråkad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_WASH_HANDS</LocID>      <Text>kunde inte tvätta händerna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_WAITED_FOR_FOOD</LocID>         <Text>väntade på mat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_WRONG_DIAG_LAST_TIME</LocID>    <Text>feldiagnostiserad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_ENVIRONMENT</LocID>        <Text>trevlig miljö</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_DOCTOR</LocID>             <Text>trevlig läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_GOOD_BOSS</LocID>               <Text>bra chef</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NO_BOSS</LocID>                 <Text>saknar chef</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAS_BOSS</LocID>                <Text>har chef</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_INSTIPRATOR</LocID>             <Text>inspirerad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DEMOTIVATOR</LocID>             <Text>irriterad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PATIENT_CURED</LocID>           <Text>behandlad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_FIRED</LocID>                   <Text>sparkad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_USED</LocID>             <Text>lättat behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_NOT_USED</LocID>         <Text>trängande behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_EATEN</LocID>              <Text>mätt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_NOT_EATEN</LocID>          <Text>hungrig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_BOREDOM_REDUCED</LocID>         <Text>underhållen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_RESTED</LocID>                  <Text>utvilad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TIRED</LocID>                   <Text>trött</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_COMFORTABLE</LocID>             <Text>bekväm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DISCOMFORTABLE</LocID>          <Text>obekväm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH_STANDING</LocID>      <Text>stående lunch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH</LocID>               <Text>riktig lunch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_ROUGH_NIGHT</LocID>              <Text>tuff natt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_UNRELEASED</LocID>              <Text>ej utskriven</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_GOING_HOME</LocID>              <Text>går hem</Text>  </GameDBLocalizedString>
+
+            <!--TODO to be implemented -->
+            <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_DRY_HANDS</LocID>       <Text>våta händer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_UGLY_ENVIRONMENT</LocID>        <Text>ful omgivning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_CARED_FOR</LocID>               <Text>snabb ordination</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NEGLECTED</LocID>               <Text>långsam ordination</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_BIG_COMFORT</LocID>             <Text>her en modern säng</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_STAFF</LocID>              <Text>trevlig personal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_MEAN_STAFF</LocID>              <Text>otäck personal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_SHOCKED</LocID>                 <Text>chockad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PRODUCTIVE</LocID>              <Text>produktiv</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DOUBTFUL</LocID>                <Text>tveksam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DEPRESSED</LocID>               <Text>deprimerad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HUNGOVER</LocID>                <Text>bakfull</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NONE</LocID>                    <Text>inga modifierare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DISC_DISCOMFORT_NONE</LocID>            <Text>inget obehag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DISC_DISCOMFORT_UNKNOWN</LocID>         <Text>okänd</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>GENDER_MALE</LocID>                     <Text>Man</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GENDER_FEMALE</LocID>                   <Text>Kvinna</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HAZARD_UNKNOWN</LocID>                  <Text>okänd risk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HAZARD_NONE</LocID>                     <Text>ingen risk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HAZARD_LOW</LocID>                      <Text>låg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HAZARD_MEDIUM</LocID>                   <Text>mellan</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HAZARD_HIGH</LocID>                     <Text>hög</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HAZARD_SUPPRESSED</LocID>               <Text>Dämpad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HAZARD_KILLED_PATIENT</LocID>           <Text>Dödade patienten</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SYMPTOM_MOBILE</LocID>                  <Text>Rörlig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOM_IMOBILE</LocID>                 <Text>Immobil</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOM_INTUBATED</LocID>               <Text>Intuberad</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SENT_HOME</LocID>                       <Text>Hemskickad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED</LocID>                    <Text>Inlagd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZING</LocID>                   <Text>Blir inlagd</Text>  </GameDBLocalizedString>
+            
+            <!-- Daily schedule -->
+            <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_STAFF</LocID>                <Text>Dagskift</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_STAFF_NIGHT</LocID>          <Text>Nattskift</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_PATIENTS</LocID>             <Text>Mottagning öppen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_LUNCH</LocID>        <Text>Patientens lunch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_STAFF_LUNCH</LocID>                        <Text>Personalens lunch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_DOCTORS_ROUNDS</LocID>                     <Text>Läkarens rond</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_NURSE_PILLS_MORNING</LocID>                <Text>Morgonmedicin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_NURSE_PILLS_EVENING</LocID>                <Text>Kvällsmedicin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_PATIENTS_PILLS_MORNING</LocID>             <Text>Morgonmedicin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_PATIENTS_PILLS_EVENING</LocID>             <Text>Kvällsmedicin</Text>  </GameDBLocalizedString>
+
+            <!-- Stabilization localization -->
+            <GameDBLocalizedString>      <LocID>STABILIZATION_TEXT</LocID>                          <Text>Stabilisering</Text>  </GameDBLocalizedString>
+
+            <!-- Patient states -->
+            <GameDBLocalizedString>      <LocID>Spawned</LocID>                                     <Text>Skapad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Idle</LocID>                                        <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToReception</LocID>                            <Text>Går till reception</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToReceptionist</LocID>                         <Text>Går till receptionist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ExaminedAtReception</LocID>                         <Text>Vid receptionen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FindQueueMachine</LocID>                            <Text>Går till väntrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoToQueueMachine</LocID>                            <Text>Går till väntrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UseQueueMachine</LocID>                             <Text>Går till väntrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Wandering</LocID>                                   <Text>Vandrar omkring</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToWaitingRoom</LocID>                          <Text>Går till väntrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingGoingToChair</LocID>                         <Text>Går till stol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingSitting</LocID>                              <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingStandingIdle</LocID>                         <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingBeingCalled</LocID>                          <Text>Kallas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FulfillingNeeds</LocID>                             <Text>Uppfyller behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToDoctor</LocID>                               <Text>Går till läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BeingExamined</LocID>                               <Text>Undersöks</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BeingTreated</LocID>                                <Text>Behandlas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BlockedByAmbiguousResults</LocID>                   <Text>Tvetydiga resultat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BlockedByNoTreatment</LocID>                        <Text>kan inte behandlas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BlockedByComplicatedDiagnosis</LocID>               <Text>Komplicerad diagnos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Leaving</LocID>                                     <Text>Lämnar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Left</LocID>                                        <Text>Lämnat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OverriddenByHospitalization</LocID>                 <Text>Inlagd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CallOnCallRoomDoctor</LocID>                        <Text>Kallar på läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitForOnCallRoomDoctor</LocID>                     <Text>Väntar på läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToStatLab</LocID>                              <Text>Går till medicinlabb</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>Collapsing</LocID>                                  <Text>Kollapsar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToCollapse</LocID>                             <Text>Mår inte... så bra...</Text>  </GameDBLocalizedString>
+
+            <!-- Hospitalization states -->
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Idle</LocID>                           <Text>väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_GoingToBed</LocID>                     <Text>går till sängs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_InBed</LocID>                          <Text>väntar i sängen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FulfillingNeeds</LocID>                <Text>uppfyller behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FillingFreeTime</LocID>                <Text>fördriver tiden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FillingFreeTimeLying</LocID>           <Text>fördriver tiden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Eating</LocID>                         <Text>äter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Sleeping</LocID>                       <Text>sover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BlockedByAmbiguousResults</LocID>      <Text>tvetydig diagnos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BlockedByNoTreatment</LocID>           <Text>ingen behandling tillgänglig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByNurseCheckUp</LocID>        <Text>kontrolleras av en sköterska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByDoctorsRounds</LocID>       <Text>kontrolleras av en läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByMedicine</LocID>            <Text>får medicin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Interrupted</LocID>                    <Text>avbruten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingExamined</LocID>                  <Text>undersöks</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTreated</LocID>                   <Text>behandlas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AfterExaminationCheck</LocID>          <Text>efter undersökning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AfterTreatmentCheck</LocID>            <Text>efter behandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_DeliveredByAmbulance</LocID>           <Text>flyttas från ambulans</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromAmbulance</LocID>  <Text>flyttas från ambulans</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToTreatment</LocID>    <Text>flyttas till behandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromTreatment</LocID>  <Text>flyttas till behandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToExamination</LocID>  <Text>flyttas till undersökning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromExamination</LocID><Text>flyttas till undersökning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedBackToRoom</LocID>     <Text>flyttas till rum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_GoingToCollapse</LocID>                <Text>kollapsar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Collapsing</LocID>                     <Text>kollapsar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_CollapsingInBed</LocID>                <Text>kollapsar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FindNewBed</LocID>                     <Text>väntar på säng</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBed</LocID>                  <Text>väntar på säng</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForStabilization</LocID>        <Text>väntar på stabilisering</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingStabilized</LocID>                <Text>genomgår stabilisering</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForTransport</LocID>            <Text>väntar på transport</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeReleased</LocID>            <Text>väntar på utskrivning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForRoomFix</LocID>              <Text>i ett rum ur funktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_NoHospitalization</LocID>              <Text>väntar på inläggning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_TransportedAway</LocID>                <Text>transporteras iväg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Leaving</LocID>                        <Text>lämnar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Dead</LocID>                           <Text>avliden</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT</LocID>                           <Text>Diagnostik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY</LocID>                           <Text>Kirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ASSIST</LocID>                    <Text>Assistera vid kirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</LocID>            <Text>Narkosläkare vid kirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_CARE</LocID>                      <Text>Patientvård</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_TRANSFERS</LocID>                 <Text>Patient förflyttas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE</LocID>                     <Text>Sköterska - kirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB</LocID>                               <Text>Testar och undersöker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_CLEANING</LocID>                          <Text>Städar</Text>  </GameDBLocalizedString>
+
+            <!-- Doctor states -->
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Idle</LocID>                           <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FinishedProcedure</LocID>              <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingToWorkPlace</LocID>               <Text>Går till arbetet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FulfilingNeeds</LocID>                 <Text>Uppfyller behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FilingReports</LocID>                  <Text>Skriver rapport</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FillingFreeTime</LocID>                <Text>Fördriver tiden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenByProcedureScript</LocID>     <Text>Utför en procedur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenReservedForProcedure</LocID>  <Text>Reserverad för en procedur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_DoctorsRounds</LocID>                  <Text>Går ronden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingHome</LocID>                      <Text>Går hem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_AtHome</LocID>                         <Text>Hemma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Commuting</LocID>                      <Text>Pendlar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FiredAtHome</LocID>                    <Text>Sparkad</Text>  </GameDBLocalizedString>
+            
+            <!-- Nurse states -->
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_Idle</LocID>                            <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FinishedProcedure</LocID>               <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FinishedProcedureWaitWithPatient</LocID><Text>Väntar med patient</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingToWorkplace</LocID>                <Text>Går till arbetet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringFood</LocID>                  <Text>Levererar mat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_PatientCheckUp</LocID>                  <Text>Kontrollerar patienter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringMedicine</LocID>              <Text>Lämnar medicin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FulfillingNeeds</LocID>                 <Text>Uppfyller behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FillingFreeTime</LocID>                 <Text>Fördriver tiden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenByProcedureScript</LocID>      <Text>Utför en procedur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>       <Text>Hämtar sjukbår</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>        <Text>Flyttar sjukbår</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>     <Text>Ställer tillbaka sjukbår</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReservedForProcedure</LocID>   <Text>Reserverad för en procedur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingHome</LocID>                       <Text>Går hem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_AtHome</LocID>                          <Text>Hemma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_Commuting</LocID>                       <Text>Pendlar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FiredAtHome</LocID>                     <Text>Sparkad</Text>  </GameDBLocalizedString>
+
+            <!-- Janitor states -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AtHome</LocID>                        <Text>Hemma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FiredAtHome</LocID>                   <Text>Sparkad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingHome</LocID>                     <Text>Går hem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingToWorkplace</LocID>              <Text>Går till arbetet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Walking</LocID>                       <Text>Städar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToCart</LocID>                 <Text>Städar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToCartToNextRoom</LocID>       <Text>Städar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToNextRoom</LocID>             <Text>Städar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FulfillingNeeds</LocID>               <Text>Uppfyller behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Cleaning</LocID>                      <Text>Städar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingToReturnCart</LocID>             <Text>Ställer tillbaka vagn</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_ReturningCart</LocID>                 <Text>Ställer tillbaka vagn</Text>  </GameDBLocalizedString>
+            
+            <!-- Technologist states -->
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Idle</LocID>                     <Text>Väntar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToWorkplace</LocID>         <Text>Går till arbetet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FulfillingNeeds</LocID>          <Text>Uppfyller behov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FillingFreeTime</LocID>          <Text>Fördriver tiden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenByProcedureScript</LocID><Text>Utför en procedur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingHome</LocID>                <Text>Går hem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_AtHome</LocID>                   <Text>Hemma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Commuting</LocID>                <Text>Pendlar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FiredAtHome</LocID>              <Text>Sparkad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenReservedForProcedure</LocID><Text>Reserverad för en procedur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSample</LocID>           <Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSampleFromHospitalizedPatient</LocID><Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_TakingSample</LocID>             <Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ProcessingSampleFromPatient</LocID><Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToStoreSampleFromPatient</LocID><Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoringSampleFromPatient</LocID> <Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_SampleFromPatientStored</LocID>  <Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ReturningWithSample</LocID>      <Text>Hanterar prover</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StartWritingNotes</LocID>        <Text>Behandlar resultat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StopWritingNotes</LocID>         <Text>Behandlar resultat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>Kör tester</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>Kör tester</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>Kör tester</Text>  </GameDBLocalizedString>
+            
+			<!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>HAZARD_POSITIVE</LocID>                             <Text>Positiv</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_HAD_COFFEE</LocID>                              <Text>druckit kaffe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB_FOR_HOSPITALIZED</LocID>              <Text>Prover och undersökningar (slutenvård)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_BREAKFAST</LocID>    <Text>Patienternas frukost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_DINNER</LocID>       <Text>Patienternas middag</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadWaitingForTransport</LocID>  <Text>förlorat fall väntar på transport</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadTransportedAway</LocID>      <Text>förlorat fall transporteras bort</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadIdle</LocID>                 <Text>förlorat fall transported bort</Text>  </GameDBLocalizedString>
+            
+			
+			
+			
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
