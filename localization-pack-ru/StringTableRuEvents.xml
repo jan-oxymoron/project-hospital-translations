@@ -1,30 +1,35 @@
-﻿<Database>
+<Database>
     <GameDBStringTable ID="LOC_RU_EVENTS">
     
         <LanguageCode>ru</LanguageCode>
         <LanguageNameLocalized>Русский</LanguageNameLocalized>
 
         <Contributors>
-            <Name>DrKirk, Alexander Z.</Name>
+            <Name>Fill your names!</Name>
+			<Name>lio-drya</Name>
         </Contributors>
         
         <LocalizedStrings>
 
             <!-- Event names -->
-            <GameDBLocalizedString>      <LocID>EVENT_TEST</LocID>                      <Text>Тестовое событие</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Сбой</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_TEST</LocID>                      <Text>Событие тестирования</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Авария</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_PANDEMIC</LocID>                  <Text>Эпидемия</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_NATURAL_DISASTER</LocID>          <Text>Стихийное бедствие</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_NATURAL_DISASTER</LocID>          <Text>Природная катастрофа</Text>  </GameDBLocalizedString>
 
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENT</LocID>          <Text>Лечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENTS</LocID>         <Text>Лечение пациентов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_STABILIZE_PATIENT</LocID>     <Text>Лечить сложные симптомы:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_PLACE_ROOM</LocID>            <Text>Место</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_EQUIP_ROOM</LocID>            <Text>Оборудовать</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>         <Text>Нанимать сотрудника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>     <Text>Держите престиж выше {1} звёзд в течение {2} дней</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_HIGH_INCOME</LocID>  <Text>Сохранить доход {1} или выше в течение {2} дней</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENT</LocID>          <Text>Вылечите</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENTS</LocID>         <Text>Вылечите пациентов</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_STABILIZE_PATIENT</LocID>     <Text>Вылечите симптомы:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_PLACE_ROOM</LocID>            <Text>Разместите</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_EQUIP_ROOM</LocID>            <Text>Оборудуйте</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>         <Text>Наймите персонал</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>     <Text>Сохраните престиж более {1} звезд, на {2} день(ей)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_HIGH_INCOME</LocID>  <Text>Сохраните доход {1} или более, на {2} день(ей)</Text>  </GameDBLocalizedString>
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_COMPLETE_HOSPITALIZATION</LocID><Text>Госпитализация во все отделения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_TREATED_PATIENTS_PERCENTAGE</LocID>  <Text>Не менее {1}% пациентов получали лечение в течение 10 дней</Text>  </GameDBLocalizedString>
+			
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
