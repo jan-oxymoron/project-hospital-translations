@@ -172,7 +172,7 @@
             <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID><Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Esemény sikertelen.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>Nem tudtad időben teljesíteni az esemény követelményeit. A presztízsed lecsökkent, visszaállítani egy másik esemény teljesítésével vagy a mai nap befejezésével tudod.\nPénzbüntetés: ${1}</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>Nem tudtad időben teljesíteni az esemény követelményeit vagy egy beteged elhunyt / elszállították másik kórházba. A presztízsed lecsökkent, visszaállítani egy másik esemény teljesítésével vagy a mai nap befejezésével tudod.\nPénzbüntetés: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Egy beteg elhunyt. :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>Egy beteg kritikus állapotán az orvos legjobb tudása sem tudott segíteni. Lehet, hogy hatékonyabb kórházban sikerült volna ezt megelőzni?</Text>  </GameDBLocalizedString>
@@ -229,8 +229,12 @@
 
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>Elvesztettél egy beteget!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>Egy beteg kritikus állapotán az orvos legjobb tudása sem tudott segíteni. A beteget azonnal át kell szállítani egy jobb felszereltségű kórházba.</Text>  </GameDBLocalizedString>
+
             <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>Időben teljesítetted az esemény követelményeit. Presztízst és pénzjutalmat szereztél a mai napra. Gratulálunk! \n\nEgymás után sikeresen teljesített események: {1}\nPénzjutalom: ${2}</Text>  </GameDBLocalizedString>
 
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>            <Text>Az osztály nem tud diagnózist felállítani!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>       <Text>A beteg a jelenlegi osztályon nem diagnosztizálható, mert nincs több rendelkezésre álló vizsgálat. Próbáld meg egy másik osztályra küldeni a lehetséges diagnózisok alapján, vagy tegyél elérhetővé újabb vizsgálatokat.</Text>  </GameDBLocalizedString>
+            
         </LocalizedStrings>
     </GameDBStringTable>
 </Database> 
