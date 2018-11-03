@@ -102,7 +102,7 @@
             <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_DAY</LocID>                   <Text>주간 작업량: </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_NIGHT</LocID>                 <Text>야간 작업량: </Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>...아침이 될 때까지 시간을 넘기자!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>...해 뜨기를 기다리는 중!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE_SKIP</LocID>        	<Text>취소하려면 ESC키를 누르거나 오른쪽 마우스 버튼을 클릭하세요.</Text>  </GameDBLocalizedString>
 
             <!-- Tooltips -->
@@ -126,7 +126,7 @@
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>             	<Text>명성\n(성공 비율 / 직원과 환자의 만족도)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE</LocID>                   <Text>위신</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>병원에 도달하는 환자수와 일부 보험 요금에 영향을 줍니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>병원에 도달하는 환자수와 보험수가에 영향을 줍니다.</Text>  </GameDBLocalizedString>
             <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>과의 위신은 직원과 환자의 평균 만족도, 과의 전반적인 치료 효율을 나타냅니다.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_BUDGET_BALANCE</LocID>             <Text>현재 은행 잔고</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TIME_CURRENT</LocID>             	<Text>현재 시간</Text>  </GameDBLocalizedString>
@@ -251,7 +251,7 @@
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES</LocID>           <Text>직원</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY</LocID>       <Text>주간근무 직원</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NIGHT</LocID>     <Text>야간근무 직원</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_DOCTOR</LocID><Text>의국장</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_DOCTOR</LocID><Text>과장</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_NURSE</LocID><Text>수간호사</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CERTAINTY</LocID> <Text>확실성</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_EMPLOYEE_COUNT</LocID><Text>고용됨</Text>  </GameDBLocalizedString>
@@ -662,7 +662,7 @@
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_COLLAPSE</LocID>             <Text>의식불명 증상</Text>  </GameDBLocalizedString>
 
             <!-- Popups -->
-            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_LEVEL</LocID>         <Text>이 메시지를 팝업창에 띄울 것인지 로그에서만 볼 것인지 선택.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_LEVEL</LocID>         <Text>이 메시지를 팝업창에 띄울 것인지 로그 이력으로 볼 것인지 선택.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>POPUP</LocID>                               <Text>팝업</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOG</LocID>                                 <Text>로그</Text>  </GameDBLocalizedString>
 
@@ -678,7 +678,7 @@
             <GameDBLocalizedString>      <LocID>TREE_IMMOBILE</LocID>                       <Text>이동 불가</Text>  </GameDBLocalizedString>
             
             <!-- Keyboard -->
-            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ESCAPE</LocID>                 <Text>고정하지 않은 패널창 닫기, 메뉴창 열기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ESCAPE</LocID>                 <Text>고정하지 않은 정보창 닫기, 메뉴창 열기</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_MOVE_CAMERA</LocID>            <Text>카메라 이동하기</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ROTATE</LocID>                 <Text>사물 회전하기</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_GAME_MODES</LocID>             <Text>게임 모드 / 건축 모드 / 경영 모드</Text>  </GameDBLocalizedString>
@@ -703,14 +703,14 @@
 
             <!-- Dress code category names -->
             <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_CLINIC</LocID>           <Text>의사 - 외래</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_ON_CALL</LocID>          <Text>의사 - 긴급 대기소</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_ON_CALL</LocID>          <Text>의사 - 의국</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_SURGERY</LocID>                  <Text>수술복</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_NURSES</LocID>                   <Text>간호사</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_TECHNOLOGISTS</LocID>            <Text>의료 기술자</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_JANITORS</LocID>                 <Text>미화원</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>DRESS_CODE</LocID>                          <Text>드레스 코드</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DRESS_CODE_COLOR</LocID>     <Text>드래스 코드 색 선택하기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DRESS_CODE_COLOR</LocID>     <Text>드레스 코드 색 선택하기</Text>  </GameDBLocalizedString>
 
             <!-- tooltip data -->
             <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS</LocID>                   <Text>환자의 만족도</Text>  </GameDBLocalizedString>
@@ -732,8 +732,8 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>$20 000 대출받기.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>$20 000 상환하기.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>에이전시 고용하기</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE_HOSPITALIZED</LocID>   <Text>보험수가 (내래)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES_HOSPITALIZED</LocID>       <Text>급여 (내래)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE_HOSPITALIZED</LocID>   <Text>보험수가 (입원동)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES_HOSPITALIZED</LocID>       <Text>급여 (입원동)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_BUILDING</LocID>          <Text>건물</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_EVENTS</LocID>            <Text>이벤트</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_AMBULANCES</LocID>        <Text>구급차</Text>  </GameDBLocalizedString>
@@ -763,7 +763,7 @@
             <GameDBLocalizedString>      <LocID>AMBULANCE_MAINTENANCE</LocID>               <Text>구급차 유지비:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>AMBULANCE_ER_CALLS</LocID>                  <Text>응급 호출:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_AMBULACE_STOP_START</LocID>         <Text>응급 호출 비활성화 / 활성화</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_HOSPITALIZED</LocID> <Text>내래 환자</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_HOSPITALIZED</LocID> <Text>입원 환자</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_CLINIC</LocID>       <Text>외래 환자</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_BOOKMARKED</LocID>   <Text>즐겨찾기된 환자</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TABLE_PATIENTS_UNTREATED</LocID>    <Text>치료받지 않은 환자</Text>  </GameDBLocalizedString>
@@ -836,8 +836,8 @@
             
             <GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>틀림: </Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_CLINIC</LocID>               <Text>진료소가 정상 작동하지 않습니다.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_HOSPITALIZATION</LocID>      <Text>병원 입원 기능이 정상 작동하지 않습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_CLINIC</LocID>               <Text>진료소가 정상적으로 운영되지 않습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_HOSPITALIZATION</LocID>      <Text>병원 입원 기능이 정상적으로 운영되지 않습니다.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_INTAKE</LocID>             <Text>환자 수용:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_PAYMENT</LocID>            <Text>보험수가:</Text>  </GameDBLocalizedString>
             
