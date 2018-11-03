@@ -10,7 +10,7 @@
         
         <LocalizedStrings>
             <!-- Notifications -->
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN</LocID>                  <Text>병원이 오픈했습니다. 이제 환자를 받기 시작합니다!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN</LocID>                  <Text>병원이 문을 열었습니다. 이제 환자를 받기 시작합니다!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN_TEXT</LocID>             <Text>이제 병원이 첫 환자를 받기에 충분한 수의 직원이 있습니다. 자동으로 첫 보험사와의 계약을 맺게 됩니다.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL</LocID>        <Text>보험사와 계약을 할 수 있습니다!</Text>  </GameDBLocalizedString>
@@ -22,8 +22,8 @@
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM</LocID>                <Text>진료소를 찾은 환자가 이용 가능한 대기실이 없습니다!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_TEXT</LocID>           <Text><![CDATA[<i>{1}</i>에 있는 진찰실 근처에 대기실이 없습니다.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>진단 유닛 근처에 이용 가능한 대기실이 없습니다!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</LocID>       <Text><![CDATA[<i>{1}</i> 진단 유닛 근처에 대기실이 없습니다.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>진단 구역 근처에 이용 가능한 대기실이 없습니다!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</LocID>       <Text><![CDATA[<i>{1}</i> 진단 구역 근처에 대기실이 없습니다.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY</LocID>      <Text>영상의학과 근처에 이용 가능한 대기실이 없습니다!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY_TEXT</LocID> <Text>영상의학과 근처에 대기실이 없습니다.!</Text>  </GameDBLocalizedString>
@@ -162,17 +162,17 @@
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR</LocID><Text>제세동기 사용을 위해 오래 기다려야 합니다!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR_TEXT</LocID><Text>제세동기를 운용하기에 충분한 수의 의사가 대기중 인가요?</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>수술전에 환자가 입원해야만 합니다!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>수술 전에 환자가 입원해야만 합니다!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>수술 절차상 환자는 우선 입원수속을 해야합니다.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START</LocID>                    <Text>브레이킹 뉴스:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START</LocID>                    <Text>긴급 속보:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>이벤트 목표 성공.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>이벤트 목표 성공</Text>  </GameDBLocalizedString>
             <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID><Text>{1}</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>이벤트 목표 실패.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>제 시간에 이벤트 목표를 달성하지 못했거나 환자가 죽거나 다른 병원으로 이송되어 버렸습니다. 하루동안 혹은 이벤트 목표를 달성할 때까지 병원의 위신이 하락할 것입니다.\n또한 다음의 비용 패널티가 있습니다: ${1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>이벤트 목표 실패</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>제 시간에 이벤트 목표를 달성하지 못했거나 환자가 사망하거나 다른 병원으로 이송되어 버렸습니다. 하루동안 혹은 이벤트 목표를 달성할 때까지 병원의 위신이 하락할 것입니다.\n또한 다음의 비용 패널티가 있습니다: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>환자 사망. :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>환자의 상태가 위중하여 당신의 의사가 최선의 노력을 쏟았지만 결국 환자를 살리지 못했습니다. 더 효율적인 병원이었다면 상황이 더 나았을까요?</Text>  </GameDBLocalizedString>
@@ -207,8 +207,8 @@
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY</LocID>   <Text>환자가 다른 병원으로 이송되고 있습니다..</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>환자의 방이 망가졌거나 오랜시간 이용불가하여 환자를 다른 병원으로 이송해야 합니다.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>Achievement unlocked!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>Achievement unlocked:\n{1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>도전과제 달성!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>도전과제 달성:\n{1}</Text>  </GameDBLocalizedString>
             
             <!-- UPDATED --> <GameDBLocalizedString>  <LocID>NOTIF_STAFF_EXHAUSTED</LocID>      <Text>직원이 녹초가 되었습니다!</Text>  </GameDBLocalizedString>
             <!-- UPDATED --> <GameDBLocalizedString>  <LocID>NOTIF_STAFF_EXHAUSTED_TEXT</LocID> <Text>직원이 계속 힘을 낼 수 있도록, 매일 한 두 시간의 휴식시간이 주어져야 합니다!</Text>  </GameDBLocalizedString>

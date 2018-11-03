@@ -102,7 +102,7 @@
             <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_DAY</LocID>                   <Text>주간 작업량: </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_NIGHT</LocID>                 <Text>야간 작업량: </Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>...해 뜨기를 기다리는 중!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>해가 뜰 때까지 기다리는 중...</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE_SKIP</LocID>        	<Text>취소하려면 ESC키를 누르거나 오른쪽 마우스 버튼을 클릭하세요.</Text>  </GameDBLocalizedString>
 
             <!-- Tooltips -->
@@ -412,7 +412,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>           		      <Text>과 경고</Text>  </GameDBLocalizedString>
                                                                                                          
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>           	      <Text>과 직원 표 열기</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>의국장이 각 과의 직원들에게 추가 수당을 줍니다. 현명하게 선택하세요.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>과장이 각 과의 직원들에게 추가 급여를 줍니다. 현명하게 선택하세요.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_RESTORE</LocID>              <Text>기본값으로 되돌리기</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_CHART</LocID>                <Text>차트 보기</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_GAUGE</LocID>                <Text>진단을 확정하기 위한 확실성 값을 설정합니다.</Text>  </GameDBLocalizedString>
@@ -632,7 +632,7 @@
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_HEADING</LocID>              <Text>환자들</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_PATIENT</LocID>              <Text>환자</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DIAGNOSIS</LocID>            <Text>진단</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_HAZARD</LocID>               <Text>위험 요소</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_HAZARD</LocID>               <Text>중증도</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DEPARTMENT</LocID>           <Text>과</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DOCTOR</LocID>               <Text>의사</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_STATE</LocID>                <Text>상태</Text>  </GameDBLocalizedString>
@@ -655,9 +655,9 @@
 
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_HEADING</LocID>              <Text>증상</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_SYMPTOMS</LocID>             <Text>이름</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_HAZARD</LocID>               <Text>위험 요소</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_EXAMINATION</LocID>          <Text>검사수단</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_TREATMENT</LocID>            <Text>치료수단</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_HAZARD</LocID>               <Text>중증도</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_EXAMINATION</LocID>          <Text>검사 수단</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_TREATMENT</LocID>            <Text>치료 수단</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_DISCOMFORT</LocID>           <Text>불편함</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_COLLAPSE</LocID>             <Text>의식불명 증상</Text>  </GameDBLocalizedString>
 
@@ -672,9 +672,9 @@
             <GameDBLocalizedString>      <LocID>BUTTON_DONE</LocID>                         <Text>완료</Text>  </GameDBLocalizedString>
 
             <!-- Dependency tree -->
-            <GameDBLocalizedString>      <LocID>TREE_HEADING</LocID>                        <Text>의존관계 트리</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREE_LOW_HAZARD</LocID>                     <Text>저위 위험 요소</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREE_HIGH_HAZARD</LocID>                    <Text>중위/고위 위험 요소</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREE_HEADING</LocID>                        <Text>의존 관계 트리</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREE_LOW_HAZARD</LocID>                     <Text>저위험군</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREE_HIGH_HAZARD</LocID>                    <Text>중/고위험군</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREE_IMMOBILE</LocID>                       <Text>이동 불가</Text>  </GameDBLocalizedString>
             
             <!-- Keyboard -->
