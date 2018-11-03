@@ -286,7 +286,7 @@
             <GameDBLocalizedString>      <LocID>TREATED_IMMOBILE_PATIENTS</LocID>       <Text>구급차로 이송된 환자 {1} 명을 치료하세요.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY</LocID>        <Text>매일 환자 {1} 명을 치료하세요.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_DEPARTMENT</LocID>   <Text>{2}에서 매일 환자 {1} 명을 치료하세요.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREATMENT_SUCCESS_RATE</LocID>          <Text>하루 동안 적어도 환자 {1} 명을 치료하세요.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_SUCCESS_RATE</LocID>          <Text>하루 동안 적어도 환자 치료율 {1} 이상을 달성하세요.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKING_ROOMS</LocID>                   <Text>{1} {2} 를 위하여 방을 만들고 직원을 고용하세요.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_DEPARTMENT</LocID>    <Text>{1} 진료소를 여세요.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_DEPARTMENT</LocID> <Text>{1}에 환자를 입원시키세요.</Text>  </GameDBLocalizedString>
@@ -331,7 +331,7 @@
             <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_ALL_TIME</LocID>      <Text>역대</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_LAST_DAY</LocID>      <Text>어제</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_LEVEL</LocID>        	    <Text>검색할 지원자의 경험레벨을 선택합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_LEVEL</LocID>        	    <Text>검색할 지원자의 경험 레벨을 선택합니다.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_RANDOM</LocID>        	            <Text>무작위</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_GENERATE</LocID>        	    <Text>비용을 내고 새로운 지원자를 찾습니다.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_REVEAL_PERKS</LocID>        	<Text>$1000을 내고 숨겨진 특성을 봅니다.</Text>  </GameDBLocalizedString>
@@ -650,7 +650,7 @@
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_DURATION</LocID>            <Text>기간</Text>  </GameDBLocalizedString> 
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_VACCINATION</LocID>         <Text>예방접종</Text>  </GameDBLocalizedString> 
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_INSURANCE</LocID>           <Text>보험</Text>  </GameDBLocalizedString> 
-            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_TREATMENT</LocID>           <Text>치료수단</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_TREATMENT</LocID>           <Text>치료 수단</Text>  </GameDBLocalizedString> 
             <GameDBLocalizedString>      <LocID>TABLE_DIAGNOSES_SYMPTOMS</LocID>            <Text>증상</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_HEADING</LocID>              <Text>증상</Text>  </GameDBLocalizedString>
@@ -675,7 +675,7 @@
             <GameDBLocalizedString>      <LocID>TREE_HEADING</LocID>                        <Text>의존 관계 트리</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREE_LOW_HAZARD</LocID>                     <Text>저위험군</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREE_HIGH_HAZARD</LocID>                    <Text>중/고위험군</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREE_IMMOBILE</LocID>                       <Text>이동 불가</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREE_IMMOBILE</LocID>                       <Text>스스로 이동 불가능한 경우</Text>  </GameDBLocalizedString>
             
             <!-- Keyboard -->
             <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ESCAPE</LocID>                 <Text>고정하지 않은 정보창 닫기, 메뉴창 열기</Text>  </GameDBLocalizedString>
@@ -790,9 +790,9 @@
             <GameDBLocalizedString>      <LocID>SYMPTOMS_LEGEND</LocID>                     <Text>증상 색상 가이드</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_HIDDEN</LocID>                     <Text>숨겨짐</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_COLLAPSE</LocID>                   <Text>의식 불명이 될 수 있음</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYMPTOMS_HIGH</LocID>                       <Text>고위 위험</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYMPTOMS_MEDIUM</LocID>                     <Text>중위 위험</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYMPTOMS_LOW</LocID>                        <Text>저위 위험</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_HIGH</LocID>                       <Text>고위험</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_MEDIUM</LocID>                     <Text>중위험</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOMS_LOW</LocID>                        <Text>저위험</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYMPTOMS_SUPPRESSED</LocID>                 <Text>해결됨</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01</LocID>                  <Text>도전과제 1</Text>  </GameDBLocalizedString>
