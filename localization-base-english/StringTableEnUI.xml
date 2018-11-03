@@ -36,10 +36,10 @@
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04</LocID>                   <Text>Tutorial 4</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04_DESCRIPTION</LocID>       <Text>Hospitalization</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01</LocID>                   <Text>Campaign 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01</LocID>                   <Text>Campaign 2</Text>  </GameDBLocalizedString>   <!--Levels switched-->
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION</LocID>       <Text>Inefficient</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02</LocID>                   <Text>Campaign 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02</LocID>                   <Text>Campaign 1</Text>  </GameDBLocalizedString>   <!--Levels switched-->
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION</LocID>       <Text>In Debt</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03</LocID>                   <Text>Campaign 3</Text>  </GameDBLocalizedString>
@@ -67,7 +67,7 @@
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>New map</Text>  </GameDBLocalizedString>
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID> <Text>SAVE GAME</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID>                 <Text>Load map</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID> <Text>LOAD GAME</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_PREFAB</LocID>                         <Text>Save prefab</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_LOG</LocID>        <Text>All log</Text>  </GameDBLocalizedString>
@@ -127,7 +127,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>             	<Text>Reputation\n(success rate / staff and patients satisfaction)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE</LocID>                   <Text>Prestige</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>Influences amount of patients arriving to your hospital and some insurance payments</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>Shows efficiency of this department and is counted in overall hospital reputation</Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>Department prestige is an average satisfaction of staff and patients, plus overall treating efficiency.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_BUDGET_BALANCE</LocID>             <Text>Current balance</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TIME_CURRENT</LocID>             	<Text>Current time scale</Text>  </GameDBLocalizedString>
             
@@ -408,7 +408,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_QUARANTINE</LocID>                     <Text>Quarantine whole department</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CLOSE</LocID>               		      <Text>Close department - All patients at department will leave your hospital, staff goes home.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_TIME_SWITCH</LocID>                    <Text>Day / Week / Month</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>                 <Text>Cured / total patients</Text>  </GameDBLocalizedString>
+            <!-- UPDATE --><GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>  <Text> - Treated patients today\n - Untreated patients today\n - Patient intake from insurance companies\n\nClick to open table of untreated patients.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>           		      <Text>Department's warnings</Text>  </GameDBLocalizedString>
                                                                                                          
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>           	      <Text>Open department's staff table</Text>  </GameDBLocalizedString>
@@ -429,7 +429,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_DEAD</LocID>                  <Text>Dead patients</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_WAITING</LocID>               <Text>Actually waiting patients</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_SCHEDULED</LocID>             <Text>Scheduled patients</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_CURED</LocID>         	      <Text>Cured / uncured patients</Text>  </GameDBLocalizedString>
+            <!-- UPDATE --><GameDBLocalizedString><LocID>TOOLTIP_DEPARTMENT_PATIENTS_CURED</LocID>        <Text>Treated patients | untreated patients</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_LOGISTICS_ROOMS</LocID>         		  <Text>Open department's room list</Text>  </GameDBLocalizedString>
 
@@ -611,7 +611,7 @@
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS</LocID>     <Text>Employees - doctors</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_NURSES</LocID>      <Text>Employees - nurses</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_LAB</LocID>         <Text>Employees - lab staff</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>    <Text>Employees - civilian employees</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>    <Text>Employees - janitors</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_ALL</LocID>         <Text>Employees - all</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS_NURSES</LocID><Text>Employees - doctors and nurses</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_SELECT</LocID>              <Text>Select employee</Text>  </GameDBLocalizedString>
@@ -636,7 +636,7 @@
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DEPARTMENT</LocID>           <Text>Department</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_DOCTOR</LocID>               <Text>Doctor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_STATE</LocID>                <Text>State</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_GENDER</LocID>               <Text>Gendrage</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_GENDER</LocID>               <Text>Gender, Age</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_OCCUPATION</LocID>           <Text>Occupation</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_INSURANCE</LocID>            <Text>Insurance</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_BALANCE</LocID>              <Text>Balance</Text>  </GameDBLocalizedString>
@@ -728,7 +728,7 @@
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Patients (total/treated)</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events will unlock when you open hospitalization on all departments.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED_2018_10_28 --> <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events will unlock when you open hospitalization on all departments, or can't be started during the night.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Loan $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Pay back $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>Hiring agency</Text>  </GameDBLocalizedString>
@@ -822,17 +822,17 @@
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A</LocID>            <Text>CLINIC</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>A small emergency clinic</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>A small emergency clinic, 64 x 64</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B</LocID>            <Text>SMALL HOSPITAL</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>A small hospital with General Surgery department</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>A small hospital with General Surgery department, 64 x 64</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C</LocID>            <Text>SMALL HOSPITAL</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>A small hospital with Orthopaedy department</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>A small hospital with Orthopaedy department, 64 x 64</Text>  </GameDBLocalizedString>
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D</LocID>            <Text>BIG HOSPITAL</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>All departmens!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_D_DESCRIPTION</LocID><Text>All departments, 96 x 96</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E</LocID>            <Text>MEDIUM HOSPITAL</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>A hospital with General Surgery, Internal Medicine and Orthopaedy departments</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</LocID><Text>A hospital with General Surgery, Internal Medicine and Orthopaedy departments, 96 x 96</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F</LocID>            <Text>BIG HOSPITAL</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>All departmens!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</LocID><Text>All departments, 96 x 96</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>WRONG: </Text>  </GameDBLocalizedString>
 
@@ -844,6 +844,13 @@
             <GameDBLocalizedString>      <LocID>DAY_ABBREVIATION</LocID>                    <Text>d</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DAY_SUFFIX</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Day on main panel -->
 
+            <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>ACHIEVEMENTS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>EXIT TO DESKTOP</Text>  </GameDBLocalizedString>
+            
+            <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Department can't be changed when patients are still being transported, collapsing or stabilized.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>LANGUAGE</Text>  </GameDBLocalizedString>
+            
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
