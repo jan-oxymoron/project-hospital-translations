@@ -45,10 +45,10 @@
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04</LocID>                   <Text>Tutorial 4</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04_DESCRIPTION</LocID>       <Text>Ziekenhuisopname</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01</LocID>                   <Text>Campagne 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01</LocID>                   <Text>Campagne 2</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION</LocID>       <Text>Inefficiënt</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02</LocID>                   <Text>Campagne 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02</LocID>                   <Text>Campagne 1</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION</LocID>       <Text>In de schulden</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03</LocID>                   <Text>Campagne 3</Text>  </GameDBLocalizedString>
@@ -72,7 +72,7 @@
             <GameDBLocalizedString>      <LocID>SAVE_SCENARIO</LocID>                       <Text>Scenario opslaan</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOAD_SCENARIO</LocID>                       <Text>Scenario laden</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>BACK_TO_GAME</LocID>                        <Text>NAAR SPEL</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>                        <Text>NAAR MENU</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>                        <Text>NAAR HOOFDMENU</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_NEW_MAP</LocID>                  <Text>Nieuw spel</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE_MAP</LocID>                 <Text>Spel opslaan</Text>  </GameDBLocalizedString>
@@ -137,7 +137,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>             	<Text>Reputatie\n(Succespercentage / personeels- en patiëntentevredenheid)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE</LocID>                   <Text>Aanzien</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>Beïnvloedt het aantal patiënten dat je ziekenhuis bezoekt en enkele uitbetalingen door verzekeringsmaatschappijen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>Geeft de efficiëntie van deze afdeling weer en telt mee in de totale ziekenhuisreputatie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>Geeft de gemiddelde tevredenheid van personeel en patiënten weer van deze afdeling, alsook de algehele efficiëntie van behandelingen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_BUDGET_BALANCE</LocID>             <Text>Huidig budget</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TIME_CURRENT</LocID>             	<Text>Huidige tijdschaal</Text>  </GameDBLocalizedString>
             
@@ -310,7 +310,7 @@
             <GameDBLocalizedString>      <LocID>UNLOCK_ROOM</LocID>                     <Text>{1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>Zienhuisopnames om {1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>A {1} overheidssubsidie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text>van {1} overheidssubsidie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>{1} meer ziekenhuispatiënten per dag</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MORE_IMMOBILE_PATIENTS</LocID>          <Text>{1} meer patiënten die per ambulance komen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>Ambulances</Text>  </GameDBLocalizedString>
@@ -344,13 +344,14 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_LEVEL</LocID>        	    <Text>Selecteer niveau van kandidaten om op te zoeken</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_RANDOM</LocID>        	            <Text>Willekeurig</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_GENERATE</LocID>        	    <Text>Zoek nieuwe kandidaten tegen betaling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_REVEAL_PERKS</LocID>        	<Text>Onthul verborgen voordelen voor $1000</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_REVEAL_PERKS</LocID>         <Text>Onthul verborgen eigenschappen voor $1000</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>REQUIRED_SKILL</LocID>        	            <Text>Vereiste vaardigheid: </Text>  </GameDBLocalizedString>
             
             <!-- Patient card -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_PATIENT</LocID>   <Text>Standaard patiënt / Bediend door speler / Favoriete patiënt</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_EMPLOYEE</LocID>  <Text>Voeg medewerker toe aan favorieten - voeg karakter toe aan hoofdpaneel. Maximaal 10 karakters kunnen aangewezen worden als favoriet.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_PERKS</LocID>                              <Text>Verborgen voordelen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_PERKS</LocID>                              <Text>Verborgen eigenschappen</Text>  </GameDBLocalizedString>
+
             
             <GameDBLocalizedString>      <LocID>TOOLTIP_GO_TO_DOCTOR</LocID>                              <Text>Toon dokter's overzicht</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_CRITICAL_PATIENT</LocID>                          <Text>Deze patiënt verkeerd in kritieke toestand. Ten minste één symptoom leidt tot bewusteloosheid.</Text>  </GameDBLocalizedString>
@@ -738,7 +739,7 @@
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>Dagelijkse winst</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Patiënten (totaal/behandeld)</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events komen beschikbaar als je opnames kunt toelaten op alle afdelingen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events komen beschikbaar als je opnames kunt toelaten op alle afdelingen, of als ze 's nachts niet kunnen beginnen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Lening $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Terugbetalen $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>Uitzendburo</Text>  </GameDBLocalizedString>
@@ -834,7 +835,7 @@
 
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A</LocID>            <Text>Spoedpost</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>Spoedpost</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B</LocID>            <Text>Kleine ziekenhuis</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B</LocID>            <Text>Klein ziekenhuis</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</LocID><Text>Klein ziekenhuis met Orthopedie</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C</LocID>            <Text>Klein ziekenhuis</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</LocID><Text>Klein ziekenhuis met Orthopedie</Text>  </GameDBLocalizedString>
@@ -860,6 +861,8 @@
 		   <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>SPEL VOLLEDIG AFSLUITEN</Text>  </GameDBLocalizedString>
 <!--EN:And added rules \ NL:Einde toegevoegde regels -->
  
+	     <GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Afdelingen kunnen niet aangepast worden als patiënten nog verplaatst of gestabiliseerd worden of inzakken.</Text>  </GameDBLocalizedString>		
+	     <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>TAAL</Text>  </GameDBLocalizedString>		
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
