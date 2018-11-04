@@ -7,6 +7,7 @@
         <Contributors>
             <Name>Corset</Name>
             <Name>PuckStar</Name>
+			<Name>pvbaekel</Name>
         </Contributors>
         
         <LocalizedStrings>
@@ -14,7 +15,7 @@
             <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Geen afdeling</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Spoedeisende Hulp</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Intensive Care</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>OK</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Algemene Chirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Interne Geneeskunde</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Orthopedie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Cardiologie</Text>  </GameDBLocalizedString>
@@ -28,13 +29,13 @@
             <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_4</LocID>                                              <Text>Arts Assistent</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>Specialist</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Verpleegkundig Stagiair</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Geregistreerde Verpleger</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Gespecialiseerde Verpleger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Leerling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Gediplomeerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Gespecialiseerd</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Junior Wetenschapper</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Senior Wetenschapper</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>Meester Wetenschapper</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Junior</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>All-round</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>Senior</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_1</LocID>                                             <Text>Conciërge</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_2</LocID>                                             <Text>Senior Conciërge</Text>  </GameDBLocalizedString>
@@ -47,53 +48,53 @@
             <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>                      <Text>Diagnose niveau zorgt voor minder verkeerde diagnoses en minder consulten bij andere artsen.</Text>  </GameDBLocalizedString>
 
             <!-- Doctor's SPECIALIZATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Spoedeisend</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Spoedeisend geeft toegang tot speciale procedures om kritieke patiënt diagnoses en behandelingen uit te voeren bij de spoedeisende hulp.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Spoedeisende Hulp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Spoedeisende Hulp toegang tot speciale procedures om kritieke patiënt diagnoses en behandelingen uit te voeren bij de spoedeisende hulp.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Geavanceerde Diagnose</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Geavanceerde Diagnose geeft de arts toegang tot meer diagnose middelen.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Kritieke Medicatie</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Kritieke Medicatie geeft de arts toegang tot speciale spoedeisende diagnoses.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Intensive Care</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Intensive Care geeft de arts toegang tot gespecialiseerde diagnostische methoden die op IC worden gebruikt.</Text></GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>Algemene Chirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>Algemene Chirurgie geeft de arts speciale onderzoek opties en behandelingen. Geeft de arts de kans te assisteren bij chirurgie.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>Operatieve Ingreep</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>Operatieve Ingreep geeft de arts de mogelijkheid om als hoofd chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>Operatieve Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>Operatieve Chirurgie geeft de arts de mogelijkheid om als hoofd-chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>Interne Medicatie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>Interne Medicatie geeft de arts speciale onderzoek opties en behandelingen. Geeft de arts de kans te assisteren bij chirurgie.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>Interne Medicatie Chirurgie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>Interne Medicatie Chirurgie zorgt ervoor dat de arts als hoofd chirurg kan werken bij Internisten. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>Interne Geneeskunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>Interne Geneeskunde geeft de arts speciale onderzoek opties en behandelingen. Geeft de arts de kans te assisteren bij chirurgie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>Interne Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>Interne Geneeskundige Chirurgie zorgt ervoor dat de arts als hoofd-chirurg kan werken bij Interne Geneeskunde. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>Orthopedie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>Orthopedie geeft de arts speciale onderzoek opties en behandelingen. Geeft de arts de kans te assisteren bij chirurgie.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>Orthopedische Chirurgie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>Orthopedische Chirurgie geeft de arts de mogelijkheid om als hoofd chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>Orthopedische Chirurgie geeft de arts de mogelijkheid om als hoofd-chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>Cardiologie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>                       <Text>Cardiologie geeft de arts speciale onderzoek opties en behandelingen. Geeft de arts de kans te assisteren bij chirurgie.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>                               <Text>Cardio-Chirurgie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>Cardio-Chirurgie geeft de arts de mogelijkheid om als hoofd chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>Cardio-Chirurgie geeft de arts de mogelijkheid om als hoofd-chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>Neurologie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>Neurologie geeft de arts speciale onderzoek opties en behandelingen. Geeft de arts de kans te assisteren bij chirurgie.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                <Text>Neuro-Chirurgie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                    <Text>Neuro-Chirurgie geeft de arts de mogelijkheid om als hoofd chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                    <Text>Neuro-Chirurgie geeft de arts de mogelijkheid om als hoofd-chirurg te dienen. Vermindert de kans op complicaties tijdens operaties.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Anesthesiologie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Anesthesiologie geeft de arts de mogelijkheid om als anesthesist te dienen en zorgt voor een hogere overlevingskans bij ingestorte patiënten die door deze arts zijn gestabiliseerd.\nVermindert de overlijdenskans van ingestorte patiënten. \nVermindert postoperatieve complicaties na een operatie.</Text>  </GameDBLocalizedString>
 
             
             <!-- Nurse's QUALIFICATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>Patiëntenzorg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>Patiënten-\nzorg</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>                 <Text>Verpleger kan verschillende soorten patiëntenzorg leveren.</Text>  </GameDBLocalizedString>
 
             <!-- Nurse's SPECIALIZATIONS -->
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>Receptionist</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>Receptionist vormt eerste contactpunt met patiënt.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Medische ingreep</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>Verpleger is een belangrijk onderdeel van operatieve chirurgieteams.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Operatie-\nassistent</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>Verpleger die OK-assistent is maakt een belangrijk deel van operatieve chirurgieteams.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Klinische verpleger</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>Klinische verpleger kan de symptomen van een patiënt zichtbaar maken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>Klinische verpleger kan verborgen symptomen van een patiënt onthullen.</Text>  </GameDBLocalizedString>
 
             
             <!-- Lab guys QUALIFICATIONS -->
@@ -105,10 +106,10 @@
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>Geavanceerde biochemie verbeterd de effectiviteit van laboratorium onderzoeken.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Radiologie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>Radiologie specialist kan röntgenapparatuur en andere radiologie apparatuur gebruiken.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>GIT</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>GIT laborant is in staat onderzoeksapparatuur gebruiken die gerelateerd is aan Algemene chirurgie.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>Echo</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>Echo laborant kan echo apparatuur gebruiken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>MDL</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>MDL laborant is in staat onderzoeksapparatuur gebruiken die gerelateerd is aan Algemene chirurgie ten behoeve van Maag-Darm-Lever onderzoek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>Echografie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>Echografisch laborant kan echoapparatuur gebruiken.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>Cardiologie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>Cardiologie laborant kan onderzoeksapparatuur gebruiken die gerelateerd is aan cardiologie.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>                         <Text>Neurologie</Text>  </GameDBLocalizedString>
@@ -118,8 +119,8 @@
             <!-- Janitor QUALIFICATIONS -->
             <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>Efficiëntie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>Efficiëntie heeft effect op hoe goed conciërges plannen wanneer zij verschillende ruimtes schoonmaken.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Behendigheid</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>Behendigheid heeft effect op de snelheid van het schoonmaken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Snelheid</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>Snelheid heeft effect op tempo van het schoonmaken.</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>
