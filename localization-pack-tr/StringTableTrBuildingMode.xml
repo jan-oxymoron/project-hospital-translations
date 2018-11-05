@@ -1,12 +1,12 @@
 <Database>
-    <GameDBStringTable ID="LOC_EN_BUILDING_MODE">
+    <GameDBStringTable ID="LOC_TR_BUILDING_MODE">
 
         <LanguageCode>TR</LanguageCode>
         <LanguageNameLocalized>Turkish</LanguageNameLocalized>
 
         <Contributors>
-            <Name>Darius Fischer Şenel</Name>
             <Name>Eray Şenel </Name>
+            <Name>Darius Fischer Şenel </Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -135,6 +135,7 @@
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING_DESCRIPTION</LocID>               <Text>Bekleme odaları her ofise, laboratuvara ve radyolojiye ulaşılabilecek konumda oluşturulmalı.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE</LocID>                    <Text>Doktor'un ofisi</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE_DESCRIPTION</LocID>        <Text>İnceleme ve tedavi için temel klinik odası. Gerekli çalışanlar:\n1x Doktor</Text>  </GameDBLocalizedString>
+
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM</LocID>                       <Text>Umumi oda</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM_DESCRIPTION</LocID>           <Text>Umumi oda hastane çalışanların dinlendiği, yemek yediği ve ders çalıştığı odadır.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION</LocID>                         <Text>Resepsiyon</Text>  </GameDBLocalizedString>
@@ -142,69 +143,69 @@
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR</LocID>                          <Text>Koridor</Text>   </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR_DESCRIPTION</LocID>              <Text>Koridorları alan ve ekipmanlar için sağlık bölümünde işaretleyin.Ayrıca otomatik ışıkları ve temizlik servisini aktiv hale getirin.  \n\nMin. Çalışan gereksinimleri: \nYok</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB</LocID>                          <Text>Laboratuvar</Text>  </GameDBLocalizedString> <!-- Lab at Emergency -->
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_DESCRIPTION</LocID>              <Text>Laboratuvarlar pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli çalışanlar:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
+              
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB</LocID>                          <Text>Acil Laboratuvarı</Text>  </GameDBLocalizedString> <!-- Lab at Emergency -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_DESCRIPTION</LocID>              <Text>Acil Laboratuvarlar pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli personel:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS</LocID>                       <Text>Ameliyathane laboratuvarı</Text>  </GameDBLocalizedString> <!-- Lab at General surgery -->
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS_DESCRIPTION</LocID>           <Text>Ameliyathane Laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli çalışanlar:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS_DESCRIPTION</LocID>           <Text>Ameliyathane Laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. :\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM</LocID>                       <Text>Medikal laboratuvar</Text>  </GameDBLocalizedString> <!-- Lab at Internal medicine -->
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM_DESCRIPTION</LocID>           <Text>Medikal laboratuvarlar pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli çalışanlar:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM_DESCRIPTION</LocID>           <Text>Medikal laboratuvarlar pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli personel:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT</LocID>                       <Text>Ortopedi laboratuvarı</Text>  </GameDBLocalizedString> <!-- Lab at Orthopaedy -->
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT_DESCRIPTION</LocID>           <Text>Ortopedi laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli çalışanlar:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT_DESCRIPTION</LocID>           <Text>Ortopedi laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli personel:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR</LocID>                      <Text>Kardiyoloji laboratuvarı </Text>  </GameDBLocalizedString> <!-- Lab at Cardiology -->
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR_DESCRIPTION</LocID>          <Text>Kardiyoloji laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli çalışanlar:\n1x Teknoloji Uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR_DESCRIPTION</LocID>          <Text>Kardiyoloji laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli personel:\n1x Teknoloji Uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE</LocID>                       <Text>Neroloji laboratuvarı</Text>  </GameDBLocalizedString> <!-- Lab at Neourology -->
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE_DESCRIPTION</LocID>           <Text>Neroloji laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli çalışanlar:\n1x Teknoloji Uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE_DESCRIPTION</LocID>           <Text>Neroloji laboratuvarları pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli personel:\n1x Teknoloji Uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM</LocID>                        <Text>X-ray odası</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM_DESCRIPTION</LocID>            <Text>X-ray odası insan vücudunun çeşitli yerlerini (kas, deri altı) görüntüleyebilmek için X-ray görüntüleme sağlar.\n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Radyolojist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM_DESCRIPTION</LocID>            <Text>X-ray odası insan vücudunun çeşitli yerlerini (kas, deri altı) görüntüleyebilmek için X-ray görüntüleme sağlar.\n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Radyolojist</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM</LocID>                           <Text>CT odası</Text>    </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM_DESCRIPTION</LocID>               <Text>CT odası, kısa adıyla "bilgisayarlı tomografi", bir çeşik karmaşık ve yüksek çözünürlüklü görüntüler oraya kayan X-ray görüntüleme tekniğidir. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Radyolojist</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM_DESCRIPTION</LocID>               <Text>CT odası, kısa adıyla "bilgisayarlı tomografi", bir çeşik karmaşık ve yüksek çözünürlüklü görüntüler oraya kayan X-ray görüntüleme tekniğidir. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Radyolojist</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM</LocID>                          <Text>MRI odası</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM_DESCRIPTION</LocID>              <Text>Magnetik rezonans görüntüleme tekniği magnetik alan ve radyo dalgaları kullanarak insan vücudunun detaylı görüntülenmesini sağlayan bir tekniktir. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Radyolojist</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM_DESCRIPTION</LocID>              <Text>Magnetik rezonans görüntüleme tekniği magnetik alan ve radyo dalgaları kullanarak insan vücudunun detaylı görüntülenmesini sağlayan bir tekniktir. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Radyolojist</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM</LocID>                  <Text>CAG odası</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM_DESCRIPTION</LocID>      <Text>Coronary angiography bir diğer adıyla arteriograpy olarak da bilinen bu teknik vücuttaki organları ve kan hücrelerini görüntülemeye yarar. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Radyolojist</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM_DESCRIPTION</LocID>      <Text>Coronary angiography bir diğer adıyla arteriograpy olarak da bilinen bu teknik vücuttaki organları ve kan hücrelerini görüntülemeye yarar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Radyolojist</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM</LocID>               <Text>Gözlemleme odası</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM_DESCRIPTION</LocID>   <Text>Bir doktor gözetiminde pek çok muayene burada yapılabilir. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n(Çağrı odasındaki çalışanlar)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM_DESCRIPTION</LocID>   <Text>Bir doktor gözetiminde pek çok muayne burada yapılabilir. \n\nMin. Gerekli personel: \n1x Doktor \n(Çağrı odasındaki doktorlar)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC</LocID>      			                <Text>Tuvalet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC_DESCRIPTION</LocID>      			    <Text>Kraliçenin bile yürüdüğü oda. \n\nMin. Gerekli çalışanlar: \nyok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC_DESCRIPTION</LocID>      			    <Text>Bir kraliçenin bile yürümesi gereken oda. \n\nMin. Gerekli personel: \nYok</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET</LocID>                   <Text>Temizlikçi odası</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET_DESCRIPTION</LocID>       <Text>Temizlikçi odası temizlikçiler için zorunlu tüm ekipmanları muafaza eder. \n\nMin.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET_DESCRIPTION</LocID>       <Text>Temizlikçi odaları temizlikçiler için gerekli olan tüm eşyaları muahfaza eder . \n\nMin.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS</LocID>                     <Text></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS_DESCRIPTION</LocID>         <Text>Sonografi ünitesi  ultra sonar dalgalarıyla hastaların muayene ve tedavisini sağlar . \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - USG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS</LocID>                     <Text>Sonografi ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS_DESCRIPTION</LocID>         <Text>Sonografi ünitesi muayne ve tedavi için ultra ses dalgaları sağlar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - USG</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_OT</LocID>                     <Text>Sonografi ünitesi</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_OT_DESCRIPTION</LocID>         <Text>Sonografi ünitesi  ultra sonar dalgalarıyla hastaların muayene ve tedavisini sağlar . \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - USG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_OT_DESCRIPTION</LocID>         <Text>Sonografi ünitesi muayne ve tedavi için ultra ses dalgaları sağlar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - USG</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_CAR</LocID>                    <Text>Sonografi ünitesi</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_CAR_DESCRIPTION</LocID>        <Text>Sonografi ünitesi  ultra sonar dalgalarıyla hastaların muayene ve tedavisini sağlar . \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - USG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_CAR_DESCRIPTION</LocID>        <Text>Sonografi ünitesi muayne ve tedavi için ultra ses dalgaları sağlar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - USG</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_GS</LocID>                <Text>Kardiyografi teşhis ünitesi</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_GS_DESCRIPTION</LocID>    <Text>Kardiyografi teşhis ünitesi kardiyovasküler sisteme ilişkin pek çok muayene metodu ve testi sağlar. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_GS_DESCRIPTION</LocID>    <Text>Kardiyografi teşhis ünitesi çeşitli muayne metodları ve insan kardiyovasküler sistemine ilişkin her türlü testi sağlar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_IM</LocID>                <Text>Kardiyografi teşhis ünitesi</Text>    </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_IM_DESCRIPTION</LocID>    <Text>Kardiyografi teşhis ünitesi kardiyovasküler sisteme ilişkin pek çok muayene metodu ve testi sağlar. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_IM_DESCRIPTION</LocID>    <Text>Kardiyografi teşhis ünitesi çeşitli muayne metodları ve insan kardiyovasküler sistemine ilişkin her türlü testi sağlar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_CAR</LocID>               <Text>Kardiyografi teşhis ünitesi</Text>    </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_CAR_DESCRIPTION</LocID>   <Text>Kardiyografi teşhis ünitesi kardiyovasküler sisteme ilişkin pek çok muayene metodu ve testi sağlar. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_CAR_DESCRIPTION</LocID>   <Text>Kardiyografi teşhis ünitesi çeşitli muayne metodları ve insan kardiyovasküler sistemine ilişkin her türlü testi sağlar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_NE</LocID>                <Text>Kardiyografi teşhis ünitesi</Text>    </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>    <Text>Kardiyografi teşhis ünitesi kardiyovasküler sisteme ilişkin pek çok muayene metodu ve testi sağlar. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>    <Text>Kardiyografi teşhis ünitesi çeşitli muayne metodları ve insan kardiyovasküler sistemine ilişkin her türlü testi sağlar. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Kardiyolog</Text></GameDBLocalizedString>
 
             <!--UPDATED--><GameDBLocalizedString>      <LocID>ROOM_TYPE_NEURODIAGNOSTIC_UNIT_NE</LocID>                   <Text>Neuroexam ünitesi</Text>  </GameDBLocalizedString>
-            <!--UPDATED--><GameDBLocalizedString>      <LocID>ROOM_TYPE_NEURODIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>       <Text>Neuroexam ünitesi nerölojik pek çok muayene uygulamaları sağlar. \n\nMin. Gerekli çalışanlar: \n1x Teknoloji uzmanı - Nörolog</Text>  </GameDBLocalizedString>
+            <!--UPDATED--><GameDBLocalizedString>      <LocID>ROOM_TYPE_NEURODIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>       <Text>Neuroexam ünitesi belirli nörolojik muayne uygulamalarını yürütür. \n\nMin. Gerekli personel: \n1x Teknoloji uzmanı - Nörolog</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER</LocID>                      <Text>Travma merkezi </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER_DESCRIPTION</LocID>          <Text>Trauma merkezi kritik durumda olan veya bayılan hastalara servis verir. \n\nMin. Gerekli çalışanlar: \n1x Doktor - Aciliye \n1x Nurse \n(Çağrı odası ya da hemşire odasındaki personellerden)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER</LocID>                      <Text>Travma merkezi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER_DESCRIPTION</LocID>          <Text>Travma merkezi acil servise getirilmiş ya da bayılmış olan hastlara hizmet eder. \n\nMin. Gerekli personel: \n1x Doktor - Aciliye  \n1x Hemşire \n(Çağrı odası ya da hemşire bölümündeki personellerden)</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE</LocID>                               <Text>Teşhis ünitesi</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE_DESCRIPTION</LocID>                   <Text>Genel cerrahi departmanındaki Teşhis ünitesi yatış verilmiş hastalara çeşitli muayene ve tedavi prosedürleri uygular.  \n\nMin. Gerekli çalışanlar: \n1x Doktor \n(Çağrı odasındaki personelden)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE</LocID>                               <Text>Teşhis ünitesi</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE_DESCRIPTION</LocID>                   <Text>İç hastalıklar departmanındaki Teşhis ünitesi yatış verilmiş hastalara çeşitli muayene ve tedavi prosedürleri uygular. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n(Çağrı odasındaki personelden)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE</LocID>                               <Text>Teşhis ünitesi</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE_DESCRIPTION</LocID>                   <Text>Ortopedi departmanındaki Teşhis ünitesi yatış verilmiş hastalara çeşitli muayene ve tedavi prosedürleri uygular. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n(Çağrı odasındaki personelden)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE</LocID>                       <Text>Teşhis ünitesi</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>           <Text>Kardiyoloji departmanındaki Teşhis ünitesi yatış verilmiş hastalara çeşitli muayene ve tedavi prosedürleri uygular. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n(Çağrı odasındaki personelden)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</LocID>                        <Text>Teşhis ünitesi</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE_DESCRIPTION</LocID>            <Text>Neroloji departmanındaki Teşhis ünitesi yatış verilmiş hastalara çeşitli muayene ve tedavi prosedürleri uygular. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n(Çağrı odasındaki personelden)</Text></GameDBLocalizedString>
-
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE</LocID>                               <Text>Diagnostic unit</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE_DESCRIPTION</LocID>                   <Text>Diagnostic unit at General Surgery department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE</LocID>                               <Text>Diagnostic unit</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE_DESCRIPTION</LocID>                   <Text>Diagnostic unit at Internal medicine department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE</LocID>                               <Text>Diagnostic unit</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE_DESCRIPTION</LocID>                   <Text>Diagnostic unit at Orthopaedy department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE</LocID>                       <Text>Diagnostic unit</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>           <Text>Diagnostic unit at Cardiology department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</LocID>                        <Text>Diagnostic unit</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE_DESCRIPTION</LocID>            <Text>Diagnostic unit at Neurology department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text></GameDBLocalizedString>
+              
             <!-- Room types for testing - will need update -->
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION</LocID>                            <Text>Hemşire odası</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION_DESCRIPTION</LocID>                <Text>Bir bölümün işlemesini sağlayacak tüm hemşireler buradadır. \n\nMin. Gerekli çalışanlar: \n3x Hemşire</Text>  </GameDBLocalizedString>
