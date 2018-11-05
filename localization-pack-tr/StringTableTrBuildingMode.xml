@@ -134,7 +134,8 @@
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING</LocID>                           <Text>Bekleme odası</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING_DESCRIPTION</LocID>               <Text>Bekleme odaları her ofise, laboratuvara ve radyolojiye ulaşılabilecek konumda oluşturulmalı.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE</LocID>                    <Text>Doktor'un ofisi</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE_DESCRIPTION</LocID>        <Text>İnceleme ve tedavi için temel klinik odası. Gerekli Personel:\n1x Doktor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE_DESCRIPTION</LocID>        <Text>İnceleme ve tedavi için temel klinik odası. Gerekli çalışanlar:\n1x Doktor</Text>  </GameDBLocalizedString>
+
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM</LocID>                       <Text>Umumi oda</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM_DESCRIPTION</LocID>           <Text>Umumi oda hastane çalışanların dinlendiği, yemek yediği ve ders çalıştığı odadır.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION</LocID>                         <Text>Resepsiyon</Text>  </GameDBLocalizedString>
@@ -142,7 +143,7 @@
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR</LocID>                          <Text>Koridor</Text>   </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR_DESCRIPTION</LocID>              <Text>Koridorları alan ve ekipmanlar için sağlık bölümünde işaretleyin.Ayrıca otomatik ışıkları ve temizlik servisini aktiv hale getirin.  \n\nMin. Çalışan gereksinimleri: \nYok</Text></GameDBLocalizedString>
-
+              
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB</LocID>                          <Text>Acil Laboratuvarı</Text>  </GameDBLocalizedString> <!-- Lab at Emergency -->
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_DESCRIPTION</LocID>              <Text>Acil Laboratuvarlar pek çok teşhisi doğrulamak için çeşitli testler sağlarlar.\nMin. Gerekli personel:\n1x Teknoloji uzmanı - Biokimyacı</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS</LocID>                       <Text>Ameliyathane laboratuvarı</Text>  </GameDBLocalizedString> <!-- Lab at General surgery -->
@@ -204,212 +205,212 @@
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>           <Text>Diagnostic unit at Cardiology department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</LocID>                        <Text>Diagnostic unit</Text>   </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE_DESCRIPTION</LocID>            <Text>Diagnostic unit at Neurology department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text></GameDBLocalizedString>
-
+              
             <!-- Room types for testing - will need update -->
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION</LocID>                            <Text>Nurses station</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION_DESCRIPTION</LocID>                <Text>All nurses that are necessary for running a department are based in here. \n\nMin. Staff requirements: \n3x Nurse</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM</LocID>                              <Text>On-call room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM_DESCRIPTION</LocID>                  <Text>All doctors needed for running a department are based in here.\n\nMin. Staff requirements: \n1x Doctor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD</LocID>                            <Text>Regular ward</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD_DESCRIPTION</LocID>                <Text>Regular ward for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n1x Nurse \n(Personnel based in On-call room and Nurses station)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</LocID>              <Text>HDU</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD_DESCRIPTION</LocID>  <Text>High dependency unit provides higher level of medical care for hospitalized patients. \n\nMin. Staff requirements: \n1x Doctor \n1x Nurse \n(Personnel based in On-call room and Nurses station)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT</LocID>                       <Text>ICU</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT_DESCRIPTION</LocID>           <Text>Intensive care unit provides superior medical care to critical patients to maintain their vital functions. \n\nMin. Staff requirements: \n1x Doctor \n1x Nurse \n(Personnel based in On-call room and Nurses station)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION</LocID>                            <Text>Hemşire odası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION_DESCRIPTION</LocID>                <Text>Bir bölümün işlemesini sağlayacak tüm hemşireler buradadır. \n\nMin. Gerekli çalışanlar: \n3x Hemşire</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM</LocID>                              <Text>Çağrı odası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM_DESCRIPTION</LocID>                  <Text>Bir bölümün işlemesini sağlayacak tüm doktorlar buradadır.\n\nMin. Gerekli çalışanlar: \n1x Doktor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD</LocID>                            <Text>Standart servis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD_DESCRIPTION</LocID>                <Text>Standart servis yatış verilmiş hastalar içindir. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n1x Hemşire \n(Çağrı ve hemşire odasındaki personellerden)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</LocID>              <Text>HDU(ara yoğun bakım ünitesi)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD_DESCRIPTION</LocID>  <Text>Ara yoğun bakım ünitesi yüksek medikal desteğe ihtiyaç duyan hastalara servis verir. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n1x Hemşire \n(Çağrı odası ya da hemşire odasındaki personellerden)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT</LocID>                       <Text>YBÜ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT_DESCRIPTION</LocID>           <Text>Yoğun bakım ünitesi yüksek medikal desteğe ihtiyaç duyan kritik hastaların hayati fonkstiyonlarını korumak için servis sağlar. \n\nMin. Gerekli çalışanlar: \n1x Doktor \n1x Hemşire \n(Çağrı odası ya da hemşire odasındaki personellerden)</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE</LocID>                <Text>General surgery office</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE_DESCRIPTION</LocID>    <Text>General surgery office is common diagnostic outpatient office. \n\nMin. Staff requirements: \n1x Doctor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</LocID>              <Text>Internal medicine office</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE_DESCRIPTION</LocID>  <Text>Internal medicine office is common diagnostic outpatient office. \n\nMin. Staff requirements: \n1x Doctor</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE</LocID>                   <Text>Orthopaedy office</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE_DESCRIPTION</LocID>       <Text>Orthopaedy office is common diagnostic outpatient office. \n\nMin. Staff requirements: \n1x Doctor</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE</LocID>                     <Text>Cardiology office</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>         <Text>Cardiology office is common diagnostic outpatient office. \n\nMin. Staff requirements: \n1x Doctor</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE</LocID>                      <Text>Neurology office</Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE_DESCRIPTION</LocID>          <Text>Neurology office is common diagnostic outpatient office. \n\nMin. Staff requirements: \n1x Doctor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE</LocID>                <Text>Genel cerrahi polikinliği</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE_DESCRIPTION</LocID>    <Text>Genel cerrahi polikinliği ayakta tedavi edilebilecek hastların teşhis işlemleri için servis verir. \n\nMin. Gerekli çalışanlar: \n1x Doktor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</LocID>              <Text>İç hastalıklar polikinliği</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE_DESCRIPTION</LocID>  <Text>İç hastalıklar polikinliği ayakta tedavi edilebilecek hastların teşhis işlemleri için servis verir. \n\nMin. Gerekli çalışanlar: \n1x Doktor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE</LocID>                   <Text>Ortopedi polikinliği</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE_DESCRIPTION</LocID>       <Text>Ortopedi polikinliği ayakta tedavi edilebilecek hastların teşhis işlemleri için servis verir.. \n\nMin. Gerekli çalışanlar: \n1x Doktor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE</LocID>                     <Text>Kardiyoloji polikinliği</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>         <Text>Kardiyoloji polikinliği ayakta tedavi edilebilecek hastların teşhis işlemleri için servis verir.. \n\nMin. Gerekli çalışanlar: \n1x Doktor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE</LocID>                      <Text>Neroloji polikinliği</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE_DESCRIPTION</LocID>          <Text>Neroloji polikinliği ayakta tedavi edilebilecek hastların teşhis işlemleri için servis verir.. \n\nMin. Gerekli çalışanlar: \n1x Doktor</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_OPERATING_ROOM</LocID>                    <Text>Operating room</Text></GameDBLocalizedString>
-            <!--UPDATED--><GameDBLocalizedString><LocID>ROOM_TYPE_OPERATING_ROOM_DESCRIPTION</LocID><Text>Operating room fully equipped for all surgical procedures.\n\nMin. Staff requirements: \n1x Doctor - Surgeon \n1x Doctor - Assistant \n1x Anesthesiologist \n1x Surgery nurse \n1x Nurse \n(Personnel based in On-call room and Nurses station)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_OPERATING_ROOM</LocID>                    <Text>Operasyon odası</Text></GameDBLocalizedString>
+            <!--UPDATED--><GameDBLocalizedString><LocID>ROOM_TYPE_OPERATING_ROOM_DESCRIPTION</LocID><Text>Operasyon odası cerrahi işlemler için gerekli ekipmanlarla donatılmış bir odadır.\n\nMin. Gerekli çalışanlar: \n1x Doktor - Cerrah \n1x Doktor - Asistan \n1x Anestezi uzmanı \n1x Ameliyathane hemşiresi \n1x Hemşire \n(Çağrı odası ya da hemşire odasındaki personellerden)</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP</LocID>                        		<Text>Operating room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP_DESCRIPTION</LocID>            		<Text>Operating room</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP</LocID>                        		<Text>Opersayon odası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP_DESCRIPTION</LocID>            		<Text>Operasyon odası</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT</LocID>                        <Text>Chair</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT_DESCRIPTION</LocID>            <Text>Chair for waiting rooms and for the reception, it can be also attached to dining tables.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL</LocID>                          <Text>Stool</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL_DESCRIPTION</LocID>              <Text>Stool is a small work chair, used in stat lab or optionally in offices.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01</LocID>                      <Text>Office chair</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01_DESCRIPTION</LocID>          <Text>Office chair is the basic work chair for staff, can be attached to office desks.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT</LocID>                        <Text>Sandalye</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT_DESCRIPTION</LocID>            <Text>Sandalyeler resepsiyon ve bekleme bölümlerinde kullanılabileceği gibi yemek masasında da kullanılabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL</LocID>                          <Text>Tabure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL_DESCRIPTION</LocID>              <Text>Tabureler labaratuvarlarda veya opsiyon olarak ofislerde de kullanılabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01</LocID>                      <Text>Ofis koltuğu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01_DESCRIPTION</LocID>          <Text>Çalışanlar için temel bir koltuktur ve çalışma masasının önüne konabilir.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>OBJECT_FANCY_CHAIR</LocID>                          <Text>Fancy chair</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_FANCY_CHAIR_DESCRIPTION</LocID>              <Text>Fancy chair for waiting rooms and for the reception, it can be also attached to dining tables.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FANCY_CHAIR</LocID>                          <Text>Süslü sandalye</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FANCY_CHAIR_DESCRIPTION</LocID>              <Text>Süslü sandalyeler genellikle bekleme ve resepsiyonlarda kullanılır. Bununla birlikte yemek sandalyesi olarak da kullanılabilir.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER</LocID>                               <Text>Poster - Info</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DESCRIPTION</LocID>                   <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES</LocID>                      <Text>Poster - Arteries</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES_DESCRIPTION</LocID>          <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION</LocID>                     <Text>Poster - Digestion</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION_DESCRIPTION</LocID>         <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE</LocID>                           <Text>Poster - eye</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE_DESCRIPTION</LocID>               <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART</LocID>                         <Text>Poster - heart</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART_DESCRIPTION</LocID>             <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER</LocID>                         <Text>Poster - Liver</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER_DESCRIPTION</LocID>             <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL</LocID>                         <Text>Poster - Skull</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL_DESCRIPTION</LocID>             <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS</LocID>                         <Text>Poster - Tennis elbow</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS_DESCRIPTION</LocID>             <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS</LocID>                         <Text>Poster - Veins</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS_DESCRIPTION</LocID>             <Text>A decoration and a distraction for bored patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT</LocID>                        <Text>Cactus</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT_DESCRIPTION</LocID>            <Text>A prickly decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_WC</LocID>                                   <Text>WC</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_WC_DESCRIPTION</LocID>                       <Text>Plain. Simple. White.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR</LocID>                               <Text>Mirror</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR_DESCRIPTION</LocID>                   <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV</LocID>                              <Text>Info TV</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV_DESCRIPTION</LocID>                  <Text>Info TV works together with a Queue machine. In a waiting room this system provides smoother patient flow to adjacent rooms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER</LocID>                           <Text>Hand dryer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER_DESCRIPTION</LocID>               <Text>Hand dryer lets patients dry their hands in restrooms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE</LocID>                         <Text>Coffee table</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_DESCRIPTION</LocID>             <Text>Coffee table is a small decorative object, TVs or radios can be placed on top of it.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART</LocID>                          <Text>Bucket cart</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART_DESCRIPTION</LocID>              <Text>Bucket cart for janitors, who take it with them when cleaning different areas.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER</LocID>                      <Text>Water dispenser</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER_DESCRIPTION</LocID>          <Text>Water dispenser provides refreshment for patients and staff.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_SINK</LocID>                                 <Text>Sink</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_SINK_DESCRIPTION</LocID>                     <Text>A sink for restrooms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT</LocID>                         <Text>Potted plant</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_DESCRIPTION</LocID>             <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM</LocID>               <Text>Potted plant - Anthurium</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM_DESCRIPTION</LocID>   <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02</LocID>                      <Text>Potted plant</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02_DESCRIPTION</LocID>          <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN</LocID>                            <Text>Trash bin</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_DESCRIPTION</LocID>                <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02</LocID>                         <Text>Trash bin</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02_DESCRIPTION</LocID>             <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE</LocID>                        <Text>Queue machine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE_DESCRIPTION</LocID>            <Text>Queue machine works together with one or more info TVs. In a waiting room this system provides smoother patient flow to adjacent rooms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE</LocID>                               <Text>Fridge</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE_DESCRIPTION</LocID>                   <Text>Fridge provides food for staff.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER</LocID>                               <Text>Locker</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER_DESCRIPTION</LocID>                   <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE</LocID>                            <Text>Card file</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_DESCRIPTION</LocID>                <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_SMALL</LocID>                      <Text>Small card file</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER</LocID>                               <Text>Poster - Bilgilendirme </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DESCRIPTION</LocID>                   <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES</LocID>                      <Text>Poster - Damarlar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES_DESCRIPTION</LocID>          <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION</LocID>                     <Text>Poster - Sindirim</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION_DESCRIPTION</LocID>         <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE</LocID>                           <Text>Poster - Göz </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE_DESCRIPTION</LocID>               <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART</LocID>                         <Text>Poster - Kalp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART_DESCRIPTION</LocID>             <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER</LocID>                         <Text>Poster - Ciğer </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER_DESCRIPTION</LocID>             <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL</LocID>                         <Text>Poster - İskelet </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL_DESCRIPTION</LocID>             <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS</LocID>                         <Text>Poster - Tenisçi dirseği </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS_DESCRIPTION</LocID>             <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS</LocID>                         <Text>Poster - Damarlar (Venler) </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS_DESCRIPTION</LocID>             <Text>Sıkılmış hastların göz atabileceği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT</LocID>                        <Text>Kaktüs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT_DESCRIPTION</LocID>            <Text>Dikenli bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WC</LocID>                                   <Text>Tuvalet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WC_DESCRIPTION</LocID>                       <Text>Soluk. Basit. Beyaz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR</LocID>                               <Text>Ayna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR_DESCRIPTION</LocID>                   <Text>Bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV</LocID>                              <Text>Bilgilendirme ekranı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV_DESCRIPTION</LocID>                  <Text>Bilgilendirme ekranı sıra makinesiyle birlikte çalışır. Bu sistem bekleme odasında hasta akışını daha rahat kontrol etmek için kullanılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER</LocID>                           <Text>El kurutucusu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER_DESCRIPTION</LocID>               <Text>Hastaların tuvalette işlerini bitirdikten sonra ellerini kurutabilmesi için kullanılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE</LocID>                         <Text>Kahve sehpası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_DESCRIPTION</LocID>             <Text>Kahve sehpası dekorativ küçük bir nesnedir,Televizyon ya da radyo gibi şeyler üstüne konabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART</LocID>                          <Text>Temizlik arabası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART_DESCRIPTION</LocID>              <Text>Temizlik arabası temizlikçilerin değişik odaları silmek için yanlarında götürdüğü bir ekipmandır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER</LocID>                      <Text>Sebil</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER_DESCRIPTION</LocID>          <Text>Sebil hastaların ve çalışanların susuzluklarını gidermesinde yardımcı olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK</LocID>                                 <Text>Lavabo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_DESCRIPTION</LocID>                     <Text>Tuvalet ve kimi zaman bazı odalarda bir kısım şeylerin yıkanmasında kullanılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT</LocID>                         <Text>Saksı bitkisi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_DESCRIPTION</LocID>             <Text>Bir çeşit dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM</LocID>               <Text>Saksı bitkisi - Antoryum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM_DESCRIPTION</LocID>   <Text>Bir çeşit dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02</LocID>                      <Text>Saksı bitkisi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02_DESCRIPTION</LocID>          <Text>Bir çeşit dekorsayon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN</LocID>                            <Text>Çöp kutusu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_DESCRIPTION</LocID>                <Text>Bir çeşit dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02</LocID>                         <Text>Çöp kutusu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02_DESCRIPTION</LocID>             <Text>Bir çeşit dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE</LocID>                        <Text>Sıra makinesi </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE_DESCRIPTION</LocID>            <Text>Bilgilendirme ekranı sıra makinesiyle birlikte çalışır. Bu sistem bekleme odasında hasta akışını daha rahat kontrol etmek için kullanılır..</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE</LocID>                               <Text>Buzdolabı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE_DESCRIPTION</LocID>                   <Text>Buzdolapları çalışanların yiyeceklerini soğuk tutmasına imkan verir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER</LocID>                               <Text>Kilitli dolap</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER_DESCRIPTION</LocID>                   <Text>Bir çeşit dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE</LocID>                            <Text>Kart dolabı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_DESCRIPTION</LocID>                <Text>Bir çeşit dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_SMALL</LocID>                      <Text>Küçük kart dolabı</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_SMALL_DESCRIPTION</LocID>          <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_SHELF</LocID>                                <Text>Shelf</Text>  </GameDBLocalizedString>
-            <!-- IPDATE --><GameDBLocalizedString>      <LocID>OBJECT_SHELF_DESCRIPTION</LocID>     <Text>A shelf creates a workspace and stores all needed equipment for one janitor.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE</LocID>                             <Text>Bookcase</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE_DESCRIPTION</LocID>                 <Text>Bookcase with medical journals lets staff study and improve in their spare time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE</LocID>                      <Text>Vending machine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE_DESCRIPTION</LocID>          <Text>Vending machine provides food for patients and staff, snacks sold to patients are a source of income.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP</LocID>                        <Text>Examination lamp</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP_DESCRIPTION</LocID>            <Text>Examination lamp for offices and exam units.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHELF</LocID>                                <Text>Raf</Text>  </GameDBLocalizedString>
+            <!-- IPDATE --><GameDBLocalizedString>      <LocID>OBJECT_SHELF_DESCRIPTION</LocID>     <Text>Raflar temizlikçilerin ihtiyaç duyduğu ekipmanları koymasına imkan verir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE</LocID>                             <Text>Kitaplık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE_DESCRIPTION</LocID>                 <Text>Kitaplıklar tıbbi makalelere ev sahipliği yaparak doktorların boş zamanlarını değerlendirmesini sağlar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE</LocID>                      <Text>Otomat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE_DESCRIPTION</LocID>          <Text>Otomatlar çalışanlara ve hastalara atıştırmalıklar sunarlar ve az da olsa bir gelir kaynağıdır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP</LocID>                        <Text>muayene lambası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP_DESCRIPTION</LocID>            <Text>muayene lambası ofisler ve muayenehaneler için gerekli bir araçtır.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PC</LocID>                                   <Text>PC</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PC_DESCRIPTION</LocID>                       <Text>PC creates a workspace for one employee, can be placed on work desks or reception desks.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC_DESCRIPTION</LocID>                       <Text>Bilgisayarlar çalışanların temel işlerini halledebilmesine yardımcı olur ve masalara yerleştirilebilir.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TV</LocID>                                   <Text>TV</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TV_DESCRIPTION</LocID>                       <Text>TV can be used in common rooms or offices to keep staff entertained during their free time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RADIO</LocID>                                <Text>Radio</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RADIO_DESCRIPTION</LocID>                    <Text>Radio can be used in common rooms or offices to keep staff entertained during their free time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER</LocID>                              <Text>Printer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER_DESCRIPTION</LocID>                  <Text>Printer is used to print prescriptions. Paper holder is a cheaper alternative.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER</LocID>                         <Text>Paper holder</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER_DESCRIPTION</LocID>             <Text>Paper holder is used to write prescriptions by hand. Printer is a more efficient alternative.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL</LocID>                           <Text>Clock</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL_DESCRIPTION</LocID>               <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS</LocID>                      <Text>Cabinet with drawers</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS_DESCRIPTION</LocID>          <Text>A decoration, other objects can be placed on top.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS</LocID>                        <Text>Cabinet with doors</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS_DESCRIPTION</LocID>            <Text>A decoration, kitchen sink and other small objects can be placed on top.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL</LocID>                         <Text>Wall-mounted cabinet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL_DESCRIPTION</LocID>             <Text>A decoration, other objects can be placed on top.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN</LocID>                         <Text>Kitchen sink</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN_DESCRIPTION</LocID>             <Text>Kitchen sink for washing hands and equipment.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN</LocID>                      <Text>Dressing screen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN_DESCRIPTION</LocID>          <Text>A decoration, other objects can be placed on top.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP</LocID>                           <Text>Table lamp</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP_DESCRIPTION</LocID>               <Text>A decoration and a light source.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST</LocID>                             <Text>Eye test</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST_DESCRIPTION</LocID>                 <Text>Mandatory wall-mounted equipment for offices.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER</LocID>                          <Text>X-ray viewer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER_DESCRIPTION</LocID>              <Text>X-ray viewer for examining X-ray images.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL</LocID>                   <Text>X-ray control panel</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL_DESCRIPTION</LocID>       <Text>Control panel for the X-ray machine.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET</LocID>                    <Text>Equipment cabinet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_DESCRIPTION</LocID>        <Text>Mandatory equipment for all rooms where examinations and treatment procedures take place.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL</LocID>               <Text>Wall-mounted equipment</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL_DESCRIPTION</LocID>   <Text>Mandatory equipment for all rooms where examinations and treatment procedures take place.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT</LocID>                  <Text>Reception desk left</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT_DESCRIPTION</LocID>      <Text>Mandatory equipment for receptions. A PC placed on top will create a workspace for one receptionist nurse.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE</LocID>                <Text>Reception desk middle</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>    <Text>Mandatory equipment for receptions. A PC placed on top will create a workspace for one receptionist nurse.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT</LocID>                 <Text>Reception desk right</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT_DESCRIPTION</LocID>     <Text>Mandatory equipment for receptions. A PC placed on top will create a workspace for one receptionist nurse.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK</LocID>                             <Text>Lab sink</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK_DESCRIPTION</LocID>                 <Text>Mandatory equipment for labs, it is used to wash laboratory glassware.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE</LocID>                            <Text>Microscope</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE_DESCRIPTION</LocID>                <Text>Microscope is mandatory equipment of labs. It is used to analyze a wide range of microbiological cultivations.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03</LocID>                         <Text>Biohazard trash bin</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03_DESCRIPTION</LocID>             <Text>Trash bin for safe disposal of biological material.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF</LocID>                            <Text>Lab shelf</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_DESCRIPTION</LocID>                <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT</LocID>                        <Text>Glassware</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT_DESCRIPTION</LocID>            <Text>Mandatory equipment of labs, it is used to prepare different samples. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER</LocID>                  <Text>Hematology analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER_DESCRIPTION</LocID>      <Text>Mandatory equipment of labs. It provides a wide spectrum of blood sample analysis methods.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TV_DESCRIPTION</LocID>                       <Text>Televizyonlar çalışma odalarına ya da ofislere konarak çalışanların boş vakitleri değerlendirmesine yardımcı olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIO</LocID>                                <Text>Radyo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIO_DESCRIPTION</LocID>                    <Text>Radyolar çalışma odalarına ya da ofislere konarak çalışanların boş vakitleri değerlendirmesine yardımcı olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER</LocID>                              <Text>Yazıcı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER_DESCRIPTION</LocID>                  <Text>Yazıcılar reçete ve raporların yazıldıktan sonra çıktı alınmasında kullanılır. Kağıt rafları daha az maliyetli çözümdür.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER</LocID>                         <Text>Kağıt rafı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER_DESCRIPTION</LocID>             <Text>Kağıt rafı reçetelerin elle yazılmasına olanak verir. Yazıcılara göre daha az verimlidir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL</LocID>                           <Text>Saat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL_DESCRIPTION</LocID>               <Text>Bir çeşit dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS</LocID>                      <Text>Çekmeceli dolap</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS_DESCRIPTION</LocID>          <Text>Bir dekorayondur ve bazı nesneler üstüne konabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS</LocID>                        <Text>Kapılı dolap</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS_DESCRIPTION</LocID>            <Text>Bir çeşit dekorasyondur ve üstüne bazı nesneler konabildiği gibi lavabo da konabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL</LocID>                         <Text>Duvara sabitlenmiş dolap</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL_DESCRIPTION</LocID>             <Text>Bir çeşit dekorasyondur ve üstüne bazı nesneler konabilir</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN</LocID>                         <Text>Mutfak lavabosu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN_DESCRIPTION</LocID>             <Text>Mutfak lavabosu bazı ekipmanların ve ellerin yıkanması içindir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN</LocID>                      <Text>Soyunma örtüsü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN_DESCRIPTION</LocID>          <Text>Bir çeşit dekorasyondur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP</LocID>                           <Text>Masa lambası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP_DESCRIPTION</LocID>               <Text>Bir dekorasyon ve ışık kaynağıdır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST</LocID>                             <Text>Göz testi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST_DESCRIPTION</LocID>                 <Text>Duvara monte edilen zorunlu bir ekipmandır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER</LocID>                          <Text>X-ray görüntüleyicisi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER_DESCRIPTION</LocID>              <Text>X-ray görüntüleyicisi X-ray görüntülerinin incelenmesine olanak verir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL</LocID>                   <Text>X-ray kontrol paneli</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL_DESCRIPTION</LocID>       <Text>X-ray cihazı için kontrol panelidir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET</LocID>                    <Text>Ekipman dolabı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_DESCRIPTION</LocID>        <Text>muayene ve tedavilerin yapıldığı her odada kullanılması zorunlu bir dolaptır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL</LocID>               <Text>Duvara monte edilmiş ekipman</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL_DESCRIPTION</LocID>   <Text>muayene ve tedavilerin yapıldığı her odada kullanılması zorunlu bir dolaptır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT</LocID>                  <Text>Resepsiyon masası sol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT_DESCRIPTION</LocID>      <Text>Resepsiyon bölümü için zorunlu bir ekipmandır. Üzerine konulmuş bir bilgisaya resepsiyonist hemşireye çalışma ortamı oluşturur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE</LocID>                <Text>Resepsiyon masası orta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>    <Text>Resepsiyon bölümü için zorunlu bir ekipmandır. Üzerine konulmuş bir bilgisaya resepsiyonist hemşireye çalışma ortamı oluşturur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT</LocID>                 <Text>Resepsiyon masası sağ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT_DESCRIPTION</LocID>     <Text>Resepsiyon bölümü için zorunlu bir ekipmandır. Üzerine konulmuş bir bilgisaya resepsiyonist hemşireye çalışma ortamı oluşturur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK</LocID>                             <Text>Laboratuvar lavabosu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK_DESCRIPTION</LocID>                 <Text>Laboratuvarlar için zorunlu bir ekipmandır. Cam gibi nesnelerin yıkanmasında kullanılabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE</LocID>                            <Text>Mikroskop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE_DESCRIPTION</LocID>                <Text>Laboratuvarlar için zorunlu bir ekipmandır. Geniş bir yelpazede mikrobiyolojik kültürlerin analiz edilmesinde kullanılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03</LocID>                         <Text>Biyolojik atık çöp kutusu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03_DESCRIPTION</LocID>             <Text>Biyolojik atıkların atıldığı yerdir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF</LocID>                            <Text>Laboratuvar rafı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_DESCRIPTION</LocID>                <Text>Bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT</LocID>                        <Text>Cam malzeme</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT_DESCRIPTION</LocID>            <Text>Laboratuvarlar için zorunlu bir ekipmandır. değişik örneklerin hazırlanmasında kullanılır. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER</LocID>                  <Text>Hematoloji analizörü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER_DESCRIPTION</LocID>      <Text>Laboratuvarlar için zorunlu bir ekipmandır. Kan örneklerinin analiz edilmesini sağlar.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE</LocID>                      <Text>Medical centrifuge</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE_DESCRIPTION</LocID>          <Text>Mandatory equipment of labs, used for preparing blood samples in different tests.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_RIA</LocID>              		            <Text>RIA</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RIA_DESCRIPTION</LocID>              		<Text>RIA or Radio-immunoassay is mandatory equipment of labs, it measures different antigen concentrations.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE</LocID>              		<Text>Sample storage</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE_DESCRIPTION</LocID>          <Text>Sample storage is used for storing various biological samples.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TREE</LocID>                                 <Text>Tree</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RIA_DESCRIPTION</LocID>              		<Text>RIA ya da Radyoimmün test laboratuvarlar için zorunlu bir ekipmandır ve farklı antijen konsantrasyonlarını ölçer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE</LocID>              		<Text>Örnek depolama</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE_DESCRIPTION</LocID>          <Text>Örnek depolama çeşitli biyolojik örneklerin depolanmasında kullanılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE</LocID>                                 <Text>Ağaç</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TREE_DESCRIPTION</LocID>                     <Text>An outdoor decoration.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP</LocID>                          <Text>Street lamp</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_DESCRIPTION</LocID>              <Text>An outdoor decoration and source of light.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL</LocID>                           <Text>Tree - small</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL_DESCRIPTION</LocID>               <Text>An outdoor decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_THUYA</LocID>              		            <Text>Tree - thuya</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_THUYA_DESCRIPTION</LocID>              		<Text>An outdoor decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM</LocID>                          <Text>Medium bush</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM_DESCRIPTION</LocID>              <Text>An outdoor decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT</LocID>                          	<Text>Roof ventilation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT_DESCRIPTION</LocID>                <Text>A roof decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND</LocID>                         <Text>Roof AC unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND_DESCRIPTION</LocID>             <Text>A roof decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE</LocID>                       <Text>Mobile cabinet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE_DESCRIPTION</LocID>           <Text>A decoration, other objects can be placed on top.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION</LocID>                         <Text>Disinfectant dispenser</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION_DESCRIPTION</LocID>             <Text>Automatic disinfectant dispenser can substitute a sink.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF</LocID>                       <Text>Medical light</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF_DESCRIPTION</LocID>           <Text>Ceiling-mounted examination medical light.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE</LocID>                      <Text>Bedside cabinet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_DESCRIPTION</LocID>          <Text>Bedside cabinet can be attached to hospital bed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER</LocID>                       <Text>Plastic hamper</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER_DESCRIPTION</LocID>           <Text>A decoration.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET</LocID>                       	<Text>Bed socket</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_DESCRIPTION</LocID>           	<Text>Bed socket can be attached to hospital bed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN</LocID>                       <Text>Privacy screen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN_DESCRIPTION</LocID>          	<Text>A decoration to provide some level of privacy for patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL</LocID>               <Text>Equipment cabinet tall</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_DESCRIPTION</LocID>   <Text>Mandatory equipment for all rooms where examinations and treatment procedures take place.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE</LocID>             <Text>Mobile eq. cabinet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE_DESCRIPTION</LocID> <Text>Mandatory equipment for all rooms where examinations and treatment procedures take place.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION</LocID>             		<Text>Mobile workstation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION_DESCRIPTION</LocID> 		<Text>Mobile workstation provides mobile workspace for doctors in certain rooms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL</LocID>             		<Text>Life monitor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_DESCRIPTION</LocID> 		<Text>Life monitor controls vital signs of patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR</LocID>                        <Text>Defibrillator</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR_DESCRIPTION</LocID>            <Text>Defibrillator is used for restoration of normal heart rhythm.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND</LocID>                          <Text>Fluid stand</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND_DESCRIPTION</LocID>              <Text>(Attachment)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS</LocID>                 <Text>Operating room lights</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS_DESCRIPTION</LocID>     <Text>Ceiling-mounted medical lights that are mandatory for every operating room.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_DESCRIPTION</LocID>              <Text>Açık alan dekorasyonu ve ışık kaynağı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL</LocID>                           <Text>Ağaç - küçük</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL_DESCRIPTION</LocID>               <Text>Açık alan dekorasyonu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THUYA</LocID>              		            <Text>Ağaç - mazı ağacı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THUYA_DESCRIPTION</LocID>              		<Text>Açık alan dekorasyonu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM</LocID>                          <Text>Orta ölçekli çalı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM_DESCRIPTION</LocID>              <Text>Açık alan dekorasyonu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT</LocID>                          	<Text>Çatı vantilatörü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT_DESCRIPTION</LocID>                <Text>Bir çatı dekorasyonu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND</LocID>                         <Text>Çatı klima ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND_DESCRIPTION</LocID>             <Text>Bir çatı dekorasyonu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE</LocID>                       <Text>Mobil kabinet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE_DESCRIPTION</LocID>           <Text>Çeşitli nesnelerin üzerine konabildiği bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION</LocID>                         <Text>Dezenfektan dağıtıcı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION_DESCRIPTION</LocID>             <Text>Otomatik dezenfektan bir lavabonun yerine geçebilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF</LocID>                       <Text>Medikal ışık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF_DESCRIPTION</LocID>           <Text>Tavana monte edilmiş muayene ışığı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE</LocID>                      <Text>Yatak kenarı sehpası </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_DESCRIPTION</LocID>          <Text>Yatakların kenarına konan sehpa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER</LocID>                       <Text>Plastik sepet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER_DESCRIPTION</LocID>           <Text>Bir dekorasyon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET</LocID>                       	<Text>Yatak soketi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_DESCRIPTION</LocID>           	<Text>Hastane yatağına konabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN</LocID>                       <Text>Mahremiyet perdesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN_DESCRIPTION</LocID>          	<Text>Bu dekorasyon hastalara bir nebze mahremiyet verir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL</LocID>               <Text>Uzun ekipman dolabı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_DESCRIPTION</LocID>   <Text>Her muayenehane ve tedabi odası için zorunlu olan bir ekipman.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE</LocID>             <Text>Mobil eq. kabinet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE_DESCRIPTION</LocID> <Text>Her muayenehane ve tedabi odası için zorunlu olan bir ekipman.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION</LocID>             		<Text>Mobik çalışma istasyonu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION_DESCRIPTION</LocID> 		<Text>Kimi odalarda doktorların çalışmalarında kullanması gerek bir ekipman.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL</LocID>             		<Text>Yaşam monitörü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_DESCRIPTION</LocID> 		<Text>Hastanin hayati emarelerini gözlemlemeye ve takip etmeye yarar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR</LocID>                        <Text>Defibrilatör</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR_DESCRIPTION</LocID>            <Text>Defibrilatör hastanın normal kalp ritmini korumasına destek verir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND</LocID>                          <Text>Fluid Std</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND_DESCRIPTION</LocID>              <Text>Eklenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS</LocID>                 <Text>Operasyon ışığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS_DESCRIPTION</LocID>     <Text>Her ameliyathane için zorunlu olan tavana monte edilmiş tıbbi ışık.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST</LocID>                             <Text>Fast USG</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST_DESCRIPTION</LocID>                 <Text>Special Ultrasonography equipment for Emergency and ICU usage.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST_DESCRIPTION</LocID>                 <Text>Aciliye ve yoğunbakım ünitelerinde kullanılan özel Ultrasonografi (USG).</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ANESTHETIC_MACHINE</LocID>                   <Text>Anesthesia workstation</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ANESTHETIC_MACHINE_DESCRIPTION</LocID>       <Text>Equipment used during surgeries to induce general anesthesia and to monitor patient's vital signs.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_MONITORING_MACHINE</LocID>                   <Text>Life monitor advanced</Text>  </GameDBLocalizedString>
