@@ -5,7 +5,7 @@
         <LanguageNameLocalized>Français</LanguageNameLocalized>
 
         <Contributors>
-            <Name>La traduction française est fournit par Scribio, un jeune groupe de traducteurs issu de la communauté des chaines YouTube de Koinsky et Jay's Gaming. Vous pouvez nous suivre sur Twitter (@scribio-fr) ou rejoindre notre Discord !     -----------------------      Contributeurs :              Warkild (Représentant de Scribio) - Akinari - Sephia - Carpi - Mirague - Vilmard Alexis - Kileahh - Mouchi - TomDer - Roy Bates                         -----------------------          Youtubeur ?                           Afin de mieux nous développer, une petite pub pour notre groupe serait la bienvenue ;)</Name>
+            <Name>La traduction française est fournie par Scribio, un jeune groupe de traducteurs issu de la communauté des chaines YouTube de Koinsky et Jay's Gaming. Vous pouvez nous suivre sur Twitter (@scribio-fr) ou rejoindre notre Discord !     -----------------------      Contributeurs :              Warkild (Représentant de Scribio) - Akinari - Sephia - Carpi - Mirague - Vilmard Alexis - Kileahh - Mouchi - TomDer - Roy Bates                         -----------------------          Youtubeur ?                           Afin de mieux nous développer, une petite pub pour notre groupe serait la bienvenue ;)</Name>
         </Contributors>
         
     	<LocalizedStrings>
@@ -13,7 +13,7 @@
             <GameDBLocalizedString>      <LocID>OCCUPATION_DOCTOR</LocID>               <Text>Docteur</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_NURSE</LocID>                <Text>Infirmière</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_LAB_SPECIALIST</LocID>       <Text>Spécialiste de laboratoire</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_JANITOR</LocID>              <Text>Femme de ménage</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_JANITOR</LocID>              <Text>Concierge</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FIRED</LocID>                           <Text>Viré</Text>  </GameDBLocalizedString>
 
             <!-- Patient's jobs -->
@@ -299,7 +299,7 @@
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_CARE</LocID>                      <Text>Soins aux patients</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_TRANSFERS</LocID>                 <Text>Transfère des patients</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE</LocID>                     <Text>Infirmière en chirurgie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB</LocID>                               <Text>Tests et examens</Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB</LocID>    <Text>Patients de la clinique</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_CLEANING</LocID>                          <Text>Nettoyage</Text>  </GameDBLocalizedString>
 
             <!-- Doctor states -->
@@ -372,20 +372,21 @@
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ReturningWithSample</LocID>      <Text>Traitement des échantillons</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StartWritingNotes</LocID>        <Text>Traitement des résultats</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StopWritingNotes</LocID>         <Text>Traitement des résultats</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>Lance des tests</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>Lance des tests</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>Lance des tests</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>Effectue des tests</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>Effectue des tests</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>Effectue des tests</Text>  </GameDBLocalizedString>
              
             <!-- ============= NEW, NEED TRANSLATING ================== -->
             <GameDBLocalizedString>      <LocID>HAZARD_POSITIVE</LocID>                             <Text>Positif</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_HAD_COFFEE</LocID>                              <Text>A du café</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB_FOR_HOSPITALIZED</LocID>              <Text>Tests et examens (hospitalisation)</Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--><GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB_FOR_HOSPITALIZED</LocID>              <Text>Patients hospitalisés</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_BREAKFAST</LocID>    <Text>Petit-déjeuner des patients</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_DINNER</LocID>       <Text>Diner des patients</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadWaitingForTransport</LocID>  <Text>Corps décédé attendant un transport</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadTransportedAway</LocID>      <Text>Corps décédé transporté ailleurs</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadIdle</LocID>                 <Text>Corps décédé transporté ailleurs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID>       <Text>Le patient ne peut être transféré vers un autre département s'il est transporté ou est hospitalisé en trauma</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>
