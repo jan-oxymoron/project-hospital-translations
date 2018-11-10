@@ -35,7 +35,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_TEXT</LocID>           <Text>De acordo com os exames realizados não é possível que o(a) paciente tenha o diagnóstico selecionado!</Text>  </GameDBLocalizedString>
                         
             <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS</LocID>        <Text>Paciente com diagnóstico incorreto retorna!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>Paciente piorou porque foi tratado(a) um diagnóstico incorreto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>Paciente piorou porque foi tratado um diagnóstico incorreto.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>Não há um diagnóstico claro!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Não há um diagnóstico claro! Considere adicionar mais equipamentos de diagnóstico, laboratórios ou salas de radiologia. O paciente irá embora logo.</Text>  </GameDBLocalizedString>
@@ -172,7 +172,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Evento fracassado.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Você não foi capaz de completar o evento a tempo. Seu prestígio caiu para este dia ou até você completar com sucesso um evento.\nVocê também recebeu uma multa em dinheiro: ${1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Você não foi capaz de completar o evento a tempo ou um dos seus pacientes morreu ou foi transportado para longe. Seu prestígio caiu para este dia ou até você completar com sucesso um evento.\nVocê também recebeu uma multa em dinheiro: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Paciente morreu. :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>O estado do(a) paciente era grave e, apesar dos esforços da equipe médica, ele(a) não pôde ser salvo. Será que um hospital mais eficiente teria lidado melhor com esse caso?</Text>  </GameDBLocalizedString>
@@ -193,7 +193,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</LocID> <Text>Paciente sob seu controle foi tratado e agora está pronto para ir para casa. Libere-o dos seus cuidados.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM</LocID><Text>Paciente não possui um quarto operacional.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM_TEXT</LocID> <Text><![CDATA[Fix : <i>{1}</i> caso contrário paciente será transferido para outro quarto disponível ou enviado para casa.>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM_TEXT</LocID> <Text><![CDATA[Resolva : <i>{1}</i> caso contrário o paciente será transferido para outro quarto disponível ou enviado para casa.>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM</LocID>   <Text>O quarto do paciente foi removido.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TEXT</LocID> <Text><![CDATA[Paciente será transferido para outro quarto ou enviado para casa.]]></Text>  </GameDBLocalizedString>
@@ -219,17 +219,21 @@
             <GameDBLocalizedString>      <LocID>POPUP_OK</LocID>                             <Text>OK</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>POPUP_TRY</LocID>                            <Text>Deixe o médico tentar</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>POPUP_CONTINUE</LocID>                       <Text>Continuar</Text>  </GameDBLocalizedString>     
-            <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>Ir para</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>Avaliar</Text>  </GameDBLocalizedString>     
             <GameDBLocalizedString>      <LocID>POPUP_SEND_HOME</LocID>                      <Text>Dar alta</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Ver planos de saúde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Abrir planos</Text>  </GameDBLocalizedString>
             
             <!-- ============= NEW, NEED TRANSLATING ================== -->
              <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>Cirurgia desnecessária!</Text>  </GameDBLocalizedString>
              <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>Os cirurgiões não encontraram os sintomas esperados durante a cirurgia! O paciente provavelmente foi erroneamente diagnosticado.\nO plano de saúde aplicou ${1} imediatamente de multa.</Text>  </GameDBLocalizedString>
             
              <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>Você perdeu um caso! :(</Text>  </GameDBLocalizedString>
-             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>O quadro do(a)paciente era grave e apesar dos esforços da equipe médica a situação saiu do controle. O(A) paciente precisa ser imediatamente transferido(a) para uma instituição mais bem equipada.</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>O quadro do(a) paciente era grave e apesar dos esforços da equipe médica a situação saiu do controle. O(A) paciente precisa ser imediatamente transferido(a) para uma instituição mais bem equipada.</Text>  </GameDBLocalizedString>
+			 
              <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>Você foi capaz de completar o evento a tempo. Você ganhou um aumento de prestígio para este dia e um prêmio em dinheiro. Parabéns! \n\nEventos bem-sucedidos em sequência: {1}\nPrêmio em dinheiro: ${2}</Text>  </GameDBLocalizedString>
+            
+			 <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>            <Text>Departamento não consegue diagnosticar um paciente!</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>       <Text>O departamento do paciente não parece ser capaz de realizar nenhum outro exame. Considere selecionar um departamento diferente de acordo com lista de diagnósticos possíveis ou disponibilizar mais exames.</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>
