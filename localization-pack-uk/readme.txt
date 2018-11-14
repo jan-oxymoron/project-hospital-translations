@@ -9,7 +9,7 @@ Diagnoses - 100%
 Events - 100%
 Examinations - 100%
 Names - 100% 
-Notifications - 5%
+Notifications - 100%
 Options - 100%
 Skills - 100%
 Symptoms - 100%
