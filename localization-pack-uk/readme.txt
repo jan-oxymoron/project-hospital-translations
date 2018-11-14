@@ -3,7 +3,7 @@ Contact me in Discord if you want to help or speed up, my nickname Dice_d20
 
 Current Status:
 Achievements - 0%
-BuildingMode - 33%
+BuildingMode - 100%
 Characters - 100%
 Diagnoses - 100%
 Events - 100%
