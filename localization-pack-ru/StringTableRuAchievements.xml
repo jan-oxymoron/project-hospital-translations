@@ -1,133 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Database>
     <GameDBStringTable ID="LOC_RU_ACHIEVEMENTS">
-        
+
         <LanguageCode>ru</LanguageCode>
         <LanguageNameLocalized>Русский</LanguageNameLocalized>
-
+    
         <Contributors>
-            <Name>Alexander Z.</Name>
         </Contributors>
-        
+    
         <LocalizedStrings>
             <!--Building-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLACE_OBJECT</LocID>                       <Text>Вот место</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLACE_OBJECT_DESCRIPTION</LocID>           <Text>Разместите первый объект (только одиночные объекты).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MORE_SPOTS</LocID>                         <Text>Вот еще больше места</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MORE_SPOTS_DESCRIPTION</LocID>             <Text>Разместите 100 объектов (только одиночные объекты).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_All_SPOTS</LocID>                          <Text>Это все место, что было</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_All_SPOTS_DESCRIPTION</LocID>              <Text>Разместите 1000 объектов (только одиночные объекты).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_VERY_NICE</LocID>                          <Text>Ну просто загляденье</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_VERY_NICE_DESCRIPTION</LocID>              <Text>Разместите 100 декораций.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GARDENER</LocID>                           <Text>Садовние</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLACE_OBJECT</LocID>                       <Text>Ах, вот отличное местечко</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLACE_OBJECT_DESCRIPTION</LocID>           <Text>Поздравляем, вы разместили ваш первый объект!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MORE_SPOTS</LocID>                         <Text>Ещё места!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MORE_SPOTS_DESCRIPTION</LocID>             <Text>Разместите 100 одиночных объектов.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_All_SPOTS</LocID>                          <Text>Ого, куда столько?! </Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_All_SPOTS_DESCRIPTION</LocID>              <Text>Разместите 1000 одиночных объектов.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_VERY_NICE</LocID>                          <Text>Вау! Просто загляденье!</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_VERY_NICE_DESCRIPTION</LocID>              <Text>Разместите 100 украшений.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GARDENER</LocID>                           <Text>Я есть Грут!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GARDENER_DESCRIPTION</LocID>               <Text>Разместите 30 деревьев.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_SEE_YOU</LocID>                          <Text>Я тебя вижу</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_SEE_YOU_DESCRIPTION</LocID>              <Text>Разместите 30 постеров для проверки зрения.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOING_UP</LocID>                           <Text>Поднимаемся</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_SEE_YOU</LocID>         <Text>Ш-Б... м-н-к...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_SEE_YOU_DESCRIPTION</LocID>              <Text>Разместите 30 плакатов для проверки зрения.</Text>  </GameDBLocalizedString>
+            The walls have eyes<GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOING_UP</LocID>        <Text>Пойдет для начала...</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOING_UP_DESCRIPTION</LocID>               <Text>Постройте первый этаж.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOP_FLOOR</LocID>                          <Text>Последний этаж, пожалуйста!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOP_FLOOR_DESCRIPTION</LocID>              <Text>Постройте максимум этажей.</Text>  </GameDBLocalizedString>
-
-            <!--TODO plug in acording to priority -->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BUILDER</LocID>                            <Text>Строитель</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BUILDER_DESCRIPTION</LocID>                <Text>Постройте и оборудуйте первую комнату.</Text>  </GameDBLocalizedString>
+            The walls have eyes<GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOP_FLOOR</LocID>       <Text>Последний этаж, пожалуйста!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOP_FLOOR_DESCRIPTION</LocID>              <Text>Постройте максимальное количество этажей.</Text>  </GameDBLocalizedString>
+          
+            <!-- -->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BUILDER</LocID>                            <Text>Я у мамы инженер!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_BUILDER_DESCRIPTION</LocID> <Text>Постройте и полностью оборудуйте первое помещение.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CRUSHER</LocID>                            <Text>Разрушитель</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CRUSHER_DESCRIPTION</LocID>                <Text>Удалите комнату в первый раз.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVER</LocID>                              <Text>Перевозчик</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVER_DESCRIPTION</LocID>                  <Text>Перенесите 50 объектов.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GREAT_WALL</LocID>                         <Text>Великая госпитальная стена</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GREAT_WALL_DESCRIPTION</LocID>             <Text>Постройте более 1000 элементов стен.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOILETS</LocID>                            <Text>Хватит на всех!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOILETS_DESCRIPTION</LocID>                <Text>Разместите 30 туалетов.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LITTER_FREE</LocID>                        <Text>Мусору - бой</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CRUSHER_DESCRIPTION</LocID>                <Text>Удалите свое первое помещение.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVER</LocID>                              <Text>Чуть-чуть левее...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVER_DESCRIPTION</LocID>                  <Text>Передвиньте 50 объектов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GREAT_WALL</LocID>                         <Text>Великая больничная стена</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GREAT_WALL_DESCRIPTION</LocID>             <Text>Постройте более 1000 элементов стен.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOILETS</LocID>                            <Text>Диарея побеждена!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOILETS_DESCRIPTION</LocID>                <Text>Разместите 30 уборных.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LITTER_FREE</LocID>                        <Text>Чистюля</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LITTER_FREE_DESCRIPTION</LocID>            <Text>Разместите 30 мусорных корзин.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BIOHAZARD</LocID>                          <Text>Резидентский госпиталь</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BIOHAZARD_DESCRIPTION</LocID>              <Text>Разместите 30 мусорных корзин для биологических отходов.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_INSTANT_HOSPITAL</LocID>                   <Text>Моментальное строительство</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_INSTANT_HOSPITAL_DESCRIPTION</LocID>       <Text>Разместите 15 готовых элементов.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHALL_NOT_PASS</LocID>                     <Text>You shall not pass!!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHALL_NOT_PASS_DESCRIPTION</LocID>         <Text>Постройте функционирующую комнату без дверей.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HOSPITAL_51</LocID>                        <Text>Госпиталь 51</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HOSPITAL_51_DESCRIPTION</LocID>            <Text>Постройте 10 спутников.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL</LocID>                  <Text>Всё готово!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL_DESCRIPTION</LocID>      <Text>Постройте госпиталь с каждым департаментом.</Text>  </GameDBLocalizedString>
-
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BIOHAZARD</LocID>         <Text>СЭС будет довольна</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BIOHAZARD_DESCRIPTION</LocID>              <Text>Разместите 30 контейнеров для биологических отходов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_INSTANT_HOSPITAL</LocID>                   <Text>Вжух, и больница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_INSTANT_HOSPITAL_DESCRIPTION</LocID>       <Text>Разместите 15 шаблонов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHALL_NOT_PASS</LocID>                     <Text>Замуровали, демоны!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHALL_NOT_PASS_DESCRIPTION</LocID><Text>Постройте комнату без дверей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HOSPITAL_51</LocID>                        <Text>Больница 51</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HOSPITAL_51_DESCRIPTION</LocID>            <Text>Постройте 10 спутниковых антенн.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL</LocID>                  <Text>Ну, как вам моя больничка?</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL_DESCRIPTION</LocID>      <Text>Постройте рабочую больницу со всеми отделениями.</Text>  </GameDBLocalizedString>
+          
             <!--Management-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE</LocID>                <Text>Вы наняты</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE_DESCRIPTION</LocID>    <Text>Наймите первого работника.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_STAFF</LocID>                         <Text>Управляющий</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_STAFF_DESCRIPTION</LocID>             <Text>Наймите 20 работников.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRE_STAFF</LocID>                         <Text>Уволены!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRE_STAFF_DESCRIPTION</LocID>             <Text>Увольте 20 работников.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SIGN_INSURANCE</LocID>                     <Text>Застрахуй братуху</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SIGN_INSURANCE_DESCRIPTION</LocID>         <Text>Подпишите контракт со страховой компанией.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_BOSS</LocID>                         <Text>Правильный начальник</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_BOSS_DESCRIPTION</LocID>             <Text>Назначьте главврача с хорошим перком начальника.</Text>  </GameDBLocalizedString>
-            
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE</LocID>                <Text>Первый пошел!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE_DESCRIPTION</LocID>    <Text>Наймите вашего первого сотрудника.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_STAFF</LocID>                         <Text>Руководитель</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_STAFF_DESCRIPTION</LocID>             <Text>Наймите 20 сотрудников.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRE_STAFF</LocID>                         <Text>Уволен с огоньком</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRE_STAFF_DESCRIPTION</LocID>             <Text>Увольте 20 сотрудников.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SIGN_INSURANCE</LocID>                     <Text>Я страхую!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_SIGN_INSURANCE_DESCRIPTION</LocID>   <Text>Подпишите контракт со страховой компанией.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_BOSS</LocID>         <Text>Кто босс?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_BOSS_DESCRIPTION</LocID>             <Text>Назначьте заведующим человека с перком "отличный начальник".</Text>  </GameDBLocalizedString>
+          
             <!--Diagnoses-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT</LocID>                 <Text>Врач</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT_DESCRIPTION</LocID>     <Text>Вылечите первого пациента.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_PATIENTS</LocID>                      <Text>Доктор Хаус</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT</LocID> <Text>Стажёр</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT_DESCRIPTION</LocID>     <Text>Вылечите своего первого пациента.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_PATIENTS</LocID>      <Text>Доктор Хаус</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_PATIENTS_DESCRIPTION</LocID>          <Text>Вылечите 1000 пациентов</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES</LocID>                 <Text>Доктор Дракула</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES_DESCRIPTION</LocID>     <Text>Возьмите кровь у 50 пациентов.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_X_RAY_TESTS</LocID>                        <Text>Просвети-ка</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_X_RAY_TESTS_DESCRIPTION</LocID>            <Text>30 пациентов прошли рентген.</Text>  </GameDBLocalizedString>
-
-            <!--TODO plug in acording to priority -->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEFT_DOCTOR</LocID>                        <Text>Вы точно доктор?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEFT_DOCTOR_DESCRIPTION</LocID>            <Text>Выберите неверный диагноз 20 раз.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_DOCTOR</LocID>                       <Text>Врач - ваше призвание</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_DOCTOR_DESCRIPTION</LocID>           <Text>Выберите верный диагноз 20 раз.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MY_TURN</LocID>                            <Text>Мой выход</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MY_TURN_DESCRIPTION</LocID>                <Text>Позаботьтесь лично о 30 пациентах.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HELLO_ANYBODY</LocID>                      <Text>Ау? Есть кто?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HELLO_ANYBODY_DESCRIPTION</LocID>          <Text>Позаботьтесь лично о пациенте из клиники и заставьте его ждать более 2 игровых часов перед следующей процедурой.</Text>  </GameDBLocalizedString>
-            
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES</LocID>                 <Text>Др. Акула</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES_DESCRIPTION</LocID>     <Text>Возьмите кровь на анализ у 50 пациентов, которых вы ведёте.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_X_RAY_TESTS</LocID>                        <Text>Смотри-ка, светится!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_X_RAY_TESTS_DESCRIPTION</LocID>            <Text>Проведите рентген 30 пациентам под вашей опекой.</Text>  </GameDBLocalizedString>
+          
+            <!-- -->
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEFT_DOCTOR</LocID>        <Text>Садись, два!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEFT_DOCTOR_DESCRIPTION</LocID><Text>Поставьте неверный диагноз 20 раз пациентам под вашей опекой.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_DOCTOR</LocID>                       <Text>Доктор П. Рав</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_DOCTOR_DESCRIPTION</LocID><Text>Поставьте верный диагноз 20 раз пациентам под вашей опекой.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MY_TURN</LocID>                            <Text>Мой выход!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MY_TURN_DESCRIPTION</LocID>                <Text>Возьмите под опеку более 30 пациентов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HELLO_ANYBODY</LocID>                      <Text>Ау? Кто нибудь?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HELLO_ANYBODY_DESCRIPTION</LocID>          <Text>Возьмите под опеку пациента из клиники и заставьте его ждать более 2 игровых часов.</Text>  </GameDBLocalizedString>
+          
             <!--Miscellaneous-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME</LocID>                 <Text>Домосед</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME_DESCRIPTION</LocID>     <Text>Отправьте 20 пациентов домой.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BANKER</LocID>                             <Text>Банкир</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BANKER_DESCRIPTION</LocID>                 <Text>Наберите более 700 000$ в бюджете.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPENDER</LocID>                            <Text>Транжира</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME</LocID> <Text>По домам!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME_DESCRIPTION</LocID>     <Text>Отправьте 20 пациентов из больницы домой.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BANKER</LocID>                             <Text>Нужно больше золота!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BANKER_DESCRIPTION</LocID>                 <Text>Накопите 700 000$ в бюджете.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPENDER</LocID>                            <Text>Где деньги, Лебовски?!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPENDER_DESCRIPTION</LocID>                <Text>Потратьте более 1 000 000$.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JANITOR</LocID>                            <Text>Доктор уборщик</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JANITOR_DESCRIPTION</LocID>                <Text>Ваши уборщики должны вымыть более 10000 блоков.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DONT_COLLAPSE</LocID>                      <Text>Пожалуйста, не умирайте в корридорах!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DONT_COLLAPSE_DESCRIPTION</LocID>          <Text>Позвольте 10 пациентам клиники умереть.</Text>  </GameDBLocalizedString>
-
-            <!--TODO plug in acording to priority -->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALCOHOLIC</LocID>                          <Text>Подождите, это что, бар?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALCOHOLIC_DESCRIPTION</LocID>              <Text>Наймите 5 работников с алкогольной зависимостью.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PRODUCTIVE_DAY</LocID>                     <Text>Продуктивный денек</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PRODUCTIVE_DAY_DESCRIPTION</LocID>         <Text>Проиграйте 8 часов.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CMS</LocID>                                <Text>Минздрав одобряет</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CMS_DESCRIPTION</LocID>                    <Text>Заслужите 5 звезд престижа.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_POLYGOT</LocID>                            <Text>Полиглот</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_POLYGOT_DESCRIPTION</LocID>                <Text>Смените язык локализации игры более 3 раз.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TWINKLE</LocID>                            <Text>Мерцание одинокой звезды</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TWINKLE_DESCRIPTION</LocID>                <Text>Заработайте лишь одну звезду престижа.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_EAGLE</LocID>                              <Text>Кручу-верчу</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_EAGLE_DESCRIPTION</LocID>                  <Text>Переверните объект 4 раза перед тем, как разместить его.</Text>  </GameDBLocalizedString>
-
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JANITOR</LocID>                            <Text>Куда по помытому?!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JANITOR_DESCRIPTION</LocID>                <Text>Ваши уборщики должны отмыть более 10 000 клеток.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DONT_COLLAPSE</LocID>                      <Text>Пожалуйста, не умирайте в коридорах!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString><LocID>ACHIEVEMENT_DONT_COLLAPSE_DESCRIPTION</LocID><Text>Познакомьтесь с 10 пациентами в критическом состоянии.</Text>  </GameDBLocalizedString>
+          
+            <!-- -->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALCOHOLIC</LocID>                          <Text>Это что, бар?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALCOHOLIC_DESCRIPTION</LocID>              <Text>Наймите 5 работников с перком "алкоголик".</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PRODUCTIVE_DAY</LocID>                     <Text>Как раб на галерах</Text>  </GameDBLocalizedString><!--after release-->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PRODUCTIVE_DAY_DESCRIPTION</LocID>         <Text>Играйте в течение 8 часов.</Text>  </GameDBLocalizedString><!--after release-->
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_CMS</LocID>                <Text>Звезда Минздрава</Text>  </GameDBLocalizedString> <!--after release-->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CMS_DESCRIPTION</LocID>                    <Text>Получите 5 звезд престижа.</Text>  </GameDBLocalizedString> <!--after release-->
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>ACHIEVEMENT_POLYGOT</LocID>            <Text>Полиглот</Text>  </GameDBLocalizedString> <!--after release-->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_POLYGOT_DESCRIPTION</LocID>                <Text>Измените язык игры как минимум 3 раза.</Text>  </GameDBLocalizedString> <!--after release-->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TWINKLE</LocID>                            <Text>Сияй, сияй, моя звезда</Text>  </GameDBLocalizedString><!--after release-->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TWINKLE_DESCRIPTION</LocID>                <Text>Соответствуйте лишь одной звезде престижа.</Text>  </GameDBLocalizedString> <!--after release-->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_EAGLE</LocID>                              <Text>ОООРЁЁЁЁЁЛ!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_EAGLE_DESCRIPTION</LocID>                  <Text>Поверните объект 4 раза перед его установкой.</Text>  </GameDBLocalizedString>
+          
             <!--Campaign-->
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_1</LocID>                            <Text>Интерн</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_1_DESCRIPTION</LocID>                <Text>Завершите уровень 1.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_2</LocID>                            <Text>Врач-стажер</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_2_DESCRIPTION</LocID>                <Text>Завершите уровень 2.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_3</LocID>                            <Text>Лечащий врач</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_3_DESCRIPTION</LocID>                <Text>Завершите уровень 3.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_4</LocID>                            <Text>Клинический ординатор</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_4_DESCRIPTION</LocID>                <Text>Завершите уровень 4.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_5</LocID>                            <Text>Врач узкой специализации</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_5_DESCRIPTION</LocID>                <Text>Завершите уровень 5.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_1_DESCRIPTION</LocID>                <Text>Завершите 1 уровень.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_2</LocID>                            <Text>Врач-стажёр</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_2_DESCRIPTION</LocID>                <Text>Завершите 2 уровень.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_3</LocID>                            <Text>Клинический ординатор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_3_DESCRIPTION</LocID>                <Text>Завершите 3 уровень.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_4</LocID>                            <Text>Ведущий специалист</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_4_DESCRIPTION</LocID>                <Text>Завершите 4 уровень.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_5</LocID>                            <Text>Заведующий отделением</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_5_DESCRIPTION</LocID>                <Text>Завершите 5 уровень.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_6</LocID>                            <Text>Главный врач</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_6_DESCRIPTION</LocID>                <Text>Завершите уровень 6.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_6_DESCRIPTION</LocID>                <Text>Завершите 6 уровень.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOOD_CREDIT</LocID>                        <Text>Хорошая кредитная история</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOOD_CREDIT_DESCRIPTION</LocID>            <Text>Верните деньги банку в течении 20 дней на уровне 5.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString> <LocID>ACHIEVEMENT_GOOD_CREDIT_DESCRIPTION</LocID> <Text>На 4 уровне выплатить долг банку в течение 20 дней.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHIEF_OF_CHIEFS</LocID>                    <Text>Главнее некуда</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHIEF_OF_CHIEFS_DESCRIPTION</LocID>        <Text>Выполните оба задания на уровне 6.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHIEF_OF_CHIEFS_DESCRIPTION</LocID>        <Text>Выполните все задания на 6 уровне.</Text>  </GameDBLocalizedString> <!-- There are three currently -->
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_1</LocID>                  <Text>Скорую вызывали?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_1_DESCRIPTION</LocID>      <Text>Пройдите 1 испытание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_2</LocID>                  <Text>Мастер общей хирургии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_2_DESCRIPTION</LocID>      <Text>Пройдите 2 испытание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_3</LocID>                  <Text>Мастер внутренних болезней</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_3_DESCRIPTION</LocID>      <Text>Пройдите 3 испытание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_4</LocID>                  <Text>Мастер ортопедии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_4_DESCRIPTION</LocID>      <Text>Пройдите 4 испытание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_5</LocID>                  <Text>Мастер кардиологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_5_DESCRIPTION</LocID>      <Text>Пройдите 5 испытание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_6</LocID>                  <Text>Мастер неврологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_6_DESCRIPTION</LocID>      <Text>Пройдите 6 испытание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN</LocID>                             <Text>Скрытое достижение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN_DESCRIPTION</LocID>                 <Text>Продолжайте играть, чтобы открыть это достижение</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
-    
