@@ -13,6 +13,6 @@ Notifications - 100%
 Options - 100%
 Skills - 100%
 Symptoms - 100%
-Treatments - 0%
+Treatments - 100%
 Tutorial - 0%
 UI - 100%
