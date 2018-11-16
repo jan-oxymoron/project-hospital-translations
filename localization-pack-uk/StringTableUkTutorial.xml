@@ -12,144 +12,265 @@
             <!-- ======================== -->
             <!--LEVEL 1 - DIAGNOSE: Flow 1-->
             <!-- ======================== -->
-            <GameDBLocalizedString>      <LocID>TUTORIAL_DIAGNOSING_INTRODUCTION</LocID>    <Text>Hi boss, thank you for coming back to help us. We know that you had your reasons for retirement, but we can really use someone with your talents. We know you were good at diagnosing patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WELCOME</LocID>               <Text>We're having some staff issues at the clinic, could you help us with a few patients?\nOh, don't worry, I'll remind you how everything works here.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_ZOOM_IN</LocID>               <Text><![CDATA[First let's have a closer look to see what's going on. You can <b><i>zoom in</i></b> out with the mouse wheel and pan by holding down the middle mouse button.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALL_CONFIGURATION</LocID>    <Text><![CDATA[You can also notice that all the walls are up, obscuring the view. <b><i>Change</i></b> the view to your liking.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_PATIENT</LocID>        <Text><![CDATA[Excellent, now <b><i>select the patient</i></b> who's been patiently waiting for us in the doctor's office.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENT_CARD</LocID>          <Text>This is the patient's card. It will give you all the important information and you can control what happens with your patients from here.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LAST_SELECTED</LocID>         <Text>On the right side you'll find the history of the last 6 selected characters.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PORTRAIT</LocID>              <Text>If you click the portrait of any character, the camera will center on them.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENTS_CONTROL</LocID>      <Text>You can choose who is responsible for your patient. Either you let your staff take care of them or you can take over directly. Let's keep this patient under your control.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NEEDS_PANEL</LocID>           <Text>The upper part of the card shows you the patient's personal data and department assignment. The needs panel on the right shows the satisfaction level and you can see character's perks and quirks below that.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DIAGNOSES</LocID>             <Text>The next panel shows all possible diagnoses that match patient's known symptoms, ordered from the most likely one. Selecting a diagnosis will set it as the final one.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SYMPTOMS</LocID>              <Text>The symptoms panel shows all revealed and hidden symptoms. On the left you can see the doctor the patient is currently assigned to.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED -->  <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EXAMINATIONS</LocID>          <Text><![CDATA[This is the examination panel where you can order examinations to reveal what the hidden symptoms are. Try to <b><i>select Skin allergy test</i></b> to reveal enough hidden symptoms so there's only one possible diagnosis left.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENT_DIAGNOSED</LocID>     <Text><![CDATA[You can see which finished examinations revealed a symptom, the ones that did are highlighted in green. Now go ahead and <b><i>select the one diagnosis that's left.</i></b>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREATMENTS</LocID>            <Text><![CDATA[Now nothing stops us from treating the patient. You can hover over the icon of your selected diagnosis to see a tooltip which will suggest the correct treatment. Go ahead and <b><i>choose the treatment.</i></b>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_GOOD_JOB</LocID>              <Text>Good job, you treated your first patient. Depending on the selected treatment, your patient will be either cured or might return later with new symptoms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CONTINUE</LocID>              <Text>Let us move on to help another patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_DIAGNOSING_INTRODUCTION</LocID>    
+            <Text>Привіт начальник, дякую що повернувся на допомогу. Ми знаємо що у тебе були причини для виходу на пенсію, але ми хочемо використати вас ще. Ви залишаєтесь найкращим лікарем діагностом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WELCOME</LocID>               
+            <Text>У нас деякі проблеми з персоналом, ви можете допомогти з пацієнтами?\nНе хвилюйтеся, я нагадаю як все тут працює.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_ZOOM_IN</LocID>               
+            <Text><![CDATA[Спочатку подивимося на все ближче. Використайте <b><i>колесико миші</i></b> для керування камерою - приближення, віддалення.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALL_CONFIGURATION</LocID>    
+            <Text><![CDATA[Ви помітили що усі стіни видно, та вони заважають. <b><i>Змініть</i></b> вигляд як вам подобається.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_PATIENT</LocID>        
+            <Text><![CDATA[Добре, тепер <b><i>виберить пацієнта</i></b> який вже чекає нас у приймальній кімнаті.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENT_CARD</LocID>          
+            <Text>Це картка пацієнта. Вона дасть вам всю важливу інформацію, і ви можете контролювати, що відбувається з вашими пацієнтами звідси.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LAST_SELECTED</LocID>         
+            <Text>По праву сторону ви знайдете історію останніх 6 виділених персонажів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PORTRAIT</LocID>              
+            <Text>Якщо ви натиснете на портрет будь-якого персонажу, камера буде зосереджена на них.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENTS_CONTROL</LocID>      
+            <Text>Ви можете вибрати, хто відповідає за вашого пацієнта. Або ви дозволите своїм співробітникам піклуватися про них, або ви можете взяти його на себе. Давайте тримати цього пацієнта під вашим наглядом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NEEDS_PANEL</LocID>           
+            <Text>У верхній частині картки показано особисті дані пацієнта та  у якому він відділі. Панель «Потреби» праворуч показує рівень задоволеності, і нижче ви можете побачити персоналі якості.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DIAGNOSES</LocID>             
+            <Text>Наступна панель показує всі можливі діагнози, які співпадають з відомими симптомами пацієнта, відсортованими з найбільш ймовірного. Вибравши діагноз, він буде встановлено як остаточний.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SYMPTOMS</LocID>              
+            <Text>Панель симптомів показує всі виявлені та приховані симптоми. Зліва ви можете побачити лікаря, до якого пацієнт на даний момент призначений.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED -->  <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EXAMINATIONS</LocID>          
+            <Text><![CDATA[Це панель обстежень, тут ви можете обрати обстеження щоб знайти приховані симптоми. Виберіть <b><i>Тест на алергію</i></b> щоб виявити приховані симптоми, щоб залишився лише один можливий діагноз.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENT_DIAGNOSED</LocID>     
+            <Text><![CDATA[Ви можете побачити, які обстеження виявили симптом, вони виділені зеленим кольором. Тепер виберіть <b><i>діагноз що залишився.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREATMENTS</LocID>            
+            <Text><![CDATA[Тепер нічого вас не зупиняє від лікування пацієнта. Ви можете навести на значок вибраного діагнозу щоб побачити підказку з правильним лікуванням. Виберіть <b><i>лікування.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_GOOD_JOB</LocID>              
+            <Text>Гарна робота, ви вилікували свого першого пацієнта. Залежно від обраного лікування, ваш пацієнт буде або вилікований, або може повернутися пізніше з новими симптомами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CONTINUE</LocID>              
+            <Text>Давайте допоможему іншому хворому.</Text>  </GameDBLocalizedString>
 
             <!-- ======================== -->
             <!--LEVEL 1 - DIAGNOSE: Flow 2-->
             <!-- ======================== -->
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OPEN_CARD</LocID>             <Text><![CDATA[Here is our next patient. <b><i>Click the patient that is sitting at the doctor's office.</i></b>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_COMPLICATED_CASE</LocID>      <Text>You probably noticed earlier that some examinations are not available (grey). They need special rooms or equipment.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MISSING_STUFF</LocID>         <Text>If you mouse over the greyed-out icon, a tooltip will tell you what is missing. In this case we are missing both the room and a technologist to be able to run the X-Ray.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TOOLTIP</LocID>               <Text>There are tooltips available throughout the game with extra information for every icon in every category.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FIX_MISSING_STUFF</LocID>     <Text>So for now, let us fix the hospital real quick.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OPEN_CARD</LocID>             
+            <Text><![CDATA[Ось наш наступний пацієнт. <b><i>Натисніть на пацієнта який сидить у приймальній лікаря.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_COMPLICATED_CASE</LocID>      
+            <Text>Ви, напевно, помітили раніше, що деякі обстеження не доступні (сірі). Їм потрібні спеціальні кімнати або обладнання.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MISSING_STUFF</LocID>         
+            <Text>Якщо ви наведете курсор на піктограму сірого кольору, підказка скаже вам, чого бракує. У цьому випадку нам не вистачає як кімнати, так і технолога, щоб мати можливість зробити рентген.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TOOLTIP</LocID>               
+            <Text>У грі доступні підказки з додатковою інформацією для кожної іконки в кожній категорії.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FIX_MISSING_STUFF</LocID>     
+            <Text>Поки що, давайте швидко полагодимо лікарню.</Text>  </GameDBLocalizedString>
 
             <!-- ======================== -->
             <!--LEVEL 1 - DIAGNOSE: Flow 3-->
             <!-- ======================== -->
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FIXED</LocID>                 <Text><![CDATA[Everything should be in order now and when you <b><i>open the patient's card again, you can select the now available examination.</i></b>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BOOKMARK</LocID>              <Text>If you want to be kept in the loop, you must keep the patient under your care or as monitored. The same icon switches between all the modes.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BOOKMARKED</LocID>            <Text>Right now the patient is under your care, just as we need.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CARD_OPTIONS</LocID>          <Text>The card can be closed by the X in the upper right corner. Don't forget you can always access the last few characters from the list on the right side.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TIME_MANIPULATION</LocID>     <Text><![CDATA[This examination will take some time. You can <b><i>fast forward the game time</i></b> using the controls in the middle of the main panel.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WAITING_FOR_RESULTS</LocID>   <Text>Let's watch what happens with our patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STAT_LAB_RESULTS</LocID>      <Text>The popup notification is informing you that the X-Ray has revealed a symptom.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_POP_UP</LocID>                <Text>You can change the way how you want to receive notifications by switching it to 'pop-up' or 'log' in the lower left corner of the message window.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_POP_UP_CLOSE</LocID>          <Text>By clicking OK you can close the notification.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOG</LocID>                   <Text>You can reopen the messages from the log panel in the bottom right of the screen.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FINAL_DIAGNOSE</LocID>        <Text>The last examination provided by the X-Ray revealed a last hidden symptom unique to the patient's disease. If the diagnosis was not clear, this would confirm it with a 100% probability.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PRIORITIES</LocID>            <Text>Usually running tests (radiology, STAT labs) is the most certain way to confirm a diagnosis, but they also take a lot of time. You can finish treating the patient yourself or leave it up to the doctor.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OBJECTIVES</LocID>            <Text><![CDATA[Now when we've covered the basics, it's time to get this clinic going. <b><i>Treat 4 patients.</i></b>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TUTORIAL_1_FINISHED</LocID>   <Text><![CDATA[Awesome, you've done it. Thank you for your help! We can take over from here. I think you are needed elsewhere. <b><i>Click next to move to continue.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FIXED</LocID>                 
+            <Text><![CDATA[Тепер все має бути в порядку і коли ви <b><i>відкриєте картку пацієнта знову, ви зможете вибрати доступне обстеження.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BOOKMARK</LocID>              
+            <Text>Якщо ви хочете бути в курсі, ви повинні тримати пацієнта під вашим наглядом або під контролем. Одна іконка перемикає усі режими.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BOOKMARKED</LocID>            
+            <Text>Прямо зараз пацієнт під вашим контролем, як нам потрібно.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CARD_OPTIONS</LocID>          
+            <Text>Картку можна закрити X у верхньому правому куті. Не забувайте, що ви завжди можете отримати доступ до останніх кількох персонажів зі списку справа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TIME_MANIPULATION</LocID>     
+            <Text><![CDATA[Це обстеження займе деякий час. Ви можете <b><i>пришвидшити час</i></b> використавши кнопки посередині нижньої панелі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WAITING_FOR_RESULTS</LocID>   
+            <Text>Давайте подивимося, що відбувається з нашим пацієнтом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STAT_LAB_RESULTS</LocID>      
+            <Text>У сповіщенні повідомляється, що Рентген виявив симптом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_POP_UP</LocID>                
+            <Text>Ви можете змінити спосіб отримання сповіщень, перемикаючи його на "спливаюче вікно" або "журнал" у нижньому лівому куті вікна повідомлення.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_POP_UP_CLOSE</LocID>          
+            <Text>Натиснувши ОК, ви можете закрити сповіщення.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOG</LocID>                   
+            <Text>Ви можете знову відкрити повідомлення з панелі журнала у нижньому правому кутку екрана.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FINAL_DIAGNOSE</LocID>        
+            <Text>Останнє обстеження, проведене рентгеном, виявило останній прихований симптом, унікальний для хвороби пацієнта. Це робить остаточний діагноз зрозумілим на 100%.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PRIORITIES</LocID>            
+            <Text>Зазвичай запущені обстеження (радіологія, лабораторія) - це найкращий спосіб підтвердити діагноз, але вони також потребують багато часу. Ви можете закінчити лікування пацієнта самостійно або залиште його лікарю.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OBJECTIVES</LocID>            
+            <Text><![CDATA[Тепер, коли ми пройщли основи, прийшов час отримати цю клініку. <b><i>Вилікуйте 4 пацієнта.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TUTORIAL_1_FINISHED</LocID>   
+            <Text><![CDATA[Неймовірно. Дякую за допомогу! Далі ми зможемо без Вас. Вас вже чекають у іншому місці. Зробіть собі чаю наприклад. <b><i>Натисніть далі, щоб продовжити.</i></b>]]></Text>  </GameDBLocalizedString>
 
             <!-- ======================== -->
             <!--LEVEL 2 - BUILDING: Flow 1-->
             <!-- ======================== -->
-            <GameDBLocalizedString>      <LocID>TUTORIAL_BUILDING_INTRODUCTION</LocID>              <Text>Hi boss, we also know that diagnosing was not the only thing that you did. You also were good at building hospitals.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HELLO</LocID>                         <Text>So, welcome to this nice property we recently acquired! Let us refresh a little bit on how to build and equip your very own hospital, and what options there are.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILDING_MODE</LocID>                 <Text><![CDATA[Alright, let's build a nice little clinic first! Let's switch to building mode. You can <b><i>click the button in the top left corner</i></b> of the screen or just push the F6 key.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FOUNDATIONS</LocID>                   <Text><![CDATA[The first important step is laying down foundations. The foundations tool is selected already - <b><i>cover an area big enough to house at least 3 rooms</i></b> (for example 20x20 tiles).]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CATEGORIES</LocID>                    <Text>Excellent! Now here's a quick summary of what's available to build. There are 5 main categories: foundations, constructions, doors and windows, objects and prefabs.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SUB_CATEGORIES</LocID>                <Text>Each category is further divided into subcategories. Don't forget there's a tooltip for each category and item with more info!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS</LocID>                     <Text><![CDATA[Now that we have a place to build, we need to design our floor plan. The very basic unit of every hospital is an emergency department. <b><i>Select management mode</i></b> to see which rooms we'll definitely need to make the emergency department operational.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS</LocID>               <Text><![CDATA[The list is divided between mandatory and optional rooms. <b><i>Let's place one of each: a doctor's office, a waiting room and a restroom</i></b>, these are needed for a working clinic.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_WALLS</LocID>                   <Text><![CDATA[Well done! With the floor plan done, <b><i>let's build some walls</i></b>. You can find them in the building mode under construction category]]>.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALLS_INFO</LocID>                    <Text>Great! Walls are sometimes not required for the rooms to function, but some objects need to be hung on a wall.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALLS_ADDITIONAL_INFO</LocID>         <Text>You can also choose wall color and whether you build walls in a line or in a rectangular pattern. The different options and tools are always shown at the bottom of the building panel.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FLOOR_INFO</LocID>                    <Text><![CDATA[You can also build various types of floors, doors and windows. Don't forget to place doors, so your rooms and the building itself is accessible. When you are happy with your setup <b><i>click next</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_ROOM</LocID>                   <Text><![CDATA[Let's focus on furnishing the rooms now. Simply <b><i>click on the floor</i></b> of any of the rooms.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_INFO</LocID>                <Text>The panel shows furniture and equipment that is either mandatory (orange) or recommended (yellow) for the room. Mandatory items show also alternatives. For example all equipment cabinets. But you need only one. You can rotate objects by pressing R or middle mouse button.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_ADDITIONAL_INFO</LocID>     <Text>Right mouse button cancels current selection. Some objects need additional equipment to work. If the object in scene is tinted blue, you can hover over it (or the floor under it) and see what other equipment it needs. It will be blue in the equipment panel.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_OBJECTIVE</LocID>           <Text><![CDATA[Now <b><i>equip your rooms</i></b>.\nWhen placing objects, arrows on the ground will show from which directions it can be accessed from.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OPTIONAL_EQUIPMENT</LocID>            <Text>The optional equipment usually contains decorations or objects that don't serve a particular purpose in the given room, but improve the environment.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_TUTORIAL</LocID>               <Text><![CDATA[Now all we need for a functional clinic is a doctor. We will hire one with the help from our in game tutorial - these are also available in sandbox mode.<b><i>Select in-game tutorials</i></b>.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_TUTORIAL_HIRING</LocID>        <Text><![CDATA[<b><i>Select hiring</i></b> and follow the instructions to <b><i>hire a doctor for emergency clinic</i></b>.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_RADIOLOGY</LocID>              <Text><![CDATA[When you have more departments, you can switch between them using the icons on the main panel.<b><i> Select radiology department and open management mode again</i></b>.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_RADIOLOGY</LocID>               <Text><![CDATA[Check what rooms you need for a functional radiology department, <b><i>build, equip and staff them</i></b>. All of the red warning signs must be dealt with to have a functional department.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_HIRE_LAB_SPECIALIST</LocID>    <Text><![CDATA[The last step on our way to a working radiology department is to <b><i>hire a technologist</i></b> for the X-Ray room. Follow the same steps as when you hired a doctor.]]></Text> </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_PATIENTS</LocID>                <Text><![CDATA[Now go ahead and finish the last objective: <b><i>treat 6 patients.</i></b>]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFABS_CATEGORY</LocID>              <Text><![CDATA[Before we finish, let's have a look at the last category, and a great timesaver - prefabs. Select the <b><i>prefabs category</i></b> in building mode.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFAB_CATEGORY_SELECTED</LocID>      <Text><![CDATA[Now, you can see the different rooms divided by departments. Choose any of the prefabs and place it into an unoccupied area in your clinic.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFAB_PLACED</LocID>                 <Text>You now placed a fully equipped room - it's also automatically added to the floor plan. You can of course modify it to exactly fit your needs.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TUTORIAL_2_FINISHED</LocID>           <Text>Well done! It's as easy as riding a bike, isn't it?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_BUILDING_INTRODUCTION</LocID>              
+            <Text>Привіт начальник, ми знаємо що Ви були не тільки гарним лікарем але й гарним менеджером.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HELLO</LocID>                         
+            <Text>То ж, ласкаво просимо на цю приємну нерухомість, яку ми недавно придбали! Давайте згадаємо, як побудувати та обладнати власну лікарню, і які варіанти існують.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILDING_MODE</LocID>                 
+            <Text><![CDATA[Давайте побудуємо гарну маленьку клініку спочатку! Перейдемо до режиму будівництва. Ви можете <b><i>натиснути кнопку у лівому верхньому куті</i></b> екрану або натиснути F6.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FOUNDATIONS</LocID>                   
+            <Text><![CDATA[Першим важливим кроком є встановлення фундаменту. Інструмент вже обрано - <b><i>виділіть площу, достатню для розміщення щонайменше 3 кімнат</i></b> (наприклад, 20x20 плиток).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CATEGORIES</LocID>                    
+            <Text>Відмінно! Тепер розглянемо, що є в наявності. Є 5 основних категорій: фундаменти, споруди, двері та вікна, предмети та шаблони.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SUB_CATEGORIES</LocID>                
+            <Text>Кожна категорія розділена на підкатегорії. Не забувайте про підказки для кожної категорії!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS</LocID>                     
+            <Text><![CDATA[Тепер, коли у нас є місце для будівництва, нам потрібно розробити план поверху. Самий основний департамент кожної лікарні - це відділ Невідкладної допомоги. <b><i>Виберіть режим управління</i></b> щоб побачити, в які кімнати обов'язкові що відділ Невідкладної допомоги почав працювати.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS</LocID>               
+            <Text><![CDATA[Цей список поділений між обов'язковими та необов'язковими кімнатами. <b><i>Поставимо кожну з них: кабінет лікаря, кімната очікування і туалет</i></b>, вони потрібні для роботи клініки.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_WALLS</LocID>                   
+            <Text><![CDATA[Добре! З плануванням, <b><i>тепер побудуємо стіни</i></b>. Ви можете знайти їх у будівельному режимі у категорії Стіни, поли та ліфти]]>.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALLS_INFO</LocID>                    
+            <Text>Добре! Іноді стіни не потрібні для роботи приміщень, але деякі предмети повинні бути навішені на стіну.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALLS_ADDITIONAL_INFO</LocID>         
+            <Text>Ви також можете вибрати колір стін і будівництво стін по лінії або прямокутним малюнком. Різні інструменти завжди відображаються внизу панелі будівлі.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FLOOR_INFO</LocID>                    
+            <Text><![CDATA[Ви також можете побудувати різні типи підлоги, дверей і вікон. Не забудьте розмістити двері, щоб ваші кімнати та будівля були доступними. Коли будете задоволені <b><i>натисніть далі</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_ROOM</LocID>                   
+            <Text><![CDATA[Давайте зосередимось на обладнанні кімнат. <b><i>Натисніть на підлогу</i></b> будь-якої кімнати.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_INFO</LocID>                
+            <Text>Панель показує, які меблі та обладнання є обов'язковими (оранжевий) чи рекомендовані (жовтий) для кімнати. Також показані альтернативи обов'язкових елементів. Наприклад всі шафи з обладнанням. Але вам потрібнен лише один. Ви можете обертати об'єкти, натискаючи клавішу R або середню кнопку миші.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_ADDITIONAL_INFO</LocID>     
+            <Text>Правою кнопкою миші скасовується поточний вибір. Деякі об'єкти потребують додаткового обладнання для роботи. Якщо об'єкт на сцені забарвлений синім кольором, ви можете навести курсор миші на нього (або на підлогу під ним) і подивіться, яке обладнання йому потрібне. Воно буде синім на панелі обладнання.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_OBJECTIVE</LocID>           
+            <Text><![CDATA[<b><i>Обладнайте ваші кімнати</i></b>.\nПри розміщенні об'єктів стрілки на підлозі покажуть, з яких напрямків його використовують.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OPTIONAL_EQUIPMENT</LocID>            
+            <Text>Додаткове обладнання зазвичай містить прикраси або предмети, які не служать певній меті в даній кімнаті, але покращують навколишнє середовище.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_TUTORIAL</LocID>               
+            <Text><![CDATA[Тепер усе що нам потрібно це лише Лікар. Ми наймемо одного за допомогою нашого tutorial - це також доступно у sandbox режимі.<b><i>Оберіть ігрові tutorials</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_TUTORIAL_HIRING</LocID>        
+            <Text><![CDATA[<b><i>Виберіть найм</i></b> і дотримуйтесь інструкцій щоб <b><i>найняти лікаря для амбулаторії</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_RADIOLOGY</LocID>              
+            <Text><![CDATA[Коли у вас стане більше підрозділів, ви зможете переключатися між ними за допомогою піктограм на головній панелі. <b><i>Виберіть відділ радіології та відкритий режим управління знову</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_RADIOLOGY</LocID>               
+            <Text><![CDATA[Перевірте, які кімнати вам потрібні для функціонального відділу радіології, <b><i>побудуйте, обладнайте та найміть персонал</i></b>. Всі червоні попереджувальні знаки мають бути вирішені, щоб мати робочий відділ.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_HIRE_LAB_SPECIALIST</LocID>    
+            <Text><![CDATA[Останній крок на шляху до робочої радіології - це <b><i>найняти технолога</i></b> для рентгенівської кімнати. Дотримуйтесь тих самих кроків, що й тоді, коли ви найняли лікаря.]]></Text> </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_PATIENTS</LocID>                
+            <Text><![CDATA[Закінчіть останнє завдання: <b><i>вилікувати 6 пацієнтів.</i></b>]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFABS_CATEGORY</LocID>              
+            <Text><![CDATA[Перш ніж ми закінчимо, давайте поглянемо на останню категорію яка збереже ваш час - шаблони. Виберіть <b><i>категорію шаблонів</i></b> в режимі будівництва.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFAB_CATEGORY_SELECTED</LocID>      
+            <Text><![CDATA[Тепер ви можете побачити різні кімнати, поділені на департаменти. Виберіть будь-який шаблон та помістіть його в незайняте місце у вашій клініці.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFAB_PLACED</LocID>                 
+            <Text>Тепер ви розмістили повністю обладнану кімнату - її також автоматично додають до плану поверху. Звичайно, ви можете змінити її, щоб вона відповідала вашим потребам.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TUTORIAL_2_FINISHED</LocID>           
+            <Text>Гарно зроблено! Це так просто, як їхати на велосипеді, чи не так?</Text>  </GameDBLocalizedString>
 
             <!-- ============================================== -->
             <!--LEVEL 3 - MANAGEMENT AND HOSPITALIZATION: Flow 1-->
             <!-- ============================================== -->
-            <GameDBLocalizedString>      <LocID>TUTORIAL_MANAGEMENT_INTRODUCTION</LocID>                    <Text>Hi boss, with diagnosing and building out of the way, we know that you have one more talent, that also might need a little refreshment.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WELCOME_MANAGEMENT</LocID>                    <Text>Let's take a closer look at hospital management.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_CARD_OPEN</LocID>                  <Text><![CDATA[We can start with department management. Go ahead and <b><i>switch to department management mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_CARD_INFO</LocID>                  <Text>This mode gives you all the information about your selected department, assigned staff and rooms. It also acts as a checklist for making the department work.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHIEF_INFO</LocID>                            <Text>You can choose who will be the chief doctor. Be careful with this selection, it can have a big effect on the overall productivity of your employees.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CERTAINTY</LocID>                             <Text>"Certainty" level is an important setting for diagnostics. It determines how careful the doctors are when selecting a final diagnosis and how carefully they look for hidden symptoms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING</LocID>                                <Text><![CDATA[Let's have a look at your hiring options. Click on the <b><i>hiring button</i></b> in your desired department's card.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_SELECTED</LocID>                       <Text>There are four staff categories - doctors, nurses, technologists and janitors. You can see their experience levels, skills and their requested salary. Also the character perks can make a big difference and are often hidden.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_OPTIONS</LocID>                        <Text>The selection is bound to the selected department, so the employees only have matching specializations.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_AGENCY</LocID>                         <Text>If you're not happy with the candidates, a hiring agency will be happy to provide you with a new list or uncover hidden perks for a fee.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO</LocID>                    <Text>To hire an employee, click on their portrait and drop them into a room. The employee will be automatically assigned to the nearest workplace. You can also assign the workplace from the employee card.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_TASK</LocID>                    <Text><![CDATA[Hire a <b><i>doctor for the emergency department</i></b> and <b><i>a technologist for the radiology department</i></b>.\n\nTip: You can switch the department at the bottom left of the main panel.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_SELECT</LocID>                      <Text><![CDATA[Now you can check their assigned workspaces. <b><i>Select management mode</i></b>.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES</LocID>                            <Text>Workspaces consist of a desk, a chair and a pc as you've probably seen when building different rooms. And you can see they are now occupied (on your selected department). You can also click on an empty workspace and hire an employee that way.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD</LocID>                         <Text><![CDATA[Let's have a closer look at your staff. <b><i>Open any of your employee's card</i></b>.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_LEVELS</LocID>                  <Text>Every employee has a few different statistics: their level, skills and specializations. For technologists and nurses there are three experience levels, for doctors five. Different specializations get available as the employees level up.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SKILLS</LocID>                  <Text>Skills are fixed for each type of personnel, but get improved by being used. You can learn more about individual skills in tooltips.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SPECIALIZATIONS</LocID>         <Text>Specializations give the opportunity to work at certain departments or rooms and allow the employee to perform specific examinations or treatments.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SECOND_SPECIALIZATION</LocID>   <Text>Doctors can have one or two specializations. The first one allows basic work at a certain department and is available for all residents (level 2), the second one is usually related to surgery or diagnostics and available for fellows (level 4).</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_ROLES</LocID>                   <Text>Employee roles give you the option to control what tasks each employee is allowed to perform. This way you can make sure that you have staff available when they are really needed, for example for surgery.</Text> </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NIGHT_SHIFT</LocID>                           <Text><![CDATA[To be able to take care of hospitalized patients 24/7, the hospital needs staff assigned to both day shift and night shift. When you <b><i>click the “night shift” button</i></b>, notice that the border and the staff change]]>.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENTS</LocID>                           <Text><![CDATA[Let's move to management tools for the whole hospital. First, let's have a look at departments. <b><i>Open the department section</i></b> of the hospital management card.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENTS_OPENED</LocID>                    <Text>Here's a list of all of active departments. You can close them down from here.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INSURANCE_COMPANY</LocID>                     <Text><![CDATA[Insurance companies are your most important partners because they control both what patients come to the hospital and how much they pay. <b><i>Open the insurance section</i></b> of the hospital management card.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INSURANCE_COMPANY_OPENED</LocID>              <Text>Insurance companies have their own requirements, but when you pass these, it's up to you which insurance companies you contract and accept patients from.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE</LocID>                             <Text><![CDATA[Now we will take a look at ambulances. <b><i>Open the ambulance section</i></b> of the hospital management card.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_OPENED</LocID>                      <Text>The panel shows you the status of all your ambulances.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUDGET</LocID>                                <Text><![CDATA[Next up: finance. <b><i>Open the budget section</i></b> of the hospital management card.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUDGET_OPENED</LocID>                         <Text>Here's a breakdown of your income and expenses for each department. You can also take a loan from a local bank if you are short on cash.</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STATISTICS</LocID>                            <Text><![CDATA[And last but not least, statistics. <b><i>Open the statistics section</i></b> of the hospital management card.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STATISTICS_OPENED</LocID>                     <Text>The statistics give you some insight into how well your hospital is doing and what the trends have been.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_MANAGEMENT_INTRODUCTION</LocID>                    
+            <Text>Привіт начальник, з діагностуванням та будуванням покінчено, ми знаємо, що у вас є ще один талант, який потрібно освіжити.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WELCOME_MANAGEMENT</LocID>                    
+            <Text>Давайте уважніше поглянемо на управління лікарнею.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_CARD_OPEN</LocID>                  
+            <Text><![CDATA[Ми можемо розпочати з управління відділом. <b><i>Переключіться на режим управління відділом</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_CARD_INFO</LocID>                  
+            <Text>Цей режим надає вам всю інформацію про ваш обраний відділ, призначений персонал та кімнати. Він також є контрольним листом для щоб відділ почав працювати.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHIEF_INFO</LocID>                            
+            <Text>Ви можете вибрати, хто буде завідуючим відділенням. Будьте обережні з цим вибором, це може мати великий вплив на загальну продуктивність ваших співробітників.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CERTAINTY</LocID>                             
+            <Text>Рівень "Впевненості" є важливим для постановки діагнозу. Він визначає, наскільки обережні лікарі під час вибору остаточного діагнозу і наскільки уважно вони шукають приховані симптоми.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING</LocID>                                
+            <Text><![CDATA[Давайте поглянемо на ваші варіанти найму. Натисніть <b><i>кнопку найму</i></b> на карточці бажаного відділу.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_SELECTED</LocID>                       
+            <Text>Є чотири категорії персоналу - лікарі, медсестри, технологи та прибиральники. Ви можете побачити рівень їх досвіду, навички та їх зарплату. Також особливості персонажа можуть мати великі відмінності і вони часто приховані.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_OPTIONS</LocID>                        
+            <Text>Вибір пов'язан із вибраним відділом, тому співробітники мають лише відповідні спеціалізації.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_AGENCY</LocID>                         
+            <Text>Якщо ви не задоволені кандидатами, агенція з найму буде рада надати вам новий список або розкриє приховані пільги за окрему плату.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO</LocID>                    
+            <Text>Для того, щоб найняти працівника, натисніть на їхній портрет і помістіть їх у кімнату. Співробітник буде автоматично призначений на найближче робоче місце. Ви також можете призначити робоче місце з картки працівника.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_TASK</LocID>                    
+            <Text><![CDATA[Найміть <b><i>лікаря для відділу невідкладної допомоги</i></b> і <b><i>технолога для радіології</i></b>.\n\nПідказка: Ви можете переключити відділ у нижньому лівому куті головної панелі.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_SELECT</LocID>                      
+            <Text><![CDATA[Тепер ви можете перевірити їх призначені робочі місця. <b><i>Виберіть режим управління</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES</LocID>                            
+            <Text>Робочі місця складаються з письмового столу, стільця та комп'ютера, які ви, напевно, бачили під час будівництва різних кімнат. І ви можете побачити, що вони зараз зайняті (у вибраному відділі). Ви також можете натиснути на порожній робочий простір і найняти працівника таким чином.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD</LocID>                         
+            <Text><![CDATA[Давайте уважніше поглянемо на ваших співробітників. <b><i>Відкрийте карту вашого співробітника</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_LEVELS</LocID>                  
+            <Text>У кожного співробітника є кілька різних статистик: їх рівень, навички та спеціалізації. Для технологів та медсестер є три рівні досвіду, для лікарів п'ять. Різні спеціалізації стають доступними коли працівник підвищує рівень досвіду.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SKILLS</LocID>                  
+            <Text>Навички фіксуються для кожного виду персоналу, але вони покращуються використанням. Ви можете дізнатись більше про індивідуальні навички в підказках.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SPECIALIZATIONS</LocID>         
+            <Text>Спеціалізації дають можливість працювати в певних відділах або кімнатах і дозволяють співробітнику виконувати спеціальні обстеження або процедури.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SECOND_SPECIALIZATION</LocID>   
+            <Text>Лікарі можуть мати одну або дві спеціалізації. Перша дозволяє основну роботу в певному відділенні і доступна для всіх лікарів ординаторів (2 рівень), друга, як правило, пов'язана з хірургією або діагностикою і доступна для кандидатів наук (4 рівень).</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_ROLES</LocID>                   
+            <Text>Ролі співробітників дає вам можливість контролювати, які завдання кожному працівнику дозволяється виконувати. Таким чином, ви можете бути упевнені, що у вас є співробітники, коли вони дійсно потрібні, наприклад, для операції.</Text> </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NIGHT_SHIFT</LocID>                           
+            <Text><![CDATA[Щоб мати можливість піклуватися про госпіталізованих пацієнтів цілодобово, лікарні потрібен персонал, призначений як на денну зміну, так і на ніч. Коли Ви <b><i>натисните кнопку "нічна зміна"</i></b>, зверніть увагу, що контур та персонал змінюються]]>.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENTS</LocID>                           
+            <Text><![CDATA[Давайте перейдемо до інструментів управління всієї лікарні. По-перше, давайте поглянемо на відділи. <b><i>Відкрийте відділ</i></b> з картки управління лікарнею.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENTS_OPENED</LocID>                    
+            <Text>Ось список усіх активних відділів. Ви можете закрити їх звідси.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INSURANCE_COMPANY</LocID>                     
+            <Text><![CDATA[Страхові компанії є вашими найважливішими партнерами, оскільки вони контролюють які пацієнти приходять до лікарні і скільки вони платять. <b><i>Відкрийте розділ страхування</i></b> з картки управління лікарнею.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INSURANCE_COMPANY_OPENED</LocID>              
+            <Text>Страхові компанії мають свої власні вимоги, але коли ви їх виконаєте, то від Вас залежить з якою страховою контактувати та приймати пацієнтів.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE</LocID>                             
+            <Text><![CDATA[Тепер ми подивимося на карети швидкої. <b><i>Відкрийте розділ карет швидкої</i></b> з картки управління лікарнею.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_OPENED</LocID>                      
+            <Text>Панель показує статус усіх машин швидкої допомоги.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUDGET</LocID>                                
+            <Text><![CDATA[Далі: фінанси. <b><i>Відкрийте розділ бюджету</i></b> з картки управління лікарнею.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUDGET_OPENED</LocID>                         
+            <Text>Ось розбивка ваших доходів і витрат на кожне відділення. Ви також можете взяти кредит у місцевого банку, якщо вам не вистачає готівки.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STATISTICS</LocID>                            
+            <Text><![CDATA[ І останнє, але не менш важливе, статистика. <b><i>Відкрийте розділ статистики</i></b> з картки управління лікарнею.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STATISTICS_OPENED</LocID>                     
+            <Text>Статистичні дані дають вам певну інформацію про те, наскільки успішно працює ваша лікарня та які тенденції.</Text> </GameDBLocalizedString>
             <!-- Hospitalization -->
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_INFO</LocID>       <Text>Now onto the fun part. Our hospital needs a functional hospitalization process at the general surgery department.</Text> </GameDBLocalizedString> <!-- THIS MIGHT BE WRONGLY WORDED? -->
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION</LocID>      <Text><![CDATA[Switch to department management and select general surgery department, check what rooms you need and <b><i>build them</i></b>. Then <b><i>hire necessary staff</i></b>. All of the red warning signs must be dealt with to get hospitalization to work.\nAnd build wards with more beds, I have a feeling you will need them.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_PATIENT</LocID>                     <Text><![CDATA[Now that we have working hospitalization, the ambulance will bring us our first patient. <b><i>This should be only a minute!</i></b>]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_PATIENT_SELECT</LocID>              <Text><![CDATA[Let's pause the game so you can select the patient easily and <b><i>take the patient under your care</i></b>.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OVERVIEW</LocID>                     <Text><![CDATA[Now let us follow the patient through our hospitalization process. This can start at the emergency department with <i>observation</i> or <i>trauma hospitalization</i>.]]></Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OBSERVATION</LocID>                  <Text>Patients get admitted for observation when there is no clear diagnosis and the patient could have one or more dangerous symptoms. Once the diagnosis is clear, the patient gets treated and sent home or hospitalized at a specialized department.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OBSERVATION_INFO</LocID>             <Text>When the patient goes to an observation room, following examinations will be done by the on-call room staff and your doctor in the doctor's office at the clinic will take another case.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_OVERVIEW</LocID>       <Text>Trauma center is an essential unit for handling different types of traumas and accidents and most critical cases that your ambulances bring to the hospital arrive here.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_INFO</LocID>           <Text>Trauma center works the same way as the observation room. As long as the diagnosis is not clear, the patient will be examined here.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_TASK</LocID>           <Text><![CDATA[Now let's go back to our patient on their way to the trauma center. Try to find out what is wrong and <b><i>reach a clear diagnosis</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION</LocID>            <Text>With a clear diagnosis the patients get hospitalized at specialized departments. Every department has two types of inpatient rooms, regular or HDU hospitalization.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NORMAL_HOSPITALIZATION</LocID>                <Text>Regular ward is suitable for patients without any risk of life threatening conditions.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIGH_HOSPITALIZATION</LocID>                  <Text>High dependency unit is suitable for patients in risk of collapse or life threatening conditions. They are generally equipped with life monitors to keep an eye on the vital functions of their patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_ICU_HOSPITALIZATION</LocID>                   <Text>If patients collapse, they can be sent to ICU to be connected to life support and to get continuous care. Intensive care unit is not only a hospitalization type, but also a standalone department.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHANGE_DEPARTMENT</LocID>                     <Text><![CDATA[So, what's the next step for our patient? Let's <b><i>switch the department</i></b>. Check the tooltip on the diagnosis to see which department is capable of treating it.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHANGE_DEPARTMENT_WAIT</LocID>                <Text><![CDATA[Let's <b><i>wait</i></b> for our patient to be transferred to their room. The room was chosen based on the severity of the patient's symptoms.\nTip: You can follow the patient by clicking the hidden cross over the bottom left corner of their portrait.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOCTORS_ROUNDS</LocID>                        <Text>Hospitals work around the clock and there are a few important times in the daily schedule. Doctor's rounds happen every morning, when the doctors visit their patients and order additional examinations.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NURSES_CHECKUPS</LocID>                       <Text>Nurses check the patients regularly, more often at HDU and ICU. They can notice dangerous symptoms and notify the doctors so the patients get examined.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NURSES_MEDICINE_LUNCH</LocID>                 <Text>Nurses also deliver meals and medicine in various forms, as prescribed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEATH</LocID>                                 <Text>...and when everything goes horribly wrong? Well, sometimes that happens even if you do everything right and patients will die.\nNote: death can be turned off in options, the patients will be transferred away instead.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT</LocID>                <Text><![CDATA[Now it's time to treat our patient. <b><i>Suppress all high hazard symptoms</i></b> (some might be still hidden), notice some icons are pulsing. The patient might collapse and die if you don't prescribe the correct treatments.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY</LocID>      <Text>Unfortunately the patient collapsed and without functional ICU must be transported away. Make sure you have enough staff available and correct roles assigned because sometimes, time is of the essence.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD</LocID>           <Text>Unfortunately you were not able to save this patient. Make sure you have enough staff available and correct roles assigned because sometimes, time is of the essence.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS</LocID>               <Text><![CDATA[We have a couple more patients coming into the hospital <b><i>Suppress their high hazard symptoms</i></b> (some might be still hidden) to save them from danger.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_DEAD</LocID>      <Text>Unfortunately you were not able to save one of your patients. Make sure you have enough staff available and correct roles assigned because sometimes, time is of the essence.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_SENT_AWAY</LocID> <Text>Unfortunately one of your patients collapsed and without functional ICU must be transported away. Make sure you have enough staff available and correct roles assigned because sometimes, time is of the essence.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITALIZATION_END</LocID>                   <Text>Hopefully we have covered all the important parts of hospital management and hospitalization. And now we can focus on why we requested your help. Please meet us in our next hospital.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_INFO</LocID>       
+            <Text>Тепер весела частина. Наша лікарня потребує функціональної госпіталізації у відділенні загальної хірургії.</Text> </GameDBLocalizedString> <!-- THIS MIGHT BE WRONGLY WORDED? -->
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION</LocID>      
+            <Text><![CDATA[Перейдіть на управління відділом і виберіть відділ хірургії, перевірте, які кімнати вам потрібні і <b><i>побудуйте їх</i></b>. <b><i>Найміть персонал</i></b>. Всі червоні попереджувальні знаки повинні бути вирішені, щоб госпіталізація запрацювала. \nІ створіть палати з більшою кількістю ліжок, у мене є відчуття, що вам це буде потрібно.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_PATIENT</LocID>                     
+            <Text><![CDATA[Тепер, коли ми маємо можливість госпіталізації до роботи, швидка допомога привезе нам першого пацієнта. <b><i>Це займе лише хвилину!</i></b>]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_PATIENT_SELECT</LocID>              
+            <Text><![CDATA[Давайте призупинимо гру, щоб ви могли легко вибрати пацієнта <b><i>візьміть пацієнта під ваш контроль</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OVERVIEW</LocID>                     
+            <Text><![CDATA[Тепер давайте стежити за пацієнтом через наш госпіталізаційний процес. Це може початись у відділі екстреної допомоги через <i>спостереження</i> або <i>травматологію</i>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OBSERVATION</LocID>                  
+            <Text>Пацієнти приймаються на спостереження, коли немає чіткого діагнозу, і пацієнт може мати один або декілька небезпечних симптомів. Після того, як діагноз зрозумілий, пацієнт отримує лікування і відправляється додому або госпіталізується в спеціалізований відділ.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OBSERVATION_INFO</LocID>             
+            <Text>Коли пацієнт відправляється в палату для спостереження, наступні обстеження будуть проводитися за допомогою чергових лікарів і ваш лікар у приймальні зможеo прийняти іншого пацієнта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_OVERVIEW</LocID>       
+            <Text>Травматологія є важливою частиною для роботи з різними типами травм та нещасних випадків, та найважкими випадками, з якими прибувають ваші машини швидкої допомоги.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_INFO</LocID>           
+            <Text>Травматологія працює так само, як і палата спостереження. Поки діагноз незрозумілий, пацієнт буде оглянутий тут.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_TASK</LocID>           
+            <Text><![CDATA[Тепер давайте повернемося до нашого пацієнта на шляху до травматології. Спробуйте з'ясувати, що не так <b><i>поставте правильний діагноз</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION</LocID>            
+            <Text>З чітким діагнозом пацієнти госпіталізуються в спеціалізовані відділення. У кожному відділенні є два типи палат, звичайна або пріорітена.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NORMAL_HOSPITALIZATION</LocID>                
+            <Text>Звичайна палата підходить для пацієнтів без будь-якого ризику до життя.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIGH_HOSPITALIZATION</LocID>                  
+            <Text>Пріорітетна палата підходить для пацієнтів з ризиком смерті або небезпечними для життя умовами. Вони, як правило, оснащені моніторами життєдіяльності, щоб стежити за життєдіяльністю своїх пацієнтів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_ICU_HOSPITALIZATION</LocID>                   
+            <Text>Якщо пацієнт помирає, вони можуть бути відправлені до палати ІТ, щоб підключити до підтримки життя та отримувати постійну допомогу. Палата інтенсивної терапії - це не тільки тип госпіталізації, але також окремий відділ.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHANGE_DEPARTMENT</LocID>                     
+            <Text><![CDATA[Отже, який наступний крок для нашого пацієнта? <b><i>Змініть відділ</i></b>. Перевірте підказку в діагнозі, щоб дізнатись, який відділ здатний це лікувати.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHANGE_DEPARTMENT_WAIT</LocID>                
+            <Text><![CDATA[<b><i>Зачекайте</i></b> поки наш пацієнт переміщався у свою кімнату. Приміщення було обрано з огляду на тяжкість симптомів пацієнта.\nПідказка: Ви можете стежити за пацієнтом, натиснувши прихований хрест у нижньому лівому куті його портрета.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOCTORS_ROUNDS</LocID>                        
+            <Text>Лікарні працюють цілодобово, і в щоденному розкладі є кілька важливих пунктів. Обход лікаря проходить кожного ранку, коли лікарі відвідують своїх пацієнтів і назначають додаткові обстеження.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NURSES_CHECKUPS</LocID>                       
+            <Text>Медсестри регулярно проводять перевірку пацієнтів, найчастіше - у ПП та ПІТ. Вони можуть помітити небезпечні симптоми і повідомити лікарів, щоб лікарі могли оглянути пацієнтів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NURSES_MEDICINE_LUNCH</LocID>                 
+            <Text>Медсестри також доставляють їжу та ліки в різних формах, як прописано.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEATH</LocID>                                 
+            <Text>...і коли все йде жахливо неправильно? Ну, іноді це трапляється, навіть якщо ви робите все правильно, а пацієнти вмирають.\nПримітка: смерть може бути вимкнена у настройках, пацієнти будуть віддані у іншу лікарню замість смерті.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT</LocID>                
+            <Text><![CDATA[Тепер пора лікувати нашого пацієнта. <b><i>Пригнічуйте всі симптоми підвищеної небезпеки</i></b> (деякі можуть бути прихованими), зверніть увагу, що деякі іконки пульсують. Пацієнт може почати вмирати, якщо ви не призначаєте правильне лікування.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY</LocID>      
+            <Text>На жаль, пацієнт почав вмирати, і без функціональної палати ІТ буде забраний іншою лікарнею. Переконайтеся, що у вас достатньо персоналу та правильних призначених ролей, оскільки іноді час має значення.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD</LocID>           
+            <Text>На жаль, ви не змогли врятувати цього пацієнта. Переконайтеся, що у вас достатньо персоналу та правильних призначених ролей, оскільки іноді час має значення.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS</LocID>               
+            <Text><![CDATA[Ми маємо ще пару пацієнтів, які прийшли до лікарні <b><i>Заглушіть їх симптоми підвищеної небезпеки</i></b> (деякі можуть бути прихованими) щоб врятувати їх від небезпеки.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_DEAD</LocID>      
+            <Text>На жаль, ви не змогли врятувати одного з ваших пацієнтів. Переконайтеся, що у вас достатньо персоналу та правильних призначених ролей, оскільки іноді час має значення.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_SENT_AWAY</LocID> 
+            <Text>На жаль, один з пацієнтів почав вмирати, і без функціональної палати ІТ буде забраний іншою лікарнею. Переконайтеся, що у вас достатньо персоналу та правильних призначених ролей, оскільки іноді час має значення.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITALIZATION_END</LocID>                   
+            <Text>Сподіваємось, ми охопили всі важливі частини управління лікарнями та госпіталізацію. І тепер ми можемо сфокусуватися на тому, чому саме ми просили вашу допомогу. Будь ласка, зв'яжіться з нами у нашій наступній лікарні.</Text>  </GameDBLocalizedString>
 
             <!-- ======= -->
             <!--BENCHMARK-->
@@ -162,186 +283,334 @@
             <!-- ========= -->
             <!--CAMPAIGN 01-->     <!--This is now level 2 of the campaign-->
             <!-- ========= -->
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_WELCOME</LocID>                         <Text>Hi boss, how was the refresher course? You did take it right? We'll need all of your skills if we want to challenge Misfire Medical company. We know that you used to work for Misfire Medical and you helped them to become the best.</Text>  </GameDBLocalizedString><!--Moved to campaign level 02-->
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_HELP</LocID>                            <Text>But their greediness is what made you leave. And like you, we want to give people the best care possible. And with your help we just might be able to do it.</Text>  </GameDBLocalizedString><!--Moved to campaign level 02-->
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>CAMPAIGN_01_INTRODUCTION</LocID>    <Text>Hi boss, this hospital used to belong to Misfire Medical, but it was built very fast without consideration about layout and personnel, which is why it is very inefficient and losing money. The main reason they sold it. </Text>  </GameDBLocalizedString>  <!--This is now introducing for second level-->
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TASK</LocID>                            <Text>To be able to take care of our patents we need to make this hospital efficient. See what you can improve and how many patients we can cure now.</Text>  </GameDBLocalizedString>  
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_FIRST_PATIENTS</LocID>          <Text>This is a very good start, but now we need to focus on making a profit.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_PROFIT_ONE_DONE</LocID>                 <Text>Good job. Making this hospital profitable is drawing more patients that needs your help. Keep it up.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_SECOND_PATIENTS</LocID>         <Text>It's going very well. Try to keep a steady profit now. It can be used on expansion of the hospital.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_PROFIT_TWO_DONE</LocID>                 <Text>Fantastic, even more patients are coming to the hospital now. See how much you can cure.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_PATIENTS_DONE</LocID>           <Text>We knew we could count on you boss. You made this hospital efficient and thanks to you more patients can be taken care of.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_01_NEW_HOSPITAL</LocID>   <Text>Unfortunately our work is far from finished, and we need your help in another hospital we just acquired. We'll meet you there.</Text>  </GameDBLocalizedString>   <!--Moved to campaign level 02-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_WELCOME</LocID>                         
+            <Text>Привіт начальник, як пройшов курс? Ви пройшли його, вірно? Нам потрібні всі ваші навички, якщо ми хочемо кинути виклик компанії Уляна Медикал. Ми знаємо, що ви працювали на Уляна Медикала, і ви допомігли їм стати кращими.</Text>  </GameDBLocalizedString><!--Moved to campaign level 02-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_HELP</LocID>                            
+            <Text>Але їх жадібність - це те, що змусило вас піти. І, як і ви, ми хочемо надати людям найкращу допомогу. І з вашою допомогою ми зможемо це зробити.</Text>  </GameDBLocalizedString><!--Moved to campaign level 02-->
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>CAMPAIGN_01_INTRODUCTION</LocID>    
+            <Text>Ця лікарня належала Уляна Медикал, але вона була побудована дуже швидко, не враховуючи планування і персонал, саме тому вона дуже неефективна і втрачає гроші. Головна причина, чому вони продали її.</Text>  </GameDBLocalizedString>  <!--This is now introducing for second level-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TASK</LocID>                            
+            <Text>Щоб ми могли піклуватися про наших пацієнтів, нам потрібно зробити цю лікарню ефективною. Подивіться, що ви можете покращити, і скільки пацієнтів ми можемо зараз вилікувати.</Text>  </GameDBLocalizedString>  
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_FIRST_PATIENTS</LocID>          
+            <Text>Це дуже хороший старт, але зараз нам потрібно зосередитися на отриманні прибутку.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_PROFIT_ONE_DONE</LocID>                 
+            <Text>Хороша робота. Щоб зробити цю лікарню дохідною, ви залучили більше пацієнтів, які потребують вашої допомоги. Так тримати.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_SECOND_PATIENTS</LocID>         
+            <Text>Все іде дуже добре. Спробуйте зберегти постійний прибуток зараз. Його можна використовувати для розширення лікарні.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_PROFIT_TWO_DONE</LocID>                 
+            <Text>Фантастично, ще більше пацієнтів зараз заходять до лікарні. Подивіться скільки Ви можете вилікувати.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_PATIENTS_DONE</LocID>           
+            <Text>Ми знали, що ми можемо розраховувати на Вас. Ви зробили цю лікарню ефективною, і завдяки Вам, більше пацієнтів можна доглянути.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_01_NEW_HOSPITAL</LocID>   
+            <Text>На жаль, наша робота далека від завершення, і нам потрібна ваша допомога в іншій лікарні, яку ми щойно придбали. Ми зустрінемось з вами там.</Text>  </GameDBLocalizedString>   <!--Moved to campaign level 02-->
 
             <!-- ========= -->
             <!--CAMPAIGN 02-->   <!--This is now level 1 of the campaign-->
             <!-- ========= -->
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_02_WELCOME</LocID>        <Text>We are in a pickle with this hospital. Our manager took a huge loan from the bank and ran with all the money.</Text>  </GameDBLocalizedString> <!--Updated to fit into the flow to campaign level 02-->
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_ROGUE_MANAGER</LocID>                   <Text>We suspect that he was working for Misfire Medical, they just don't want us to succeed. And here, they just might.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_BANK_LOANS</LocID>                      <Text>Because if we aren't able to return the money to the bank, we will have to close this hospital. So we need you to do what you do best and help us fix this situation.</Text>  </GameDBLocalizedString> 
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_BANK_LAST_LOAN</LocID>                  <Text>Since you are new here, the bank will let you borrow some more money, but we suspect that it is in our best interest to borrow only if absolutely necessary.</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_02_EVENTS</LocID>         <Text>A great way to boost our money income and prestige is to successfully complete events in a row. But be careful because failing can have the opposite outcome. Events will become available once you have the whole hospital functional.</Text>  </GameDBLocalizedString> <!--Used in campaign level 03-->
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK</LocID>                            <Text>Now go and keep an eye on the bank and return money as often as possible because you can lower the interest this way.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK_DONE</LocID>                       <Text>Good job, you were able to return all the money to the bank and restored our hospital and company reputation.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK_DONE_IN_TIME</LocID>               <Text>Amazing job, you were able to return all the money to the bank and restored our hospital and company reputation. And you did it in record time!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_NEW_HOSPITAL</LocID>                    <Text>Now the time has come for our greatest challenge. When you are ready, meet us in our next hospital.</Text>  </GameDBLocalizedString>    <!--Moved to campaign level 01-->
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_02_WELCOME</LocID>        
+            <Text>Ця лікарня зараз законсервована. Наш менеджер взяв величезний кредит у банку і втік з усіма грошима.</Text>  </GameDBLocalizedString> <!--Updated to fit into the flow to campaign level 02-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_ROGUE_MANAGER</LocID>                   
+            <Text>Ми підозрюємо, що він працював на Уляна Медикал, вони просто не хочуть, щоб ми досягли успіху. Тому що вони можуть.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_BANK_LOANS</LocID>                      
+            <Text>Тому що, якщо ми не зможемо повернути кредит, нам доведеться закрити цю лікарню. Нам потрібно, щоб ви робили те, що вмієте найкраще, та допомогли нам усунути цю ситуацію.</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_BANK_LAST_LOAN</LocID>                  
+            <Text>Оскільки ви тут новенький, банк дозволить вам запозичити дещо більше грошей, у наших інтересах брати кредит тільки якщо це ДУЖЕ ПОТРІБНО.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_02_EVENTS</LocID>         
+            <Text>Гарний спосіб збільшення нашого балансу та престижу є успішне завершення подій. Але будьте обережні, бо невдача може мати протилежний результат. Події стануть доступними після того, як у вас буде повнофункціональна лікарня.</Text>  </GameDBLocalizedString> <!--Used in campaign level 03-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK</LocID>                            
+            <Text>Тепер повертайте гроші якомога частіше, тому що ви можете знизити ставку по кредиту таким чином.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK_DONE</LocID>                       
+            <Text>Хороша робота, Ви змогли повернути всі гроші в банк і відновили нашу лікарню та репутацію компанії.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK_DONE_IN_TIME</LocID>               
+            <Text>Чудова робота, Ви змогли повернути всі гроші в банк і відновили нашу лікарню та репутацію компанії. І ви це зробили у рекордно короткий час!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_NEW_HOSPITAL</LocID>                    
+            <Text>Тепер настав час для нашого найбільшого виклику. Коли Ви будете готові, зустріньтеся з нами в нашій наступній лікарні.</Text>  </GameDBLocalizedString>    <!--Moved to campaign level 01-->
 
             <!-- ========= -->
             <!--CAMPAIGN 03-->
             <!-- ========= -->
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_WELCOME</LocID>                         <Text>Hi boss, this is the most functional hospital we have. Yet some things need to improve as always. We also need to show that our medical company can really give patients more then Misfire Medical. And we just found a way.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_STATE_SUPPORT</LocID>                   <Text>The state is looking to invest in the best medical company around. And with that grant and your skills we can really make a difference. There are 3 things they will be considering.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_MONEY_OBJECTIVE</LocID>                 <Text>You have shown that you can run an efficient hospital that can earn money. And that is one way to be considered for the grant. To earn a large profit over a set period of time. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_PRESTIGE_OBJECTIVE</LocID>              <Text>The other is much harder, but also more rewarding - that is keeping prestige up over a period of time. That means keeping patients and staff happy, even if that means sacrificing money sometimes.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_HOSPITALIZATION_OBJECTIVE</LocID>       <Text>The last one is to make hospitalization operational on all departments so we can treat every disease and injury out there. Good news is that we only need to achieve two out of these three criteria to succeed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_EVENTS_BOOST</LocID>                    <Text>As before you can use events as a way to boost your prestige and income.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TASK</LocID>                            <Text>How you choose to approach this challenge is up to you. We wish you good luck and may the best hospital win!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TWO_OBJECTIVES_DONE</LocID>             <Text>Congratulations, you have done it! Our company was chosen for the grant thanks to you. Now we can start helping even more people. Keep up the good work!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_SECRET_OBJECTIVE</LocID>                <Text>Unbelievable, you have managed to meet all conditions! You really have extraordinary skills when it comes to running a hospital. Congratulations, you have won!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_WELCOME</LocID>                         
+            <Text>Це сама функціональна лікарня у нас. Однак деякі речі потрібно покращувати, як завжди. Ми також повинні показати, що наша медична компанія дійсно може дати пацієнтам більше, ніж Уляна Медикал. І ми знайшли шлях.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_STATE_SUPPORT</LocID>                   
+            <Text>Держава прагне інвестувати в найкращу медичну компанію у регіоні. І з цим грантом та вашими навичками ми можемо дійсно змінити ситуацію. Є 3 умови, які вони будуть розглядати.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_MONEY_OBJECTIVE</LocID>                 
+            <Text>Ви показали, що можете зробити ефективну лікарню, яка приносить гроші. І це одна із умов для гранту. Отримати великий прибуток протягом певного періоду часу. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_PRESTIGE_OBJECTIVE</LocID>              
+            <Text>Інший набагато складніше, але дасть більшу нагороду - це зберегти авторитет протягом певного періоду часу. Це означає, що пацієнти та працівники мають бути щасливими, навіть якщо це означає, що іноді треба піти на витрати.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_HOSPITALIZATION_OBJECTIVE</LocID>       
+            <Text>Останній полягає в тому, щоб зробити робочу госпіталізацію у всіх відділах, щоб ми могли лікувати кожне захворювання та травми там. Хороша новина полягає в тому, що для досягнення успіху нам потрібно лише досягти двох із цих трьох умов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_EVENTS_BOOST</LocID>                    
+            <Text>Як і раніше, ви можете використовувати події як спосіб підвищити свій престиж та прибуток.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TASK</LocID>                            
+            <Text>Як Ви будете долати цей виклик, залежить від вас. Ми бажаємо вам удачі і нехай найкраща лікарня переможе!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TWO_OBJECTIVES_DONE</LocID>             
+            <Text>Вітаю, ви це зробили! Наша компанія була обрана на грант завдяки вам. Тепер ми можемо почати допомагати ще більшій кількості людей. Продовжуй гарно працювати на нас, ми навіть зарплатню тобі не платимо!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_SECRET_OBJECTIVE</LocID>                
+            <Text>Неймовірно, вам вдалося задовольнити всі умови! У вас дійсно є надзвичайні навички, коли справа стосується управління лікарнею. Вітаю, ви перемогли!</Text>  </GameDBLocalizedString>
 
             <!-- ============== -->
             <!--INGAME TUTORIALS-->
             <!-- ============== -->
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING</LocID>                    <Text>Building foundations</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_MODE</LocID>               <Text><![CDATA[Select <b><i>building mode</i></b>.\n\nTip: the most useful width for rooms is 6 tiles and for corridors 4 tiles, so the recommended width of the building is 16 tiles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_FOUNDATION_TOOLS</LocID>   <Text><![CDATA[Go to <b><i>foundation tools</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_FOUDATIONS</LocID>         <Text><![CDATA[Click on the <b><i>building foundations</i></b> icon and drag the mouse over the required area.\n\nTip: foundations can be removed only with the dynamite tool.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_CONSTRUCTION_TOOLS</LocID> <Text><![CDATA[Go to <b><i>construction tools</i></b>.]]></Text>   </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WALLS</LocID>              <Text><![CDATA[Click on <b><i>walls</i></b>.\n\nTip: at the very bottom of the panel are other tools for wall placing or removing.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_MATERIAL</LocID>           <Text><![CDATA[Select your desired <b><i>material</i></b> and drag to create walls or replace their materials.\n\nTip: at the bottom of the panel you can change the color of most of the patterns.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS</LocID>           <Text><![CDATA[Click on <b><i>doors and windows</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS_PLACE</LocID>     <Text><![CDATA[Place your <b><i>doors and windows</i></b>.\n\nTip: at the bottom of the panel you can change colors.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING</LocID>                    
+            <Text>Побудова фундаменту</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_MODE</LocID>               
+            <Text><![CDATA[Виберіть <b><i>режим будівництва</i></b>.\n\nПідказка: найбільш корисна ширина для кімнат - 6 плиток, а для коридорів - 4 плитки, тому рекомендована ширина будівлі - 16 плиток.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_FOUNDATION_TOOLS</LocID>   
+            <Text><![CDATA[Виберіть <b><i>інструмент фундамету</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_FOUDATIONS</LocID>         
+            <Text><![CDATA[Натисніть на <b><i>будувати фундамент</i></b> і виділіть мишею потрібну зону.\n\nПідказка: фундамент можна видалити лише за допомогою інструмента динаміт.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_CONSTRUCTION_TOOLS</LocID> 
+            <Text><![CDATA[Виберіть <b><i>будівельний інструмент</i></b>.]]></Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WALLS</LocID>              
+            <Text><![CDATA[Натисніть <b><i>стіни</i></b>.\n\nПідказка: у самому низу панелі - інші інструменти для розміщення або видалення стін.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_MATERIAL</LocID>           
+            <Text><![CDATA[Виберіть бажаний <b><i>матеріал</i></b> і перетягніть, щоб створити стіни або замінити їх матеріал.\n\nПідказка: внизу панелі ви можете змінити колір більшості візерунків.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS</LocID>           
+            <Text><![CDATA[Натисніть <b><i>двері та вікна</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS_PLACE</LocID>     
+            <Text><![CDATA[Розташуйте <b><i>двері та вікна</i></b>.\n\nПідказка: внизу панелі ви можете змінити кольори.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT</LocID>                      <Text>Building layout</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT_MANAGEMENT_MODE</LocID>      <Text><![CDATA[Select <b><i>management mode</i></b>.\n\nTip: at the very bottom of the panel there are tools for changing access to your rooms.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT_PLACEMENT</LocID>            <Text><![CDATA[In the clinic or hospital sections click on the required <b><i>room</i></b> and drag it into your building.\n\nTip: don't forget to place walls and doors for your new rooms.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT</LocID>                      
+            <Text>План будівлі</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT_MANAGEMENT_MODE</LocID>      
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>.\n\nПідказка: в самому низу панелі є інструменти для зміни доступу до ваших кімнат.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT_PLACEMENT</LocID>            
+            <Text><![CDATA[У розділі лікарні натисніть на потрібну <b><i>кімнату</i></b> і виділіть область у вашій будівлі.\n\nПідказка: не забувайте розміщувати стіни та двері для нових кімнат.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT</LocID>                   <Text>Room equipment</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_BUILDING_MODE</LocID>     <Text><![CDATA[Select <b><i>building mode</i></b> and right click to cancel the current tool selection.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_ROOM_SELECT</LocID>       <Text><![CDATA[On the floors you can see white icons of your <b><i>rooms</i></b>. Choose one and click\n\nTip: text in the corners of rooms will tell you what is missing.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_PANEL</LocID>             <Text><![CDATA[Equipment panel shows you all mandatory (orange), recommended (yellow), and optional <b><i>objects</i></b>.\n\nTip: hover mouse around blue objects in the room, what's missing will get highlighted in the building panel.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_DECORATIONS</LocID>       <Text><![CDATA[Click on <b><i>decorations</i></b>. Here you can find decorative objects to place to your rooms.\n\nTip: decorative objects can improve the mood of characters in the room.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_DECALS</LocID>            <Text><![CDATA[Click on <b><i>decals</i></b>. Here you can select and use wall decals.\n\nTip: at the bottom of the panel you can change color of the decals.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT</LocID>                   
+            <Text>Обладнання приміщення</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_BUILDING_MODE</LocID>     
+            <Text><![CDATA[Виберіть <b><i>режим будівництва</i></b> і клацніть правою кнопкою миші, щоб скасувати поточний вибір інструмента.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_ROOM_SELECT</LocID>       
+            <Text><![CDATA[На підлозі ви можете бачити білі піктограми ваших <b><i>кімнат</i></b>. Виберіть одну і клацніть.\n\nПідказка: Текст у кутах кімнат розповість вам чого не хватає.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_PANEL</LocID>             
+            <Text><![CDATA[Панель обладнання показує вам все обов'язкове (помаранчеве), рекомендоване (жовте) та необов'язкове <b><i>обладнання</i></b>.\n\nПідказка: Наведіть курсор миші на сині об'єкти в кімнаті, невистачаюче обладнання буде виділено на панелі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_DECORATIONS</LocID>       
+            <Text><![CDATA[Натисніть <b><i>декорації</i></b>. Тут Ви можете знайти декоративні предмети, щоб розмістити у Ваших кімнатах.\n\nПідказка: декоративні предмети можуть поліпшити настрій персонажів у кімнаті.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_DECALS</LocID>            
+            <Text><![CDATA[Натисніть <b><i>деталі</i></b>. Тут ви можете вибрати та використовувати настінні наклейки.\n\nПідказка: внизу панелі ви можете змінити колір наклейок.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING</LocID>                      <Text>Hiring new staff</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_MANAGEMENT_MODE</LocID>      <Text><![CDATA[Select <b><i>management mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_BUTTON</LocID>               <Text><![CDATA[Click on the new <b><i>staff</i></b> button.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION</LocID>           <Text><![CDATA[Choose what <b><i>profession</i></b> you need.\n\nTip: to know required specialization, hover the mouse over the staff on management panel a read the tooltip.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SHIFTS</LocID>               <Text><![CDATA[Choose day or night <b><i>shift</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION</LocID>            <Text><![CDATA[Select required <b><i>character</i></b> and place them into the room where you want them to work.\n\nTip: after placement the character will automatically find the nearest workspace.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING</LocID>                      
+            <Text>Найм персоналу</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_MANAGEMENT_MODE</LocID>      
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_BUTTON</LocID>               
+            <Text><![CDATA[Натисніть кнопку новий <b><i>персонал</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION</LocID>           
+            <Text><![CDATA[Оберіть <b><i>професію</i></b> за потребою.\n\nПідказка: щоб знати необхідну спеціалізацію, наведіть курсор на панель управління персоналом щоб прочитати підказку.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SHIFTS</LocID>               
+            <Text><![CDATA[Виберіть денну або нічну <b><i>зміну</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION</LocID>            
+            <Text><![CDATA[Виберіть потрібного <b><i>персонажа</i></b> і помістіть його у кімнату, де ви хочете, щоб він працював.\n\nПідказка: після розміщення персонаж автоматично знаходить найближче робоче місце.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE</LocID>                   <Text>Ambulance</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_BUILDING_MODE</LocID>     <Text><![CDATA[Select <b><i>building mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_CONSTRUCTION_TOOLS</LocID><Text><![CDATA[Go to <b><i>construction tools</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_CLICK</LocID>             <Text><![CDATA[Click on <b><i>ambulance</i></b> and select color.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_PLACE</LocID>             <Text><![CDATA[Place your ambulance on <b><i>parking lot.</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_PANEL</LocID>             <Text><![CDATA[Open the <b><i>ambulance panel</i></b>. Here you can control the number of maximum patients brought by ambulances.\n\nTip: number of patients also depends on the insurance company setup.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE</LocID>                   
+            <Text>Швидка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_BUILDING_MODE</LocID>     
+            <Text><![CDATA[Виберіть <b><i>режим будівництва</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_CONSTRUCTION_TOOLS</LocID>
+            <Text><![CDATA[Виберіть <b><i>будівельний інструмент</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_CLICK</LocID>             
+            <Text><![CDATA[Натисніть <b><i>карета швидкої</i></b> і оберіть колір.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_PLACE</LocID>             
+            <Text><![CDATA[Розмістіть вашу швидку на <b><i>парковці.</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_PANEL</LocID>             
+            <Text><![CDATA[Відкрийте <b><i>панель швидкої</i></b>. Тут ви можете контролювати максимальну кількість пацієнтів, доставлених машинами швидкої допомоги.\n\nПідказка: кількість пацієнтів також залежить від страхової компанії.]]></Text>  </GameDBLocalizedString>
            
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS</LocID>                   <Text>Elevators</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_BUILDING_MODE</LocID>     <Text><![CDATA[Select <b><i>building mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_CONSTRUCTION_TOOLS</LocID><Text><![CDATA[Go to <b><i>construction tools</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_PLACE</LocID>             <Text><![CDATA[Click on <b><i>elevator</i></b> and place it in your building.\n\nTip: elevator goes through all floors.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_REMOVE</LocID>            <Text><![CDATA[Elevator <b><i>remove</i></b> works the same way through all floors.\n\nTip: if you want disable elevator for certain floor, jsut remove the door.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS</LocID>                   
+            <Text>Ліфти</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_BUILDING_MODE</LocID>     
+            <Text><![CDATA[Виберіть <b><i>режим будівництва</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_CONSTRUCTION_TOOLS</LocID>
+            <Text><![CDATA[Виберіть <b><i>будівельний інструмент</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_PLACE</LocID>             
+            <Text><![CDATA[Натисніть <b><i>ліфт</i></b> і помістіть його у свою споруду.\n\nПідказка: Ліфт проходить через всі поверхи.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_REMOVE</LocID>            
+            <Text><![CDATA[Ліфт можна <b><i>видалити</i></b> також як і всі поверхи.\n\nПідказка: якщо ви хочете відключити ліфт для певного поверху, просто зніміть двері.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS</LocID>                     <Text>Prefabs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_BUILDING_MODE</LocID>       <Text><![CDATA[Select <b><i>building mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_CATEGORY</LocID>            <Text><![CDATA[Go to <b><i>prefabs</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_PLACE</LocID>               <Text><![CDATA[Select <b><i>department</i></b>, choose the required <b><i>room</i></b> and place it into the building.\n\nTip: you can rotate the room by using "R".]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_COPY</LocID>                <Text><![CDATA[If you want to copy a room that's already built, click on <b><i>copy/create prefab</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_COPY_SELECT</LocID>         <Text><![CDATA[<b><i>Drag and drop</i></b> the area you want to copy and place it elsewhere. Or save it by selecting <b><i>save prefab</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_SAVED</LocID>               <Text><![CDATA[Your created prefabs can be found in category <b><i>saved prefabs</i></b>.\n\nTip: for <b><i>deleting</i></b> saved prefabs, select the prefab and than click on the delete on the tool panel.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS</LocID>                     
+            <Text>Шаблони</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_BUILDING_MODE</LocID>       
+            <Text><![CDATA[Виберіть <b><i>режим будівництва</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_CATEGORY</LocID>            
+            <Text><![CDATA[Перейдіть у <b><i>шаблони</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_PLACE</LocID>               
+            <Text><![CDATA[Виберіть <b><i>відділ</i></b>, виберіть потрібну <b><i>кімнату</i></b> і помістіть його в будівлю.\n\nПідказка: ви можете обертати кімнату, використовуючи "R".]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_COPY</LocID>                
+            <Text><![CDATA[Якщо ви хочете скопіювати вже створену кімнату, натисніть <b><i>копіювати/створити шаблон</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_COPY_SELECT</LocID>         
+            <Text><![CDATA[<b><i>Виділіть</i></b> область, яку ви хочете скопіювати та помістити в інше місце. Або збережіть його, вибравши <b><i>зберегти шаблон</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_SAVED</LocID>               
+            <Text><![CDATA[Ваші створені шаблони можна знайти в категорії <b><i>збережені шаблони</i></b>.\n\nПідказка: для <b><i>видалення</i></b> збереженного шаблону, виберіть шаблон і натисніть видалити на панелі інструментів.]]></Text>  </GameDBLocalizedString>
            
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE</LocID>                     <Text>Finance</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_PANEL</LocID>               <Text><![CDATA[Click on <b><i>finance panel</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_PANEL_INFO</LocID>          <Text><![CDATA[Here you can see finance <b><i>overview</i></b> for all departments and your hospital.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_BANK</LocID>                <Text><![CDATA[You can also borrow money from the bank. Click on arrows to <b><i>borrow or repay</i></b>.\n\nTip: loan interest is paid every day.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_OVERVIEW</LocID>            <Text><![CDATA[Overview <b><i>history</i></b> can be found by listing with arrows at the bottom of the panel.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE</LocID>                     
+            <Text>Фінанси</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_PANEL</LocID>               
+            <Text><![CDATA[Натисніть <b><i>фінансова панель</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_PANEL_INFO</LocID>          
+            <Text><![CDATA[Тут ви можете побачити <b><i>огляд</i></b> фінансового стану для всіх відділів та вашої лікарні.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_BANK</LocID>                
+            <Text><![CDATA[Ви також можете позичати гроші у банку. Натисніть стрілки щоб <b><i>зайняти або виплатити</i></b>.\n\nПідказка: відсотки за кредитами виплачуються щодня.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_OVERVIEW</LocID>            
+            <Text><![CDATA[Огляд <b><i>історіі</i></b> можна знайти шляхом переліку зі стрілками внизу панелі. Там де написано "Сьогодні"]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES</LocID>                      <Text>Character tables</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_MANAGEMENT_MODE</LocID>      <Text><![CDATA[Select <b><i>management mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_OPEN</LocID>                 <Text><![CDATA[In the clinic side, click on the button of <b><i>patients or staff</i></b>.\n\nTip: Also accessible by clicking the staff or patient numbers on the main panel.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_FILTER</LocID>               <Text><![CDATA[You can <b><i>filter</i></b> the content by using buttons at the left upper corner.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES</LocID>                      
+            <Text>Картка персонажа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_MANAGEMENT_MODE</LocID>      
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>.]]></Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_OPEN</LocID>                 
+            <Text><![CDATA[Зліва, натисніть на <b><i>Пацієнти або Персонал</i></b>.\n\nПідказка: Також можна натиснути цифру персоналу або пацієнта на головній панелі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_FILTER</LocID>               
+            <Text><![CDATA[Ви можете <b><i>фільтрувати</i></b> вміст, використовуючи кнопки в лівому верхньому куті.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY</LocID>                   <Text>Certainty</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_MANAGEMENT_MODE</LocID>   <Text><![CDATA[Select <b><i>management mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_CHANGE_LEVEL</LocID>      <Text><![CDATA[Click on the <b><i>certainty</i></b> to choose level.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_LOW</LocID>               <Text><![CDATA[<b><i>Low</i></b> means doctors skip some examinations and choose diagnoses by percentage level. Diagnosing is much faster.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_MEDIUM</LocID>            <Text><![CDATA[<b><i>Medium</i></b> means doctors are more consistent in diagnosing, probability of wrong diagnoses are lower, but it takes more time.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_HIGH</LocID>              <Text><![CDATA[<b><i>High</i></b>, doctors are trying to find as much symptoms as possible, diagnosing is very slow, but with no chance of wrong diagnoses.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY</LocID>                   
+            <Text>Упевненість</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_MANAGEMENT_MODE</LocID>   
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_CHANGE_LEVEL</LocID>      
+            <Text><![CDATA[Натисніть на <b><i>упевненість</i></b> щоб обрати рівень.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_LOW</LocID>               
+            <Text><![CDATA[<b><i>Низький</i></b> означає, що лікарі пропускають деякі види огляду та обирають діагнози на відсотковому рівні. Діагностика набагато швидше.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_MEDIUM</LocID>            
+            <Text><![CDATA[<b><i>Середній</i></b> означає, що лікарі більш послідовні в діагностиці, імовірність неправильної діагностики нижча, але це займає більше часу.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_HIGH</LocID>              
+            <Text><![CDATA[<b><i>Високий</i></b>, лікарі намагаються знайти якомога більше симптомів, можливо, діагностика дуже повільна, але без шансів неправильної діагностики.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP</LocID>                   <Text>Close department</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP_MANAGEMENT_MODE</LocID>   <Text><![CDATA[Select <b><i>management mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP_CLICK</LocID>             <Text><![CDATA[Click on the <b><i>close down department</i></b>.\n\nTip: useful for rebuilding departments, when you need to get rid of patients but keep all the staff.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP</LocID>                   
+            <Text>Закрити відділ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP_MANAGEMENT_MODE</LocID>   
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP_CLICK</LocID>             
+            <Text><![CDATA[Натисніть <b><i>закрити відділ</i></b>.\n\nПідказка: корисно для перебудови відділів, коли вам потрібно позбутися пацієнтів, але зберігати весь персонал.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY</LocID>                   <Text>Department ready</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_MANAGEMENT_MODE</LocID>   <Text><![CDATA[Select <b><i>management mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_CHECKS</LocID>            <Text><![CDATA[Look at the <b><i>check markers</i></b>, green means everything is OK.\n\nTip: place more than one stretcher to avoid problems.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_RED_TRIANGLE</LocID>      <Text><![CDATA[<b><i>Red warning signs</i></b> means that you're missing something.\n\nTip: red numbers in rooms and staff shows you what exactly is missing.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY</LocID>                   
+            <Text>Відділ готовий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_MANAGEMENT_MODE</LocID>   
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_CHECKS</LocID>            
+            <Text><![CDATA[Подивіться <b><i>маркери</i></b>, зелений означає, що все добре.\n\nПідказка: розміщюйте більше одної каталки, щоб уникнути проблем.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_RED_TRIANGLE</LocID>      
+            <Text><![CDATA[<b><i>Червоні попереджувальні знаки</i></b> означають, що ви щось пропустили.\n\nПідказка: червоні цифри у кімнатах і персоналі показують що відсутнє.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE</LocID>                   <Text>Insurance companies</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PANEL</LocID>             <Text><![CDATA[Click on <b><i>insurance companies</i></b> button.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT</LocID>          <Text><![CDATA[Here you can see all insurance companies that can be <b><i>contracted</i></b>.\n\nTip: objectives can unlock the company or provide bonuses.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO</LocID>              <Text><![CDATA[Every company also shows you how many <b><i>patients</i></b> they're sending per day.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PAYMENT</LocID>           <Text><![CDATA[You can also see a <b><i>payment modifier</i></b> that influences payments for cured patients.\n\nTip: high prestige increases payment modifier.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_DISABLE</LocID>           <Text><![CDATA[To stop sending patients by certain company, click on the <b><i>disable</i></b> button.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE</LocID>                   
+            <Text>Страхові компанії</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PANEL</LocID>             
+            <Text><![CDATA[Натисніть кнопку <b><i>страхові компанії</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT</LocID>          
+            <Text><![CDATA[Тут ви можете побачити всі страхові компанії, з якими можно <b><i>контактувати</i></b>.\n\nПідказка: завдання можуть розблокувати компанію або надати бонуси.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO</LocID>              
+            <Text><![CDATA[Кожна компанія також показує, скільки <b><i>пацієнтів</i></b> вона відправить на день.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PAYMENT</LocID>           
+            <Text><![CDATA[Ви можете побачити <b><i>модифікатор оплати</i></b> який впливає на винагороду за лікування.\n\nПідказка: високий престиж підвищує модифікатор платежу.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_DISABLE</LocID>           
+            <Text><![CDATA[Щоб зупинити відправку пацієнтів певною компанією, натисніть <b><i>відключити</i></b>.]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE</LocID>                    <Text>Prestige</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_INFO</LocID>               <Text><![CDATA[Prestige is more like overall score of your hospital. <b><i>Low</i></b> prestige decreases amount of patients arriving to your hospital. <b><i>High</i></b> prestige makes higher profit from insurance payments.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_MAIN_PANEL</LocID>         <Text><![CDATA[Hover the mouse over <b><i>prestige icon</i></b>.\n\nTip: overall prestige of your hospital is average of departments prestige's plus event bonuses.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_MANAGEMENT_MODE</LocID>    <Text><![CDATA[Select <b><i>management mode</i></b>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_DEPARTMENT</LocID>         <Text><![CDATA[Hover the mouse over the <b><i>prestige</i></b> icon on department panel.]]></Text>  </GameDBLocalizedString>
-            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_DEP_INFO</LocID>           <Text><![CDATA[Here you can see what <b><i>influences</i></b> prestige of your department. It's an average of staff and patients satisfaction plus overall treating efficiency.\n\nTip: for staff and patients the average satisfaction is the main factor.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE</LocID>                    
+            <Text>Престиж</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_INFO</LocID>               
+            <Text><![CDATA[Престиж більше схожий на загальну оцінку вашої лікарні. <b><i>Низький</i></b> престиж зменшує кількість пацієнтів, які прибувають у вашу лікарню. <b><i>Високий</i></b> - збільшує прибуток від страхових виплат.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_MAIN_PANEL</LocID>         
+            <Text><![CDATA[Наведіть мишу на <b><i>престиж</i></b>.\n\nПідказка: загальний престиж вашої лікарні - це середні престиж відділів плюс події.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_MANAGEMENT_MODE</LocID>    
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_DEPARTMENT</LocID>         
+            <Text><![CDATA[Наведіть мишу на <b><i>престиж</i></b> на панелі відділу.]]></Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_DEP_INFO</LocID>           
+            <Text><![CDATA[Тут ви можете побачити що <b><i>впливає</i></b> на престиж відділу. Це середнє співвідношення задоволенності персоналу та пацієнтів, а також загальна ефективність лікування. \n\nПідказка: Для персоналу та пацієнтів середнє задоволення є основним фактором.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION</LocID>                <Text>Satisfaction</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_CARD</LocID>           <Text><![CDATA[Click on patient or staff card. <b><i>Satisfaction</i></b> is in the right upper corner.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_INFO</LocID>           <Text><![CDATA[Satisfaction represent mood of certain character, hover the mouse over the icon and see all <b><i>modifiers</i></b>.\n\nTip: basic needs are shown above.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_HUNGER</LocID>         <Text><![CDATA[<b><i>Hunger</i></b>, make sure you have enough vending machines and dispensers, your staff has a fridge in their common room, and you have enough nurses to deliver food for hospitalized patients.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_BLADDER</LocID>        <Text><![CDATA[<b><i>Bladder</i></b>, you should have enough toilets in sufficient distance for your characters.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_REST</LocID>           <Text><![CDATA[<b><i>Rest</i></b>, make sure that your staff is not overload by work, have a common room to rest and enough coffee.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_DISCOMFORT</LocID>     <Text><![CDATA[<b><i>Discomfort</i></b>, treat your patients quickly to save them from annoying symptoms.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_OTHERS</LocID>         <Text><![CDATA[Other <b><i>modifiers</i></b> are created by environment, procedures and other characters perks.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION</LocID>                
+            <Text>Задоволення</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_CARD</LocID>           
+            <Text><![CDATA[Натисніть на пацієнта або працівника. <b><i>Задоволення</i></b> знаходиться в правому верхньому куті.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_INFO</LocID>           
+            <Text><![CDATA[Задоволення представляє настрій певного персонажа, наведіть курсор миші на піктограму та побачити усі <b><i>модифікатори</i></b>.\n\nПідказка: Основні потреби показані вище.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_HUNGER</LocID>         
+            <Text><![CDATA[<b><i>Голод</i></b>, переконайтеся, що у вас є достатньо торгових автоматів та кулерів, ваші співробітники мають холодильник у своїй кімнаті відпочинку, і у вас є достатньо медсестер, щоб нагодувати госпіталізованих пацієнтів.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_BLADDER</LocID>        
+            <Text><![CDATA[<b><i>Туалет</i></b>, у вас повинно бути достатньо туалетів для ваших персонажів.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_REST</LocID>           
+            <Text><![CDATA[<b><i>Енергія</i></b>, переконайтеся, що ваші співробітники не перевантажені роботою, мають кімнату для відпочинку та достатню кількість кави.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_DISCOMFORT</LocID>     
+            <Text><![CDATA[<b><i>Дискомфорт</i></b>, швидко лікуй пацієнтів, щоб врятувати їх від дратівливих симптомів.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_OTHERS</LocID>         
+            <Text><![CDATA[Інші <b><i>модифікатори</i></b> створюються середовищем, процедурами та іншими персонажами.]]></Text>  </GameDBLocalizedString>
             
             <!-- ============== -->
             <!--EVENTS ACCIDENTS-->
             <!-- ============== -->
-            <GameDBLocalizedString>      <LocID>EVENT_HIGHWAY_CRASH</LocID>                         <Text>There has been a road traffic accident on a major road in the region. Emergency services have been dispatched to the crash site. Your hospital should prepare for a high number of seriously wounded patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_TRAIN_CRASH</LocID>                           <Text>A major incident has been declared after a train crash! Rescue teams are on scene and emergency services are treating the wounded. Hospitals across the region must prepare for an increased number of seriously injured patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_CHEMICAL_LEAK</LocID>                         <Text>A serious leak has occurred at a chemical plant. Authorities are advising local residents to stay inside with their doors and windows closed, emergency services are now transporting a large number of people to nearby hospitals.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_FOOTBALL_GAME</LocID>                         <Text>Fans of two football clubs have clashed and the brawl has resulted in a large number of injuries. Significant police presence in the area has allowed responders to treat a large number of patients at the scene but local hospitals should prepare for an increased number of trauma patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_BUS_CRASH</LocID>                             <Text>A bus crash has been reported! Emergency services are already on the scene and are treating the wounded. Patients with severe injuries are being transported to nearby hospitals.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_HIGHWAY_CRASH</LocID>                         
+            <Text>На автошляху у регіоні відбулася ДТП. Надзвичайні служби були надіслані у зону ДТП. Ваша лікарня повинна готуватися до великої кількості серйозно поранених пацієнтів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_TRAIN_CRASH</LocID>                           
+            <Text>Після аварії на поїзді оголошена надзвичайна ситуація! На місці події знаходяться рятувальні команди, а служби швидкої допомоги допомогають пораненим. Лікарні в усьому регіоні повинні готуватися до збільшення кількості серйозно постраждалих пацієнтів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_CHEMICAL_LEAK</LocID>                         
+            <Text>Серйозний витік відбувся на хімічному заводі. Влада радить місцевим жителям залишатися удома, закривши двері та вікна, служби швидкої допомоги зараз перевозять велику кількість людей до прилеглих лікарень.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_FOOTBALL_GAME</LocID>                         
+            <Text>Фани двох футбольних клубів побилися, і бійка призвела до великої кількості травм. Значна поліцейська присутність у цьому районі дозволила швидкій оказати допомогу великій кількості пацієнтів на місці, проте місцеві лікарні повинні готуватися до збільшення кількості травмованих.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_BUS_CRASH</LocID>                             
+            <Text>Повідомляється про аварію автобуса! На місці події знаходяться рятувальні команди, а служби швидкої допомоги допомогають пораненим. Пацієнти з важкими травмами перевозяться до сусідніх лікарень.</Text>  </GameDBLocalizedString>
 
             <!-- ============== -->
             <!--EVENTS EPIDEMIC-->
             <!-- ============== -->
-            <GameDBLocalizedString>      <LocID>EVENT_FOOD_POISONING</LocID>                        <Text>Food contamination at a local restaurant has caused a serious outbreak of illness. Even though health inspectors have closed the restaurant down, local hospitals must to prepare for an increased influx of patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_SPORTS_CLUB</LocID>                           <Text>Tourists returning from vacation have fallen ill while travelling home. Patients are being transported to nearby hospitals straight from the airport.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_WATER_PIPES</LocID>                           <Text>A neighboring city's water supply has been heavily contaminated resulting in a major incident being declared in the region. Hospitals in the immediate area are unable to accept new patients and are diverting patients to other hospitals.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_ANIMAL_ESCAPE</LocID>                         <Text>An outbreak of disease at a local petting zoo has caused the spread of various viral and bacterial diseases. Authorities recommend avoiding the area and are asking people who have visited the zoo to immediately report to local hospitals.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_FLU_OUTBREAK</LocID>                          <Text>This flu season has been worse than usual, with a larger than expected number of people contracting the virus. Doctors are advising people to attend their local hospital if they believe they have the virus, expect a significant increase in patients. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_FOOD_POISONING</LocID>                        
+            <Text>Зараження їжі в місцевому ресторані спричинило серйозний спалах хвороби. Незважаючи на те, що інспектори охорони здоров'я закрили ресторан, місцеві лікарні повинні підготуватись до збільшення надходження пацієнтів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_SPORTS_CLUB</LocID>                           
+            <Text>Туристи, які повертаються з відпустки, захворіли під час подорожі додому. Пацієнтів доставляють до прилеглих лікарень прямо з аеропорту.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_WATER_PIPES</LocID>                           
+            <Text>Водопостачання сусіднього міста було сильно забруднено, в результаті чого оголосили надзвичайний в регіоні. Лікарні у безпосередній близькості не можуть приймати нових пацієнтів і перенаправляють пацієнтів в інші лікарні.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_ANIMAL_ESCAPE</LocID>                         
+            <Text>Спалах захворювання в місцевому зоопарку заподіяв розповсюдження різних вірусних і бактеріальних захворювань. Влада рекомендує уникати цей район та просить людей, які відвідали зоопарк, негайно повідомити про це в місцеві лікарні.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_FLU_OUTBREAK</LocID>                          
+            <Text>Цей сезон грипу був гіршим, ніж зазвичай. З більшою, ніж очікувалося, кількістю людей, що заразилися вірусом. Лікарі рекомендують людям відвідувати місцеву лікарню, якщо вони вважають, що мають вірус - лікарні очікують значного збільшення пацієнтів. </Text>  </GameDBLocalizedString>
 
             <!-- ============== -->
             <!--EVENTS DISASTERS-->
             <!-- ============== -->
-            <GameDBLocalizedString>      <LocID>EVENT_FLOODS</LocID>                                <Text>Significant floods have left many people without access to electricity and supplies as well as causing a number of casualties. Hospitals should prepare for a large number of various illnesses and the influx of wounded patients.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_WINDS</LocID>                                 <Text>Major storms have swept over the city, causing extensive damage to property and seriously injuring many. Many of the wounded are now being transported to nearby hospitals.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_EARTHQUAKES</LocID>                           <Text>A major incident has been declared, a significant earthquake has hit the region and has caused major damage to property as well as causing a large number of injuries. Local hospitals must prepare to recieve casualties.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_HEAT</LocID>                                  <Text>A particularly strong heatwave has hit our city. Large numbers of people are falling ill with dehydration and breathing problems, local hospitals should be prepared to deal with more of these cases than usual.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_STOCK_EXCHANGE</LocID>                        <Text>Crash on the stock exchange! Responders are reporting an unusually high amount of suicide attempts resulting in brain and heart problems.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_FLOODS</LocID>                                
+            <Text>Значні повені залишили безліч людей без доступу до електроенергії та продовольства, а також завдають чимало жертв. Лікарні повинні готуватися до великої кількості різних захворювань та припливу поранених пацієнтів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_WINDS</LocID>                                 
+            <Text>Великі шторми прокотилися над містом, завдаючи величезної шкоди власності та серйозних пораненнь. Багато кого з поранених зараз перевозять до прилеглих лікарень.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_EARTHQUAKES</LocID>                           
+            <Text>Було оголошено надзвичайний стан! Значний землетрус у регіоні завдав значної шкоди власності а також заподіяв велику кількість травм. Місцеві лікарні повинні готуватися до отримання жертв.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_HEAT</LocID>                                  
+            <Text>Особливо сильна хвиля спеки потрапила в наше місто. Велика кількість людей хворіє на зневоднення та проблеми з диханням, місцеві лікарні повинні бути готові розглянути більше таких випадків, ніж звичайно.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_STOCK_EXCHANGE</LocID>                        
+            <Text>Крах на біржі! Респонденти повідомляють про надзвичайно велику кількість спроб самогубств, що призводить до проблем серця і травм голови.</Text>  </GameDBLocalizedString>
 
-            <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD</LocID>                	<Text>Workload</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_FIND</LocID>           	<Text><![CDATA[Select <b><i>management mode</i></b>. ]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS</LocID>           	<Text><![CDATA[In certain rooms you can see <b><i>workload value</i></b>, representing work of last 24h. 0% means that staff had nothing to do, 100% means that staff is overloaded by work.\n\nTip: an ideal number is different for each type of room.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_LABS</LocID>         		<Text><![CDATA[Labs have no workload value, but <b><i>number of samples</i></b> waiting for examination.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_WAITING</LocID>        	<Text><![CDATA[Waiting rooms also has no workload value, but number of <b><i>waiting patients</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD</LocID>                	
+            <Text>Навантаження</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_FIND</LocID>           	
+            <Text><![CDATA[Виберіть <b><i>режим управління</i></b>. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS</LocID>           	
+            <Text><![CDATA[У деяких кімнатах ви можете побачити <b><i>навантаження</i></b>, що представляє роботу останніх 24 годин. 0% означає, що персонал не мав нічого не робив, 100% значить що персонал перевантажено роботою.\n\nПідказка: ідеальне число для кожного типу кімнати відрізняється.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_LABS</LocID>         		
+            <Text><![CDATA[Лабораторії не мають значення навантаження, однак має <b><i>кількість зразків</i></b> які чекають на дослідження.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_WAITING</LocID>        	
+            <Text><![CDATA[Приміщення очікування також не мають значення навантаження, але мають <b><i>очікуючих пацієнтів</i></b>.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS_WARNING</LocID>   <Text><![CDATA[<b><i>Warning:</i></b> don't build separated buildings, all floors must be connected together, otherwise the rooms won't work.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_INTRO</LocID>                       <Text>Hi Boss, and welcome to our challenge scenario. Your task is simple. Cure {1}% of your patients every day for 10 days. With 5 clinic patients and 1 ambulance patient increase every day. Fail one day and the challenge is over. Your success will be checked at midnight. Happy curing.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO</LocID>                       <Text>Congratulations you have now become a {1}.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO_FAIL</LocID>                  <Text>Unfortunately you were not able to treat the sufficient amount of patients. You can always try again.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS_WARNING</LocID>   
+            <Text><![CDATA[<b><i>УВАГА:</i></b> не будуйте окремі споруди, всі поверхи повинні бути з'єднані разом, інакше кімнати не будуть працювати.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_INTRO</LocID>                       
+            <Text>Ласкаво просимо до нашого сценарію викликів. Ваше завдання просте як цвях двухсотка. Вилікуйте {1}% ваших пацієнтів щодня протягом 10 днів. Кожного дня будуть додатково прибувати 5 пацієнтів і 1 критичний. Якщо буде невдача хоча б 1 день - ви програли. Ваш результат буде перевірятися опівночі. Бвахахахах!.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO</LocID>                       
+            <Text>Вітаю, ви стали {1}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO_FAIL</LocID>                  
+            <Text>На жаль, ви не змогли вилікувати достатню кількість пацієнтів. Ви завжди можете спробувати ще раз.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_INSURANCE_BOOST</LocID>                 <Text>You can boost income and patient intake by completing objectives for our friendly insurance company. It should make this easier.</Text>  </GameDBLocalizedString>
-
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_INSURANCE_BOOST</LocID>        
+            <Text>Ви можете збільшити прибуток і кількість пацієнтів шляхом виконання задвань для нашої страхової компанії. Це спростить вашу задачу.</Text>  </GameDBLocalizedString>
+            <!-- ============= NEW, NEED TRANSLATING  16.11.2018================== -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_ROOM</LocID>      
+            <Text><![CDATA[Перевірте, які кімнати відсутні в відділенні хірургії та <b><i>побудуйте їх</i></b>. Пам'ятайте, що кімнати з червоними цифрами поряд є обов'язковими. Підказки для кімнат у списку містять додаткову інформацію.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF</LocID>     
+            <Text><![CDATA[Залишилося тільки найняти одного співробітника.  Схоже, нам потрібен хірург. Якщо ви наведете курсор на професії, підказки порадять вам, яке саме вміння потрібно. <b><i>Найміть хірурга</i></b> для відділу хурургії.\nУсі червоні попереджувальні знаки повині бути усунені щоб госпіталізація почала працювати.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION_V2</LocID>  
+            <Text><![CDATA[Перейдіть до управління відділом і <b><i>оберіть відділ хірургії</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_V2</LocID>            
+            <Text><![CDATA[Вилікуйте нашого пацієнта. <b><i>Стримайте усі важкі симптоми</i></b> (деякі можуть бути приховані), зверніть увагу, що деякі іконки пульсують. Пацієнт може почати вмирати, якщо ви не призначаєте правильні методи лікування.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY_V2</LocID>  
+            <Text>На жаль, пацієнт почав помирати, і без функціональної палати ІТ його потрібно відвезти до іншої лікарні (або ви відправили пацієнта геть). Переконайтеся, що у вас достатньо персоналу та правильно призначених ролей, оскільки іноді час має значення. Давайте спробуємо це з самого початку.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD_V2</LocID>       
+            <Text>На жаль, ви не змогли врятувати цього пацієнта. Переконайтеся, що у вас достатньо персоналу та правильно призначених ролей, оскільки іноді час має значення. Давайте спробуємо це з самого початку.</Text>  </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
