@@ -2,8 +2,11 @@
 
 想要贡献翻译的朋友可以访问 https://paratranz.com/projects/119
 会定期将文本同步至 GitHub
+另外也可以加入QQ群 950675466
 
-ParaTranz 是一个公开的汉化平台，当前主要是用于汉化 Paradox 出品的游戏，如王国风云2、欧陆风云4、钢铁雄心4及群星等游戏的汉化平台社区，现已有52汉化组、星海续命汉化组、牧有汉化组及一些P社相关游戏Mod的汉化组和个人入驻，平台理论上也可以用于汉化其他任何游戏。
+ParaTranz 是一个公开的汉化平台，当前主要是用于汉化 Paradox 出品的游戏，如王国风云2、欧陆风云4、钢铁雄心4及群星等游戏的汉化平台社区，现已有52汉化组、星海续命录翻译组、牧有汉化组及一些P社相关游戏Mod的汉化组和个人入驻，平台理论上也可以用于汉化其他任何游戏。
+
+==========================
 
 What do the data look like?
 The localization table is saved in plain text (XML) files, organized into different categories that make sense, for example:
