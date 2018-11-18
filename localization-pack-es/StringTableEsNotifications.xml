@@ -6,7 +6,7 @@
 
         <Contributors>
             <Name>Lokatronao</Name>
-            <Name>Gato787</name>
+            <Name>Gato787</Name>
         </Contributors>
         
         <LocalizedStrings>
@@ -54,11 +54,11 @@
             <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>El diagnóstico de un paciente resultó ser difícil para el nivel de habilidad de diagnóstico del médico.\nPuedes ayudar seleccionando el siguiente examen.</Text>  </GameDBLocalizedString>
 
             <!-- TODO perk? -->
-            <!--GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM</LocID>       <Text>¡El paciente no tiene suficiente dinero para pagar el examen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM</LocID>       <Text>¡El paciente no tiene suficiente dinero para pagar el examen!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM_TEXT</LocID>  <Text>¡El paciente no tiene suficiente dinero para pagar el examen!</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT</LocID>       <Text>¡El paciente no tiene suficiente dinero para pagar el tratamiento!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT_TEXT</LocID>  <Text>¡El paciente no tiene suficiente dinero para pagar el tratamiento!</Text>  </GameDBLocalizedString-->
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT_TEXT</LocID>  <Text>¡El paciente no tiene suficiente dinero para pagar el tratamiento!</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP</LocID>               <Text>¡Habilidad subida de nivel!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP_TEXT</LocID>          <Text><![CDATA[Habilidad subida de nivel: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
@@ -181,8 +181,6 @@
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING</LocID>           <Text>Un paciente se va.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING_TEXT</LocID>      <Text>El paciente que no ha podido ser tratado ha decidido marcharse.</Text>  </GameDBLocalizedString>
 
-
-
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY</LocID>        <Text>Un paciente está siendo trasladado a otro hospital.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY_TEXT</LocID>   <Text>El paciente que no ha podido ser tratado está siendo trasladado a otro hospital.</Text>  </GameDBLocalizedString>
 
@@ -232,8 +230,13 @@
 
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>¡Has perdido un caso! :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>El paciente se encuentra en estado crítico, y, a pesar de los esfuerzos del doctor, la situación está fuera de control. El paciente debe ser trasladado a otro hospital.</Text>  </GameDBLocalizedString>
+
             <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>Has completado el evento a tiempo. Has ganado una recompensa monetaria y un beneficio de prestigio durante el día de hoy. ¡Felicidades! \n\nEventos exitosos en cadena: {1}\nPremio económico de: ${2}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>            <Text>¡El departamento no puede diagnosticar un paciente!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>       <Text>El departamento donde se encuentra el paciente no puede realizarle más pruebas diagnósticas. Considera cambiarlo a otro departamento para realizarle pruebas adicionales.</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
+
