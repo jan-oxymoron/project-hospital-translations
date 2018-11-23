@@ -1,37 +1,106 @@
 ﻿<Database>
-      <GameDBStringTable ID="LOC_ZHHANS_OPTIONS">
-
-        <LanguageCode>zh-Hans</LanguageCode>
-        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
-
-        <Contributors>
-          <Name>依然爱国足</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <GameDBLocalizedString>      <LocID>UI_OPTIONS</LocID>                     <Text>游戏设置</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UI_OPTIONS_MESSAGES</LocID>            <Text>通知消息设置</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_BLOOD</LocID>             <Text>血液显示</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_SCHEDULE</LocID>          <Text>显示每日日程安排</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_AUTO</LocID>          <Text>自动锁定界面比例</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE</LocID>               <Text>手动调节界面比例</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_UI_TOOLTIP_DELAY</LocID>       <Text>提示框显示延迟 (0 - 1s)</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>OPTIONS_VOLUME_SFX</LocID>             <Text>音效音量</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_VOLUME_MUSIC</LocID>           <Text>音乐音量</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_VOLUME_DIALOGUE</LocID>        <Text>对话音量</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_VOLUME_UI</LocID>              <Text>界面音量</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>OPTIONS_AUTO_FOUNDATION_WALLS</LocID>  <Text>自动沿地基筑墙</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_PAYMENTS_INGAME</LocID>   <Text>游戏中收入飘显</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_XP_INGAME</LocID>         <Text>游戏中已得经验值飘显</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OPTIONS_TRANSPARENT_OPEN_DOORS</LocID> <Text>透明化开启的门</Text>  </GameDBLocalizedString>
-
-            <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>OPTIONS_ALLOW_DEATH</LocID>            <Text>允许患者死亡</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>AUTOSAVE_ENABLED</LocID>               <Text>开启自动存档</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>AUTOSAVE_EVERY_HOUR</LocID>            <Text>每小时自动存档</Text>  </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_ZHHANS_OPTIONS">
+    <LanguageCode>zh-Hans</LanguageCode>
+    <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+    <Contributors>
+      <Name>ParaTranz</Name>
+      <Name>@bruceCzK</Name>
+      <Name>@mm615657</Name>
+      <Name>@hailun2008</Name>
+      <Name>@cwl733</Name>
+      <Name>@BattleOil</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>UI_OPTIONS</LocID>
+        <Text>游戏设置</Text>
+        <!-- OPTIONS -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UI_OPTIONS_MESSAGES</LocID>
+        <Text>通知消息设置</Text>
+        <!-- NOTIFICATION OPTIONS -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_SHOW_BLOOD</LocID>
+        <Text>血液显示</Text>
+        <!-- Display blood -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_SHOW_SCHEDULE</LocID>
+        <Text>显示每日日程安排</Text>
+        <!-- Display active daily schedule -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_UI_SCALE_AUTO</LocID>
+        <Text>自动锁定界面比例</Text>
+        <!-- Automatic UI scale -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_UI_SCALE</LocID>
+        <Text>手动调节界面比例</Text>
+        <!-- UI scale -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_UI_TOOLTIP_DELAY</LocID>
+        <Text>提示框显示延迟 (0 - 1s)</Text>
+        <!-- Tooltip delay (0 - 1s) -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_VOLUME_SFX</LocID>
+        <Text>音效音量</Text>
+        <!-- Volume: FX -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_VOLUME_MUSIC</LocID>
+        <Text>音乐音量</Text>
+        <!-- Volume: Music -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_VOLUME_DIALOGUE</LocID>
+        <Text>对话音量</Text>
+        <!-- Volume: Dialog -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_VOLUME_UI</LocID>
+        <Text>界面音量</Text>
+        <!-- Volume: UI -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_AUTO_FOUNDATION_WALLS</LocID>
+        <Text>自动沿地基筑墙</Text>
+        <!-- Automatically add walls around foundations -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_SHOW_PAYMENTS_INGAME</LocID>
+        <Text>游戏中收入飘显</Text>
+        <!-- Show payments ingame -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_SHOW_XP_INGAME</LocID>
+        <Text>游戏中已得经验值飘显</Text>
+        <!-- Show gained XP ingame -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_TRANSPARENT_OPEN_DOORS</LocID>
+        <Text>透明化开启的门</Text>
+        <!-- Fade out open doors -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTIONS_ALLOW_DEATH</LocID>
+        <Text>允许患者死亡</Text>
+        <!-- Death allowed -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>AUTOSAVE_ENABLED</LocID>
+        <Text>开启自动存档</Text>
+        <!-- Autosave enabled -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>AUTOSAVE_EVERY_HOUR</LocID>
+        <Text>每小时自动存档</Text>
+        <!-- Autosave every hour -->
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
