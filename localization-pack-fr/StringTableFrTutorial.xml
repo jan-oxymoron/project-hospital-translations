@@ -150,7 +150,15 @@
 			<GameDBLocalizedString>	<LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_DEAD</LocID>		<Text>Malheureusement, vous n'avez pas pu sauver un de vos patients. Assurez-vous d'avoir suffisamment de personnel disponible et d'assigner les bons rôles, car parfois, le temps est un facteur essentiel.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_SENT_AWAY</LocID>	<Text>Malheureusement, un de vos patients s'est effondré et sans unité de soins intensifs fonctionnelle doit être transporté. Assurez-vous d'avoir suffisamment de personnel disponible et d'assigner les bons rôles, car parfois, le temps est un facteur essentiel.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TUTORIAL_TEXT_HOSPITALIZATION_END</LocID>					<Text>J'espère que nous avons couvert tous les aspects importants de la gestion et de l'hospitalisation en milieu hospitalier. Et maintenant nous pouvons nous concentrer sur la raison pour laquelle nous avons demandé votre aide. Rendez-vous à notre prochain hôpital.</Text>	</GameDBLocalizedString>
-			 
+			<GameDBLocalizedString> <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_ROOM</LocID>      	<Text>Vérifiez quelles sont les salles manquantes au service de chirurgie générale et construisez-les. Rappelez-vous que les chambres avec des numéros rouges à côté d'elles sont obligatoires. Les infobulles pour les pièces de la liste fournissent quelques informations supplémentaires.></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF</LocID>     	<Text>Avec les salles en ordre, il est temps d'embaucher un autre membre du personnel. On dirait qu'on a besoin d'un chirurgien. Si vous survolez les professions, des infobulles vous indiqueront le type de compétences requises. Allez-y et engagez un chirurgien pour le service de chirurgie générale. \nTous les signes d'alerte rouge doivent être corrigés pour faire fonctionner l'hospitalisation.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION_V2</LocID>  	<Text>Passer à la gestion du service et sélectionner le service de chirurgie générale.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_V2</LocID>            	<Text>Supprimez tous les symptômes de haut risque (certains peuvent être encore cachés), remarquez que certaines icônes sont palpitantes. Le patient pourrait s'effondrer et mourir si vous ne lui prescrivez pas les bons traitements.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY_V2</LocID>  	<Text>Malheureusement, le patient s'est effondré et sans unité de soins intensifs fonctionnelle il faut l'évacuer (ou vous le renvoyez). Assurez-vous d'avoir suffisamment de personnel disponible et d'assigner les bons rôles, car parfois, le temps est un facteur essentiel. Essayons encore une fois depuis le début.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD_V2</LocID>       	<Text>Malheureusement, vous n'avez pas pu sauver ce patient. Assurez-vous d'avoir suffisamment de personnel disponible et d'assigner les bons rôles, car parfois, le temps est un facteur essentiel. Essayons encore une fois depuis le début.</Text>  </GameDBLocalizedString>
+
+
+
 			<!-- ======= -->
             <!--BENCHMARK-->
             <!-- ======= -->
@@ -159,7 +167,7 @@
 			<GameDBLocalizedString>	<LocID>TUTORIAL_TEXT_BENCHMARK_DONE</LocID>							<Text>Le test de performance est terminé ! Veuillez prendre une capture d'écran avant de cliquer sur suivant.</Text>	</GameDBLocalizedString>
 			
 			<!-- ========= -->
-            <!--CAMPAIGN 01-->
+            <!--CAMPAIGN 01--><!--This is now level 2 of the campaign-->
             <!-- ========= -->
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_01_WELCOME</LocID>									<Text>Bonjour directeur, comment était ce cours de rafraîchissement ? Vous l'avez bien compris ? Nous aurons besoin de toutes vos compétences si nous voulons défier la société Cliniques Délétères. Nous savons que vous avez travaillé pour les Cliniques Délétères et que vous les avez aidés à devenir les meilleurs.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_01_HELP</LocID>										<Text>Mais c'est leur avidité qui vous a fait partir. Et comme vous, nous voulons donner aux gens les meilleurs soins possibles. Et avec votre aide, on pourra peut-être le faire.</Text>	</GameDBLocalizedString>
@@ -173,7 +181,7 @@
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_01_NEW_HOSPITAL</LocID>								<Text>Malheureusement, notre travail est loin d'être terminé. Et nous avons besoin de votre aide dans un autre hôpital. On se retrouve là-bas.</Text>	</GameDBLocalizedString>
 			
             <!-- ========= -->
-            <!--CAMPAIGN 02-->
+            <!--CAMPAIGN 02--><!--This is now level 1 of the campaign-->
             <!-- ========= -->
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_02_WELCOME</LocID>									<Text>Bonjour directeur, on est dans le pétrin dans cet hôpital. Nos responsables ont obtenu un énorme prêt de la banque et se sont enfuis avec tout l'argent.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_02_ROGUE_MANAGER</LocID>							<Text>Nous soupçonnons qu'il travaillait pour les Cliniques Délétères, mais ils ne veulent pas que nous réussissions. Et ici, ils ont peut-être réussi.</Text>	</GameDBLocalizedString>
@@ -184,6 +192,8 @@
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_02_TASK_DONE</LocID>								<Text>Good job, you were able to return all the money back to the bank and restored our hospital and company reputation.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_02_TASK_DONE_IN_TIME</LocID>						<Text>Bon travail, vous avez pu rendre tout l'argent à la banque et restaurer la réputation de notre hôpital et de notre entreprise. Et vous l'avez fait en un temps record !</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>CAMPAIGN_02_NEW_HOSPITAL</LocID>								<Text>Le temps est maintenant venu de relever notre plus grand défi. Quand vous serez prêt, rejoignez-nous dans notre prochain hôpital.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>CAMPAIGN_02_INSURANCE_BOOST</LocID>                 			<Text>Vous pouvez augmenter vos revenus et le nombre de patients en remplissant les objectifs de notre sympathique compagnie d'assurance. Cela devrait rendre les choses plus faciles.</Text>  </GameDBLocalizedString>
+
 			
             <!-- ========= -->
             <!--CAMPAIGN 03-->

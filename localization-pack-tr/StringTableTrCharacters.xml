@@ -279,9 +279,9 @@
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToExamination</LocID>  <Text>muayene odasına gidiyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromExamination</LocID><Text>muayene odasından geliyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedBackToRoom</LocID>     <Text>odasına götürülüyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_GoingToCollapse</LocID>                <Text>Kötüleşiyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Collapsing</LocID>                     <Text>Kötüleşiyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_CollapsingInBed</LocID>                <Text>Kötüleşiyor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_GoingToCollapse</LocID>                <Text>Şoka giriyor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Collapsing</LocID>                     <Text>Şoka giriyor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_CollapsingInBed</LocID>                <Text>Şoka giriyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_FindNewBed</LocID>                     <Text>boş yatak için bekliyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBed</LocID>                  <Text>boş yatak için bekliyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForStabilization</LocID>        <Text>stabilize edilmek için bekliyor</Text>  </GameDBLocalizedString>
@@ -311,8 +311,8 @@
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FulfilingNeeds</LocID>                 <Text>İhtiyacını gideriyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FilingReports</LocID>                  <Text>Rapor yazıyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FillingFreeTime</LocID>                <Text>Boş zamanını dolduruyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenByProcedureScript</LocID>     <Text>İşlem yapıyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenReservedForProcedure</LocID>  <Text>İşlem için ayrılmış</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenByProcedureScript</LocID>     <Text>yapılan işlem:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenReservedForProcedure</LocID>  <Text>hastası:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_DoctorsRounds</LocID>                  <Text>Hasta kontrolüne çıkıyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingHome</LocID>                      <Text>Eve gidiyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_AtHome</LocID>                         <Text>Evde</Text>  </GameDBLocalizedString>
@@ -329,11 +329,11 @@
             <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringMedicine</LocID>              <Text>İlaçları götürüyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_FulfillingNeeds</LocID>                 <Text>İhtiyacını gideriyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_FillingFreeTime</LocID>                 <Text>Boş zamanını dolduruyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenByProcedureScript</LocID>      <Text>İşlem yapıyor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenByProcedureScript</LocID>      <Text>yapılan işlem:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>       <Text>Sedyeyi alıyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>        <Text>Sedye taşıyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>     <Text>Sedyeyi geri götürüyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReservedForProcedure</LocID>   <Text>İşlem için ayrılmış</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReservedForProcedure</LocID>   <Text>hastası:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingHome</LocID>                       <Text>Eve gidiyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_AtHome</LocID>                          <Text>Evde</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_Commuting</LocID>                       <Text>Yolda</Text>  </GameDBLocalizedString>
@@ -358,12 +358,12 @@
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToWorkplace</LocID>         <Text>Çalışmaya gidiyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FulfillingNeeds</LocID>          <Text>İhtiyacını gideriyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FillingFreeTime</LocID>          <Text>Boş zamanını dolduruyor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenByProcedureScript</LocID><Text>İşlemlerini gerçekleştiriyor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenByProcedureScript</LocID><Text>yapılan işlem:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingHome</LocID>                <Text>Eve gidiyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_AtHome</LocID>                   <Text>Evde</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Commuting</LocID>                <Text>Yolda</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FiredAtHome</LocID>              <Text>Kovuldu</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenReservedForProcedure</LocID><Text>İşlem için ayrılmış</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenReservedForProcedure</LocID><Text>hastası:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSample</LocID>           <Text>Örnek alıyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSampleFromHospitalizedPatient</LocID><Text>Örnek alıyor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_TakingSample</LocID>             <Text>Örnek alıyor</Text>  </GameDBLocalizedString>

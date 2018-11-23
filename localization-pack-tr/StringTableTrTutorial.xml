@@ -1,4 +1,4 @@
-﻿<Database>
+<Database>
     <GameDBStringTable ID="LOC_TR_TUTORIAL">
         
         <LanguageCode>tr</LanguageCode>
@@ -341,7 +341,15 @@
             <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO_FAIL</LocID>                  <Text>Ne yazık ki yeterli miktarda hasta tedavi edemediniz. Her zaman tekrar deneyebilirsiniz.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>CAMPAIGN_02_INSURANCE_BOOST</LocID>                 <Text>Samimi sigortacımızın hedeflerini tamamlayarak, gelir ve hasta alımını artırabilirsiniz. Bu işinizi kolaylıştırır.</Text>  </GameDBLocalizedString>
-
+			
+			<!-- new 15.11.2018 -->
+			<GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_ROOM</LocID>      <Text><![CDATA[Genel cerrahi için eksik odaları bul ve <b><i>tamamla</i></b>.Unutmayın, kırmızı numaralı odalar zorunlu olanlar. Daha fazla bilgiye ipucunda bulabilirsiniz.]]></Text> </GameDBLocalizedString>
+			<GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF</LocID>     <Text><![CDATA[Sıradaki oda için bir personel alma zamanı. Bir cerraha ihtiyacımız var gibi. Eğer uzmanlığı üzerine gelirseniz, ipuçları size ne tür bir beceri gerektiğini açıklayacaktır. Devam edin ve genel cerrahi bölümü için bir <b><i>cerrah işe alın</i></b>.\nYatış işlemlerinin çalışması için tüm kırmızı uyarılar sönmeli.]]></Text> </GameDBLocalizedString>
+			<GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION_V2</LocID>  <Text><![CDATA[Bölüm yönetim paneline gelin ve <b><i>Genel Cerrahi bölümünü seçin</i></b>.]]></Text> </GameDBLocalizedString>
+			<GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_V2</LocID>            <Text><![CDATA[Hastayı iyileştirin. <b><i>Hayati tehlikelerini baskılayın</i></b> (bazıları halen gizli olabilir), titreyen simgeler onlar. Doğru tedavi etmezseniz hastanız şoka girer ve ölür.]]></Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY_V2</LocID>  <Text>Maalesef hasta şoka girdi ve çalışan bir YBÜ olmadığı için nakledilmeli (ya da hastayı siz gönderdiniz). Yeterli sayıda personeliniz olduğundan ve doğru roller atadığınızdan emin olun, kaybedecek vaktimiz yok. En baştan tekrar deneyelim.</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD_V2</LocID>       <Text>Maalesef hastayı kaybettiniz. Yeterli sayıda personeliniz olduğundan ve doğru roller atadığınızdan emin olun, kaybedecek zamanınız yok. En baştan tekrar deneyelim.</Text>  </GameDBLocalizedString>
+			
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
