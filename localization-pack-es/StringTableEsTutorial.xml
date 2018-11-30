@@ -1,4 +1,4 @@
-﻿<Database>
+<Database>
     <GameDBStringTable ID="LOC_ES_TUTORIAL">
         
         <LanguageCode>es</LanguageCode>
@@ -199,7 +199,6 @@
             <GameDBLocalizedString>      <LocID>CAMPAIGN_03_MONEY_OBJECTIVE_DONE</LocID>            <Text>Enhorabuena, lo has hecho. Nuestra empresa ha sido elegida para las subvenciones gracias a ti. Es posible que lo hayas hecho de la forma menos esperada, pero no podemos discutir el resultado. Intenta mantener el buen trabajo.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CAMPAIGN_03_SECRET_OBJECTIVE</LocID>                <Text>Increíble, has logrado cumplir ambas condiciones. Realmente eres el mejor. ¡Felicitaciones! Has ganado.</Text>  </GameDBLocalizedString>
 
-
             <!-- ============== -->
             <!--INGAME TUTORIALS-->
             <!-- ============== -->
@@ -283,7 +282,7 @@
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PANEL</LocID>             <Text><![CDATA[Haz clic en <b><i>Compañías de seguros</i></b>.]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT</LocID>          <Text><![CDATA[Aquí puedes ver todas las companías aseguradoras que puedes <b><i>contratar</i></b>.\n\nConsejo: Los objetivos pueden desbloquear una compañía o bonus para una aseguradora ya disponible.]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO</LocID>              <Text><![CDATA[Cada compañía también te muestra cuantos <b><i>pacientes</i></b> te envía por día.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PAYMENT</LocID>           <Text><![CDATA[También puedes ver el <b><i>modificador de pago</i></b> que afecta al pago que se realiza a tu hospital.\n\nConsejo: Tener un prestigio alto puede incrementar el modificador de pago.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PAYMENT</LocID>           <Text><![CDATA[También puedes ver el <b><i>modificador de pago</i></b> que afecta al pago que se realiza a tu hospital.\n\nConsejo: Tener un prestigio alto puede incrementar el modificador de pago.]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_DISABLE</LocID>           <Text><![CDATA[Para dejar de recibir pacientes de una aseguradora, haz clic en el botón de <b><i>deshabilitar la recepción de pacientes</i></b>.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE</LocID>                    <Text>Prestigio</Text>  </GameDBLocalizedString>
@@ -328,6 +327,27 @@
             <GameDBLocalizedString>      <LocID>EVENT_EARTHQUAKES</LocID>                           <Text>El terremoto masivo que ha golpeado las ciudades circundantes ha causado grandes daños y ha impedido que miles de personas reciban ayuda. Los equipos de rescate ya están transportando a los primeros heridos y enfermos de las áreas afectadas. Los hospitales locales deben tomar tantos pacientes como sea posible.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_HEAT</LocID>                                  <Text>Una ola de calor particularmente fuerte ha golpeado nuestra ciudad. Los problemas cardíacos, la falta de agua potable y los alimentos en mal estado son las causas más comunes de las llamadas de ambulancia en este período.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EVENT_STOCK_EXCHANGE</LocID>                        <Text>¡Caída de la bolsa de valores! Los equipos de emergencias han visto una cantidad inusualmente alta de intentos de suicidio, problemas cerebrales y cardíacos.</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD</LocID>                	<Text>Carga de trabajo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_FIND</LocID>           	<Text><![CDATA[Selecciona <b><i>modo gestión</i></b>. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS</LocID>           	<Text><![CDATA[En determinadas salas puedes ver la <b><i>carga de trabajo</i></b>, indicando el trabajo en las últimas 24h. 0% indica que el personal no tiene nada que hacer, 100% indica que el personal está sobrecargado por el trabajo.\n\nTruco: El número ideal es diferente para cada tipo de sala.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_LABS</LocID>         		<Text><![CDATA[Los laboratorios no tienen carga de trabajo, pero sí tienen <b><i>número de muestras</i></b> esperando para ser examinadas.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_WAITING</LocID>        	<Text><![CDATA[Las salas de espera no tienen carga de trabajo, pero sí tienen número de <b><i>pacientes esperando</i></b>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS_WARNING</LocID>   <Text><![CDATA[<b><i>Advertencia:</i></b> no construyas salas separadas, todas las plantas deben estar conectadas o las salas no funcionarán.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_INTRO</LocID>                       <Text>Hola jefe, y bienvenido a nuestro escenario de desafío. Tu tarea es simple. Curar {1}% de tus pacientes en 10 días. Con 5 pacientes en la clínica y 1 paciente de ambulancia cada día. Falla un día y el desafío habrá acabado. Tu progreso se comprobará a media noche. ¡Suerte!.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO</LocID>                       <Text>¡Felicidades! Te has convertido en un {1}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO_FAIL</LocID>                  <Text>Desafortunadamente, no pudo tratar la cantidad suficiente de pacientes. Siempre puedes volver a intentarlo.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_INSURANCE_BOOST</LocID>                 <Text>Puede aumentar los beneficios y los ingresos de pacientes al completar los objetivos de nuestra amigable compañía de seguros. Debería hacer esto más fácil.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_ROOM</LocID>      <Text><![CDATA[Comprueba que salas faltan en Cirugía general y <b><i>constrúyelos</i></b>. Recuerda que las salas con un número en rojo son obligatorias. ]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF</LocID>     <Text><![CDATA[Con las habitaciones en orden, es hora de contratar a un miembro del personal restante. Parece que necesitamos un cirujano. Si pasas el ratón por encima de las profesiones, te indicará qué tipo de habilidad se requiere. Vamos a <b><i>contratar un cirujano</i></b> para Cirugía general.\nTodas las advertencias en rojo debes eliminarlas para conseguir que funcione la hospitalización.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION_V2</LocID>  <Text><![CDATA[Cambie al modo de gestión y <b><i>seleccione el departamento de Cirugía general</i></b>.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_V2</LocID>            <Text><![CDATA[Trate a nuestro paciente. <b><i>Elimine todos los síntomas de riesgo</i></b> (algunos pueden estar ocultos), algunos iconos de síntomas estarán parpadeando. El paciente puede colapsar y morir si no los tratas adecuadamente.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY_V2</LocID>  <Text>Desafortunadamente, el paciente ha colapsado y sin la UCI funcional debe ser transportado (o usted ha enviado al paciente) a otro hospital. Asegúrese de tener suficiente personal disponible y de que se asignen los roles correctos porque a veces, el tiempo es esencial. Intentémoslo de nuevo desde el principio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD_V2</LocID>       <Text>Desafortunadamente no pudiste salvar a este paciente. Asegúrese de tener suficiente personal disponible y de que se asignen los roles correctos porque a veces, el tiempo es esencial. Intentémoslo de nuevo desde el principio.</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>

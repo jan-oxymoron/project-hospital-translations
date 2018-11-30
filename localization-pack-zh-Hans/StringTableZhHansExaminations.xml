@@ -1,176 +1,745 @@
 ﻿<Database>
-      <GameDBStringTable ID="LOC_ZHHANS_EXAMINATIONS">
-
-        <LanguageCode>zh-Hans</LanguageCode>
-        <LanguageNameLocalized>Chinese simplified (please translate)</LanguageNameLocalized>
-
-        <Contributors>
-          <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!-- Examinations -->
-            <GameDBLocalizedString>      <LocID>EXM_RECEPTION_FAST</LocID>                                      <Text>Triage in the reception</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_RECEPTION_DESCRIPTION</LocID>                               <Text>Receptionists can assign a higher priority to the patient based on their symptoms. \n\nRequired room: Reception</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ABDOMINAL_PALPATION</LocID>                                 <Text>Abdominal palpation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ABDOMINAL_PALPATION_DESCRIPTION</LocID>                     <Text>Type of physical examination. The examiner palpates (touches) nine areas of the patient's abdomen, performing it twice, both superficially and deeply. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ANGIOGRAPHY</LocID>                                         <Text>Angiography</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ANGIOGRAPHY_DESCRIPTION</LocID>                             <Text>An imaging method used to visualize the lumen of the blood vessels and organs, particulary the arteries, the veins, and the heart. \n\nRequired room: CAG room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY</LocID>                                          <Text>Audiometry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>Audiometric testing determines the patient's level of hearing. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING</LocID>                       <Text>Microbial sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION</LocID>           <Text>Microbial sampling is the collection of samples from the patient (e.g. body fluids, sputum, stool) for further analysis. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING</LocID>                        <Text>Microbial cultivation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION</LocID>            <Text>Laboratory cultivation of the specific sample obtained from the patient in order to determine if bacterias are present and which kind of bacteria it is. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BARRIUM_SWALLOV_X_RAY</LocID>                               <Text>Barium swallow</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BARRIUM_SWALLOV_X_RAY_DESCRIPTION</LocID>                   <Text>A test where the patient swallows a barium sulfate mixture that shows up on x-ray. It is used to examine the lumen of the esophagus, stomach, and intestines. \n\nRequired room: X-ray room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BASIC_VISUAL_TEST</LocID>                                   <Text>Basic visual test</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BASIC_VISUAL_TEST_DESCRIPTION</LocID>                       <Text>Common visual test used to examine the patient's visual acuity. \n\nRequired room: Any office / Diagnostic unit \n\nRequired equipment: Eye test</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING</LocID>                                     <Text>Biopsy - sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION</LocID>                         <Text>A surgical procedure where a piece of tissue (e.g. lung, liver, intestine) is taken out for further testing. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING</LocID>                                      <Text>Biopsy - testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION</LocID>                          <Text>The piece of tissue that was taken our during the biopsy procedure is examined under a microscope and treated with various preparations for allow for more specific testing. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT</LocID>                <Text>Blood pressure measurement </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT_DESCRIPTION</LocID>    <Text>The classic, manual measurement of the patient's blood pressure and pulse (heartbeat frequency) using sphygmomanometer. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING</LocID>                                 <Text>Blood draw</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION</LocID>                     <Text>The collection of a sample of the patient's blood (venous or arterial) for further analysis or testing. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING</LocID>                                  <Text>Blood test</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION</LocID>                      <Text>Laboratory analysis of a blood sample. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING</LocID>                                        <Text>CBC - sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION</LocID>                            <Text>The sampling of blood for a Complete Blood Count (CBC) test. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING</LocID>                                         <Text>CBC - testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION</LocID>                             <Text>Complete Blood Count (CBC) test counts all of the cells found in the blood and determines if there is an increase or decrease in any of those cells. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CC_BLOOD_ANALYSIS</LocID>                                   <Text>Blood analysis - ICU</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CC_BLOOD_ANALYSIS_DESCRIPTION</LocID>                       <Text>Special blood analysis that is mostly used at intensive care units. \n\nRequired room: ICU room \n\nRequired equipment: Hematoanalyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CC_ECHO</LocID>                                             <Text>Urgent Echo</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CC_ECHO_DESCRIPTION</LocID>                                 <Text>Special critical care echocardiography used mainly in intensive care units or trauma centers to assess if the heart is pumping properly, if there is any fluid in the pericardium (the sac around the heart) or fluid surrounding the lungs. \n\nRequired room: ICU room \n\nRequired equipment: FAST usg</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CRP</LocID>                                                 <Text>CRP</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CRP_DESCRIPTION</LocID>                                     <Text>C-reactive protein (CRP) is diagnostic test based on a quick blood test measuring the concentration of C-reactive protein that is indicative of inflammatory and infectious diseases. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CT</LocID>                                                  <Text>CT</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CT_DESCRIPTION</LocID>                                      <Text>Computed tomography (CT) is an imaging modality that creates detailed images of the internal organs and bones. By injecting intravenous constrast or making the patient swallow contrast, the use of CT can be used to assess a wider range of diseases. \n\nRequired room: CT room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CT_ENTEROGRAPHY</LocID>                                     <Text>CT - enterography</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CT_ENTEROGRAPHY_DESCRIPTION</LocID>                         <Text>Computed tomography (CT) enterography is diagnostic imaging modality creating detailed images of the intestines by injecting intravenous contrast after the patient has ingested liquid contrast. \n\nRequired room: CT room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION</LocID>                                     <Text>Ear examination</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION_DESCRIPTION</LocID>                         <Text>Examination and visual inspection of the patient's ears, including the ear canal and the eardrum. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ECG</LocID>                                                 <Text>ECG</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ECG_DESCRIPTION</LocID>                                     <Text>Electrocardiography (ECG) is the recording of the heart's electrical activity by electrodes on the skin. \n\nRequired room: Cardiography unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EEG</LocID>                                                 <Text>EEG</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EEG_DESCRIPTION</LocID>                                     <Text>Electroencephalography (EEG) is the recording of the brain's electrical activity by equipping the patient with a hat containing many electrodes. \n\nRequired room: Neurolab</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ECHO</LocID>                                                <Text>Echo</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ECHO_DESCRIPTION</LocID>                                    <Text>Echocardiography is the ultrasonographic assessment of the patient's heart and large veins and arteries entering and leaving the heart. \n\nRequired room: Cardiography unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EMG</LocID>                                                 <Text>EMG</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION</LocID>                                     <Text>Electromyography (EMG) is the recording and evaluation of the electrical activity of the patient's muscles. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Orthopaedy dpt </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EVALUATION</LocID>                                          <Text>Evaluation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_EVALUATION_DESCRIPTION</LocID>                              <Text>Considering all the symptoms and examinations recently carried out to specify the diagnosis. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FAST</LocID>                                                <Text>FAST</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FAST_DESCRIPTION</LocID>                                    <Text>Fast Assessment with Sonography in Trauma (FAST) is a special ultrasonography method used in the evaluation of trauma patients and intensive care unit patients. \n\nRequired room: Trauma center, ICU</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING</LocID>                        <Text>Elastase test - sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION</LocID>            <Text>The collection of a stool sample from the patient in order to quantify the amount of the elastase produced by the pancreas. It indicates the actual function of the pancreas. \n\nRequired room: Stat Lab \n\nRequired equipment: RIA</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING</LocID>                         <Text>Elastase test - testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION</LocID>             <Text>The measurement of elastase in a stool sample from a patient. The amount indicates the actual function of the pancreas. \n\nRequired room: Stat Lab \n\nRequired equipment: RIA</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING</LocID>                         <Text>Mycologic sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION</LocID>             <Text>Collecting various samples from the patient's body for cultivation in order to determine if fungal species are present or not. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING</LocID>                          <Text>Fungal cultivation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION</LocID>              <Text>Laboratory cultivation of the specific samples obtained from the patient's body. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY</LocID>                                         <Text>Gastroscopy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>A procedure where a flexible tube (endoscope) with a tiny video camera and a light source in the end is inserted through the mouth in order to examine the upper part of digestive tract.\n\nRequired room: Office / Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Cardiology dpt</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_GONIOSCOPY</LocID>                                          <Text>Gonioscopy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_GONIOSCOPY_DESCRIPTION</LocID>                              <Text>Gonioscopy is an eye examination used to evaluate the drainage system of the eye.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>EXM_HEART_MONITORING</LocID>                                    <Text>Heart monitoring</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_HEART_MONITORING_DESCRIPTION</LocID>                        <Text>Longterm monitoring of the heart's eletrical activity. \n\nRequired room: ICU / Trauma center / Observation room \n\nRequiered equipment: Wall monitor / Anesthetic machine</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>EXM_CHEST_LISTENING</LocID>                                     <Text>Chest auscultation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CHEST_LISTENING_DESCRIPTION</LocID>                         <Text>The auscultation (listening with a stethoscope) of the heart and lungs. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_LARYNGOSCOPY</LocID>                                        <Text>Laryngoscopy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_LARYNGOSCOPY_DESCRIPTION</LocID>                            <Text>A procedure where a flexible tube (endoscope) with a tiny video camera and a light source in the end is inserted through the nose to examine the larynx, glottis, and vocal chords. Laryngoscopy is also used to facilitate tracheal intubation. \n\nRequired room: doctor's office / Observation room / ICU</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_MRI</LocID>                                                 <Text>MRI</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_MRI_DESCRIPTION</LocID>                                     <Text>Magnetic resonance imaging (MRI) creates detailed images of the anatomy and physiology of the body and internal organs by using a magnetic fields, magnetics waves, and radio waves. \n\nRequired room: MRI room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_NASAL_CAVITY_INSPECTION</LocID>                             <Text>Nasal cavity inspection</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_NASAL_CAVITY_INSPECTION_DESCRIPTION</LocID>                 <Text>Examination and visual inspection of the patient's nose including the nasal cavity. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_NECK_PALPATION</LocID>                                      <Text>Neck palpation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_NECK_PALPATION_DESCRIPTION</LocID>                          <Text>Palpation (touching) of the patient's neck. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_NEUROLOGICAL_TESTING</LocID>                                <Text>Neurological testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_NEUROLOGICAL_TESTING_DESCRIPTION</LocID>                    <Text>Different simple and specific questions and tests that provide information about the patient's central nervous system. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-<!--
-            <GameDBLocalizedString>      <LocID>EXM_OBSERVATION</LocID>                                         <Text>Observation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_OBSERVATION_DESCRIPTION</LocID>                             <Text>Observation of the patient for 24 hours to ensure the patient's does not deteriorate.</Text>  </GameDBLocalizedString>
--->
-            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY</LocID>                                      <Text>Ophthalmoscopy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY_DESCRIPTION</LocID>                          <Text>A procedure where the fundus/retina is visualised through a funduscope/opthalmoscope. \n\nRequired room: doctor's office / Observation room / Trauma center / ICU / Office/Diagnostic unit at Internal Medicine dpt / Neurology dpt </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ORAL_CAVITY_INSPECTION</LocID>                              <Text>Oral cavity inspection</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ORAL_CAVITY_INSPECTION_DESCRIPTION</LocID>                  <Text>Examination and visual inspection of the patient's oral cavity. \n\nRequired room: Any office / Diagnostic unit </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING</LocID>                                        <Text>PCR - sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION</LocID>                            <Text>Sampling of biological material for polymerase chain reaction analysis in the laboratory. Examination is quick, cheap and exact. \n\nRequired room: Stat Lab \n\nRequired equipment: Thermal cycler</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING</LocID>                                         <Text>PCR - testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION</LocID>                             <Text>Polymerase chain reaction is quick examination method of identifying infectious disease caused by bacteria or viruses. Examination is quick, cheap and exact. \n\nRequired room: Stat Lab \n\nRequired equipment: Thermal cycler</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERIMETRY</LocID>                                           <Text>Perimetry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERIMETRY_DESCRIPTION</LocID>                               <Text>Perimetry is ophtalmology test that systematically tests the complete field of vision. \n\nRequired room: Office / Diagnostic Unit at Neurology dpt.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING</LocID>                  <Text>Peritoneal fluid analysis - sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>      <Text>Sampling of peritoneal fluid with a large needle and syringe through the abdominal wall. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING</LocID>                   <Text>Peritoneal fluid analysis - testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>       <Text>Biochemical test that analyzes the fluid collected from the peritoneal space. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</LocID>                     <Text>Physical examination</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PHYSICAL_AND_VISUAL_EXAMINATION_DESCRIPTION</LocID>         <Text>Examination of the specific area on the patient's body. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_INTERVIEW</LocID>                                           <Text>Interview</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_INTERVIEW_DESCRIPTION</LocID>                               <Text>Interviewing the patient to get as much information as possible about his medical condition. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING</LocID>                           <Text>Serologic sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION</LocID>               <Text>Drawing of a blood sample for serologic tests. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + RIA</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING</LocID>                            <Text>Serologic testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION</LocID>                <Text>Special blood test examining specific antibodies and antigens. Antibodies are proteins made by human immune system to neutralize pathogens. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + RIA</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SKIN_INJECTION_TEST</LocID>                                 <Text>Skin allergy test</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SKIN_INJECTION_TEST_DESCRIPTION</LocID>                     <Text>Injection of a small amount of different of allergen extracts into the skin usually on the arm to confirm or deny the allergic reactions to specific allergens. \n\nRequired room: Offices / Diagnostic units at Emergency dpt / ICU dpt / Neurology dpt</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPEECH_LISTENING</LocID>                                    <Text>Speech listening</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPEECH_LISTENING_DESCRIPTION</LocID>                        <Text>Listening to speech flow of the patient. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING</LocID>                      <Text>CSF sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>          <Text>Sampling of cerebrospinal fluid is performed by inserting a needle through the lower back into the spinal canal, draining a small amount of cerebrospinal fluid. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING</LocID>                       <Text>CSF analysis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>           <Text>Process of analysis of cerebrospinal fluid in the laboratory. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPIROMETRY</LocID>                                          <Text>Spirometry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPIROMETRY_DESCRIPTION</LocID>                              <Text>One of the most common pulmonary function test, measuring lung function. \n\nRequired room: Offices / Diagnostic Units at Emergency dpt / ICU dpt / Internal Medicine dpt</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING</LocID>                             <Text>Stool collecting</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION</LocID>                 <Text>Procedure to collect a sample of patient's stool for further analysis. \n\nRequired room: Stat Lab \n\nRequired equipment: Stool analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING</LocID>                              <Text>Stool analysis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION</LocID>                  <Text>Analysis of the patient's stool for bacteria, blood, parasites etc. \n\nRequired room: Stat Lab \n\nRequired equipment: Stool analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SWEAT_CHLORIDE_TEST</LocID>                                 <Text>Sweat Chloride Test</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SWEAT_CHLORIDE_TEST_DESCRIPTION</LocID>                     <Text>Special biochemical test used to diagnose cystic fibrosis. \n\nRequired room: Office / Diagnostic unit at Internal Medicine dpt</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_TEMPERATURE_MEASUREMENT</LocID>                             <Text>Temperature measurement</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_TEMPERATURE_MEASUREMENT_DESCRIPTION</LocID>                 <Text>Examination to determine the current body temperature. \n\nRequired room: Any office / Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_THORAX_PERCUSSION</LocID>                                   <Text>Thorax percussion</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION</LocID>                       <Text>Examination consisting of systematically tapping on the thorax to identify areas with less air within the thorax. \n\nRequired room: Offices / Diagnostic Units at General Surgery dpt / Internal Medicine dpt / Cardiology dpt</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_TONOMETRY</LocID>                                           <Text>Tonometry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_TONOMETRY_DESCRIPTION</LocID>                               <Text>Test that measures pressure inside the eye also known as intraocular pressure. \n\nRequired room: Neurolab</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_TRANSIENT_ELASTOGRAPHY</LocID>                              <Text>Transient elastography</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_TRANSIENT_ELASTOGRAPHY_DESCRIPTION</LocID>                  <Text>Special ultra sound imaging method that maps elastic properties and stiffness of soft tissues in the internal organs. \n\nRequired room: Sonography unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URGENT_BLOOD_ANALYSIS</LocID>                               <Text>PS blood control</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URGENT_BLOOD_ANALYSIS_DESCRIPTION</LocID>                   <Text>Post surgery blood analysis is used in post-operative care in patients that could suffer from sepsis. \n\nRequired room: Cardiography unit \n\nRequired equipment: Lab analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING</LocID>                      <Text>Urine analysis - sampling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION</LocID>          <Text>Sampling of mid-stream urine from a patient, or from a patient's catheter. \n\nRequired room: Stat Lab \n\nRequired equipment: Lab analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING</LocID>                       <Text>Urine analysis - testing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION</LocID>           <Text>Biochemical analysis of a urine sample. \n\nRequired room: Stat Lab \n\nRequired equipment: Lab analyzer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_USG</LocID>                                                 <Text>USG</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_USG_DESCRIPTION</LocID>                                     <Text>Ultrasonography is a medical imaging technique using ultrasound waves, resulting in visualization of both soft and hard tissues and organs. \n\nRequired room: Sonography unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_BACK</LocID>                                          <Text>X-ray back</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_BACK_DESCRIPTION</LocID>                              <Text>X-ray imaging of the bones of the back. \n\nRequired room: X-ray room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_HEAD</LocID>                                          <Text>X-ray head</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_HEAD_DESCRIPTION</LocID>                              <Text>X-ray imaging of the bones of the skull. \n\nRequired room: X-ray room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_LOWER_LIMB</LocID>                                    <Text>X-ray lower limb</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_LOWER_LIMB_DESCRIPTION</LocID>                        <Text>X-ray imaging of the bones of the lower limb. \n\nRequired room: X-ray room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_TORSO</LocID>                                         <Text>X-ray chest</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_TORSO_DESCRIPTION</LocID>                             <Text>X-ray imaging of the bones and shadows of the thorax. \n\nRequired room: X-ray room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_UPPER_LIMB</LocID>                                    <Text>X-ray upper limb</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_X_RAY_UPPER_LIMB_DESCRIPTION</LocID>                        <Text>X-ray imaging of the bones the arm. \n\nRequired room: X-ray room</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>EXM_DIFFERENTIAL_DIAGNOSIS</LocID>                              <Text>Differential diagnosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_DIFFERENTIAL_DIAGNOSIS_DESCRIPTION</LocID>                  <Text>Special case-review that reduces the amount of possible diagnoses. Can only be performed by a doctor with advanced diagnosis specialization. </Text>  </GameDBLocalizedString>
-
-            <!--
-            <GameDBLocalizedString>      <LocID>EXM_ANALYTIC_INTERVIEW</LocID>                                  <Text>Analytic interview</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ANALYTIC_INTERVIEW_DESCRIPTION</LocID>                      <Text>Special interview that can only be performed by a doctor with advance diagnosis specialization. Discovers possible hidden symptoms the patient might be ashamed of.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CONSULTATIVE_EXAMINATIONS</LocID>                           <Text>Consultative examinations</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CONSULTATIVE_EXAMINATIONS_DESCRIPTIONS</LocID>              <Text>Special examination that can only be performed by a doctor with advance diagnosis specialization. It proposes an examination to discover hidden symptoms.</Text>  </GameDBLocalizedString>
--->
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_ZHHANS_EXAMINATIONS">
+    <LanguageCode>zh-Hans</LanguageCode>
+    <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+    <Contributors>
+      <Name>ParaTranz</Name>
+      <Name>@bruceCzK</Name>
+      <Name>@mm615657</Name>
+      <Name>@hailun2008</Name>
+      <Name>@cwl733</Name>
+      <Name>@BattleOil</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>EXM_RECEPTION_FAST</LocID>
+        <Text>接诊台分诊</Text>
+        <!-- Triage in the reception -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_RECEPTION_DESCRIPTION</LocID>
+        <Text>接诊护士可以根据患者的症状分配更高的优先级。\n\n需求房间：接诊台</Text>
+        <!-- Receptionists can assign a higher priority to the patient based on their symptoms. \n\nRequired room: Reception -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ABDOMINAL_PALPATION</LocID>
+        <Text>腹部触诊</Text>
+        <!-- Abdominal palpation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ABDOMINAL_PALPATION_DESCRIPTION</LocID>
+        <Text>身体检查的一种。医生触诊（接触）患者腹部的九个区域，进行表面和深度两次操作。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Type of physical examination. The examiner palpates (touches) nine areas of the patient's abdomen, performing it twice, both superficially and deeply. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ANGIOGRAPHY</LocID>
+        <Text>血管造影</Text>
+        <!-- Angiography -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ANGIOGRAPHY_DESCRIPTION</LocID>
+        <Text>一种成像方法，用于可视化血管和器官的管腔，特别是动脉，静脉和心脏。\n\n需求房间：CAG室</Text>
+        <!-- An imaging method used to visualize the lumen of the blood vessels and organs, particulary the arteries, the veins, and the heart. \n\nRequired room: CAG room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_AUDIOMETRY</LocID>
+        <Text>听力测试</Text>
+        <!-- Audiometry -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>
+        <Text>听力测试可确定患者的听力水平。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Audiometric testing determines the patient's level of hearing. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING</LocID>
+        <Text>微生物取样</Text>
+        <!-- Microbial sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION</LocID>
+        <Text>微生物取样是来自患者的样品（例如体液，痰，粪便）的集合，用于进一步分析。\n\n需求房间：化验室\n\n需求设备：玻璃器皿及显微镜</Text>
+        <!-- Microbial sampling is the collection of samples from the patient (e.g. body fluids, sputum, stool) for further analysis. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BACTERIA_CULTIVATION_TESTING</LocID>
+        <Text>微生物培养</Text>
+        <!-- Microbial cultivation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION</LocID>
+        <Text>从患者身上获得的特定样品进行实验室培养，以确定是否存在细菌以及它是哪种细菌。\n\n需求房间：化验室\n\n需求设备：玻璃器皿及显微镜</Text>
+        <!-- Laboratory cultivation of the specific sample obtained from the patient in order to determine if bacterias are present and which kind of bacteria it is. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BARRIUM_SWALLOV_X_RAY</LocID>
+        <Text>钡餐</Text>
+        <!-- Barium swallow -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BARRIUM_SWALLOV_X_RAY_DESCRIPTION</LocID>
+        <Text>患者吞服硫酸钡混合物的试验，该混合物会显现在X光下。它用于检查食道、胃和肠的管腔。\n\n需求房间：X光室</Text>
+        <!-- A test where the patient swallows a barium sulfate mixture that shows up on x-ray. It is used to examine the lumen of the esophagus, stomach, and intestines. \n\nRequired room: X-ray room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BASIC_VISUAL_TEST</LocID>
+        <Text>基本视觉测试</Text>
+        <!-- Basic visual test -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BASIC_VISUAL_TEST_DESCRIPTION</LocID>
+        <Text>常见的视觉测试用于检查患者的视力。\n\n需求房间：任何门诊室/诊断室\n\n需求设备：视力表</Text>
+        <!-- Common visual test used to examine the patient's visual acuity. \n\nRequired room: Any office / Diagnostic unit \n\nRequired equipment: Eye test -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BIOPSY_SAMPLING</LocID>
+        <Text>活组织检查 - 取样</Text>
+        <!-- Biopsy - sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION</LocID>
+        <Text>一种外科手术，取出器官（例如肺、肝、肠）的一小块组织用于进一步测试。\n\n需求房间：化验室\n\n需求设备：玻璃器皿及显微镜</Text>
+        <!-- A surgical procedure where a piece of tissue (e.g. lung, liver, intestine) is taken out for further testing. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BIOPSY_TESTING</LocID>
+        <Text>活组织检查 - 测试</Text>
+        <!-- Biopsy - testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BIOPSY_TESTING_DESCRIPTION</LocID>
+        <Text>将在活组织检查过程中拍摄的组织片在显微镜下检查并用各种制剂处理以允许更具体的测试。\n\n需求房间：化验室\n\n需求设备：玻璃器皿及显微镜</Text>
+        <!-- The piece of tissue that was taken our during the biopsy procedure is examined under a microscope and treated with various preparations for allow for more specific testing. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT</LocID>
+        <Text>血压测量</Text>
+        <!-- Blood pressure measurement  -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT_DESCRIPTION</LocID>
+        <Text>使用血压计对患者的血压和脉搏（心跳频率）进行经典的手动测量。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- The classic, manual measurement of the patient's blood pressure and pulse (heartbeat frequency) using sphygmomanometer. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BLOOD_TEST_SAMPLING</LocID>
+        <Text>抽血</Text>
+        <!-- Blood draw -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION</LocID>
+        <Text>收集患者血液样本（静脉或动脉）进行进一步分析或测试。\n\n需求房间：化验室\n\n需求设备：血液分析仪</Text>
+        <!-- The collection of a sample of the patient's blood (venous or arterial) for further analysis or testing. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BLOOD_TEST_TESTING</LocID>
+        <Text>血检</Text>
+        <!-- Blood test -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION</LocID>
+        <Text>血液样本的实验室分析。\n\n需求房间：化验室\n\n需求设备：血液分析仪</Text>
+        <!-- Laboratory analysis of a blood sample. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CBC_SAMPLING</LocID>
+        <Text>血常规 - 取样</Text>
+        <!-- CBC - sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CBC_SAMPLING_DESCRIPTION</LocID>
+        <Text>用于全血细胞计数（CBC）测试的血液取样。\n\n需求房间：化验室\n\n需求设备：血液分析仪</Text>
+        <!-- The sampling of blood for a Complete Blood Count (CBC) test. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CBC_TESTING</LocID>
+        <Text>血常规 - 测试</Text>
+        <!-- CBC - testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CBC_TESTING_DESCRIPTION</LocID>
+        <Text>使用全血细胞计数（CBC）测试计算血液中发现的所有细胞，并确定这些细胞中是否有任何增加或减少。\n\n需求房间：化验室\n\n需求设备：血液分析仪</Text>
+        <!-- Complete Blood Count (CBC) test counts all of the cells found in the blood and determines if there is an increase or decrease in any of those cells. \n\nRequired room: Stat Lab \n\nRequired equipment: Hematoanalyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CC_BLOOD_ANALYSIS</LocID>
+        <Text>血液分析 - 重症监护室</Text>
+        <!-- Blood analysis - ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CC_BLOOD_ANALYSIS_DESCRIPTION</LocID>
+        <Text>特殊的血液分析，主要用于重症监护病房。\n\n需求房间：化验室\n\n需求设备：血液分析仪</Text>
+        <!-- Special blood analysis that is mostly used at intensive care units. \n\nRequired room: ICU room \n\nRequired equipment: Hematoanalyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CC_ECHO</LocID>
+        <Text>紧急心脏超声波</Text>
+        <!-- Urgent Echo -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CC_ECHO_DESCRIPTION</LocID>
+        <Text>特殊的重症监护超声心电图，主要用于重症监护室或急救中心，以评估心脏是否正常抽吸，心包中是否有任何液体（心脏周围的囊）或肺周围的液体。\n\n需求房间：重症监护室\n\n需求设备：创伤超声仪</Text>
+        <!-- Special critical care echocardiography used mainly in intensive care units or trauma centers to assess if the heart is pumping properly, if there is any fluid in the pericardium (the sac around the heart) or fluid surrounding the lungs. \n\nRequired room: ICU room \n\nRequired equipment: FAST usg -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CRP</LocID>
+        <Text>C-反应蛋白</Text>
+        <!-- CRP -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CRP_DESCRIPTION</LocID>
+        <Text>C-反应蛋白（CRP）是基于快速血液测试的诊断测试，通过测量C-反应蛋白的浓度，来评估炎症和传染病。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- C-reactive protein (CRP) is diagnostic test based on a quick blood test measuring the concentration of C-reactive protein that is indicative of inflammatory and infectious diseases. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CT</LocID>
+        <Text>CT</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CT_DESCRIPTION</LocID>
+        <Text>计算机断层扫描（CT）是一种成像方法，可以创建内部器官和骨骼的详细图像。通过注射静脉内对比或使患者吞咽对比，CT的使用用于评估更广泛的疾病。\n\n需求房间：CT室</Text>
+        <!-- Computed tomography (CT) is an imaging modality that creates detailed images of the internal organs and bones. By injecting intravenous constrast or making the patient swallow contrast, the use of CT can be used to assess a wider range of diseases. \n\nRequired room: CT room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CT_ENTEROGRAPHY</LocID>
+        <Text>CT - 肠造影</Text>
+        <!-- CT - enterography -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CT_ENTEROGRAPHY_DESCRIPTION</LocID>
+        <Text>计算机断层扫描（CT）肠造影是一种诊断成像方法，通过在患者摄取液体对比剂后注射静脉内造影剂来创建肠的详细图像。\n\n需求房间：CT室</Text>
+        <!-- Computed tomography (CT) enterography is diagnostic imaging modality creating detailed images of the intestines by injecting intravenous contrast after the patient has ingested liquid contrast. \n\nRequired room: CT room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EAR_EXAMINATION</LocID>
+        <Text>耳朵检查</Text>
+        <!-- Ear examination -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EAR_EXAMINATION_DESCRIPTION</LocID>
+        <Text>目视并检查患者的耳朵，包括耳道和耳膜。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Examination and visual inspection of the patient's ears, including the ear canal and the eardrum. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ECG</LocID>
+        <Text>心电图</Text>
+        <!-- ECG -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ECG_DESCRIPTION</LocID>
+        <Text>心电图（ECG）通过皮肤上的电极记录心脏的电活动。\n\n需求房间：心电图室</Text>
+        <!-- Electrocardiography (ECG) is the recording of the heart's electrical activity by electrodes on the skin. \n\nRequired room: Cardiography unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EEG</LocID>
+        <Text>脑电图</Text>
+        <!-- EEG -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EEG_DESCRIPTION</LocID>
+        <Text>脑电图（EEG）通过为患者配备包含许多电极的帽子来记录大脑的电活动。\n\n需求房间：神经实验室</Text>
+        <!-- Electroencephalography (EEG) is the recording of the brain's electrical activity by equipping the patient with a hat containing many electrodes. \n\nRequired room: Neurolab -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ECHO</LocID>
+        <Text>超声心动图</Text>
+        <!-- Echo -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ECHO_DESCRIPTION</LocID>
+        <Text>超声心动图对患者心脏以及进出心脏的大静脉和动脉的超声检查。\n\n需求房间：心电图室</Text>
+        <!-- Echocardiography is the ultrasonographic assessment of the patient's heart and large veins and arteries entering and leaving the heart. \n\nRequired room: Cardiography unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EMG</LocID>
+        <Text>肌电图</Text>
+        <!-- EMG -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EMG_DESCRIPTION</LocID>
+        <Text>肌电图（EMG）记录和评估患者肌肉的电活动。\n\n需求房间：门诊室/观察室/骨科门诊室/诊断室</Text>
+        <!-- Electromyography (EMG) is the recording and evaluation of the electrical activity of the patient's muscles. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Orthopaedy dpt  -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EVALUATION</LocID>
+        <Text>评估</Text>
+        <!-- Evaluation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_EVALUATION_DESCRIPTION</LocID>
+        <Text>考虑所有最近的症状和检查以进行诊断。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Considering all the symptoms and examinations recently carried out to specify the diagnosis. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FAST</LocID>
+        <Text>创伤超声快速评估</Text>
+        <!-- FAST -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FAST_DESCRIPTION</LocID>
+        <Text>创伤超声快速评估（FAST）是一种特殊的超声方法用于创伤和重症监护室的患者的评估。\n\n需求房间：急救中心重症监护室</Text>
+        <!-- Fast Assessment with Sonography in Trauma (FAST) is a special ultrasonography method used in the evaluation of trauma patients and intensive care unit patients. \n\nRequired room: Trauma center, ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING</LocID>
+        <Text>弹性蛋白酶检查 - 抽样</Text>
+        <!-- Elastase test - sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION</LocID>
+        <Text>收集患者的粪便样本，以量化胰腺产生的弹性蛋白酶的量。蛋白酶的数量会表明胰腺的实际功能。\n\n需求房间：化验室\n\n需求设备：放射免疫分析仪</Text>
+        <!-- The collection of a stool sample from the patient in order to quantify the amount of the elastase produced by the pancreas. It indicates the actual function of the pancreas. \n\nRequired room: Stat Lab \n\nRequired equipment: RIA -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FECAL_ELASTASE_TEST_TESTING</LocID>
+        <Text>弹性蛋白酶检查 - 测试</Text>
+        <!-- Elastase test - testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION</LocID>
+        <Text>从患者的粪便样本中测量弹性蛋白酶。蛋白酶的数量会表明胰腺的实际功能。\n\n需求房间：化验室\n\n需求设备：放射免疫分析仪</Text>
+        <!-- The measurement of elastase in a stool sample from a patient. The amount indicates the actual function of the pancreas. \n\nRequired room: Stat Lab \n\nRequired equipment: RIA -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING</LocID>
+        <Text>真菌取样</Text>
+        <!-- Mycologic sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION</LocID>
+        <Text>收集患者体内的各种样本进行培养，以确定是否存在真菌。\n\n需求房间：化验室\n\n需求设备：玻璃器皿及显微镜</Text>
+        <!-- Collecting various samples from the patient's body for cultivation in order to determine if fungal species are present or not. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FUNGAL_CULTIVATION_TESTING</LocID>
+        <Text>真菌培养</Text>
+        <!-- Fungal cultivation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION</LocID>
+        <Text>实验室培养从患者体内获得的特定样品。\n\n需求房间：化验室\n\n需求设备：玻璃器皿及显微镜</Text>
+        <!-- Laboratory cultivation of the specific samples obtained from the patient's body. \n\nRequired room: Stat Lab \n\nRequired equipment: Glassware + Microscope -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_GASTROSCOPY</LocID>
+        <Text>胃镜</Text>
+        <!-- Gastroscopy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>
+        <Text>一种通过口插入具有微型摄像机和光源的柔性管（内窥镜）以检查消化道的上部的过程。\n\n需求房间：普通外科门诊室/诊断室/内科门诊室/诊断室/心脏科/诊断室</Text>
+        <!-- A procedure where a flexible tube (endoscope) with a tiny video camera and a light source in the end is inserted through the mouth in order to examine the upper part of digestive tract.\n\nRequired room: Office / Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_GONIOSCOPY</LocID>
+        <Text>前房角镜检查</Text>
+        <!-- Gonioscopy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_GONIOSCOPY_DESCRIPTION</LocID>
+        <Text>前房角镜检查是一种用于评估眼球排水系统的眼科检查。</Text>
+        <!-- Gonioscopy is an eye examination used to evaluate the drainage system of the eye. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_HEART_MONITORING</LocID>
+        <Text>心脏监测</Text>
+        <!-- Heart monitoring -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_HEART_MONITORING_DESCRIPTION</LocID>
+        <Text>长期的心脏电活动监测。\n\n需求房间：重症监护室/急救中心/观察室\n\n需求设备：壁挂式监视器/麻醉机</Text>
+        <!-- Longterm monitoring of the heart's eletrical activity. \n\nRequired room: ICU / Trauma center / Observation room \n\nRequiered equipment: Wall monitor / Anesthetic machine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CHEST_LISTENING</LocID>
+        <Text>胸腔听诊</Text>
+        <!-- Chest auscultation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_CHEST_LISTENING_DESCRIPTION</LocID>
+        <Text>使用用听诊器进行的心脏和肺部的听诊。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- The auscultation (listening with a stethoscope) of the heart and lungs. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_LARYNGOSCOPY</LocID>
+        <Text>喉镜</Text>
+        <!-- Laryngoscopy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_LARYNGOSCOPY_DESCRIPTION</LocID>
+        <Text>一种程序，通过鼻子插入带有微型摄像机和光源的柔性管（内窥镜）来检查喉、声门和声带。喉镜检查也用于辅助气管插管。\n\n需求房间：诊室/观察室/ICU</Text>
+        <!-- A procedure where a flexible tube (endoscope) with a tiny video camera and a light source in the end is inserted through the nose to examine the larynx, glottis, and vocal chords. Laryngoscopy is also used to facilitate tracheal intubation. \n\nRequired room: doctor's office / Observation room / ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_MRI</LocID>
+        <Text>核磁共振成像</Text>
+        <!-- MRI -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_MRI_DESCRIPTION</LocID>
+        <Text>核磁共振成像（MRI）通过使用磁场、磁波和无线电波创建身体和内部器官的解剖学和生理学的详细图像。\n\n需求房间：核磁共振室</Text>
+        <!-- Magnetic resonance imaging (MRI) creates detailed images of the anatomy and physiology of the body and internal organs by using a magnetic fields, magnetics waves, and radio waves. \n\nRequired room: MRI room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_NASAL_CAVITY_INSPECTION</LocID>
+        <Text>鼻腔检查</Text>
+        <!-- Nasal cavity inspection -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_NASAL_CAVITY_INSPECTION_DESCRIPTION</LocID>
+        <Text>目视并检查患者的鼻子，包括鼻腔。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Examination and visual inspection of the patient's nose including the nasal cavity. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_NECK_PALPATION</LocID>
+        <Text>颈部触诊</Text>
+        <!-- Neck palpation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_NECK_PALPATION_DESCRIPTION</LocID>
+        <Text>触诊（接触）患者的脖子。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Palpation (touching) of the patient's neck. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_NEUROLOGICAL_TESTING</LocID>
+        <Text>神经学测试</Text>
+        <!-- Neurological testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_NEUROLOGICAL_TESTING_DESCRIPTION</LocID>
+        <Text>通过询问患者不同但简单的针对性问题来了解患者中枢神经系统的情况。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Different simple and specific questions and tests that provide information about the patient's central nervous system. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_OPHTHALMOSCOPY</LocID>
+        <Text>眼底镜检查</Text>
+        <!-- Ophthalmoscopy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_OPHTHALMOSCOPY_DESCRIPTION</LocID>
+        <Text>通过眼底镜/检眼镜检查眼底/视网膜的程序。\n\n需求房间：诊室/观察室/急救中心/重症监护室/办公室/内科诊断室/神经科诊断室</Text>
+        <!-- A procedure where the fundus/retina is visualised through a funduscope/opthalmoscope. \n\nRequired room: doctor's office / Observation room / Trauma center / ICU / Office/Diagnostic unit at Internal Medicine dpt / Neurology dpt  -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ORAL_CAVITY_INSPECTION</LocID>
+        <Text>口腔检查</Text>
+        <!-- Oral cavity inspection -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_ORAL_CAVITY_INSPECTION_DESCRIPTION</LocID>
+        <Text>目视并检查患者的口腔。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Examination and visual inspection of the patient's oral cavity. \n\nRequired room: Any office / Diagnostic unit  -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PCR_SAMPLING</LocID>
+        <Text>聚合酶链式反应 - 取样</Text>
+        <!-- PCR - sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PCR_SAMPLING_DESCRIPTION</LocID>
+        <Text>在实验室中进行用于聚合酶链反应分析的生物材料的取样。这种检测快速、便宜且准确。\n\n需求房间：化验室\n\n需求设备：热循环仪</Text>
+        <!-- Sampling of biological material for polymerase chain reaction analysis in the laboratory. Examination is quick, cheap and exact. \n\nRequired room: Stat Lab \n\nRequired equipment: Thermal cycler -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PCR_TESTING</LocID>
+        <Text>聚合酶链式反应 - 测试</Text>
+        <!-- PCR - testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PCR_TESTING_DESCRIPTION</LocID>
+        <Text>聚合酶链反应是鉴定由细菌或病毒引起的传染病的快速检测方法。这种检测快速、便宜且准确。\n\n需求房间：化验室\n\n需求设备：热循环仪</Text>
+        <!-- Polymerase chain reaction is quick examination method of identifying infectious disease caused by bacteria or viruses. Examination is quick, cheap and exact. \n\nRequired room: Stat Lab \n\nRequired equipment: Thermal cycler -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PERIMETRY</LocID>
+        <Text>视野检查</Text>
+        <!-- Perimetry -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PERIMETRY_DESCRIPTION</LocID>
+        <Text>视野检查系统地测试完整的视野。\n\n需求房间：诊室/神经科诊断室</Text>
+        <!-- Perimetry is ophtalmology test that systematically tests the complete field of vision. \n\nRequired room: Office / Diagnostic Unit at Neurology dpt. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING</LocID>
+        <Text>腹膜液分析 - 取样</Text>
+        <!-- Peritoneal fluid analysis - sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>
+        <Text>用一支巨大的针管和注射器通过腹壁取样腹膜液。\n\n需求房间：化验室\n\n需求设备：医用离心机及实验室分析仪</Text>
+        <!-- Sampling of peritoneal fluid with a large needle and syringe through the abdominal wall. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING</LocID>
+        <Text>腹膜液分析 - 测试</Text>
+        <!-- Peritoneal fluid analysis - testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>
+        <Text>分析从腹膜空间收集的液体的生化测试。\n\n需求房间：化验室\n\n需求设备：医用离心机及实验室分析仪</Text>
+        <!-- Biochemical test that analyzes the fluid collected from the peritoneal space. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</LocID>
+        <Text>身体检查</Text>
+        <!-- Physical examination -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_PHYSICAL_AND_VISUAL_EXAMINATION_DESCRIPTION</LocID>
+        <Text>检查患者身体的特定区域。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Examination of the specific area on the patient's body. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_INTERVIEW</LocID>
+        <Text>面谈</Text>
+        <!-- Interview -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_INTERVIEW_DESCRIPTION</LocID>
+        <Text>与患者面谈以获得尽可能多的关于他的健康状况的信息。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Interviewing the patient to get as much information as possible about his medical condition. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SEROLOGY_TESTING_SAMPLING</LocID>
+        <Text>血清取样</Text>
+        <!-- Serologic sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION</LocID>
+        <Text>抽取血液样本进行血清检查。\n\n需求房间：化验室\n\n需求设备：医用离心机 + 放射免疫分析仪</Text>
+        <!-- Drawing of a blood sample for serologic tests. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + RIA -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SEROLOGY_TESTING_TESTING</LocID>
+        <Text>血清测试</Text>
+        <!-- Serologic testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION</LocID>
+        <Text>检查特异性抗体和抗原的特殊血液检查。抗体是由人免疫系统产生的中和病原体的蛋白质。\n\n需求房间：化验室\n\n需求设备：医用离心机 + 放射免疫分析仪</Text>
+        <!-- Special blood test examining specific antibodies and antigens. Antibodies are proteins made by human immune system to neutralize pathogens. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + RIA -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SKIN_INJECTION_TEST</LocID>
+        <Text>皮肤过敏测试</Text>
+        <!-- Skin allergy test -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SKIN_INJECTION_TEST_DESCRIPTION</LocID>
+        <Text>通常在手臂上注射少量不同的过敏原提取物进入皮肤，以确认或否认对特定过敏原的过敏反应。\n\n需求房间：诊室/急诊科诊断室/ICU诊断室/神经科诊断室</Text>
+        <!-- Injection of a small amount of different of allergen extracts into the skin usually on the arm to confirm or deny the allergic reactions to specific allergens. \n\nRequired room: Offices / Diagnostic units at Emergency dpt / ICU dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPEECH_LISTENING</LocID>
+        <Text>言语测试</Text>
+        <!-- Speech listening -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPEECH_LISTENING_DESCRIPTION</LocID>
+        <Text>听患者说话的流畅度。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Listening to speech flow of the patient. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING</LocID>
+        <Text>脑脊液取样</Text>
+        <!-- CSF sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>
+        <Text>通过将针穿过下背部插入椎管中，排出少量脑脊髓液来进行脑脊液的取样。\n\n需求房间：化验室\n\n需求设备：医用离心机 + 实验室分析仪</Text>
+        <!-- Sampling of cerebrospinal fluid is performed by inserting a needle through the lower back into the spinal canal, draining a small amount of cerebrospinal fluid. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING</LocID>
+        <Text>脑脊液分析</Text>
+        <!-- CSF analysis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>
+        <Text>在实验室中分析脑脊液的一种过程。\n\n需求房间：化验室\n\n需求设备：医用离心机 + 实验室分析仪</Text>
+        <!-- Process of analysis of cerebrospinal fluid in the laboratory. \n\nRequired room: Stat Lab \n\nRequired equipment: Medical centrifuge + Lab analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPIROMETRY</LocID>
+        <Text>肺功能测定</Text>
+        <!-- Spirometry -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SPIROMETRY_DESCRIPTION</LocID>
+        <Text>最常见的肺功能检查之一，测量肺功能。\n\n需求房间：诊室/急诊科诊断室/ICU诊断室/内科诊断室</Text>
+        <!-- One of the most common pulmonary function test, measuring lung function. \n\nRequired room: Offices / Diagnostic Units at Emergency dpt / ICU dpt / Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_STOOL_ANALYSIS_SAMPLING</LocID>
+        <Text>粪便取样</Text>
+        <!-- Stool collecting -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION</LocID>
+        <Text>收集患者粪便样本以进行进一步分析的程序。\n\n需求房间：化验室\n\n需求设备：粪便分析仪</Text>
+        <!-- Procedure to collect a sample of patient's stool for further analysis. \n\nRequired room: Stat Lab \n\nRequired equipment: Stool analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_STOOL_ANALYSIS_TESTING</LocID>
+        <Text>粪便分析</Text>
+        <!-- Stool analysis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION</LocID>
+        <Text>分析患者的粪便中的细菌、血液、寄生虫等。\n\n需求房间：化验室\n\n需求设备：粪便分析仪</Text>
+        <!-- Analysis of the patient's stool for bacteria, blood, parasites etc. \n\nRequired room: Stat Lab \n\nRequired equipment: Stool analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SWEAT_CHLORIDE_TEST</LocID>
+        <Text>汗水氯化物测试</Text>
+        <!-- Sweat Chloride Test -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_SWEAT_CHLORIDE_TEST_DESCRIPTION</LocID>
+        <Text>用于诊断囊性纤维化的特殊生化检查。\n\n需求房间：诊室/内科诊断室</Text>
+        <!-- Special biochemical test used to diagnose cystic fibrosis. \n\nRequired room: Office / Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_TEMPERATURE_MEASUREMENT</LocID>
+        <Text>体温测量</Text>
+        <!-- Temperature measurement -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_TEMPERATURE_MEASUREMENT_DESCRIPTION</LocID>
+        <Text>检查确定当前体温。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Examination to determine the current body temperature. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_THORAX_PERCUSSION</LocID>
+        <Text>胸部叩诊</Text>
+        <!-- Thorax percussion -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION</LocID>
+        <Text>检查包括系统地敲击胸腔以识别胸腔内空​​气较少的区域。\n\n需求房间：诊室/普通外科诊断室/内科诊断室/心脏科诊断室</Text>
+        <!-- Examination consisting of systematically tapping on the thorax to identify areas with less air within the thorax. \n\nRequired room: Offices / Diagnostic Units at General Surgery dpt / Internal Medicine dpt / Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_TONOMETRY</LocID>
+        <Text>眼压计</Text>
+        <!-- Tonometry -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_TONOMETRY_DESCRIPTION</LocID>
+        <Text>测量眼内压力的测试，也称为眼压。\n\n需求房间：神经实验室</Text>
+        <!-- Test that measures pressure inside the eye also known as intraocular pressure. \n\nRequired room: Neurolab -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_TRANSIENT_ELASTOGRAPHY</LocID>
+        <Text>瞬态弹性成像</Text>
+        <!-- Transient elastography -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_TRANSIENT_ELASTOGRAPHY_DESCRIPTION</LocID>
+        <Text>一种特殊的超声成像方法，可以绘制内脏器官中软组织的弹性和刚度。\n\n需求房间：超声波室</Text>
+        <!-- Special ultra sound imaging method that maps elastic properties and stiffness of soft tissues in the internal organs. \n\nRequired room: Sonography unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_URGENT_BLOOD_ANALYSIS</LocID>
+        <Text>术后血液控制</Text>
+        <!-- PS blood control -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_URGENT_BLOOD_ANALYSIS_DESCRIPTION</LocID>
+        <Text>手术后血液分析用于可能患有败血症的患者的术后护理。\n\n需求房间：心电图室\n\n需求设备：实验室分析仪</Text>
+        <!-- Post surgery blood analysis is used in post-operative care in patients that could suffer from sepsis. \n\nRequired room: Cardiography unit \n\nRequired equipment: Lab analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING</LocID>
+        <Text>尿液分析 - 取样</Text>
+        <!-- Urine analysis - sampling -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION</LocID>
+        <Text>来自患者或患者导管的中流尿液的取样。\n\n需求房间：化验室\n\n需求设备：化验分析仪</Text>
+        <!-- Sampling of mid-stream urine from a patient, or from a patient's catheter. \n\nRequired room: Stat Lab \n\nRequired equipment: Lab analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING</LocID>
+        <Text>尿液分析 - 测试</Text>
+        <!-- Urine analysis - testing -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION</LocID>
+        <Text>尿液样本的生化分析。\n\n需求房间：化验室\n\n需求设备：血液分析仪</Text>
+        <!-- Biochemical analysis of a urine sample. \n\nRequired room: Stat Lab \n\nRequired equipment: Lab analyzer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_USG</LocID>
+        <Text>超声波成像</Text>
+        <!-- USG -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_USG_DESCRIPTION</LocID>
+        <Text>超声波检查是一种使用超声波的医学成像技术，可以显示软组织、硬组织以及器官。\n\n需求房间：超声波室</Text>
+        <!-- Ultrasonography is a medical imaging technique using ultrasound waves, resulting in visualization of both soft and hard tissues and organs. \n\nRequired room: Sonography unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_BACK</LocID>
+        <Text>背部X光成像</Text>
+        <!-- X-ray back -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_BACK_DESCRIPTION</LocID>
+        <Text>背部骨骼的X光成像。\n\n需求房间：X光室</Text>
+        <!-- X-ray imaging of the bones of the back. \n\nRequired room: X-ray room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_HEAD</LocID>
+        <Text>头部X光成像</Text>
+        <!-- X-ray head -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_HEAD_DESCRIPTION</LocID>
+        <Text>头骨X光成像。\n\n需求房间：X光室</Text>
+        <!-- X-ray imaging of the bones of the skull. \n\nRequired room: X-ray room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_LOWER_LIMB</LocID>
+        <Text>下肢X光成像</Text>
+        <!-- X-ray lower limb -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_LOWER_LIMB_DESCRIPTION</LocID>
+        <Text>下肢骨骼的X光成像。\n\n需求房间：X光室</Text>
+        <!-- X-ray imaging of the bones of the lower limb. \n\nRequired room: X-ray room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_TORSO</LocID>
+        <Text>胸部X光成像</Text>
+        <!-- X-ray chest -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_TORSO_DESCRIPTION</LocID>
+        <Text>胸部骨骼和喉部阴影的X光成像。\n\n需求房间：X光室</Text>
+        <!-- X-ray imaging of the bones and shadows of the thorax. \n\nRequired room: X-ray room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_UPPER_LIMB</LocID>
+        <Text>上肢X光成像</Text>
+        <!-- X-ray upper limb -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_X_RAY_UPPER_LIMB_DESCRIPTION</LocID>
+        <Text>手臂骨骼的X光成像。\n\n需求房间：X光室</Text>
+        <!-- X-ray imaging of the bones the arm. \n\nRequired room: X-ray room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_DIFFERENTIAL_DIAGNOSIS</LocID>
+        <Text>鉴别诊断</Text>
+        <!-- Differential diagnosis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXM_DIFFERENTIAL_DIAGNOSIS_DESCRIPTION</LocID>
+        <Text>特殊病例审查，减少可能的诊断数量。只能由具有高级诊断专长的医生进行。</Text>
+        <!-- Special case-review that reduces the amount of possible diagnoses. Can only be performed by a doctor with advanced diagnosis specialization.  -->
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

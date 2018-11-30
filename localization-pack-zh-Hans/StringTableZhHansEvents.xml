@@ -1,34 +1,86 @@
 ﻿<Database>
-      <GameDBStringTable ID="LOC_ZHHANS_EVENTS">
-
-        <LanguageCode>zh-Hans</LanguageCode>
-        <LanguageNameLocalized>Chinese simplified (please translate)</LanguageNameLocalized>
-
-        <Contributors>
-          <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <!-- Event names -->
-            <GameDBLocalizedString>      <LocID>EVENT_TEST</LocID>                      <Text>测试事件</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>事故</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_PANDEMIC</LocID>                  <Text>疫情爆发</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_NATURAL_DISASTER</LocID>          <Text>自然灾害</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENT</LocID>          <Text>治愈</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENTS</LocID>         <Text>治疗患者</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_STABILIZE_PATIENT</LocID>     <Text>稳定高危患者病情:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_PLACE_ROOM</LocID>            <Text>放置</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_EQUIP_ROOM</LocID>            <Text>装备房间</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>         <Text>雇佣员工</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>     <Text>保持 {1} 星声誉 {2} 天</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_HIGH_INCOME</LocID>  <Text>保持 {1} 收入或以上 {2} 天</Text>  </GameDBLocalizedString>
-
-            <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_COMPLETE_HOSPITALIZATION</LocID><Text>患者可在任何部门住院</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECTIVE_TREATED_PATIENTS_PERCENTAGE</LocID>  <Text>连续10天治愈至少 {1}% 的患者</Text>  </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_ZHHANS_EVENTS">
+    <LanguageCode>zh-Hans</LanguageCode>
+    <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+    <Contributors>
+      <Name>ParaTranz</Name>
+      <Name>@bruceCzK</Name>
+      <Name>@mm615657</Name>
+      <Name>@hailun2008</Name>
+      <Name>@cwl733</Name>
+      <Name>@BattleOil</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>EVENT_TEST</LocID>
+        <Text>测试事件</Text>
+        <!-- Testing event -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EVENT_CRASH</LocID>
+        <Text>事故</Text>
+        <!-- Crash -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EVENT_PANDEMIC</LocID>
+        <Text>疫情爆发</Text>
+        <!-- Epidemic -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EVENT_NATURAL_DISASTER</LocID>
+        <Text>自然灾害</Text>
+        <!-- Natural disaster -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CURE_PATIENT</LocID>
+        <Text>治愈</Text>
+        <!-- Cure -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CURE_PATIENTS</LocID>
+        <Text>治疗患者</Text>
+        <!-- Cure patients -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_STABILIZE_PATIENT</LocID>
+        <Text>稳定高危患者病情:</Text>
+        <!-- Treat high symptoms: -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_PLACE_ROOM</LocID>
+        <Text>放置</Text>
+        <!-- Place -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_EQUIP_ROOM</LocID>
+        <Text>装备房间</Text>
+        <!-- Equip -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>
+        <Text>雇佣员工</Text>
+        <!-- Hire employee -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>
+        <Text>保持 {1} 星声誉 {2} 天</Text>
+        <!-- Keep prestige above {1} stars for {2} days -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_MAINTAIN_HIGH_INCOME</LocID>
+        <Text>保持 {1} 收入或以上 {2} 天</Text>
+        <!-- Keep income {1} or above for {2} days -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_COMPLETE_HOSPITALIZATION</LocID>
+        <Text>患者可在任何部门住院</Text>
+        <!-- Hospitalization on all departments -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_TREATED_PATIENTS_PERCENTAGE</LocID>
+        <Text>连续10天治愈至少 {1}% 的患者</Text>
+        <!-- At least {1}% treated patients for 10 days -->
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
