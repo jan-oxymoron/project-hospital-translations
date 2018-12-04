@@ -255,7 +255,7 @@
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES</LocID>           <Text>Personeel</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY</LocID>       <Text>Dagpersoneel</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NIGHT</LocID>     <Text>Nachtpersoneel</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_DOCTOR</LocID><Text>Hoofdarts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_DOCTOR</LocID><Text>Hoofddokter</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_NURSE</LocID><Text>Hoofdverpleegkundige</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CERTAINTY</LocID> <Text>Zekerheid</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_EMPLOYEE_COUNT</LocID><Text>In dienst</Text>  </GameDBLocalizedString>
@@ -416,7 +416,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>           		      <Text>Afdelingswaarschuwingen</Text>  </GameDBLocalizedString>
                                                                                                          
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>           	      <Text>Open personeelsoverzicht van afdeling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>Hoofdarts biedt een dagelijkse bonus aan personeel op zijn afdeling. Kies verstandig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>Hoofddokter biedt een dagelijkse bonus aan personeel op zijn afdeling. Kies verstandig.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_RESTORE</LocID>              <Text>Standaardinstellingen herstellen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_CHART</LocID>                <Text>Tabelweergave</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_GAUGE</LocID>                <Text>Stel het vereiste niveau van zekerheid vast om een diagnose te accepteren</Text>  </GameDBLocalizedString>
@@ -732,7 +732,7 @@
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>Dagelijkse winst</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Patiënten (totaal/behandeld)</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events komen beschikbaar als je opnames kunt toelaten op alle afdelingen, of als ze 's nachts niet kunnen beginnen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>Events komen beschikbaar als je opnames kunt toelaten op alle afdelingen, of ze kunnen 's nachts niet beginnen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Lening $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Terugbetalen $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>Uitzendbureau</Text>  </GameDBLocalizedString>
@@ -853,8 +853,10 @@
 		   <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>SPEL VOLLEDIG AFSLUITEN</Text>  </GameDBLocalizedString>
 
  
-	     <GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Afdelingen kunnen niet aangepast worden als patiënten nog verplaatst of gestabiliseerd worden of inzakken.</Text>  </GameDBLocalizedString>		
+	     <GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Afdelingen kunnen niet aangepast worden als patiënten nog verplaatst of gestabiliseerd worden of instorten.</Text>  </GameDBLocalizedString>		
 	     <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>TAAL</Text>  </GameDBLocalizedString>		
-        </LocalizedStrings>
+	   <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>         <Text>Alleen voor gediagnostiseerde patiënten, je kunt eventueel TC opname proberen.</Text>  </GameDBLocalizedString>
+		
+	    </LocalizedStrings>
     </GameDBStringTable>
 </Database>
