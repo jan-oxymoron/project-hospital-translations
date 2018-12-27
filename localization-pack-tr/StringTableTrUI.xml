@@ -343,7 +343,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_PERKS</LocID>                              <Text>Gizli sır</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>TOOLTIP_GO_TO_DOCTOR</LocID>                              <Text>Doktorun kartını göster</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_CRITICAL_PATIENT</LocID>                          <Text>Bu hasta kritik durumda. kollapse giden en az bir semptomu var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CRITICAL_PATIENT</LocID>                          <Text>Bu hasta kritik durumda. şok sebebi olan en az bir semptomu var.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_DIAGNOSIS_FINISHED_DIAGNOSIS</LocID>              <Text>Tanı geçmişini göster</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DIAGNOSIS_PATIENT_BALANCE</LocID>                 <Text>Hastanın kartını göster</Text>  </GameDBLocalizedString>
@@ -353,7 +353,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PASSED_SYMPTOMS</LocID>                  <Text>Semptom geçmişi</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_SORT_SYMPTOMS</LocID>                    <Text>Semptomları sırala</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_OPEN_SYMPTOMS_LIST</LocID>               <Text>Semptom tablosunu göster</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PRIORITY_SEND_HOME</LocID>               <Text>Tedavi edilen hastayı eve gönderin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PRIORITY_SEND_HOME</LocID>               <Text>Taburcu edin</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_SEND_TO_ANOTHER_HOSPITAL</LocID>                  <Text>Tedavi edilmeyen hastayı başka bir hastaneye nakledin</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>TOOLTIP_SYMPTOMS_PRIORITY_HOSPITALIZE</LocID>             <Text>Hastayı yatır</Text>  </GameDBLocalizedString>
@@ -386,7 +386,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_NIGHT_SHIFT</LocID>                               <Text>Gece vardiyası</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_OPEN_SHIFT_LIST</LocID>                           <Text>Vardiya listesini aç</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_RENAME_CHARACTER</LocID>                          <Text>Yeni isim ver</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_CONTROLED_PATIENTS</LocID>           	          <Text>Favori/kontro edilen hasta tablosunu aç</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CONTROLED_PATIENTS</LocID>           	          <Text>Favori/kontrol edilen hasta tablosunu aç</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_FOLLOW_BUTTON</LocID>           	              <Text>Kamera karakteri takip etsin</Text>  </GameDBLocalizedString>
                         
             <GameDBLocalizedString>      <LocID>TOOLTIP_OPEN_WORK_LIST</LocID>                            <Text>İşlem geçmişini aç</Text>  </GameDBLocalizedString>
@@ -591,7 +591,7 @@
             <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Sedyeler</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STRETCHERS_DESCRIPTION</LocID>                             <Text>Hastaalrı taşımak için.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_REQUIRED</LocID>                     <Text>Gerekli: </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_COUNT_DAY</LocID>                    <Text>Dündüz: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_COUNT_DAY</LocID>                    <Text>Gündüz: </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_COUNT_NIGHT</LocID>                  <Text>Gece: </Text>  </GameDBLocalizedString>
             
             <!-- Tables -->
@@ -757,7 +757,7 @@
 
             <GameDBLocalizedString>      <LocID>PRESTIGE</LocID>                            <Text>Gün sonunda %{1} prestije ulaş</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PRESTIGE_AT_DEPARTMENT</LocID>              <Text>{2} gün sonunda %{1} prestije ulaş </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY_AT_DEPARTMENT</LocID>        <Text>{2} günde günlük ${1} gelire ulaş</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROFIT_PER_DAY_AT_DEPARTMENT</LocID>        <Text>{2} bölümünde, günlük ${1} gelire ulaş</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>AMBULANCE_NAME</LocID>                      <Text>Ambulans</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>AMBULANCE_MAINTENANCE</LocID>               <Text>Bakım:</Text>  </GameDBLocalizedString>
@@ -850,7 +850,7 @@
             <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Hastalar taşınırken,şoktayken veya stabilize edilirken bölüm değiştirilemez.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>DİL - LANGUAGE</Text>  </GameDBLocalizedString>
-            
+            <!--  update  15.11.18 --> <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>         <Text>Sadece tanı konulabilmiş hastalarınızı, travma ünitesine yatırabilirsiniz.</Text>  </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
