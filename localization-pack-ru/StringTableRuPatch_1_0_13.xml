@@ -1,0 +1,94 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_PATCH_1_0_13">
+    
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            
+            <GameDBLocalizedString>      <LocID>ReservingAmbulance</LocID>                      <Text>Ожидание скорой помощи</Text>  </GameDBLocalizedString>
+
+            <!-- Note: used in second half of a sentence, lower-case is intentional -->
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_EXM</LocID>                    <Text>ожидание свободной смотровой</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_TRT</LocID>                    <Text>ожидание свободной процедурной</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_SURG</LocID>                   <Text>ожидание свободной операционной</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_EXM</LocID>                   <Text>ожидание доктора/лаборанта для осмотра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_TRT</LocID>                   <Text>ожидание доктора/лаборанта для лечения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_SURG</LocID>                  <Text>ожидание хирургической команды</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_EXM</LocID>               <Text>ожидание транспортировки на осмотр</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_TRT</LocID>               <Text>ожидание транспортировки на лечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_SURG</LocID>              <Text>ожидание транспортировки на операцию</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_CRITICAL_PATIENTS</LocID>           <Text>приоритет пациентам в критическом состоянии</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SKIPPED_AFTER_LONG_WAIT</LocID>                 <Text>Пропущено после слишком долгого ожидания</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULED_PROCEDURE_WAITING</LocID>             <Text>Вставлено в расписание</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBedFix</LocID>           <Text>В кровати отсутствует необходимая техника</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+
+            <!-- Roles - for other usage in the UI see SEGMENT_HEADING_ROLES in StringTable[Language]UI.xml -->
+            <!-- Roles - for the list of employee roles see EMPL_ROLE_EXM_TRT in StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES</LocID>                          <Text>У сотрудника нет роли!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES_TEXT</LocID>                     <Text>Для сотрудника нет доступных ролей, он не будет ничего делать.</Text>  </GameDBLocalizedString>
+
+            <!-- Workload - see UI_ROOM_USAGE_DAY in StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY</LocID>              <Text>Статистика загрузки палат</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY_TEXT</LocID>         <Text>Статистика дневной смены:\nПростаивающих палат: {1}\nПалат с критической загрузкой: {2}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT</LocID>            <Text>Статистика загрузки палат</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT_TEXT</LocID>       <Text>Статистика ночной смены:\nПростаивающих палат: {1}\nПалат с критической загрузкой: {2}</Text>  </GameDBLocalizedString>
+
+            <!-- Broken beds/rooms -->
+            <!-- The room names filled in are from StringTable[Language]BuildingMode.xml, for example: -->
+            <!-- ROOM_TYPE_ER_OBSERVATION_ROOM, ROOM_TYPE_INTENSIVE_CARE_UNIT, ROOM_TYPE_INPATIENT_WARD, ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD -->
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED</LocID>   <Text>Кровать пациента сломана.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TEXT</LocID><Text>Отремонтируйте кровать, иначе пациент займет другую свободную кровать или покинет госпиталь.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER</LocID>   <Text>Пациент занимает другую кровать.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER_TEXT</LocID> <Text>Кровать пациента сломалась, поэтому пациенту предоставлена другая кровать.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Пациент ожидает, когда ему дадут другую кровать.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text><![CDATA[Кровать пациента сломана, нужно предоставить пациенту другую кровать, но в палате <i>{1}</i> нет свободных кроватей.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Пациент ожидает, когда ему дадут другую кровать.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text>Кровать пациента сломана, нужно предоставить пациенту новую кровать, но сейчас у нас нет свободных медсестер, чтобы это сделать.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT</LocID>   <Text>Пациент ожидает перевода в другую палату.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Палата пациента нуждается в ремонте или недоступна, нужно перевести пациента в другую палату <i>{1}</i>, но сейчас у нас нет свободных медсестер, чтобы это сделать.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY</LocID>   <Text>Пациент переводится в другой госпиталь.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY_TEXT</LocID> <Text>Кровать пациента была сломана слишком долго, пациент переводится в другой госпиталь.</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+
+            <!-- Status column in table of patients -->
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_STATUS</LocID>               <Text>Состояние</Text>  </GameDBLocalizedString>
+            
+            <!-- Workload shown in department management mode for individual rooms (on the floor) -->
+            <GameDBLocalizedString>      <LocID>WORKLOAD_NONE</LocID>                           <Text>Пусто</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_LOW</LocID>                            <Text>Низкое</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_MEDIUM</LocID>                         <Text>Среднее</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_HIGH</LocID>                           <Text>Высокое</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_CRITICAL</LocID>                       <Text>КРИТИЧЕСКОЕ</Text>  </GameDBLocalizedString>
+
+            <!-- Marker of rooms extended outdoors in department management mode for individual rooms (on the floor) -->
+            <GameDBLocalizedString>      <LocID>UI_ROOM_OUTDOORS</LocID>                        <Text>СНАРУЖИ</Text>  </GameDBLocalizedString>
+            
+            <!-- Department management mode, neurology, on the right panel (hospitalization) -->
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_NEURO</LocID>                  <Text>Невролог</Text>  </GameDBLocalizedString>
+
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   
