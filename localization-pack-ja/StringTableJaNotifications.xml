@@ -2,234 +2,241 @@
     <GameDBStringTable ID="LOC_JA_NOTIFICATIONS">
         
         <LanguageCode>ja</LanguageCode>
-        <LanguageNameLocalized>Please translate 'Japanese' to Japanese :)</LanguageNameLocalized>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
     
         <Contributors>
-          <Name>Fill your names!</Name>
+          <Name>mashitaro</Name>
         </Contributors>
         
         <LocalizedStrings>
             <!-- Notifications -->
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN</LocID>                  <Text>Hospital now accepts patients!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN_TEXT</LocID>             <Text>The hospital now has enough staff to accept first patients. First insurance companies are automatically contracted.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN</LocID>                  <Text>患者の受入が可能になりました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITAL_OPEN_TEXT</LocID>             <Text>病院に必要な従業員が揃い、最初の患者を受入可能になりました。最初の保険会社と自動的に契約を締結しました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL</LocID>        <Text>Insurance company can be contracted!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL_TEXT</LocID>   <Text><![CDATA[Insurance company <i>{1}</i> can be contracted to send patients!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL</LocID>        <Text>新たな保険会社と契約が可能です！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOW_AVLBL_TEXT</LocID>   <Text><![CDATA[保険会社 <i>{1}</i>と契約し患者の受入が可能になりました！]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK</LocID>             <Text>Employee got drunk last night!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK_TEXT</LocID>        <Text>Employee got drunk last night! Won't feel too good today...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK</LocID>             <Text>従業員が昨晩泥酔しました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK_TEXT</LocID>        <Text>従業員が昨晩泥酔しました！今日は調子がよくありません…</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM</LocID>                <Text>There's no waiting room available for clinic patients!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_TEXT</LocID>           <Text><![CDATA[There's no valid waiting room within reach of a doctor's office at <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM</LocID>                <Text>病院に患者用の待合室がありません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_TEXT</LocID>           <Text><![CDATA[<i>{1}</i>の診察室に到達可能な待合室がありません。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>There's no waiting room available around a diagnostic room!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</LocID>       <Text><![CDATA[There's no valid waiting room within reach of a <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>診察室用の待合室がありません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</LocID>       <Text><![CDATA[<i>{1}</i>に到達可能な待合室がありません。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY</LocID>      <Text>There's no waiting room available at radiology!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY_TEXT</LocID> <Text>There's no valid waiting room within reach of the radiology rooms!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY</LocID>      <Text>放射線科の待合室がありません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY_TEXT</LocID> <Text>放射線診断室に到達可能な待合室がありません！</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING</LocID>         <Text>Department is not working!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING_TEXT</LocID>    <Text>There's no working department available for clinic patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING</LocID>         <Text>診療科が機能していません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DEPARTMENT_NOT_WORKING_TEXT</LocID>    <Text>患者の受入が可能な診療科がありません。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS</LocID>                <Text>Patient got incorrectly diagnosed!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_TEXT</LocID>           <Text>According to performed examinations it's not possible for the patient to have the selected diagnosis!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS</LocID>                <Text>誤診が発生しました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_TEXT</LocID>           <Text>検査結果によると診断内容は間違っていたようです！</Text>  </GameDBLocalizedString>
                         
-            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS</LocID>        <Text>Patient with incorrect diagnosis returns!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>Patient got worse because a wrong diagnosis was treated.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS</LocID>        <Text>誤診された患者が再訪しました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>誤診とそれに基づく治療により患者の病状が悪化しました。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>There's no clear diagnosis!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>There's no clear diagnosis! Consider adding more diagnostic equipment, laboratories or radiology rooms. The patient will leave soon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>明確な病気の診断ができません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>明確な診断が行なえません！更なる診断用の設備、検査室、放射線室が必要です。患者はまもなく帰宅します。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT</LocID>                   <Text>Patient can't be fully treated!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TEXT</LocID>              <Text><![CDATA[Treatment for patient's diagnosis is not available: <i>{1}</i>.\nMake it work quickly, the patient is getting ready to leave.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT</LocID>                   <Text>治療が行えません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TEXT</LocID>              <Text><![CDATA[診断結果に対応可能な以下の治療方法が使用できません: <i>{1}</i>\n直ちに対応しなければ患者は帰宅します。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION</LocID>             <Text>Patient can't be hospitalized!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_TEXT</LocID>        <Text><![CDATA[Needed level of hospitalization is not available: <i>{1}</i>! Make it work quickly, the patient is getting ready to leave.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION</LocID>             <Text>入院できません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_TEXT</LocID>        <Text><![CDATA[<i>{1}</i>に必要なレベルの入院施設がありません！直ちに対応しなければ患者は帰宅します。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT</LocID> <Text>Patient can't be hospitalized!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT_TEXT</LocID><Text><![CDATA[Hospitalization on <i>{1}</i> is not functional or missing! Make it work quickly, the patient is getting ready to leave.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT</LocID> <Text>入院できません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT_TEXT</LocID><Text><![CDATA[<i>{1}</i>の入院施設が不足しているか機能していません！直ちに対応しなければ患者は帰宅します。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS</LocID>          <Text>Complicated diagnosis!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>Diagnosing a patient proved to be difficult for the doctor's diagnostic skill level.\nYou can help by selecting the next examination.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS</LocID>          <Text>診断結果が複雑です！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>この患者の病状は医師の診断能力を超えています。\nあなた自ら次の検査を行うことで手助けが可能です。</Text>  </GameDBLocalizedString>
 
             <!-- TODO perk? -->
-            <!--GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM</LocID>       <Text>Patient doesn't have enough money to pay for examination!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM_TEXT</LocID>  <Text>Patient doesn't have enough money to pay for examination!</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM</LocID>       <Text>患者は検査のために十分なお金を持っていません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_EXM_TEXT</LocID>  <Text>患者は検査のために十分なお金を持っていません！</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT</LocID>       <Text>Patient doesn't have enough money to pay for treatment!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT_TEXT</LocID>  <Text>Patient doesn't have enough money to pay for treatment!</Text>  </GameDBLocalizedString-->
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT</LocID>       <Text>患者は治療費を支払うのに十分なお金がありません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COUNLDNT_PAY_TRT_TEXT</LocID>  <Text>患者は治療費を支払うのに十分なお金がありません！</Text>  </GameDBLocalizedString-->
             
-            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP</LocID>               <Text>Skill leveled up!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP_TEXT</LocID>          <Text><![CDATA[Skill leveled up: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP</LocID>               <Text>スキルレベルが増加しました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SKILL_LEVELED_UP_TEXT</LocID>          <Text><![CDATA[スキルレベルが向上: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP</LocID>           <Text>Employee leveled up!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_TEXT</LocID>      <Text>Employee leveled up, is now {1}!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP</LocID>           <Text>従業員がレベルアップしました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_TEXT</LocID>      <Text>従業員が{1}にレベルアップ！</Text>  </GameDBLocalizedString>
   
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION</LocID>       <Text>Employee leveled up (specialization available)!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION_TEXT</LocID>  <Text><![CDATA[Employee leveled up, is now <i>{1}</i> and has selected first specialization! If you'd like to change it, the earlier the better!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION</LocID>       <Text>従業員がレベルアップし、専門分野が選択可能になりました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION_TEXT</LocID>  <Text><![CDATA[従業員が<i>{1}</i>にレベルアップし、最初の専門分野が選択可能になりました！選択するなら早いにこしたことはありません！]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION</LocID>      <Text>Employee leveled up (specialization available)!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</LocID> <Text><![CDATA[Employee leveled up, is now <i>{1}</i> and has selected second specialization! If you'd like to change it, the earlier the better!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION</LocID>      <Text>従業員がレベルアップし、専門分野が選択可能になりました！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</LocID> <Text><![CDATA[従業員が<i>{1}</i>にレベルアップし、2つ目の専門分野が選択可能になりました！選択するなら早いにこしたことはありません！]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE</LocID>                   <Text>Employee has no workspace.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>Employee has no workspace, will be idle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE</LocID>                   <Text>従業員の職場がありません。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>従業員の職場が無く、待機状態になります。直ちに職場を割り当てないと従業員は帰宅します。(この従業員の診療科に休憩室がない場合、即座に帰宅します)</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL</LocID>                  <Text>Employee doesn't have required specialization.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL_TEXT</LocID>             <Text><![CDATA[Specialization <i>{1}</i> is required for employees in this room.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL</LocID>                  <Text>従業員に必要な専門分野がありません。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL_TEXT</LocID>             <Text><![CDATA[この部屋で働くには専門分野 <i>{1}</i>が必要です。]]></Text>  </GameDBLocalizedString>
       
-            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL</LocID>                      <Text>Clinic employees need their own office.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL_TEXT</LocID>                 <Text>Clinic employees can't share their room with other staff (but feel free to place multiple room markers within one set of walls in management mode).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL</LocID>                      <Text>従業員には職場が必要です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL_TEXT</LocID>                 <Text>これ以上の従業員はこの部屋では働けません(しかし壁で区切ることで別の部屋として定義することは可能です)。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED</LocID>                <Text>Employee got fired.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED_TEXT</LocID>           <Text>Employee will leave as soon as they are finished with current procedure.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED</LocID>                <Text>従業員が解雇されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED_TEXT</LocID>           <Text>従業員は現在の手続きが完了後、解雇されます。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS</LocID>   <Text>Procedures have finished.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS_TEXT</LocID><Text><![CDATA[Scheduled procedures have finished (last was <i>{1}</i>), the patient is waiting for you to plan another examination or select a diagnosis.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS</LocID>   <Text>手続きが完了しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS_TEXT</LocID><Text><![CDATA[<i>{1}</i>を完了したことで予定されていた手続きは全て終了しました。患者は次の検査か診断を待っています。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT</LocID>   <Text>Procedures have finished for a diagnosed patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT_TEXT</LocID><Text><![CDATA[Scheduled procedures have finished (last was <i>{1}</i>), the patient is waiting for you to plan another treatment or send them home.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT</LocID>   <Text>診断済の患者の手続きが完了しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT_TEXT</LocID><Text><![CDATA[<i>{1}</i>を完了したことで予定されていた手続きは全て終了しました。患者は新たな治療の実行か帰宅許可を待っています。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED</LocID>             <Text>Patient has been diagnosed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED_TEXT</LocID>        <Text>Treatments for the diagnosis and for the known symptoms are available to be planned.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED</LocID>             <Text>診断が完了しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_DIAGNOSIS_SELECTED_TEXT</LocID>        <Text>判明済の症状のための治療が実行可能です。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED</LocID>     <Text>Favorite patient has been diagnosed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED_TEXT</LocID><Text><![CDATA[Favorite patient has been diagnosed with <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED</LocID>     <Text>お気に入りの患者の診断が完了しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED_TEXT</LocID><Text><![CDATA[お気に入りの患者は<i>{1}</i>と診断されました。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED</LocID>       <Text>Favorite patient has been treated.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</LocID>  <Text>Favorite patient has been treated and is going home.</Text>  </GameDBLocalizedString><!-- TODO check -->
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED</LocID>       <Text>お気に入りの患者の治療が完了しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</LocID>  <Text>お気に入りの患者の治療が完了し、帰宅しました。</Text>  </GameDBLocalizedString><!-- TODO check -->
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED</LocID> <Text>Lab procedure uncovered a symptom.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</LocID><Text><![CDATA[Lab procedure uncovered a new symptom of a favorite patient: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED</LocID> <Text>検査室での検査により新たな症状が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</LocID><Text><![CDATA[お気に入りの患者に対し、検査により新たな症状 <i>{1}</i>が判明しました。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>New hidden symptom appeared on a monitored patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>New hidden symptom appeared on a monitored patient, this could be critical.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>モニター中の患者で新たな症状が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>モニター中の患者で新たに深刻な症状が判明しました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>New hidden symptom appeared on a favorite patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>New hidden symptom appeared on a favorite patient, this could be critical.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>お気に入りの患者で新たな症状が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>お気に入りの患者で新たに深刻な症状が判明しました。</Text>  </GameDBLocalizedString>
 
             <!-- TODO after beta: levels and first collapse -->
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING</LocID>                <Text>Patient is collapsing.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING_TEXT</LocID>           <Text>Patient is collapsing! Your staff will do their best to keep them alive.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING</LocID>                <Text>患者が意識不明になりました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_COLLAPSING_TEXT</LocID>           <Text>患者が意識不明になりました！従業員が生命維持のために最善を尽くしています。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING</LocID>       <Text>Favorite patient is collapsing.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING_TEXT</LocID>  <Text>Favorite patient is collapsing! Your staff will do their best to keep them alive.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING</LocID>       <Text>お気に入りの患者が意識不明になりました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_COLLAPSING_TEXT</LocID>  <Text>お気に入りの患者が意識不明になりました！従業員が生命維持のために最善を尽くしています。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING</LocID>      <Text>Monitored patient is collapsing.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING_TEXT</LocID><Text>Monitored patient is collapsing! Your staff will do their best to keep them alive.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING</LocID>      <Text>モニター中の患者が意識不明になりました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING_TEXT</LocID><Text>モニター中の患者が意識不明になりました！従業員が生命維持のために最善を尽くしています。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID><Text>New hidden symptom appeared on your patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Nurse found {1} new hidden symptom(s) on your patient, this could be critical.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID><Text>あなたの担当する患者で新たな症状が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>看護師により患者より{1}個の未発見の症状を検出しました。生命に関わるものも含まれています。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID>  <Text>New hidden symptom appeared on a favorite patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Nurse found {1} new hidden symptom(s) on a favorite patient, this could be critical.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID>  <Text>お気に入りの患者で新たな症状が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>看護師によりお気に入りの患者より{1}個の未発見の症状を検出しました。生命に関わるものも含まれています。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED</LocID>               <Text>Objective complete!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED_TEXT</LocID>          <Text><![CDATA[Objective for insurance company has been completed: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED</LocID>               <Text>目標達成！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OBJECTIVE_PASSED_TEXT</LocID>          <Text><![CDATA[保険会社の以下の目標を達成しました: <i>{1}</i>。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED</LocID>              	 <Text>Perk revealed!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED_TEXT</LocID>          	 <Text><![CDATA[It looks like a character has the following perk: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED</LocID>              	 <Text>特性が判明！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PERK_REVEALED_TEXT</LocID>          	 <Text><![CDATA[この人物は以下の特性を持っているようです: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_OPEN_FOR_PATIENTS</LocID>              <Text>Clinic opening hours start!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_OPEN_FOR_PATIENTS_TEXT</LocID>         <Text>The clinic is now open for patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OPEN_FOR_PATIENTS</LocID>              <Text>開業時間！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_OPEN_FOR_PATIENTS_TEXT</LocID>         <Text>患者の受入を開始しました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS</LocID>            <Text>Clinic opening hours end!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_TEXT</LocID>       <Text>The clinic has closed for patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS</LocID>            <Text>終業時間！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_TEXT</LocID>       <Text>患者の受入を終了しました。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED</LocID>              <Text>Long wait for bed!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED_TEXT</LocID>         <Text><![CDATA[There's no free bed for the required hospitalization: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED</LocID>              <Text>ベッドの空き待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED_TEXT</LocID>         <Text><![CDATA[以下の入院患者用の空きベッドがありません: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION</LocID>      <Text>Long wait for examination!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION_TEXT</LocID> <Text><![CDATA[Bed required for examination (<i>{1}</i>) is occupied or your staff has been busy for a long time.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION</LocID>      <Text>検査の待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION_TEXT</LocID> <Text><![CDATA[検査(<i>{1}</i>)のためのベッドが使用中かまたは従業員が多忙で長く待たされています。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TREATMENT</LocID>        <Text>Long wait for treatment!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TREATMENT_TEXT</LocID>   <Text><![CDATA[Bed required for treatment (<i>{1}</i>) is occupied or your staff has been busy for a long time.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TREATMENT</LocID>        <Text>治療の待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TREATMENT_TEXT</LocID>   <Text><![CDATA[治療(<i>{1}</i>)のためのベッドが使用中かまたは従業員が多忙で長く待たされています。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE</LocID>             <Text>Collapsed patient is waiting for bed!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE_TEXT</LocID>        <Text><![CDATA[There's no free bed for the required hospitalization: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE</LocID>             <Text>意識不明の患者のベッドの空き待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE_TEXT</LocID>        <Text><![CDATA[以下の人物用の空きベッドがありません: <i>{1}</i>]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE</LocID>    <Text>Collapsed patient can't be hospitalized!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE_TEXT</LocID>        <Text><![CDATA[Required hospitalization isn't available: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE</LocID>    <Text>意識不明の患者が入院不能です！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE_TEXT</LocID>        <Text><![CDATA[以下の人物用の入院施設がありません: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT</LocID>        <Text>Long wait for transport!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_TEXT</LocID>   <Text>Is there enough free nurses to transport the patient?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT</LocID>        <Text>移送の待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_TEXT</LocID>   <Text>患者を移送するための看護師は足りていますか？</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF</LocID><Text>Long wait for defibrillation!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF_TEXT</LocID><Text>Is there enough free nurses and free doctors for defibrillaton?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF</LocID><Text>除細動の待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF_TEXT</LocID><Text>除細動のための医師と看護師は足りていますか？</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE</LocID><Text>Long wait for defibrillation!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE_TEXT</LocID><Text>Is there enough free nurses for defibrillaton?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE</LocID><Text>除細動の待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE_TEXT</LocID><Text>除細動のための看護師は足りていますか？</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR</LocID><Text>Long wait for defibrillation!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR_TEXT</LocID><Text>Is there enough free doctors for defibrillaton?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR</LocID><Text>除細動の待ち時間が長くなっています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR_TEXT</LocID><Text>除細動のための医師は足りていますか？</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>Patient needs to be hospitalized before surgery!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>Surgical procedures require prior hospitalization.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>患者は手術前に入院する必要があります！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>手術のためには入院が必要です。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START</LocID>                    <Text>Breaking news:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START</LocID>                    <Text>緊急ニュース:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>Event successful.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>You were able to complete the event in time. Congratulations!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>イベント成功。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID><Text>{1}</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Event failed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>You were not able to complete the event in time. Don't be sad and try again!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>イベント失敗。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID><Text>時間内にイベントへの対処が行えなかったか、患者の1人が死亡または他の病院に移送されました。あなたの名声は今日またはイベントが成功するまで低下します。\nまた以下の罰金が課せられました: ${1}</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Patient died. :(</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>Patient's condition was critical and despite your doctor's best efforts they couldn't be saved. Would a more efficient hospital handle this case better?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>患者が死亡しました。 :(</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>患者の状態が深刻なものとなり、医師は最善を尽くしたものの救うことはできませんでした。もっと効率的な病院なら違っていたかもしれません。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING</LocID>           <Text>Patient is leaving.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING_TEXT</LocID>      <Text>Patient that couldn't be treated is leaving.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING</LocID>           <Text>治療を受けられずに患者が帰宅しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_LEAVING_TEXT</LocID>      <Text>患者は治療を受けられないまま帰宅しました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY</LocID>        <Text>Patient is being transported to another hospital.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY_TEXT</LocID>   <Text>Patient that couldn't be treated is being transported to another hospital.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY</LocID>        <Text>患者は他の病院へと移送されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TAKEN_AWAY_TEXT</LocID>   <Text>患者は治療を受けられないまま他の病院へ移送されました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY</LocID>            <Text>Collapsed patient is being transported to another hospital.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY_TEXT</LocID>       <Text>Collapsed patient was waiting for too long and is being transported to another hospital.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY</LocID>            <Text>意識不明の患者は他の病院へと移送されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLLAPSE_TAKEN_AWAY_TEXT</LocID>       <Text>意識不明状態の患者が長く待たされた結果、他の病院へ移送されました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER</LocID>       <Text>ICU hospitalization has finished.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER_TEXT</LocID>  <Text>Controlled patient was stabilized and is now being moved to responsible department.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER</LocID>       <Text>ICUの入院が完了。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER_TEXT</LocID>  <Text>担当中の患者の安定化が完了し、元の診療科へ戻されました。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER</LocID><Text>Hospitalization over.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</LocID> <Text>Controlled patient was treated and is now ready to go home. Release the patient from your care.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER</LocID><Text>入院が完了。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</LocID> <Text>担当中の患者の治療が完了し、帰宅可能になりました。患者はあなたの担当から外されました。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM</LocID><Text>Patient does not have functional room.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM_TEXT</LocID> <Text><![CDATA[Fix : <i>{1}</i> otherwise patient will be transferred to another available room or sent away.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM</LocID><Text>患者を受け入れ可能な部屋がありません。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM_TEXT</LocID> <Text><![CDATA[<i>{1}</i>を修理しなければ患者は別の部屋か他の病院へ移送されます。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM</LocID>   <Text>Patient's room got deleted.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TEXT</LocID> <Text><![CDATA[Patient will be transferred to another room or sent away.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM</LocID>   <Text>患者の部屋が削除されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TEXT</LocID> <Text><![CDATA[患者は別の部屋か他の病院へ移送されます。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER</LocID>   <Text>Patient is being transferred to a new room.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_TEXT</LocID> <Text><![CDATA[Patient's room was broken or unavailable so we are transferring patient to new: <i>{1}</i> room]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER</LocID>   <Text>患者が新たな部屋に移送されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_TEXT</LocID> <Text><![CDATA[患者の部屋が故障するか利用不能になり、新たに<i>{1}</i>へと移されました。]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT</LocID>   <Text>Patient is waiting for transfer to new room.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Patient's room is broken or unavailable so we need to transfer patient to new: <i>{1}</i> room, but there is no free bed available.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT</LocID>   <Text>患者は新たな部屋への移送を待っています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[患者の部屋が故障するか利用不能になり、新たに<i>{1}</i>への移送が必要となりましたが、空きベッドがありませんでした。]]></Text>  </GameDBLocalizedString>
            
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY</LocID>   <Text>Patient is being transported to another hospital.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>Patient's room was broken or unavailable for too long and is being transported to another hospital.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY</LocID>   <Text>患者は他の病院へと移送されます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>患者の部屋が故障するか利用不能になり、新たな部屋への移送を待っていましたが長すぎたため他の病院へ移送されました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>Achievement unlocked!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>Achievement unlocked:\n{1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>実績を達成！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>実績を達成:\n{1}</Text>  </GameDBLocalizedString>
             
-            <!-- UPDATED --> <GameDBLocalizedString>  <LocID>NOTIF_STAFF_EXHAUSTED</LocID>      <Text>Employee is exhausted!</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>  <LocID>NOTIF_STAFF_EXHAUSTED_TEXT</LocID> <Text>To keep their energy up, employees need to take a break at least a couple of times every day!</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>  <LocID>NOTIF_STAFF_EXHAUSTED</LocID>      <Text>従業員が疲弊しています！</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>  <LocID>NOTIF_STAFF_EXHAUSTED_TEXT</LocID> <Text>彼らの活力を保つためには、毎日数時間の休憩が必要となるでしょう！</Text>  </GameDBLocalizedString>
 
             <!-- Popup actions / buttons -->
-            <GameDBLocalizedString>      <LocID>POPUP_HIDDEN_BUTTON</LocID>                  <Text>(hidden)</Text>  </GameDBLocalizedString>     
-            <GameDBLocalizedString>      <LocID>POPUP_CUSTOM_DELEGATE</LocID>                <Text>(custom)</Text>  </GameDBLocalizedString>     
-            <GameDBLocalizedString>      <LocID>POPUP_OK</LocID>                             <Text>Ok</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>POPUP_TRY</LocID>                            <Text>Let the doctor try</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>POPUP_CONTINUE</LocID>                       <Text>Continue</Text>  </GameDBLocalizedString>     
-            <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>Go to</Text>  </GameDBLocalizedString>     
-            <GameDBLocalizedString>      <LocID>POPUP_SEND_HOME</LocID>                      <Text>Send home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Open insurance management</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_HIDDEN_BUTTON</LocID>                  <Text>(非表示)</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_CUSTOM_DELEGATE</LocID>                <Text>(カスタム)</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_OK</LocID>                             <Text>OK</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_TRY</LocID>                            <Text>医師に任せる</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_CONTINUE</LocID>                       <Text>継続</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>表示</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_SEND_HOME</LocID>                      <Text>家に送る</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>保険会社の管理画面を開く</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>Unnecessary surgery!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>The surgeons haven't found the expected symptoms during surgery! The patient was most likely misdiagnosed.\nA ${1} penalty has been immediately applied by their insurance company.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>不必要な手術！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>手術の間、予期していた症状は存在しませんでした！どうやら誤診だったようです。\n保険会社より${1}のペナルティが課せられました。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>You lost a case! :(</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>Patient's condition is critical and despite your doctor's best efforts the situation got out of control. The patient needs to be immediately transported to a better-equipped facility.</Text>  </GameDBLocalizedString>
-            
+            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>対応に失敗！ :(</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>患者の状態が深刻なものとなり、医師は最善を尽くしたものの状況を改善することはできませんでした。患者は直ちにもっと良い病院へと移送されました。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>制限時間内にイベントへの対処が完了しました。あなたの名声が増加し、さらに報奨金が与えられました。おめでとうございます！\n\n続けて成功したイベントの数: {1}\n報奨金: ${2}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>            <Text>診療科では患者の診断が行なえません！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>       <Text>この患者の診療科ではこれ以上の検査は行なえません。現在の状態から推測される、または追加の検査が行える他の診療科へ移送しましょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOT_AVLBL</LocID>       <Text>保険会社が利用不能</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOT_AVLBL_TEXT</LocID>  <Text><![CDATA[保険会社 <i>{1}</i>は現在利用不能です！]]></Text>  </GameDBLocalizedString>
+
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>

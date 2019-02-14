@@ -1,150 +1,595 @@
-<Database>
-    <GameDBStringTable ID="LOC_ZHHANS_ACHIEVEMENTS">
-
-        <LanguageCode>zh-Hans</LanguageCode>
-        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
-
-        <Contributors>
-          <Name>Oxymoron Games</Name>
-          <Name>棋山</Name>
-          <Name>胖胖糖</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--Building-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLACE_OBJECT</LocID>                       <Text>啊，就是那里</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLACE_OBJECT_DESCRIPTION</LocID>           <Text>恭喜，您已放置了您的第一个物品！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MORE_SPOTS</LocID>                         <Text>呃，还有这里！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MORE_SPOTS_DESCRIPTION</LocID>             <Text>放置了100个物品。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_All_SPOTS</LocID>                          <Text>喔，到处都是！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_All_SPOTS_DESCRIPTION</LocID>              <Text>放置了1000个物品。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_VERY_NICE</LocID>                          <Text>超棒！简直美极了！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_VERY_NICE_DESCRIPTION</LocID>              <Text>放置了100个装饰品。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GARDENER</LocID>                           <Text>园丁</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GARDENER_DESCRIPTION</LocID>               <Text>种植了30棵树木。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_SEE_YOU</LocID>                          <Text>隔墙有眼</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_SEE_YOU_DESCRIPTION</LocID>              <Text>放置了三十张视力测验表。</Text>  </GameDBLocalizedString>
-            The walls have eyes<GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOING_UP</LocID>        <Text>更上一层楼！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOING_UP_DESCRIPTION</LocID>               <Text>修建了新的楼层。</Text>  </GameDBLocalizedString>
-            The walls have eyes<GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOP_FLOOR</LocID>       <Text>欲穷千里目！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOP_FLOOR_DESCRIPTION</LocID>              <Text>修建到了顶楼。</Text>  </GameDBLocalizedString>
-
-            <!-- -->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BUILDER</LocID>                            <Text>建筑师</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BUILDER_DESCRIPTION</LocID>                <Text>你成功修建了具备所有必要设施的房间。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CRUSHER</LocID>                            <Text>拆迁队</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CRUSHER_DESCRIPTION</LocID>                <Text>你成功拆除了一个房间。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVER</LocID>                              <Text>搬运工</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVER_DESCRIPTION</LocID>                  <Text>移动了50个物品。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GREAT_WALL</LocID>                         <Text>医院之长城</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GREAT_WALL_DESCRIPTION</LocID>             <Text>修建了超过1000格的墙。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOILETS</LocID>                            <Text>玛尼欧登场！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOILETS_DESCRIPTION</LocID>                <Text>放置了30个马桶。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LITTER_FREE</LocID>                        <Text>没有垃圾</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LITTER_FREE_DESCRIPTION</LocID>            <Text>放置了30个垃圾桶</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BIOHAZARD</LocID>                          <Text>安全工作环境</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BIOHAZARD_DESCRIPTION</LocID>              <Text>放置了30个生物危害垃圾桶。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_INSTANT_HOSPITAL</LocID>                   <Text>速成医院</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_INSTANT_HOSPITAL_DESCRIPTION</LocID>       <Text>放置了15个预制房间。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHALL_NOT_PASS</LocID>                     <Text>You shall not pass!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHALL_NOT_PASS_DESCRIPTION</LocID>         <Text>修建了一个没有门的房间。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HOSPITAL_51</LocID>                        <Text>51区医院</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HOSPITAL_51_DESCRIPTION</LocID>            <Text>放置了10个卫星天线。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL</LocID>                  <Text>瞧我的医院！</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL_DESCRIPTION</LocID>       <Text>修建了所有部门都正常运转的医院。</Text>  </GameDBLocalizedString>
-
-            <!--Management-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE</LocID>                <Text>来这干活吧！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE_DESCRIPTION</LocID>    <Text>雇佣了你的第一位员工。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_STAFF</LocID>                         <Text>人事经理</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIRE_STAFF_DESCRIPTION</LocID>             <Text>雇佣了二十个员工。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRE_STAFF</LocID>                         <Text>大火快炒</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRE_STAFF_DESCRIPTION</LocID>             <Text>炒了二十个员工。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SIGN_INSURANCE</LocID>                     <Text>我保你平安！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SIGN_INSURANCE_DESCRIPTION</LocID>         <Text>成功和保险公司签约</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_BOSS</LocID>                         <Text>妙管家</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_BOSS_DESCRIPTION</LocID>             <Text>任命一位有“好老板”属性的主任医师。</Text>  </GameDBLocalizedString>
-
-            <!--Diagnoses-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT</LocID>                 <Text>赤脚医生</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT_DESCRIPTION</LocID>     <Text>第一次完成患者的治疗。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_PATIENTS</LocID>                      <Text>主治医师驾到！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CURE_PATIENTS_DESCRIPTION</LocID>          <Text>治疗了1000位患者。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES</LocID>                 <Text>Dr. Acula</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES_DESCRIPTION</LocID>     <Text>为50位你亲自负责的患者采集血样。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_X_RAY_TESTS</LocID>                        <Text>威廉·康拉德·伦琴</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_X_RAY_TESTS_DESCRIPTION</LocID>            <Text>送30位你亲自负责的患者去照X光。</Text>  </GameDBLocalizedString>
-
-            <!-- -->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEFT_DOCTOR</LocID>                        <Text>又弄错了</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEFT_DOCTOR_DESCRIPTION</LocID>            <Text>错误诊断了20位您亲自负责的患者。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_DOCTOR</LocID>                       <Text>妙手神医</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_RIGHT_DOCTOR_DESCRIPTION</LocID>           <Text>为患者正确诊断了20次。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MY_TURN</LocID>                            <Text>轮到我了！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MY_TURN_DESCRIPTION</LocID>                <Text>接管超过30位患者</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HELLO_ANYBODY</LocID>                      <Text>有人在吗？</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HELLO_ANYBODY_DESCRIPTION</LocID>          <Text>接管一位等候问诊超过两个小时（游戏内时间）的病人</Text>  </GameDBLocalizedString>
-
-            <!--Miscellaneous-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME</LocID>                 <Text>哪来的回哪去！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME_DESCRIPTION</LocID>     <Text>将20位患者送回家。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BANKER</LocID>                             <Text>银行家</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BANKER_DESCRIPTION</LocID>                 <Text>拥有 700 000$ 的资金。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPENDER</LocID>                            <Text>败家子</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPENDER_DESCRIPTION</LocID>                <Text>花掉1 000 000$.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JANITOR</LocID>                            <Text>Dr. Jan Itor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JANITOR_DESCRIPTION</LocID>                <Text>让你的保洁清扫了10 000格地块。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DONT_COLLAPSE</LocID>                      <Text>请患者不要死在走廊上！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>ACHIEVEMENT_DONT_COLLAPSE_DESCRIPTION</LocID>                <Text>经历了10次病人在走廊上病倒的事件。</Text>  </GameDBLocalizedString>
-
-            <!-- -->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALCOHOLIC</LocID>                          <Text>欸？好像有个酒吧？</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALCOHOLIC_DESCRIPTION</LocID>              <Text>雇佣了五个有“酒瘾”属性的员工</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PRODUCTIVE_DAY</LocID>                     <Text>充实的一天</Text>  </GameDBLocalizedString><!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PRODUCTIVE_DAY_DESCRIPTION</LocID>         <Text>玩了八个小时。</Text>  </GameDBLocalizedString><!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CMS</LocID>                                <Text>运转良好</Text>  </GameDBLocalizedString> <!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CMS_DESCRIPTION</LocID>                    <Text>得到了五星评价</Text>  </GameDBLocalizedString> <!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_POLYGOT</LocID>                            <Text>语言专家</Text>  </GameDBLocalizedString> <!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_POLYGOT_DESCRIPTION</LocID>                <Text>至少更改了三次游戏语言</Text>  </GameDBLocalizedString> <!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TWINKLE</LocID>                            <Text>一闪一闪亮晶晶</Text>  </GameDBLocalizedString><!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TWINKLE_DESCRIPTION</LocID>                <Text>你只得了一颗星。</Text>  </GameDBLocalizedString> <!--after release-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_EAGLE</LocID>                              <Text>EAAAAGLEEEE</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_EAGLE_DESCRIPTION</LocID>                  <Text>在放置一个物品前将其旋转四次</Text>  </GameDBLocalizedString>
-
-            <!--Campaign-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_1</LocID>                            <Text>实习医师</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_1_DESCRIPTION</LocID>                <Text>完成第一关。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_2</LocID>                            <Text>规培医师</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_2_DESCRIPTION</LocID>                <Text>完成第二关。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_3</LocID>                            <Text>住院医师 </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_3_DESCRIPTION</LocID>                <Text>完成第三关。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_4</LocID>                            <Text>主治医师</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_4_DESCRIPTION</LocID>                <Text>完成第四关。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_5</LocID>                            <Text>主任医师</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_5_DESCRIPTION</LocID>                <Text>完成第五关。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_6</LocID>                            <Text>院长</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LEVEL_6_DESCRIPTION</LocID>                <Text>完成第六关。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_GOOD_CREDIT</LocID>                        <Text>信用良好</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString> <LocID>ACHIEVEMENT_GOOD_CREDIT_DESCRIPTION</LocID>                 <Text>在第四关内仅用20天就偿还了债务</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHIEF_OF_CHIEFS</LocID>                    <Text>首席院长</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHIEF_OF_CHIEFS_DESCRIPTION</LocID>        <Text>完成了第六关终得所有目标</Text>  </GameDBLocalizedString> <!-- There are three currently -->
-
-
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_1</LocID>                  <Text>急诊科主任</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_1_DESCRIPTION</LocID>      <Text>完成了挑战关卡1。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_2</LocID>                  <Text>普外科主任</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_2_DESCRIPTION</LocID>      <Text>完成了挑战关卡2。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_3</LocID>                  <Text>内科主任</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_3_DESCRIPTION</LocID>      <Text>完成了挑战关卡3。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_4</LocID>                  <Text>骨科主任</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_4_DESCRIPTION</LocID>      <Text>完成了挑战关卡4。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_5</LocID>                  <Text>心脏科主任</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_5_DESCRIPTION</LocID>      <Text>完成了挑战关卡5。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_6</LocID>                  <Text>神经内科主任</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_6_DESCRIPTION</LocID>      <Text>完成了挑战关卡6。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN</LocID>                             <Text>隐藏成就</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN_DESCRIPTION</LocID>                 <Text>继续游戏来完成这个成就</Text>  </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+﻿<Database>
+  <GameDBStringTable ID="LOC_ZHHANS_ACHIEVEMENTS">
+    <LanguageCode>zh-Hans</LanguageCode>
+    <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+    <Contributors>
+      <Name>ParaTranz</Name>
+      <Name>@bruceCzK</Name>
+      <Name>@mm615657</Name>
+      <Name>@hailun2008</Name>
+      <Name>@cwl733</Name>
+      <Name>@BattleOil</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_PLACE_OBJECT</LocID>
+        <Text>啊，就是那里</Text>
+        <!-- Ah, that's the spot -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_PLACE_OBJECT_DESCRIPTION</LocID>
+        <Text>恭喜，您已放置第一个物品！</Text>
+        <!-- Congratulations, you placed your first object! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_MORE_SPOTS</LocID>
+        <Text>呃，还有这里！</Text>
+        <!-- Uh, more spots! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_MORE_SPOTS_DESCRIPTION</LocID>
+        <Text>放置100个物品。</Text>
+        <!-- Place 100 single objects. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_All_SPOTS</LocID>
+        <Text>喔，到处都是！</Text>
+        <!-- Oh, all the spots!  -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_All_SPOTS_DESCRIPTION</LocID>
+        <Text>放置1000个物品。</Text>
+        <!-- Place 1000 single objects. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_VERY_NICE</LocID>
+        <Text>超棒！简直美极了！</Text>
+        <!-- Very nice! Absolutely beautiful! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_VERY_NICE_DESCRIPTION</LocID>
+        <Text>放置100个装饰品。</Text>
+        <!-- Place 100 decorations. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GARDENER</LocID>
+        <Text>园丁</Text>
+        <!-- Gardener -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GARDENER_DESCRIPTION</LocID>
+        <Text>种植30棵树木。</Text>
+        <!-- Place 30 trees. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_I_SEE_YOU</LocID>
+        <Text>隔墙有眼</Text>
+        <!-- The walls have eyes -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_I_SEE_YOU_DESCRIPTION</LocID>
+        <Text>放置三十张视力测验表。</Text>
+        <!-- Place 30 eye test posters. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GOING_UP</LocID>
+        <Text>更上一层楼！</Text>
+        <!-- Going up! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GOING_UP_DESCRIPTION</LocID>
+        <Text>修建新的楼层。</Text>
+        <!-- Build first floor. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_TOP_FLOOR</LocID>
+        <Text>欲穷千里目！</Text>
+        <!-- Top floor, please! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_TOP_FLOOR_DESCRIPTION</LocID>
+        <Text>修建到顶楼。</Text>
+        <!-- Build the maximum amount of floors. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BUILDER</LocID>
+        <Text>建筑师</Text>
+        <!-- Builder -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BUILDER_DESCRIPTION</LocID>
+        <Text>你成功修建具备所有必要设施的房间。</Text>
+        <!-- Build your first room with mandatory equipment. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CRUSHER</LocID>
+        <Text>拆迁队</Text>
+        <!-- Destroyer -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CRUSHER_DESCRIPTION</LocID>
+        <Text>拆除第一个房间。</Text>
+        <!-- Remove your first room. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_MOVER</LocID>
+        <Text>搬运工</Text>
+        <!-- Mover -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_MOVER_DESCRIPTION</LocID>
+        <Text>移动50个物品。</Text>
+        <!-- Move 50 objects. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GREAT_WALL</LocID>
+        <Text>医院长城</Text>
+        <!-- The Great wall of hospital -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GREAT_WALL_DESCRIPTION</LocID>
+        <Text>修建超过1000格的墙。</Text>
+        <!-- Build over 1000 tiles of walls. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_TOILETS</LocID>
+        <Text>马尼欧登场！</Text>
+        <!-- It's a me, Marius! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_TOILETS_DESCRIPTION</LocID>
+        <Text>放置30个马桶。</Text>
+        <!-- Place 30 toilets. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LITTER_FREE</LocID>
+        <Text>没有垃圾</Text>
+        <!-- Litter free -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LITTER_FREE_DESCRIPTION</LocID>
+        <Text>放置30个垃圾桶。</Text>
+        <!-- Place 30 trashcans. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BIOHAZARD</LocID>
+        <Text>安全工作环境</Text>
+        <!-- Safe working environment -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BIOHAZARD_DESCRIPTION</LocID>
+        <Text>放置30个生物危害垃圾桶。</Text>
+        <!-- Place 30 bio-hazard trashcans. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_INSTANT_HOSPITAL</LocID>
+        <Text>速成医院</Text>
+        <!-- Instant hospital -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_INSTANT_HOSPITAL_DESCRIPTION</LocID>
+        <Text>放置了15个预制房间。</Text>
+        <!-- Place 15 prefabs. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SHALL_NOT_PASS</LocID>
+        <Text>You shall not pass!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SHALL_NOT_PASS_DESCRIPTION</LocID>
+        <Text>修建一个没有门的房间。</Text>
+        <!-- Build room without door access. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HOSPITAL_51</LocID>
+        <Text>51区医院</Text>
+        <!-- Hospital 51 -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HOSPITAL_51_DESCRIPTION</LocID>
+        <Text>放置10个卫星天线。</Text>
+        <!-- Build 10 satellites. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL</LocID>
+        <Text>瞧我的医院！</Text>
+        <!-- Do you like my hospital? -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_COMPLETE_HOSPITAL_DESCRIPTION</LocID>
+        <Text>修建所有部门都正常运转的医院。</Text>
+        <!-- Build functional hospital with every department. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE</LocID>
+        <Text>来这干活吧！</Text>
+        <!-- You are hired -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE_DESCRIPTION</LocID>
+        <Text>雇佣第一位员工。</Text>
+        <!-- Hire your first employee. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HIRE_STAFF</LocID>
+        <Text>人事经理</Text>
+        <!-- Manager -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HIRE_STAFF_DESCRIPTION</LocID>
+        <Text>雇佣20位员工。</Text>
+        <!-- Hire 20 employees. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_FIRE_STAFF</LocID>
+        <Text>大火快炒</Text>
+        <!-- On fire(d) -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_FIRE_STAFF_DESCRIPTION</LocID>
+        <Text>解雇20位员工。</Text>
+        <!-- Fire 20 employees. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SIGN_INSURANCE</LocID>
+        <Text>我保你平安！</Text>
+        <!-- I insure you -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SIGN_INSURANCE_DESCRIPTION</LocID>
+        <Text>成功与保险公司签约。</Text>
+        <!-- Contract an insurance company. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_RIGHT_BOSS</LocID>
+        <Text>妙管家</Text>
+        <!-- Who's the boss? -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_RIGHT_BOSS_DESCRIPTION</LocID>
+        <Text>任命一位有「好老板」特质的主任医生。</Text>
+        <!-- Assign a chief doctor with 'good boss' perk. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT</LocID>
+        <Text>赤脚医生</Text>
+        <!-- Young doctor -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CURE_FIRST_PATIENT_DESCRIPTION</LocID>
+        <Text>第一次完成患者的治疗。</Text>
+        <!-- Treat your first patient. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CURE_PATIENTS</LocID>
+        <Text>主治医生驾到！</Text>
+        <!-- Senior doctor in da house! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CURE_PATIENTS_DESCRIPTION</LocID>
+        <Text>治疗1000位患者。</Text>
+        <!-- Treat 1000 patients -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES</LocID>
+        <Text>德古拉</Text>
+        <!-- Dr. Acula -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BLOOD_TEST_SAMPLES_DESCRIPTION</LocID>
+        <Text>为50位你亲自负责的患者采集血样。</Text>
+        <!-- Withdraw blood from 50 patients under your care. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_X_RAY_TESTS</LocID>
+        <Text>威廉·康拉德·伦琴</Text>
+        <!-- Herr Wilhelm Röntgen -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_X_RAY_TESTS_DESCRIPTION</LocID>
+        <Text>送30位你亲自负责的患者去照X光。</Text>
+        <!-- Have 30 patients under your care undergo X-ray examination. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEFT_DOCTOR</LocID>
+        <Text>又弄错了</Text>
+        <!-- Wrong again -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEFT_DOCTOR_DESCRIPTION</LocID>
+        <Text>错误诊断20位您亲自负责的患者。</Text>
+        <!-- Misdiagnose 20 patients under your care. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_RIGHT_DOCTOR</LocID>
+        <Text>妙手神医</Text>
+        <!-- Doctor Right -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_RIGHT_DOCTOR_DESCRIPTION</LocID>
+        <Text>正确诊断20位您亲自负责的患者。</Text>
+        <!-- Diagnose correctly 20 times under your care. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_MY_TURN</LocID>
+        <Text>轮到我了！</Text>
+        <!-- My turn! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_MY_TURN_DESCRIPTION</LocID>
+        <Text>接管超过30位患者</Text>
+        <!-- Take control over 30 patients. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HELLO_ANYBODY</LocID>
+        <Text>有人在吗？</Text>
+        <!-- Hello? Anybody? -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HELLO_ANYBODY_DESCRIPTION</LocID>
+        <Text>接管一位等候问诊超过2小时（游戏内时间）的患者。</Text>
+        <!-- Take over a patient from the clinic and have him wait for more than two game hours. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME</LocID>
+        <Text>哪来的回哪去！</Text>
+        <!-- Home run! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SENT_PATIENTS_HOME_DESCRIPTION</LocID>
+        <Text>将20位患者送回家。</Text>
+        <!-- Send 20 patients home. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BANKER</LocID>
+        <Text>银行家</Text>
+        <!-- Banker -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_BANKER_DESCRIPTION</LocID>
+        <Text>拥有 $700,000 的资金。</Text>
+        <!-- Have 700 000$ in your budget. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SPENDER</LocID>
+        <Text>败家子</Text>
+        <!-- Spender -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_SPENDER_DESCRIPTION</LocID>
+        <Text>花掉 $1,000,000。</Text>
+        <!-- Spend over 1 000 000$. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_JANITOR</LocID>
+        <Text>医院门卫</Text>
+        <!-- Dr. Jan Itor -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_JANITOR_DESCRIPTION</LocID>
+        <Text>让你的保洁员清扫10000格地块。</Text>
+        <!-- Have your janitors clean 10 000 tiles. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_DONT_COLLAPSE</LocID>
+        <Text>请患者不要死在走廊上！</Text>
+        <!-- Please do not die in the corridors! -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_DONT_COLLAPSE_DESCRIPTION</LocID>
+        <Text>经历10次患者在走廊上病倒的事件。</Text>
+        <!-- Experience 10 patients collapse in the clinic. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_ALCOHOLIC</LocID>
+        <Text>欸？这是个酒吧吗？</Text>
+        <!-- Wait, is this a bar? -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_ALCOHOLIC_DESCRIPTION</LocID>
+        <Text>雇佣5个有「酗酒」特质的员工</Text>
+        <!-- Hire 5 staff members with the 'alcoholic' perk. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_PRODUCTIVE_DAY</LocID>
+        <Text>充实的一天</Text>
+        <!-- Productive day -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_PRODUCTIVE_DAY_DESCRIPTION</LocID>
+        <Text>游戏进行超过8小时。</Text>
+        <!-- Play for 8 hours. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CMS</LocID>
+        <Text>运转良好</Text>
+        <!-- A well oiled machine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CMS_DESCRIPTION</LocID>
+        <Text>得到5星评价</Text>
+        <!-- Get 5 prestige stars. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_POLYGOT</LocID>
+        <Text>语言专家</Text>
+        <!-- Polyglot -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_POLYGOT_DESCRIPTION</LocID>
+        <Text>至少更改三次游戏语言。</Text>
+        <!-- Change the language of the game at least 3 times. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_TWINKLE</LocID>
+        <Text>一闪一闪亮晶晶</Text>
+        <!-- Twinkle, twinkle little star -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_TWINKLE_DESCRIPTION</LocID>
+        <Text>只得到一颗星。</Text>
+        <!-- Have only one prestige star. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_EAGLE</LocID>
+        <Text>老鹰出动</Text>
+        <!-- EAAAAGLEEEE -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_EAGLE_DESCRIPTION</LocID>
+        <Text>在放置一个物品前将其旋转四次。</Text>
+        <!-- Rotate an object 4 times before placing it. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_1</LocID>
+        <Text>实习医生</Text>
+        <!-- Intern -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_1_DESCRIPTION</LocID>
+        <Text>完成第1关。</Text>
+        <!-- Complete level 1. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_2</LocID>
+        <Text>规培医生</Text>
+        <!-- Resident -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_2_DESCRIPTION</LocID>
+        <Text>完成第2关。</Text>
+        <!-- Complete level 2. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_3</LocID>
+        <Text>住院医生</Text>
+        <!-- Attending -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_3_DESCRIPTION</LocID>
+        <Text>完成第3关。</Text>
+        <!-- Complete level 3. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_4</LocID>
+        <Text>主治医生</Text>
+        <!-- Fellow -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_4_DESCRIPTION</LocID>
+        <Text>完成第4关。</Text>
+        <!-- Complete level 4. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_5</LocID>
+        <Text>主任医生</Text>
+        <!-- Specialist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_5_DESCRIPTION</LocID>
+        <Text>完成第5关。</Text>
+        <!-- Complete level 5. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_6</LocID>
+        <Text>院长</Text>
+        <!-- Chief of Hospital -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_LEVEL_6_DESCRIPTION</LocID>
+        <Text>完成第6关。</Text>
+        <!-- Complete level 6. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GOOD_CREDIT</LocID>
+        <Text>信用良好</Text>
+        <!-- Good credit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_GOOD_CREDIT_DESCRIPTION</LocID>
+        <Text>在第4关内仅用20天就偿还所有债务。</Text>
+        <!-- Pay debt to the bank in only 20 days in level 4. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHIEF_OF_CHIEFS</LocID>
+        <Text>首席院长</Text>
+        <!-- Chief of chiefs -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHIEF_OF_CHIEFS_DESCRIPTION</LocID>
+        <Text>完成第6关中的所有目标。</Text>
+        <!-- Complete all objectives in level 6. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_1</LocID>
+        <Text>急诊科主任</Text>
+        <!-- Emergency master -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_1_DESCRIPTION</LocID>
+        <Text>完成挑战关卡1。</Text>
+        <!-- Complete challenge level 1. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_2</LocID>
+        <Text>普通外科主任</Text>
+        <!-- General surgery master -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_2_DESCRIPTION</LocID>
+        <Text>完成挑战关卡2。</Text>
+        <!-- Complete challenge level 2. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_3</LocID>
+        <Text>内科主任</Text>
+        <!-- Internal medicine master -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_3_DESCRIPTION</LocID>
+        <Text>完成挑战关卡3。</Text>
+        <!-- Complete challenge level 3. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_4</LocID>
+        <Text>骨科主任</Text>
+        <!-- Orthopaedy master -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_4_DESCRIPTION</LocID>
+        <Text>完成挑战关卡4。</Text>
+        <!-- Complete challenge level 4. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_5</LocID>
+        <Text>心脏科主任</Text>
+        <!-- Cardiology master -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_5_DESCRIPTION</LocID>
+        <Text>完成挑战关卡5。</Text>
+        <!-- Complete challenge level 5. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_6</LocID>
+        <Text>神经内科主任</Text>
+        <!-- Neurology master -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_CHALLENGE_LEVEL_6_DESCRIPTION</LocID>
+        <Text>完成挑战关卡6。</Text>
+        <!-- Complete challenge level 6. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HIDDEN</LocID>
+        <Text>隐藏成就</Text>
+        <!-- Hidden achievement -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACHIEVEMENT_HIDDEN_DESCRIPTION</LocID>
+        <Text>继续游戏来完成这个成就</Text>
+        <!-- Continue playing to unlock this achievement -->
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

@@ -6,6 +6,17 @@
         <LanguageNameLocalized>Русский</LanguageNameLocalized>
 
         <Contributors>
+            <Name>Alexandr 'Makbeth' Baranov</Name>
+            <Name>Mash</Name>
+            <Name>Dmitry 'DrD_AVEL' Korobkin</Name>
+            <Name>Todos</Name>
+            <Name>Svensken</Name>
+            <Name>Ost22</Name>
+            <Name>Mikhail 'Obsolete' Tsukanov</Name>
+            <Name>adigyran</Name>
+            <Name>Angel Bingo</Name>
+            <Name>AdmiralMaxwell</Name>
+            <Name>Alexander Z.</Name>
         </Contributors>
         
         <LocalizedStrings>
@@ -285,7 +296,7 @@
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS</LocID>                <Text>Вылечите {1} пациента(ов)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATED_IMMOBILE_PATIENTS</LocID>       <Text>Вылечите {1} пациента(ов) доставленных скорой помощью</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY</LocID>        <Text>Вылечите {1} пациентов за день</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_DEPARTMENT</LocID>   <Text>Вылечите {1} пациентов в день в {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_DEPARTMENT</LocID>   <Text>Вылечите {1} пациентов в день в "{2}"</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATMENT_SUCCESS_RATE</LocID>          <Text>Вылечите хотя бы {1} пациентов за день</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKING_ROOMS</LocID>                   <Text>Постройте и наймите персонал для {1} {2}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_DEPARTMENT</LocID>    <Text>Откройте: {1}</Text>  </GameDBLocalizedString>
@@ -319,9 +330,9 @@
             <GameDBLocalizedString>      <LocID>MANAGEMENT_STAFF</LocID>        	        <Text>Персонал</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_PATIENTS</LocID>        	        <Text>Пациенты</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_HOSPITAL</LocID>        	        <Text>Больница</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_BANK</LocID>        	            <Text>Банковские займы</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_INTEREST</LocID>        	        <Text>Процентов в день</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_LOAN</LocID>        	            <Text>Суммарный займ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BANK</LocID>        	            <Text>Займы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_INTEREST</LocID>        	        <Text>В день</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_LOAN</LocID>        	            <Text>Всего</Text>  </GameDBLocalizedString>
             
             <!-- UPDATED --> <GameDBLocalizedString>   <LocID>MANAGEMENT_INSURANCE</LocID>  <Text>Страхование (клиника)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_SERVICES</LocID>                 <Text>Службы</Text>  </GameDBLocalizedString>
@@ -408,7 +419,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_QUARANTINE</LocID>                     <Text>Поместить все отделение на карантин</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CLOSE</LocID>               		      <Text>Закрыть отделение - Все пациенты отделения покинут вашу больницу, персонал отправится домой.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_TIME_SWITCH</LocID>                    <Text>День / Неделя / Месяц</Text>  </GameDBLocalizedString>
-            <!-- UPDATE --><GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>  <Text> - Вылеченных пациентов сегодня\n - Невылеченных пациентов сегодня\n - Пациентов пришло от страховых компаний\n\nНажмите, чтобы открыть таблицу невылеченных пациентов.</Text>  </GameDBLocalizedString>
+            <!-- UPDATE --><GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURED_PATIENTS</LocID>  <Text> - Вылеченных пациентов сегодня\n - Невылеченных пациентов сегодня\n - Ожидается пациентов от страховых компаний\n\nНажмите, чтобы открыть таблицу невылеченных пациентов.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>           		      <Text>Предупреждения отделения</Text>  </GameDBLocalizedString>
                                                                                                          
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>           	      <Text>Открыть таблицу персонала отделения</Text>  </GameDBLocalizedString>
@@ -421,7 +432,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_LAB_SPECIALISTS</LocID>      <Text>Нанятые лаборанты / рабочие места</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_MAINTENANCE</LocID>          <Text>Нанятые уборщики / рабочие места</Text>  </GameDBLocalizedString>
                                                                                                           
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_LIST</LocID>         	      <Text>Открыть таблицу пациентов департамента</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_LIST</LocID>         	      <Text>Открыть таблицу пациентов отделения</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_HOSPITALIZED</LocID>          <Text>Пациентов в стационаре / свободных кроватей</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_CLINIC</LocID>                <Text>Пациентов в амбулатории</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_PATIENTS_LOW_PRIORITY</LocID>          <Text>Пациентов в обычной палате</Text>  </GameDBLocalizedString>
@@ -702,8 +713,8 @@
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROLES</LocID>               <Text>Разрешённые роли</Text>  </GameDBLocalizedString>
 
             <!-- Dress code category names -->
-            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_CLINIC</LocID>           <Text>Врачи - клиника</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_ON_CALL</LocID>          <Text>Врачи - ординаторская</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_CLINIC</LocID>           <Text>Врачи - амбулатория</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DRESS_CODE_DOCTORS_ON_CALL</LocID>          <Text>Врачи - стационар</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_SURGERY</LocID>                  <Text>Хирурги</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_NURSES</LocID>                   <Text>Медсёстры</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DRESS_CODE_TECHNOLOGISTS</LocID>            <Text>Лаборанты</Text>  </GameDBLocalizedString>
@@ -728,12 +739,12 @@
             <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>Пациенты (всего/вылечено)</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <!-- UPDATED_2018_10_28 --> <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>События будут разблокированы при открытии госпитализации во всех департаментах или они не могут быть начаты в ночное время.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED_2018_10_28 --> <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID>               <Text>События будут разблокированы при открытии госпитализации во всех отделениях или они не могут быть начаты в ночное время.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>Кредит $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>Выплатить $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>Кадровое агенство</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE_HOSPITALIZED</LocID>   <Text>Страхование (стационар)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES_HOSPITALIZED</LocID>       <Text>Заработная плата (стационар)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES_HOSPITALIZED</LocID>       <Text>Оклады (стационар)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_BUILDING</LocID>          <Text>Строительство</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_EVENTS</LocID>            <Text>События</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_AMBULANCES</LocID>        <Text>Машины скорой помощи</Text>  </GameDBLocalizedString>
@@ -772,7 +783,7 @@
             <GameDBLocalizedString>      <LocID>SCENARIO_OPTIONS</LocID>                    <Text>Настройки сценария</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ALLOW_DEATH</LocID>                         <Text>Пациенты могут умереть</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_ALL</LocID>                          <Text>Разблокировать все отделения</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>FREE_BUILDING</LocID>                       <Text>Свободное строительство</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FREE_BUILDING</LocID>                       <Text>Бесплатное строительство</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>EXAMINATION_LEGEND</LocID>                  <Text>Легенда обследований</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXAMINATION_AVAILABLE_TEXT</LocID>          <Text>М.б. запланировано или отменено</Text>  </GameDBLocalizedString>
@@ -851,7 +862,7 @@
 
             <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>ЯЗЫК</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>        	<Text>Only for diagnosed patients, you can try to use TC Hospitalization instead.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>        	<Text>Вместо этого попробуйте для пациентов с установленным диагнозом использовать госпитализацию в кабинет неотложной травматологии.</Text>  </GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>

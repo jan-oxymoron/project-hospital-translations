@@ -1,127 +1,420 @@
 ﻿<Database>
-      <GameDBStringTable ID="LOC_ZHHANS_SKILLS">
-
-        <LanguageCode>zh-Hans</LanguageCode>
-        <LanguageNameLocalized>Chinese simplified (please translate)</LanguageNameLocalized>
-
-        <Contributors>
-          <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!-- Departments -->
-            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>No department</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Emergency</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Intensive Care Unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>General Surgery Department</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Internal Medicine Department</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Orthopaedy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Cardiology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_NEUROLOGY</LocID>                                               <Text>Neurology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_RADIOLOGY</LocID>                                               <Text>Radiology</Text>  </GameDBLocalizedString>
-
-
-            <!-- Character levels-->
-            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_1</LocID>                                              <Text>Intern</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_2</LocID>                                              <Text>Resident</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_3</LocID>                                              <Text>Attending</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_4</LocID>                                              <Text>Fellow</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>Specialist</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Nursing intern</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Registered nurse</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Nurse specialist</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Junior scientist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Senior scientist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>Master scientist</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_1</LocID>                                             <Text>Janitor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_2</LocID>                                             <Text>Senior janitor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_3</LocID>                                             <Text>Master janitor</Text>  </GameDBLocalizedString>
-
-
-            <!-- Doctor's QUALIFICATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE</LocID>                           <Text>General Medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE_DESCRIPTION</LocID>               <Text>General medicine qualification allows the doctor to do all basic examinations and treatments and affects their speed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS</LocID>                                  <Text>Diagnosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>                      <Text>Diagnosis qualification level affects how often the doctor will misdiagnose patients or have to consult other doctors.</Text>  </GameDBLocalizedString>
-
-            <!-- Doctor's SPECIALIZATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Acute medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Acute medicine gives access to specialized procedures for diagnosing and treating critical patients at Emergency.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Advanced diagnosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Advanced diagnosis specialization gives the doctor access to differential diagnosis.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Critical care medicine</Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Critical care medicine gives the doctor access to specialized diagnostic methods used at ICU.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>General surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>General surgery specialization is used in examinations and for prescribing treatments at General Surgery department and allows the doctor to assist at surgery.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>Operative surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>Operative surgery allows the doctor to act as main surgeon at General Surgery department and affects how often surgeries will end up with complications.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>Internal medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>Internal medicine specialization is used in specialized examinations and for prescribing treatments at Internal Medicine department and allows the doctor to assist at surgery.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>IM surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>Internal medicine allows the doctor to act as main surgeon at Internal Medicine department and affects how often surgeries will end up with complications.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>Orthopaedy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>Orthopaedy is used in specialized examinations and for prescribing treatments at Orthopaedy department and allows the doctor to assist at surgery.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>Orthopaedic surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>Orthopaedic surgery allows the doctor to act as main surgeon at Orthopaedy department and affects how often surgeries will end up with complications.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>Cardiology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>                       <Text>Cardiology is used in specialized examinations and for prescribing treatments at Cardiology department and allows the doctor to assist at surgery.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>                               <Text>Cardio-surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>Cardio-surgery allows the doctor to act as main surgeon at Cardiology department and affects how often surgeries will end up with complications.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>Neurology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>Neurology is used in specialized examinations and for prescribing treatments at Neurology department and allows the doctor to assist at surgery.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>Neuro-surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>Neuro-surgery allows the doctor to act as main surgeon at Neurology department and affects how often surgeries will end up with complications.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Anesthesiology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Anesthesiology is required for the doctor to act as an anesthesiologist at surgery and gives extra survival chance to collapsed patients stabilized by this doctor. \nDecreases death probability in collapsed patients. \nDecreases post operative complications after surgery.</Text>  </GameDBLocalizedString>
-
-
-            <!-- Nurse's QUALIFICATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>Patient care</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>                 <Text>Nurse is capable of providing various types of patient care.</Text>  </GameDBLocalizedString>
-
-            <!-- Nurse's SPECIALIZATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>Receptionist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>Receptionist represent point of first contact with patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Medical surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>Medical surgery nurse represent important part of operative surgical teams.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Clinical Nurse Specialist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>Clinical Nurse Specialist is capable of revealing appearance of patient's symptoms.</Text>  </GameDBLocalizedString>
-
-
-            <!-- Lab guys QUALIFICATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>Biochemistry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>Biochemistry gives access to various STAT laboratory tests.</Text>  </GameDBLocalizedString>
-
-            <!-- Lab guys SPECIALIZATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>                      <Text>Advanced biochemistry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>Advanced biochemistry increases effectiveness of laboratory tests.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Radiology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>Radiology specialist is capable of fully operating radiology imaging machines and other radiology related equipment.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>GIT</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>GIT technologist is capable of operating examination devices related to General surgery.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>USG</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>USG technologist is capable of operating Ultrasonographic devices.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>Cardiology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>Cardiology technologist is capable of operating examination devices related to Cardiology.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>                         <Text>Neurology</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY_DESCRIPTION</LocID>             <Text>Neurology technologist is capable of operating examination devices related to Neurology.</Text>  </GameDBLocalizedString>
-
-
-            <!-- Janitor QUALIFICATIONS -->
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>Efficiency</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>Efficiency affects, how well janitors plan when cleaning different rooms.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Dexterity</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>Dexterity affects the speed when cleaning.</Text>  </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_ZHHANS_SKILLS">
+    <LanguageCode>zh-Hans</LanguageCode>
+    <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+    <Contributors>
+      <Name>ParaTranz</Name>
+      <Name>@bruceCzK</Name>
+      <Name>@mm615657</Name>
+      <Name>@hailun2008</Name>
+      <Name>@cwl733</Name>
+      <Name>@BattleOil</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>DPT_DEFAULT</LocID>
+        <Text>无科室</Text>
+        <!-- No department -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_EMERGENCY</LocID>
+        <Text>急诊科</Text>
+        <!-- Emergency -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_ICU</LocID>
+        <Text>重症监护科</Text>
+        <!-- Intensive Care Unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>
+        <Text>普通外科</Text>
+        <!-- General Surgery Department -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>
+        <Text>内科</Text>
+        <!-- Internal Medicine Department -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>
+        <Text>骨科</Text>
+        <!-- Orthopaedy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_CARDIOLOGY</LocID>
+        <Text>心脏科</Text>
+        <!-- Cardiology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_NEUROLOGY</LocID>
+        <Text>神经内科</Text>
+        <!-- Neurology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DPT_RADIOLOGY</LocID>
+        <Text>放射科</Text>
+        <!-- Radiology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DOCTOR_LEVEL_1</LocID>
+        <Text>实习医生</Text>
+        <!-- Intern -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DOCTOR_LEVEL_2</LocID>
+        <Text>规培医生</Text>
+        <!-- Resident -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DOCTOR_LEVEL_3</LocID>
+        <Text>住院医生</Text>
+        <!-- Attending -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DOCTOR_LEVEL_4</LocID>
+        <Text>主治医生</Text>
+        <!-- Fellow -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DOCTOR_LEVEL_5</LocID>
+        <Text>主任医生</Text>
+        <!-- Specialist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>NURSE_LEVEL_1</LocID>
+        <Text>实习护士</Text>
+        <!-- Nursing intern -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>NURSE_LEVEL_2</LocID>
+        <Text>初级护士</Text>
+        <!-- Registered nurse -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>NURSE_LEVEL_3</LocID>
+        <Text>主管护士</Text>
+        <!-- Nurse specialist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>LAB_SPECIALIST_LEVEL_1</LocID>
+        <Text>新手研究员</Text>
+        <!-- Junior scientist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>LAB_SPECIALIST_LEVEL_2</LocID>
+        <Text>高级研究员</Text>
+        <!-- Senior scientist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>LAB_SPECIALIST_LEVEL_3</LocID>
+        <Text>资深研究员</Text>
+        <!-- Master scientist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>JANITOR_LEVEL_1</LocID>
+        <Text>保洁员</Text>
+        <!-- Janitor -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>JANITOR_LEVEL_2</LocID>
+        <Text>高级保洁员</Text>
+        <!-- Senior janitor -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>JANITOR_LEVEL_3</LocID>
+        <Text>资深保洁员</Text>
+        <!-- Master janitor -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE</LocID>
+        <Text>一般医学</Text>
+        <!-- General Medicine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE_DESCRIPTION</LocID>
+        <Text>一般医学资质允许医生做出一些基础的检查和治疗，并影响他们的速度。</Text>
+        <!-- General medicine qualification allows the doctor to do all basic examinations and treatments and affects their speed. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_QUALIF_DIAGNOSIS</LocID>
+        <Text>一般诊断</Text>
+        <!-- Diagnosis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>
+        <Text>一般诊断资质等级影响医生误诊几率或咨询其他医生的频率。</Text>
+        <!-- Diagnosis qualification level affects how often the doctor will misdiagnose patients or have to consult other doctors. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>
+        <Text>急症医学</Text>
+        <!-- Acute medicine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>
+        <Text>急症医学特长允许医生在急诊科对患者进行特殊的诊断和治疗操作。</Text>
+        <!-- Acute medicine gives access to specialized procedures for diagnosing and treating critical patients at Emergency. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>
+        <Text>高级诊断</Text>
+        <!-- Advanced diagnosis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>
+        <Text>高级诊断特长允许医生进行鉴别诊断。</Text>
+        <!-- Advanced diagnosis specialization gives the doctor access to differential diagnosis. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>
+        <Text>重症监护医学</Text>
+        <!-- Critical care medicine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>
+        <Text>重症监护医学允许医生在重症监护科进行特殊诊断操作。</Text>
+        <!-- Critical care medicine gives the doctor access to specialized diagnostic methods used at ICU. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>
+        <Text>普通外科</Text>
+        <!-- General surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>
+        <Text>普通外科特长允许医生在普通外科使用处方治疗并允许医生协助手术。</Text>
+        <!-- General surgery specialization is used in examinations and for prescribing treatments at General Surgery department and allows the doctor to assist at surgery. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>
+        <Text>外科手术</Text>
+        <!-- Operative surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>
+        <Text>外科手术允许医生在普通外科担任主刀医生并影响手术并发症的发生几率。</Text>
+        <!-- Operative surgery allows the doctor to act as main surgeon at General Surgery department and affects how often surgeries will end up with complications. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>
+        <Text>内科医学</Text>
+        <!-- Internal medicine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>
+        <Text>内科医学专长允许医生在内科进行处方治疗并允许医生协助手术。</Text>
+        <!-- Internal medicine specialization is used in specialized examinations and for prescribing treatments at Internal Medicine department and allows the doctor to assist at surgery. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>
+        <Text>内科手术</Text>
+        <!-- IM surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>
+        <Text>内科手术允许医生在内科科室中担任主刀医生并影响手术并发症的发生几率。</Text>
+        <!-- Internal medicine allows the doctor to act as main surgeon at Internal Medicine department and affects how often surgeries will end up with complications. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>
+        <Text>骨科</Text>
+        <!-- Orthopaedy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>
+        <Text>骨科医学特长允许医生在骨科使用处方治疗并允许医生协助手术。</Text>
+        <!-- Orthopaedy is used in specialized examinations and for prescribing treatments at Orthopaedy department and allows the doctor to assist at surgery. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>
+        <Text>整形外科手术</Text>
+        <!-- Orthopaedic surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>
+        <Text>骨科手术特长允许医生在骨科担任主刀医生并影响手术并发症的发生几率。</Text>
+        <!-- Orthopaedic surgery allows the doctor to act as main surgeon at Orthopaedy department and affects how often surgeries will end up with complications. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>
+        <Text>心脏医学</Text>
+        <!-- Cardiology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>
+        <Text>心脏医学特长允许医生在心脏科使用处方治疗并允许医生协助手术。</Text>
+        <!-- Cardiology is used in specialized examinations and for prescribing treatments at Cardiology department and allows the doctor to assist at surgery. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>
+        <Text>心脏外科手术</Text>
+        <!-- Cardio-surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>
+        <Text>心脏外科手术特长允许医生在心脏外科担任主刀医生并影响手术并发症的发生几率。</Text>
+        <!-- Cardio-surgery allows the doctor to act as main surgeon at Cardiology department and affects how often surgeries will end up with complications. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>
+        <Text>神经医学</Text>
+        <!-- Neurology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>
+        <Text>神经医学特长允许医生在神经科使用处方治疗并允许医生协助手术。</Text>
+        <!-- Neurology is used in specialized examinations and for prescribing treatments at Neurology department and allows the doctor to assist at surgery. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>
+        <Text>神经外科手术</Text>
+        <!-- Neuro-surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>
+        <Text>神经外科手术特长允许医生在神经科担任主刀医生并影响手术并发症的发生几率。</Text>
+        <!-- Neuro-surgery allows the doctor to act as main surgeon at Neurology department and affects how often surgeries will end up with complications. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>
+        <Text>麻醉医学</Text>
+        <!-- Anesthesiology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>
+        <Text>麻醉医学特质是在手术中担任麻醉师所必须的，并会给与病情已稳定的病倒患者额外的生存几率。\n降低病倒患者死亡几率。\n降低手术后并发症几率。</Text>
+        <!-- Anesthesiology is required for the doctor to act as an anesthesiologist at surgery and gives extra survival chance to collapsed patients stabilized by this doctor. \nDecreases death probability in collapsed patients. \nDecreases post operative complications after surgery. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>
+        <Text>患者看护</Text>
+        <!-- Patient care -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>
+        <Text>护士可以对患者进行多项护理操作。</Text>
+        <!-- Nurse is capable of providing various types of patient care. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>
+        <Text>接诊护士</Text>
+        <!-- Receptionist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>
+        <Text>接诊护士是接触患者的第一环。</Text>
+        <!-- Receptionist represent point of first contact with patient. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>
+        <Text>医疗手术</Text>
+        <!-- Medical surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>
+        <Text>医疗手术护士是手术外科团队中重要的一员。</Text>
+        <!-- Medical surgery nurse represent important part of operative surgical teams. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>
+        <Text>外科护士专家</Text>
+        <!-- Clinical Nurse Specialist -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>
+        <Text>外科护士专家能够发现患者潜在的症状。</Text>
+        <!-- Clinical Nurse Specialist is capable of revealing appearance of patient's symptoms. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>
+        <Text>生物化学</Text>
+        <!-- Biochemistry -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>
+        <Text>生物化学资质解锁化验室的多项测试。</Text>
+        <!-- Biochemistry gives access to various STAT laboratory tests. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>
+        <Text>高级生物化学</Text>
+        <!-- Advanced biochemistry -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>
+        <Text>高级生物化学提高实验室测试的效率。</Text>
+        <!-- Advanced biochemistry increases effectiveness of laboratory tests. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>
+        <Text>放射学</Text>
+        <!-- Radiology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>
+        <Text>放射学专家能够独立操作放射成像机及其他相关的仪器。</Text>
+        <!-- Radiology specialist is capable of fully operating radiology imaging machines and other radiology related equipment. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>
+        <Text>GIT</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>
+        <Text>GIT专家能够操作普通外科相关的检查仪器。</Text>
+        <!-- GIT technologist is capable of operating examination devices related to General surgery. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>
+        <Text>超声波学</Text>
+        <!-- USG -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>
+        <Text>超声波学专家能够操作超声装置。</Text>
+        <!-- USG technologist is capable of operating Ultrasonographic devices. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>
+        <Text>心脏医学</Text>
+        <!-- Cardiology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>
+        <Text>心脏医学专家能够操作心脏医学相关的检查仪器。</Text>
+        <!-- Cardiology technologist is capable of operating examination devices related to Cardiology. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>
+        <Text>神经医学</Text>
+        <!-- Neurology -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY_DESCRIPTION</LocID>
+        <Text>神经医学专家能够操作神经医学相关的检查仪器。</Text>
+        <!-- Neurology technologist is capable of operating examination devices related to Neurology. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>
+        <Text>效率</Text>
+        <!-- Efficiency -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>
+        <Text>效率影响保洁员清理不同房间的安排效率。</Text>
+        <!-- Efficiency affects, how well janitors plan when cleaning different rooms. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>
+        <Text>灵巧</Text>
+        <!-- Dexterity -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>
+        <Text>灵巧影响保洁员清理的速度。</Text>
+        <!-- Dexterity affects the speed when cleaning. -->
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
