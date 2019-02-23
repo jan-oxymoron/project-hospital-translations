@@ -13,9 +13,9 @@
             <GameDBLocalizedString>      <LocID>EXM_RECEPTION_FAST</LocID>                                      <Text>院内トリアージ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_RECEPTION_DESCRIPTION</LocID>                               <Text>外来担当者は患者の症状に応じて、優先度を設定することができる \n\n必要条件：待合室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_ABDOMINAL_PALPATION</LocID>                                 <Text>触診（腹部）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ABDOMINAL_PALPATION_DESCRIPTION</LocID>                     <Text>理学的診察の一つ。検査者は患者の腹部の9つの領域に対して、浅い触診、深い触診と2回の触診を行う \n\n必要条件：部屋または診察室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ABDOMINAL_PALPATION_DESCRIPTION</LocID>                     <Text>理学的診察の一つ。検査者は患者の腹部の9つの領域に対して、浅い触診、深い触診と2回の触診を行う。 \n\n必要条件：部屋または診察室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_ANGIOGRAPHY</LocID>                                         <Text>血管造影検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_ANGIOGRAPHY_DESCRIPTION</LocID>                             <Text>血管の内腔や臓器、特に動脈、静脈、心臓を可視化するために用いられる外科的画像検査。 \n\n必要条件：血管造影検査室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ANGIOGRAPHY_DESCRIPTION</LocID>                             <Text>X線不透過性の造影剤とX線透視装置を組み合わせた、血管の内腔や臓器、特に動脈、静脈、心臓を可視化するために用いられる外科的画像検査。 \n\n必要条件：血管造影検査室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY</LocID>                                          <Text>聴力検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>聴力検査は患者の聴く能力を明らかにする。 \n\n必要条件：部屋または審査室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING</LocID>                       <Text>検体採取</Text>  </GameDBLocalizedString>
@@ -23,7 +23,7 @@
             <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING</LocID>                        <Text>培養検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION</LocID>            <Text>患者から採取した検体を培養することで、具体的な微生物の存在を証明する。 \n\n必要条件：検査室 \n\n必要装備：ガラス器具＋顕微鏡</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_BARRIUM_SWALLOV_X_RAY</LocID>                               <Text>消化管造影検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BARRIUM_SWALLOV_X_RAY_DESCRIPTION</LocID>                   <Text>X線に写る硫酸バリウムを飲み込んだ状態で行うX線検査。食道、胃、消化管を調べるために施行する。 \n\n必要条件：X線検査室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BARRIUM_SWALLOV_X_RAY_DESCRIPTION</LocID>                   <Text>X線不透過性の硫酸バリウムを飲み込んだ状態で行うX線検査。食道、胃、消化管を調べるために施行する。 \n\n必要条件：X線検査室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_BASIC_VISUAL_TEST</LocID>                                   <Text>基本的視力検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_BASIC_VISUAL_TEST_DESCRIPTION</LocID>                       <Text>患者の視力を測定するために行われる基本的な視力検査。 \n\n必要条件：部屋または診察室 \n\n必要装備：視標</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING</LocID>                                     <Text>生体検査（検体採取）</Text>  </GameDBLocalizedString>
@@ -37,15 +37,15 @@
             <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING</LocID>                                  <Text>血液検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION</LocID>                      <Text>患者の静脈から採取した血液を用いた実験室での分析。 \n\n必要条件：検査室 \n\n必要装備：血液分析器</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING</LocID>                                        <Text>全血球計算（検体採取）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION</LocID>                            <Text>全血球検査によって、血液中にある細胞成分の増減を明らかにする。 \n\n必要条件：検査室 \n\n必要装備：血液分析器</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION</LocID>                            <Text>全血球検査によって、血液中にある細胞成分（赤血球、白血球およびその分画、血小板）の増減を明らかにする。 \n\n必要条件：検査室 \n\n必要装備：血液分析器</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING</LocID>                                         <Text>全血球計算</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION</LocID>                             <Text>全血球検査によって、血液中にある細胞成分の増減を明らかにする。 \n\n必要条件：検査室 \n\n必要装備：血液分析器</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION</LocID>                             <Text>全血球検査によって、血液中にある細胞成分（赤血球、白血球およびその分画、血小板）の増減を明らかにする。 \n\n必要条件：検査室 \n\n必要装備：血液分析器</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CC_BLOOD_ANALYSIS</LocID>                                   <Text>血液検査（集中治療室)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CC_BLOOD_ANALYSIS_DESCRIPTION</LocID>                       <Text>集中治療室で行われる集中治療に特化した血液検査。 \n\nRequired room:集中治療室 \n\n必要装備：血液分析器</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CC_ECHO</LocID>                                             <Text>心エコー検査（集中治療室）</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CC_ECHO_DESCRIPTION</LocID>                                 <Text>集中治療室で行われる集中治療に特化した心エコー検査。 \n\nRequired room:集中治療室 \n\n必要装備：超音波検査装置（迅速）</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CRP</LocID>                                                 <Text>CRP定量検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CRP_DESCRIPTION</LocID>                                     <Text>様々な問題や病気の存在を示唆するC反応蛋白質の迅速定量検査。 \n\n必要条件：部屋または診察室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CRP_DESCRIPTION</LocID>                                     <Text>組織破壊、炎症に対して肝臓で生産されるC反応性蛋白質(C Reactive Protain)を測定する迅速定量検査。感染症での上昇が代表的であるが、悪性腫瘍、自己免疫性疾患など、組織破壊や炎症をきたす原因の存在も示唆する。 \n\n必要条件：部屋または診察室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CT</LocID>                                                  <Text>CT検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CT_DESCRIPTION</LocID>                                      <Text>コンピュータ断層撮影は、内臓、組織、血管の詳細な画像を取得する画像検査である \n\n必要条件：CT室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CT_ENTEROGRAPHY</LocID>                                     <Text>腸管3D-CT検査（CTエンテログラフィー）</Text>  </GameDBLocalizedString>
@@ -63,7 +63,7 @@
             <GameDBLocalizedString>      <LocID>EXM_EVALUATION</LocID>                                          <Text>臨床推論</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_EVALUATION_DESCRIPTION</LocID>                              <Text>直近の症状、徴候をすべて考慮し診断を下す診断学的方法。 \n\n必要条件：部屋または診察室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_FAST</LocID>                                                <Text>迅速簡易超音波検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FAST_DESCRIPTION</LocID>                                    <Text>外傷センターや集中治療室で行われる出血評価に特化した超音波検査。 \n\n必要条件：外傷センターまたは集中治療室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FAST_DESCRIPTION</LocID>                                    <Text>迅速簡易超音波検査(focused assessment with sonography for trauma)は、外傷センターや集中治療室で行われる出血評価に特化した超音波検査。 \n\n必要条件：外傷センターまたは集中治療室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING</LocID>                        <Text>便中膵エラスターゼ試験（検体採取）</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION</LocID>            <Text>便検体に含まれる膵由来酵素の量を測定する診断的方法。実際の膵内分泌機能を反映する。\n\n必要条件：検査室 \n\n必要装備：放射免疫測定</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING</LocID>                         <Text>便中膵エラスターゼ試験（定量検査）</Text>  </GameDBLocalizedString>
@@ -75,7 +75,7 @@
             <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY</LocID>                                         <Text>上部消化管内視鏡検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>軟らかいチューブの先端に微小なカメラと光源を取り付けた内視鏡を口から入れることで、上部消化管を精査する検査。\n\n必要条件：一般外科、一般内科、循環器内科部門の事務室/診察室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_GONIOSCOPY</LocID>                                          <Text>隅角検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_GONIOSCOPY_DESCRIPTION</LocID>                              <Text>眼科的検査の一つである隅角検査は、房水の排出能力を評価する方法である。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_GONIOSCOPY_DESCRIPTION</LocID>                              <Text>眼科的検査の一つである隅角検査は、隅角鏡を用いて隅角の広さを確認する検査であり、隅角の房水排水能力を形態学的に評価する方法である。</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>EXM_HEART_MONITORING</LocID>                                    <Text>心電図モニタリング</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_HEART_MONITORING_DESCRIPTION</LocID>                        <Text>心臓の電気的活動や心拍数を長期的に監視する特別な検査。\n\n必要条件：外傷センター、集中治療室、または観察室 \n\n必要装備：壁生体情報モニタまたは麻酔器</Text>  </GameDBLocalizedString>
@@ -83,7 +83,7 @@
             <GameDBLocalizedString>      <LocID>EXM_CHEST_LISTENING</LocID>                                     <Text>聴診</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CHEST_LISTENING_DESCRIPTION</LocID>                         <Text>聴診器がなくても行える。聴診器を用いたときは間接聴診という。 \n\n必要条件：部屋または診察室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_LARYNGOSCOPY</LocID>                                        <Text>喉頭鏡検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_LARYNGOSCOPY_DESCRIPTION</LocID>                            <Text>声門、声帯を視認するための内視鏡的喉頭検査。気管挿管を容易にする。  \n\n必要条件：医局、観察室または集中治療室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_LARYNGOSCOPY_DESCRIPTION</LocID>                            <Text>喉頭鏡と呼ばれる、喉頭展開を行う道具を用いて声門、声帯を視認することをいう。苦痛を伴うため一般には鎮静下で行う。気管挿管時には必須の手技である。  \n\n必要条件：医局、観察室または集中治療室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_MRI</LocID>                                                 <Text>核磁気共鳴検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_MRI_DESCRIPTION</LocID>                                     <Text>核磁気共鳴を利用して身体の精細な画像を取得する。 \n\n必要条件：MRI室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_NASAL_CAVITY_INSPECTION</LocID>                             <Text>鼻鏡検査</Text>  </GameDBLocalizedString>
@@ -123,11 +123,11 @@
             <GameDBLocalizedString>      <LocID>EXM_SPEECH_LISTENING</LocID>                                    <Text>発語検査</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_SPEECH_LISTENING_DESCRIPTION</LocID>                        <Text>患者に発語させ、流暢さを評価する。\n\n必要条件：部屋または診察室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING</LocID>                      <Text>腰椎穿刺</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>          <Text>腰の下部に針を刺し、脳脊髄液を採取する。その液体は検査室で検査される。 n\n必要条件：検査室 \n\n必要装備：遠心分離機＋分析機</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>          <Text>馬尾より遠位の脊髄くも膜下腔（通例はL4/L5の高さ）を穿刺し、脳脊髄液を採取する。その採取した脳脊髄液は検査室で検査される。 n\n必要条件：検査室 \n\n必要装備：遠心分離機＋分析機</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING</LocID>                       <Text>脳脊髄液検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>           <Text>腰の下部に針を刺し、脳脊髄液を採取する。その液体は検査室で検査される。 n\n必要条件：検査室 \n\n必要装備：遠心分離機＋分析機</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>           <Text>馬尾より遠位の脊髄くも膜下腔（通例はL4/L5の高さ）を穿刺し、脳脊髄液を採取する。その採取した脳脊髄液は検査室で検査される。 n\n必要条件：検査室 \n\n必要装備：遠心分離機＋分析機</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_SPIROMETRY</LocID>                                          <Text>呼吸機能検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPIROMETRY_DESCRIPTION</LocID>                              <Text>呼吸器の機能検査でも最も頻用される検査の一つであり、肺の機能を測定する。。\n\n必要条件：救急科、集中治療科、一般内科での部屋</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPIROMETRY_DESCRIPTION</LocID>                              <Text>呼吸器の機能検査でも最も頻用される検査の一つであり、典型的には肺活量（肺の容量）および一秒率（呼気の速度）を測定する。。\n\n必要条件：救急科、集中治療科、一般内科での部屋</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING</LocID>                             <Text>便検体採取</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION</LocID>                 <Text>更なる分析のため、患者の便から検体を採取する。n\n必要条件：検査室 \n\n必要装備：便分析機</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING</LocID>                              <Text>便検査</Text>  </GameDBLocalizedString>
@@ -143,7 +143,7 @@
             <GameDBLocalizedString>      <LocID>EXM_TRANSIENT_ELASTOGRAPHY</LocID>                              <Text>超音波エラストグラフィ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_TRANSIENT_ELASTOGRAPHY_DESCRIPTION</LocID>                  <Text>体内の臓器のような人体の軟部組織の弾性度や硬さを画像として描出する特殊な画像検査。 \n\n必要条件：超音波部門</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_URGENT_BLOOD_ANALYSIS</LocID>                               <Text>術後迅速血液検査</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URGENT_BLOOD_ANALYSIS_DESCRIPTION</LocID>                   <Text>術後迅速血液検査は敗血症の恐れのある術後の患者に対して行われる。 \n\n必要条件：心電図室（Cardiography unit) \n\n必要装備：分析機</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URGENT_BLOOD_ANALYSIS_DESCRIPTION</LocID>                   <Text>術後迅速血液検査は敗血症の恐れのある術後の患者に対して行われる。 \n\n必要条件：心電図室（心電図装置) \n\n必要装備：分析機</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING</LocID>                      <Text>尿検査（検体採取）</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION</LocID>          <Text>尿の検体を用いた生化学的分析。 n\n必要条件：検査室 \n\n必要装備：分析機</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING</LocID>                       <Text>尿検査</Text>  </GameDBLocalizedString>
@@ -167,7 +167,7 @@
             <!--
             <GameDBLocalizedString>      <LocID>EXM_ANALYTIC_INTERVIEW</LocID>                                  <Text>分析的医療面接</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_ANALYTIC_INTERVIEW_DESCRIPTION</LocID>                      <Text>高度診断技術をもつ医師にのみが使える特殊な医療面接で、 人前で公言しにくい隠された症状をも発見することができる。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CONSULTATIVE_EXAMINATIONS</LocID>                           <Text><コンサルテーション/Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CONSULTATIVE_EXAMINATIONS</LocID>                           <Text>コンサルテーション</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EXM_CONSULTATIVE_EXAMINATIONS_DESCRIPTIONS</LocID>              <Text>高度診断技術をもつ医師にのみが使える特殊な専門的技術。隠された症状を発見するためにすべき検査を強調する。</Text>  </GameDBLocalizedString>
 -->
         

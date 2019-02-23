@@ -18,7 +18,7 @@
             <GameDBLocalizedString>      <LocID>FIRED</LocID>                           <Text>Ontslagen</Text>  </GameDBLocalizedString>
 
             <!-- Patient's jobs -->
-            <GameDBLocalizedString>      <LocID>OCCUPATION_OFFICE_JOB</LocID>           <Text>Administratief werker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_OFFICE_JOB</LocID>           <Text>Administratief medewerker</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_MANAGER</LocID>              <Text>Manager</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_ACCOUNTANT</LocID>           <Text>Accountant</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_TEACHER</LocID>              <Text>Leraar</Text>  </GameDBLocalizedString>
@@ -100,7 +100,7 @@
             <GameDBLocalizedString>      <LocID>PERK_SHAMELESS</LocID>              	<Text>Schaamteloos</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_SHAMELESS_DESCRIPTION</LocID>   	<Text>Onthult waarschijnlijk delicate symptomen.</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_MEDICAL_EDUCATION</LocID>          <Text>Medische opleiding</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_MEDICAL_EDUCATION_DESCRIPTION</LocID><Text>Kan de arts helpen symptomen te ontdekken.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_MEDICAL_EDUCATION_DESCRIPTION</LocID><Text>Kan de dokter helpen symptomen te ontdekken.</Text>  </GameDBLocalizedString>
         	<GameDBLocalizedString>      <LocID>PERK_FOREIGNER</LocID>              	<Text>Toerist</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_FOREIGNER_DESCRIPTION</LocID>  	<Text>Spreekt de moedertaal niet. Langzamere communicatie.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_DEMOTIVATOR</LocID>                <Text>Vervelend</Text>  </GameDBLocalizedString>
@@ -302,7 +302,7 @@
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_CARE</LocID>                      <Text>Patiëntenzorg</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_TRANSFERS</LocID>                 <Text>Patiëntenvervoer</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE</LocID>                     <Text>Verpleger - chirurgie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB</LocID>                               <Text>Tests en onderzoek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB</LocID>                               <Text>Kliniek patiënten</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_CLEANING</LocID>                          <Text>Schoonmaak</Text>  </GameDBLocalizedString>
 
             <!-- Doctor states -->
@@ -312,8 +312,8 @@
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FulfilingNeeds</LocID>                 <Text>Vervult behoeften</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FilingReports</LocID>                  <Text>Schrijft verslagen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FillingFreeTime</LocID>                <Text>Vult vrije tijd in</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenByProcedureScript</LocID>     <Text>Voert een procedure uit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenReservedForProcedure</LocID>  <Text>Gereserveerd voor een procedure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenByProcedureScript</LocID>     <Text>Voert uit:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenReservedForProcedure</LocID>  <Text>Gereserveerd voor:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_DoctorsRounds</LocID>                  <Text>Loopt artsenvisite</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingHome</LocID>                      <Text>Gaat naar huis</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_AtHome</LocID>                         <Text>Thuis</Text>  </GameDBLocalizedString>
@@ -330,11 +330,11 @@
             <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringMedicine</LocID>              <Text>Bezorgt medicijnen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_FulfillingNeeds</LocID>                 <Text>Vervult behoeften</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_FillingFreeTime</LocID>                 <Text>Vult vrije tijd in</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenByProcedureScript</LocID>      <Text>Voert procedure uit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenByProcedureScript</LocID>      <Text>Voert uit:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>       <Text>Haalt een brancard</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>        <Text>Verplaatst een brancard</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>     <Text>Brengt brancard terug</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReservedForProcedure</LocID>   <Text>Gereserveerd voor een procedure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReservedForProcedure</LocID>   <Text>Gereserveerd voor:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingHome</LocID>                       <Text>Gaat naar huis</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_AtHome</LocID>                          <Text>Thuis</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_STATE_Commuting</LocID>                       <Text>Woon-werkverkeer</Text>  </GameDBLocalizedString>
@@ -359,12 +359,12 @@
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToWorkplace</LocID>         <Text>Gaat naar werkplaats</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FulfillingNeeds</LocID>          <Text>Vervult behoeften</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FillingFreeTime</LocID>          <Text>Vult vrije tijd in</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenByProcedureScript</LocID><Text>Voert procedure uit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenByProcedureScript</LocID><Text>Voert uit:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingHome</LocID>                <Text>Gaat naar huis</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_AtHome</LocID>                   <Text>Thuis</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Commuting</LocID>                <Text>Woon-werkverkeer</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FiredAtHome</LocID>              <Text>Ontslagen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenReservedForProcedure</LocID><Text>Gereserveerd voor procedure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenReservedForProcedure</LocID><Text>Gereserveerd voor:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSample</LocID>           <Text>Bezig met monsters</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSampleFromHospitalizedPatient</LocID><Text>Bezig met monsters</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_TakingSample</LocID>             <Text>Bezig met monsters</Text>  </GameDBLocalizedString>
