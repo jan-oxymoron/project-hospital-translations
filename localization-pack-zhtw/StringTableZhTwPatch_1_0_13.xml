@@ -1,0 +1,94 @@
+﻿    <Database>
+    <GameDBStringTable ID="LOC_EN_PATCH_1_0_13">
+    
+        <LanguageCode>zhtw</LanguageCode>
+        <LanguageNameLocalized>繁體中文</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>AlexChen</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            
+            <GameDBLocalizedString>      <LocID>ReservingAmbulance</LocID>                      <Text>等待救護車中</Text>  </GameDBLocalizedString>
+
+            <!-- Note: used in second half of a sentence, lower-case is intentional -->
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_EXM</LocID>                    <Text>等待一個閒置的檢查室中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_TRT</LocID>                    <Text>等待一個閒置的治療室中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_SURG</LocID>                   <Text>等待一個閒置的手術房中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_EXM</LocID>                   <Text>等待一名醫師/技師來進行檢查中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_TRT</LocID>                   <Text>等待一名醫師/技師來進行治療中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_SURG</LocID>                  <Text>等待手術團隊中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_EXM</LocID>               <Text>等待移床至檢查中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_TRT</LocID>               <Text>等待移床至療程中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_SURG</LocID>              <Text>等待移床至手術中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_CRITICAL_PATIENTS</LocID>           <Text>為危急病患讓路</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SKIPPED_AFTER_LONG_WAIT</LocID>                 <Text>因等待過久而跳過原療程</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULED_PROCEDURE_WAITING</LocID>             <Text>預定</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBedFix</LocID>           <Text>住在一個缺乏必要設備的病床上</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+
+            <!-- Roles - for other usage in the UI see SEGMENT_HEADING_ROLES in StringTable[Language]UI.xml -->
+            <!-- Roles - for the list of employee roles see EMPL_ROLE_EXM_TRT in StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES</LocID>                          <Text>員工沒有任何工作</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES_TEXT</LocID>                     <Text>員工沒有任何能執行的工作 他們將會閒置在一旁</Text>  </GameDBLocalizedString>
+
+            <!-- Workload - see UI_ROOM_USAGE_DAY in StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY</LocID>              <Text>日班房間工作量狀態</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY_TEXT</LocID>         <Text>日班狀態:\n閒置房間: {1}\n工作量過重的房間: {2}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT</LocID>            <Text>夜班房間工作量狀態</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT_TEXT</LocID>       <Text>夜班狀態:\n閒置房間: {1}\n工作量過重的房間: {2}</Text>  </GameDBLocalizedString>
+
+            <!-- Broken beds/rooms -->
+            <!-- The room names filled in are from StringTable[Language]BuildingMode.xml, for example: -->
+            <!-- ROOM_TYPE_ER_OBSERVATION_ROOM, ROOM_TYPE_INTENSIVE_CARE_UNIT, ROOM_TYPE_INPATIENT_WARD, ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD -->
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED</LocID>   <Text>患者的病床損壞</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TEXT</LocID><Text>立刻修復病床 否則患者會被轉移至其他病床 甚至轉院</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER</LocID>   <Text>患者目前正在轉移至其他病房</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER_TEXT</LocID> <Text>患者的病床損壞 所以正在轉移至其他病床</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT</LocID>   <Text>患者正在等待移床至新的病床</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text><![CDATA[患者的病床損壞 所以正在轉移至其他病床 但是現在在: <i>{1}</i> 並沒有閒置的病床]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT</LocID>   <Text>患者正在等待移床至新的病床</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text>患者的病床損壞 所以正要轉移至其他病床 但是目前沒有閒置的護理師進行移床</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT</LocID>   <Text>患者正在等待移床至新的病房</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[患者的病床損壞 所以正在轉移至其他病床: <i>{1}</i> ,但是目前沒有閒置的護理師進行移床]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY</LocID>   <Text>患者正在轉院中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY_TEXT</LocID> <Text>患者的病床損壞 因一直未獲改善 目前患者正在轉院中</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+
+            <!-- Status column in table of patients -->
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_STATUS</LocID>               <Text>狀態</Text>  </GameDBLocalizedString>
+            
+            <!-- Workload shown in department management mode for individual rooms (on the floor) -->
+            <GameDBLocalizedString>      <LocID>WORKLOAD_NONE</LocID>                           <Text>無</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_LOW</LocID>                            <Text>輕</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_MEDIUM</LocID>                         <Text>中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_HIGH</LocID>                           <Text>重</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_CRITICAL</LocID>                       <Text>過重</Text>  </GameDBLocalizedString>
+
+            <!-- Marker of rooms extended outdoors in department management mode for individual rooms (on the floor) -->
+            <GameDBLocalizedString>      <LocID>UI_ROOM_OUTDOORS</LocID>                        <Text>戶外</Text>  </GameDBLocalizedString>
+            
+            <!-- Department management mode, neurology, on the right panel (hospitalization) -->
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_NEURO</LocID>                  <Text>神經科技師</Text>  </GameDBLocalizedString>
+
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    
