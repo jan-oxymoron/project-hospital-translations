@@ -1,0 +1,410 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_PATCH_1_1">
+    
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>NEW_GAME_MAIN_MENU</LocID>                       <Text>НОВАЯ ИГРА</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPLETED</LocID>                                <Text>Завершено</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOCKED</LocID>                                   <Text>Заблокировано</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIOS</LocID>                                <Text>СЦЕНАРИИ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>START</LocID>                                    <Text>Начать</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>CHECK_SAVE</LocID>                               <Text>Проверить сохранение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_NOT_BE_LOADED_MODS</LocID>                   <Text>Игра была сохранена с модификациями/дополнениям, не установленными в настоящий момент. Загрузка невозможна.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>GAME_SAVED</LocID>                               <Text>Игра сохранена.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIO_CREATED</LocID>                         <Text>Сценарий создан.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP</LocID>                                 <Text>МАСТЕРСКАЯ</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSE</LocID>                          <Text>ПРОСМОТР</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_MOD</LocID>                      <Text>ВЫГРУЗИТЬ МОДИФИКАЦИЮ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_SCENARIO</LocID>                 <Text>ВЫГРУЗИТЬ СЦЕНАРИЙ</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD</LocID>                          <Text>Загрузить в мастерскую</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_FOLDER</LocID>                          <Text>Папка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_PREVIEW_HINT</LocID>                    <Text>Поместите preview.png в папку.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_NAME</LocID>                            <Text>Название</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_DESCRIPTION</LocID>                     <Text>Описание</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BUTTON_UPLOAD</LocID>                   <Text>Выгрузить</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPDATING</LocID>                        <Text>Выгрузка (может занять до минуты)...</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING</LocID>                        <Text>Просмотр мастерской</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING_TIPS</LocID>                   <Text>Project Hospital использует веб-интерфейс Steam для поиска модификаций и сценариев в мастерской.\nПосле того, как вы подпишетесь на новые позиции, перезапустите игру, чтобы Steam загрузил данные.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_LABEL</LocID>                          <Text>Данные:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_TIME</LocID>                           <Text><![CDATA[<b>Время: </b>День ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_BALANCE</LocID>                        <Text><![CDATA[<b>Счет: </b> $]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_OLD_VERSION</LocID>                    <Text>Сохранено Project Hospital 1.0</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVED_WITH_ADDONS</LocID>                        <Text>Сохранено с дополнениями:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ADDON_NOT_INSTALLED</LocID>                      <Text>(Не установлено!)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TREATMENT_HOSPITALIZATION_UNAVAILABLE</LocID>    <Text>Недоступна госпитализация, требующаяся для лечения. Проверьте свободные кровати, или попытайтесь госпитализировать с большим приоритетом.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_PLACE</LocID>            <Text>Разместить этажи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_DELETE</LocID>           <Text>Удалить этажи</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_GENERATE_COST</LocID>        	 <Text>Найти новых кандидатов за 2500 $</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_NUMBER_OF_INSURANCE_COMPANIES</LocID>    <Text>Количество законтрактованных страховых компаний/доступных контрактов.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>BUTTON_CREATE_SCENARIO</LocID>        	         <Text>СОЗДАТЬ СЦЕНАРИЙ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO</LocID>        	         <Text>Создать сценарий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_FOLDER</LocID>        	 <Text>Папка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_NAME</LocID>        	     <Text>Название</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_DESCRIPTION</LocID>        <Text>Описание</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_DEFAULT_COLOR</LocID>   <Text>Все серое</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_RESTORE_DEFAULT_COLORS</LocID>     <Text>Восстановить цвета</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS_ALL_DAY</LocID>                <Text>Довольство пациентов (на лечении и уже ушедших)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>UI_ROOM_PLANNING_ONLY</LocID>                    <Text>ТОЛЬКО ПЛАНИРОВКА\n(НЕ НА ФУНДАМЕНТЕ)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_REQUIRED_HOSPITALIZATION</LocID>         <Text>Требуется госпитализация:</Text>  </GameDBLocalizedString>
+            
+            <!-- Insurance objectives -->
+            <GameDBLocalizedString>      <LocID>SAVE_PATIENT_AFTER_COLLAPSES</LocID>                           <Text>Спасти пациента после {1} коллапса(-ов)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>           <Text>Открыть клинику в любом специализированном отделении</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>  <Text>Открыть госпитализацию в любом специализированном отделении</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY</LocID>                                        <Text>Выполнить операций: {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>                 <Text>Повысить репутацию до {1} в любом специализированном отделении</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_ANY_SPECIALIZED_DEPARTMENT</LocID> <Text>Вылечивать {1} пациента(-ов) в день в любом специализированном отделении</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_OF_TYPE</LocID>                              <Text>Успешно завершить {1}  события(-ий) типа «{2}»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW</LocID>                               <Text>Успешно завершить {1} события(-ий) подряд</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NUMBER_OF_FULLY_WORKING_DEPARTMENTS</LocID>                    <Text>Создать {1} полноценно работающих отделения(-ий)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_PATIENTS_SENT_AWAY_OR_WENT_AWAY_DAYS</LocID>                <Text>Ни одного невылеченного пациента за {1} дн. подряд</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_DEAD_PATIENTS_DAYS</LocID>                                  <Text>Ни одного мертвого пациента/безнадежного случая {1} дн. подряд</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance objective rewards -->
+            <GameDBLocalizedString>      <LocID>PRESTIGE_BONUS</LocID>                           <Text>Бонус репутации {1} на {2} дн.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_ALL_HOSPITALIZATIONS</LocID>              <Text>Открыть госпитализацию</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SET_MOBILE_PATIENT_COUNT</LocID>                 <Text>Повысить число пациентов клиники в день до {1}</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>SET_IMMOBILE_PATIENT_COUNT</LocID>               <Text>Повысить число пациентов скорой помощи в день до {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_EVENTS</LocID>                            <Text>Открыть кнопки событий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_RANDOM_EVENTS</LocID>                     <Text>Случайные события</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CONTRACTED_INSURANCE_COMPANY_COUNT</LocID>       <Text>Законтрактованные компании:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PURCHASE_AMBULANCES</LocID>                      <Text>Купить машины скорой помощи</Text>  </GameDBLocalizedString>
+                 
+            <!-- Employee's card  roles tooltips -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MISSING_SPECIALIZATION</LocID>           <Text>Нельзя назначить роль этому сотруднику: нет требуемой специализации.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ONLY_SPECIALIZATION</LocID>              <Text>У этого сотрудника лишь одна доступная роль — ее нельзя отключить.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_CLINIC_PATIENTS</LocID><Text>Количество пациентов, направляемых в клинику каждый день.\nКоличество уменьшается, если репутация клиники не из лучших.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>CANDIDATES</LocID>                               <Text>Кандидаты</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_CLINIC</LocID>                  <Text>Дневная смена: клиника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC</LocID>                <Text>Ночная смена: клиника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_HOSPITALIZATION</LocID>         <Text>Дневная смена: госпитализация</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC_HOSPITALIZATION</LocID><Text>Ночная смена: госпитализация</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGIST</LocID>             <Text>Радиолог</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGISTS</LocID>            <Text>Радиологи</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY_NIGH</LocID>       <Text>Дневной/ночной персонал</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_KEYBOARD_CONTROLS</LocID>        <Text>Управление с клавиатуры</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_V2</LocID>                               <Text>Загрузка</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ICU</LocID>                          <Text>Реанимация принимает лишь пациентов с подтвержденным диагнозом, пациенты в коллапсе без четкого диагноза направляются в центр неотложной травматологии (ЦНТ).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_NURSES</LocID>                       <Text>Если на начало осмотра и лечения уходит много времени, проверьте, достаточно ли у вас медсестер для транспортировки пациентов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HDU</LocID>                          <Text>ОИТ рассчитано в основном на пациентов, неспособных к передвижению. Оно гарантирует более интенсивное наблюдение со стороны медсестер и обеспечивает пациентам больше шансов пережить коллапс.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP</LocID>                           <Text>Для проведения операции вам нужна команда следующих специалистов: 1 хирург (доктор), 1 специалист отделения (доктор), 1 анестезиолог (доктор), 1 помощник хирурга (медсестра), 1 специалист по уходу за пациентом (медсестра), плюс свободная медсестра для транспортировки пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MANAGEMENT</LocID>                   <Text>Области, не помеченные в режиме управления как комнаты, обслуживаются уборщиками в последнюю очередь.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUILDING</LocID>                     <Text>Вы можете расширять этажи выше первого с помощью инструмента фундамента, они могут даже выступать за этажи под ними.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS</LocID>                     <Text>Когда уборщики заканчивают уборку своего отделения, они помогают в другом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MOVING_OBJ</LocID>                   <Text>Вы можете перемещать объекты вместе с дополнениями, к примеру, стол вместе с компьютером. Чтобы выбрать только дополнение, удерживайте [CTRL].</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_RECEPTION</LocID>                    <Text>Во время первичной сортировки регистраторы назначают более высокий приоритет более критическим случаям.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_COFFEE_MAKER</LocID>                 <Text>Комната отдыха без кофе-машины? Вы серьезно? :)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ROLES_CARD</LocID>                   <Text>Чтобы максимизировать производительность персонала, вы можете включать и отключать определенные роли. К примеру, вы можете создать выделенную команду для операций.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OBSERVATION</LocID>                  <Text>Поместив под наблюдение пациентов со сложными медицинскими случаями, вы освободите врачей вашей клиники для других пациентов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HIRING_PERKS</LocID>                 <Text>Берете кого-то на работу? Не забудьте взглянуть на его особенности!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DECORATIONS</LocID>                  <Text>Тщательно подобранные украшения и чистота улучшают удовлетворение сотрудников и пациентов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUDGET_LOANS</LocID>                 <Text>Заканчиваются деньги? Вы можете взять в кредит до 500 000 $. В худшем случае можно даже продать лишнее оборудование или украшения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_UNAVAILABLE_EXM</LocID>              <Text>Если какой-то осмотр или лечение оказываются недоступны, то вам, скорее всего, не хватает специализированной комнаты или оборудования, либо же вам нужно перевести пациента в другое отделение.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_GOOD_BOSS</LocID>                    <Text>Хороший главврач может сделать персонал счастливее и эффективнее.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PRESTIGE</LocID>                     <Text>Репутация влияет как на выплаты от страховых компаний, так и на поступление пациентов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_STAFF</LocID>                        <Text>Таблицы пациентов и персонала можно открыть на левой панели в режиме управления.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BLUED_OBJ</LocID>                    <Text>Если объект окрашивается в синий цвет, ему недостает какого-то дополнительного оборудования. Наведя курсор на объект, на панели строительства будет подсвечено все необходимое. Синие стрелочки помогут вам все правильно разместить.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DIA_TABLE</LocID>                    <Text>Таблица возможных диагнозов поможет вам определиться с тем, какие осмотры нужны для изучения конкретных симптомов.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROOMS_SHARED</LocID>             <Text>Совмещенные палаты</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_YESTERDAY</LocID>          <Text>Вчера</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_TODAY</LocID>              <Text>Сегодня</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DEPARTMENT_STATISTICS</LocID>                    <Text>Статистика по отделению</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PRESTIGE</LocID>              <Text>Репутация</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_STAFF</LocID>    <Text>Довольство персонала</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_PATIENTS</LocID> <Text>Довольство пациентов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_STATISTICS_HISTORY</LocID>    <Text>История статистики</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_DAY</LocID>          <Text>Нагрузка днем</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_NIGHT</LocID>        <Text>Нагрузка ночью</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_STAFF</LocID>        <Text>Текущая нагрузка персонала</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKLOAD_ON_CALL_ROOM</LocID>                    <Text>Ординаторских</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_NURSES_STATION</LocID>                  <Text>Сестринских постов</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PROCEDURES</LocID>            <Text>Процедуры</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOST_FREQUENT_MODIFIERS</LocID>                  <Text>Наиболее частые модификаторы:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TREATED</LocID>                <Text>Вылечено</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_HOSPITALIZED</LocID>           <Text>Госпитализировано</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_SENT_TO_OTHER_DPT</LocID>      <Text>Отправлено в специализированное отделение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_COLLAPSED</LocID>              <Text>В коллапсе</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_UNTREATED</LocID>              <Text>Без лечения</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_DOCTOR</LocID>     <Text>Среднее время до приема у врача</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_SPECIALIST</LocID> <Text>Среднее время ожидания осмотра специалиста</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_RELEASED</LocID>      <Text>Выписано</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_DEAD</LocID>          <Text>Мертво</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_COLLAPSED</LocID>     <Text>В коллапсе</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_UNTREATED</LocID>     <Text>Без лечения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_HUNGRY</LocID>        <Text>Голодных</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_EXAMINATIONS</LocID>        <Text>Осмотров</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_TREATMENTS</LocID>          <Text>Процедур лечения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_STABILIZATIONS</LocID>      <Text>Стабилизировано</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_SURGERIES</LocID>           <Text>Операций</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_DAY_CLINIC</LocID>        <Text>Чтобы назначить в клинику ночную смену, сперва нужно заполнить дневную.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_EMERGENCY</LocID>         <Text>Для ночной смены в специализированной клинике требуется в ночная смена в скорой помощи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_IS_MISSING_SKILL</LocID>                <Text>У выбранного сотрудника нет специализации, нужной для этой комнаты.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_INTERNS_IN_ON_CALL_ROOM</LocID>               <Text>Интернов нельзя назначать в ординаторские.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT_V2</LocID>               <Text>Вы не смогли завершить событие вовремя, либо же один из ваших пациентов получил неверный диагноз, умер, или был переведен в другую больницу. Ваша репутация снижена до конца дня, либо же до тех пор, пока вы успешно не выполните другое событие.\nТакже вы оштрафованы на сумму: {1} $</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_SELECT_DEPARTMENT</LocID>           <Text>Выберите отделение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INGAME_HELP</LocID>                 <Text>Внтуриигровая помощь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_DELETE_BUILDING</LocID>             <Text>Переключитесь на инструмент удаления в режиме строительства / закройте незакрепленные панели интерфейса.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02_DESCRIPTION_V2</LocID>         <Text>Ознакомьтесь с различными аспектами строительства, построив небольшую функциональную клинику.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION_V2</LocID>         <Text>Познакомьтесь с правилами управления больницей, а также с процессом госпитализации.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION_V2</LocID>         <Text>Воспользуйтесь своими умениями, чтобы привести эту неэффективную больницу к процветанию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION_V2</LocID>         <Text>Удастся ли вам вытащить эту больницу из долгов?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03_DESCRIPTION_V2</LocID>         <Text>Все или ничего! Гонка за грантом от штата начинается прямо сейчас!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION_V2</LocID>        <Text>Испытайте свои навыки управления отделением скорой помощи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION_V2</LocID>        <Text>Испытайте свои навыки управления отделением общей хирургии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION_V2</LocID>        <Text>Испытайте свои навыки управления отделением внутренней медицины</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION_V2</LocID>        <Text>Испытайте свои навыки управления отделением ортопедии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION_V2</LocID>        <Text>Испытайте свои навыки управления отделением кардиологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION_V2</LocID>        <Text>Испытайте свои навыки управления отделением неврологии</Text>  </GameDBLocalizedString>
+
+            <!-- Colors of notification messages in log and popups -->
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_RED</LocID>                          <Text>красный</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_YELLOW</LocID>                       <Text>желтый</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_GREEN</LocID>                        <Text>зеленый</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_BLUE</LocID>                         <Text>синий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_DEFAULT</LocID>                      <Text>по умолчанию</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_COLOR</LocID>              <Text>Изменить цвет сообщений</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED</LocID>                    <Text>Эта кнопка события разблокируется после того, как вы купите машину скорой помощи, и наладите функционирование хотя бы одного из следующих отделений (включая ночную клинику): {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED_INSURANCE</LocID>          <Text>Кнопка пользовательских событий разблокируется после выполнения 2-й цели для страховой компании «Быстрая забота».</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_LOCKED</LocID>        <Text>Заблокировано, либо же достигнут максимум законтрактованных страховых компаний (3/3).</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_MANDATORY</LocID>                 <Text> (обязательно)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>NO_FUNDS</LocID>                                 <Text>Недостаточно средств</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_GROUND_FLOOR</LocID>            <Text>можно разместить лишь на первом этаже</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER</LocID>                <Text>Конструктор лифтов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER_DESCRIPTION</LocID>    <Text>Во время планирования в режиме управления вы можете использовать этот инструмент, чтобы отметить, где будут размещены лифты.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MOVE_AREA</LocID>                        <Text>Переместить комнату или выбранную область.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOVED_AREA</LocID>                               <Text>Область перемещена.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_BE_MOVED</LocID>                             <Text>Выбранную область можно переместить.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_IN_USE</LocID>                  <Text>Выбранная область содержит используемые объекты.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CUTS_OBJECT</LocID>             <Text>Выбранная область содержит лишь часть объекта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CONTAINS_SPECIAL_OBJECTS</LocID><Text>Выбранная область содержит объекты инфраструктуры.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_LOCKED_AREA</LocID>             <Text>Часть выбранной области за пределами территории больницы.</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <!-- New option for workplace panel color -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_WORKPLACE_COLOR</LocID>                  <Text>Отображать фоновый цвет рабочего места</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_EXTENDED_EMPLOYEE_LIMIT</LocID>          <Text>Увеличить максимум сотрудников до 400 (требуется быстрый компьютер)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <!-- New and updated unclear department notifications  -->
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1</LocID>           <Text>Отделение не может поставить диагноз пациенту!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1_TEXT</LocID>      <Text>Похоже, в отделении уже сделали все доступные анализы, попробуйте выбрать другой диагноз или сделайте доступными больше анализов. Иначе пациента переведут в другую больницу.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY</LocID>          <Text>Пациента переводят в другую больницу.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY_TEXT</LocID>     <Text>Из-за того, что в отделении не могли сделать нужные анализы, пациент ждал диагноза слишком долго и теперь переводится в другую больницу.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS</LocID>         <Text>Приемные часы клиники окончены!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS_TEXT</LocID>    <Text>Когда клиника закрыла свои двери, обследования еще ждало {1}пациента(-ов).</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT</LocID>           <Text>Пациент слишком долго ждал приема и уходит!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT_TEXT</LocID>      <Text>Пациент клиники слишком долго ждал приема у врача.\nЕсли в настоящее время проводятся анализы, пациент вернется на следующий день.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT</LocID>          <Text>Пациент уходит!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT_TEXT</LocID>     <Text>Пациент клиники провел в больнице полдня, не получив лечения или госпитализации.\nЕсли в настоящее время проводятся анализы, пациент вернется на следующий день.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN</LocID>                      <Text>Теперь клиника открыта и ночью!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN_TEXT</LocID>                 <Text>Теперь клиника принимает пациентов в режиме 24/7.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED</LocID>                    <Text>Клиника больше не работает ночью!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED_TEXT</LocID>               <Text>Так как в ночной смене нет врачей, клиника открыта для приема только днем.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS</LocID>                  <Text>Недостаточно каталок!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS_TEXT</LocID>             <Text>Медсестры жалуются, что им не хватает каталок для всех пациентов, которых нужно перевезти в отделение «{1}».</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT</LocID>                           <Text>Принять</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_DECLINE_EVENT</LocID>                          <Text>Отказать</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START</LocID>                     <Text>Срочные новости:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START_TEXT</LocID>                <Text>{1}</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT</LocID>        <Text>Наблюдаемого пациента нельзя выписать!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT_TEXT</LocID>   <Text>Пациента нужно перевести в спецклинику «{1}», но в настоящее время она закрыта. Мы попытаемся госпитализировать пациента в отделении.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_DEPARTMENT_STATISTIC</LocID>              <Text>Открыть статистику</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH</LocID>                                <Text>Путь не найден</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH_TEXT</LocID>                           <Text>Персонажу не удалось найти путь к месту назначения, так как, возможно, его что-то блокирует.\nПерсонаж попытается найти другой путь, если он существует. Проверьте, нет ли по пути отсутствующих дверей, неработающих лифтов или закрытых зон.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR</LocID>                   <Text>Нет доступных диагностов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR_TEXT</LocID>              <Text>В ординаторской в отделении «{1}» нет доктора с ролью диагноста, активной для госпитализированных пациентов.</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- New patient states  -->
+            <GameDBLocalizedString>      <LocID>WaitingForAmbulance</LocID>                          <Text>Ожидание скорой помощи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_UnclearDiagnose</LocID>                 <Text>ожидание диагноза</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_PATIENTS_NONSTOP</LocID>      <Text>Время работы клиники</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_1</LocID>            <Text>профессиональный уход</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_2</LocID>            <Text>профессиональный уход</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_UNTREATED</LocID>                            <Text>без лечения</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_WITHOUT_WORKSPACE</LocID>                   <Text>Сотрудник без рабочего места</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOT_PRESCRIBABLE_DEPARTMENT</LocID>                  <Text>Нельзя назначить в этом отделении</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_RECEPTIONIST</LocID>                       <Text>Регистратор</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOOR_PLACEMENT</LocID>                  <Text><![CDATA[Вы установили требуемое оборудование во все нужные комнаты, но, похоже, забыли о дверях.<b><i> Разместите двери</i></b> везде, где они нужны.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS_V2</LocID>              <Text><![CDATA[Комнаты бывают обязательными (красное число) и дополнительными (зеленое). Некоторые комнаты делят между собой несколько отделений.<b><i>Давайте разместим по одной из следующих комнат: кабинет врача, комнату ожидания и туалет</i></b>, так как они необходимы для рабочей клиники.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES_V2</LocID>                   <Text>Рабочее место состоит из стола, стула и компьютера. Если все размещено правильно, они отобразятся в режиме управления. Через рабочие места вы нанимаете сотрудников. Отображаются как дневная, так и ночная смены.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_V2</LocID>                       <Text><![CDATA[Теперь давайте посмотрим, как нанимать персонал.<b><i>Щелкните по любому пустому рабочему месту</i></b> (без портрета), чтобы открыть карточку найма.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO_V2</LocID>           <Text>Вы нанимаете сотрудника, щелкнув по его портрету. Также в карточке сотрудника вы можете назначить ему любое рабочее место. После того, как вы наймете сотрудника, вы увидите, какие роли ему доступны на его рабочем месте.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_V2</LocID>                <Text><![CDATA[Давайте получше присмотримся к вашему персоналу. <b><i>Откройте любую из карточек ваших сотрудников</i></b>. \n\nЩелкните либо по занятому рабочему месту в режиме управления, либо прямо по сотруднику в режиме игры.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS</LocID>                <Text><![CDATA[Давайте ближе познакомимся с инструментами управления всей больницей. <b><i>Откройте карточку управления больницей,</i></b> щелкнув по любой из категорий на основной панели.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS_OPENED</LocID>         <Text>В этой карточке вы найдете 5 категорий: статистика отделений, страхование, скорая помощь, бюджет и статистика. Заглядывайте сюда как можно чаще: здесь вы увидите, как повысить эффективность больницы.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF_V2</LocID><Text><![CDATA[Пришло время<b><i> нанять хирурга</i></b> для дневной смены в ординаторскую. Если вы наведете курсор мыши на профессию, всплывающая подсказка покажет вам, какая для нее нужна специализация. Их можно отфильтровать в карточке найма. \n\nДля того, чтобы клиника и госпитализация функционировали, вы должны позаботиться о всех красных предупреждениях.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OBJECTIVES_V2</LocID>                   <Text><![CDATA[Теперь, когда мы познакомились с основами, откроем клинику для приема.<b><i>Вылечите 4 пациентов.</i></b>\n\nВы можете проверить количество вылеченных пациентов (зеленая цифра) на основной панели.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_EVENTS</LocID>                               <Text>Еще один отличный способ заработать много денег и репутации — успешно выполнить несколько событий подряд. Но будьте осторожны: провал может привести к противоположному результату.</Text>  </GameDBLocalizedString> <!--Used in campaign level 03-->
+
+            <!-- ingame tutorial -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_MANAGEMENT_MODE_1_1</LocID>      <Text><![CDATA[Выберите<b><i>режим управления</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_BUTTON_1_1</LocID>               <Text><![CDATA[Щелкните по <b><i>рабочему месту</i></b> в выбранной комнате. Слева показана дневная смена, Справа — ночная.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION_1_1</LocID>           <Text><![CDATA[Выберите нужную вам <b><i>профессию</i></b>.\n\nСовет: обязательные профессии выделены красным, рекомендованные — желтым.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION_1_1</LocID>            <Text><![CDATA[Выберите одного из <b><i>доступных сотрудников</i></b>, и он будет назначен на рабочее место.\n\nСовет: обращайте внимание на их особенности.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT_1_1</LocID>          <Text><![CDATA[Здесь вы видите все страховые компании, которые можно <b><i>законтрактовать</i></b>.\n\nСовет: единовременно можно законтрактовать не более 3 компаний.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO_1_1</LocID>              <Text><![CDATA[Каждая компания показывает, сколько <b><i>пациентов</i></b> они будут присылать в день.\n\nСовет: вы можете увеличить это число, выполнив цели компании.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS_1_1</LocID>           	<Text><![CDATA[В некоторых комнатах вы можете увидеть <b><i>показатель рабочей нагрузки</i></b>, показывающий, какая работа здесь была проделана за последние 24 ч. Если нагрузки нет, это означает, что персонал в этой комнате простаивает, если же она критична, ваш персонал перегружен.\n\nСовет: суммарная нагрузка для каждого отделения доступна в статистике отделения.]]></Text>  </GameDBLocalizedString>
+
+
+            <!--==================-->
+            <!--New lab department-->
+            <!--==================-->
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>DPT_LAB</LocID>                                      <Text>Медицинские лаборатории</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB</LocID>                     <Text>Лаборатория гематологии</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DESCRIPTION</LocID>         <Text>Полностью оснащенная лаборатория, способная проводить анализы крови и серологические анализы.\n\nМинимальный персонал:\n1 лаборант</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB</LocID>                   <Text>Лаборатория микробиологии</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB_DESCRIPTION</LocID>       <Text>Полностью оснащенная лаборатория, способная проводить культивацию и анализ различных образцов.\n\nМинимальный персонал:\n1 лаборант</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB</LocID>                      <Text>Лаборатория гистологии</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB_DESCRIPTION</LocID>          <Text>Полностью оснащенная лаборатория, способная проводить микроскопический анализ различных образцов.\n\nМинимальный персонал:\n1 лаборант</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL</LocID>                        <Text>Настенная лабораторная полка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL_DESCRIPTION</LocID>            <Text>Обычная лабораторная полка — крепится на стену.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR</LocID>                         <Text>Микробиологический инкубатор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR_DESCRIPTION</LocID>             <Text>Особое оборудование, нужное для культивации культур бактерий и/или грибков.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK</LocID>                         <Text>Половинный лабораторный стол</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK_DESCRIPTION</LocID>             <Text>Лабораторный стол размером в половину обычного.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET</LocID>                           <Text>Лабораторный шкаф</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET_DESCRIPTION</LocID>               <Text>Шкаф для лабораторий.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD</LocID>                             <Text>Вытяжной шкаф</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD_DESCRIPTION</LocID>                 <Text>Специализированное лабораторное оборудование, использующееся для ограничения воздействия вредоносных или токсичных пыли и испарений.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES</LocID>                          <Text>Колбы и бюретка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES_DESCRIPTION</LocID>              <Text>Набор колб и бюретка.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIST_LAB</LocID>       		         <Text>Лаборатория гистологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HEM_LAB</LocID>       			         <Text>Лаборатория гематологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MIC_LAB</LocID>       			         <Text>Лаборатория микробиологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAB_DPT</LocID>       			         <Text>Медицинские лаборатории</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_SMALL_ABBR</LocID>            <Text>Лаборатория гематологии - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_LARGE_ABBR</LocID>            <Text>Лаборатория гематологии - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_SMALL_ABBR</LocID>          <Text>Лаборатория микробиологии - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_LARGE_ABBR</LocID>          <Text>Лаборатория микробиологии - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_SMALL_ABBR</LocID>             <Text>Лаборатория гистологии - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_LARGE_ABBR</LocID>             <Text>Лаборатория гистологии - 12 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_LAB</LocID>                  <Text>Шаблоны медицинских лабораторий</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
+            <!-- New descriptions of laboratory examinations
+                 These are similar to the original descriptions (for example EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION), but with updated
+                 names of the required rooms (Histology Lab, Hematology Lab or Microbiology Lab) 
+            -->
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>           <Text>Взятие образцов микрофлоры — это взятие у пациента различных анализов (телесных жидкостей, мокроты, стула) для дальнейшего изучения. \n\nТребуемая комната: лаборатория микробиологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины / неврологии или реанимация. \n\nТребуемое оборудование: колбы + вытяжной шкаф + микробиологический инкубатор + микроскоп.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>            <Text>Лабораторная культивация образца, полученного от пациента, с целью определения, присутствуют ли в его организме бактерии, и если да, то какого рода. \n\nТребуемая комната: лаборатория микробиологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION_1_1</LocID>                         <Text>Хирургическая процедура, в процессе которой для дальнейшего изучения берется образец тканей (например, легкого, печени или спинного мозга). \n\nТребуемая комната: лаборатория гистологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии / ортопедии / кардиологии / неврологии или реанимация. \n\nТребуемое оборудование: колбы + лабораторный анализатор + микроскоп.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION_1_1</LocID>                          <Text>Кусочек тканей, извлеченный во время процедуры биопсии, изучается под микроскопом и подготавливается к более специфичным исследованиям. \n\nТребуемая комната: лаборатория гистологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION_1_1</LocID>                     <Text>Забор образца крови пациента (венозной или артериальной) для дальнейших анализов или изучения. \n\nТребуемая комната: лаборатория гематологии. \n\nВзятие образцов: любое отделение. \n\nТребуемое оборудование: колбы + гемоанализатор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION_1_1</LocID>                      <Text>Лабораторный анализ образца крови. \n\nТребуемая комната: лаборатория гематологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>Взятие образца крови для общего клинического анализа крови (ОАК). \n\nТребуемая комната: лаборатория гематологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины / ортопедии / неврологии или реанимация. \n\nТребуемое оборудование: колбы + гемоанализатор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION_1_1</LocID>                             <Text>Общий клинический анализ крови (ОАК) позволяет оценить количество всех видов клеток крови и определить отклонения от нормы. \n\nТребуемая комната: лаборатория гематологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION_1_1</LocID>            <Text>Получение образца стула пациента для определения количества эластазы, вырабатываемого поджелудочной железой. Это может многое сказать о работе поджелудочной железы. \n\nТребуемая комната: лаборатория гематологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии или реанимация. \n\nТребуемое оборудование: колбы + РИА.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION_1_1</LocID>             <Text>Измерение количества эластазы в стуле пациента. Это количество может многое сказать о работе поджелудочной железы. \n\nТребуемая комната: лаборатория гематологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>Сбор различных образцов из тела пациента для культивации с целью определения наличия или отсутствия грибка. \n\nТребуемая комната: лаборатория микробиологии. \n\nВзятие образцов: отделение скорой помощи или реанимация. \n\nТребуемое оборудование: колбы + вытяжной шкаф + микробиологический инкубатор + микроскоп.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>              <Text>Лабораторная культивация образцов, полученных из тела пациента. \n\nТребуемая комната: лаборатория микробиологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>Взятие образца биологического материала для анализа полимеразной цепной реакции в лаборатории. Это быстрое, дешевое и точное исследование. \n\nТребуемая комната: лаборатория гематологии. \n\nВзятие образцов: отделения скорой помощи / внутренней медицины / неврологии или реанимация. \n\nТребуемое оборудование: колбы + термоциклер.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION_1_1</LocID>                             <Text>Полимеразная цепная реакция — быстрый способ идентификации инфекционных заболеваний, вызванных бактериями или вирусами. Это быстрое, дешевое и точное исследование. \n\nТребуемая комната: лаборатория гематологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>Взятие образца перитонеальной жидкости с помощью прокола шприцом с большой иглой через стенку брюшной полости. \n\nТребуемая комната: лаборатория гистологии. \n\nВзятие образцов: отделение общей хирургии \n\nТребуемое оборудование: колбы + медицинская центрифуга + лабораторный анализатор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>       <Text>Биохимический анализ, изучающий жидкость, собранную из брюшной полости. \n\nТребуемая комната: лаборатория гистологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION_1_1</LocID>               <Text>Взятие образца крови для серологического анализа. \n\nТребуемая комната: лаборатория гематологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины / ортопедии / неврологии или реанимация. \n\nТребуемое оборудование: колбы + РИА.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION_1_1</LocID>                <Text>Особый анализ крови для выявления определенных антител и антигенов. Антитела — это белки, вырабатываемые иммунной системой человека для нейтрализации патогенов. \n\nТребуемая комната: лаборатория гематологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>Забор небольшого количества спинномозговой жидкости, осуществляемый с помощью прокола нижней части спины иглой, достающего до спинномозгового канала. \n\nТребуемая комната: лаборатория гистологии. \n\nВзятие образцов: отделение неврологии. \n\nТребуемое снаряжение: колбы + медицинская центрифуга + лабораторный анализатор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>Процесс анализа спинномозговой жидкости в лаборатории. \n\nТребуемая комната: лаборатория гистологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>                 <Text>Процедура получения образца стула пациента для дальнейшего анализа. \n\nТребуемая комната: лаборатория гистологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины или реанимация. \n\nТребуемое снаряжение: колбы + анализатор стула.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>                  <Text>Анализ стула пациента в поисках бактерий, крови, паразитов и так далее. \n\nТребуемая комната: лаборатория гистологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>Процедура получения образца чистой мочи от самого пациента либо из катетера. \n\nТребуемая комната: лаборатория гистологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины / кардиологии или реанимация. \n\nТребуемое снаряжение: колбы + лабораторный анализатор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>Биохимический анализ образца мочи. \n\nТребуемая комната: лаборатория гистологии.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION_1_1</LocID>                                     <Text>Электромиография (ЭМГ) — это запись и анализ электрической активности мускулатуры пациента. \n\nТребуемая комната: офис / диагностический кабинет в отделения ортопедии. </Text>  </GameDBLocalizedString>
+         
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   
