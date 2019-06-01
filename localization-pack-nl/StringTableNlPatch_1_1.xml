@@ -1,0 +1,410 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_NL_PATCH_1_1">
+    
+        <LanguageCode>nl</LanguageCode>
+        <LanguageNameLocalized>Nederlands</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>NEW_GAME_MAIN_MENU</LocID>                       <Text>NIEUW SPEL</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPLETED</LocID>                                <Text>Voltooid</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOCKED</LocID>                                   <Text>Vergrendeld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIOS</LocID>                                <Text>SCENARIO'S</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>START</LocID>                                    <Text>Start</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>CHECK_SAVE</LocID>                               <Text>Opslagbestand controleren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_NOT_BE_LOADED_MODS</LocID>                   <Text>Het spel is opgeslagen met mods/uitbreidingen die momenteel niet zijn geïnstalleerd en niet kunnen worden geladen.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>GAME_SAVED</LocID>                               <Text>Spel opgeslagen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIO_CREATED</LocID>                         <Text>Scenario gecreëerd.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP</LocID>                                 <Text>WORKSHOP</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSE</LocID>                          <Text>BEKIJKEN</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_MOD</LocID>                      <Text>MOD UPLOADEN</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_SCENARIO</LocID>                 <Text>SCENARIO UPLOADEN</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD</LocID>                          <Text>Naar workshop uploaden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_FOLDER</LocID>                          <Text>Map</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_PREVIEW_HINT</LocID>                    <Text>Plaats preview.png in de map.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_NAME</LocID>                            <Text>Naam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_DESCRIPTION</LocID>                     <Text>Beschrijving</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BUTTON_UPLOAD</LocID>                   <Text>Uploaden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPDATING</LocID>                        <Text>Bijwerken (dit duurt maximaal een minuut)...</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING</LocID>                        <Text>Workshop bekijken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING_TIPS</LocID>                   <Text>Om Workshop-mods en scenario's van Project Hospital te bekijken, gebruik je de webinterface van Steam.\nSchrijf je in voor nieuwe items en start de game opnieuw op, zodat Steam de content kan downloaden.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_LABEL</LocID>                          <Text>Info:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_TIME</LocID>                           <Text><![CDATA[<b>Tijd: </b>dag ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_BALANCE</LocID>                        <Text><![CDATA[<b>Saldo: </b>$]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_OLD_VERSION</LocID>                    <Text>Opgeslagen met Project Hospital 1.0</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVED_WITH_ADDONS</LocID>                        <Text>Opgeslagen met uitbreidingen:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ADDON_NOT_INSTALLED</LocID>                      <Text>(Niet geïnstalleerd!)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TREATMENT_HOSPITALIZATION_UNAVAILABLE</LocID>    <Text>Voor deze behandeling is opname in het ziekenhuis vereist, maar dit kan momenteel niet. Controleer of er vrije bedden zijn of kies een ziekenhuisopname met een hogere prioriteit.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_PLACE</LocID>            <Text>Verdiepingen plaatsen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_DELETE</LocID>           <Text>Verdiepingen verwijderen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_GENERATE_COST</LocID>        	 <Text>Nieuwe kandidaten vinden voor $2500</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_NUMBER_OF_INSURANCE_COMPANIES</LocID>    <Text>Aantal gecontracteerde verzekeraars / max. aantal contracten</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>BUTTON_CREATE_SCENARIO</LocID>        	         <Text>SCENARIO CREËREN</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO</LocID>        	         <Text>Scenario creëren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_FOLDER</LocID>        	 <Text>Map</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_NAME</LocID>        	     <Text>Naam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_DESCRIPTION</LocID>        <Text>Beschrijving</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_DEFAULT_COLOR</LocID>   <Text>Helemaal grijs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_RESTORE_DEFAULT_COLORS</LocID>     <Text>Kleuren herstellen</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS_ALL_DAY</LocID>                <Text>Tevredenheid patiënten (huidige en vertrokken)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>UI_ROOM_PLANNING_ONLY</LocID>                    <Text>GEPLAND\n(NIET OP FUNDERING)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_REQUIRED_HOSPITALIZATION</LocID>         <Text>Opname vereist:</Text>  </GameDBLocalizedString>
+            
+            <!-- Insurance objectives -->
+            <GameDBLocalizedString>      <LocID>SAVE_PATIENT_AFTER_COLLAPSES</LocID>                           <Text>Red een patiënt die {1} keer is ingestort</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>           <Text>Open een kliniek in een willekeurige gespecialiseerde afdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>  <Text>Maak ziekenhuisopname mogelijk op een willekeurige gespecialiseerde afdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY</LocID>                                        <Text>Voer {1} keer een operatie uit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>                 <Text>Bereik een prestigeniveau van {1} in een willekeurige gespecialiseerde afdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_ANY_SPECIALIZED_DEPARTMENT</LocID> <Text>Behandel {1} patiënten per dag op een willekeurige gespecialiseerde afdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_OF_TYPE</LocID>                              <Text>Rond {1} {2}-gebeurtenissen met succes af</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW</LocID>                               <Text>Rond {1} gebeurtenis(sen) op rij met succes af</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NUMBER_OF_FULLY_WORKING_DEPARTMENTS</LocID>                    <Text>Bezit {1} volledig werkende afdelingen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_PATIENTS_SENT_AWAY_OR_WENT_AWAY_DAYS</LocID>                <Text>Heb {1} dagen lang geen onbehandelde patiënten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_DEAD_PATIENTS_DAYS</LocID>                                  <Text>Heb {1} dagen lang geen dode patiënten of uitzichtloze gevallen</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance objective rewards -->
+            <GameDBLocalizedString>      <LocID>PRESTIGE_BONUS</LocID>                           <Text>Bereik {2} dagen lang een prestigebonus van {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_ALL_HOSPITALIZATIONS</LocID>              <Text>Ontgrendel ziekenhuisopname</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SET_MOBILE_PATIENT_COUNT</LocID>                 <Text>Verhoog het aantal dagelijkse patiënten in de kliniek naar {1}</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>SET_IMMOBILE_PATIENT_COUNT</LocID>               <Text>Verhoog het aantal dagelijkse ambulancepatiënten naar {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_EVENTS</LocID>                            <Text>Ontgrendel gebeurtenisknoppen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_RANDOM_EVENTS</LocID>                     <Text>Willekeurige gebeurtenissen</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CONTRACTED_INSURANCE_COMPANY_COUNT</LocID>       <Text>Gecontracteerde bedrijven:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PURCHASE_AMBULANCES</LocID>                      <Text>Ambulances kopen</Text>  </GameDBLocalizedString>
+                 
+            <!-- Employee's card  roles tooltips -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MISSING_SPECIALIZATION</LocID>           <Text>Deze rol kan niet worden ingeschakeld omdat de medewerker niet over de vereiste specialisatie beschikt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ONLY_SPECIALIZATION</LocID>              <Text>Deze rol kan niet worden uitgeschakeld omdat de medewerker maar één beschikbare rol heeft</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_CLINIC_PATIENTS</LocID><Text>Het aantal patiënten dat elke dag naar de kliniek komt.\nDit aantal daalt als het ziekenhuis een laag prestigeniveau heeft.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>CANDIDATES</LocID>                               <Text>Kandidaten</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_CLINIC</LocID>                  <Text>Dagdienst: kliniek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC</LocID>                <Text>Nachtdienst: kliniek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_HOSPITALIZATION</LocID>         <Text>Dagdienst: ziekenhuisopname</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC_HOSPITALIZATION</LocID><Text>Nachtdienst: ziekenhuisopname</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGIST</LocID>             <Text>Radioloog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGISTS</LocID>            <Text>Radiologen</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY_NIGH</LocID>       <Text>Personeel dag/nacht</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_KEYBOARD_CONTROLS</LocID>        <Text>Toetsenbordbesturing</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_V2</LocID>                               <Text>Laden...</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ICU</LocID>                          <Text>De ICU accepteert alleen patiënten met een bevestigde diagnose. Ingestorte patiënten zonder duidelijke diagnose gaan naar het Traumacentrum (TC).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_NURSES</LocID>                       <Text>Als het lang duurt voor onderzoeken en behandelingen beginnen, kun je controleren of er genoeg verplegers beschikbaar zijn voor het vervoeren van patiënten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HDU</LocID>                          <Text>In de HDU worden hoofdzakelijk immobiele patiënten opgenomen. In deze unit voeren verplegers vaker controles uit en hebben patiënten een grotere kans om een instorting te overleven.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP</LocID>                           <Text>Om operaties uit te voeren, heb je een team met de volgende specialisaties nodig: 1x chirurg (dokter), 1x afdelingsspecialist (dokter), 1x anesthesist (dokter), 1x medische chirurg (verpleger), 1x patiëntenverzorger (verpleger) en een beschikbare verpleger om de patiënt te vervoeren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MANAGEMENT</LocID>                   <Text>Conciërges zien kamers die in de managementstand geen functie hebben gekregen als de minst belangrijke kamers.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUILDING</LocID>                     <Text>Met de funderingtool kun je vijf bovengrondse verdiepingen maken, die zelfs groter kunnen zijn dan de onderliggende verdiepingen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS</LocID>                     <Text>Als conciërges klaar zijn met het schoonmaken van hun afdelingen, helpen ze hun collega's in een andere.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MOVING_OBJ</LocID>                   <Text>Objecten met iets erop (zoals een bureau met een pc) kunnen worden verplaatst. Als je alleen het voorwerp op het object wil verplaatsen, hou je [CTRL] ingedrukt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_RECEPTION</LocID>                    <Text>Tijdens een triage geven receptionisten meer prioriteit aan kritieke gevallen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_COFFEE_MAKER</LocID>                 <Text>Geen koffieapparaat in de personeelsruimte? Serieus? :)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ROLES_CARD</LocID>                   <Text>Om het maximale uit je personeel te halen, kun je specifieke rollen in- en uitschakelen. Zo kun je een speciaal chirurgisch team creëren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OBSERVATION</LocID>                  <Text>Gecompliceerde gevallen kun je laten observeren. Daardoor komen er ook dokters vrij voor andere patiënten in de kliniek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HIRING_PERKS</LocID>                 <Text>Zoek je nieuwe medewerkers? Kijk welke eigenschappen ze hebben!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DECORATIONS</LocID>                  <Text>Met zorg geplaatste decoraties en schone omgevingen zorgen voor tevreden medewerkers en patiënten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUDGET_LOANS</LocID>                 <Text>Bijna door je geld heen? Je kunt maximaal $500.000 lenen. In het ergste geval kun je extra apparatuur of decoraties verkopen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_UNAVAILABLE_EXM</LocID>              <Text>Als een onderzoek of behandeling niet beschikbaar is, beschik je waarschijnlijk niet over een gespecialiseerde kamer of apparatuur of moet je de patiënt naar een andere afdeling brengen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_GOOD_BOSS</LocID>                    <Text>Een goede hoofddokter maakt je personeel tevredener en efficiënter.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PRESTIGE</LocID>                     <Text>Prestige is van invloed op zowel betalingen door verzekeringen en de aanvoer van patiënten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_STAFF</LocID>                        <Text>Patiënten- en personeelstabellen zijn beschikbaar in het linkerpaneel in de managementstand.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BLUED_OBJ</LocID>                    <Text>Als een object blauw wordt, ontbreekt er aanvullende apparatuur. Als je de cursor boven het object houdt, wordt de benodigde apparatuur uitgelicht in het bouwpaneel. De blauwe pijlen helpen je met het plaatsen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DIA_TABLE</LocID>                    <Text>De tabellen met mogelijke diagnoses helpen je te bepalen welke onderzoeken nodig zijn om specifieke symptomen te ontdekken.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROOMS_SHARED</LocID>             <Text>Gedeelde ruimtes</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_YESTERDAY</LocID>          <Text>Gisteren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_TODAY</LocID>              <Text>Vandaag</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DEPARTMENT_STATISTICS</LocID>                    <Text>Afdelingsstatistieken</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PRESTIGE</LocID>              <Text>Prestige</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_STAFF</LocID>    <Text>Tevredenheid personeel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_PATIENTS</LocID> <Text>Tevredenheid patiënten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_STATISTICS_HISTORY</LocID>    <Text>Geschiedenis statistieken</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_DAY</LocID>          <Text>Werkdruk overdag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_NIGHT</LocID>        <Text>Werkdruk nacht</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_STAFF</LocID>        <Text>Huidige werkdruk personeel</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKLOAD_ON_CALL_ROOM</LocID>                    <Text>Dienstkamer(s)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_NURSES_STATION</LocID>                  <Text>Verplegerspost(en)</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PROCEDURES</LocID>            <Text>Procedures</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOST_FREQUENT_MODIFIERS</LocID>                  <Text>Meest voorkomende modifiers:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TREATED</LocID>                <Text>Behandeld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_HOSPITALIZED</LocID>           <Text>Opgenomen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_SENT_TO_OTHER_DPT</LocID>      <Text>Naar een gespecialiseerde afdeling gestuurd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_COLLAPSED</LocID>              <Text>Ingestort</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_UNTREATED</LocID>              <Text>Niet behandeld</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_DOCTOR</LocID>     <Text>Gemiddelde wachttijd op een dokter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_SPECIALIST</LocID> <Text>Gemiddelde wachttijd voor gespecialiseerde onderzoeken</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_RELEASED</LocID>      <Text>Ontslagen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_DEAD</LocID>          <Text>Overleden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_COLLAPSED</LocID>     <Text>Ingestort</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_UNTREATED</LocID>     <Text>Niet behandeld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_HUNGRY</LocID>        <Text>Hongerig</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_EXAMINATIONS</LocID>        <Text>Onderzoeken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_TREATMENTS</LocID>          <Text>Behandelingen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_STABILIZATIONS</LocID>      <Text>Stabilisaties</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_SURGERIES</LocID>           <Text>Operaties</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_DAY_CLINIC</LocID>        <Text>In de kliniek kun je pas personeel voor de nachtdienst inhuren als je personeel voor de dagdienst hebt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_EMERGENCY</LocID>         <Text>In gespecialiseerde klinieken kun je pas personeel voor de nachtdienst inhuren als de Eerste Hulp over een nachtdienst beschikt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_IS_MISSING_SKILL</LocID>                <Text>Deze medewerker heeft niet de juiste specialisatie voor deze kamer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_INTERNS_IN_ON_CALL_ROOM</LocID>               <Text>Stagiaires kunnen niet worden toegewezen aan dienstkamers.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT_V2</LocID>               <Text>Je hebt de opdracht niet op tijd voltooid of je patiënt heeft de verkeerde diagnose gekregen, is gestorven of is elders ondergebracht. Je prestige voor deze dag is gedaald tot je een volgende opdracht succesvol afrondt.\nOok heb je een boete gekregen van ${1}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_SELECT_DEPARTMENT</LocID>           <Text>Afdeling kiezen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INGAME_HELP</LocID>                 <Text>Hulp in de game</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_DELETE_BUILDING</LocID>             <Text>Wissel om de tool te verwijderen in de bouwstand of niet-vastgepinde UI-panelen te sluiten</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02_DESCRIPTION_V2</LocID>         <Text>Ontdek verschillende aspecten van het bouwen door een kleine, functionele kliniek te maken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION_V2</LocID>         <Text>Leer de regels van het beheren van een ziekenhuis en raak bekend met het proces van ziekenhuisopname</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION_V2</LocID>         <Text>Gebruik je vaardigheden om dit inefficiënte ziekenhuis goed te laten draaien</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION_V2</LocID>         <Text>Lukt het jou om dit ziekenhuis schuldenvrij te maken?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03_DESCRIPTION_V2</LocID>         <Text>Het is alles of niets. De race om de subsidie gaat nu van start!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION_V2</LocID>        <Text>Daag je vaardigheden uit op de afdeling Eerste Hulp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION_V2</LocID>        <Text>Daag je vaardigheden uit op de afdeling Algemene Chirurgie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION_V2</LocID>        <Text>Daag je vaardigheden uit op de afdeling Interne Geneeskunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION_V2</LocID>        <Text>Daag je vaardigheden uit op de afdeling Orthopedie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION_V2</LocID>        <Text>Daag je vaardigheden uit op de afdeling Cardiologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION_V2</LocID>        <Text>Daag je vaardigheden uit op de afdeling Neurologie</Text>  </GameDBLocalizedString>
+
+            <!-- Colors of notification messages in log and popups -->
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_RED</LocID>                          <Text>rood</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_YELLOW</LocID>                       <Text>geel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_GREEN</LocID>                        <Text>groen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_BLUE</LocID>                         <Text>blauw</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_DEFAULT</LocID>                      <Text>standaard</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_COLOR</LocID>              <Text>Berichtkleur wijzigen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED</LocID>                    <Text>Deze gebeurtenisknop wordt ontgrendeld nadat je een ambulance hebt gekocht en minstens een van de volgende afdelingen functioneel hebt gemaakt (waaronder een nachtkliniek): {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED_INSURANCE</LocID>          <Text>De gebeurtenisknop wordt ontgrendeld nadat je het tweede doel voor de verzekeringsmaatschappij Quick Snap Care hebt voltooid.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_LOCKED</LocID>        <Text>Vergrendeld of het maximumaantal gecontracteerde verzekeringsmaatschappijen is bereikt (3/3).</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_MANDATORY</LocID>                 <Text> (verplicht)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>NO_FUNDS</LocID>                                 <Text>Te weinig geld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_GROUND_FLOOR</LocID>            <Text>kan alleen op de begane grond worden geplaatst</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER</LocID>                <Text>Liftplanner</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER_DESCRIPTION</LocID>    <Text>Als je de managementstand als planningtool gebruikt, kun je hiermee aangeven waar de liften moeten komen.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MOVE_AREA</LocID>                        <Text>Kamer of geselecteerde gebied verplaatsen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOVED_AREA</LocID>                               <Text>Gebied verplaatst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_BE_MOVED</LocID>                             <Text>Het geselecteerde gebied kan worden verplaatst.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_IN_USE</LocID>                  <Text>De selectie bevat objecten die in gebruik zijn.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CUTS_OBJECT</LocID>             <Text>De selectie snijdt een object door midden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CONTAINS_SPECIAL_OBJECTS</LocID><Text>De selectie bevat infrastructuur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_LOCKED_AREA</LocID>             <Text>Een deel van het geselecteerde gebied bevindt zich buiten het grondgebied van het ziekenhuis.</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <!-- New option for workplace panel color -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_WORKPLACE_COLOR</LocID>                  <Text>Achtergrondkleur werkplaats tonen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_EXTENDED_EMPLOYEE_LIMIT</LocID>          <Text>Medewerkerslimiet naar 400 vergroten (snelle pc vereist)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <!-- New and updated unclear department notifications  -->
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1</LocID>           <Text>Afdeling kan geen diagnose stellen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1_TEXT</LocID>      <Text>Het lijkt erop dat de afdeling geen tests meer kan uitvoeren. Selecteer een andere mogelijkheid uit de lijst met diagnoses of maak meer tests beschikbaar. Anders wordt de patiënt naar een ander ziekenhuis gebracht.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY</LocID>          <Text>Patiënt wordt naar een ander ziekenhuis overgebracht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY_TEXT</LocID>     <Text>De patiënt moest te lang wachten op een diagnose omdat de afdeling geen tests meer kon uitvoeren. Daarom wordt de patiënt naar een ander ziekenhuis gebracht.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS</LocID>         <Text>De kliniek gaat dicht!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS_TEXT</LocID>    <Text>De kliniek neemt geen patiënten meer aan. Er wachtte(n) nog {1} patiënt(en).</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT</LocID>           <Text>Patiënt moest te lang wachten en vertrekt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT_TEXT</LocID>      <Text>Een patiënt in de kliniek moest te lang wachten zonder doktersbezoek.\nAls er tests worden uitgevoerd, zal de patiënt morgen terugkomen.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT</LocID>          <Text>Patiënt vertrekt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT_TEXT</LocID>     <Text>Een patiënt in de kliniek heeft een halve dag gewacht in het ziekenhuis zonder te worden behandeld of opgenomen.\nAls er tests worden uitgevoerd, zal de patiënt morgen terugkomen.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN</LocID>                      <Text>De kliniek is nu 's nachts open!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN_TEXT</LocID>                 <Text>De kliniek neemt nu 24 uur per dag en 7 dagen per week patiënten aan.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED</LocID>                    <Text>De kliniek is 's nachts niet langer open!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED_TEXT</LocID>               <Text>Er zijn geen dokters met nachtdienst, waardoor de kliniek alleen overdag open kan zijn.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS</LocID>                  <Text>Te weinig brancards!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS_TEXT</LocID>             <Text>De verplegers klagen over een gebrek aan brancards voor het vervoeren van patiënten op de afdeling {1}.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT</LocID>                           <Text>Accepteren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_DECLINE_EVENT</LocID>                          <Text>Afwijzen</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START</LocID>                     <Text>Vers van de pers:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START_TEXT</LocID>                <Text>{1}</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT</LocID>        <Text>Patiënt kan niet worden ontslagen uit observatie!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT_TEXT</LocID>   <Text>Een patiënt zou naar de afdeling {1} moeten worden gebracht, maar die is momenteel dicht. We zullen proberen de patiënt op te nemen op de afdeling.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_DEPARTMENT_STATISTIC</LocID>              <Text>Naar statistieken</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH</LocID>                                <Text>Geen route gevonden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH_TEXT</LocID>                           <Text>De persoon heeft geen route gevonden omdat er mogelijk iets in de weg staat.\nDe persoon gaat op zoek naar een andere route, als die er is. Let onderweg op ontbrekende deuren, geblokkeerde liften of verboden gebieden.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR</LocID>                   <Text>Er is geen dokter beschikbaar voor de diagnose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR_TEXT</LocID>              <Text>Er is geen dokter in de dienstkamer op de afdeling {1} met een diagnoserol voor opgenomen patiënten.</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- New patient states  -->
+            <GameDBLocalizedString>      <LocID>WaitingForAmbulance</LocID>                          <Text>Wacht op ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_UnclearDiagnose</LocID>                 <Text>wacht op diagnose</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_PATIENTS_NONSTOP</LocID>      <Text>Kliniek open</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_1</LocID>            <Text>professionele zorg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_2</LocID>            <Text>professionele zorg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_UNTREATED</LocID>                            <Text>niet behandeld</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_WITHOUT_WORKSPACE</LocID>                   <Text>Werknemer zonder werkplaats</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOT_PRESCRIBABLE_DEPARTMENT</LocID>                  <Text>Kan niet worden voorgeschreven</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_RECEPTIONIST</LocID>                       <Text>Receptionist</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOOR_PLACEMENT</LocID>                  <Text><![CDATA[Je hebt alle vereiste ruimtes uitgerust, maar het lijkt erop dat je een deur bent vergeten.<b><i> Plaats deuren</i></b> waar ze nodig zijn.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS_V2</LocID>              <Text><![CDATA[Kamers zijn onderverdeeld in verplichte (rood getal) en optionele (groen getal) kamers. Sommige kamers worden gedeeld door meerdere afdelingen. <b><i>We plaatsen er van elk één: een spreekkamer, een wachtruimte en een toilet</i></b>. Deze zijn vereist voor een functionerende kliniek.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES_V2</LocID>                   <Text>Werkplaatsen bevat een bureau, een stoel en een pc. Als je ze goed hebt gebouwd, verschijnen ze in de managementstand. Hier kun je werknemers inhuren. Zowel de dag- als de nachtdienst wordt getoond.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_V2</LocID>                       <Text><![CDATA[We gaan kijken naar het inhuren van personeel. <b><i>Klik op een lege werkplaats</i></b> (zonder het portret) om naar de inhuurkaart te gaan.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO_V2</LocID>           <Text>Je huurt iemand in door op zijn of haar portret te klikken. Via de werknemerskaart kun je een werkplaats toewijzen. Nadat je een werknemer hebt aangenomen, kun je zijn of haar rollen voor de werkplaats bekijken.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_V2</LocID>                <Text><![CDATA[We gaan je personeel van dichtbij bekijken. <b><i>Open een medewerkerkaart</i></b>. \n\nKlik in de managementstand op een bezette werkplaats of in de speelstand direct op een medewerker.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS</LocID>                <Text><![CDATA[We gaan kijken naar de managementtools voor het hele ziekenhuis. <b><i>Open de ziekenhuismanagementkaart</i></b> door in het hoofdpaneel te klikken op een van de categorieën.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS_OPENED</LocID>         <Text>Deze kaart bevat 5 categorieën: Afdelingsstatistieken, Verzekering, Ambulances, Budget en Statistieken. Hou ze in de gaten, want vaak vind je er de informatie die je nodig hebt om het ziekenhuis efficiënt te runnen.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF_V2</LocID><Text><![CDATA[Het is tijd om<b><i> een chirurg in te huren</i></b> voor de nachtdienst in de dienstkamer. Als je de cursor op de beroepen plaatst, verschijnen er tooltips die duidelijk maken welke specialisatie vereist is. Je kunt ze filteren in de inhuurkaart. \n\nAlle rode waarschuwingstekens moeten zijn afgehandeld, anders kunnen de kliniek en het ziekenhuis niet functioneren.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OBJECTIVES_V2</LocID>                   <Text><![CDATA[We hebben de basis gelegd en nu is het tijd om de kliniek op gang te krijgen. <b><i>Behandel 4 patiënten.</i></b>\n\nIn het hoofdpaneel kun je zien hoeveel patiënten er zijn behandeld.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_EVENTS</LocID>                               <Text>Door meerdere gebeurtenissen op rij tot een goed einde te brengen, kun je meer geld en prestige verdienen. Maar pas op: als je faalt, lever je juist in.</Text>  </GameDBLocalizedString> <!--Used in campaign level 03-->
+
+            <!-- ingame tutorial -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_MANAGEMENT_MODE_1_1</LocID>      <Text><![CDATA[Selecteer de <b><i>managementstand</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_BUTTON_1_1</LocID>               <Text><![CDATA[Klik op een <b><i>werkplaats</i></b> in de kamer die je hebt gekozen. Links is voor de dagdienst, rechts voor de nachtdienst.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION_1_1</LocID>           <Text><![CDATA[Kies welk <b><i>beroep</i></b> je nodig hebt.\n\nTip: de verplichte beroepen zijn rood en de aanbevolen beroepen geel.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION_1_1</LocID>            <Text><![CDATA[Kies een van de <b><i>beschikbare medewerkers</i></b> om hem naar de werkplaats te sturen.\n\nTip: let op zijn eigenschappen.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT_1_1</LocID>          <Text><![CDATA[Hier zie je welke verzekeringsmaatschappijen je kunt <b><i>contracteren</i></b>.\n\nTip: je mag maximaal 3 contracten tegelijkertijd aangaan.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO_1_1</LocID>              <Text><![CDATA[Elke maatschappij toont hoeveel <b><i>patiënten</i></b> ze per dag sturen.\n\nTip: je kunt de aantallen verhogen door doelen voor de maatschappij te voltooien.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS_1_1</LocID>           	<Text><![CDATA[In bepaalde kamers zie je de <b><i>werkdrukwaarde</i></b>, die staat voor de hoeveelheid werk van de afgelopen 24 uur. Als er geen waarde is, heeft het personeel in deze kamer niets te doen gehad. Als de waarde kritiek is, is je personeel overbelast.\n\nTip: in de afdelingsstatistieken vind je een werkdruksamenvatting voor elke afdeling.]]></Text>  </GameDBLocalizedString>
+
+
+            <!--==================-->
+            <!--New lab department-->
+            <!--==================-->
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>DPT_LAB</LocID>                                      <Text>Medische laboratoria</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB</LocID>                     <Text>Hematologielab</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DESCRIPTION</LocID>         <Text>Een volledig uitgerust laboratorium dat bloed- en serologiegerelateerde tests kan leveren.\n\nMin. bezetting:\n1x laborant</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB</LocID>                   <Text>Microbiologielab</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB_DESCRIPTION</LocID>       <Text>Een volledig uitgerust laboratorium dat allerlei monsters kan kweken en testen.\n\nMin. bezetting:\n1x laborant</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB</LocID>                      <Text>Histologielab</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB_DESCRIPTION</LocID>          <Text>Een volledig uitgerust laboratorium dat microscopische analyses kan leveren van allerlei monsters.\n\nMin. bezetting:\n1x laborant</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL</LocID>                        <Text>Muurplank laboratorium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL_DESCRIPTION</LocID>            <Text>Een eenvoudige plank voor een laboratorium die wordt bevestigd aan de muur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR</LocID>                         <Text>Microbiologische incubator</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR_DESCRIPTION</LocID>             <Text>Gespecialiseerde apparatuur voor het kweken van bacteriën en/of schimmels.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK</LocID>                         <Text>Klein bureau laboratorium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK_DESCRIPTION</LocID>             <Text>Een klein bureau voor een laboratorium.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET</LocID>                           <Text>Kast laboratorium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET_DESCRIPTION</LocID>               <Text>Een kast voor een laboratorium.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD</LocID>                             <Text>Zuurkast</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD_DESCRIPTION</LocID>                 <Text>Gespecialiseerde apparatuur voor een laboratorium die de blootstelling aan gevaarlijke of giftige gassen, dampen of stoffen beperkt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES</LocID>                          <Text>Glaswerk - buret</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES_DESCRIPTION</LocID>              <Text>Een set glaswerk en buret.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIST_LAB</LocID>       		         <Text>Histologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HEM_LAB</LocID>       			         <Text>Hematologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MIC_LAB</LocID>       			         <Text>Microbiologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAB_DPT</LocID>       			         <Text>Medische laboratoria</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_SMALL_ABBR</LocID>            <Text>Hematologielab - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_LARGE_ABBR</LocID>            <Text>Hematologielab - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_SMALL_ABBR</LocID>          <Text>Hematologielab - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_LARGE_ABBR</LocID>          <Text>Hematologielab - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_SMALL_ABBR</LocID>             <Text>Histologielab - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_LARGE_ABBR</LocID>             <Text>Histologielab - 12 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_LAB</LocID>                  <Text>Sjablonen van medische laboratoria</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
+            <!-- New descriptions of laboratory examinations
+                 These are similar to the original descriptions (for example EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION), but with updated
+                 names of the required rooms (Histology Lab, Hematology Lab or Microbiology Lab) 
+            -->
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>           <Text>De afname van microbiële monsters is het verzamelen van monsters van de patiënt (zoals lichaamsvocht, sputum en ontlasting) voor verdere analyse. \n\nVereiste ruimte: microbiologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / afdeling Neurologie / ICU \n\nBenodigde apparatuur: glaswaren + zuurkast + microbiologische incubator + microscoop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>            <Text>Het kweken van van de patiënt afkomstige monsters om vast te stellen of er bacteriën aanwezig zijn en welke bacteriën dat zijn. \n\nVereiste ruimte: microbiologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION_1_1</LocID>                         <Text>Een chirurgische procedure waarbij een deel van het weefsel (bijvoorbeeld van de long, lever of darmen) wordt verwijderd voor verdere tests. \n\nVereiste ruimte: histologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / afdeling Orthopedie / afdeling Cardiologie / afdeling Neurologie / ICU \n\nBenodigde apparatuur: glaswerk + lab analyzer + microscoop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION_1_1</LocID>                          <Text>Het weefsel dat is afgenomen tijdens onze biopsie wordt onder de microscoop gelegd en behandeld met allerlei preparaten met het oog op specifieke tests. \n\nVereiste ruimte: histologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION_1_1</LocID>                     <Text>Het afnemen van bloed bij een patiënt (venapunctie of arteriële punctie) voor verdere analyse of tests. \n\nVereiste ruimte: hematologielab \n\nMonsterafname: willekeurige afdeling \n\nBenodigde apparatuur: glaswerk + hematologieanalyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION_1_1</LocID>                      <Text>Analyse in een laboratorium van een bloedmonster. \n\nVereiste ruimte: hematologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>De afname van bloed voor een differentiële telling van bloedcellen (CBC). \n\nVereiste ruimte: hematologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / afdeling Orthopedie / afdeling Neurologie / ICU \n\nBenodigde apparatuur: glaswerk + hematologieanalyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION_1_1</LocID>                             <Text>Tijdens een differentiële telling van bloedcellen (CBC) worden alle cellen in het bloed geteld en wordt er vastgesteld of er een stijging of daling is in het aantal cellen. \n\nVereiste ruimte: hematologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION_1_1</LocID>            <Text>Het verzamelen van ontlasting van de patiënt om te meten hoeveel elastase er wordt geproduceerd door de alvleesklier. Op die manier wordt vastgesteld hoe de alvleesklier functioneert. \n\nVereiste ruimte: hematologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / ICU \n\nBenodigde apparatuur: glaswerk + RIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION_1_1</LocID>             <Text>De meting van de hoeveelheid elastase in de ontlasting van een patiënt. De uitslag geeft aan hoe de alvleesklier functioneert. \n\nVereiste ruimte: hematologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>De afname van verschillende monsters bij de patiënt die worden gekweekt om vast te stellen of er schimmelsoorten aanwezig zijn. \n\nVereiste ruimte: microbiologielab \n\nMonsterafname: afdeling Eerste Hulp / ICU \n\nBenodigde apparatuur: glaswaren + zuurkast + microbiologische incubator + microscoop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>              <Text>Het kweken van de specifieke van de patiënt afkomstige monsters. \n\nVereiste ruimte: microbiologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>De afname van biologisch materiaal voor een polymerasekettingreactieanalyse in het laboratorium. Het onderzoek is snel, goedkoop en nauwkeurig. \n\nVereiste ruimte: hematologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Interne Geneeskunde / afdeling Neurologie / ICU \n\nBenodigde apparatuur: glaswerk + thermische cycler</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION_1_1</LocID>                             <Text>De polymerasekettingreactie is een snelle onderzoeksmethode voor het identificeren van infectieziekten veroorzaakt door bacteriën of virussen. Het onderzoek is snel, goedkoop en nauwkeurig. \n\nVereiste ruimte: hematologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>Monsterafname van peritoneale vloeistof met een grote punctienaald via de buikwand. \n\nVereiste ruimte: histologielab \n\nMonsterafname: afdeling Algemene Chirurgie \n\nBenodigde apparatuur: glaswerk + medische centrifuge + lab analyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>       <Text>Biochemische test waarbij de uit de peritoneale ruimte verzamelde vloeistof wordt geanalyseerd. \n\nVereiste ruimte: histologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION_1_1</LocID>               <Text>De afname van bloed voor serologische tests. \n\nVereiste ruimte: hematologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / afdeling Orthopedie / afdeling Neurologie / ICU \n\nBenodigde apparatuur: glaswerk + RIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION_1_1</LocID>                <Text>Speciale bloedtest waarbij specifieke antilichamen en antigenen worden getest. Antilichamen zijn eiwitten die door het menselijk immuunsysteem worden aangemaakt om pathogenen onschadelijk te maken. \n\nVereiste ruimte: hematologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>Monsterafname van een kleine hoeveelheid hersenvocht door middel van punctie met een grote naald in het ruggenmergkanaal in de onderrug. \n\nVereiste ruimte: histologielab \n\nMonsterafname: afdeling Neurologie \n\nBenodigde apparatuur: glaswerk + medische centrifuge + lab analyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>Het proces van de analyse van hersenvocht in het laboratorium. \n\nVereiste ruimte: histologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>                 <Text>De procedure van de afname van ontlasting van een patiënt voor verdere analyse. \n\nVereiste ruimte: histologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / ICU \n\nBenodigde apparatuur: ontlastingsanalyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>                  <Text>De analyse van ontlasting van de patiënt waarbij onder andere de aanwezigheid van bacteriën, bloed en parasieten wordt gecontroleerd. \n\nVereiste ruimte: histologielab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>Het afnemen van een urinemonster bij een patiënt of via de katheter van een patiënt. \n\nVereiste ruimte: histologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / afdeling Cardiologie / ICU \n\nBenodigde apparatuur: glaswerk + lab analyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>De biochemische analyse van een urinemonster. \n\nVereiste ruimte: histologielab</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION_1_1</LocID>                                     <Text>Elektromyografie (EMG) is het opnemen en evalueren van de elektrische activiteit in de spieren van de patiënt. \n\nVereiste ruimte: spreekkamer / diagnostische eenheid op de afdeling Orthopedie </Text>  </GameDBLocalizedString>
+         
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   

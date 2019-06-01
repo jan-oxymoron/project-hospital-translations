@@ -1,0 +1,410 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_PATCH_1_1">
+    
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>NEW_GAME_MAIN_MENU</LocID>                       <Text>ÚJ JÁTÉK</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPLETED</LocID>                                <Text>Teljesítve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOCKED</LocID>                                   <Text>Zárolva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIOS</LocID>                                <Text>KÜLDETÉSEK</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>START</LocID>                                    <Text>Indítás</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>CHECK_SAVE</LocID>                               <Text>Mentés ellenőrzése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_NOT_BE_LOADED_MODS</LocID>                   <Text>A játékot olyan moddal/kiegészítővel mentetted, ami jelenleg nincs telepítve, ezért nem lehet betölteni.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>GAME_SAVED</LocID>                               <Text>Játék elmentve.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIO_CREATED</LocID>                         <Text>Küldetés létrehozva.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP</LocID>                                 <Text>MŰHELY</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSE</LocID>                          <Text>BÖNGÉSZÉS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_MOD</LocID>                      <Text>MOD FELTÖLTÉSE</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_SCENARIO</LocID>                 <Text>KÜLDETÉS FELTÖLTÉSE</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD</LocID>                          <Text>Feltöltés a műhelybe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_FOLDER</LocID>                          <Text>Mappa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_PREVIEW_HINT</LocID>                    <Text>Tedd a preview.png képet a mappába.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_NAME</LocID>                            <Text>Név</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_DESCRIPTION</LocID>                     <Text>Leírás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BUTTON_UPLOAD</LocID>                   <Text>Feltöltés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPDATING</LocID>                        <Text>Frissítés (Ez eltarthat egy percig is)…</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING</LocID>                        <Text>Műhely böngészése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING_TIPS</LocID>                   <Text>A Project Hospital a Steam webes felületét használja a műhelyben elérhető modok és küldetések böngészéséhez.\nMiután feliratkoztál új tételekre, kérjük, indítsd újra a játékot, hogy a Steam letölthesse a tartalmat</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_LABEL</LocID>                          <Text>Infó:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_TIME</LocID>                           <Text><![CDATA[<b>Idő: </b>Nap ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_BALANCE</LocID>                        <Text><![CDATA[<b>Egyenleg: </b>$]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_OLD_VERSION</LocID>                    <Text>Mentés: Project Hospital 1.0 verzióval</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVED_WITH_ADDONS</LocID>                        <Text>Az alábbi kiegészítőkkel mentve:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ADDON_NOT_INSTALLED</LocID>                      <Text>(Nincs telepítve!)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TREATMENT_HOSPITALIZATION_UNAVAILABLE</LocID>    <Text>A szükséges kórtermi ellátás nem elérhető a kezeléshez. Nézd meg a szabad ágyakat, vagy próbálj magasabb prioritású kórtermet.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_PLACE</LocID>            <Text>Emelet lerakása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_DELETE</LocID>           <Text>Emelet törlése</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_GENERATE_COST</LocID>        	 <Text>Új jelentkezők keresése 2500$ áron</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_NUMBER_OF_INSURANCE_COMPANIES</LocID>    <Text>Szerződéses biztosítótársaságok/engedélyezett szerződések száma</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>BUTTON_CREATE_SCENARIO</LocID>        	         <Text>KÜLDETÉS LÉTREHOZÁSA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO</LocID>        	         <Text>Küldetés létrehozása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_FOLDER</LocID>        	 <Text>Mappa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_NAME</LocID>        	     <Text>Név</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_DESCRIPTION</LocID>        <Text>Leírás</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_DEFAULT_COLOR</LocID>   <Text>Minden szürke</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_RESTORE_DEFAULT_COLORS</LocID>     <Text>Színek visszaállítása</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS_ALL_DAY</LocID>                <Text>Betegek elégedettsége (érkező és távozó)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>UI_ROOM_PLANNING_ONLY</LocID>                    <Text>CSAK TERVEZÉS\n(A JELENLEGI ALAPRAJZON KÍVÜL ESIK)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_REQUIRED_HOSPITALIZATION</LocID>         <Text>Szükséges kórházi ellátás:</Text>  </GameDBLocalizedString>
+            
+            <!-- Insurance objectives -->
+            <GameDBLocalizedString>      <LocID>SAVE_PATIENT_AFTER_COLLAPSES</LocID>                           <Text>Beteg megmentése {1} ájulás után</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>           <Text>Nyiss klinikát bármelyik specializált osztályon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>  <Text>Nyiss kórtermet bármelyik specializált osztályon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY</LocID>                                        <Text>Végezz el {1} műtétet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>                 <Text>Érj el {1} presztízst bármelyik specializált osztályon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_ANY_SPECIALIZED_DEPARTMENT</LocID> <Text>Láss el {1} beteget naponta bármelyik specializált osztályon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_OF_TYPE</LocID>                              <Text>Teljesíts sikeresen {1} {2} eseményt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW</LocID>                               <Text>Teljesíts sikeresen {1} eseményt egymás után</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NUMBER_OF_FULLY_WORKING_DEPARTMENTS</LocID>                    <Text>Legyen {1} teljesen működő osztályod</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_PATIENTS_SENT_AWAY_OR_WENT_AWAY_DAYS</LocID>                <Text>Ne legyen el nem látott beteged {1} napig</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_DEAD_PATIENTS_DAYS</LocID>                                  <Text>Ne legyen elhunyt beteged/menthetetlen eseted {1} napig</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance objective rewards -->
+            <GameDBLocalizedString>      <LocID>PRESTIGE_BONUS</LocID>                           <Text>{1} presztízsbónusz {2} napra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_ALL_HOSPITALIZATIONS</LocID>              <Text>Kórházi ápolás feloldása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SET_MOBILE_PATIENT_COUNT</LocID>                 <Text>Növeld a járóbetegek számát naponta {1} főre</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>SET_IMMOBILE_PATIENT_COUNT</LocID>               <Text>Növeld az ambuláns betegek számát naponta {1} főre</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_EVENTS</LocID>                            <Text>Eseménygombok feloldása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_RANDOM_EVENTS</LocID>                     <Text>Véletlenszerű események</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CONTRACTED_INSURANCE_COMPANY_COUNT</LocID>       <Text>Szerződéses cégek:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PURCHASE_AMBULANCES</LocID>                      <Text>Mentők vásárlása</Text>  </GameDBLocalizedString>
+                 
+            <!-- Employee's card  roles tooltips -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MISSING_SPECIALIZATION</LocID>           <Text>Az alkalmazottnak nincs meg a szükséges specializációja ehhez a beosztáshoz, így nem lehet bekapcsolni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ONLY_SPECIALIZATION</LocID>              <Text>Az alkalmazottnak csak egyetlen elérhető beosztása van, így nem lehet kikapcsolni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_CLINIC_PATIENTS</LocID><Text>A naponta a klinikára küldött betegek száma.\nCsökken, ha a kórháznak romlik a presztízse.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>CANDIDATES</LocID>                               <Text>Jelöltek</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_CLINIC</LocID>                  <Text>Nappali műszak: Klinika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC</LocID>                <Text>Éjszakai műszak: Klinika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_HOSPITALIZATION</LocID>         <Text>Nappali műszak: Kórházi ápolás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC_HOSPITALIZATION</LocID><Text>Éjszakai műszak: Kórházi ápolás</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGIST</LocID>             <Text>Radiológus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGISTS</LocID>            <Text>Radiológus</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY_NIGH</LocID>       <Text>Nappali/éjszakai személyzet</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_KEYBOARD_CONTROLS</LocID>        <Text>Billentyűparancsok</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_V2</LocID>                               <Text>Betöltés</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ICU</LocID>                          <Text>Az intenzív csak megerősített diagnózissal rendelkező betegeket fogad, a tisztázatlan diagnózisú, ájult betegek a traumatológiára kerülnek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_NURSES</LocID>                       <Text>Ha a vizsgálatok és kezelések kezdetéig sokat kell várni, ellenőrizd, hogy van-e elég nővér a betegek szállításához.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HDU</LocID>                          <Text>A felügyeleti kórterembe küldés főleg a fekvőbetegeknél használatos. Sokkal gyakoribb nővéri ellenőrzést jelent, és jobb esélyt ad a betegeknek az összeomlások túlélésére.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP</LocID>                           <Text>Műtét végzéséhez az alábbi specializációkkal rendelkező csapatra van szükséged: 1x sebész (orvos), 1x osztályos specialista (orvos), 1x aneszteziológus (orvos), 1x műtősnő (nővér), 1x betegellátás (nővér) – plusz egy szabad nővér a betegmozgatáshoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MANAGEMENT</LocID>                   <Text>A menedzsment módban a funkcióval nem rendelkező, szobaként nem jelölt területeket a legalacsonyabb prioritásnak tekintik a takarítók.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUILDING</LocID>                     <Text>Kiterjesztheted a föld feletti szinteket az épületalapok kezelése eszközzel, még túl is nyúlhatnak az alsóbb szinten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS</LocID>                     <Text>Amikor a takarítók befejezik az osztályuk takarítását, átmennek segíteni egy másikra.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MOVING_OBJ</LocID>                   <Text>Az objektumokat a kiegészítőkkel együtt mozgathatod (például az asztalt a számítógéppel). Csak a kiegészítő kijelöléséhez tartsd lenyomva a [CTRL] billentyűt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_RECEPTION</LocID>                    <Text>A recepciósok magasabb prioritást rendelnek a kritikusabb esetekhez a betegfelvétel során.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_COFFEE_MAKER</LocID>                 <Text>Nincs kávéautomata a pihenőhelyiségben? Komolyan? :)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ROLES_CARD</LocID>                   <Text>A személyzet teljesítményének maximalizálásához be/kikapcsolhatsz bizonyos beosztásokat. Létrehozhatsz például egy sebészetre kijelölt csapatot.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OBSERVATION</LocID>                  <Text>Tartsd bent a komplikált eseteket megfigyelés céljából, így felszabadítod az orvosokat a klinikán más betegek számára.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HIRING_PERKS</LocID>                 <Text>Felfogadnál valakit? Mindenképpen ellenőrizd a tulajdonságait!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DECORATIONS</LocID>                  <Text>A gondosan elhelyezett dekoráció és a tiszta környezet biztosítja az elégedettebb alkalmazottakat és betegeket.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUDGET_LOANS</LocID>                 <Text>Kifutsz a pénzből? Felvehetsz legfeljebb 500 000$ hitelt. A legrosszabb esetben még talán néhány extra felszerelést vagy dekorációt is el kell adnod.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_UNAVAILABLE_EXM</LocID>              <Text>Ha valamilyen vizsgálat vagy kezelés nem elérhető, valószínűleg hiányzik a speciális szoba vagy felszerelés, vagy át kell küldened a beteget egy másik osztályra.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_GOOD_BOSS</LocID>                    <Text>A jó főorvos elégedettebbé és hatékonyabbá teszi a személyzetet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PRESTIGE</LocID>                     <Text>A presztízs befolyásolja a biztosítási kifizetéseket és az érkező betegek számát egyaránt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_STAFF</LocID>                        <Text>A betegek és a személyzet táblázatai megnyithatók menedzsment módban a bal oldali panelről.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BLUED_OBJ</LocID>                    <Text>Ha egy objektum színe kékre változik, akkor hiányzik hozzá még valamilyen további felszerelés. Ha az egeret egy objektum fölé viszed, a függőségei kiemelten jelennek meg az építkezés panelen. A kék nyilak segítenek a megfelelő elhelyezésben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DIA_TABLE</LocID>                    <Text>A lehetséges diagnózisok táblázata segít eldönteni, melyik vizsgálatok szükségesek az egyes tünetek felderítéséhez.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROOMS_SHARED</LocID>             <Text>Többágyas szobák</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_YESTERDAY</LocID>          <Text>Tegnap</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_TODAY</LocID>              <Text>Ma</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DEPARTMENT_STATISTICS</LocID>                    <Text>Osztály statisztikája</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PRESTIGE</LocID>              <Text>Presztízs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_STAFF</LocID>    <Text>Személyzeti elégedettség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_PATIENTS</LocID> <Text>Betegek elégedettsége</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_STATISTICS_HISTORY</LocID>    <Text>Statisztikai előzmények</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_DAY</LocID>          <Text>Nappali terhelés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_NIGHT</LocID>        <Text>Éjszakai terhelés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_STAFF</LocID>        <Text>Jelenlegi személyzeti terhelés</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKLOAD_ON_CALL_ROOM</LocID>                    <Text>Ügyeleti szoba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_NURSES_STATION</LocID>                  <Text>Nővérszoba</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PROCEDURES</LocID>            <Text>Eljárások</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOST_FREQUENT_MODIFIERS</LocID>                  <Text>A leggyakoribb módosítók:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TREATED</LocID>                <Text>Ellátva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_HOSPITALIZED</LocID>           <Text>Kórházi ápolás alatt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_SENT_TO_OTHER_DPT</LocID>      <Text>Speciális kezelésre küldve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_COLLAPSED</LocID>              <Text>Ájult</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_UNTREATED</LocID>              <Text>Nem kezelt</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_DOCTOR</LocID>     <Text>Átlagos várakozási idő az orvosra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_SPECIALIST</LocID> <Text>Átlagos várakozási idő a speciális vizsgálatokra</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_RELEASED</LocID>      <Text>Kibocsátott</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_DEAD</LocID>          <Text>Elhunyt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_COLLAPSED</LocID>     <Text>Ájult</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_UNTREATED</LocID>     <Text>Nem kezelt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_HUNGRY</LocID>        <Text>Éhes</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_EXAMINATIONS</LocID>        <Text>Vizsgálatok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_TREATMENTS</LocID>          <Text>Kezelések</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_STABILIZATIONS</LocID>      <Text>Stabilizációk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_SURGERIES</LocID>           <Text>Műtétek</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_DAY_CLINIC</LocID>        <Text>A klinika éjszakai műszakához előbb a nappali műszakot kell személyzettel ellátni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_EMERGENCY</LocID>         <Text>A speciális klinikai éjszakai műszakhoz a sürgősségin is kell működő éjszakai műszak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_IS_MISSING_SKILL</LocID>                <Text>A kijelölt alkalmazottnak nincs meg az ehhez a szobához szükséges specializációja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_INTERNS_IN_ON_CALL_ROOM</LocID>               <Text>Rezidenst nem lehet ügyeleti szobába beosztani.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT_V2</LocID>               <Text>Nem tudtad időben teljesíteni az eseményt, vagy valamelyik beteget félrediagnosztizálták, elhunyt vagy elszállították. A presztízsed lecsökkent a mai napra, vagy addig, amíg nem teljesítesz sikeresen egy másik eseményt.\nEzen kívül büntetést kaptál: {1}$</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_SELECT_DEPARTMENT</LocID>           <Text>Válaszd ki az osztályt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INGAME_HELP</LocID>                 <Text>Játéksúgó</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_DELETE_BUILDING</LocID>             <Text>Válts át a törlés eszközre építés módban / zárd be a nem rögzített paneleket</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02_DESCRIPTION_V2</LocID>         <Text>Fedezd fel az építkezés különféle aspektusait egy kicsi, működő klinika építésével</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION_V2</LocID>         <Text>Tanuld meg a kórházigazgatás szabályait, és ismerkedj meg a kórházi kezelés folyamataival</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION_V2</LocID>         <Text>Használd a képességeidet, hogy segíts ezt a kevéssé hatékonyan működő kórházat felvirágoztatni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION_V2</LocID>         <Text>Sikerül kivezetned ezt a kórházat az adósságból?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03_DESCRIPTION_V2</LocID>         <Text>Mindent vagy semmit. Az állami támogatásért folyó verseny kezdetét veszi!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION_V2</LocID>        <Text>Tedd próbára az ügyességedet a sürgősségi osztályra összpontosítva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION_V2</LocID>        <Text>Tedd próbára az ügyességedet a sebészeti osztályra összpontosítva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION_V2</LocID>        <Text>Tedd próbára az ügyességedet a belgyógyászati osztályra összpontosítva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION_V2</LocID>        <Text>Tedd próbára az ügyességedet az ortopédiai osztályra összpontosítva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION_V2</LocID>        <Text>Tedd próbára az ügyességedet a kardiológiai osztályra összpontosítva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION_V2</LocID>        <Text>Tedd próbára az ügyességedet a neurológiai osztályra összpontosítva</Text>  </GameDBLocalizedString>
+
+            <!-- Colors of notification messages in log and popups -->
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_RED</LocID>                          <Text>piros</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_YELLOW</LocID>                       <Text>sárga</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_GREEN</LocID>                        <Text>zöld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_BLUE</LocID>                         <Text>kék</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_DEFAULT</LocID>                      <Text>alapértelmezett</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_COLOR</LocID>              <Text>Üzenet színének váltása</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED</LocID>                    <Text>Ez az eseménygomb azután lesz elérhető, hogy vásárolsz egy mentőautót, és az alábbi osztályok közül legalább egyet működésbe helyezel (beleértve az éjszakai ügyeletet is): {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED_INSURANCE</LocID>          <Text>A felhasználói eseménygomb azután lesz elérhető, hogy teljesítetted a Quick Snap Care biztosítótársaság második célkitűzését.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_LOCKED</LocID>        <Text>Lezárva vagy a szerződhető biztosítótársaságok maximális száma elérve (3/3).</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_MANDATORY</LocID>                 <Text> (kötelező)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>NO_FUNDS</LocID>                                 <Text>Nincs elég pénz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_GROUND_FLOOR</LocID>            <Text>csak a földszintre helyezhető.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER</LocID>                <Text>Lift-tervező</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER_DESCRIPTION</LocID>    <Text>A menedzsment módot használva tervezőeszköznek, ezzel jelölheted, hogy hová kerülnek a liftek.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MOVE_AREA</LocID>                        <Text>Szoba vagy kijelölt terület áthelyezése</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOVED_AREA</LocID>                               <Text>Áthelyezett terület</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_BE_MOVED</LocID>                             <Text>A kijelölt terület nem áthelyezhető.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_IN_USE</LocID>                  <Text>A kijelölés használatban lévő objektumokat is tartalmaz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CUTS_OBJECT</LocID>             <Text>A kijelölés félbevág egy objektumot.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CONTAINS_SPECIAL_OBJECTS</LocID><Text>A kijelölés infrastruktúrát tartalmaz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_LOCKED_AREA</LocID>             <Text>A kijelölt terület egy része a kórházi telken kívül esik.</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <!-- New option for workplace panel color -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_WORKPLACE_COLOR</LocID>                  <Text>Munkahely háttérszínének megjelenítése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_EXTENDED_EMPLOYEE_LIMIT</LocID>          <Text>Alkalmazotti korlát emelése 400 főre (gyors PC szükséges)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <!-- New and updated unclear department notifications  -->
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1</LocID>           <Text>Az osztály nem tud diagnózist felállítani!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1_TEXT</LocID>      <Text>Az osztály nem tud több vizsgálatot lefolytatni, próbálj másikat választani a lehetséges diagnózisok listájáról vagy tegyél több vizsgálatot elérhetővé. Különben a beteget másik kórházba viszik.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY</LocID>          <Text>A beteget másik kórházba viszik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY_TEXT</LocID>     <Text>A beteg túl sokáig várt a diagnózisra, mert az osztályon nem lehetett több vizsgálatot végezni, ezért a beteget másik kórházba viszik.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS</LocID>         <Text>Az ambuláns rendeléseknek mára vége!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS_TEXT</LocID>    <Text>A klinika bezárt, de még {1} beteg várakozott.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT</LocID>           <Text>A beteg túl sokáig várakozott, és elmegy!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT_TEXT</LocID>      <Text>Egy ambuláns beteg túl sokáig várakozott anélkül, hogy orvos látta volna.\nHa vizsgálatok vannak folyamatban, a beteg visszatér másnap.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT</LocID>          <Text>A beteg elmegy!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT_TEXT</LocID>     <Text>Egy ambuláns beteg fél napot töltött a kórházban anélkül, hogy kezelték vagy ápolták volna.\nHa vizsgálatok vannak folyamatban, a beteg visszatér másnap.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN</LocID>                      <Text>A klinika most már éjszaka is nyitva tart!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN_TEXT</LocID>                 <Text>Az ambuláns betegeket mostantól éjjel-nappal fogadják.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED</LocID>                    <Text>A klinika már nem tart nyitva éjszaka!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED_TEXT</LocID>               <Text>Nincs orvos az éjszakai műszakhoz, ezért a klinika csak nappal tart nyitva.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS</LocID>                  <Text>Nincs elég hordágy!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS_TEXT</LocID>             <Text>A nővérek panaszkodnak, hogy nincs elég hordágy minden beteg számára, akit szállítani kellene itt: {1}.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT</LocID>                           <Text>Elfogad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_DECLINE_EVENT</LocID>                          <Text>Elutasít</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START</LocID>                     <Text>Friss hírek:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START_TEXT</LocID>                <Text>{1}</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT</LocID>        <Text>A beteget nem lehet kibocsátani, megfigyelés alatt áll!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT_TEXT</LocID>   <Text>A betegnek tovább kellene kerülnie a(z) {1} klinikára, de az jelenleg zárva tart. Megpróbáljuk inkább az osztályon ellátni a beteget.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_DEPARTMENT_STATISTIC</LocID>              <Text>Statisztika megnyitása</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH</LocID>                                <Text>Nem található útvonal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH_TEXT</LocID>                           <Text>A karakter nem talált oda, mert lehet, hogy valami elzárja az útját.\nA karakter megpróbál új útvonalat keresni, ha van. Mindenképpen ellenőrizd a hiányzó ajtókat, elakadt lifteket vagy tiltott területeket az útvonalán.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR</LocID>                   <Text>Nincs elérhető diagnoszta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR_TEXT</LocID>              <Text>Nincs orvos az ügyeleti szobában itt: {1} aktív diagnoszta beosztással a fekvőbetegek számára.</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- New patient states  -->
+            <GameDBLocalizedString>      <LocID>WaitingForAmbulance</LocID>                          <Text>Mentőre vár</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_UnclearDiagnose</LocID>                 <Text>diagnózisra vár</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_PATIENTS_NONSTOP</LocID>      <Text>Klinika nyitva</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_1</LocID>            <Text>orvosi segítség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_2</LocID>            <Text>orvosi segítség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_UNTREATED</LocID>                            <Text>nem kezelt</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_WITHOUT_WORKSPACE</LocID>                   <Text>munkahely nélküli alkalmazott</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOT_PRESCRIBABLE_DEPARTMENT</LocID>                  <Text>Nem lehet felírni ezen az osztályon</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_RECEPTIONIST</LocID>                       <Text>Recepciós</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOOR_PLACEMENT</LocID>                  <Text><![CDATA[Sikeresen felszereltél minden szükséges szobát, de úgy látszik elfelejtetted az ajtót.<b><i> Tegyél ajtót</i></b> mindenhová, ahol szükség van rá.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS_V2</LocID>              <Text><![CDATA[A szobák felosztása kötelező (piros szám) és opcionális (zöld szám) mennyiségek szerint. Néhány szoba meg van osztva az osztályok között. <b><i>Hozzunk létre mindegyikből egyet: egy orvosi rendelő, egy váróterem és egy mosdó</i></b> szükséges egy működő klinikához.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES_V2</LocID>                   <Text>A munkahely egy asztalból, egy székből és egy számítógépből áll, és ha megfelelően van összerakva, megjelenik a menedzsment módban. Ezeken keresztül fogadhatod fel az alkalmazottaidat. A nappali és éjszakai műszakban egyaránt megjelennek.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_V2</LocID>                       <Text><![CDATA[Vessünk egy pillantást a felfogadási lehetőségekre. <b><i>Kattints bármelyik üres munkahelyre</i></b> (portré nélkül), hogy kinyisd a felfogadólapot.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO_V2</LocID>           <Text>Az alkalmazottat a portréjára kattintva fogadhatod fel. Az alkalmazotti lapról kioszthatod bármelyik munkahelyet. Miután felfogadtál egy alkalmazottat, láthatod az engedélyezett szerepköreit a munkahelyén.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_V2</LocID>                <Text><![CDATA[Nézzük csak meg közelebbről a személyzetet. <b><i>Nyisd meg bármelyik alkalmazotti lapot</i></b>. \n\nKattints egy foglalt munkahelyre menedzsment módban vagy közvetlenül az alkalmazottra a játék módban.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS</LocID>                <Text><![CDATA[Vessünk egy gyors pillantást a teljes kórház menedzsment eszközeire. <b><i>Nyisd meg a kórházi menedzsment kártyát</i></b> a főpanel bármelyik kategóriájára kattintva.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS_OPENED</LocID>         <Text>Ez a kártya 5 kategóriát tartalmaz: Osztály statisztikája, Biztosítás, Mentők, Költségvetés és Statisztika. Nézd meg őket gyakran, mert számodra fontos visszajelzést adnak, hogy hatékony kórházat működtethess.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF_V2</LocID><Text><![CDATA[Ideje<b><i> felfogadni egy sebészt</i></b> az ügyeleti szobába a nappali műszakba. Ha az egeret a foglalkozások fölé viszed, az eszközsúgók megmutatják, melyik specializáció szükséges. Ezekre lehet szűrni a felfogadólapon. \n\nAz összes vörös figyelmeztető jelzést meg kell oldani, hogy a klinika és a kórházi ápolás működőképes legyen.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OBJECTIVES_V2</LocID>                   <Text><![CDATA[Most, hogy tisztában vagy az alapokkal, itt az ideje beindítani a dolgokat. <b><i>Láss el 4 beteget!</i></b>\n\nEllenőrizheted az ellátott betegek számát (zöld) a főpanelen.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_EVENTS</LocID>                               <Text>A pénzügyi bevételeid, valamint a presztízs növelésének másik remek módja, hogy sorozatban sikeresen teljesíts eseményeket. De légy óvatos, mert kudarc esetén ellenkező eredményt érhetsz el.</Text>  </GameDBLocalizedString> <!--Used in campaign level 03-->
+
+            <!-- ingame tutorial -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_MANAGEMENT_MODE_1_1</LocID>      <Text><![CDATA[Válaszd a <b><i>menedzsment módot</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_BUTTON_1_1</LocID>               <Text><![CDATA[Kattints egy <b><i>munkahelyre</i></b> a kiválasztott szobában. Bal oldalon a nappali műszak, jobb oldalon az éjszakai műszak.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION_1_1</LocID>           <Text><![CDATA[Válaszd ki, melyik <b><i>foglalkozásra</i></b> van szükséged.\n\nTipp: a kötelező foglalkozások pirossal, az ajánlottak sárgával kiemelve jelennek meg.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION_1_1</LocID>            <Text><![CDATA[Válaszd ki az egyik <b><i>elérhető alkalmazottat</i></b>, és ezzel beosztottad a munkahelyre.\n\nTipp: figyelj a tulajdonságaikra.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT_1_1</LocID>          <Text><![CDATA[Itt láthatod az összes biztosítótársaságot, akikkel <b><i>szerződést köthetsz</i></b>.\n\nTipp: legfeljebb 3 élő szerződésed lehet egyszerre.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO_1_1</LocID>              <Text><![CDATA[Minden cégnél látható, hogy naponta hány <b><i>beteget</i></b> küld.\n\nTipp: növelheted ezt a számot, ha teljesítesz céges célkitűzéseket.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS_1_1</LocID>           	<Text><![CDATA[Bizonyos szobákban láthatod a <b><i>terhelés értékét</i></b>, ami az elmúlt 24 óra munkáját jelenti. A nincs azt jelenti, hogy az itt lévő személyzetnek nincs dolga, a kritikus azt jelenti, hogy a személyzet túlterhelt.\n\nTipp: a terhelési összesítő minden egyes osztályhoz elérhető az osztály statisztikájában.]]></Text>  </GameDBLocalizedString>
+
+
+            <!--==================-->
+            <!--New lab department-->
+            <!--==================-->
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>DPT_LAB</LocID>                                      <Text>Orvosi laborok</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB</LocID>                     <Text>Hematológiai labor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DESCRIPTION</LocID>         <Text>Teljesen felszerelt laboratórium vérképelemzéshez.\n\nMin. Szükséges személyzet:\n1x technikus</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB</LocID>                   <Text>Mikrobiológiai labor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB_DESCRIPTION</LocID>       <Text>Teljesen felszerelt laboratórium különböző minták tenyésztéséhez és vizsgálatához.\n\nMin. Szükséges személyzet:\n1x technikus</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB</LocID>                      <Text>Szövettani labor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB_DESCRIPTION</LocID>          <Text>Teljesen felszerelt laboratórium különböző minták mikroszkópos analíziséhez.\n\nMin. Szükséges személyzet:\n1x technikus</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL</LocID>                        <Text>Fali laborpolc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL_DESCRIPTION</LocID>            <Text>Közönséges laboratóriumi polc – falra szerelve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR</LocID>                         <Text>Mikrobiológiai inkubátor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR_DESCRIPTION</LocID>             <Text>Baktériumok és/vagy gombák tenyésztéséhez szükséges különleges felszerelés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK</LocID>                         <Text>Fél laborasztal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK_DESCRIPTION</LocID>             <Text>Fél méretű laboratóriumi asztal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET</LocID>                           <Text>Laborszekrény</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET_DESCRIPTION</LocID>               <Text>Laboratóriumi szekrény.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD</LocID>                             <Text>Vegyifülke</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD_DESCRIPTION</LocID>                 <Text>Különleges laboratóriumi felszerelés, amely a veszélyes vagy mérgező gázoknak, gőzöknek vagy poroknak való kitettséget korlátozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES</LocID>                          <Text>Üvegedények – büretta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES_DESCRIPTION</LocID>              <Text>Egy készlet üvegedény és büretta.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIST_LAB</LocID>       		         <Text>Szövettani labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HEM_LAB</LocID>       			         <Text>Hematológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MIC_LAB</LocID>       			         <Text>Mikrobiológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAB_DPT</LocID>       			         <Text>Orvosi laborok</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_SMALL_ABBR</LocID>            <Text>Hematológiai labor – 8 × 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_LARGE_ABBR</LocID>            <Text>Hematológiai labor – 12 × 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_SMALL_ABBR</LocID>          <Text>Mikrobiológiai labor – 8 × 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_LARGE_ABBR</LocID>          <Text>Mikrobiológiai labor – 12 × 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_SMALL_ABBR</LocID>             <Text>Szövettani labor – 8 × 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_LARGE_ABBR</LocID>             <Text>Szövettani labor – 12 × 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_LAB</LocID>                  <Text>Orvosi laborok sablonjai</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
+            <!-- New descriptions of laboratory examinations
+                 These are similar to the original descriptions (for example EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION), but with updated
+                 names of the required rooms (Histology Lab, Hematology Lab or Microbiology Lab) 
+            -->
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>           <Text>A mikrobiológiai mintavétel a betegtől vett különféle minták (pl.testnedvek, nyál, széklet) gyűjtése további elemzésre. \n\nSzükséges szoba: Mikrobiológiai labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. / Neurológiai oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + vegyifülke + mikrobio. inkubátor + mikroszkóp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>            <Text>A betegtől vett bizonyos mintákból laboratóriumi tenyésztéssel meghatározható, hogy vannak-e jelen baktériumok, és ha igen, milyen fajták. \n\nSzükséges szoba: Mikrobiológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION_1_1</LocID>                         <Text>Sebészeti eljárás, mely során mintát vesznek valamely szövetből (pl. tüdő, máj, belek) további vizsgálatok céljából. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Ortopédiai oszt. / Kardiológiai oszt. / Neurológiai oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + általános elemző + mikroszkóp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION_1_1</LocID>                          <Text>A mintavétel során szerzett szövetmintát mikroszkóp alatt vizsgálják, illetve kezelik különféle módszerekkel, hogy további teszteket lehessen rajta végezni. \n\nSzükséges szoba: Szövettani labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION_1_1</LocID>                     <Text>A betegtől vért vesznek (vénából vagy artériából) további analízis és vizsgálatok céljából. \n\nSzükséges szoba: Hematológiai labor \n\nMintavételezés: Bármelyik osztály \n\nSzükséges felszerelés: Üvegedények + Vérképelemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION_1_1</LocID>                      <Text>Vérminta laboratóriumi elemzése \n\nSzükséges szoba: Hematológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>Vér mintavétele teljes vérképhez. \n\nSzükséges szoba: Hematológiai labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. /Ortopédiai oszt. / Neurológiai oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + Vérképelemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION_1_1</LocID>                             <Text>A teljes vérkép a vérben található vértestek és vérsejtek teljes számát méri, és meghatározza, hogy van-e rendellenes növekedés vagy csökkenés a számukban. \n\nSzükséges szoba: Hematológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION_1_1</LocID>            <Text>A beteg székletmintájának gyűjtése annak érdekében, hogy mérhető legyen a hasnyálmirigy által termelt elasztáz mennyisége. Ez jól jellemzi a hasnyálmirigy működését. \n\nSzükséges szoba: Hematológiai labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + RIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION_1_1</LocID>             <Text>A beteg székletmintájában található elasztáz mennyiségének mérése. A mennyiség jól jellemzi a hasnyálmirigy működését. \n\nSzükséges szoba: Hematológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>A betegből különféle mintákat vesznek tenyésztéshez, hogy meghatározzák gombás fertőzés jelenlétét. \n\nSzükséges szoba: Mikrobiológiai labor \n\nMintavételezés: Sürgősségi oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + vegyifülke + mikrobio. inkubátor + mikroszkóp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>              <Text>A betegből nyert meghatározott minták laboratóriumi tenyésztése. \n\nSzükséges szoba: Mikrobiológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>Biológiai anyag mintavétele molekuláris mikrobiológiai vizsgálatok elvégzéséhez a laborban. A vizsgálat gyors, olcsó és pontos. \n\nSzükséges szoba: Hematológiai labor \n\nMintavételezés: Sürgősségi oszt. / Belgyógyászati oszt. / Neurológiai oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + DNS elemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION_1_1</LocID>                             <Text>A vírus/baktérium DNS jelenlétét kereső PCR gyors vizsgálati módszer baktérium vagy vírus okozta fertőző betegségek azonosítására. A vizsgálat gyors, olcsó és pontos. \n\nSzükséges szoba: Hematológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>A hasűri folyadék mintavételezése nagy tűvel és fecskendővel a hasfalon keresztül. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Sebészeti oszt. \n\nSzükséges felszerelés: Üvegedények + orvosi centrifuga + általános elemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>       <Text>Biokémiai teszt, amely a hasi folyadékot elemzi. \n\nSzükséges szoba: Szövettani labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION_1_1</LocID>               <Text>Vérvétel szerológiai elemzéshez. \n\nSzükséges szoba: Hematológiai labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. /Ortopédiai oszt. / Neurológiai oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + RIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION_1_1</LocID>                <Text>Különleges vérképelemzés bizonyos antitestek és antigének vizsgálatára. Az antitestek az emberi immunrendszer által előállított fehérjék a patogének (kórokozók) semlegesítésére. \n\nSzükséges szoba: Hematológiai labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>A gerincvelő-folyadék mintavétele a hát alsó részén keresztül a gerinccsatornába bevezetett tűvel történik, ahol kis mennyiségű gerincvelő-folyadékot vesznek le. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Neurológiai oszt. \n\nSzükséges felszerelés: Üvegedények + orvosi centrifuga + általános elemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>A gerincvelő-folyadék elemzése a laboratóriumban. \n\nSzükséges szoba: Szövettani labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>                 <Text>Eljárás a beteg székletmintájának begyűjtésére, további analízis céljából. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + Székletelemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>                  <Text>A beteg székletének elemzése baktériumok, vér, paraziták stb. után. \n\nSzükséges szoba: Szövettani labor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>A beteg középsugaras vizeletének vagy katéterének mintavételezése. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. / Kardiológiai oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + általános elemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>A vizeletminta biokémiai elemzése. \n\nSzükséges szoba: Szövettani labor</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION_1_1</LocID>                                     <Text>Az elektromiográfia (EMG) a beteg izomzatának elektromos aktivitását méri és értékeli ki. \n\nSzükséges szoba: Rendelő/vizsgáló az ortopédiai osztályon </Text>  </GameDBLocalizedString>
+         
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   

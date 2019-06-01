@@ -17,7 +17,7 @@
 
             <!-- Note: used in second half of a sentence, lower-case is intentional -->
             <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_EXM</LocID>                    <Text>очікування на вільну оглядову</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_TRT</LocID>                    <Text>очікування на вільну процедурну</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_TRT</LocID>                    <Text>очікування на вільну маніпуляційну</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_SURG</LocID>                   <Text>очікування на вільну операційну</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_EXM</LocID>                   <Text>очікування на лікаря/лаборанта для огляду</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_TRT</LocID>                   <Text>очікування на лікаря/лаборанта для лікування</Text>  </GameDBLocalizedString>
@@ -30,21 +30,21 @@
             <GameDBLocalizedString>      <LocID>SKIPPED_AFTER_LONG_WAIT</LocID>                 <Text>Пропущено після надто довгого очікування</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SCHEDULED_PROCEDURE_WAITING</LocID>             <Text>У розкладі</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBedFix</LocID>           <Text>у ліжку, де відсутнє необхідне обладнання</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBedFix</LocID>           <Text>у ліжку, біля якого відсутнє необхідне обладнання</Text>  </GameDBLocalizedString>
 
             
             <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
 
             <!-- Roles - for other usage in the UI see SEGMENT_HEADING_ROLES in StringTable[Language]UI.xml -->
             <!-- Roles - for the list of employee roles see EMPL_ROLE_EXM_TRT in StringTable[Language]Characters.xml -->
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES</LocID>                          <Text>У співробітника немає ролей!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES_TEXT</LocID>                     <Text>У співробітника немає доступних ролей, він не буде нічого робити.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES</LocID>                          <Text>У працівника немає ролей!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES_TEXT</LocID>                     <Text>У працівника немає доступних ролей, він не буде нічого робити.</Text>  </GameDBLocalizedString>
 
             <!-- Workload - see UI_ROOM_USAGE_DAY in StringTable[Language]UI.xml -->
             <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY</LocID>              <Text>Статистика навантаження палати</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY_TEXT</LocID>         <Text>Статистика денної зміни:\nПалати без навантаження: {1}\nПалати з критичним навантаженням: {2}</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT</LocID>            <Text>Статистика навантаження палати</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT</LocID>            <Text>Статистика навантаження на палату</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT_TEXT</LocID>       <Text>Статистика нічної зміни:\nПалати без навантаження: {1}\nПалати з критичним навантаженням: {2}</Text>  </GameDBLocalizedString>
 
             <!-- Broken beds/rooms -->
@@ -56,17 +56,17 @@
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER</LocID>   <Text>Пацієнту надається інше ліжко.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER_TEXT</LocID> <Text>Ліжко пацієнта зламалося, тому пацієнту надано інше ліжко.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Пацієнт очікує надання нового ліжка.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text><![CDATA[Ліжко пацієнта зламалося, тому необхідно надати пацієнту в нове ліжко, але в палаті <i>{1}</i> немає вільних ліжок.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Пацієнт очікує на нове ліжко.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text><![CDATA[Ліжко пацієнта зламалося, тому необхідно надати пацієнту нове ліжко, але в палаті <i>{1}</i> немає вільних місць.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Пацієнт очікує надання нового ліжка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Пацієнт очікує на нове ліжко.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text>Ліжко пацієнта зламалося, необхідно надати пацієнту інше ліжко, але наразі немає вільних медсестер, щоб перевезти пацієнта.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT</LocID>   <Text>Пацієнт очікує перевезення в іншу палату.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Палата пацієнта потребує ремонту, тому треба перевести пацієнта в іншу палату <i>{1}</i>, але на даний момент немає вільних медсестер, щоб перевезти пацієнта.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY</LocID>   <Text>Пацієнт переводиться в інший госпіталь.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY_TEXT</LocID> <Text>Ліжко пацієнта було зламано надто довго, і пацієнт переводиться в інший госпіталь.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY_TEXT</LocID> <Text>Ліжко пацієнта було зламано надто довго, тому пацієнт переводиться в інший госпіталь.</Text>  </GameDBLocalizedString>
 
 
             <!-- RELATED FILE: StringTable[Language]UI.xml -->
