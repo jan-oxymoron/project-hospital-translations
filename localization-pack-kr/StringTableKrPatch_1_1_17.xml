@@ -1,0 +1,70 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_PATCH_1_1_17">
+    
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FillingFreeTime</LocID>       <Text>여가 시간 갖는 중</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_DEP</LocID>               <Text>진단</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_DEP</LocID>               <Text>수술</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE_ER</LocID>          <Text>중증외상 안정화</Text>  </GameDBLocalizedString>
+
+            <!-- Note: used in second half of a sentence, lower-case is intentional -->
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_BED</LocID>                    <Text>침대 자리 기다리는 중</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_TO_BED</LocID>       <Text>침대로 이송을 기다리는 중</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_DAY_LIGHT_BUILDING</LocID>                          <Text>건축 모드에서 언제나 주간 모드 유지</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_AUTO_PANEL</LocID>                         <Text>자동 UI 크기 조절(메인 패널)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_PANEL</LocID>                              <Text>UI 크기 조절(메인 패널)</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START</LocID>                     <Text>무작위 이벤트 시작 불가</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START_TEXT</LocID>                <Text>무작위 이벤트를 시작하려면 응급실에 야간 클리닉이 필요합니다.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE</LocID>                   <Text>중요 게임 변경 사항</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE_TEXT</LocID>              <Text>입원을 위에 필요한 수술 간호사 수가 2명으로 증가하였으며, 이는 수술팀 멤버가 각자의 역할에 충실하게 하기 위함입니다.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT</LocID>                             <Text>클리닉 환자가 곧 떠납니다!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT_TEXT</LocID>                        <Text>클리닉 환자가 의사의 진찰을 받지 않았으며, 오랜 기다림에 지쳐하고 있습니다.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT</LocID>                            <Text>클리닉 환자가 곧 떠납니다!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT_TEXT</LocID>                       <Text>클리닉 환자가 병원에서 치료 또는 진찰 없이 오랫동안 시간을 소비했으며, 오랜 기다림에 지쳐하고 있습니다.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR</LocID>                              <Text>접근 불가능한 엘리베이터</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR_TEXT</LocID>                         <Text>엘리베이터 중 하나에 접근할 수 없습니다. 벽에 막혔거나 제한 지역에 배치하였는지 확인해 주세요.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BLOCKED_ROLE</LocID>                                <Text>이 작업 공간에서 이 역할은 배치할 수 없음</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_SWITCH</LocID>                    <Text>문, 창문, 물체 투명도 변경</Text>  </GameDBLocalizedString>
+
+            <!-- Note: from the player's point of view it's the hospital that rotates in this direction -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CW</LocID>                            <Text>보기를 시계 방향으로 회전합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CCW</LocID>                           <Text>보기를 반시계 방향으로 회전합니다.</Text>  </GameDBLocalizedString>
+
+            <!-- fixed tooltip-->
+            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION_DESCRIPTION</LocID>                     <Text>귀도관 및 고막을 포함해 검사 및 육안 검사를 진행합니다. \n\n필요 공간: 의사의 진료실 / 진단 장치 / 관찰실 / 중증외상센터 / 응급실 집중치료실 / 내과 / 집중치료실</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>FILES_TO_UPLOAD</LocID>                                     <Text>업로드할 파일</Text>  </GameDBLocalizedString>
+            <!--Updated version of LOADING_TIP_OP in StringTableEnPatch_1_1.xml-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP_V2</LocID>                                   <Text>수술을 진행하려면 다음 사항에 특화된 수술팀 멤버가 필요합니다: 외과 전문의(의사) 1명, 부서 전문의(의사) 1명, 마취학 전문의(의사) 1명, 수술 의학 간호사(간호사) 2명, 환자 이송이 가능한 1명의 간호사.</Text>  </GameDBLocalizedString>
+
+            <!-- StringTableEnTutorial.xml -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_REMOVE_1_1_17</LocID>             <Text><![CDATA[엘리베이터 <b><i>제거</i></b> 작업은 같은 방식으로 적용되며, 모든 층으로부터 제거됩니다.]]></Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   
