@@ -1,0 +1,70 @@
+<Database>
+    <GameDBStringTable ID="LOC_ZHHANS_PATCH_1_1_17">
+    
+        <LanguageCode>zh-Hans</LanguageCode>
+        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FillingFreeTime</LocID>       <Text>填补空闲时间</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_DEP</LocID>               <Text>诊断</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_DEP</LocID>               <Text>手术</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE_ER</LocID>          <Text>创伤稳定</Text>  </GameDBLocalizedString>
+
+            <!-- Note: used in second half of a sentence, lower-case is intentional -->
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_BED</LocID>                    <Text>等待床位</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_TO_BED</LocID>       <Text>等待转移至病床</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_DAY_LIGHT_BUILDING</LocID>                          <Text>建造模式下始终保持日光</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_AUTO_PANEL</LocID>                         <Text>自动UI缩放（主面板）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_PANEL</LocID>                              <Text>UI缩放（主面板）</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START</LocID>                     <Text>无法开始随机事件</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START_TEXT</LocID>                <Text>你的医院急诊科缺少开启随机事件的夜间门诊。</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE</LocID>                   <Text>重要的游戏变更</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE_TEXT</LocID>              <Text>住院部所需的外科护士已增至2名。这确保了整个手术团队都有专门的角色。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT</LocID>                             <Text>一位门诊病人即将离开！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT_TEXT</LocID>                        <Text>一位门诊病人等了很长时间都没见到医生，已经厌倦了等待。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT</LocID>                            <Text>一位门诊病人即将离开！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT_TEXT</LocID>                       <Text>一位门诊病人等了很长时间都没获得治疗或被安排住院，已经厌倦了等待。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR</LocID>                              <Text>无法到达的电梯</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR_TEXT</LocID>                         <Text>有一个电梯无法到达。它可能被一堵墙挡住了，或被放置在了限制区内。</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BLOCKED_ROLE</LocID>                                <Text>无法在此工位启用此角色</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_SWITCH</LocID>                    <Text>切换门/窗和物体的透明度</Text>  </GameDBLocalizedString>
+
+            <!-- Note: from the player's point of view it's the hospital that rotates in this direction -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CW</LocID>                            <Text>顺时针旋转视图。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CCW</LocID>                           <Text>逆时针旋转视图。</Text>  </GameDBLocalizedString>
+
+            <!-- fixed tooltip-->
+            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION_DESCRIPTION</LocID>                     <Text>检查和观察病人的耳朵，包括耳道和鼓膜。\ n\n所需房间：医生办公室 / 诊断室 / 观察室 / 创伤急救中心 / 急诊科重症监护室 / 内科 / 重症监护室</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>FILES_TO_UPLOAD</LocID>                                     <Text>要上传的文件</Text>  </GameDBLocalizedString>
+            <!--Updated version of LOADING_TIP_OP in StringTableEnPatch_1_1.xml-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP_V2</LocID>                                   <Text>要执行手术，你需要一支具备下列专长的团队：1x外科医生（医生），1x科室专长（医生），1x麻醉学（医生），2x医疗手术（护士）- 外加一名转移患者的空闲护士。</Text>  </GameDBLocalizedString>
+
+            <!-- StringTableEnTutorial.xml -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_REMOVE_1_1_17</LocID>             <Text><![CDATA[<b><i>移除</i></b>电梯的工作原理相同，它们将从所有楼层被删除。]]></Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   
