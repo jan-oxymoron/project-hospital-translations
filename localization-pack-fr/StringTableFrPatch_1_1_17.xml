@@ -1,0 +1,69 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_PATCH_1_1_17">
+    
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+        
+        <Contributors>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FillingFreeTime</LocID>       <Text>Remplit son temps libre</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_DEP</LocID>               <Text>Diagnostic</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_DEP</LocID>               <Text>Opération</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE_ER</LocID>          <Text>Stabilisations (Traumatologie)</Text>  </GameDBLocalizedString>
+
+            <!-- Note: used in second half of a sentence, lower-case is intentional -->
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_BED</LocID>                    <Text>En attente d'un lit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_TO_BED</LocID>       <Text>en attente d'un brancard vers le lit</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_DAY_LIGHT_BUILDING</LocID>                          <Text>Toujours à la lumière du jour en mode construction</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_AUTO_PANEL</LocID>                         <Text>Taille de l'interface de jeu automatique (panneau principal)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_PANEL</LocID>                              <Text>Taille de l'interface (panneau principal)</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START</LocID>                     <Text>Impossible de démarrer un événement aléatoire</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START_TEXT</LocID>                <Text>Dans votre hôpital, il manque une clinique de nuit au service des urgences, ce qui est nécessaire pour lancer des événements aléatoires.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE</LocID>                   <Text>Changements importants dans le jeu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE_TEXT</LocID>              <Text>Le nombre requis d'infirmières en chirurgie pour hospitalisation a été porté à 2. Cela garantit que l'ensemble de l'équipe chirurgicale aura des rôles spécifiques.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT</LocID>                             <Text>Un patient de la clinique est sur le point de partir !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT_TEXT</LocID>                        <Text>Un patient de la clinique n’a pas été ausculté par un médecin depuis très longtemps et en a assez d’attendre.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT</LocID>                            <Text>Un patient de la clinique est sur le point de partir !</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT_TEXT</LocID>                       <Text>Un patient de la clinique a passé beaucoup de temps dans l'hôpital sans être soigné ou hospitalisé et en a assez d'attendre.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR</LocID>                              <Text>Ascenseur inaccessible</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR_TEXT</LocID>                         <Text>Un des ascenseurs est inaccessible. Il est probablement bloqué par un mur ou placé derrière une zone restreinte.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BLOCKED_ROLE</LocID>                                <Text>Ce rôle ne peut pas être activé dans cet espace de travail</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_SWITCH</LocID>                    <Text>Activer la transparence des portes/fenêtres et des objets</Text>  </GameDBLocalizedString>
+
+            <!-- Note: from the player's point of view it's the hospital that rotates in this direction -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CW</LocID>                            <Text>Faire tourner la vue dans le sens des aiguilles d'une montre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CCW</LocID>                           <Text>Faire tourner la vue dans le sens contraire des aiguilles d'une montre.</Text>  </GameDBLocalizedString>
+
+            <!-- fixed tooltip-->
+            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION_DESCRIPTION</LocID>                     <Text>Examen et inspection visuelle des oreilles du patient, y compris le conduit auditif et le tympan. \n\nSalle requise : Bureau de docteur / Unité de diagnostic / Salle d'observation / Centre de Trauma / Unité de soins intensifs au service des urgences / Dpt de médecine interne / Unité de soins intensifs</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>FILES_TO_UPLOAD</LocID>                                     <Text>Fichiers à télécharger</Text>  </GameDBLocalizedString>
+            <!--Updated version of LOADING_TIP_OP in StringTableEnPatch_1_1.xml-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP_V2</LocID>                                   <Text>Pour effectuer une intervention chirurgicale, vous avez besoin d’une équipe spécialisée dans les domaines suivants : 1x chirurgien (médecin), 1x spécialisation de département (médecin), 1x anesthésiste-réanimateur (médecin), 2x chirurgie médicale (infirmière), plus une infirmière libre pour transporter le patient.</Text>  </GameDBLocalizedString>
+
+            <!-- StringTableEnTutorial.xml -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_REMOVE_1_1_17</LocID>             <Text><![CDATA[La <b><i>suppression</i></b> des ascenseurs fonctionne de la même manière, ils sont supprimés à tous les étages.]]></Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   
