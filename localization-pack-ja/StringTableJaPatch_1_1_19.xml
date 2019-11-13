@@ -1,0 +1,84 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_PATCH_1_1_19">
+    
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_RESERVATION</LocID>                     <Text>設備の予約状況を表示</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_ZOMBIE_MODE</LocID>                          <Text>ゾンビはハロウィン以外でも登場します</Text>  </GameDBLocalizedString>
+                                                                                                    
+                                                                                                    
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->                                      
+            <!-- Needed in base game -->                                                            
+            <GameDBLocalizedString>      <LocID>MENU_DLC</LocID>                                     <Text>DLC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CHAR_EDITOR</LocID>                          <Text>無料のドクターモードDLCでキャラクターエディターを使いましょう！</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>PREPARING_FOR_SURGERY</LocID>                        <Text>手術の準備中</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_WALLS</LocID>                           <Text>壁表示モードに切り替え</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ROTATE_VIEW</LocID>                     <Text>ビューを回転</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ZOOM</LocID>                            <Text>ズームイン/ズームアウト</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NO_SHIFT_LOCKED_CLINIC</LocID>                       <Text>外来診療所がロックされているので、雇用できません。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_SHIFT_LOCKED_HOSPITALIZATION</LocID>              <Text>入院がロックされているので、雇用できません。</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <!-- Statistics in doctor's card -->                                                     
+            <GameDBLocalizedString>      <LocID>LAST_20_PATIENTS</LocID>                             <Text>最近の患者20人</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_PREVIOUS_DAY</LocID>              <Text>前の日</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>RATING</LocID>                                       <Text>医者の評価</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_RATING</LocID>                               <Text>このドクターの満足度、不快感、生存率に基づいた、患者からの評価。</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_CURED_TODAY</LocID>               <Text>本日治療した患者数</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_CURED_TOTAL</LocID>               <Text>治療した患者の総数</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_DEAD</LocID>                      <Text>死亡または失った患者数</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_DIAGNOSTIC_PERCENTAGE</LocID>     <Text>診断成功率</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_SAVED_COLLAPSES</LocID>           <Text>倒れた患者を救った回数</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_SURGERIES</LocID>                 <Text>手術</Text>  </GameDBLocalizedString>
+                                                                                                    
+                                                                                                    
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                            
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN</LocID>                               <Text>カボチャ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN_DESCRIPTION</LocID>                   <Text>季節の飾り付け。</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <GameDBLocalizedString>      <LocID>OBJECT_JACK_O_LANTERN</LocID>                        <Text>ジャック・オー・ランタン</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JACK_O_LANTERN_DESCRIPTION</LocID>            <Text>不気味な装飾品。</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN_DECORATIONS</LocID>                   <Text>カボチャの木</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN_DECORATIONS_DESCRIPTION</LocID>       <Text>カボチャが付いた装り用屋内植物。</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Treatments.xml -->
+            <!-- tooltips fixes--> 
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS_DESCRIPTION_V2</LocID>         <Text>不整脈を抑えるために用いられる注射剤または経口剤の総称。\n\n部屋の条件：集中治療室、診療室全般、救急救命科の診断課、一般外科、一般内科、神経内科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDEPRESSIVES_DESCRIPTION_V2</LocID>           <Text>抑うつ障害の治療に用いられる薬物。\n\n部屋の条件：外来診察室、観察室、一般外科の診療室全般および診断課、神経内科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>            <Text>通常は排便を減らすことで下痢を止めて症状を緩和するが、原因を根治するわけではない。\n\n部屋の条件：外来診察室、観察室、外傷センター、集中治療室、一般外科の診療室全般および診断課、一般内科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_INFLAMMATORY_CREAM_DESCRIPTION_V2</LocID>   <Text>様々な炎症を抑えて痛みや腫脹も緩和する、非ステロイド性消炎鎮痛外用薬。\n\n部屋の条件：診療室全般、神経内科を除くすべての科の診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>       <Text>様々な寄生虫の感染症の治療に用いられる薬物。\n\n部屋の条件：外来診察室、観察室、外傷センター、一般内科の診療室全般および診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISEPTICS_DESCRIPTION_V2</LocID>               <Text>殺菌作用を持つ液剤またはエアゾール剤の総称。感染の可能性を減らす。\n\n部屋の条件：診療室全般、診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTITUSICS_DESCRIPTION_V2</LocID>                <Text>乾性咳を抑制するための薬物。ただし、根治するわけではない。\n\n部屋の条件：診療室全般、一般外科を除く科の診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANXIOLYTICS_DESCRIPTION_V2</LocID>               <Text>不安を抑制する薬物。\n\n部屋の条件：診療室全般、整形外科を除くすべての科の診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARM_CAST_DESCRIPTION_V2</LocID>                  <Text>骨折した手足や関節を保護するためのギプス。石膏と包帯でできている。\n\n部屋の条件：外来診察室、観察室、外傷センター、集中治療室、整形外科の診療室全般および診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARM_ORTHOSIS_DESCRIPTION_V2</LocID>              <Text>特定の関節や四肢の制御、誘導、固定を補助する整形装具。\n\n部屋の条件：外来診察室、観察室、外傷センター、集中治療室、整形外科の診療室全般および診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARTIFICIAL_VENTILATION_DESCRIPTION_V2</LocID>    <Text>呼吸器系のガス交換によって呼吸の回復または補助を行うための処置。手順は気管挿管および人工呼吸器への接続操作で構成される。\n\n部屋の条件：診療室全般、診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BETA_BLOCKERS_DESCRIPTION_V2</LocID>             <Text>不整脈、高血圧、心不全、振戦の治療に用いられる薬物。\n\n前提条件：診療室全般、整形外科を除くすべての科の診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_COLD_TILING_DESCRIPTION_V2</LocID>               <Text>冷却弾性包帯は、身体の痛みのある部位を鎮めるために用いられる。\n\n部屋の条件：外来診察室、外傷センター、観察室、一般外科の診療室全般および診断課、整形外科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_COMPRESSION_WRAPS_DESCRIPTION_V2</LocID>         <Text>伸縮包帯。\n\n前提条件：外来診察室、観察室、外傷センター、集中治療室、整形外科の診療室全般および診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEFIBRILLATION_DESCRIPTION_V2</LocID>            <Text>心臓に一定の電流を与え、正常なリズムの復帰を促す処置。\n\n部屋の条件：観察室、外傷センター、集中治療室、病室全般、診断課全般\n\n装備の条件：除細動器</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EYE_DROPS_DESCRIPTION_V2</LocID>                 <Text>眼の症状緩和や疾患治療のための液剤。抗菌薬、抗ヒスタミン薬、眼圧下降薬のいずれかが配合される。\n\n部屋の条件：外来診察室、観察室、整形外科を除くすべての科の診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXERCISE_DESCRIPTION_V2</LocID>                  <Text>体に負荷のかからない有酸素運動や筋力強化運動など、治療を補助する運動療法。\n\n部屋の条件：外来診察室、観察室、整形外科の診療室全般および診断課、神経内科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LEG_CAST_DESCRIPTION_V2</LocID>                  <Text>骨折部の安静を保ち、保護するギプス。石膏と包帯でできていて、グラスファイバーが使用されていることもある。\n\n部屋の条件：外来診察室、観察室、外傷センター、集中治療室、整形外科の診療室全般および診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LEG_ORTHOSIS_DESCRIPTION_V2</LocID>              <Text>整形器具は特定の関節や四肢を固定し、動きの範囲を誘導する装具である。\n\n部屋の条件：外来診察室、観察室、外傷センター、集中治療室、整形外科の診療室全般および診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NUMBING_OINTMENT_DESCRIPTION_V2</LocID>          <Text>日焼けなどの患部に塗布して痛みや炎症を和らげる軟膏。\n\n部屋の条件：外来診察室、観察室、外傷センター、一般内科の診療室全般および診断課、整形外科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OXYGENOTHERAPY_DESCRIPTION_V2</LocID>            <Text>鼻と口を覆う鼻カヌラやマスクなど、吸入ガスに酸素を補充する処置。\n\n部屋の条件：診療室全般、診断課</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WOUND_CLOSURE_DESCRIPTION_V2</LocID>             <Text>皮膚と筋肉を縫合する処置。\n\n部屋の条件：外来診察室、観察室、外傷センター、集中治療室、整形外科の診療室全般および診断課</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
