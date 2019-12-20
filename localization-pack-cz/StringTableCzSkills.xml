@@ -16,7 +16,7 @@
             <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>JIP</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Chirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Interna</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Ortopedie a traumatologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Ortopedie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Kardiologie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_NEUROLOGY</LocID>                                               <Text>Neurologie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DPT_RADIOLOGY</LocID>                                               <Text>Radiologie</Text>  </GameDBLocalizedString>
@@ -31,7 +31,7 @@
                                                                                                                
             <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Sestra stážist(k)a</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Sestra</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Zkušená sestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Specializovaná sestra</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Stážista technolog</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Technolog</Text>  </GameDBLocalizedString>
@@ -64,7 +64,7 @@
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>Interna-chirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>Interna-chirurgie dovoluje vést operace a úroveň této specializace určuje, jak často se vyskytnou pooperační komplikace.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>Ortopedie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>Lékařská specializace ortopedie se používá u vyšetření a předepisování léčby na oddělení ortopedie a traumatologie a umožňuje také asistovat u operací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>Lékařská specializace ortopedie se používá u vyšetření a předepisování léčby na oddělení ortopedie a umožňuje také asistovat u operací.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>Orto-chirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>Orto-chirurgie dovoluje vést operace a úroveň této specializace určuje, jak často se vyskytnou pooperační komplikace.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>Kardiologie</Text>  </GameDBLocalizedString>
@@ -76,7 +76,7 @@
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>Neurochirurgie</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>Neurochirurgie dovoluje vést operace a úroveň této specializace určuje, jak často se vyskytnou pooperační komplikace.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Anesteziologie</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Anesteziologie je potřeba, aby doktor mohl plnit roli anesteziologa na sále a také dává vyšší šanci přežití pacientům, které tento doktor stabilizuje. \nZnižuje riziko úmrtí pacienta počas kolapsu. \nZnižuje pravděpodobnost výskytu pooperačních komplikací.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Anesteziologie je potřeba, aby doktor mohl plnit roli anesteziologa na sále a dává vyšší šanci přežití pacientům, které tento doktor stabilizuje. \nSnižuje riziko úmrtí pacienta během kolapsu. \nSnižuje pravděpodobnost výskytu pooperačních komplikací.</Text>  </GameDBLocalizedString>
 
             
             <!-- Nurse's QUALIFICATIONS -->
@@ -85,7 +85,7 @@
 
             <!-- Nurse's SPECIALIZATIONS -->
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>Recepční</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>Receptionist represent point of first contact with patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>Recepční představuje místo prvního kontaktu s pacientem.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Instrumentář/ka</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>Instrumentář/ka má na starost lékařské nástroje při operacích.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Klinický/á specialist/ka</Text>  </GameDBLocalizedString>

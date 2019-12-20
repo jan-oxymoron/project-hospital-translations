@@ -38,13 +38,16 @@
             <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>Pacientovi se přitížilo, protože byl léčen na špatnou diagnózu.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>Nejasná diagnóza!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Zvaž přistavět další diagnostická pracoviště, laboratioře nebo radiologii. Pacient nebude dlouho čekat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Zvaž přistavět další diagnostická pracoviště, laboratoře nebo radiologii. Pacient nebude dlouho čekat.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT</LocID>                   <Text>Pacienta nejde vyléčit!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TEXT</LocID>              <Text><![CDATA[Léčba diagnózy není dostupná: <i>{1}</i>.\nAby pacient neodešel, je potřeba ji rychle zpřístupnit.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION</LocID>             <Text>Pacienta nelze hospitalizovat!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_TEXT</LocID>        <Text><![CDATA[Potřebný typ hospitalizace není dostupný: <i>{1}</i>! Aby pacient neodešel, je potřeba ji rychle zpřístupnit.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT</LocID> <Text>Pacienta nelze hospitalizovat!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT_TEXT</LocID><Text><![CDATA[Hospitalizace pro oddělení <i>{1}</i> není funkční, nebo zcela chybí! Aby pacient neodešel, je potřeba ji rychle zpřístupnit.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS</LocID>          <Text>Komplikovaná diagnóza!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>Diagnostické schopnosti doktora nestačily na určení diagnózy a žádá o konzultaci ohledně výběru dalších vyšetření.</Text>  </GameDBLocalizedString>
@@ -69,7 +72,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</LocID> <Text><![CDATA[Zaměstnanec dosáhl další úrovně, je teď <i>{1}</i> a má druhou specializaci!\nSpecializaci je možné změnit v kartě.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE</LocID>                   <Text>Zaměstnanec nemá pracoviště.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>Zaměstnanec nemá pracoviště a nemá co dělat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>Zaměstnanec nemá pracoviště a nemá co dělat. Najdi nebo přiřaď nové pracoviště jinak po chvíli odejde domů (bez společenské místnosti na oddělení odejde hned).</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL</LocID>                  <Text>Zaměstnanec nemá požadovanou specializaci.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL_TEXT</LocID>             <Text><![CDATA[Specializace <i>{1}</i> je vyžadovaná pro zaměstnance v tomto typu místnosti.]]></Text>  </GameDBLocalizedString>
@@ -161,12 +164,15 @@
             
             <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>Pacient musí být před operací hospitalizován!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>Všechny operace vyžadují hospitalizaci.</Text>  </GameDBLocalizedString>
-            
+
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START</LocID>                    <Text>Naléhavá zpráva:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
+
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL</LocID>               <Text>Událost vyřešena.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>Událost se podařilo vyřešit v časovém limitu, gratulujeme!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_SUCCESSFUL_TEXT</LocID>          <Text>{1}</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED</LocID>                   <Text>Událost vypršela.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID>              <Text>Událost se nepodařilo vyřešit v časovém limitu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT</LocID> <Text>Událost se nepodařilo vyřešit v časovém limitu nebo jeden z pacientu umřel nebo byl převezen do jiné nemocnice. Tvoje prestiž je snížena pro dnešek nebo do úspěšné události. \nJe ti také udělena pokuta: ${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED</LocID>              	 <Text>Pacient zemřel. :(</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_DIED_TEXT</LocID>          	 <Text>Pacient byl v kritickém stavu a i přes veškeré úsilí se ho nepodařilo zachránit. Zvládla by to efektivněji postavená nemocnice lépe?</Text>  </GameDBLocalizedString>
@@ -203,6 +209,9 @@
             
             <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>Achievement odemčen!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>Achievement odemčen:\n{1}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_STAFF_EXHAUSTED</LocID>                <Text>Vyčerpaný zaměstnanec!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_STAFF_EXHAUSTED_TEXT</LocID>           <Text>Personál potřebuje během dne alespoň dvě přestávky!</Text>  </GameDBLocalizedString>
             
             <!-- Popup actions / buttons -->
             <GameDBLocalizedString>      <LocID>POPUP_HIDDEN_BUTTON</LocID>                  <Text>(skryté)</Text>  </GameDBLocalizedString>     
@@ -210,10 +219,24 @@
             <GameDBLocalizedString>      <LocID>POPUP_OK</LocID>                             <Text>Ok</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>POPUP_TRY</LocID>                            <Text>Ať se snaží</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>POPUP_CONTINUE</LocID>                       <Text>Pokračovat</Text>  </GameDBLocalizedString>     
-            <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>Otevřít kartu</Text>  </GameDBLocalizedString>     
+            <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>Vycentrovat</Text>  </GameDBLocalizedString>     
             <GameDBLocalizedString>      <LocID>POPUP_SEND_HOME</LocID>                      <Text>Poslat domů</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Přejít na pojišťovny</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>Zbytečná operace!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>Chirurgové nenašli během operace očekávané symptomy! Pravděpodobně jde o špatnou diagnózu. Nemocnice dostala pokutu {1}$ od pacientovy pojišťovny.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>Ztracený případ! :(</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>Pacient je v kritickém stavu a i přes veškeré úsilí se ho nedaří stabilizovat. Bude urychleně odvezen do lépe vybavené nemocnice.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>Událost se podařilo vyřešit v časovém limitu, gratulujeme! Získal jsi pro dnešek bonusovou prestiž a také finanční odměnu.\n\nÚspěšné události v řadě: {1}\nFinanční odměna: ${2}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>             <Text>Oddělení nemůže diagnostikovat pacienta!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>        <Text>Pacientovo oddělení už nemá k dispozici další testy, zvažte přesunout pacienta na jiné oddělení podle možných diagnóz nebo zprovoznit další testy.</Text>  </GameDBLocalizedString>
             
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOT_AVLBL</LocID>            <Text>Insurance company is not available!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOT_AVLBL_TEXT</LocID>       <Text><![CDATA[Insurance company <i>{1}</i> is not available!]]></Text>  </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>

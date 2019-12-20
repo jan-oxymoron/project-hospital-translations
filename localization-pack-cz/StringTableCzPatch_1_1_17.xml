@@ -1,0 +1,70 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_CZ_PATCH_1_1_17">
+
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FillingFreeTime</LocID>      <Text>Volný čas</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_DEP</LocID>               <Text>Diagnostika a léčba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_DEP</LocID>               <Text>Vedení operací</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE_ER</LocID>          <Text>Stabilizace na trauma</Text>  </GameDBLocalizedString>
+
+            <!-- Note: used in second half of a sentence, lower-case is intentional -->
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_BED</LocID>                    <Text>čeká na postel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_TO_BED</LocID>       <Text>čeká na převoz do postele</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <!-- New option for workplace panel color -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_DAY_LIGHT_BUILDING</LocID>                         <Text>Denní světlo při stavění</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_AUTO_PANEL</LocID>                        <Text>Automatická velikost GUI (spodní panel)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_UI_SCALE_PANEL</LocID>                             <Text>Velikost GUI (spodní panel)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START</LocID>                    <Text>Není možné přijmout náhodnou událost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_FAILED_START_TEXT</LocID>               <Text>V nemocnici není v provozu noční klinika na pohotovosti, která je potřeba na spoustění náhodných událostí</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE</LocID>                  <Text>Důležité herní změny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE_TEXT</LocID>             <Text>Požadovadný počet instrumentářek pro funkční hospitalizaci se zvýšil na 2. To zajistí, že celý operační tým se může věnovat výhradně operacím..</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT</LocID>                            <Text>Pacient čeká příliš dlouho a chystá se odejít!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_WAIT_TEXT</LocID>                       <Text>Pacient na klinice se po několika hodinách stále nedočkal doktora a už ho nebaví čekat.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT</LocID>                           <Text>Pacient čeká příliš dlouho a chystá se odejít!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LONG_VISIT_TEXT</LocID>                      <Text>Pacient strávil půl dne na klinice, aniž by byl vyléčen a už ho nebaví dále čekat.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR</LocID>                             <Text>Nepřístupný výtah</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_BLOCKED_ELEVATOR_TEXT</LocID>                        <Text>Jeden z výtahů není přístupný. Může být zablokovaný zdí nebo je umístěný v nepřístupném prostoru.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BLOCKED_ROLE</LocID>                               <Text>Tato role nemůže být zapnuta na tomto pracovišti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_TRANSPARENCY_SWITCH</LocID>                   <Text>Přepnout průhlednost dveří/oken a objektů</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CW</LocID>                           <Text>Otočit scénu po směru hodinových ručiček.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ROTATE_CAMERA_CCW</LocID>                          <Text>Otočit scénu proti směru hodinových ručiček.</Text>  </GameDBLocalizedString>
+       
+            <!-- fixed tooltip-->
+            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION_DESCRIPTION</LocID>                    <Text>Vyšetření a vizuální prohlídka uší pacienta včetně zvukovodu a ušního bubínku. \n\nPotřebná místnost: Ordinace / Vyšetřovna / Pozorování / Traumacentrum / JIP na Pohotovosti / Interně / JIP</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>FILES_TO_UPLOAD</LocID>                                    <Text>Soubory k nahrání</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP_V2</LocID>                                  <Text>Pro spuštění operace je potřeba chirurgický tým s následujícími specializacemi: 1x chirurg, 1x asistent , 1x anesteziolog, 2x intrumentář/ka a nakonec jedna volná sestra pro převoz pacienta na sál.</Text>  </GameDBLocalizedString>
+
+            <!-- StringTableEnTutorial.xml -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_REMOVE_1_1_17</LocID>            <Text><![CDATA[<b><i>Mazání</i></b> výtahů také smaže výtahy na všech patrech.]]></Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    
