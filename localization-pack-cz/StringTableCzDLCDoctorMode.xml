@@ -1,0 +1,195 @@
+<Database>
+    <GameDBStringTable ID="LOC_CZ_DLC_DOCTOR_MODE">
+
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_DOCTOR_MODE</LocID>                                     <Text>Doktorský mód DLC</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_PATIENT_COLLAPSING</LocID>                 <Text>Pacient převzatého lékaře zkolaboval a byl převezen..</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_PATIENT_COLLAPSING_TEXT</LocID>            <Text>Pacient převzatého lékaře zkolaboval a musel být převezen na {1}. Pacient byl přidělen jinému lékaři.</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DOCTOR_MODE_BUTTON</LocID>                          <Text>Doktorský mód (F8)</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>CONTROLLED_BY_PLAYERS_DOCTOR</LocID>                        <Text>Přidělen k lékaři hráče</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CONTROLLED_DOCTORS</LocID>                  <Text>Převzatí lékaři</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_DOCTORS_PATIENTS</LocID>                    <Text>Doktorovi pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CONTROLLED_PATIENTS</LocID>                 <Text>Převzatí pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_YOUR_PATIENTS</LocID>                       <Text>Vaši pacienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_HIGHLIGHTS</LocID>                          <Text>Zvýraznění</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_HAZARD</LocID>                                  <Text>Riziko</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_PROFIT</LocID>                                  <Text>Zisk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_SATISFACTION</LocID>                            <Text>Spokojenost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_CRITICAL</LocID>                                <Text>Kritický</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_WAITING_FOR_TRT</LocID>                         <Text>Čeká na léčbu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_WAITING_FOR_EXM</LocID>                         <Text>Čeká na vyšetření</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_NO_DIAGNOSIS</LocID>                            <Text>Bez diagnózy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_CONTROLLED</LocID>                              <Text>Převzatí</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>HARD_CORE_MODE_DIAGNOSE_PERCENTAGE</LocID>                  <Text>Žádná nápověda v diagnostice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HARD_CORE_MODE_HIDDEN_SYMPTOMS_NUMBER</LocID>               <Text>Schovej počet skrytých symptomů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HARD_CORE_MODE_PULSING_HIDDEN_SYMPTOMS</LocID>              <Text>Vypni pulzující skryté symptomy</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>BEGINNER_MODE</LocID>                                       <Text>Standartní mód</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EASY_MODE</LocID>                                           <Text>Mód pro stážisty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MEDIUM_MODE</LocID>                                         <Text>Mód pro residenty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HARDCORE_MODE</LocID>                                       <Text>Mód pro specialisty</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CODE_BLUE</LocID>                                   <Text>Modrý kód - zacházejte s pacientem se stejnou prioritou jako u kritických pacientů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ADD_CONTROLLED_DOCTOR</LocID>                       <Text>Vyber lékaře a všichni jeho pacienti budou převzatí hráčem</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>SHOW_PORTRAITS_OR_DIAGNOSES</LocID>                         <Text>Zobraz portrét nebo diagnózu pacienta</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>TOOLTIP_COLOR_GUIDE</LocID>                                 <Text>Nápověda pro barvy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_COLOR_GUIDE_PLAYER</LocID>                          <Text>Čeká na hráče</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>FOLLOW_CONTROLLED_DOCTOR</LocID>                            <Text>Zapni kameru zaměřenou na vybraného lékaře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>REMOVE_DOCTOR_FROM_CONTROLLED</LocID>                       <Text>Odstraň tohoto lékaře ze seznamu převzatých lékařů</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <!-- DLC Tutorial and campaign level menu -->                                                 
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_TUTORIAL_01</LocID>                          <Text>Doktorský mód: Tutoriál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_TUTORIAL_01_DESCRIPTION</LocID>              <Text>Nauč se základy přebírání lékařů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_CAMPAIGN_01</LocID>                          <Text>Doktorský mód: Sladký důchod!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_CAMPAIGN_01_DESCRIPTION</LocID>              <Text>Před vysněným odpočinkem stojí v cestě ještě jeden úkol, který vyžaduje tvoje odborné shopnosti. Dokážeš najít a vytrénovat nejlepší personál, kterému předás svoje zkušenosti?</Text>  </GameDBLocalizedString>
+
+            <!-- DLC Tutorial texts -->
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_01_WELCOME</LocID>                             <Text>Dobrý den, šéfe, pojďme se podívat na nový mód v našem IT systému. Nazývá se doktorský mód a umožňuje přebírat lékaře. Díky tomu je možné ještě pečlivěji sledovat naše pacienty.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_TEXT_DOC_MODE</LocID>                          <Text><![CDATA[<b><i>Klikněte na tlačítko </i></b>v levé horní části obrazovky nebo <b><i>zmáčkňete klávesu F8</i></b>. \n\nVe chvíli, kdy máte převzatého lékaře a je třeba provést nějakou akci, toto tlačítko bliká.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_OVERALL_INFO</LocID>                  <Text>Doktorský mód je umístěn na pravé straně obrazovky. Podívejme se na některé z jeho klíčových funkcí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_HARDCORE_MODE</LocID>                 <Text><![CDATA[Nejprve nastavení obtížnosti. <b><i>Klikněte na tlačítko</i></b>, které otevře panel s nastavením.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_HARDCORE_MODE_OPENED</LocID>          <Text>Zde si můžete vybrat, které části diagnostického procesu chcete mít náročnější díky skrytí různých nápověd na kartě pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_CONTROLLED_DOCTORS</LocID>            <Text><![CDATA[První část panelu ukazuje Vaše převzaté lékaře. Převzít je můžete <b><i>kliknutím na znaménko + </i></b> a poté vybrat lékaře z aktivního oddělení. <b><i>Vykoušejte si to.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_CONTROLLED_DOCTOR_PATIENTS</LocID>    <Text>Když převezmete lékaře, budete odpovídat za všechny lékařovi pacienty, kteří jsou uvedeni v seznamu níže. \n\nVyléčeného pacienta nezapomeňte poslat domů talčítkem v jeho kartě.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_CONTROLLED_PATIENTS</LocID>           <Text>Následující část zobrazuje všechny pacienty, které jste převzali sami, buď na kartě pacienta, nebo pomocí tlačítka „převzít všechny pacienty“ v management módu.\n\nBarva pozadí portrétu ukazuje aktuální stav pacienta. Podržením kurzoru nad otazníkem můžete zjistit, co tyto barvy znamenají.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_HIGHLIGHTS</LocID>                    <Text>Poslední část umožňuje zvýraznit konkrétní informace o Vašich pacientech a personálu, takže můžete okamžitě zjistit, zda jsou šťastní nebo nespokojení, na co pacienti čekají, nebo zda by mohli být v ohrožení života.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_01_TASK</LocID>                                <Text>Tímto jsme prošli všechny důležité funkce doktorského módu. Pojďme to hned zkusit dokončením podmnínky pro pojišťovnu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_01_FINISHED</LocID>                            <Text>Vypadá to, že se Vám to jde. Štastné léčení v další nemocnici!</Text>  </GameDBLocalizedString>
+            
+            <!-- DLC campaign level texts -->
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_WELCOME_INFO</LocID>                        <Text>Dobrý den, šéfe, chápeme, že chcete odejít do důchodu, ale budeme Vaše schopnosti ještě jednou potřebovat. Zde vidíte jednu z našich nejlepších fakultních nemocnic, která měla školit specialisty. Bohužel nikdy nebyla otevřena.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_WELCOME_MORE_INFO</LocID>                   <Text>Budova byla postavena, ale nenašli jsme nikoho, kdo by byl dostatečně kvalifikovaný na to, aby ji řídil. Taky chybí některé pokoje a drahé vybavení. Dokážete tuto nemocnici uvést do provozu? Najměte nový personál, otevřete všechna oddělení a vyškolte specialistu, který ji po Vás převezme, jakmile budete pryč.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_CREATE_DOCTOR</LocID>                       <Text>To by byly všechny důležité informace pro začátek. Co takhle začít vytvořením svého potenciálního nástupce.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_TAKE_OVER_DOCTOR</LocID>                    <Text>Výborně, z tohohle kandidáta mám dobrý pocit. Nyní, když je klinika funkční, převezměte lékaře pod svůj dohled, aby se seznámil(a) se vším co patří k diagnostice.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_NEW_INSURANCE</LocID>                       <Text>Vše vypadá dobře. Takhle bude z Vašeho lékaře specialista mrknutím oka! Mezitím nám naše sesterská pojišťovna nabízí více příležitostí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_LAST_INSURANCE</LocID>                      <Text>Další spřátelená pojišťovna nám nabízí několik úkolů, které je potřeba vyřešit, zaměřme se na mě také. Naším hlavním cílem je dokončit je všechny a zajistit, aby nemocnice byla připravena pracovat samostatně.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_FINISHED</LocID>                            <Text>Skvělá práce! Vybudoval jste vynikající nemocnici a vycvičil jste si náhradníka. Nyní můžete odejít do důchodu s vědomím, že Váš odkaz bude žít dál a pomáhat lidem v celé zemi.</Text>  </GameDBLocalizedString>
+            
+            <!-- DLC  Achievements-->
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_TUTORIAL_01</LocID>                         <Text>Sbohem, tréninková kolečka!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_TUTORIAL_01_DESCRIPTION</LocID>             <Text>Dokonči tutoriál pro Doktorský mód DLC</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_LEVEL_1</LocID>                             <Text>Sháním doktora Mouse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_LEVEL_1_DESCRIPTION</LocID>                 <Text>Dokonči level pro Doktorský mód DLC</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_ONE_CHAR</LocID>                     <Text>Volím si tebe...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_ONE_CHAR_DESCRIPTION</LocID>         <Text>Vytvoř si vlastní postavu.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_MORE_CHAR</LocID>                    <Text>...a tebe a tebe a tebe taky.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_MORE_CHAR_DESCRIPTION</LocID>        <Text>Vytvoř si 10 vlastních postav.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE</LocID>                     <Text>Teď ty schopnosti pořádně otestujeme</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_DESCRIPTION</LocID>         <Text>Zapni mód pro specialisty</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENT</LocID>             <Text>Nic jsi neviděl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENT_DESCRIPTION</LocID> <Text>Ošetři svého prvního pacienta se zapnutým módem pro specialisty</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENTS</LocID>            <Text>Pasuji tě na Specialistu!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENTS_DESCRIPTION</LocID><Text>Ošetři 20 pacientů se zapnutým módem pro specialisty</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CAMERA_ROTATION</LocID>                     <Text>Nikdy me nepřestaň točiiiiit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CAMERA_ROTATION_DESCRIPTION</LocID>         <Text>Otoč 100krát kamerou</Text>  </GameDBLocalizedString>
+
+            <!-- Character editor -->
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_NAME</LocID>                                    <Text>Editor postav</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_INFO</LocID>                                    <Text>Vyberte, upravte, vytvořte...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_SELECT_GENDER_AGE</LocID>                       <Text>Vyberte pohlaví, upravte věk:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_GENDER</LocID>                                  <Text>Pohlaví</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_AGE</LocID>                                     <Text>Věk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_RANDOM</LocID>                                  <Text>Náhoda</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_APPEARANCE</LocID>                              <Text>Nastavit vzhled:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_SKIN</LocID>                                    <Text>Kůže</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_HAIR</LocID>                                    <Text>Vlasy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_EYES</LocID>                                    <Text>Oči</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_LIPS</LocID>                                    <Text>Ústa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_BEARD</LocID>                                   <Text>Vousy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_NOSE</LocID>                                    <Text>Nos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_WRINKLES</LocID>                                <Text>Vrásky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_ACCESSORIES</LocID>                             <Text>Doplňky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_PERSONAL_INFO</LocID>                           <Text>Osobní informace:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_OCCUPATION</LocID>                              <Text>Povolání:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_LEVEL</LocID>                                   <Text>Úroveň:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_SKIN_TONES</LocID>                              <Text>Odstíny pleti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_HAIR_TONES</LocID>                              <Text>Barvy vlasů a vousů</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_PERKS</LocID>                                   <Text>Vyberte vlastnosti:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_PERKS_NUMBER</LocID>                            <Text>Vyberte {1}:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_RANDOM</LocID>                                  <Text>Náhoda</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_RESET</LocID>                                   <Text>Resetovat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_CREATE</LocID>                                  <Text>Vytvořit za ${1}</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance objectives -->
+            <GameDBLocalizedString>      <LocID>CREATED_DOCTORS</LocID>                                     <Text>Vytvořte {1} lékaře(ů) pomocí editoru postav (v najímací kartě)</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is a number, parameter {2} is a name of a department -->
+            <GameDBLocalizedString>      <LocID>CREATED_DOCTORS_AT_DEPARTMENT</LocID>                       <Text>Vytvořte {1} lékaře(ů) pomocí editoru postav (v najímací kartě) na oddělení {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_WITH_INTERN_MODE_AT_DEPARTMENT</LocID>     <Text>Vyléči {1} pacienty/ů převzatých lékařů na oddělení {2} v módu pro stážisty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_WITH_RESIDENT_MODE_AT_DEPARTMENT</LocID>   <Text>Vyléči {1} pacienty/ů převzatých lékařů na oddělení {2} v módu pro residenty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_WITH_SPECIALIST_MODE_AT_DEPARTMENT</LocID> <Text>Vyléči {1} pacienty/ů převzatých lékařů na oddělení {2} v módu pro specialisty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_CONTROLLED_PATIENTS_AT_DEPARTMENT</LocID>           <Text>Vyléči {1} pacienty/ů převzatých lékařů na oddělení {2}</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is name of the level (like Resident or Attending), parameter {2} is name of the profession, currently only Doctor -->
+            <GameDBLocalizedString>      <LocID>REACHED_CERTAIN_LEVEL_WITH_CREATED_CHARACTER</LocID>        <Text>Dosáhněte úrovně {1} s jedním z vašich vytvořených zaměstanaců typu {2}</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is a number, parameter {2} is a name of a department -->
+            <GameDBLocalizedString>      <LocID>NO_DEAD_CONTROLLED_PATIENTS_DAYS</LocID>                    <Text>Nenechte zemřít žádné pacienty převzatých lékařů {1} den/dní na oddělení {2}</Text>  </GameDBLocalizedString>
+                        
+            <GameDBLocalizedString>      <LocID>REACHED_DOCTORS_RATING</LocID>                              <Text>Dosáhněte s převzatým lékařem hodnocení {1}</Text>  </GameDBLocalizedString>
+            
+            <!-- Parameter {1} is difficulty level, see BEGINNER_MODE, EASY_MODE above in this file  -->
+            <GameDBLocalizedString>      <LocID>CORRECTLY_DIAGNOSED_CONTROLLED_DOCTORS_PATIENTS</LocID>     <Text>Správně diagnostikujte pacienty převzatých lékařů v módu: {1}</Text>  </GameDBLocalizedString><!--TODO bude tam v mód pro ... resit?-->
+            <GameDBLocalizedString>      <LocID>TREATED_CONTROLLED_DOCTORS_PATIENTS</LocID>                 <Text>Vyléči {1} pacienty/ů převzatých lékařů v módu: {1}</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is a number -->
+            <GameDBLocalizedString>      <LocID>EXPERIENCE_POINTS_FOR_CREATED_CHARACTERS</LocID>            <Text>{1} zkušenostních bodů pro všechny postavy vytvořené hráčem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXPERIENCE_POINTS_FOR_CONTROLLED_DOCTORS</LocID>            <Text>{1} zkušenostních bodů pro všechny postavy převzaté hráčem</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Names.xml -->
+            <GameDBLocalizedString>    <LocID>IN_COM_CAMPAIGN_CAMPAIGN_1B</LocID>                           <Text>LifeGoesOn Cure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>IN_COM_DC_MD_NAME</LocID>                           			<Text>Jejda s.r.o.</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <!-- DLC OBJECTS - some objects share descriptions with other objects in the base game so only their names need to be translated -->
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_PRINTER</LocID>                                  <Text>Tiskárna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_GROUND_PLANT_DRACENA</LocID>                     <Text>Rostlina - Dracaena</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_SQUARE</LocID>                             <Text>Čtvercový skleněný stůl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHAIR_OFFICE</LocID>                             <Text>Kancelářská židle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_BOOKSHELF</LocID>                                <Text>Regál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CERTIFICATE</LocID>                              <Text>Diplom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_SKULL</LocID>                                    <Text>Lebka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_FIRST_AID</LocID>                                <Text>Lékárnička</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MUG</LocID>                                <Text>Hrnek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MESS</LocID>                               <Text>Dokumenty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_WALL_LAMP</LocID>                                <Text>Nástěnná lampa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_LAPTOP</LocID>                                   <Text>Notebook</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD</LocID>                               <Text>Tabule</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD_DESCRIPTION</LocID>                   <Text>Tabule se používá během diferenciální diagnostiky, při které pomáhá lékařům zpracovávat informace efektivněji.</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE</LocID>                          <Text>Automat na kávu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE_DESCRIPTION</LocID>              <Text>Automat na kávu poskytuje pacientům a zaměstnancům kávu a horké nápoje. Nápoje prodávané pacientům jsou zdrojem příjmů.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_OFFICE_DESK</LocID>                    <Text>Skleněný kancelářský stůl</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+
