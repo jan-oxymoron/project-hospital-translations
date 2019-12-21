@@ -1,0 +1,127 @@
+<Database>
+    <GameDBStringTable ID="LOC_HR_SKILLS">
+        
+        <LanguageCode>hr</LanguageCode>
+        <LanguageNameLocalized>Hrvtski</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>nekiboris</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- Departments -->
+            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Bez odjela</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Hitna pomoć</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Intenzivna skrb</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Opća kirurgija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Ortopedija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Kardiologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_NEUROLOGY</LocID>                                               <Text>Neurologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_RADIOLOGY</LocID>                                               <Text>Radiologija</Text>  </GameDBLocalizedString>
+
+
+            <!-- Character levels-->
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_1</LocID>                                              <Text>Pripravnik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_2</LocID>                                              <Text>Mlađa služba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_3</LocID>                                              <Text>Starija služba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_4</LocID>                                              <Text>Specijalizant</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>Specijalist</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Medicinska sestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Prvostupnik/ca sestrinstva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Magistar/ra sestrinstva</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Mlađi laborant</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Laborant</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>Stariji laborant</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_1</LocID>                                             <Text>Mlađi spremač/ica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_2</LocID>                                             <Text>Spremač/ica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_3</LocID>                                             <Text>Stariji spremač/ica</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- Doctor's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE</LocID>                           <Text>Opća medicina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE_DESCRIPTION</LocID>               <Text>Kvalifikacija iz područja opće medicine omogućava liječniku izvođenje svih osnovnih pretraga i tretmana te utječe na brzinu njihova izvođenja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS</LocID>                                  <Text>Dijagnostika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>                      <Text>Kvalifikacija iz poručja dijagnostke utječe na učestalost krive dijagnostike ili potrebe konzultacija s drugim liječnicima.</Text>  </GameDBLocalizedString>
+
+            <!-- Doctor's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Akutna medicina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Akutna medicina omogućava pristup posebnim procedurama za dijagnostiku i liječenje kritičnih pacijenata u Hitnoj pomoći.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Napredna dijagnostika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Specijalizacija iz napredne dijagnostike pruža liječniku pristup diferencijalnoj dijagnostici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Intenzivna medicina</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Intenzivna medicina pruža liječniku pristup specijaliziranim dijagnostičkim postupcima korištenim u JIL-u.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>Opća kirurgija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>Specijalizacija iz opće kirurgije potrebna je za dijagnostiku i liječenje na odjelu Opće kirurgije i omogućava asistiranje pri operacijama.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>Kirurg - operater</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>Omogućava funkciju glavnog operatera na odjelu Opće kirurgije te utječe na učestalost komplikacija.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>Interna medicina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>Specijalizacija iz interne medicine omogućava specijalističke preglede i liječenje na odjelu Interne medicine te omogućava asistiranje pri operacijama.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>Interna medicina - OP blok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>Omogućava funkciju glavnog operatera na odjelu Interne medicine te utječe na učestalost komplikacija.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>Ortopedija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>Specijalizacija iz ortopedije omogućava specijalističke preglede i liječenje na odjelu Ortopedije te omogućava asistiranje pri operacijama.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>Ortopedija - OP blok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>Omogućava funkciju glavnog operatera na odjelu Ortopedije te utječe na učestalost komplikacija.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>Kardiologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>                       <Text>Specijalizacija iz kardiologije omogućava specijalističke preglede i liječenje na odjelu Kardiologije te omogućava asistiranje pri operacijama.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>                               <Text>Kardiokirurgija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>Omogućava funkciju glavnog operatera na odjelu Kardiokirurgije te utječe na učestalost komplikacija.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>Neurologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>Specijalizacija iz neurologije omogućava specijalističke preglede i liječenje na odjelu Neurologije te omogućava asistiranje pri operacijama.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>Neurokirurgija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>Omogućava funkciju glavnog operatera na odjelu Neurokirurgije te utječe na učestalost komplikacija.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Anesteziologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Specijalizacija iz anesteziologije nužna je za funkciju anesteziologa prilikom operativnih zahvata i daje dodatnu mogućnost preživljavanja kolabiranim pacijentima. \nSmanjuje mogućnost smrtnog ishoda kod kolapsa. \nSmanjuje postoperativne komplikacije.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Nurse's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>Zdravstvena njega</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>                 <Text>Medicinska sestra/tehničar u mogućnosti su pružiti različite oblike skrbi za pacijenta.</Text>  </GameDBLocalizedString>
+
+            <!-- Nurse's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>Administrativni djelatnik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>Djelatnik koji uspostavlja prvi kontakt s pacijentom.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Medicinska sestra/tehničar - instrumentar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>Medicinska sestra/tehničar - instrumentar važan je dio operativnog tima.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Specijalist kliničkog sestrinstva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>Specijalist kliničkog sestrinstva u mogućnosti je otkriti pacijentove simptome.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Lab guys QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>Biokemija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>Pruža mogućnost različitih hitnih laboratorijskih pretraga.</Text>  </GameDBLocalizedString>
+
+            <!-- Lab guys SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>                      <Text>Napredna biokemija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>Povećava učinkovitost laboratorijskih pretraga.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Radiologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>Radiološki tehnolog osposobljen je rukovati radiološkim uređajima te izvoditi dijagnostičke postupke.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>Kirurgija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>Kirurški tehničar osposobljen je rukovati dijagnostičkim uređajima iz područja Opće kirurgije.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>UZV</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>UZV tehničar osposobljen je rukovati uređajem za ultrazvučnu dijagnostiku.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>Kardiologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>Kardiološki tehničar osposobljen je rukovati dijagnostičkim uređajima iz područja Kardiologije.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>                         <Text>Neurologija</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY_DESCRIPTION</LocID>             <Text>Neurološki tehničar osposobljen je rukovati dijagnostičkim uređajima iz područja Neurologije.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Janitor QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>Učinkovitost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>Utječe na učinkovitost planiranja čišćenja prostora.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Spretnost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>Utječe na brzinu čišćenja.</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
