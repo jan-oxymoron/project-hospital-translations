@@ -72,7 +72,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</LocID> <Text><![CDATA[Employee leveled up, is now <i>{1}</i> and has selected second specialization! If you'd like to change it, the earlier the better!]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE</LocID>                   <Text>Employee has no workspace.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WORKSPACE_TEXT</LocID>              <Text>Employee has no workspace, will be idle.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><!--11/21/18--><GameDBLocalizedString><LocID>NOTIF_NO_WORKSPACE_TEXT</LocID><Text>Employee has no workspace, will be idle. Find or assign workspace quickly or employee will go home (without common room on employee's department will go immediately).</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL</LocID>                  <Text>Employee doesn't have required specialization.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL_TEXT</LocID>             <Text><![CDATA[Specialization <i>{1}</i> is required for employees in this room.]]></Text>  </GameDBLocalizedString>
@@ -163,7 +163,9 @@
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR_TEXT</LocID><Text>Is there enough free doctors for defibrillaton?</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>      <Text>Patient needs to be hospitalized before surgery!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>Surgical procedures require prior hospitalization.</Text>  </GameDBLocalizedString>
+            
+            <!-- UPDATED TODO LOC -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</LocID> <Text>Surgeries and certain more complicated procedures require prior hospitalization.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START</LocID>                    <Text>Breaking news:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_START_TEXT</LocID>               <Text>{1}</Text>  </GameDBLocalizedString>
@@ -201,11 +203,11 @@
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER</LocID>   <Text>Patient is being transferred to a new room.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_TEXT</LocID> <Text><![CDATA[Patient's room was broken or unavailable so we are transferring patient to new: <i>{1}</i> room]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT</LocID>   <Text>Patient is waiting for transfer to new room.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT</LocID>   <Text>Patient is waiting for transfer to a new room.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Patient's room is broken or unavailable so we need to transfer patient to new: <i>{1}</i> room, but there is no free bed available.]]></Text>  </GameDBLocalizedString>
            
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY</LocID>   <Text>Patient is being transported to another hospital.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>Patient's room was broken or unavailable for too long and is being transported to another hospital.</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><!-- 01/30/19 --><GameDBLocalizedString><LocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</LocID> <Text>Patient's room was broken or unavailable for too long and the patient is being transported to another hospital.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED</LocID>           <Text>Achievement unlocked!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</LocID>      <Text>Achievement unlocked:\n{1}</Text>  </GameDBLocalizedString>
@@ -221,7 +223,7 @@
             <GameDBLocalizedString>      <LocID>POPUP_CONTINUE</LocID>                       <Text>Continue</Text>  </GameDBLocalizedString>     
             <GameDBLocalizedString>      <LocID>POPUP_GOTO</LocID>                           <Text>Go to</Text>  </GameDBLocalizedString>     
             <GameDBLocalizedString>      <LocID>POPUP_SEND_HOME</LocID>                      <Text>Send home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Open insurance management</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_INSURANCE</LocID>                 <Text>Insurance management</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
             <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>Unnecessary surgery!</Text>  </GameDBLocalizedString>
@@ -232,9 +234,12 @@
 
             <GameDBLocalizedString>      <LocID>EVENT_SUCCESSFUL_TEXT</LocID>                <Text>You were able to complete the event in time. You gained prestige boost for this day and a money reward. Congratulations! \n\nSuccessful events in row: {1}\nMoney reward: ${2}</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>            <Text>Department can't diagnose a patient!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>       <Text>Patient's department doesn't seem to be able to run any more tests, consider selecting a different department according to the list of possible diagnoses or making more tests available.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT</LocID>             <Text>Department can't diagnose a patient!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</LocID>        <Text>Patient's department doesn't seem to be able to run any more tests, consider selecting a different department according to the list of possible diagnoses or making more tests available.</Text>  </GameDBLocalizedString>
             
+           <!--UPDATED--> <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOT_AVLBL</LocID>            <Text>Insurance company is not available!</Text>  </GameDBLocalizedString>
+           <!--UPDATED--> <GameDBLocalizedString>      <LocID>NOTIF_INSUR_COMPANY_NOT_AVLBL_TEXT</LocID>       <Text><![CDATA[Insurance company <i>{1}</i> is not available!]]></Text>  </GameDBLocalizedString>
+
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
