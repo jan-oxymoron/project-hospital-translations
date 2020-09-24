@@ -1,0 +1,380 @@
+<Database>
+    <GameDBStringTable ID="LOC_SWE_DLC_ADMIN_PATHOLOGY">
+    
+        <LanguageCode>swe</LanguageCode>
+        <LanguageNameLocalized>Svenska</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>Christoffer Rydström</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>             <Text>Hospital services DLC</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACY_VISITED</LocID>            <Text>besökt apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACY_LONG_WAIT</LocID>          <Text>lång kö på apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GOT_GIFT</LocID>                    <Text>fick en present</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_DID_NOT_GET_GIFT</LocID>            <Text>fick ingen present</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_VISIT_DID_NOT_ARRIVE</LocID>        <Text>besök kom inte (besöksrum fullt)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_HAD_VISITOR</LocID>                 <Text>fick besök</Text>  </GameDBLocalizedString>
+
+            <!-- Visitor states -->
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Spawned</LocID>           <Text>Spawned</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_GoingToGiftShop</LocID>   <Text>Går till presentbutik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_WaitingInGiftShop</LocID> <Text>Väntar i presentbutik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_BuyingGift</LocID>        <Text>Köper present</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_GoingToLounge</LocID>     <Text>Går till besöksrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_WaitingInLounge</LocID>   <Text>Väntar i besöksrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Visiting</LocID>          <Text>Besöker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Leaving</LocID>           <Text>Lämnar efter besök</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Idle</LocID>              <Text>Lämnat</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_SCHEDULE_VISITING_HOURS</LocID>     <Text>Besökstid</Text>  </GameDBLocalizedString>
+
+            <!-- Patient states -->
+            <GameDBLocalizedString>      <LocID>GoingToPharmacy</LocID>                 <Text>Går till apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToPharmacyChair</LocID>            <Text>Går till stol i apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingSittingInPharmacy</LocID>        <Text>Väntar i apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingStandingInPharmacy</LocID>       <Text>Väntar i apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BuyingMedicine</LocID>                  <Text>Köper läkemedel</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DEAD</LocID>                                        <Text>Död</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByVisit</LocID>               <Text>Får besök</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToMorgue</LocID>       <Text>transporteras till bårhus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForMorgueBed</LocID>            <Text>väntar på plats i bårhus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForAutopsy</LocID>              <Text>väntar på obduktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToAutopsy</LocID>      <Text>transporteras till obduktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_HavingAutopsy</LocID>                  <Text>undergår obduktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeDisposed</LocID>            <Text>kropp kan skickas till begravningsbyrå</Text>  </GameDBLocalizedString> <!-- Kan förkortas till "väntar på..." -->
+
+            <!-- New doctor states -->
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Training</LocID>                       <Text>Studerar</Text>  </GameDBLocalizedString> <!-- Undergoes training -->
+                                                                                                    
+            <!-- New nurse states -->                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_Training</LocID>                        <Text>Studerar</Text>  </GameDBLocalizedString> <!-- Undergoes training -->
+
+            <!-- New technologist states -->
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Training</LocID>                 <Text>Studerar</Text>  </GameDBLocalizedString> <!-- Undergoes training -->
+
+            <!-- New janitor states -->                                                             
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AdminIdle</LocID>                     <Text>Leder städare</Text>  </GameDBLocalizedString> <!-- Bättre översättning? -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GiftShopIdle</LocID>                  <Text>Jobbar i presentbutik</Text>  </GameDBLocalizedString> <!-- Bättre översättning? -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_OverridenByProcedureScript</LocID>    <Text>Utför:</Text>  </GameDBLocalizedString> <!-- Performing: -->
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Training</LocID>                      <Text>Studerar</Text>  </GameDBLocalizedString>        <!-- Undergoes training -->     
+
+            <!-- Unlearning negative perks texts -->
+            <GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER_LOST_DESCRIPTION</LocID>  <Text>Polletten trillade ner och anställd lär sig numera snabbare!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM_LOST_DESCRIPTION</LocID>    <Text>Anställd har lärt sig att alkohol inte är lösning!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET_LOST_DESCRIPTION</LocID>    <Text>Anställd har lärt sig hur man torkar av skorna!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE_LOST_DESCRIPTION</LocID>    <Text>Anställd är inte längre rädd för baciller!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SLOW_LOST_DESCRIPTION</LocID>          <Text>Anställd är nu mer entusiastisk och rör sig inte längre så långsamt!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HEDONIST_LOST_DESCRIPTION</LocID>      <Text>Anställd har lärt sig kontroller sitt matintag!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_LOST_DESCRIPTION</LocID>     <Text>Anställd har hittat ny mening i livet och är inte längre deprimerad!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_LOST_DESCRIPTION</LocID>    <Text>Anställds attityd har förbättras och är inte längre så otrevlig mot patienter!</Text></GameDBLocalizedString>
+
+            <!-- New role description for doctor on Pathology-->
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_PATHOLOGY</LocID>         <Text>Patologi</Text>  </GameDBLocalizedString>
+                                                                                            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                   
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_PHARMACY</LocID>         <Text>Lång kö hos apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_PHARMACY_TEXT</LocID>    <Text>Skynda, en patient har väntat för länge på att köpa läkemedel. Kontrollera ditt apotek, patienten lämnar snart.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_LEAVING_PHARMACY</LocID>              <Text>Lämnar apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LEAVING_PHARMACY_TEXT</LocID>         <Text>Patienten väntade för länge hos apoteket och köper istället sin receptbelagda medicin någonstans.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL</LocID>                   <Text>Besöksrum fullt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL_TEXT</LocID>              <Text>Besöksrummet hos {1} är fullt och patienter kan inte ta emot besökare. Försök med att lägga till fler besöksstolar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP</LocID>        <Text>Lång kö för present</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP_TEXT</LocID>   <Text>En besökare väntade för länge i presentbutiken. Försök med att anställa fler kassörer.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT</LocID>                  <Text>Dagens rubriker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_TEXT</LocID>             <Text>{1}</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED</LocID>            <Text>Dagens rubriker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED_TEXT</LocID>       <Text>Antalet patienter och summan av utbetalningar har återgått till det normala.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE</LocID>    <Text>Lång kö till obduktionsbord!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE_TEXT</LocID><Text>Det finns inga fler obduktionsbord för nyligen avlidna patienter.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY</LocID>          <Text>Patient hos patologi!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY_TEXT</LocID>     <Text>En död patient har transporterats till patologi. Du kan skicka kroppen vidare till begravningsbyrån eller utföra en obduktion för att se vad som gick fel, synliggöra resterande symtom, samt få erfarenhetspoäng och pengar.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED</LocID>              <Text>Obduktion färdig!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED_TEXT</LocID>         <Text>Obduktionen är nu klar. Du kan skicka kroppen till begravningsbyrån genom knappen i patientens fönster.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED</LocID>             <Text>Studier färdigt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED_TEXT</LocID>        <Text>Anställd har slutfört sina studier inom {1}, och ökat nivån med {2}%. {3}</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FULL</LocID>                 <Text>Studierum fullt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FULL_TEXT</LocID>            <Text>Anställd kan inte studera {1} då det saknas lediga platser i studierummet. Schemalagd studier har avbrutits.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_PHARMACY_FULL</LocID>             <Text>Apotek för litet!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_PHARMACY_FULL_TEXT</LocID>        <Text>För många patienter befinner sig i eller är på väg till apoteket. Några kommer bli tvungna att handla någon annanstans. Försök expandera det.</Text>  </GameDBLocalizedString>
+           
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <!-- LOGISTICS/MANAGEMENT, EMPLOYEES TABLE -->
+
+            <!-- Note for translators: there's limited space in the UI for the names of the professions, so feel free to split them using a new line
+                 (\n) like in the English version of the second text for each profession       -->
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST</LocID>              <Text>Farmaceut</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST_UI</LocID>           <Text>Farmaceut</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR</LocID>            <Text>Expedit, presentbutik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_UI</LocID>         <Text>Expedit, presentbutik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_DESCRIPTION</LocID><Text>Arbetar i presentbutiken med att sälja presenter till besökare.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER</LocID>             <Text>Förman</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_UI</LocID>          <Text>Förman</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_DESCRIPTION</LocID><Text>Förmannen höjer effektiviteten hos städarna och kan hänvisa dem till enskilda rum.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST</LocID>                 <Text>Patolog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST_UI</LocID>              <Text>Patolog</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ASSIGNED_ROOMS</LocID>  <Text>Tilldelade rum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_RESET_ASSIGNED_ROOMS</LocID>    <Text>Återställa tilldelade rum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_ASSIGNED_JANITORS</LocID>       <Text>ANSVARIGA STÄDARE: </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_VISITED_PATIENT</LocID> <Text>Besökte patient</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING</LocID>    <Text>Skicka en anställd till studierummet och studera denna förmåga. Anställd kommer inte vara tillgänglig i {1} timmar när de studerar {2}. \nKostnad: ${3}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING_NOT_EXIST</LocID>  <Text>Studierum saknas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING_NO_SPACE</LocID>   <Text>Alla platser i studierummet är upptagna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_TRAINING_SCHEDULED</LocID>  <Text>Studier schemalagt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_STAFF_IN_TRAINING</LocID>   <Text>Anställd studerar {1}. {2} tim. återstår.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_TABLE_DOCTORS_TRAINING</LocID>      <Text>Studerar</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_HEADING</LocID>          <Text>Obduktion, historik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_STATUS</LocID>           <Text>Obduktion, status</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_HISTORY</LocID>          <Text>Historia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_REMOVE</LocID>           <Text>Ta bort från historia</Text>  </GameDBLocalizedString>
+
+            <!--Character card performing text-->
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_CONTROL_PROCEDURE_PHARMACY</LocID>      <Text>Säljer läkemedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_CONTROL_PROCEDURE_GIFT_SHOP</LocID>     <Text>Säljer presenter</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGY_CONTROL_PROCEDURE_PATHOLOGY</LocID> <Text>Utför obduktion</Text>  </GameDBLocalizedString>
+            
+            <!-- Patient card -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_PATHOLOGY</LocID>       <Text>Död patient kan inte flyttas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DISPOSE_OF_BODY</LocID>                   <Text>Skicka kropp till begravningsbyrå</Text>  </GameDBLocalizedString>
+                                                                                                  
+            <!-- Building panel -->                                                               
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ADMINISTRATIVE</LocID>    <Text>Mallar för rum hos Administrativa avdelningen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_PATHOLOGY</LocID>         <Text>Mallar för rum hos Patologi</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_ALLOWED</LocID>                    <Text>Detta rum tillåter inte nattskift</Text>  </GameDBLocalizedString>
+                                                                                                  
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_ROOM_TO_CLEAN</LocID>              <Text>Hänvisa enskilda rum som denna städare ska städa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CANT_SELECT_ROOM_TO_CLEAN</LocID>         <Text>Anställ en förman hos Administrativa avdelningen för att hänvisa städare till enskilda rum</Text>  </GameDBLocalizedString>
+
+            <!-- DLC Tutorial and campaign level menu -->                                                 
+            <!-- DLC Tutorial texts -->
+            <!-- DLC campaign level texts -->
+            
+            <!-- DLC  Achievements-->
+
+            <!-- Insurance objectives -->
+            
+            <!-- RELATED FILE: StringTable[Language]Names.xml -->
+            
+            <!-- RELATED FILE: StringTable[Language]Skills.xml -->
+            <!-- Departments -->
+            <GameDBLocalizedString>     <LocID>DLC_DPT_ADMINISTRATIVE</LocID>                                   <Text>Administrativa avdelningen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>               <Text>Farmaci</Text></GameDBLocalizedString> <!-- Farmakologi? -->
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID>   <Text>Farmaceuter säljer läkemedel till dina patienter och ser till att de får korrekt dosering och instruktioner.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR</LocID>                            <Text>Expedit, presentbutik</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR_DESCRIPTION</LocID>                <Text>Expediten arbetar i presentbutiken med att sälja gåvor till familjemedlemmar och vänner som besöker inlagda patienter.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER</LocID>                           <Text>Förman</Text></GameDBLocalizedString> <!-- Manager -->
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER_DESCRIPTION</LocID>               <Text>Om du anställer en förman hos den Administrativa avdelningen höjer hen effektiviteten hos alla städare på sjukhuset, plus du kan hänvisa städare till enskilda rum. Förmannen fungerar även som städarnas avdelningschef.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_DPT_PATHOLOGY</LocID>                                        <Text>Patologiska avdelningen</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY</LocID>                             <Text>Patologi</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY_DESCRIPTION</LocID>                 <Text>Patologer har en bred förståelse om orsaker och effekter hos sjukdomar och skador samt låter dig utföra obduktioner.</Text></GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PHARMACIST</LocID>                      <Text>Sälja läkemedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_VENDOR</LocID>                          <Text>Sälja presenter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_JANITOR_MANAGER</LocID>                 <Text>Leda (Städ)</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY</LocID>                     <Text>Apotek</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>         <Text>Sjukhusapoteket säljer läkemedel till dina patienter. \nMin. personal: 1x Farmaceut</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN</LocID>                <Text>Servicekontor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN_DESCRIPTION</LocID>    <Text>Låter dig anställa en förman som höjer effektiviteten hos alla städare på sjukhuset plus du kan hänvisa städare till enskilda rum. \nMin. personal: 1x Förman</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE</LocID>                       <Text>Besöksrum</Text></GameDBLocalizedString> <!-- Översatt -->
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE_DESCRIPTION</LocID>           <Text>En plats där besökare kan hälsa på inlagda patienter, prata med dem, sitta, och slappna av.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_GIFT_SHOP</LocID>                    <Text>Presentbutik</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_GIFT_SHOP_DESCRIPTION</LocID>        <Text>Presentbutiken säljer gåvor till familjemedlemmar och vänner som besöker inlagda patienter. \nMin. personal: 1x Expedit, presentbutik</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CAFETERIA</LocID>                    <Text>Kafeteria</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CAFETERIA_DESCRIPTION</LocID>        <Text>Anställdas matsal, någonstans de kan äta ett riktigt mål mat.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CLASSROOM</LocID>                    <Text>Studierum</Text></GameDBLocalizedString> <!-- Study room ... Översatt -->
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CLASSROOM_DESCRIPTION</LocID>        <Text>Anställda kan förbättra sina färdigheter och specialiseringar i studierummet.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR</LocID>                 <Text>Obduktionsrum</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR_DESCRIPTION</LocID>     <Text>Ett rum där patologer kan utföra obduktioner, förstå sjukdomsförloppet och dödsorsak. \nMin. personal: 1x Patolog i jourrum</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD</LocID>               <Text>Kylrum</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD_DESCRIPTION</LocID>   <Text>Ett kylrum där kroppar kan förvaras innan och efter obduktion.</Text></GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS</LocID>                     <Text>Apotekskors</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_2</LocID>                   <Text>Apotekskors</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_DESCRIPTION</LocID>         <Text>Dekorativ skylt för apotek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_1</LocID>                    <Text>Glasskylt - rådgivning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_2</LocID>                    <Text>Glasskylt - recept</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC_WHITE</LocID>                           <Text>PC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL</LocID>                    <Text>Hög hylla, apoteksvaror</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL</LocID>                   <Text>Låg hylla, apoteksvaror</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_GLASS</LocID>              <Text>Hög hylla, apoteksvaror</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL_GLASS</LocID>             <Text>Låg hylla, apoteksvaror</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_DRAWERS</LocID>            <Text>Läkemedelshylla med lådor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_DESCRIPTION</LocID>             <Text>Läkemedelshylla innehållandes apoteksvaror och farmaka som säljs i apoteket.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE</LocID>               <Text>Apoteksdisk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_DRUGS</LocID>     	  <Text>Disk - recept</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_QUESTIONS</LocID>     <Text>Disk - rådgivning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_LEFT</LocID>                 <Text>Disk - vänster</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_RIGHT</LocID>                <Text>Disk - höger</Text>  </GameDBLocalizedString>
+
+            <!-- override of the text from the base game -->
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>  <Text>Nödvändig utrustning för reception och butiker. Placera en dator ovanpå för att skapa en arbetsplats.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PHARMACY</LocID>                           <Text>Apotek</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY_OP</LocID>                       <Text>Autopsy room</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_FREEZER</LocID>                            <Text>Cold room</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_GIFTSHOP</LocID>                     <Text>Presentbutik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAUNGE</LocID>                       <Text>Besöksrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGNBOARD</LocID>                          <Text>Gatupratare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TSHIRT_STAND</LocID>                       <Text>Skepp med T-shirts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GIFTSHOP_DESCRIPTION</LocID>               <Text>Souvenirer till sjukhusets besökare.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NEWS_MAGAZINES</LocID>                     <Text>Tidningar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BALLOONS</LocID>                           <Text>Ballonger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_GLASS</LocID>                 <Text>Soffbord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT</LocID>                              <Text>Färsk frukt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_SHELF</LocID>                      <Text>Hylla med blommor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_VISITORS_SEATS</LocID>                  <Text>Besökares sittplats</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_VISITORS_SEATS_DESCRIPTION</LocID>      <Text>Antalet sittplatser i besöksrummet avgör det högsta antalet besökare som kan besöka en avdelning samtidigt.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_BEAMER_BEAMER</LocID>                      <Text>Projektor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BEAMER_DESCRIPTION</LocID>       <Text>Nödvändigt för alla studierum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BEAMER</LocID>                   <Text>Duk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SANDWICH</LocID>                           <Text>Goda smörgåsar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SANDWICH_DESCRIPTION</LocID>               <Text>Välsmakande mellanmål.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SERVICEOFFICE</LocID>                <Text>Servicekontor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CAFETERIA</LocID>                    <Text>Kafeteria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_STUDYROOM</LocID>                    <Text>Studierum</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ADMIN</LocID>                        <Text>Administrativa avdelningen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY</LocID>                    <Text>Patologiska avdelningen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_WOOD</LocID>                         <Text>Trästol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DINING_TABLE_2</LocID>                     <Text>Matbord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CUTLERY</LocID>                    		  <Text>Bordsapotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CUTLERY_DESCRIPTION</LocID>                <Text>Ett apotek med knivar, gafflar, skedar, salt, peppar, och servetter.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_COUNTER</LocID>                  <Text>Disk, kafeteria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_COUNTER_DESCRIPTION</LocID>      <Text>Platsen för en massa saker relaterat till mat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_MACHINE_BIG</LocID>                 <Text>Kaffemaskin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JUICE</LocID>                    		  <Text>Fruktjuice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JUICE_DESCRIPTION</LocID>                  <Text>Apelsin- och blåbärsjuice.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK</LocID>                        <Text>Frukt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK_DESCRIPTION</LocID>            <Text>Ett gott och nyttigt mellanmål.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK</LocID>                        <Text>Munkar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK_DESCRIPTION</LocID>            <Text>Göm den innan kardiologen ser dig!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD</LocID>                    <Text>Dagens rätt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD_DESCRIPTION</LocID>        <Text>Vad finns på menyn idag?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_COUNTER</LocID>                       <Text>Buffé</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_COUNTER_DESCRIPTION</LocID>           <Text>En riktig måltid för din personal. Används oftast under officiell lunchtid.</Text>  </GameDBLocalizedString>
+
+            <!--Pathology objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS</LocID>                      <Text>Utrustning, obduktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS_DESCRIPTION</LocID>          <Text>Standardiserade anatomiska och patologiska verktyg som används under obduktion.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2</LocID>                      <Text>Instrument-\nbord, glas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2_DESCRIPTION</LocID>          <Text>Ett bord i glas för verktyg och instrument. Passar mer kliniskt inriktade områden, t.ex. patologiska avdelningen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT</LocID>                             <Text>Våg, obduktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT_DESCRIPTION</LocID>                 <Text>Vågen är ett viktigt verktyg inom klinisk patologi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP</LocID>                       <Text>Baktericit ljus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP_DESCRIPTION</LocID>           <Text>Bakteriedödande lampa som dödar alla mikrober i ett rum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER</LocID>                         <Text>Patologiska skärm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER_DESCRIPTION</LocID>             <Text>Den patologiska skärmen visar en helkroppsröntgen av obducerade patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS</LocID>                        <Text>Skåp, rostfritt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS_DESCRIPTION</LocID>            <Text>Ett skåp i rostfritt stål.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE</LocID>                  <Text>Obduktions-\nbord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE_DESCRIPTION</LocID>      <Text>Ett obduktionsbord i piedestalt utförande som är A och O i varje bårhus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER</LocID>              <Text>Kroppskyl</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_DESCRIPTION</LocID>  <Text>En kyl där kroppar förvaras för att förhindra förmultning och förruttnelse.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED</LocID>                            <Text>Kroppsbord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED_DESCRIPTION</LocID>                <Text>Kroppsbordet används till att förvara kroppen innan och efter obduktion.</Text>  </GameDBLocalizedString>
+
+
+            <!-- Global Admin Events-->
+            <GameDBLocalizedString>     <LocID>DAYS_LEFT</LocID>                                  <Text>Dagar kvar: </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_RENOVATION</LocID>                 <Text>En närliggande klinik bygger om vilket ger oss {1}% fler patienter hos {2}!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_RENOVATION_TEXT</LocID>            <Text>En närliggande klinik bygger om vilket ger oss {1}% fler patienter hos {2}!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED</LocID>      <Text>En närliggande klinik bygger om vilket gör att vi får {1}% fler patienter!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED_TEXT</LocID> <Text>En närliggande klinik bygger om vilket gör att vi får {1}% fler patienter!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_HOLIDAY_SEASON</LocID>             <Text>Semestertider, vilket ger oss {1}% färre patienter per dag.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_HOLIDAY_SEASON_TEXT</LocID>        <Text>Det är semestertider och de flesta har lämnat storstan, så vi får {1}% färre patienter per dag.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BAD_PRESS</LocID>                  <Text>En artikel i den lokala skvallerpressen har fått {1}% av våta patienterna att välja ett annat sjukhus.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BAD_PRESS_TEXT</LocID>             <Text>En hemsk artikel i skvallerpressen har fått {1}% av patienterna att rata oss och väljer istället ett annat sjukhus.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_INFLUENCER_VISIT</LocID>           <Text>En känd influencer behandlades nyligen på vårat sjukhus, nu attraheras {1}% fler patienter!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_INFLUENCER_VISIT_TEXT</LocID>      <Text>Publiciteten från en känd influencer som nyligen behandlades på sjukhuset attraherar {1}% fler patienter!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FINANCIAL_CRISIS</LocID>           <Text>Finanskris sänker utbetalningar från försäkringsbolag med {1}%.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FINANCIAL_CRISIS_TEXT</LocID>      <Text>Den rikstäckande finanskrisen orsakade idag en sänkning på {1}% hos utbetalningar från försäkringsbolagen.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM</LocID>       <Text>Ny policy höjer utbetalningar från försäkringsbolag med {1}%.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM_TEXT</LocID>  <Text>I samband med det kommande valet har en ny policy inom folkhälsan höjt utbetalningarna från försäkringsbolag med {1}%.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FLU_SEASON</LocID>                 <Text>Influensasäsong, {1}% fler patienter kommer till öppenvården.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FLU_SEASON_TEXT</LocID>            <Text>Dåligt väder och låga temperaturer gör att {1}% fler patienter besöker öppenvården.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BANK_HOLIDAYS</LocID>              <Text>{1}% fler skadade per dag.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BANK_HOLIDAYS_TEXT</LocID>         <Text>Den kommande storhelgen förväntas öka antalet skadade som anländer till ditt sjukhus!</Text></GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>     <LocID>OPTIONS_ENABLE_WORLD_EVENTS</LocID>                <Text>Tillåt världshändelser (Admin DLC)</Text></GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
+            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY</LocID>                               <Text>Obduktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY_DESCRIPTION</LocID>                   <Text>En undersökning av kroppen efter döden för att synliggöra dolda symtomer och dödorsak.</Text>  </GameDBLocalizedString>
+
+            <!--PATHOLOGY and ADMIN ROOM PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_AUTOPSY_ROOM_ABBR</LocID>                         <Text>Obduktionsrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_COLD_ROOM_ABBR</LocID>                            <Text>Kylrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_SMALL_ABBR</LocID>                                 <Text>Apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_LARGE_ABBR</LocID>                                 <Text>Apotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GIFTSHOP_ABBR</LocID>                                       <Text>Presentbutik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SERVICE_OFFICE_ABBR</LocID>                                 <Text>Servicekontor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CAFETERIA_SMALL_ABBR</LocID>                                <Text>Kafeteria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CAFETERIA_LARGE_ABBR</LocID>                                <Text>Matsal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STUDY_ROOM_ABBR</LocID>                                     <Text>Studierum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_LOUNGE_ABBR</LocID>                                         <Text>Besöksrum</Text>  </GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>            <Text>STORT SJUKHUS</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

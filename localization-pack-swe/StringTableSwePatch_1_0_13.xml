@@ -1,0 +1,95 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_PATCH_1_0_13">
+    
+        <LanguageCode>swe</LanguageCode>
+        <LanguageNameLocalized>Svenska</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>Christoffer Rydström</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            
+            <GameDBLocalizedString>      <LocID>ReservingAmbulance</LocID>                      <Text>Väntar på ambulans</Text>  </GameDBLocalizedString>
+
+            <!-- Note: used in second half of a sentence, lower-case is intentional -->
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_EXM</LocID>                    <Text>väntar på ledigt undersökningsrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_TRT</LocID>                    <Text>väntar på ledigt behandlingsrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_ROOM_SURG</LocID>                   <Text>väntar på ledig operationssal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_EXM</LocID>                   <Text>väntar på läkare/tekniker för undersökning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_TRT</LocID>                   <Text>väntar på läkare/tekniker för behandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_STAFF_SURG</LocID>                  <Text>väntar på operationslag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_EXM</LocID>               <Text>väntar på transport till undersökning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_TRT</LocID>               <Text>väntar på transport till behandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_TRANSPORT_SURG</LocID>              <Text>väntar på transport till operation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WAITING_FOR_CRITICAL_PATIENTS</LocID>           <Text>släpper förbi kritiska patienter</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SKIPPED_AFTER_LONG_WAIT</LocID>                 <Text>Skippade efter ha väntat för länge</Text>  </GameDBLocalizedString> <!-- Skipped after waiting for too long -->
+            <GameDBLocalizedString>      <LocID>SCHEDULED_PROCEDURE_WAITING</LocID>             <Text>Schemalagd</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBedFix</LocID>           <Text>i en säng som saknar nödvändig utrustning</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+
+            <!-- Roles - for other usage in the UI see SEGMENT_HEADING_ROLES in StringTable[Language]UI.xml -->
+            <!-- Roles - for the list of employee roles see EMPL_ROLE_EXM_TRT in StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES</LocID>                          <Text>Anställd saknar roller!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ROLES_TEXT</LocID>                     <Text>Anställd har inga tillåtna roller, är sysslolös.</Text>  </GameDBLocalizedString>
+
+            <!-- Workload - see UI_ROOM_USAGE_DAY in StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY</LocID>              <Text>Dagens arbetsbelastning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_DAY_TEXT</LocID>         <Text>Dagskift, översikt:\nSysslolösa rum: {1}\nRum med kritisk belastning: {2}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT</LocID>            <Text>Nattens arbetsbelastning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_USAGE_STATS_NIGHT_TEXT</LocID>       <Text>Nattskift, översikt:\nSysslolösa rum: {1}\nRum med kritisk belastning: {2}</Text>  </GameDBLocalizedString>
+
+            <!-- Broken beds/rooms -->
+            <!-- The room names filled in are from StringTable[Language]BuildingMode.xml, for example: -->
+            <!-- ROOM_TYPE_ER_OBSERVATION_ROOM, ROOM_TYPE_INTENSIVE_CARE_UNIT, ROOM_TYPE_INPATIENT_WARD, ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD -->
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED</LocID>   <Text>Patientens säng är obrukbar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TEXT</LocID><Text>Fixa sängen, annars förflyttas patienten till en annan säng eller skickas iväg.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER</LocID>   <Text>Patienten förflyttas till en ny säng.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER_TEXT</LocID> <Text>Patientens säng var obrukbar, så vi förflyttar dem till en ny säng.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Patienten väntar på förflyttning till ny säng.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text><![CDATA[Patientens säng är obrukbar så vi måste förflytta dem till en ny, men det finns inga lediga sängar tillgängliga i: <i>{1}</i> rum.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT</LocID>   <Text>Patienten väntar på att förflyttas till en ny säng.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT_TEXT</LocID> <Text>Patienten säng är obrukbar, så vi måste förflytta dem till en ny säng, men det finns ingen ledig sköterska som kan transportera patienten just nu.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT</LocID>   <Text>Patienten väntar på förflyttning till ett nytt rum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT_TEXT</LocID> <Text><![CDATA[Patientens rum är obrukbart eller ottilgängligt så vi måste förflytta dem till ett nytt: <i>{1}</i> rum, men det finns ingen ledig sköterska som kan transportera patienten just nu.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY</LocID>   <Text>Patienten förflyttas till ett annat sjukhus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY_TEXT</LocID> <Text>Patientens säng var obrukbar för länge så de flyttas till ett annat sjukhus.</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+
+            <!-- Status column in table of patients -->
+            <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_STATUS</LocID>               <Text>Status</Text>  </GameDBLocalizedString>
+            
+            <!-- Workload shown in department management mode for individual rooms (on the floor) -->
+            <GameDBLocalizedString>      <LocID>WORKLOAD_NONE</LocID>                           <Text>Inget</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_LOW</LocID>                            <Text>Låg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_MEDIUM</LocID>                         <Text>Medium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_HIGH</LocID>                           <Text>Hög</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_CRITICAL</LocID>                       <Text>KRITISK</Text>  </GameDBLocalizedString>
+
+            <!-- Marker of rooms extended outdoors in department management mode for individual rooms (on the floor) -->
+            <GameDBLocalizedString>      <LocID>UI_ROOM_OUTDOORS</LocID>                        <Text>UTOMHUS</Text>  </GameDBLocalizedString>
+            
+            <!-- Department management mode, neurology, on the right panel (hospitalization) -->
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_NEURO</LocID>                  <Text>Neurolog</Text>  </GameDBLocalizedString>
+
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    
