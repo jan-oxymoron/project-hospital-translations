@@ -1,0 +1,172 @@
+<Database>
+    <GameDBStringTable ID="LOC_SWE_DLC_DOCTOR_MODE">
+    
+        <LanguageCode>swe</LanguageCode>
+        <LanguageNameLocalized>Svenska</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>Christoffer Rydström</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_DOCTOR_MODE</LocID>                                     <Text>Doctor mode DLC</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_PATIENT_COLLAPSING</LocID>                 <Text>Kontrollerad läkares patient har kollapsat och förflyttats.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_PATIENT_COLLAPSING_TEXT</LocID>            <Text>Kontrollerad läkares patient har kollapsat och förflyttats till {1}. Patienten har blivit tilldelad en annan läkare.</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DOCTOR_MODE_BUTTON</LocID>                          <Text>Läkarläge (F8)</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>CONTROLLED_BY_PLAYERS_DOCTOR</LocID>                        <Text>Tilldelad till spelarens läkare</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CONTROLLED_DOCTORS</LocID>                  <Text>Kontrollerade läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_DOCTORS_PATIENTS</LocID>                    <Text>Läkares patienter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CONTROLLED_PATIENTS</LocID>                 <Text>Kontrollerade patienter (bokmärkt?)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_YOUR_PATIENTS</LocID>                       <Text>Dina patienter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_HIGHLIGHTS</LocID>                          <Text>Höjdpunkter</Text>  </GameDBLocalizedString> <!-- Highlights -->
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_HAZARD</LocID>                                  <Text>Risk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_PROFIT</LocID>                                  <Text>Vinst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_SATISFACTION</LocID>                            <Text>Belåtenhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_CRITICAL</LocID>                                <Text>Kritiskt sjuk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_WAITING_FOR_TRT</LocID>                         <Text>Väntar på behandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_WAITING_FOR_EXM</LocID>                         <Text>Väntar på undersökning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_NO_DIAGNOSIS</LocID>                            <Text>Ingen diagnos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_FILTER_CONTROLLED</LocID>                              <Text>Kontrollerad</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>HARD_CORE_MODE_DIAGNOSE_PERCENTAGE</LocID>                  <Text>Inga diagnostiska ledtrådar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HARD_CORE_MODE_HIDDEN_SYMPTOMS_NUMBER</LocID>               <Text>Dölj dold symtom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HARD_CORE_MODE_PULSING_HIDDEN_SYMPTOMS</LocID>              <Text>Stäng av pulserande dold symtom</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>BEGINNER_MODE</LocID>                                       <Text>Normalt läge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EASY_MODE</LocID>                                           <Text>Underläkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MEDIUM_MODE</LocID>                                         <Text>AT-läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HARDCORE_MODE</LocID>                                       <Text>Specialist</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CODE_BLUE</LocID>                                   <Text>Prio 1 - behandla denna patient med samma prioritet som kritiska patienter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ADD_CONTROLLED_DOCTOR</LocID>                       <Text>Välj en läkare och alla deras patienter tas över av spelaren</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>SHOW_PORTRAITS_OR_DIAGNOSES</LocID>                         <Text>Visa patienternas porträtt eller diagnos</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>TOOLTIP_COLOR_GUIDE</LocID>                                 <Text>Färgguide</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <GameDBLocalizedString>      <LocID>FOLLOW_CONTROLLED_DOCTOR</LocID>                            <Text>Håll vyn centrerad på vald läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>REMOVE_DOCTOR_FROM_CONTROLLED</LocID>                       <Text>Ta bort denna läkare från listan av kontrollerade läkare</Text>  </GameDBLocalizedString>
+                                                                                                          
+            <!-- DLC Tutorial and campaign level menu -->                                                 
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_TUTORIAL_01</LocID>                          <Text>Läkarläge: Lär dig spela</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_TUTORIAL_01_DESCRIPTION</LocID>              <Text>Grundera i hur man ta över läkare.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_CAMPAIGN_01</LocID>                          <Text>Läkarläge: Pension! Äntligen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOC_MODE_LEVEL_CAMPAIGN_01_DESCRIPTION</LocID>              <Text>Innan din efterlängtade pension, finns det en sista uppgift som behöver din expertis. Kan du hitta den bästa personalen att föra över stafettpinnen till?</Text>  </GameDBLocalizedString>
+
+            <!-- DLC Tutorial texts -->
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_01_WELCOME</LocID>                             <Text>Hej! Välkommen! \nIT-systemet har precis uppdaterats med ett ny läge. Det kallas för Läkarläge och låter oss ta kontrollen över våra läkare, så att vi bättre kan hålla ett öga på våra patienter.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_TEXT_DOC_MODE</LocID>                          <Text><![CDATA[<b><i>Tryck på knappen</i></b> uppe i vänstra hörnet eller <b><i>använd F8-tangenten</i></b>. \n\nDenna knappen kommer att blinka när en läkare under din kontroll behöver din uppmärksamhet.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_OVERALL_INFO</LocID>                  <Text>Läkarläget finns på höger sida om skärmen. Låt oss gå igenom ett par viktiga funktioner.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_HARDCORE_MODE</LocID>                 <Text><![CDATA[Först har vi svårighetsgraden. <b><i>Tryck på knappen</i></b> för att få fram inställningarna.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_HARDCORE_MODE_OPENED</LocID>          <Text>Här kan du välja vilka delar av den diagnostiska processen du vill behålla. Du kan höja svårighetsgraden genom att stänga av olika ledtrådar som annars skulle ha synts patientens fönster.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_CONTROLLED_DOCTORS</LocID>            <Text><![CDATA[Den översta delen visar dina kontrollerade läkare. Du väljer vilka du ska kontrollera genom att först <b><i>klicka på +</i></b> och sen välja en läkare från den nuvarande avdelningen. <b><i>Gör detta nu.</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_CONTROLLED_DOCTOR_PATIENTS</LocID>    <Text>När du tar över en läkare blir du ansvarig för alla dess patienter, som syns i listan under. \n\nNär behandlingen av en patient är färdig så måste du inte glömma att skriva ut (skicka hem) dem manuellt. Du gör detta via patientens fönster.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_CONTROLLED_PATIENTS</LocID>           <Text>Nästa segment visar alla patienter du har tagit över. Som du kommer ihåg, så gör du detta via en enskild patientens fönster eller via knappen "ta över alla patienter på denna avdelning" i Förvaltningsläget.\n\nPoträttens bakgrundsfärg visar patientens nuvarande status. Du kan se vad de olika färgerna betyder genom att hålla muspekaren över frågetecknet till höger.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_DOC_MODE_HIGHLIGHTS</LocID>                    <Text>Det sista segmentet låter dig markera särskild viktig information om dina patienter och anställda, så du direkt kan se om de är glada eller ledsna, vad patienter väntar på, eller om de befinner sig i fara.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_01_TASK</LocID>                                <Text>Sådär. Det bör vara allt viktigt du behöver veta om Läkarläget. \n\nNu är det din tur att försöka. Försök med att slutföra försäkringsbolagets mål.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TUTORIAL_01_FINISHED</LocID>                            <Text>Du börjar få kläm på det. Lycka till med diagnostiseringen på nästa sjukhus!</Text>  </GameDBLocalizedString>
+            
+            <!-- DLC campaign level texts -->
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_WELCOME_INFO</LocID>                        <Text>Hej och välkommen! Vi vet att du har pensionsplaner, men vi behöver din expertis en gång till. Framför dig har du ett av våra bästa universitetssjukhus som var tänkt att utbilda de bästa inom sina respektive områden. Tyvärr så öppnades det aldrig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_WELCOME_MORE_INFO</LocID>                   <Text>Byggnaden är färdig, men vi hittade ingen som är skicklig nog att driva det. Det saknas även några rum... och dyr utrustning. Kan du få fart på sjukhuset? Anställ personal, öppna avdelningar, och lär upp specialister som kan ta över efter dig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_CREATE_DOCTOR</LocID>                       <Text>Nu när du är varm i kläderna, vas sägs som att skapa din potentiella efterträdare?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_TAKE_OVER_DOCTOR</LocID>                    <Text>Utmärkt, jag har en bra magkänsla angående denna. Nu när öppenvården fungerar, ta över läkaren för att lära dem hur den diagnostiska processen fungerar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_NEW_INSURANCE</LocID>                       <Text>Utsikterna ser strålande ut. Fortsätt såhär och läkarna kommer att bli specialister innan du anar det. Under tiden kommer vårt systerbolag, Gröna Ängar AB, erbjuda dig fler mål att uppfylla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_LAST_INSURANCE</LocID>                      <Text>Ett annat försäkringsbolag har hört av sig, och även de har utmaningar för oss att hantera. Fokusera även på dem. Vårat mål att att slutföra dem alla så att vi kan vara säkra på att sjukhuset kan driva sig självt, utan vår inblandning.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_CAMPAIGN_01_FINISHED</LocID>                            <Text>Bra jobbat! Du har skapat ett utmärkt sjukhus och tränat din ersättare. Du kan nu äntligen pensionera dig, fullt medveten om ditt arv som kommer fortsätta arbetet med att hjälpa de i nöd.</Text>  </GameDBLocalizedString>
+            
+            <!-- DLC  Achievements-->
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_TUTORIAL_01</LocID>                         <Text>Goodbye, training wheels!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_TUTORIAL_01_DESCRIPTION</LocID>             <Text>Slutför Läkarläge: Lär dig spela</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_LEVEL_1</LocID>                             <Text>Paging doctor Mouse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_LEVEL_1_DESCRIPTION</LocID>                 <Text>Slutför scenariot i Doctor Mode DLC</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_ONE_CHAR</LocID>                     <Text>I choose you...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_ONE_CHAR_DESCRIPTION</LocID>         <Text>Skapa din egna karaktär.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_MORE_CHAR</LocID>                    <Text>...and you and you and you too.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CREATE_MORE_CHAR_DESCRIPTION</LocID>        <Text>Skapa 10 olika karaktärer.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE</LocID>                     <Text>Let's put the skills to the test</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_DESCRIPTION</LocID>         <Text>Aktivera svårighetsgraden Specialist</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENT</LocID>             <Text>You didn't see anything</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENT_DESCRIPTION</LocID> <Text>Behandla din första patient med svårighetsgraden Specialist</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENTS</LocID>            <Text>I knight thee. Arise, Specialist!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENTS_DESCRIPTION</LocID><Text>Behandla 20 patienter med svårighetsgraden Specialist</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CAMERA_ROTATION</LocID>                     <Text>Never stop spinning meeee</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ACHIEVEMENT_CAMERA_ROTATION_DESCRIPTION</LocID>         <Text>Rotera vyn 100 gånger</Text>  </GameDBLocalizedString>
+
+            <!-- Character editor -->
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_NAME</LocID>                                    <Text>Skapa karaktär</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_INFO</LocID>                                    <Text>Välj, ändra, skapa...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_SELECT_GENDER_AGE</LocID>                       <Text>Välj kön, ändra ålder:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_GENDER</LocID>                                  <Text>Kön</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_AGE</LocID>                                     <Text>Ålder</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_RANDOM</LocID>                                  <Text>Slumpvis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_APPEARANCE</LocID>                              <Text>Välj utseende:</Text>  </GameDBLocalizedString> <!-- Set appearance -->
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_SKIN</LocID>                                    <Text>Hud</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_HAIR</LocID>                                    <Text>Hår</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_EYES</LocID>                                    <Text>Ögon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_LIPS</LocID>                                    <Text>Läppar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_BEARD</LocID>                                   <Text>Skägg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_NOSE</LocID>                                    <Text>Näsa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_WRINKLES</LocID>                                <Text>Rynkor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_ACCESSORIES</LocID>                             <Text>Accessoarer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_PERSONAL_INFO</LocID>                           <Text>Personlig information:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_OCCUPATION</LocID>                              <Text>Yrke:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_LEVEL</LocID>                                   <Text>Nivå:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_SKIN_TONES</LocID>                              <Text>Hudton</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_HAIR_TONES</LocID>                              <Text>Hår- och skäggton</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_PERKS</LocID>                                   <Text>Välj egenhet:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_PERKS_NUMBER</LocID>                            <Text>Välj {1}:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_RANDOM</LocID>                                  <Text>Slumpvis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_RESET</LocID>                                   <Text>Återställ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHAR_EDITOR_CREATE</LocID>                                  <Text>Skapa för ${1}</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance objectives -->
+            <GameDBLocalizedString>      <LocID>CREATED_DOCTORS</LocID>                                     <Text>Skapa {1} läkare i Skapa Karaktär (i fönstret Anställ)</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is a number, parameter {2} is a name of a department -->
+            <GameDBLocalizedString>      <LocID>CREATED_DOCTORS_AT_DEPARTMENT</LocID>                       <Text>Skapa {1} läkare i Skapa Karaktär (i fönstret Anställ) hos {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_WITH_INTERN_MODE_AT_DEPARTMENT</LocID>     <Text>Behandla {1} patient(er) med kontrollerade läkare hos {2} med svårighetsgrad Underläkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_WITH_RESIDENT_MODE_AT_DEPARTMENT</LocID>   <Text>Behandla {1} patient(er) med kontrollerade läkare hos {2} med svårighetsgrad AT-läkare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_WITH_SPECIALIST_MODE_AT_DEPARTMENT</LocID> <Text>Behandla {1} patient(er) med kontrollerade läkare hos {2} med svårighetsgrad Specialist</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_CONTROLLED_PATIENTS_AT_DEPARTMENT</LocID>           <Text>Behandla {1} patient(er) med kontrollerade läkare hos {2}</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is name of the level (like Resident or Attending), parameter {2} is name of the profession, currently only Doctor -->
+            <GameDBLocalizedString>      <LocID>REACHED_CERTAIN_LEVEL_WITH_CREATED_CHARACTER</LocID>        <Text>Nå nivå {1} men en av dina skapade {2}</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is a number, parameter {2} is a name of a department -->
+            <GameDBLocalizedString>      <LocID>NO_DEAD_CONTROLLED_PATIENTS_DAYS</LocID>                    <Text>Inga dödsfall hos kontrolelrade läkare i {1} dagar hos {2}</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>REACHED_DOCTORS_RATING</LocID>                              <Text>Nå anseende {1} hos en kontrollerad läkare</Text>  </GameDBLocalizedString>
+            
+            <!-- Parameter {1} is difficulty level, see BEGINNER_MODE, EASY_MODE above in this file  -->
+            <GameDBLocalizedString>      <LocID>CORRECTLY_DIAGNOSED_CONTROLLED_DOCTORS_PATIENTS</LocID>     <Text>Ställ korrekt diagnos med kontrollerad läkare med svårighetsgrad {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_CONTROLLED_DOCTORS_PATIENTS</LocID>                 <Text>Behandla patienter med kontrollerad läkare med svårighetsgrad {1}</Text>  </GameDBLocalizedString>
+
+            <!-- Parameter {1} is a number -->
+            <GameDBLocalizedString>      <LocID>EXPERIENCE_POINTS_FOR_CREATED_CHARACTERS</LocID>            <Text>{1} erfarenhetspoäng till alla kontrollerade karaktärer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXPERIENCE_POINTS_FOR_CONTROLLED_DOCTORS</LocID>            <Text>{1} erfarenhetspoäng till alla kontrollerade läkare</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Names.xml -->
+            <GameDBLocalizedString>    <LocID>IN_COM_CAMPAIGN_CAMPAIGN_1B</LocID>                           <Text>Gröna Ängar AB</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>IN_COM_DC_MD_NAME</LocID>                           			<Text>AJ Försäkringar AB</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    
