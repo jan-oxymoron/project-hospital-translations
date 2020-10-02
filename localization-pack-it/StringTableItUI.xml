@@ -7,6 +7,7 @@
         <Contributors>
             <Name>Francesco Saglietti</Name>
 			<Name>Giuseppe Balestrazzi</Name>
+			<Name>neoxes</Name>
         </Contributors>
         
         <LocalizedStrings>
@@ -32,10 +33,10 @@
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02_DESCRIPTION</LocID>       <Text>Costruisci una piccola clinica</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03</LocID>                   <Text>Tutorial 3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION</LocID>       <Text>Gestione ed ospedalizzazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION</LocID>       <Text>Gestione e ricovero</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04</LocID>                   <Text>Tutorial 4</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04_DESCRIPTION</LocID>       <Text>Ospedalizzazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_04_DESCRIPTION</LocID>       <Text>Ricovero</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01</LocID>                   <Text>Campagna 2</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION</LocID>       <Text>Scarsa efficienza...</Text>  </GameDBLocalizedString>
@@ -243,17 +244,17 @@
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_OPTIONAL_ROOMS</LocID>      <Text>Opzionale</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_CLINIC</LocID>              <Text>Clinica</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_HOSPITALIZATION</LocID>     <Text>Ospedalizzazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_HOSPITALIZATION</LocID>     <Text>Ricovero</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SURGERY</LocID>             <Text>Chirurgia</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LOCKED_BY_INSURANCE</LocID>                 <Text>Si sblocca completando gli obiettivi della compagnia di assicurazione</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES</LocID>           <Text>Personale</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY</LocID>       <Text>Personale diurno</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NIGHT</LocID>     <Text>Personale notturno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY</LocID>       <Text>Personale Diurno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NIGHT</LocID>     <Text>Personale Notturno</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_DOCTOR</LocID><Text>Primario</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_NURSE</LocID><Text>Capo reparto</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CERTAINTY</LocID> <Text>Certezza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_NURSE</LocID><Text>Caposala</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CERTAINTY</LocID> <Text>Affidabilità</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_EMPLOYEE_COUNT</LocID><Text>Assunti</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NEEDS</LocID>     <Text>Bisogni</Text>  </GameDBLocalizedString>
             
@@ -339,7 +340,7 @@
             
             <!-- Patient card -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_PATIENT</LocID>   <Text>Paziente predefinito / Controllato dal giocatore / Paziente preferito</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_EMPLOYEE</LocID>  <Text>Aggiungi un dipendente ai preferiti - aggiungi il ritratto del personaggio al riquadro principale. Possono essere marcati fino a 10 personaggi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_EMPLOYEE</LocID>  <Text>Aggiungi un dipendente ai preferiti - aggiungi il ritratto del personaggio al riquadro principale. Possono essere marcati fino a 8 personaggi.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_PERKS</LocID>                              <Text>Caratteristiche nascoste</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>TOOLTIP_GO_TO_DOCTOR</LocID>                              <Text>Mostra la scheda del medico</Text>  </GameDBLocalizedString>
@@ -415,7 +416,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>I primari forniscono un bonus giornaliero al personale del reparto. Sceglili con cura.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_RESTORE</LocID>              <Text>Ripristina le impostazioni originali</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_CHART</LocID>                <Text>Grafico</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_GAUGE</LocID>                <Text>Seleziona il livello di certezza che sarà usato per confermare le diagnosi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_GAUGE</LocID>                <Text>Seleziona il livello di affidabilità che sarà usato per confermare le diagnosi</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_DOCTORS</LocID>              <Text>Dottori assunti / posti di lavoro</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_NURSES</LocID>               <Text>Infermieri assunti / posti di lavoro</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_INSERVICE_LAB_SPECIALISTS</LocID>      <Text>Tecnici assunti / posti di lavoro</Text>  </GameDBLocalizedString>
@@ -516,9 +517,9 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_OUTDOOR</LocID>                           <Text>Oggetti esterni</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_GENERAL</LocID>                    <Text>Modelli per stanze non specifiche</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_EMERGENCY</LocID>                  <Text>Modelli per le stanze del reparto di Emergenze</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_EMERGENCY</LocID>                  <Text>Modelli per le stanze del reparto di Pronto Soccorso</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_SURGERY</LocID>                    <Text>Modelli per le stanze del reparto di Chirurgia Generale</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ICU</LocID>                        <Text>Modelli per le stanze del reparto di TI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ICU</LocID>                        <Text>Modelli per le stanze del reparto di Terapia Intensiva</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_RADIOLOGY</LocID>                  <Text>Modelli per le stanze del reparto di Radiologia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INTERNAL_MEDICINE</LocID>          <Text>Modelli per le stanze del reparto di Medicina Interna</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ORTHOPAEDY</LocID>                 <Text>Modelli per le stanze del reparto di Ortopedia</Text>  </GameDBLocalizedString>
@@ -548,7 +549,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STRETCHERS</LocID>                      <Text>Barelle</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_SURGERY_EQUIPMENT</LocID>                          <Text>Sala operatoria attrezzata</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_SURGERY_STAFF</LocID>                              <Text>Chirurghi, anestesisti, infermieri</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_SURGERY_STAFF_DETAILS</LocID>                      <Text>2x Chirurghi\n1x Anestesisti\n1x Infermieri chirurghi\n2x Infermieri </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SURGERY_STAFF_DETAILS</LocID>                      <Text>2x Chirurghi\n1x Anestesisti\n1x Infermieri di Chirurgia\n2x Infermieri </Text>  </GameDBLocalizedString>
             
             <!-- LOGISTICS/MANAGEMENT, EMPLOYEES TABLE -->
             <GameDBLocalizedString>      <LocID>ALL_EMPLOYEES</LocID>                                      <Text>Tutto il personale</Text>  </GameDBLocalizedString>
@@ -558,16 +559,16 @@
             <GameDBLocalizedString>      <LocID>JANITORS</LocID>                                           <Text>Inservienti</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NURSES</LocID>                                             <Text>Infermieri</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_TECH_CARDIO</LocID>                                    <Text>Tecnici cardio</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_TECH_USG</LocID>                                       <Text>Tecnici ECO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECH_CARDIO</LocID>                                    <Text>Tecnici di Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECH_USG</LocID>                                       <Text>Tecnici di Ecografia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGEONS</LocID>                                           <Text>Chirurghi</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ANESTHESIOLOGISTS</LocID>                                  <Text>Anestesisti</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SURGERY_NURSES</LocID>                                     <Text>Infermieri chirurghi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGERY_NURSES</LocID>                                     <Text>Infermieri di Chirurgia</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>DOCTOR</LocID>                                             <Text>Dottore</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DOCTOR_CLINIC_DESCRIPTION</LocID>                          <Text>Medico della clinica che esamina, diagnostica e cura i pazienti, specializzato in</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>RECEPTIONIST</LocID>                                       <Text>Receptionist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>RECEPTIONIST_DESCRIPTION</LocID>                           <Text>Infermiere/a addetto/a alla reception, con specializzazione </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>RECEPTIONIST_DESCRIPTION</LocID>                           <Text>Infermiere addetto alla reception, con specializzazione </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST</LocID>                                   <Text>Tecnico</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_DESCRIPTION</LocID>                       <Text>Tecnico medico specializzato in</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>JANITOR</LocID>                                            <Text>Inserviente</Text>  </GameDBLocalizedString>
@@ -575,19 +576,19 @@
 
             <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Barelle</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>DOCTOR_HOSPITALIZATION_DESCRIPTION</LocID>                 <Text>Dottore in sala, specializzato in</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE</LocID>                                              <Text>Infermiere/a</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_DESCRIPTION</LocID>                                  <Text>Infermiere/a in infermeria con qualifica </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO</LocID>                            <Text>Tecnico Cardio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_HOSPITALIZATION_DESCRIPTION</LocID>                 <Text>Dottore in sala medici, specializzato in</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE</LocID>                                              <Text>Infermiere</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_DESCRIPTION</LocID>                                  <Text>Infermiere in sala infermieri con qualifica </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO</LocID>                            <Text>Tecnico di Cardiologia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO_DESCRIPTION</LocID>                <Text>Tecnico che gestisce dispositivi di esame relativi a</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG</LocID>                               <Text>Tecnico ECO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG</LocID>                               <Text>Tecnico di Ecografia</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG_DESCRIPTION</LocID>                   <Text>Tecnico che gestisce dispositivi di esame e terapia relativi a</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGEON</LocID>                                            <Text>Chirurgo</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SURGEON_DESCRIPTION</LocID>                                <Text>Dottore in sala, specializzato in</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_DESCRIPTION</LocID>                                <Text>Dottore in sala medici, specializzato in</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST</LocID>                                   <Text>Anestesista</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST_DESCRIPTION</LocID>                       <Text>Dottore in sala, specializzato in</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SURGERY_NURSE</LocID>                                      <Text>Infermiere/a Chirurgo/a</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SURGERY_NURSE_DESCRIPTION</LocID>                          <Text>Infermiere/a specializzato in</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST_DESCRIPTION</LocID>                       <Text>Dottore in sala medici, specializzato in</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGERY_NURSE</LocID>                                      <Text>Infermiere di Chirurgia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGERY_NURSE_DESCRIPTION</LocID>                          <Text>Infermiere specializzato in</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STRETCHERS</LocID>                                         <Text>Barelle</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STRETCHERS_DESCRIPTION</LocID>                             <Text>Usate per trasportare i pazienti</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_HOSPITALIZATION_REQUIRED</LocID>                     <Text>Richiesti: </Text>  </GameDBLocalizedString>
@@ -608,12 +609,12 @@
             <GameDBLocalizedString>      <LocID>TABLE_DEP_BALANCE</LocID>                   <Text>Bilancio</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_DEP_REPUTATION</LocID>                <Text>Reputazione</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS</LocID>     <Text>Impiegati - dottori</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_NURSES</LocID>      <Text>Impiegati - infermieri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS</LocID>     <Text>Impiegati - Dottori</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_NURSES</LocID>      <Text>Impiegati - Infermieri</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_LAB</LocID>         <Text>Impiegati - Tecnici</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>    <Text>Impiegati - impiegati civili</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_ALL</LocID>         <Text>Impiegati - tutti</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS_NURSES</LocID><Text>Impiegati - dottori ed infermieri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_JANITORS</LocID>    <Text>Impiegati - Inservienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_ALL</LocID>         <Text>Impiegati - Tutti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_HEADING_DOCTORS_NURSES</LocID><Text>Impiegati - Dottori ed Infermieri</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_EMPLOYEES_SELECT</LocID>              <Text>Seleziona impiegati</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_HEADING</LocID>               <Text>Dottori</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TABLE_DOCTORS_DOCTOR</LocID>                <Text>Nome</Text>  </GameDBLocalizedString>
@@ -838,21 +839,23 @@
              <GameDBLocalizedString>      <LocID>PATIENT_CARD_WRONG_DIAGNOSIS</LocID>        <Text>ERRONEO: </Text>  </GameDBLocalizedString>
  
              <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_CLINIC</LocID>               <Text>La clinica non è attiva</Text>  </GameDBLocalizedString>
-             <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_HOSPITALIZATION</LocID>      <Text>L'ospedalizzazione non è attiva</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>TOOLTIP_BROKEN_HOSPITALIZATION</LocID>      <Text>Il ricovero non è attivo</Text>  </GameDBLocalizedString>
              <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_INTAKE</LocID>             <Text>Ingresso pazienti:</Text>  </GameDBLocalizedString>
              <GameDBLocalizedString>      <LocID>TOOLTIP_PRESTIGE_PAYMENT</LocID>            <Text>Pagamento ass.:</Text>  </GameDBLocalizedString>
              
              <GameDBLocalizedString>      <LocID>DAY_ABBREVIATION</LocID>                    <Text>g</Text>  </GameDBLocalizedString>
              <GameDBLocalizedString>      <LocID>DAY_SUFFIX</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Day on main panel -->
              <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>Traguardi</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>Torna al desktop</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>Torna al desktop</Text>  </GameDBLocalizedString>
             
-            <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Il reparto non può essere cambiato durante il trasporto dei pazienti, sia che essi siano collassati o stabilizzati.</Text>  </GameDBLocalizedString>
+             <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>Il reparto non può essere cambiato durante il trasporto dei pazienti, sia che essi siano collassati o stabilizzati.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>Lingua</Text>  </GameDBLocalizedString>
-	    <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>        <Text>Solo per i pazienti diagnosticati, è possibile provare a ricoverare il paziente al Centro Traumatologico.</Text>  </GameDBLocalizedString> 
-	    <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INDIVIDUAL_OBJECTS</LocID>     <Text>Sposta oggetti individuali</Text>  </GameDBLocalizedString>
-	    <GameDBLocalizedString>      <LocID>TABLE_PATIENTS_STATUS</LocID>           <Text>Condizione</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>Lingua</Text>  </GameDBLocalizedString>
+	         
+             <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>            <Text>Solo per i pazienti diagnosticati, è possibile provare a ricoverare il paziente al Centro Traumatologico.</Text>  </GameDBLocalizedString> 
+	        
+             <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INDIVIDUAL_OBJECTS</LocID>     <Text>Sposta oggetti individuali</Text>  </GameDBLocalizedString>
+	    
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>

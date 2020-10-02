@@ -7,6 +7,7 @@
         <Contributors>
             <Name>Alex Hendrick</Name>
 			<Name>Giuseppe Balestrazzi</Name>
+			<Name>neoxes</Name>
         </Contributors>
         
         <LocalizedStrings>
@@ -21,7 +22,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_EMPLOYEE_GOT_DRUNK_TEXT</LocID>        <Text>Il dipendente si è ubriacato ieri sera! Non si sentirà molto bene oggi...</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM</LocID>                <Text>Non è disponibile una sala d'attesa per i pazienti della clinica!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_TEXT</LocID>           <Text><![CDATA[Non c'è una sala d'attesa valida vicino uno studio medico in <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_TEXT</LocID>           <Text><![CDATA[Non c'è una sala d'attesa valida vicino un ambulatorio medico in <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB</LocID>            <Text>Non è disponibile una sala d'attesa vicino a una sala diagnostica!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</LocID>       <Text><![CDATA[Non c'è una sala d'attesa valida vicino a <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
@@ -39,16 +40,16 @@
             <GameDBLocalizedString>      <LocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</LocID>   <Text>Il paziente è peggiorato perché è stata trattata una diagnosi sbagliata.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS</LocID>            <Text>Non c'è una diagnosi sicura!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Non c'è una diagnosi sicura!Potresti aggiungere ulteriori apparecchiature diagnostiche, laboratori o sale di radiologia. Il paziente se ne andrà presto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</LocID>       <Text>Non c'è una diagnosi sicura! Potresti aggiungere ulteriori apparecchiature diagnostiche, laboratori o sale di radiologia. Il paziente se ne andrà presto.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT</LocID>                   <Text>Il paziente non può essere completamente curato!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_TREATMENT_TEXT</LocID>              <Text><![CDATA[Il trattamento per la diagnosi del paziente non è disponibile: <i>{1}</i>.\nSprigati a trovare una soluzione, il paziente si sta preparando per andarsene.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION</LocID>             <Text>Il paziente non può essere ricoverato!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_TEXT</LocID>        <Text><![CDATA[Il livello di ospedalizzazione necessario non è disponibile: <i>{1}</i>! Sprigati a trovare una soluzione, il paziente si sta preparando per andarsene.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_TEXT</LocID>        <Text><![CDATA[Il livello di ricovero necessario non è disponibile: <i>{1}</i>! Sprigati a trovare una soluzione, il paziente si sta preparando per andarsene.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT</LocID> <Text>Il paziente non può essere ricoverato!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT_TEXT</LocID><Text><![CDATA[L'ospedalizzazione in <i>{1}</i> non è funzionante o è mancante! Sprigati a trovare una soluzione, il paziente si sta preparando per andarsene.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT_TEXT</LocID><Text><![CDATA[Il ricovero in <i>{1}</i> non è funzionante o è mancante! Sprigati a trovare una soluzione, il paziente si sta preparando per andarsene.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS</LocID>          <Text>Diagnosi complicata!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</LocID>     <Text>La diagnosi di un paziente si è rivelata difficile per il livello di abilità diagnostica del dottore.\nPuoi aiutare selezionando la visita successiva.</Text>  </GameDBLocalizedString>
@@ -78,7 +79,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL</LocID>                  <Text>Il dipendente non ha richiesto la specializzazione.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_MISSING_SKILL_TEXT</LocID>             <Text><![CDATA[La specializzazione <i>{1}</i> è richiesta per i dipendenti di questa stanza.]]></Text>  </GameDBLocalizedString>
       
-            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL</LocID>                      <Text>I dipendenti della clinica hanno bisogno di un ufficio proprio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL</LocID>                      <Text>I dipendenti della clinica hanno bisogno di un ambulatorio proprio.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ROOM_FULL_TEXT</LocID>                 <Text>I dipendenti della clinica non possono condividere la propria stanza con altri membri dello staff (però sentiti libero di posizionare più indicatori di stanza all'interno di una serie di muri in modalità gestione).</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_CHARACTER_FIRED</LocID>                <Text>Il dipendente è stato licenziato.</Text>  </GameDBLocalizedString>
@@ -137,7 +138,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_TEXT</LocID>       <Text>La clinica ora è chiusa ai pazienti.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED</LocID>              <Text>Lunga attesa per un letto!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED_TEXT</LocID>         <Text><![CDATA[Non c'è un letto libero per l'ospedalizzazione richiesta: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_BED_TEXT</LocID>         <Text><![CDATA[Non c'è un letto libero per il ricovero richiesto: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION</LocID>      <Text>Lunga attesa per una visita!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_EXAMINATION_TEXT</LocID> <Text><![CDATA[Il lettino richiesto per la visita (<i>{1}</i>) è occupato o il tuo staff è stato impegnato per molto tempo.]]></Text>  </GameDBLocalizedString>
@@ -146,10 +147,10 @@
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TREATMENT_TEXT</LocID>   <Text><![CDATA[Il lettino richiesto per la visita (<i>{1}</i>) è occupato o il tuo staff è stato impegnato per molto tempo.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE</LocID>             <Text>Il paziente collassato è in attesa di un letto!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE_TEXT</LocID>        <Text><![CDATA[Non c'è un letto libero per l'ospedalizzazione richiesta: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_COLLAPSE_TEXT</LocID>        <Text><![CDATA[Non c'è un letto libero per il ricovero richiesto: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE</LocID>    <Text>Il paziente collassato non può essere ricoverato!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE_TEXT</LocID>        <Text><![CDATA[L'ospedalizzazione richiesta non è disponibile: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE_TEXT</LocID>        <Text><![CDATA[Il ricovero richiesto non è disponibile: <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT</LocID>        <Text>Lunga attesa per il trasporto!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_TEXT</LocID>   <Text>Ci sono abbastanza infermieri liberi per trasportare il paziente?</Text>  </GameDBLocalizedString>
@@ -190,7 +191,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER</LocID>       <Text>Il ricovero in terapia intensiva è terminato.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_ICU_HOSPITALIZATION_OVER_TEXT</LocID>  <Text>Il paziente in cura è stato stabilizzato e viene ora trasferito al reparto responsabile.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER</LocID><Text>Ospedalizzazione terminata.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER</LocID><Text>Ricovero terminato.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</LocID> <Text>Il paziente in cura è stato curato ed è ora pronto per tornare a casa. Rilascia il paziente.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM</LocID><Text>Il paziente non ha una stanza funzionante.</Text>  </GameDBLocalizedString>
