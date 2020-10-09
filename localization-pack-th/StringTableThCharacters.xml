@@ -1,13 +1,14 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_TH_CHARACTERS">
-
+<Database>
+    <GameDBStringTable ID="LOC_EN_CHARACTERS">
+        
         <LanguageCode>th</LanguageCode>
         <LanguageNameLocalized>Thai</LanguageNameLocalized>
 
         <Contributors>
+            <Name>Sireethon</Name>
             <Name>Teenavut Liwanag</Name>
         </Contributors>
-
+        
     	<LocalizedStrings>
             <!-- Employee job titles -->
             <GameDBLocalizedString>      <LocID>OCCUPATION_DOCTOR</LocID>               <Text>แพทย์</Text>  </GameDBLocalizedString>
@@ -22,7 +23,7 @@
             <GameDBLocalizedString>      <LocID>OCCUPATION_ACCOUNTANT</LocID>           <Text>นักบัญชี</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_TEACHER</LocID>              <Text>ครู</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_COOK</LocID>                 <Text>พ่อครัว</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OCCUPATION_FACTORY_WORKER</LocID>       <Text>พนักงานโรงเรียน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_FACTORY_WORKER</LocID>       <Text>พนักงานโรงงาน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_CASHIER</LocID>              <Text>แคชเชียร์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_ATHLETE</LocID>              <Text>นักกีฬา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OCCUPATION_ACROBAT</LocID>              <Text>นักกายกรรม</Text>  </GameDBLocalizedString>
@@ -32,7 +33,7 @@
 
             <!-- Perks staff -->
             <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS</LocID>               	<Text>เจ้านายที่ดี</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS_DESCRIPTION</LocID>      <Text>Improves satisfaction of supervised colleagues every morning.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GOOD_BOSS_DESCRIPTION</LocID>      <Text>เพิ่มความพึงพอใจของผู้ร่วมงานที่อยู่ใต้การดูแลในทุกๆเช้า</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER</LocID>               <Text>เรียนรู้ได้เร็ว</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_FAST_LEARNER_DESCRIPTION</LocID>   <Text>ทักษะในการทำงานเพิ่มเร็วขึ้น</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_SPARTAN</LocID>              		<Text>สปาร์ตัน</Text>  </GameDBLocalizedString>
@@ -40,7 +41,7 @@
             <GameDBLocalizedString>      <LocID>PERK_SCHOLAR</LocID>              		<Text>นักวิชาการ</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_SCHOLAR_DESCRIPTION</LocID>   		<Text>ใช้เวลาว่างให้เกิดประโยชน์</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON</LocID>              <Text>ขวัญใจมหาชน</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON_DESCRIPTION</LocID>  <Text>Reveals hidden perks of people after interacting with them.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_PEOPLE_PERSON_DESCRIPTION</LocID>  <Text>เปิดเผยอัตตลักษณ์ของผู้คนหลังจากมีปฏิสัมพันธ์กับพวกเขา</Text>  </GameDBLocalizedString>
         	<GameDBLocalizedString>      <LocID>PERK_GAMER</LocID>              		<Text>เกมเมอร์</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_GAMER_DESCRIPTION</LocID>  		<Text>พักผ่อนได้เร็วขึ้น</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER</LocID>               <Text>หัวทึบ</Text>  </GameDBLocalizedString>
@@ -49,44 +50,44 @@
             <GameDBLocalizedString>      <LocID>PERK_LONG_COMMUTE_DESCRIPTION</LocID>   <Text>เนื่องจากบ้านอยู่ไกลจึงมักเข้างานสาย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM</LocID>                 <Text>ขี้เมา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM_DESCRIPTION</LocID>     <Text>มักเข้างานสายและเมาค้าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM</LocID>            <Text>Fast metabolism</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM</LocID>            <Text>เผาผลาญเร็ว</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_FAST_METABOLISM_DESCRIPTION</LocID><Text>ค่าความหิวลดเร็วกว่าปกติ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET</LocID>                 <Text>รองเท้าสกปรก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET_DESCRIPTION</LocID>     <Text>ทำให้พื้นที่เขาเดินเลอะเสมอ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES</LocID>        <Text>Practical diagnoses</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES_DESCRIPTION</LocID><Text>20% bonus experience to diagnoses skill, after successful diagnosis.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE</LocID>               <Text>Restzistance</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE_DESCRIPTION</LocID>   <Text>Rest levels decrease slower.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_FRESH_PARENT</LocID>               <Text>Fresh parent</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_FRESH_PARENT_DESCRIPTION</LocID>   <Text>Rest levels decrease faster.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE</LocID>                 <Text>Germophobe</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE_DESCRIPTION</LocID>     <Text>Washes hands three times to be sure.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_CHEMIST</LocID>                    <Text>Chemist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_CHEMIST_DESCRIPTION</LocID>        <Text>Can clean floors much faster.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_COMFORTING</LocID>                 <Text>Comforting</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_COMFORTING_DESCRIPTION</LocID>     <Text>Does not cause discomfort during examinations.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_DIAGNOSTIC_GENIUS</LocID>          <Text>Diagnostic genius</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_DIAGNOSTIC_GENIUS_DESCRIPTION</LocID><Text>Extra talent for diagnosis!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_EARLY_BIRD</LocID>                 <Text>Early bird</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_EARLY_BIRD_DESCRIPTION</LocID>     <Text>Works much more efficiently during the day.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_NIGHT_OWL</LocID>                  <Text>Night owl</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_NIGHT_OWL_DESCRIPTION</LocID>      <Text>Works much more efficiently during the night.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES</LocID>        <Text>ฝึกวินิจฉัย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PRACTICAL_DIAGNOSES_DESCRIPTION</LocID><Text>โบนัสค่าประสพการณ์เพิ่มขึ้น 20% เมื่อทำการวินิจฉันสำเร็จ</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE</LocID>               <Text>ไม่ยอมพักผ่อน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_RESTZISTANCE_DESCRIPTION</LocID>   <Text>ค่าการพักผ่อนลดลงช้า</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FRESH_PARENT</LocID>               <Text>พ่อแม่มือใหม่</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_FRESH_PARENT_DESCRIPTION</LocID>   <Text>ค่าการพักผ่อนลดลงเร็ว</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE</LocID>                 <Text>กลัวเชื้อโรค</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE_DESCRIPTION</LocID>     <Text>ล้างมือสามครั้งจนมั่นใจ</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CHEMIST</LocID>                    <Text>นักเคมี</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CHEMIST_DESCRIPTION</LocID>        <Text>ทำความสะอาดพื้นได้เร็วขึ้น</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_COMFORTING</LocID>                 <Text>อ่อนโยน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_COMFORTING_DESCRIPTION</LocID>     <Text>ไม่สร้างความไม่สบายใจระหว่างตรวจ</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIAGNOSTIC_GENIUS</LocID>          <Text>อัจฉริยะนักวินิจฉัย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIAGNOSTIC_GENIUS_DESCRIPTION</LocID><Text>ความสามารถพิเศษในการวินิจฉัย!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_EARLY_BIRD</LocID>                 <Text>นกยามเช้า</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_EARLY_BIRD_DESCRIPTION</LocID>     <Text>ทำงานมีประสิทธิภาพมากขึ้นในช่วงกลางวัน</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_NIGHT_OWL</LocID>                  <Text>นกฮูกกลางคืน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_NIGHT_OWL_DESCRIPTION</LocID>      <Text>ทำงานมีประสิทธภาพมากขึ้นในช่วงกลางคืน</Text></GameDBLocalizedString>
 
             <!--  -->
-            <GameDBLocalizedString>      <LocID>PERK_PLEASANT</LocID>                   <Text>Pleasant</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_PLEASANT_DESCRIPTION</LocID>       <Text>Gives "nice staff" modifier after interacting with patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT</LocID>                 <Text>Unpleasant</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_DESCRIPTION</LocID>     <Text>Gives "mean staff" modifier after interacting with patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_CLEAN_FEET</LocID>                 <Text>Clean feet</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_CLEAN_FEET_DESCRIPTION</LocID>     <Text>Very clean shoes. Does not make the floor dirty.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_HARD_WORKER</LocID>                <Text>Hard worker</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_HARD_WORKER_DESCRIPTION</LocID>    <Text>Does not take free time breaks.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_LOYAL</LocID>                      <Text>Loyal</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_LOYAL_DESCRIPTION</LocID>          <Text>Takes 20% less salary when leveling up.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED</LocID>                  <Text>Depressed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_DESCRIPTION</LocID>      <Text>Gives "depressed" modifier to him/her self.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_HEDONIST</LocID>                   <Text>Hedonist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_HEDONIST_DESCRIPTION</LocID>       <Text>Spends twice as much time enjoying food.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PLEASANT</LocID>                   <Text>ร่าเริง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PLEASANT_DESCRIPTION</LocID>       <Text>ให้การปรับค่า "สตาฟที่ดี" หลังจากมีการปฏิสัมพันธ์กับคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT</LocID>                 <Text>ไม่ร่าเริง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_DESCRIPTION</LocID>     <Text>ให้การเปลี่ยนแปลง "สตาฟนิสัยไม่ดี" หลังจากมีการปฏิสัมพันธ์กับคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CLEAN_FEET</LocID>                 <Text>เท้าสะอาด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_CLEAN_FEET_DESCRIPTION</LocID>     <Text>รองเท้าสะอาดมาก ไม่ทำให้พื้นสกปรก </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HARD_WORKER</LocID>                <Text>ทำงานหนัก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HARD_WORKER_DESCRIPTION</LocID>    <Text>ไม่ใช้เวลาว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LOYAL</LocID>                      <Text>ซื่อสัตย์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_LOYAL_DESCRIPTION</LocID>          <Text>รับเงินเดือนน้อยลง 20% เมื่อระดับเพิ่มขึ้น</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED</LocID>                  <Text>หดหู่</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_DESCRIPTION</LocID>      <Text>ให้การเปลี่ยนแปลง "หดหู่" ต่อตัวเขา/เธอ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HEDONIST</LocID>                   <Text>เจ้าสำราญ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HEDONIST_DESCRIPTION</LocID>       <Text>ใช้เวลาเป็นสองเท่าในการทานอาหาร</Text>  </GameDBLocalizedString>
 
             <!-- Perks patient -->
             <GameDBLocalizedString>      <LocID>PERK_COOPERATIVE</LocID>                <Text>ทำงานเป็นทีม</Text>  </GameDBLocalizedString>
@@ -96,7 +97,7 @@
             <GameDBLocalizedString>      <LocID>PERK_INSPIRATOR</LocID>              	<Text>น่ารัก</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_INSPIRATOR_DESCRIPTION</LocID>   	<Text>ทำให้คนรอบข้างอารมณ์ดี</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_SHAMELESS</LocID>              	<Text>ไร้ยางอาย</Text>  </GameDBLocalizedString>
-           	<GameDBLocalizedString>      <LocID>PERK_SHAMELESS_DESCRIPTION</LocID>   	<Text>Is likely to reveal delicate symptoms.</Text>  </GameDBLocalizedString>
+           	<GameDBLocalizedString>      <LocID>PERK_SHAMELESS_DESCRIPTION</LocID>   	<Text>มีโอกาสที่จะเปิดเผยอาการที่ซับซ้อน</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_MEDICAL_EDUCATION</LocID>          <Text>นักเรียนแพทย์</Text>  </GameDBLocalizedString>
            	<GameDBLocalizedString>      <LocID>PERK_MEDICAL_EDUCATION_DESCRIPTION</LocID><Text>สามารถช่วยหมอตรวจอาการได้</Text>  </GameDBLocalizedString>
         	<GameDBLocalizedString>      <LocID>PERK_FOREIGNER</LocID>              	<Text>นักท่องเที่ยว</Text>  </GameDBLocalizedString>
@@ -112,26 +113,26 @@
 
             <!--  -->
             <GameDBLocalizedString>      <LocID>PERK_PIRATE</LocID>                     <Text>โจรสลัด</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_PIRATE_DESCRIPTION</LocID>         <Text>Does not pay for anything</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_PIRATE_DESCRIPTION</LocID>         <Text>ไม่ยอมจ่ายอะไรสักอย่าง</Text>  </GameDBLocalizedString>
 
             <!-- Need names -->
             <GameDBLocalizedString>      <LocID>NEED_REST</LocID>                       <Text>พักผ่อน</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_REST_DESC</LocID>                  <Text>Employees need to take a break a couple of times every day.\n\nIf rest level drops below two stars, it will start to negatively affect the performance of the employee.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_REST_DESC</LocID>                  <Text>พนักงานต้องพักเบรคสองครั้งในทุกๆวัน\nถ้าค่าการพักผ่อนตกลงมากกว่า2ดาว มันจะเริ่มส่งผลลบต่อประสิทธิภาพของพนักงาน</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF</LocID>               <Text>หิว</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF_DESC</LocID>          <Text>Employees need to have access to water and food and ideally will eat a proper lunch in common room every day.\n\nIf hunger level drops below two stars, it will start to negatively affect the performance of the employee.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_STAFF_DESC</LocID>          <Text>พนักงานต้องได้รับการเข้าถึงน้ำดื่มหรืออาหารและตาามความเป้นจริงแล้วควรจะได้ทานอาหารกลางวันอย่างเหมาะสมในห้องพักในทุกๆวัน\n\n ถ้าค่าความหิวลดต่ำลงมากว่า2ดาวมันจะเริ่มส่งผลต่อประสิทธิภาพการทำงานของพนักงาน</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS</LocID>            <Text>หิว</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS_DESC</LocID>       <Text>Patients need to have access to water or a snack if they're waiting long.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_HUNGER_PATIENTS_DESC</LocID>       <Text>คนไข้ต้องเข้าถึงน้ำดื่มหรืออาหารว่าง ถ้าเกิดพวกเขาต้องรอเป็นเวลานาน</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NEED_BLADDER</LocID>                    <Text>ปวดท้อง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_BLADDER_DESC</LocID>               <Text>Restrooms should be available on every floor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_BLADDER_DESC</LocID>               <Text>ห้องน้ำควรจะมีในทุกๆชั้น</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT</LocID>                 <Text>ไม่สบาย</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT_DESC</LocID>            <Text>The level of pain and discomfort caused by symptoms, examinations and treatments.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT</LocID>                 <Text>ไม่สบายตัว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_DISCOMFORT_DESC</LocID>            <Text>ระดับของความเจ็บปวดและความไม่สบายตัวจากอาการป่วย,การตรวจ,การรักษา</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION</LocID>               <Text>สบาย</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION_DESC</LocID>          <Text>The overall satisfaction influenced by needs, other people and environment.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION</LocID>               <Text>สบายตัว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NEED_SATISFACTION_DESC</LocID>          <Text>ความพึงพอใจโดยรวมได้รับอิธิพลมากจากความต้องการ คนอื่นๆและสภาพแวดล้อม</Text>  </GameDBLocalizedString>
 
             <!-- Satisfaction modifiers -->
             <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_SIT</LocID>             <Text>ไม่สามารถนั่งได้</Text>  </GameDBLocalizedString>
@@ -146,43 +147,43 @@
             <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_ENVIRONMENT</LocID>        <Text>โรงพยาบาลสวย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_DOCTOR</LocID>             <Text>คุณหมอใจดีจังเลยน้า</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_GOOD_BOSS</LocID>               <Text>เจ้านายใจดีมากเลย</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_NO_BOSS</LocID>                 <Text>unattended</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_HAS_BOSS</LocID>                <Text>has boss</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_INSTIPRATOR</LocID>             <Text>inspired</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_DEMOTIVATOR</LocID>             <Text>annoyed</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NO_BOSS</LocID>                 <Text>ไม่มีสมาธิ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAS_BOSS</LocID>                <Text>มีเจ้านาย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_INSTIPRATOR</LocID>             <Text>ไม่มีแรงบันดาลใจ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DEMOTIVATOR</LocID>             <Text>รำคาญ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_PATIENT_CURED</LocID>           <Text>ได้รับการรักษา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_FIRED</LocID>                   <Text>ไล่ออก</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_USED</LocID>             <Text>need reduced</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_NOT_USED</LocID>         <Text>need critical</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_EATEN</LocID>              <Text>belly filled</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_USED</LocID>             <Text>ความต้องการต่ำลง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TOILET_NOT_USED</LocID>         <Text>ความต้องการวิกฤติ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_EATEN</LocID>              <Text>ท้องอิ่ม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_FOOD_NOT_EATEN</LocID>          <Text>หิว</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_BOREDOM_REDUCED</LocID>         <Text>entertained</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_BOREDOM_REDUCED</LocID>         <Text>เพลิดเพลินใจ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_RESTED</LocID>                  <Text>พักผ่อน</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_TIRED</LocID>                   <Text>tired</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_TIRED</LocID>                   <Text>เหนื่อย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_COMFORTABLE</LocID>             <Text>สะดวกสบาย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_DISCOMFORTABLE</LocID>          <Text>ไม่สะดวกสบาย</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH_STANDING</LocID>      <Text>standing lunch</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH</LocID>               <Text>proper lunch</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_ROUGH_NIGHT</LocID>              <Text>rough night</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_UNRELEASED</LocID>              <Text>unreleased</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH_STANDING</LocID>      <Text>อาหารเที่ยง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_HAD_LUNCH</LocID>               <Text>อาหารเที่ยงอย่างดี</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_ROUGH_NIGHT</LocID>              <Text>คืนที่ยากลำบาก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_UNRELEASED</LocID>              <Text>ไม่ได้กลับบ้าน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_GOING_HOME</LocID>              <Text>กลับบ้าน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_COULDNT_DRY_HANDS</LocID>       <Text>ไม่สามาารถเป่ามือให้แห้งได้</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_UGLY_ENVIRONMENT</LocID>        <Text>โรงพยาบาลไม่สวยเลย</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_SHOCKED</LocID>                 <Text>shocked</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_BIG_COMFORT</LocID>             <Text>has modern bed</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_SHOCKED</LocID>                 <Text>ช๊อค</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_BIG_COMFORT</LocID>             <Text>มีเตียงทันสมัย</Text>  </GameDBLocalizedString>
 
             <!--  -->
-            <GameDBLocalizedString>      <LocID>SAT_MOD_CARED_FOR</LocID>               <Text>fast prescribing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_NEGLECTED</LocID>               <Text>slow prescribing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_STAFF</LocID>              <Text>nice staff</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_MEAN_STAFF</LocID>              <Text>mean staff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_CARED_FOR</LocID>               <Text>สั่งจ่ายยาได้อย่างรวดเร็ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NEGLECTED</LocID>               <Text>สั่งจ่ายยาช้า</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NICE_STAFF</LocID>              <Text>สตาฟนิสัยดี</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_MEAN_STAFF</LocID>              <Text>สตาฟนิสัยไม่ดี</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_PRODUCTIVE</LocID>              <Text>ขยัน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_DOUBTFUL</LocID>                <Text>โง่</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_MOD_DEPRESSED</LocID>               <Text>depressed</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_DEPRESSED</LocID>               <Text>ไม่มีความสุข</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_HUNGOVER</LocID>                <Text>เมาค้าง</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>SAT_MOD_NONE</LocID>                    <Text>no modifiers</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DISC_DISCOMFORT_NONE</LocID>            <Text>no discomfort</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_NONE</LocID>                    <Text>ไม่มี modifiers</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DISC_DISCOMFORT_NONE</LocID>            <Text>ไม่มีความไม่สบายกายใจ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DISC_DISCOMFORT_UNKNOWN</LocID>         <Text>ไม่ทราบ</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>GENDER_MALE</LocID>                     <Text>ชาย</Text>  </GameDBLocalizedString>
@@ -196,9 +197,9 @@
             <GameDBLocalizedString>      <LocID>HAZARD_SUPPRESSED</LocID>               <Text>สูงมาก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HAZARD_KILLED_PATIENT</LocID>           <Text>ฆ่าผู้ป่วย</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>SYMPTOM_MOBILE</LocID>                  <Text>Mobile</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYMPTOM_IMOBILE</LocID>                 <Text>Immobile</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYMPTOM_INTUBATED</LocID>               <Text>Intubated</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOM_MOBILE</LocID>                  <Text>เคลื่อนที่ได้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOM_IMOBILE</LocID>                 <Text>เคลื่อนที่ไม่ได้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYMPTOM_INTUBATED</LocID>               <Text>ใส่ท่อช่วยหายใจ</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>SENT_HOME</LocID>                       <Text>ส่งกลับบ้าน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED</LocID>                    <Text>นอนโรงพยาบาล</Text>  </GameDBLocalizedString>
@@ -210,25 +211,25 @@
             <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_PATIENTS</LocID>             <Text>เปิดโรงพยาบาล</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_LUNCH</LocID>        <Text>ข้าวกลางวัน - ผู้ป่วย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SCHEDULE_STAFF_LUNCH</LocID>                        <Text>ข้าวกลางวัน - พนักงาน</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SCHEDULE_DOCTORS_ROUNDS</LocID>                     <Text>Doctor's rounds</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SCHEDULE_NURSE_PILLS_MORNING</LocID>                <Text>Morning medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SCHEDULE_NURSE_PILLS_EVENING</LocID>                <Text>Evening medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SCHEDULE_PATIENTS_PILLS_MORNING</LocID>             <Text>Morning medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SCHEDULE_PATIENTS_PILLS_EVENING</LocID>             <Text>Evening medicine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_DOCTORS_ROUNDS</LocID>                     <Text>รอบตรวจหมอ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_NURSE_PILLS_MORNING</LocID>                <Text>ยาเช้า</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_NURSE_PILLS_EVENING</LocID>                <Text>ยาตอนเย็น</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_PATIENTS_PILLS_MORNING</LocID>             <Text>ยาตอนเช้า</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_PATIENTS_PILLS_EVENING</LocID>             <Text>ยาตอนเย็น</Text>  </GameDBLocalizedString>
 
             <!-- Stabilization localization -->
-            <GameDBLocalizedString>      <LocID>STABILIZATION_TEXT</LocID>                          <Text>Stabilization</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STABILIZATION_TEXT</LocID>                          <Text>การทำให้คงที่</Text>  </GameDBLocalizedString>
 
             <!-- Patient states -->
-            <GameDBLocalizedString>      <LocID>Spawned</LocID>                                     <Text>Spawned</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Spawned</LocID>                                     <Text>เกิด</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>Idle</LocID>                                        <Text>ว่าง</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>GoingToReception</LocID>                            <Text>ไปที่โต๊ะต้อนรับ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>GoingToReceptionist</LocID>                         <Text>Going to receptionist</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ExaminedAtReception</LocID>                         <Text>At reception</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToReceptionist</LocID>                         <Text>กำลังไปที่ประชาสัมพันธ์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ExaminedAtReception</LocID>                         <Text>อยู่ที่ประชาสัมพันธ์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FindQueueMachine</LocID>                            <Text>กำลังไปห้องรอ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>GoToQueueMachine</LocID>                            <Text>กำลังไปห้องรอ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UseQueueMachine</LocID>                             <Text>กำลังไปห้องรอ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>Wandering</LocID>                                   <Text>Wandering</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Wandering</LocID>                                   <Text>เดินไปรอบๆ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>GoingToWaitingRoom</LocID>                          <Text>กำลังไปห้องรอ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WaitingGoingToChair</LocID>                         <Text>กำลังไปที่เก้าอี้</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WaitingSitting</LocID>                              <Text>กำลังรอ</Text>  </GameDBLocalizedString>
@@ -236,156 +237,156 @@
             <GameDBLocalizedString>      <LocID>WaitingBeingCalled</LocID>                          <Text>ถึงคิว</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>FulfillingNeeds</LocID>                             <Text>กำลังเติมความต้องการ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>GoingToDoctor</LocID>                               <Text>ไปหาหมอ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BeingExamined</LocID>                               <Text>Examined</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BeingTreated</LocID>                                <Text>Treated</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BlockedByAmbiguousResults</LocID>                   <Text>Ambiguous results</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BlockedByNoTreatment</LocID>                        <Text>Can't be treated</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>BlockedByComplicatedDiagnosis</LocID>               <Text>Complicated diagnosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>Leaving</LocID>                                     <Text>Leaving</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>Left</LocID>                                        <Text>Left</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OverriddenByHospitalization</LocID>                 <Text>Hospitalized</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CallOnCallRoomDoctor</LocID>                        <Text>Calling doctor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WaitForOnCallRoomDoctor</LocID>                     <Text>Waiting for doctor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>GoingToStatLab</LocID>                              <Text>Going to STAT lab</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BeingExamined</LocID>                               <Text>ตรวจแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BeingTreated</LocID>                                <Text>รักษาแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BlockedByAmbiguousResults</LocID>                   <Text>ผลที่ไม่ชัดเจน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BlockedByNoTreatment</LocID>                        <Text>ไม่สามารถรักษาได้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BlockedByComplicatedDiagnosis</LocID>               <Text>การวินิจฉัยที่ซับซ้อน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Leaving</LocID>                                     <Text>กำลังไป</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>Left</LocID>                                        <Text>ไปแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OverriddenByHospitalization</LocID>                 <Text>รักษาพยาบาล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CallOnCallRoomDoctor</LocID>                        <Text>เรียกแพทย์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitForOnCallRoomDoctor</LocID>                     <Text>กำลังรอแพทย์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToStatLab</LocID>                              <Text>กำลังไปที่ STAT แล็บ</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>Collapsing</LocID>                                  <Text>ล้มลง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>GoingToCollapse</LocID>                             <Text>รู้... สึก... ไม่... สบ....!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToCollapse</LocID>                             <Text>รู้... สึก... ไม่... สบา....!</Text>  </GameDBLocalizedString>
 
             <!-- Hospitalization states -->
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_Idle</LocID>                           <Text>ว่าง</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_GoingToBed</LocID>                     <Text>ไปที่เตียง</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_InBed</LocID>                          <Text>นอนเล่น</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FulfillingNeeds</LocID>                <Text>filling needs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FillingFreeTime</LocID>                <Text>filling free time</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FillingFreeTimeLying</LocID>           <Text>filling free time</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Eating</LocID>                         <Text>eating</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Sleeping</LocID>                       <Text>sleeping</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BlockedByAmbiguousResults</LocID>      <Text>ambiguous diagnosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BlockedByNoTreatment</LocID>           <Text>no treatment available</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByNurseCheckUp</LocID>        <Text>checked by a nurse</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByDoctorsRounds</LocID>       <Text>checked by a doctor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByMedicine</LocID>            <Text>getting medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Interrupted</LocID>                    <Text>interrupted</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingExamined</LocID>                  <Text>examined</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTreated</LocID>                   <Text>treated</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AfterExaminationCheck</LocID>          <Text>after examination</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AfterTreatmentCheck</LocID>            <Text>after treatment</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_DeliveredByAmbulance</LocID>           <Text>transferred from ambulance</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromAmbulance</LocID>  <Text>transferred from ambulance</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToTreatment</LocID>    <Text>transported to treatment</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromTreatment</LocID>  <Text>transported from treatment</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToExamination</LocID>  <Text>transported to examination</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromExamination</LocID><Text>transported from examination</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedBackToRoom</LocID>     <Text>transported to room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_GoingToCollapse</LocID>                <Text>collapsing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Collapsing</LocID>                     <Text>collapsing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_CollapsingInBed</LocID>                <Text>collapsing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FindNewBed</LocID>                     <Text>waiting for bed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBed</LocID>                  <Text>waiting for bed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForStabilization</LocID>        <Text>waiting for stabilization</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingStabilized</LocID>                <Text>undergoing stabilization</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForTransport</LocID>            <Text>waiting for transport</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeReleased</LocID>            <Text>waiting to be released</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForRoomFix</LocID>              <Text>in a broken room</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_NoHospitalization</LocID>              <Text>waiting for hospitalization</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_TransportedAway</LocID>                <Text>transported away</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Leaving</LocID>                        <Text>leaving</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Dead</LocID>                           <Text>dead</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FulfillingNeeds</LocID>                <Text>เติมเต็มความต้องการ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FillingFreeTime</LocID>                <Text>กำลังใช้เวลาว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FillingFreeTimeLying</LocID>           <Text>กำลังใช้เวลาว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Eating</LocID>                         <Text>กำลังกินอาหาร</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Sleeping</LocID>                       <Text>หลับอยู่</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BlockedByAmbiguousResults</LocID>      <Text>การวินิจฉัยไม่ชัดเจน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BlockedByNoTreatment</LocID>           <Text>ไม่มีการรักษาที่ใช้ได้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByNurseCheckUp</LocID>        <Text>ตรวจโดยพยาบาลแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByDoctorsRounds</LocID>       <Text>ตรวจโดยหมอแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByMedicine</LocID>            <Text>กำลังเอายา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Interrupted</LocID>                    <Text>ถูกรบกวน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingExamined</LocID>                  <Text>ตรวจแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTreated</LocID>                   <Text>รักษาแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AfterExaminationCheck</LocID>          <Text>หลังจากการตรวจ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AfterTreatmentCheck</LocID>            <Text>หลังจาการรักษา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_DeliveredByAmbulance</LocID>           <Text>ถูกย้ายมาจากรถพยาบาล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromAmbulance</LocID>  <Text>ถูกย้ายมาจากรถพยาบาล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToTreatment</LocID>    <Text>เคลื่อนย้ายพื่อไปรักษา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromTreatment</LocID>  <Text>เคลื่อนย้ายจากการรักษา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToExamination</LocID>  <Text>ส่งไปทำการตรวจ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedFromExamination</LocID><Text>ส่งมาจากการตรวจ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedBackToRoom</LocID>     <Text>ส่งไปที่ห้อง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_GoingToCollapse</LocID>                <Text>กำลังทรุดตัวลง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Collapsing</LocID>                     <Text>กำลังทรุดตัวลง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_CollapsingInBed</LocID>                <Text>อาการทรุดลง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_FindNewBed</LocID>                     <Text>กำลังรอเตียง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForBed</LocID>                  <Text>กำลังรอเตียง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForStabilization</LocID>        <Text>กำลังรอเพื่อที่จะทำให้เสถียร</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingStabilized</LocID>                <Text>กำลังทำให้เสถียร</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForTransport</LocID>            <Text>กำลังรอที่จะถูกเคลื่อนย้าย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeReleased</LocID>            <Text>รอที่จะกลับบ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForRoomFix</LocID>              <Text>อยู่ในห้องพังๆ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_NoHospitalization</LocID>              <Text>กำลังรอที่จะเข้ารับการรักษาพยาบาล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_TransportedAway</LocID>                <Text>ถูกย้ายไปที่อื่น</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Leaving</LocID>                        <Text>กำลังจากไป</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_Dead</LocID>                           <Text>เสียชีวิต</Text>  </GameDBLocalizedString>
 
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT</LocID>          <Text>Diagnostics / observation</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY</LocID>          <Text>Surgery / trauma</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ASSIST</LocID>                    <Text>Assist at surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</LocID>            <Text>Anesthesiology at surgery</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_CARE</LocID>                      <Text>Patient care</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_TRANSFERS</LocID>                 <Text>Patient transfers</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE</LocID>                     <Text>Nurse - surgery</Text>  </GameDBLocalizedString>
-            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB</LocID>    <Text>Clinic patients</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_CLEANING</LocID>                          <Text>Cleaning</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT</LocID>          <Text>การวินิจฉัย / การสังเกต</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY</LocID>          <Text>ศัลยกรรม / บอบช้ำ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ASSIST</LocID>                    <Text>ช่วยในการผ่าตัด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</LocID>            <Text>วิสัญญีวิทยา ณ ศัลยกรรม</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_CARE</LocID>                      <Text>ดูแลคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PATIENT_TRANSFERS</LocID>                 <Text>เคลื่อนย้ายคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_SURGERY_NURSE</LocID>                     <Text>พยาบาล - ศัลยกรรม</Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB</LocID>    <Text>คนไข้คลินิก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_CLEANING</LocID>                          <Text>กำลังทำความสะอาด</Text>  </GameDBLocalizedString>
 
             <!-- Doctor states -->
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Idle</LocID>                           <Text>Idle</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FinishedProcedure</LocID>              <Text>Idle</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingToWorkPlace</LocID>               <Text>Going to workplace</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FulfilingNeeds</LocID>                 <Text>Filling needs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FilingReports</LocID>                  <Text>Writing reports</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FillingFreeTime</LocID>                <Text>Filling free time</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenByProcedureScript</LocID>     <Text>Performing:</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenReservedForProcedure</LocID>  <Text>Reserved for:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_DoctorsRounds</LocID>                  <Text>Doing patient rounds</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingHome</LocID>                      <Text>Going home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_AtHome</LocID>                         <Text>At home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Commuting</LocID>                      <Text>Commuting</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FiredAtHome</LocID>                    <Text>Fired</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Idle</LocID>                           <Text>ว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FinishedProcedure</LocID>              <Text>ว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingToWorkPlace</LocID>               <Text>กำลังไปที่ทำงาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FulfilingNeeds</LocID>                 <Text>เติมเต็มความต้องการ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FilingReports</LocID>                  <Text>กำลังเขียนรายงาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FillingFreeTime</LocID>                <Text>กำลังใช้เวลาว่าง</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenByProcedureScript</LocID>     <Text>กำลังทำ:</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>DOCTOR_STATE_OverridenReservedForProcedure</LocID>  <Text>สำรองไว้เพื่อ:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_DoctorsRounds</LocID>                  <Text>กำลังออกเยียมคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_GoingHome</LocID>                      <Text>กำลังกลับบ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_AtHome</LocID>                         <Text>อยู่ที่บ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Commuting</LocID>                      <Text>กำลังเดินทาง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_FiredAtHome</LocID>                    <Text>โดนไล่ออก</Text>  </GameDBLocalizedString>
 
             <!-- Nurse states -->
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_Idle</LocID>                            <Text>Idle</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_FinishedProcedure</LocID>               <Text>Idle</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_FinishedProcedureWaitWithPatient</LocID><Text>Waiting with patient</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingToWorkplace</LocID>                <Text>Going to workplace</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringFood</LocID>                  <Text>Delivering food</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_PatientCheckUp</LocID>                  <Text>Checking patients</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringMedicine</LocID>              <Text>Delivering medicine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_FulfillingNeeds</LocID>                 <Text>Filling needs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_FillingFreeTime</LocID>                 <Text>Filling free time</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenByProcedureScript</LocID>      <Text>Performing:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>       <Text>Getting a stretcher</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>        <Text>Moving a stretcher</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>     <Text>Returning stretcher</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReservedForProcedure</LocID>   <Text>Reserved for:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingHome</LocID>                       <Text>Going home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_AtHome</LocID>                          <Text>At home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_Commuting</LocID>                       <Text>Commuting</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NURSE_STATE_FiredAtHome</LocID>                     <Text>Fired</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_Idle</LocID>                            <Text>ว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FinishedProcedure</LocID>               <Text>ว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FinishedProcedureWaitWithPatient</LocID><Text>กำลังรอกับคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingToWorkplace</LocID>                <Text>กำลังเดินทางไปที่ทำงาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringFood</LocID>                  <Text>กำลังส่งอาหาร</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_PatientCheckUp</LocID>                  <Text>กำลังตรวจคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_DeliveringMedicine</LocID>              <Text>กำลังส่งยา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FulfillingNeeds</LocID>                 <Text>เติมเต็มความต้องการ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FillingFreeTime</LocID>                 <Text>กำลังใช้เวลาว่าง</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenByProcedureScript</LocID>      <Text>กำลังทำ:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>       <Text>กำลังไปเอาเปล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>        <Text>กำลังเคลื่อนเปล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>     <Text>กำลังนำเปลไปเก็บ</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReservedForProcedure</LocID>   <Text>สำรองไว้เพื่อ:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_GoingHome</LocID>                       <Text>กำลังกลับบ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_AtHome</LocID>                          <Text>อยู่ที่บ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_Commuting</LocID>                       <Text>กำลังเดินทาง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_FiredAtHome</LocID>                     <Text>ถูกไล่ออก</Text>  </GameDBLocalizedString>
 
             <!-- Janitor states -->
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AtHome</LocID>                        <Text>At home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FiredAtHome</LocID>                   <Text>Fired</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingHome</LocID>                     <Text>Going home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingToWorkplace</LocID>              <Text>Going to workplace</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Walking</LocID>                       <Text>Cleaning</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToCart</LocID>                 <Text>Cleaning</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToCartToNextRoom</LocID>       <Text>Cleaning</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToNextRoom</LocID>             <Text>Cleaning</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FulfillingNeeds</LocID>               <Text>Filling needs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Cleaning</LocID>                      <Text>Cleaning</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingToReturnCart</LocID>             <Text>Returning cart</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_ReturningCart</LocID>                 <Text>Returning cart</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AtHome</LocID>                        <Text>อยู่ที่บ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FiredAtHome</LocID>                   <Text>ถูกไล่ออก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingHome</LocID>                     <Text>กำลังกลับบ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingToWorkplace</LocID>              <Text>กำลังไปที่ทำงาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Walking</LocID>                       <Text>กำลังทำความสะอาด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToCart</LocID>                 <Text>กำลังทำความสะอาด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToCartToNextRoom</LocID>       <Text>กำลังทำความสะอาด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_WalkingToNextRoom</LocID>             <Text>กำลังทำความสะอาด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_FulfillingNeeds</LocID>               <Text>เติมเต็มความต้องการ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Cleaning</LocID>                      <Text>กำลังทำความสะอาด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GoingToReturnCart</LocID>             <Text>กำลังไปคืนถัง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_ReturningCart</LocID>                 <Text>กำลังไปคืนถัง</Text>  </GameDBLocalizedString>
 
             <!-- Technologist states -->
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Idle</LocID>                     <Text>Idle</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToWorkplace</LocID>         <Text>Going to workplace</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FulfillingNeeds</LocID>          <Text>Filling needs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FillingFreeTime</LocID>          <Text>Filling free time</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenByProcedureScript</LocID><Text>Performing:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingHome</LocID>                <Text>Going home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_AtHome</LocID>                   <Text>At home</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Commuting</LocID>                <Text>Commuting</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FiredAtHome</LocID>              <Text>Fired</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenReservedForProcedure</LocID><Text>Reserved for:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSample</LocID>           <Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSampleFromHospitalizedPatient</LocID><Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_TakingSample</LocID>             <Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ProcessingSampleFromPatient</LocID><Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToStoreSampleFromPatient</LocID><Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoringSampleFromPatient</LocID> <Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_SampleFromPatientStored</LocID>  <Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ReturningWithSample</LocID>      <Text>Handling samples</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StartWritingNotes</LocID>        <Text>Processing results</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StopWritingNotes</LocID>         <Text>Processing results</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>Running tests</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>Running tests</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>Running tests</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Idle</LocID>                     <Text>ว่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToWorkplace</LocID>         <Text>กำลังไปที่ที่ทำงาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FulfillingNeeds</LocID>          <Text>เติมเต้มความต้องการ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FillingFreeTime</LocID>          <Text>เติมเต็มความต้อง</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenByProcedureScript</LocID><Text>กำลังทำ:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingHome</LocID>                <Text>กำลังกลับบ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_AtHome</LocID>                   <Text>อยู่ที่บ้าน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Commuting</LocID>                <Text>กำลังเดินทาง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_FiredAtHome</LocID>              <Text>ถูกไล่ออก</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_OverridenReservedForProcedure</LocID><Text>สำรองไว้เพื่อ:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSample</LocID>           <Text>กำลังไปเอาตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingForSampleFromHospitalizedPatient</LocID><Text>กำลังไปเอาตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_TakingSample</LocID>             <Text>กำลังเก็บตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ProcessingSampleFromPatient</LocID><Text>กำลังจัดการตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToStoreSampleFromPatient</LocID><Text>กำลังไปจัดเก็บตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoringSampleFromPatient</LocID> <Text>กำลังจัดการตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_SampleFromPatientStored</LocID>  <Text>กำลังจัดการตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_ReturningWithSample</LocID>      <Text>กำลังจัดการตัวอย่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StartWritingNotes</LocID>        <Text>หำลังดำเนินการผลทดสอบ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StopWritingNotes</LocID>         <Text>กำลังดำเนินการผลทดสอบ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_GoingToEquipment</LocID>         <Text>กำลังทดสอบ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_UsingEquipment</LocID>           <Text>กำลังทดสอบ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_StoppedUsingEquipment</LocID>    <Text>กำลังทดสอบ</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <GameDBLocalizedString>      <LocID>HAZARD_POSITIVE</LocID>                             <Text>Positive</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SAT_HAD_COFFEE</LocID>                              <Text>had coffee</Text>  </GameDBLocalizedString>
-            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB_FOR_HOSPITALIZED</LocID>              <Text>Hospitalized patients</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_BREAKFAST</LocID>    <Text>Patients breakfast</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_DINNER</LocID>       <Text>Patients dinner</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HAZARD_POSITIVE</LocID>                             <Text>เป็นบวก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_HAD_COFFEE</LocID>                              <Text>ดื่มกาแฟ</Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>EMPL_ROLE_LAB_FOR_HOSPITALIZED</LocID>              <Text>คนไข้นอนโรงพยาบาล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_BREAKFAST</LocID>    <Text>อาหารเช้าคนไข้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCHEDULE_HOSPITALIZED_PATIENTS_DINNER</LocID>       <Text>อาหารเย็นคนไข้</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadWaitingForTransport</LocID>  <Text>lost case waiting for transport</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadTransportedAway</LocID>      <Text>lost case transported away</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadIdle</LocID>                 <Text>lost case transported away</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadWaitingForTransport</LocID>  <Text>เคสที่สูญเสียกำลังรอการเคลื่อนย้าย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadTransportedAway</LocID>      <Text>เคสที่สูญเสียถูกย้ายไปแล้ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_AlmostDeadIdle</LocID>                 <Text>เคสที่สูญเสียถูกย้ายไปแล้ว</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>

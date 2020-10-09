@@ -6,6 +6,7 @@
         
         <Contributors>
             <Name>Oxymoron Games</Name>
+            <Name>AlexChen</Name>
         </Contributors>
 
         <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
@@ -19,7 +20,7 @@
             <GameDBLocalizedString>      <LocID>START</LocID>                                    <Text>開始</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>CHECK_SAVE</LocID>                               <Text>檢查存檔</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>CAN_NOT_BE_LOADED_MODS</LocID>                   <Text>此存檔使用目前未安裝的模組/附加內容並且無法被載入。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_NOT_BE_LOADED_MODS</LocID>                   <Text>此存檔使用目前未安裝的模組/附加內容 因此無法被載入。</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>GAME_SAVED</LocID>                               <Text>已存檔。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SCENARIO_CREATED</LocID>                         <Text>已創建情境。</Text>  </GameDBLocalizedString>
@@ -48,7 +49,7 @@
             <GameDBLocalizedString>      <LocID>SAVED_WITH_ADDONS</LocID>                        <Text>存檔時使用附加內容：</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ADDON_NOT_INSTALLED</LocID>                      <Text>（未安裝）</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>TREATMENT_HOSPITALIZATION_UNAVAILABLE</LocID>    <Text>沒有治療所需的住院設備。查看免費床位或是嘗試較高的住院優先順序。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATMENT_HOSPITALIZATION_UNAVAILABLE</LocID>    <Text>沒有治療所需的住院設備。請檢查是否有可用床位或者將患者移至更高照護優先度的病房。</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_PLACE</LocID>            <Text>設置樓層</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_DELETE</LocID>           <Text>刪除樓層</Text>  </GameDBLocalizedString>
@@ -65,16 +66,16 @@
             <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_DEFAULT_COLOR</LocID>   <Text>全灰</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIFICATIONS_RESTORE_DEFAULT_COLORS</LocID>     <Text>恢復顏色</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS_ALL_DAY</LocID>                <Text>病患滿意度（來訪中與已離去）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS_ALL_DAY</LocID>                <Text>病患滿意度（就醫中與已離院）</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>UI_ROOM_PLANNING_ONLY</LocID>                    <Text>限計畫\n（不可用於地基）</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>TOOLTIP_REQUIRED_HOSPITALIZATION</LocID>         <Text>需要的住院治療：</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_REQUIRED_HOSPITALIZATION</LocID>         <Text>需要住院治療：</Text>  </GameDBLocalizedString>
             
             <!-- Insurance objectives -->
             <GameDBLocalizedString>      <LocID>SAVE_PATIENT_AFTER_COLLAPSES</LocID>                           <Text>倒下 {1} 次後拯救病患</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>           <Text>為任意專科部門開啟診所</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>  <Text>為任意專科部門開啟住院治療</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>           <Text>使任意專科部門門診開張</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>  <Text>允許在任意專科部門住院治療</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERFORM_SURGERY</LocID>                                        <Text>進行 {1} 次手術</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PRESTIGE_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>                 <Text>使任意專科部門達到 {1} 聲望</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_ANY_SPECIALIZED_DEPARTMENT</LocID> <Text>每天在任意專科部門治療 {1} 名病患</Text>  </GameDBLocalizedString>
@@ -97,7 +98,7 @@
             <GameDBLocalizedString>      <LocID>PURCHASE_AMBULANCES</LocID>                      <Text>購買救護車</Text>  </GameDBLocalizedString>
                  
             <!-- Employee's card  roles tooltips -->
-            <GameDBLocalizedString>      <LocID>TOOLTIP_MISSING_SPECIALIZATION</LocID>           <Text>無法啟動，員工並沒有這方面的專業。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MISSING_SPECIALIZATION</LocID>           <Text>無法允許，員工並沒有這方面的專業能力。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_ONLY_SPECIALIZATION</LocID>              <Text>員工只有一個可用角色，因此無法關閉</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_CLINIC_PATIENTS</LocID><Text>每天會有一定數量的病患來到診所。\n如果醫院有不好的聲望，病患數量將會減少。</Text>  </GameDBLocalizedString>
            
@@ -108,35 +109,35 @@
             <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_HOSPITALIZATION</LocID>         <Text>日班：住院治療</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC_HOSPITALIZATION</LocID><Text>夜班：住院治療</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGIST</LocID>             <Text>放射師</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGISTS</LocID>            <Text>放射師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGIST</LocID>             <Text>醫事放射師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGISTS</LocID>            <Text>醫事放射師</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY_NIGH</LocID>       <Text>職員日/夜</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_KEYBOARD_CONTROLS</LocID>        <Text>鍵盤控制</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>LOADING_V2</LocID>                               <Text>載住中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_V2</LocID>                               <Text>載入中</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_ICU</LocID>                          <Text>加護病房只接受診斷成功、倒下並且無法前往創傷中心的病患。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ICU</LocID>                          <Text>加護病房只接受有完整診斷的患者、倒下且沒有明確診斷的患者會前往急救區。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOADING_TIP_NURSES</LocID>                       <Text>如果檢查和治療需等待長時間後才能開始，請檢查是否有足夠的護理師來進行病患運輸。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_HDU</LocID>                          <Text>特別加護病房的住院治療大多用於無法行動的病患。它提供更頻繁的護理師檢查並給予倒下病患更高的生存機會。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP</LocID>                           <Text>要進行手術，你需要一支擁有以下專業的團隊：1x外科（醫生）、1x專科（醫生）、1x麻醉學（醫生）、1x手術（護理師）、護理照護（護理師）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_MANAGEMENT</LocID>                   <Text>清潔工會將管理模式中沒有被標記的房間視為最低優先順序。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUILDING</LocID>                     <Text>你可以使用地基工具來擴展地面上的樓層，它們甚至能夠用來穿越下方樓層。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS</LocID>                     <Text>當清潔工清理完自己的部門時，他們會去幫助其他的部門。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_MOVING_OBJ</LocID>                   <Text>你可以移動擁有配件的物品（如：有電腦的辦公桌），請按住「CTRL」來選取配件。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HDU</LocID>                          <Text>高依賴病房的住院治療大多用於無法行動的病患。它提供更為頻繁的護理照護，並給予倒下病患更高的生存機會。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP</LocID>                           <Text>要進行手術，你需要一支擁有以下專業的醫療團隊：1x外科（醫師）、1x專科（醫師）、1x麻醉學（醫師）、1x手術（護理師）、護理照護（護理師）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MANAGEMENT</LocID>                   <Text>工友會將沒有被標記在管理模式中的房間視為最低優先順序。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUILDING</LocID>                     <Text>你可以使用地基工具來擴展地面上的樓層，它們甚至能夠超越下方樓層的範圍。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS</LocID>                     <Text>當工友清理完自己的部門時，他們會去幫助其他的部門。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MOVING_OBJ</LocID>                   <Text>你可以移動擁有配件物品（如：有電腦的辦公桌）上的配件（如：電腦），請按住「CTRL」來選取上方配件。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOADING_TIP_RECEPTION</LocID>                    <Text>在檢傷時，檢傷護理師將為較嚴重的案例安排較高的優先順序。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOADING_TIP_COFFEE_MAKER</LocID>                 <Text>公共休息室竟然沒有咖啡機？真的假的？:)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_ROLES_CARD</LocID>                   <Text>為了最大化職員表現，你可以啟動/關閉特定角色。如：你可以打造一支專屬的手術團隊。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_OBSERVATION</LocID>                  <Text>將複雜的案子送往觀察區，這樣你的醫生就能繼續為診所的其他病人看診。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_HIRING_PERKS</LocID>                 <Text>想雇用員工嗎？記得查看他們的能力！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_DECORATIONS</LocID>                  <Text>小心布置裝飾品並確保環境整潔還讓員工和病患感到滿意。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ROLES_CARD</LocID>                   <Text>你可以透過啟動/關閉規劃員工擔任特定角色來增強專業度。如：你可以打造一支專屬的手術團隊。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OBSERVATION</LocID>                  <Text>將病情複雜的案例送往觀察區，這樣你的醫師就能繼續為診所的其他病人看診。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HIRING_PERKS</LocID>                 <Text>想雇用員工嗎？記得查看他們的特色！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DECORATIONS</LocID>                  <Text>小心地布置裝飾品並確保環境整潔能確保員工和病患感到滿意。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOADING_TIP_BUDGET_LOANS</LocID>                 <Text>沒錢了？你最高可以貸款 $500000。情況太糟糕的話，你也能夠出售多餘的器材或是裝飾品。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_UNAVAILABLE_EXM</LocID>              <Text>如果無法檢查或治療，你或許缺少特殊的房間或是器材，或者需要將病患送往其他部門。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_UNAVAILABLE_EXM</LocID>              <Text>如果無法檢查或治療，你或許在該部門缺少特殊的房間或是器材，或者需要將病患轉診前往其他部門。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOADING_TIP_GOOD_BOSS</LocID>                    <Text>好的主治醫生會讓你的員工更開心且更有效率。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_PRESTIGE</LocID>                     <Text>聲望將影響保險付款與病患數量。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PRESTIGE</LocID>                     <Text>聲望將影響保險付款與病患來診數量。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOADING_TIP_STAFF</LocID>                        <Text>你能夠在管理模式中左下角的板面開啟病患與職員列表。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOADING_TIP_BLUED_OBJ</LocID>                    <Text>物品變成藍色代表你缺少其他器材。當游標指向此物品時，需要的道具將會在建築板面中以螢光顯示。藍色箭頭將會幫助你將其放置在正確的位置上。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BLUED_OBJ</LocID>                    <Text>物品變成藍色代表你缺少其他器材。當游標指向此物品時，需要的道具將會在建築板面中以螢光顯示。藍色箭頭將會引導你將其放置在正確的位置上。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LOADING_TIP_DIA_TABLE</LocID>                    <Text>推測診斷列表會幫助你了解需要進行哪些檢查才能找出特定症狀。</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROOMS_SHARED</LocID>             <Text>共用房間</Text>  </GameDBLocalizedString>
@@ -155,12 +156,12 @@
             <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_NIGHT</LocID>        <Text>夜班工作量</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_STAFF</LocID>        <Text>當前職員工作量</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>WORKLOAD_ON_CALL_ROOM</LocID>                    <Text>待命房間</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_ON_CALL_ROOM</LocID>                    <Text>值班室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>WORKLOAD_NURSES_STATION</LocID>                  <Text>護理站</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PROCEDURES</LocID>            <Text>程序</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>MOST_FREQUENT_MODIFIERS</LocID>                  <Text>最常用的調整器：</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOST_FREQUENT_MODIFIERS</LocID>                  <Text>最常出現的心情影響因子：</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TREATED</LocID>                <Text>已治療</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_HOSPITALIZED</LocID>           <Text>已住院</Text>  </GameDBLocalizedString>
@@ -182,28 +183,28 @@
             <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_STABILIZATIONS</LocID>      <Text>穩定</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_SURGERIES</LocID>           <Text>手術</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_DAY_CLINIC</LocID>        <Text>安排診所夜班前，請先安排日班。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_EMERGENCY</LocID>         <Text>專科診所晚班需要急診夜班。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EMPLOYEE_IS_MISSING_SKILL</LocID>                <Text>選擇的員工沒有此房間所需要的專業。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NO_INTERNS_IN_ON_CALL_ROOM</LocID>               <Text>無法派遣實習生至待命房間。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_DAY_CLINIC</LocID>        <Text>安排門診夜班前，請先安排日班。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_EMERGENCY</LocID>         <Text>專科門診夜班需要先安排急診夜班人力。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_IS_MISSING_SKILL</LocID>                <Text>選擇的員工並不具有掌控此房間所需要的專業。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_INTERNS_IN_ON_CALL_ROOM</LocID>               <Text>你不能叫實習醫師自己在值班室值班。</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT_V2</LocID>               <Text>你沒有在時間內完成突發事件，或是一名病患被誤診、死亡或是被送走。今天或是在你成功完成另一個突發事件前，你的聲望將會降低。\n另外，你還被罰款：${1}</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_SELECT_DEPARTMENT</LocID>           <Text>選擇部門</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INGAME_HELP</LocID>                 <Text>遊戲內幫助</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_DELETE_BUILDING</LocID>             <Text>切換來刪除建造模式工具/關閉為鎖定的介面面板</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INGAME_HELP</LocID>                 <Text>小提示  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_DELETE_BUILDING</LocID>             <Text>切換來刪除建造模式工具/關閉未鎖定的介面面板</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02_DESCRIPTION_V2</LocID>         <Text>打造一個可運作的小型診所來探索各種建造功能。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION_V2</LocID>         <Text>了解管理醫院的規則並熟悉住院程序</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION_V2</LocID>         <Text>用你的技術來幫助這座效率不佳的醫院成長。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION_V2</LocID>         <Text>你能否帶領這座醫院還清債務？</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION_V2</LocID>         <Text>用您的技術來幫助這座效率不佳的醫院成長。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION_V2</LocID>         <Text>您能否帶領這座醫院還清債務？</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03_DESCRIPTION_V2</LocID>         <Text>放手一搏，立即開始爭取補助金！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION_V2</LocID>        <Text>考驗你的急診部門技術。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION_V2</LocID>        <Text>考驗你的普通外科部門技術。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION_V2</LocID>        <Text>考驗你的內科部門技術。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION_V2</LocID>        <Text>考驗你的急診部門技術。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION_V2</LocID>        <Text>考驗你的心臟科部門技術。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION_V2</LocID>        <Text>考驗你的神經科部門技術。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION_V2</LocID>        <Text>挑戰您急診醫學部的技術。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION_V2</LocID>        <Text>挑戰您一般外科部的技術。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION_V2</LocID>        <Text>挑戰您一般內科部的技術。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION_V2</LocID>        <Text>挑戰您骨科部的技術。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION_V2</LocID>        <Text>挑戰您心臟醫學部的技術。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION_V2</LocID>        <Text>挑戰您神經醫學部的技術。</Text>  </GameDBLocalizedString>
 
             <!-- Colors of notification messages in log and popups -->
             <GameDBLocalizedString>      <LocID>NOTIF_COLOR_RED</LocID>                          <Text>紅</Text>  </GameDBLocalizedString>
@@ -212,9 +213,9 @@
             <GameDBLocalizedString>      <LocID>NOTIF_COLOR_BLUE</LocID>                         <Text>藍</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_COLOR_DEFAULT</LocID>                      <Text>預設</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_COLOR</LocID>              <Text>切換訊息顏色</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_COLOR</LocID>              <Text>切換訊息底色</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED</LocID>                    <Text>要解鎖此突發事件按鈕，你必須先購買救護車並至少擁有一個運作中的以下部門（包含夜班診所）：{1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED</LocID>                    <Text>要解鎖此突發事件按鈕，你必須先購買救護車並至少擁有一個運作中的以下部門（包含夜班門診）：{1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED_INSURANCE</LocID>          <Text>用戶突發事件按鈕會在完成第二個 Quick Snap Care 保險公司目標後解鎖。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_LOCKED</LocID>        <Text>已鎖定或是已達簽約保險公司上限（3/3）。</Text>  </GameDBLocalizedString>
             
@@ -223,7 +224,7 @@
             
             <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
             <GameDBLocalizedString>      <LocID>NO_FUNDS</LocID>                                 <Text>資金不足</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_GROUND_FLOOR</LocID>            <Text>只能放在底樓</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_GROUND_FLOOR</LocID>            <Text>只能放在底層</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER</LocID>                <Text>電梯設計器</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER_DESCRIPTION</LocID>    <Text>在管理模式中進行設計時，此功能可以用來標記建造電梯的地方。</Text>  </GameDBLocalizedString>
@@ -247,25 +248,25 @@
             <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
             <!-- New and updated unclear department notifications  -->
             <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1</LocID>           <Text>此部門無法診斷病患！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1_TEXT</LocID>      <Text>部門似乎無法再做更多測試了，試著從推測診斷列表中選擇不同的選項或是開放更多測試。否則病患將會被送往其他醫院。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1_TEXT</LocID>      <Text>部門似乎無法再做更多檢查了，試著從推測診斷列表中選擇不同的選項或是開放更多檢查項目。否則病患將會被轉往其他醫院。</Text>  </GameDBLocalizedString>
                                                                                                      
             <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY</LocID>          <Text>病患正在被運輸至另一間醫院。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY_TEXT</LocID>     <Text>由於部門無法進行更多測試，診斷延誤太久了，病患現在將前往其他醫院。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY_TEXT</LocID>     <Text>由於部門無法進行更多檢查，診斷延誤太久了，病患現在將前往其他醫院。</Text>  </GameDBLocalizedString>
                                                                                                      
             <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS</LocID>         <Text>診所營運時段結束！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS_TEXT</LocID>    <Text>診所已經關門了，還有 {1} 名病患正在等待中。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS_TEXT</LocID>    <Text>診所已經關門了，還有 {1} 名病患正在候診中。</Text>  </GameDBLocalizedString>
                                                                                                      
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT</LocID>           <Text>病患等太久了，他要離開了！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT_TEXT</LocID>      <Text>診所病患等了太久還無法看診。\n如果有進行中的測試，病患將在隔天返回。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT_TEXT</LocID>      <Text>診所病患等了太久還無法看診。\n如果有進行中的檢查，病患將在隔天返回。</Text>  </GameDBLocalizedString>
                                                                                                      
             <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT</LocID>          <Text>病患正在離開中！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT_TEXT</LocID>     <Text>診所病患在醫院等了半天還無法接受治療或是住院。\n如果有進行中的測試，病患將在隔天返回。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT_TEXT</LocID>     <Text>診所病患在醫院等了半天還無法接受治療或是住院治療。\n如果有進行中的檢查，病患將在隔天返回。</Text>  </GameDBLocalizedString>
                                                                                                      
-            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN</LocID>                      <Text>診所現在將在晚上營運！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN_TEXT</LocID>                 <Text>診所現在將 24 小時接受病患。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN</LocID>                      <Text>門診現在將開始在晚上營運！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN_TEXT</LocID>                 <Text>門診現在將會 24 小時接受病患。</Text>  </GameDBLocalizedString>
                                                                                                      
-            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED</LocID>                    <Text>診所將停止在晚上營運！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED_TEXT</LocID>               <Text>沒有醫生在上夜班，診所現在只會在白天營運。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED</LocID>                    <Text>門診將停止在晚上營運！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED_TEXT</LocID>               <Text>沒有醫生在上夜班，門診現在只會在白天營運。</Text>  </GameDBLocalizedString>
                                                                                                      
             <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS</LocID>                  <Text>擔架不足！</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS_TEXT</LocID>             <Text>護理師正在抱怨{1}沒有足夠的擔架來運輸病患。</Text>  </GameDBLocalizedString>
@@ -277,15 +278,15 @@
             <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START_TEXT</LocID>                <Text>{1}</Text>  </GameDBLocalizedString>
                                                                                                      
             <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT</LocID>        <Text>病患不能離開觀察區！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT_TEXT</LocID>   <Text>病患應該前往{1}診所，但是它已經關門了。我們會嘗試讓病患在此部門中進行住院治療。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT_TEXT</LocID>   <Text>病患應該前往{1}門診，但是它已經關門了。我們會嘗試讓病患在此部門中進行住院治療。</Text>  </GameDBLocalizedString>
                                                                                                      
-            <GameDBLocalizedString>      <LocID>POPUP_OPEN_DEPARTMENT_STATISTIC</LocID>              <Text>看放統計數據</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_DEPARTMENT_STATISTIC</LocID>              <Text>看統計數據</Text>  </GameDBLocalizedString>
                                                                                                      
             <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH</LocID>                                <Text>找不到路徑</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH_TEXT</LocID>                           <Text>角色找不到路徑，可能是有東西擋住了路線。\n若是有其他路徑，角色會嘗試尋找它。記得檢查他們的路線上是否有缺少的門、被擋住的電梯或被封鎖的區域。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR</LocID>                   <Text>無可用診斷醫生</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR_TEXT</LocID>              <Text>{1}待命室中沒有可診斷住院病患的醫生。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR</LocID>                   <Text>無可用診斷醫師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR_TEXT</LocID>              <Text>{1}值班室中沒有可診斷住院病患的醫師。</Text>  </GameDBLocalizedString>
             
             <!-- RELATED FILE: StringTable[Language]Characters.xml -->
             <!-- New patient states  -->
@@ -298,7 +299,7 @@
             <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_2</LocID>            <Text>專業照護</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAT_MOD_UNTREATED</LocID>                            <Text>未治療</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>EMPLOYEE_WITHOUT_WORKSPACE</LocID>                   <Text>沒有工作空間的員工</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_WITHOUT_WORKSPACE</LocID>                   <Text>員工沒有工作位置</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>NOT_PRESCRIBABLE_DEPARTMENT</LocID>                  <Text>無法在此部門開藥</Text>  </GameDBLocalizedString>
 
@@ -307,8 +308,8 @@
 
             <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
             <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOOR_PLACEMENT</LocID>                  <Text><![CDATA[你成功準備了所有必要房間，但是你忘記安裝門了。在所有需要的地方<b><i>安裝門</i></b>。]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS_V2</LocID>              <Text><![CDATA[房間分為必要（紅色數字）和可選（綠色數字）。部門可以共用一些房間。<b><i>我們來建造醫生辦公室、候診間和廁所各一個</i></b>，這些是營運診所的必須品。]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES_V2</LocID>                   <Text>工作空間包含辦公桌、椅子和電腦，有了正確的組合，它們將會在管理模式中出現。你可以透過工作空間雇用職員。它們將會顯示日班與夜班的資訊。</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS_V2</LocID>              <Text><![CDATA[房間分為必要（紅色數字）和可選（綠色數字）。部門可以共用一些房間。<b><i>我們來建造診間、候診間和廁所各一個</i></b>，這些是營運診所的必須品。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES_V2</LocID>                   <Text>一個工作空間包含辦公桌、椅子和電腦，有了正確的組合，它們將會在管理模式中出現。你可以透過工作空間雇用職員。它們將會顯示日班與夜班的資訊。</Text> </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_V2</LocID>                       <Text><![CDATA[讓我們看看你的雇用選項。<b><i>點擊空的工作空間</i></b>（沒有頭像） ，來開啟雇用卡。]]></Text> </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO_V2</LocID>           <Text>你能透過點擊頭像來雇用職員。你也可也從職員卡中將職員委派至任何工作空間。在雇用職員後，你將能看見他們在工作空間中能扮演的角色。</Text> </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_V2</LocID>                <Text><![CDATA[讓我們來仔細查看你的職員。<b><i>開啟任意職員卡</i></b>。\n\n在管理模式中點擊使用中的工作空間或是在遊戲模式中直接點擊職員。]]></Text> </GameDBLocalizedString>
@@ -324,8 +325,8 @@
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION_1_1</LocID>           <Text><![CDATA[選擇你需要的<b><i>職業</i></b>。\n\n提示：必要職業會以紅色螢光顯示，建議職業將以黃色顯示。]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION_1_1</LocID>            <Text><![CDATA[選擇一名<b><i>可用職員</i></b>來將他委派至工作空間。\n\n提示：注意他們的能力。]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT_1_1</LocID>          <Text><![CDATA[你可以看見所有能夠<b><i>簽約</i></b>的保險公司。\n\n提示：同時只能簽下 3 個契約。]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO_1_1</LocID>              <Text><![CDATA[每家公司還會顯示它們將會送來多少名<b><i>病患</i></b>。\n\n提示：你可以透過提升公司目標來增加病患數量。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT_1_1</LocID>          <Text><![CDATA[你可以看見所有能夠<b><i>簽約</i></b>的保險公司。\n\n提示：同時最多只能簽下 3 個契約。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO_1_1</LocID>              <Text><![CDATA[每家公司還會顯示它們將會送來多少名<b><i>病患</i></b>。\n\n提示：你可以透過完成公司目標來增加病患數量。]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS_1_1</LocID>           	<Text><![CDATA[在特定的房間中，你能看見<b><i>工作量</i></b>，這代表過去 24 小時中的工作量。「無」代表員工沒有事做，「極高」代表職員工作量過大。\n\n提示：你可以在每個部門的統計數據中查看工作量總結。]]></Text>  </GameDBLocalizedString>
 
@@ -335,13 +336,13 @@
             <!--==================-->
             
             <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
-            <GameDBLocalizedString>      <LocID>DPT_LAB</LocID>                                      <Text>醫療實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_LAB</LocID>                                      <Text>檢驗醫學部</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB</LocID>                     <Text>血液實驗室</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB</LocID>                     <Text>血液學實驗室</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DESCRIPTION</LocID>         <Text>配備齊全的實驗室，能夠進行血液和血清的相關測試。\n\n最低職員需求：\n1x 技師</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB</LocID>                   <Text>微生物實驗室</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB</LocID>                   <Text>微生物學實驗室</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB_DESCRIPTION</LocID>       <Text>配備齊全的實驗室，能夠培養並測試各種檢體。\n\n最低職員需求：\n1x 技師</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB</LocID>                      <Text>組織實驗室</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB</LocID>                      <Text>組織學實驗室</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB_DESCRIPTION</LocID>          <Text>配備齊全的實驗室，能夠對各種檢體進行顯微鏡分析。\n\n最低職員需求：\n1x 技師</Text></GameDBLocalizedString>
 
 
@@ -353,56 +354,56 @@
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK_DESCRIPTION</LocID>             <Text>半個實驗桌。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET</LocID>                           <Text>實驗室檔案櫃</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET_DESCRIPTION</LocID>               <Text>實驗室裡的檔案櫃。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD</LocID>                             <Text>排氣罩</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD</LocID>                             <Text>通風櫥</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD_DESCRIPTION</LocID>                 <Text>特殊的實驗室器材，用來減少對有害或有毒氣體、蒸氣或粉塵的接觸。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES</LocID>                          <Text>玻璃器材－－點滴管</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES_DESCRIPTION</LocID>              <Text>一組玻璃器材和點滴管。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES</LocID>                          <Text>玻璃器皿－－滴定管</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES_DESCRIPTION</LocID>              <Text>一組玻璃器材和滴定管。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIST_LAB</LocID>       		         <Text>組織實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HEM_LAB</LocID>       			         <Text>血液實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MIC_LAB</LocID>       			         <Text>微生物實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAB_DPT</LocID>       			         <Text>醫療實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIST_LAB</LocID>       		         <Text>組織學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HEM_LAB</LocID>       			         <Text>血液學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MIC_LAB</LocID>       			         <Text>微生物學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAB_DPT</LocID>       			         <Text>檢驗醫學部</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_SMALL_ABBR</LocID>            <Text>血液實驗室 - 8 x 6</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_LARGE_ABBR</LocID>            <Text>血液實驗室 - 12 x 6</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_SMALL_ABBR</LocID>          <Text>微生物實驗室 - 8 x 6</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_LARGE_ABBR</LocID>          <Text>微生物實驗室 - 12 x 6</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_SMALL_ABBR</LocID>             <Text>組織實驗室 - 8 x 6</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_LARGE_ABBR</LocID>             <Text>組織實驗室 - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_SMALL_ABBR</LocID>            <Text>血液學實驗室 - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_LARGE_ABBR</LocID>            <Text>血液學實驗室 - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_SMALL_ABBR</LocID>          <Text>微生物學實驗室 - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_LARGE_ABBR</LocID>          <Text>微生物學實驗室 - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_SMALL_ABBR</LocID>             <Text>組織學實驗室 - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_LARGE_ABBR</LocID>             <Text>組織學實驗室 - 12 x 6</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_LAB</LocID>                  <Text>醫療實驗室檢體</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_LAB</LocID>                  <Text>檢驗醫學部模板</Text>  </GameDBLocalizedString>
 
             <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
             <!-- New descriptions of laboratory examinations
                  These are similar to the original descriptions (for example EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION), but with updated
                  names of the required rooms (Histology Lab, Hematology Lab or Microbiology Lab) 
             -->
-            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>           <Text>微生物採樣是從病患身上收集檢體（如：體液、痰、糞便）來進行深入分析。\n\n需要房間：微生物實驗室\n\n採樣：急診/一般手術/內科/精神科/加護病房\n\n需要器材：玻璃器材+排氣罩+微生物培養器+顯微鏡</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>            <Text>實驗室能夠透過培養病患身上取得的特定檢體來了解其中的細菌類別。\n\n需要房間：微生物實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION_1_1</LocID>                         <Text>一種手術程序，取出一些組織（如：肺臟、肝臟、腸子）來進行深入測試。\n\n需要房間：組織實驗室\n\n採樣：急診/一般手術/骨科/心臟科/精神科/加護病房\n\n需要器材：玻璃器材+實驗室分析儀+顯微鏡</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION_1_1</LocID>                          <Text>在顯微鏡下檢查透過活體組織切片，同時為更深入的測試進行各種準備。\n\n需要房間：組織實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION_1_1</LocID>                     <Text>收集病患血液檢體（動脈或靜脈）來進行額外分析或測試。\n\n需要房間：血液實驗室\n\n採樣：任何部門\n\n需要器材：玻璃器材+血液分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION_1_1</LocID>                      <Text>在實驗室分析血液檢體。\n\n需要房間：血液實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>從病患身上收集血液來進行血細胞計數（CBC）。\n\n需要房間：血液實驗室\n\n採樣：急診/一般手術/內科/骨科/神經科/加護病房\n\n需要器材：玻璃器材+血液分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION_1_1</LocID>                             <Text>血細胞計數（CBC）將計算血液中的所有血細胞來判斷這些細胞是否有增加或是減少。\n\n需要房間：血液實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION_1_1</LocID>            <Text>從病患身上收集糞便檢體來計算胰臟生產的彈性蛋白酶數量，這將指出胰臟的實際運作狀態。\n\n需要房間：血液實驗室\n\n採樣：急診/一般手術/加護病房\n\n需要器材：玻璃器材+放射免疫分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION_1_1</LocID>             <Text>衡量病患糞便檢體中的彈性蛋白酶數量，這將指出胰臟的實際運作狀態。\n\n需要房間：血液實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>從病患身上採集檢體並進行培養來判斷其中是否有真菌。\n\n需要房間：微生物實驗室\n\n採樣：急診/加護病房\n\n需要器材：玻璃器材+排氣罩+微生物培養器+顯微鏡</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>              <Text>實驗室能夠培養病患身上取得的特定檢體。\n\n需要房間：微生物實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>從病患身上收集生物檢體以供實驗室進行聚合酶連鎖反應分析。此檢測既快、便宜又準確。\n\n需要房間：血液實驗室\n\n採樣：急診/內科/神經科/加護病房\n\n需要器材：玻璃器材+熱循環儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION_1_1</LocID>                             <Text>聚合酶連鎖反應分析是一種快速檢測方式，它能夠找出細菌與病毒造成的感染性疾病。此檢測既快、便宜又準確。\n\n需要房間：血液實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>以大型針筒穿透腹壁採集腹腔液。\n\n需要房間：組織實驗室\n\n採樣：一般手術\n\n需要器材：玻璃器材+醫用離心機+實驗室分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>       <Text>透過生化測試來分析從腹腔收集的體液。\n\n需要房間：組織實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION_1_1</LocID>               <Text>為血清測試採集血液檢體。\n\n需要房間：血液實驗室\n\n採樣：急診/一般手術/內科/骨科/神經科/加護病房\n\n需要器材：玻璃器材+放射免疫分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION_1_1</LocID>                <Text>一種檢測抗體和抗原的特殊血液測試。抗體是一種人類免疫系統所製造的蛋白質，它能夠消滅病原體。\n\n需要房間：血液實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>將針頭刺入下背脊髓來採集少量腦脊液。\n\n需要房間：組織實驗室\n\n採樣：神經科\n\n需要器材：玻璃器材+醫用離心機+實驗室分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>在實驗室分析腦脊液的程序。\n\n需要房間：組織實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>                 <Text>收集病患糞便檢體來進行深入分析。\n\n需要房間：組織實驗室\n\n採樣：急診/一般手術/內科/加護病房\n\n需要器材：玻璃器材+糞便分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>                  <Text>分析病患糞便中的細菌、血液、寄生蟲等物質。\n\n需要房間：組織實驗室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>收集病患糞便檢體來進行深入分析。\n\n需要房間：組織實驗室\n\n採樣：急診/一般手術/內科/加護病房\n\n需要器材：玻璃器材+糞便分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>對尿液檢體進行生化分析。\n\n需要房間：組織實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>           <Text>從患者身上取得檢體以進行微生物學檢驗（如：體液、痰、糞便）來進行深入分析。\n\n需要房間：微生物學實驗室\n\n採樣：急診醫學部/一般外科部/一般內科部/神經醫學部/重症醫學部\n\n需要器材：玻璃器皿+排氣罩+微生物培養器+顯微鏡</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>            <Text>透過微生物學培養來確定患者體內是否有特定細菌的存在。\n\n需要房間：微生物學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION_1_1</LocID>                         <Text>用外科方式取下一部份病理組織以用於檢驗（如：肺臟、肝臟、腸子）來進行深入測試。\n\n需要房間：組織學實驗室\n\n採樣：急診醫學部/一般外科部/一般內科部/神經醫學部/重症醫學部\n\n需要器材：玻璃器皿+實驗室分析儀+顯微鏡</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION_1_1</LocID>                          <Text>將自外科方式取下一部份病理組織用於各種樣式的檢驗。\n\n需要房間：組織學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION_1_1</LocID>                     <Text>收集病患血液檢體（動脈或靜脈）來進行額外分析或測試。\n\n需要房間：血液學實驗室\n\n採樣：任何部門\n\n需要器材：玻璃器皿+血液分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION_1_1</LocID>                      <Text>在實驗室分析血液檢體。\n\n需要房間：血液學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>從病患身上收集血液來進行血細胞計數（CBC）。\n\n需要房間：血液學實驗室\n\n採樣：急診醫學部/一般外科部/一般內科部/神經醫學部/重症醫學部\n\n需要器材：玻璃器皿+血液分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION_1_1</LocID>                             <Text>全血檢查，又稱血常規檢查（CBC）將計算血液中的所有血細胞來判斷這些細胞是否有增加或是減少。\n\n需要房間：血液學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION_1_1</LocID>            <Text>從病患身上收集糞便檢體來計算胰臟生產的彈性蛋白酶數量，這將指出胰臟的實際運作狀態。\n\n需要房間：血液學實驗室\n\n採樣：急診醫學部/一般外科部/重症醫學部\n\n需要器材：玻璃器材+RIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION_1_1</LocID>             <Text>蒐集患者糞便以檢驗分泌於胰臟的彈性蛋白酶量，確認胰臟功能。\n\n需要房間：血液學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>蒐集患者身上各種檢體以確認患者身上是否帶有特定種類的真菌。\n\n需要房間：微生物學實驗室\n\n採樣：急診醫學部/重症醫學部\n\n需要器材：玻璃器皿+通風櫥+微生物培養器+顯微鏡</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>              <Text>實驗室透過培養患者檢體以確認患者身上是否帶有特定種類的真菌。\n\n需要房間：微生物學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>為聚合酶連鎖反應檢驗取得生物原料，此為快速、便宜且準確的檢驗方式。此檢測既快、便宜又準確。\n\n需要房間：血液學實驗室\n\n採樣：急診醫學部/一般內科部/神經醫學部/重症醫學部\n\n需要器材：玻璃器皿+熱循環儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION_1_1</LocID>                             <Text>聚合酶連鎖反應透過快速繁殖DNA以達到快速、便宜且準確檢測傳染病為病毒或為細菌型的效果。\n\n需要房間：血液學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>以大型針筒穿透腹壁採集腹腔液。\n\n需要房間：組織學實驗室\n\n採樣：一般外科部\n\n需要器材：玻璃器皿+醫用離心機+實驗室分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>       <Text>透過生化測試來分析從腹腔收集的體液。\n\n需要房間：組織學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION_1_1</LocID>               <Text>為血清測試採集血液檢體。\n\n需要房間：血液學實驗室\n\n採樣：急診醫學部/一般外科部/一般內科部/骨科部/神經醫學部/重症醫學部\n\n需要器材：玻璃器皿+RIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION_1_1</LocID>                <Text>這是一種特殊的血液檢查，專門尋找特定細菌或病毒的抗原和免疫系統所產生的抗體。\n\n需要房間：血液學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>透過腰椎穿刺取得部分脊隨液以用於後續檢驗分析。\n\n需要房間：組織學實驗室\n\n採樣：神經醫學部\n\n需要器材：玻璃器皿+醫用離心機+實驗室分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>於檢驗室分析患者脊隨液。\n\n需要房間：組織學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>                 <Text>收集病患糞便檢體來進行深入分析。\n\n需要房間：組織學實驗室\n\n採樣：急診醫學部/一般外科部/一般內科部/重症醫學部\n\n需要器材：玻璃器皿+糞便分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>                  <Text>分析病患糞便中的細菌、血液、寄生蟲等物質。\n\n需要房間：組織學實驗室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>透過各種方式如導尿管，取得患者中段尿用以檢驗的醫療處置。\n\n需要房間：組織學實驗室\n\n採樣：急診醫學部/一般外科部/一般內科部/重症醫學部\n\n需要器材：玻璃器皿+糞便分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>對尿液檢體進行生化分析。\n\n需要房間：組織學實驗室</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION_1_1</LocID>                                     <Text>肌電圖（EMG）將記錄並評估病患肌肉中的電子訊號。\n\n需要房間：辦公室/骨科診斷單位 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION_1_1</LocID>                                     <Text>肌電圖可評估並記錄骨骼肌的電氣活動。\n\n需要房間：門診/骨科部檢查室 </Text>  </GameDBLocalizedString>
          
         </LocalizedStrings>
     </GameDBStringTable>

@@ -1,0 +1,379 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_DLC_ADMIN_PATHOLOGY">
+    
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>             <Text>DLC Servizi Ospedalieri</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACY_VISITED</LocID>            <Text>Ha visitato la farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACY_LONG_WAIT</LocID>          <Text>Lunga attesa in farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GOT_GIFT</LocID>                    <Text>Ha preso un regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_DID_NOT_GET_GIFT</LocID>            <Text>Non ha preso un regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_VISIT_DID_NOT_ARRIVE</LocID>        <Text>Il visitatore non è arrivato (sala visite piena)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_HAD_VISITOR</LocID>                 <Text>Ha ricevuto una visita</Text>  </GameDBLocalizedString>
+
+            <!-- Visitor states -->
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Spawned</LocID>           <Text>Generato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_GoingToGiftShop</LocID>   <Text>Si reca al negozio di articoli da regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_WaitingInGiftShop</LocID> <Text>In attesa al negozio di articoli da regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_BuyingGift</LocID>        <Text>Compra un regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_GoingToLounge</LocID>     <Text>Va verso la sala visite</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_WaitingInLounge</LocID>   <Text>In attesa in sala visite</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Visiting</LocID>          <Text>In visita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Leaving</LocID>           <Text>Va via dopo la visita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Idle</LocID>              <Text>Uscito</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_SCHEDULE_VISITING_HOURS</LocID>     <Text>Orari di visita</Text>  </GameDBLocalizedString>
+
+            <!-- Patient states -->
+            <GameDBLocalizedString>      <LocID>GoingToPharmacy</LocID>                 <Text>Si reca in farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToPharmacyChair</LocID>            <Text>Va a sedersi in farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingSittingInPharmacy</LocID>        <Text>In attesa in farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingStandingInPharmacy</LocID>       <Text>In attesa in farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BuyingMedicine</LocID>                  <Text>Compra farmaci</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DEAD</LocID>                                        <Text>Morto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByVisit</LocID>               <Text>Riceve una visita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToMorgue</LocID>       <Text>Trasportato all'obitorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForMorgueBed</LocID>            <Text>In attesa del carrello mortuario</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForAutopsy</LocID>              <Text>In attesa dell'autopsia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToAutopsy</LocID>      <Text>Trasportato per eseguire l'autopsia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_HavingAutopsy</LocID>                  <Text>Autopsia in corso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeDisposed</LocID>            <Text>Il corpo può essere inviato alle pompe funebri</Text>  </GameDBLocalizedString>
+
+            <!-- New doctor states -->
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Training</LocID>                       <Text>Segue un corso di formazione</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <!-- New nurse states -->                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_Training</LocID>                        <Text>Segue un corso di formazione</Text>  </GameDBLocalizedString>
+
+            <!-- New technologist states -->
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Training</LocID>                 <Text>Segue un corso di formazione</Text>  </GameDBLocalizedString>
+
+            <!-- New janitor states -->                                                             
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AdminIdle</LocID>                     <Text>Gestisce gli inservienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GiftShopIdle</LocID>                  <Text>Gestisce il negozio di articoli da regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_OverridenByProcedureScript</LocID>    <Text>Esegue:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Training</LocID>                      <Text>Segue un corso di formazione</Text>  </GameDBLocalizedString>            
+
+            <!-- Unlearning negative perks texts -->
+            <GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER_LOST_DESCRIPTION</LocID>  <Text>La capacità di apprendimento del dipendente è aumentata!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM_LOST_DESCRIPTION</LocID>    <Text>Il dipendente ha anche imparato che l'alcool non risolverà i suoi problemi!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET_LOST_DESCRIPTION</LocID>    <Text>Il dipendente ha anche imparato a pulirsi le scarpe!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE_LOST_DESCRIPTION</LocID>    <Text>Il dipendente non ha più così tanta paura dei germi!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SLOW_LOST_DESCRIPTION</LocID>          <Text>Il dipendente si sente più entusiasta è non camminerà più così lentamente!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HEDONIST_LOST_DESCRIPTION</LocID>      <Text>Il dipendente ha anche imparato a gestire la propria ossessione per il cibo!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_LOST_DESCRIPTION</LocID>     <Text>Il dipendente ha riscoperto la passione per il proprio lavoro e non si sente più depresso!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_LOST_DESCRIPTION</LocID>    <Text>L'atteggiamento del dipendente nei confronti dei pazienti è migliorato e non risulterà più sgradevole!</Text></GameDBLocalizedString>
+
+            <!-- New role description for doctor on Pathology-->
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_PATHOLOGY</LocID>         <Text>Patologia</Text>  </GameDBLocalizedString>
+                                                                                            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                   
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_PHARMACY</LocID>         <Text>Lunga attesa in farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_PHARMACY_TEXT</LocID>    <Text>Presto, un paziente è in attesa di comprare dei farmaci da troppo tempo. Controlla la tua farmacia, il paziente se ne andrà presto.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_LEAVING_PHARMACY</LocID>              <Text>Esce dalla farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LEAVING_PHARMACY_TEXT</LocID>         <Text>Il paziente ha aspettato troppo tempo nella farmacia e comprerà i farmaci prescritti da un'altra parte.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL</LocID>                   <Text>Sala visite piena</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL_TEXT</LocID>              <Text>La sala visite presso {1} è piena e uno dei pazienti non ha modo di ricevere visite. Prova ad aggiungere altre sedie per i visitatori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP</LocID>        <Text>Lunga attesa per un regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP_TEXT</LocID>   <Text>Un visitatore ha aspettato troppo a lungo nel negozio di articoli da regalo. Cerca di aumentare il numero di addetti.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT</LocID>                  <Text>Notizie del giorno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_TEXT</LocID>             <Text>{1}</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED</LocID>            <Text>Notizie del giorno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED_TEXT</LocID>       <Text>Il numero dei pazienti e i pagamenti da parte delle assicurazioni sono tornati alla normalità!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE</LocID>    <Text>Lunga attesa per il carrello mortuario!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE_TEXT</LocID><Text>Non ci sono carrelli disponibili per il paziente deceduto recentemente.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY</LocID>          <Text>Paziente in patologia!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY_TEXT</LocID>     <Text>Il paziente morto è stato trasferito in patologia. Puoi inviare il corpo all'impresa di pompe funebri o eseguire l'autopsia per scoprire cosa è andato storto, identificare i sintomi rimanenti e nel frattempo guadagnare soldi e punti esperienza.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED</LocID>              <Text>Autopsia terminata!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED_TEXT</LocID>         <Text>L'autopsia è terminata. Adesso puoi inviare il corpo all'impresa di pompe funebri cliccando sul pulsante nella cartella del paziente.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED</LocID>             <Text>Corso di formazione terminato!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED_TEXT</LocID>        <Text>Il dipendente ha terminato il corso di formazione per l'abilità {1} e il livello è cresciuto del {2}%. {3}</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FULL</LocID>                 <Text>L'aula studio è piena!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FULL_TEXT</LocID>            <Text>Il dipendente non può essere formato in {1} perché non ci sono posti liberi nell'aula studio. Il corso di formazione programmato è stato cancellato.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_PHARMACY_FULL</LocID>             <Text>La farmacia è troppo piccola!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_PHARMACY_FULL_TEXT</LocID>        <Text>Ci sono troppi pazienti dentro la farmacia o diretti verso di essa, alcuni di loro saranno costretti a comprare i loro farmaci altrove. Prova ad ampliarla.</Text>  </GameDBLocalizedString>
+           
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <!-- LOGISTICS/MANAGEMENT, EMPLOYEES TABLE -->
+
+            <!-- Note for translators: there's limited space in the UI for the names of the professions, so feel free to split them using a new line
+                 (\n) like in the English version of the second text for each profession       -->
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST</LocID>              <Text>Farmacista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST_UI</LocID>           <Text>Farmacisti</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR</LocID>            <Text>Addetto alle vendite</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_UI</LocID>         <Text>Addetti\nalle vendite</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_DESCRIPTION</LocID><Text>Gli addetti alle vendite gestiscono il negozio di articoli da regalo e vendono articoli ai visitatori.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER</LocID>             <Text>Coordinatore inservienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_UI</LocID>          <Text>Coordinatori\ninservienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_DESCRIPTION</LocID><Text>I coordinatori degli degli inservienti aumentano l'efficienza degli inservienti e ti permettono di assegnarli a singole stanze da pulire.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST</LocID>                 <Text>Patologo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST_UI</LocID>              <Text>Patologi</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ASSIGNED_ROOMS</LocID>  <Text>Stanze assegnate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_RESET_ASSIGNED_ROOMS</LocID>    <Text>Reimposta stanze assegnate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_ASSIGNED_JANITORS</LocID>       <Text>INSERVIENTI ASSEGNATI: </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_VISITED_PATIENT</LocID> <Text>Paziente visitato</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING</LocID>    <Text>Manda un dipendente all'aula studio per formarlo in questa abilità. Il dipendente non sarà disponibile per {1} ore durante la formazione in {2}. \nCosto: {3} $</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING_NOT_EXIST</LocID>  <Text>Nessuna aula studio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING_NO_SPACE</LocID>   <Text>Non ci sono più posti disponibili nell'aula studio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_TRAINING_SCHEDULED</LocID>  <Text>Corso di formazione programmato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_STAFF_IN_TRAINING</LocID>   <Text>Il dipendente segue un corso di formazione in {1}. {2} ora/e rimasta/e.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_TABLE_DOCTORS_TRAINING</LocID>      <Text>Corso di formazione</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_HEADING</LocID>          <Text>Cronologia dell'autopsia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_STATUS</LocID>           <Text>Stato dell'autopsia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_HISTORY</LocID>          <Text>Storico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_REMOVE</LocID>           <Text>Rimuovi dallo storico</Text>  </GameDBLocalizedString>
+
+            <!--Character card performing text-->
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_CONTROL_PROCEDURE_PHARMACY</LocID>      <Text>Vende farmaci</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_CONTROL_PROCEDURE_GIFT_SHOP</LocID>     <Text>Vende regali</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGY_CONTROL_PROCEDURE_PATHOLOGY</LocID> <Text>Esegue l'autopsia</Text>  </GameDBLocalizedString>
+            
+            <!-- Patient card -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_PATHOLOGY</LocID>       <Text>I pazienti morti non possono essere trasferiti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DISPOSE_OF_BODY</LocID>                   <Text>Invia corpo all'impresa di pompe funebri</Text>  </GameDBLocalizedString>
+                                                                                                  
+            <!-- Building panel -->                                                               
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ADMINISTRATIVE</LocID>    <Text>Modelli per le stanze del reparto Amministrazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_PATHOLOGY</LocID>         <Text>Modelli per le stanze del reparto Patologia</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_ALLOWED</LocID>                    <Text>Questa stanza non permette assunzioni per il turno notturno</Text>  </GameDBLocalizedString>
+                                                                                                  
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_ROOM_TO_CLEAN</LocID>              <Text>Assegna direttamente le stanze da pulire a questo inserviente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CANT_SELECT_ROOM_TO_CLEAN</LocID>         <Text>Assumi un coordinatore nel reparto Amministrazione per poter assegnare gli inservienti a singole stanze.</Text>  </GameDBLocalizedString>
+
+            <!-- DLC Tutorial and campaign level menu -->                                                 
+            <!-- DLC Tutorial texts -->
+            <!-- DLC campaign level texts -->
+            
+            <!-- DLC  Achievements-->
+
+            <!-- Insurance objectives -->
+            
+            <!-- RELATED FILE: StringTable[Language]Names.xml -->
+            
+            <!-- RELATED FILE: StringTable[Language]Skills.xml -->
+            <!-- Departments -->
+            <GameDBLocalizedString>     <LocID>DLC_DPT_ADMINISTRATIVE</LocID>                                   <Text>Reparto di Amministrazione</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>               <Text>Farmacia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID>   <Text>La specializzazione in farmacia consente ai farmacisti di vendere i farmaci ai tuoi pazienti e garantisce che ricevano dosaggi e istruzioni corrette.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR</LocID>                            <Text>Strategie di vendita</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR_DESCRIPTION</LocID>                <Text>La specializzazione in strategie di vendita consente agli addetti vendite presso il negozio di articoli da regalo di vendere articoli agli amici e ai familiari in visita ai pazienti ricoverati.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER</LocID>                           <Text>Gestione</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER_DESCRIPTION</LocID>               <Text>La specializzazione in gestione consente di assumere un coordinatore degli inservienti nel reparto Amministrazione. In tal modo l'efficienza complessiva di tutti gli inservienti dell'ospedale aumenta ed ottieni di poter assegnare gli inservienti a singole stanze. Questo dipendente funge anche da capo degli inservienti.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_DPT_PATHOLOGY</LocID>                                        <Text>Reparto di Patologia</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY</LocID>                             <Text>Patologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY_DESCRIPTION</LocID>                 <Text>I patologi hanno una profonda conoscenza delle cause e degli effetti di malattie e lesioni, permettendoti di eseguire autopsie.</Text></GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PHARMACIST</LocID>                      <Text>Vende farmaci</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_VENDOR</LocID>                          <Text>Vende regali</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_JANITOR_MANAGER</LocID>                 <Text>Gestione</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY</LocID>                     <Text>Farmacia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>         <Text>La farmacia del tuo ospedale vende medicine ai tuoi pazienti. \nRequisiti min. staff: 1x farmacista</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN</LocID>                <Text>Ufficio Servizi</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN_DESCRIPTION</LocID>    <Text>Questa stanza ti permette di assumere un coordinatore degli inservienti che aumenta l'efficienza complessiva di tutti gli inservienti dell'ospedale e ti permette di assegnarli a singole stanze da pulire. \nRequisiti min. staff: 1x coordinatore inservienti</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE</LocID>                       <Text>Sala Visite</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE_DESCRIPTION</LocID>           <Text>Un luogo nel quale i visitatori possono incontrare i pazienti ricoverati per chiacchierare, sedersi o rilassarsi.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_GIFT_SHOP</LocID>                    <Text>Negozio di Articoli da Regalo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_GIFT_SHOP_DESCRIPTION</LocID>        <Text>Il Negozio di Articoli da Regalo vende regali agli amici e ai familiari in visita ai pazienti ricoverati. \nRequisiti min. staff: 1x addetto alle vendite</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CAFETERIA</LocID>                    <Text>Sala Mensa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CAFETERIA_DESCRIPTION</LocID>        <Text>Una sala mensa per i dipendenti dove si possono avere pasti caldi.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CLASSROOM</LocID>                    <Text>Aula Studio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CLASSROOM_DESCRIPTION</LocID>        <Text>I dipendenti possono migliorare le proprie abilità e specializzazioni nell'aula studio.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR</LocID>                 <Text>Sala Autopsie</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR_DESCRIPTION</LocID>     <Text>I patologi eseguono qui le autopsie, con lo scopo di capire il decorso di una malattia o la causa del decesso di un paziente. \nRequisiti min. staff: 1x patologo in Sala Medici</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD</LocID>               <Text>Cella Frigorifera</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD_DESCRIPTION</LocID>   <Text>Le celle frigorifere permettono di conservare i cadaveri prima e dopo l'autopsia.</Text></GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS</LocID>                     <Text>Insegna farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_2</LocID>                   <Text>Insegna farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_DESCRIPTION</LocID>         <Text>Insegna della farmacia per scopi decorativi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_1</LocID>                    <Text>Insegna in vetro - Informazioni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_2</LocID>                    <Text>Insegna in vetro - Ritiro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC_WHITE</LocID>                           <Text>PC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL</LocID>                    <Text>Scaffale per medicinali alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL</LocID>                   <Text>Scaffale per medicinali</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_GLASS</LocID>              <Text>Scaffale per medicinali alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL_GLASS</LocID>             <Text>Scaffale per medicinali</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_DRAWERS</LocID>            <Text>Scaffale per medicinali con cassetti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_DESCRIPTION</LocID>             <Text>Gli scaffali per medicinali contengono i farmaci e i medicinali venduti nella farmacia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE</LocID>               <Text>Bancone farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_DRUGS</LocID>     	  <Text>Bancone farmacia - centro (ritiro)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_QUESTIONS</LocID>     <Text>Bancone farmacia - centro (info)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_LEFT</LocID>                 <Text>Bancone farmacia - sinistra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_RIGHT</LocID>                <Text>Bancone farmacia - destra</Text>  </GameDBLocalizedString>
+
+            <!-- override of the text from the base game -->
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>  <Text>Materiale obbligatorio per i banchi di accettazione e i negozi. Un PC posizionatovi sopra creerà un'area di lavoro.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PHARMACY</LocID>                           <Text>Farmacia</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY_OP</LocID>                       <Text>Sala Autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_FREEZER</LocID>                            <Text>Cella Frigorifera</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_GIFTSHOP</LocID>                     <Text>Negozio di Articoli da Regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAUNGE</LocID>                       <Text>Sala Visite</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGNBOARD</LocID>                          <Text>Insegna a lavagna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TSHIRT_STAND</LocID>                       <Text>Espositore di magliette</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GIFTSHOP_DESCRIPTION</LocID>               <Text>Souvenir e regali per i visitatori nell'ospedale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NEWS_MAGAZINES</LocID>                     <Text>Espositore di riviste</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BALLOONS</LocID>                           <Text>Palloncini</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_GLASS</LocID>                 <Text>Tavolino da caffè in vetro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT</LocID>                              <Text>Espositore di frutta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_SHELF</LocID>                      <Text>Espositore di fiori</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_VISITORS_SEATS</LocID>                  <Text>Posti a sedere per i visitatori</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_VISITORS_SEATS_DESCRIPTION</LocID>      <Text>Il numero di posti a sedere nella Sala Visite determina il numero massimo di visitatori che hanno accesso contemporaneamente al reparto.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_BEAMER_BEAMER</LocID>                      <Text>Videoproiettore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BEAMER_DESCRIPTION</LocID>       <Text>Un componente essenziale di qualsiasi classe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BEAMER</LocID>                   <Text>Schermo di proiezione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SANDWICH</LocID>                           <Text>Panini</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SANDWICH_DESCRIPTION</LocID>               <Text>Un ottimo spuntino.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SERVICEOFFICE</LocID>                <Text>Ufficio Servizi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CAFETERIA</LocID>                    <Text>Sala Mensa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_STUDYROOM</LocID>                    <Text>Aula Studio</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ADMIN</LocID>                        <Text>Amministrazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY</LocID>                    <Text>Patologia</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_WOOD</LocID>                         <Text>Sedia in legno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DINING_TABLE_2</LocID>                     <Text>Tavolo quadrato da pranzo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CUTLERY</LocID>                    		  <Text>Posate e condimenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CUTLERY_DESCRIPTION</LocID>                <Text>Coltello, forchetta, cucchiaio, sale, pepe e tovaglioli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_COUNTER</LocID>                  <Text>Bancone sala mensa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_COUNTER_DESCRIPTION</LocID>      <Text>Per tutta una serie di cose relative al cibo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_MACHINE_BIG</LocID>                 <Text>Macchina professionale per il caffè</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JUICE</LocID>                    		  <Text>Bevande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JUICE_DESCRIPTION</LocID>                  <Text>Succhi di arancia e mirtillo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK</LocID>                        <Text>Frutta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK_DESCRIPTION</LocID>            <Text>Uno spuntino gustoso e salutare.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK</LocID>                        <Text>Ciambelle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK_DESCRIPTION</LocID>            <Text>Non fatele vedere ai cardiologi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD</LocID>                    <Text>Menu a lavagna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD_DESCRIPTION</LocID>        <Text>Cosa c'è sul menu oggi?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_COUNTER</LocID>                       <Text>Bancone sala mensa - pietanze</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_COUNTER_DESCRIPTION</LocID>           <Text>Per offrire al tuo personale un pasto adeguato. Viene utilizzato soprattutto verso l'ora di pranzo.</Text>  </GameDBLocalizedString>
+
+            <!--Pathology objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS</LocID>                      <Text>Attrezzatura da autopsia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS_DESCRIPTION</LocID>          <Text>Attrezzatura anatomica e patologica standard utilizzata durante le autopsie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2</LocID>                      <Text>Tavolo per strumenti in vetro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2_DESCRIPTION</LocID>          <Text>Tavolo per strumenti con piano in vetro concepito per usi tecnici, usato per esempio nel reparto Patologia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT</LocID>                             <Text>Bilancia per autopsia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT_DESCRIPTION</LocID>                 <Text>Le bilance per autopsia sono parte dell'attrezzatura usata in Patologia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP</LocID>                       <Text>Lampada UV germicida</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP_DESCRIPTION</LocID>           <Text>La lampada UV germicida viene utilizzata per uccidere tutti i microbi in una stanza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER</LocID>                         <Text>Monitor di patologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER_DESCRIPTION</LocID>             <Text>Il monitor di patologia è utilizzato per visualizzare radiografie complete del corpo del paziente sottoposto all'autopsia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS</LocID>                        <Text>Armadio in acciaio inossidabile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS_DESCRIPTION</LocID>            <Text>Armadio per attrezzatura tecnica in acciaio inossidabile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE</LocID>                  <Text>Tavolo autoptico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE_DESCRIPTION</LocID>      <Text>Tavolo per autopsia sopraelevato, il cuore di ogni obitorio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER</LocID>              <Text>Celle mortuarie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_DESCRIPTION</LocID>  <Text>Le celle mortuarie vengono utilizzate per evitare la decomposizione dei corpi.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED</LocID>                            <Text>Carrello mortuario</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED_DESCRIPTION</LocID>                <Text>Il carrello mortuario è dove si ripone il cadavere prima e dopo l'autopsia.</Text>  </GameDBLocalizedString>
+
+
+            <!-- Global Admin Events-->
+            <GameDBLocalizedString>     <LocID>DAYS_LEFT</LocID>                                  <Text>Giorni rimasti: </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_RENOVATION</LocID>                 <Text>La ristrutturazione di una clinica vicina fa sì che aumentino del {1}% i pazienti che vengono a {2}!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_RENOVATION_TEXT</LocID>            <Text>La ristrutturazione di una clinica vicina fa sì che aumentino del {1}% i pazienti che vengono a {2}!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED</LocID>      <Text>La ristrutturazione di un ospedale vicino fa sì che aumentino del {1}% i pazienti in arrivo!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED_TEXT</LocID> <Text>La ristrutturazione di un ospedale vicino fa sì che aumentino del {1}% i pazienti in arrivo!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_HOLIDAY_SEASON</LocID>             <Text>Molte persone sono in vacanza, arriva il {1}% in meno di pazienti al giorno.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_HOLIDAY_SEASON_TEXT</LocID>        <Text>Le vacanze sono arrivate e tante persone sono fuori città, e quindi arriva il {1}% in meno di pazienti al giorno.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BAD_PRESS</LocID>                  <Text>Un articolo pubblicato su una rivista locale ha convinto il {1}% dei pazienti a cambiare ospedale.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BAD_PRESS_TEXT</LocID>             <Text>Un articolo diffamatorio riguardo al tuo ospedale, pubblicato su una rivista locale, ha convinto il {1}% dei pazienti a cambiare ospedale.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_INFLUENCER_VISIT</LocID>           <Text>Una influencer famosa è stata curata nel tuo ospedale, adesso attrai il {1}% di pazienti in più!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_INFLUENCER_VISIT_TEXT</LocID>      <Text>La buona pubblicità che ti è stata fatta da una influencer famosa curata nel tuo ospedale ha fatto sì che adesso attiri il {1}% di pazienti in più!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FINANCIAL_CRISIS</LocID>           <Text>La crisi finanziaria ha fatto calare i pagamenti da parte delle assicurazioni del {1}%.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FINANCIAL_CRISIS_TEXT</LocID>      <Text>La crisi finanziaria nazionale ha fatto calare i pagamenti da parte delle assicurazioni del {1}%.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM</LocID>       <Text>La nuova politica della sanità pubblica ha fatto aumentare i pagamenti da parte delle assicurazioni del {1}%.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM_TEXT</LocID>  <Text>Le elezioni si avvicinano, la nuova politica della sanità pubblica ha fatto aumentare i pagamenti da parte delle assicurazioni del {1}%.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FLU_SEASON</LocID>                 <Text>C'è un'influenza stagionale in giro, il {1}% in più dei pazienti si reca alla clinica.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FLU_SEASON_TEXT</LocID>            <Text>La brutta stagione e le temperature basse fanno sì che il {1}% di pazienti in più si rechi alla clinica.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BANK_HOLIDAYS</LocID>              <Text>Ogni giorno arriva il {1}% di pazienti feriti in più.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BANK_HOLIDAYS_TEXT</LocID>         <Text>I festeggiamenti sfrenati per la festa nazionale portano a un maggior numero di pazienti feriti!</Text></GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>     <LocID>OPTIONS_ENABLE_WORLD_EVENTS</LocID>                <Text>Abilita eventi mondiali (DLC Servizi Ospedalieri)</Text></GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
+            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY</LocID>                               <Text>Autopsia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY_DESCRIPTION</LocID>                   <Text>Esame post mortem del corpo di un paziente per scoprire i sintomi rimasti nascosti e la causa del decesso.</Text>  </GameDBLocalizedString>
+
+            <!--PATHOLOGY and ADMIN ROOM PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_AUTOPSY_ROOM_ABBR</LocID>                         <Text>Sala Autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_COLD_ROOM_ABBR</LocID>                            <Text>Cella Frigorifera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_SMALL_ABBR</LocID>                                 <Text>Farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_LARGE_ABBR</LocID>                                 <Text>Farmacia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GIFTSHOP_ABBR</LocID>                                       <Text>Negozio di Articoli da Regalo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SERVICE_OFFICE_ABBR</LocID>                                 <Text>Ufficio Servizi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CAFETERIA_SMALL_ABBR</LocID>                                <Text>Sala Mensa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CAFETERIA_LARGE_ABBR</LocID>                                <Text>Sala Mensa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STUDY_ROOM_ABBR</LocID>                                     <Text>Aula Studio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_LOUNGE_ABBR</LocID>                                         <Text>Sala Visite</Text>  </GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>            <Text>OSPEDALE GRANDE</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    
