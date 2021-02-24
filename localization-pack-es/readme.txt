@@ -1,1 +1,1 @@
-Localización de los archivos para Español.
+Traducción al español de los mensajes de Project Hospital.
