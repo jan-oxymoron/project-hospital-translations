@@ -1,0 +1,183 @@
+<Database>
+    <GameDBStringTable ID="LOC_TH_PATCH_1_1_24">
+
+        <LanguageCode>th</LanguageCode>
+        <LanguageNameLocalized>Thai</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>KanomWan</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>เลิกทำการเปลี่ยนแปลงล่าสุด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>เลิกทำไม่ได้ ไม่มีอะไรเปลี่ยนแปลงหรือไม่สามารถย้อนกลับการดำเนินการล่าสุดได้</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>หน่วยหัตถการพิเศษ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>หน่วยแผนกอายุรกรรมที่ไม่เหมือนใครใช้สำหรับขั้นตอนการบุกรุกพิเศษต่างๆ </Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>หน่วยหัตถการพิเศษ</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>หน่วยหัตถการพิเศษ - 8 x 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>ไข้หวัดใหญ่บี</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>ไข้หวัดใหญ่ B เกิดจากเชื้อไวรัส Influenza B ซึ่งเป็นสาเหตุของการระบาดตามฤดูกาลของการติดเชื้อไข้หวัดใหญ่ในคน</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>กลุ่มอาการเม็ดเลือดแดงแตก-ยูรีเมีย(HUS)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>กลุ่มอาการเม็ดเลือดแดงแตก-ยูรีเมีย หมายถึงภาวะที่หลอดเลือดเล็ก ๆ ในไตเสียหายและอักเสบ ในกรณีส่วนใหญ่การติดเชื้อ Escherichia coli เป็นผู้รับผิดชอบ </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>แคมพิโลแบคเทอริโอซิส</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>แคมพิโลแบคเทอริโอซิสหมายถึงการติดเชื้อทั่วไปที่เกิดจากแคมไพโลแบคเตอร์ เจจูไน มักเป็นความเจ็บป่วยที่เกิดจากอาหาร </Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>PCF</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>PCF - โรคตาแดงหมายถึงภาวะที่ส่วนใหญ่เกิดจาก Human mastadenovirus B ซึ่งทำให้เกิดการแพร่ระบาดเพียงเล็กน้อยระหว่างคนหนุ่มสาวในกลุ่ม โรคนี้มีผลต่อคอหอยและดวงตา </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>โบทูลิซึม</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>โรคโบทูลิซึมเป็นความเจ็บป่วยที่หายากและอาจถึงแก่ชีวิตซึ่งเกิดจากสารพิษที่ผลิตโดยแบคทีเรียคลอสทริเดียม โบทูลินัม </Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>TIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>TIA - Transient ischemic attack is similar to a stroke, but usually lasts  up to 24h and causes no permanent damage.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>เยื่อหุ้มปอดอักเสบ </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>เยื่อหุ้มปอดอักเสบหมายถึงภาวะที่เยื่อหุ้มปอดอักเสบ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>โรคปอดจากแร่ใยหิน </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>โรคปอดจากแร่ใยหินหมายถึงภาวะที่เกิดจากการสะสมของแร่ใยหินในปอดด้วยกล้องจุลทรรศน์ </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>ผดขึ้นหน้า</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>ผดขึ้นหน้าเรียกอีกอย่างว่า "ผื่นเหงื่อ" เป็นโรคผิวหนังที่พบได้บ่อยในสภาพอากาศร้อนและชื้น </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>พิษปลาทะเล</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>พิษปลาทะเลชนิดศิกัวเทอรา,หรือที่เรียกว่าพิษปลาทะเลเป็นโรคที่เกิดจากอาหารซึ่งเกิดจากการกินเนื้อปลาที่ปนเปื้อนสารพิษบางชนิด </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>Pleural empyema</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>Pleural empyema refers to an accumulation of pus in the pleural cavity, caused by a bacterial infection.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>น้ำในทรวงอก</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>น้ำในทรวงอกหมายถึงภาวะที่น้ำเหลืองสะสมในช่องเยื่อหุ้มปอด </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>น้ำในเยื่อหุ้มปอดจากการติดเชื้อที่ปอด</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>น้ำในเยื่อหุ้มปอดจากการติดเชื้อที่ปอดหมายถึงภาวะที่เกิดจากปอดบวมหลอดลมหรือฝีในปอด </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>หูชั้นกลางอักเสบ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>หูขั้นกลางอักเสบคือการเจริญเติบโตของผิวหนังที่ไม่เป็นมะเร็งซึ่งมักเกิดจากการติดเชื้อในหูชั้นกลางซ้ำ ๆ </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Croup</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>Croup is also known as laryngotracheobronchitis and it is usually caused by a virus, rarely by a bacterial infection.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>ริดสีดวงจมูก</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>ริดสีดวงจมูกคือการเติบโตที่ไม่ใช่มะเร็งในโพรงจมูก </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>โรคเวียนศรีษะ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>โรคเวียนศรีษะเป็นความผิดปกติของหูชั้นในที่มีอาการวิงเวียนศีรษะโดยมีสาเหตุไม่ชัดเจน </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>โรคเลือดข้น</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>โรคเลือดข้นหมายถึงภาวะผิดปกติเมื่อร่างกายของผู้ป่วยสร้างเกล็ดเลือดมากเกินความจำเป็น </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Poison ivy rash</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>Poison ivy rash is an allergic reaction to resin urushiol that is located in the leaves, stems and roots of poison ivy, oak and sumac.</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Hemothorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>Hemothorax is an accumulation of blood within the pleural cavity and is commonly caused by a chest injury.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>Tension pneumothorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>Tension pneumothorax occurs mostly in clinical situations such as ventilation, resuscitation or in people with lung disease.</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>ภาวะน้ำในช่องเยื่อหุ้มปอด </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>MRI ตรวจพบภาวะเยื่อหุ้มปอด </Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>ตรวจพบไข้หวัดใหญ่ B </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>การทดสอบทางเซรุ่มวิทยาตรวจพบแอนติบอดีที่เกี่ยวข้องกับไวรัส Influenza B </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>ตรวจพบสารพิษอีโคไล </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>การวิเคราะห์อุจจาระตรวจพบสารพิษที่ผลิตโดย E. coli</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>พบแบคทีเรีย C. jejuni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>ELISA has detected antigens for Campylobacter jejuni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>Mastadenovirus B detected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>PCR assay has detected Human Mastadenovirus B.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>ตรวจพบ TIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>MRI ตรวจพบองค์ประกอบของการขาดเลือดชั่วคราว </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>พบคลอสทริเดียม โบทูลินัม</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>ELISA ตรวจพบว่ามีคลอสทริเดียม โบทูลินัม</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>ตรวจพบการติดเชื้อแบคทีเรีย </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>การทดสอบ PCR ตรวจพบการติดเชื้อแบคทีเรียที่รุนแรง </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>ตรวจพบใยหิน </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>การตรวจ CT พบใยหินในปอดของผู้ป่วย </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>ผื่นร้อน </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>การประเมินอาการและรายละเอียดที่ทราบทั้งหมดยืนยันว่ามีผื่นร้อน </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>ตรวจพบซิกัวทอกซิน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>การตรวจเลือดพบว่ามีพิษจากซิกัวทอกซิน </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>พบเลือดออกในช่องอก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>การตรวจด้วย Sonogaphic ได้พบเลือดปริมาณมากในโพรงเยื่อหุ้มปอดของผู้ป่วย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>ปอดทะลุ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>การตรวจทางโซโนกราฟพบว่าปอดมีรูรั่ว </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>ของเหลวในเยื่อหุ้มปอดติดเชื้อ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>การตรวจชิ้นเนื้อของน้ำเยื่อหุ้มปอดยืนยันการติดเชื้อ </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>พบ Chylothorax </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>การวินิจฉัยด้วย X-ray ได้พบchylothorax</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>เยื่อหุ้มปอด </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>MRI ตรวจพบว่ามีของเหลวแบบใสในเยื่อหุ้มปอด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>พบหูชั้นกลางอักเสบ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>การตรวจ CT พบหูชั้นกลางอักเสบในหูของผู้ป่วย </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>ตรวจพบติ่งเนื้อจมูก </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>การตรวจ CT พบติ่งเนื้อขนาดเล็กในโพรงจมูกของผู้ป่วย </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>Croup present</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>Evaluation of all symptoms and known details confirms croup.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>โรคเวียนศรีษะ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>การประเมินอาการและรายละเอียดที่ทราบทั้งหมดยืนยันโรคเวียนศรีษะ </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>โรคเลือดข้น</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>การตรวจนับเม็ดเลือดอย่างสมบูรณ์พบว่ามีจำนวนเกล็ดเลือดสูงผิดปกติ </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>ผื่นพิษไอ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>จากการประเมินอาการทั้งหมดได้คอนเฟิร์มว่าเป็นผื่นพิษไอวี่</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>การบำบัดด้วยส่วนประกอบของเลือด </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>การถ่ายเลือดเฉพาะทางที่อาจประกอบด้วยเลือดครบส่วนหรือส่วนประกอบแต่ละส่วนรวมถึงเซลล์เม็ดเลือดแดงที่อัดแน่นพลาสมาสดแช่แข็งเกล็ดเลือดการตกตะกอนด้วยความเย็นส่วนประกอบของแกรนูโลไซต์และ rhogam \n\nห้องที่ต้องการ: Any Diagnostic unit / ICU / ward</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>การกำจัดสิ่งแปลกปลอม</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>การกำจัดสิ่งแปลกปลอมที่อยู่ในบาดแผล \n\nห้องที่ต้องการ: Doctor's office / Observation / Trauma center / ICU / Office/Diagnostic unit at Traumatology dpt</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>ทรวงอก </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>ขั้นตอนการบุกรุกเพื่อกำจัดของเหลวหรืออากาศออกจากช่องเยื่อหุ้มปอด  \n\nห้องที่ต้องการ: Special procedures unit \n\nRequired equipment: Thoracentesis device</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>MIEP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>ขั้นตอนการส่องกล้องที่มีการบุกรุกน้อยที่สุดใช้ในการรักษาโรคเกี่ยวกับหูคอจมูกต่างๆ \n\nห้องที่ต้องการ: Special procedures unit \n\nRequired equipment: ENT Workstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>Mannitol doses</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>Mannitol doses are delivered to human body to fight intoxication by ciguatoxin. \n\nห้องที่ต้องการ: Diagnostic unit at Internal medicine dpt / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>ไฮดรอกซียูเรีย</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>ยาพิเศษที่ยับยั้งการผลิตเซลล์เม็ดเลือดในไขกระดูก \n\nห้องที่ต้องการ: Diagnostic unit at Internal medicine dpt / ICU</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>โบทูลินั่มท็อกซิน</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>แอนติบอดีพิเศษที่มีความสามารถในการต่อต้านสารพิษที่ผลิตโดย Clostridium botulinum  \n\nห้องที่ต้องการ: Diagnostic unit at Neurology dpt / ICU</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>การสุ่มตัวอย่าง RT-PCR </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>ปฏิกิริยาลูกโซ่โพลีเมอเรสการถอดความแบบย้อนกลับเป็นเทคนิคในห้องปฏิบัติการที่รวมการถอดความ RNA แบบย้อนกลับเป็น DNA และการขยายเป้าหมายดีเอ็นเอเฉพาะโดยใช้ PCR \n\nห้องที่ต้องการ: Hematology Lab \n\nSampling: Emergency dpt / Infectious diseases dpt / ICU /\n\nRequired equipment: Glassware + Thermal cycler</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>การทดสอบ RT-PCR</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>ปฏิกิริยาลูกโซ่โพลีเมอเรสการถอดความแบบย้อนกลับเป็นเทคนิคในห้องปฏิบัติการที่รวมการถอดความ RNA แบบย้อนกลับเป็น DNA และการขยายเป้าหมายดีเอ็นเอเฉพาะโดยใช้ PCR  \n\nห้องที่ต้องการ: Hematology Lab</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>ELISA sampling</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>Enzyme-linked immunosorbent assay is a laboratory technique used to detect and quantify peptides, proteins, antibodies and hormones. \n\nSampling: Emergency dpt / Internal Medicine dpt / Infectious diseases dpt / ICU \n\nRequired equipment: Glassware + RIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>ELISA testing</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>Enzyme-linked immunosorbent assay is a laboratory technique used to detect and quantify peptides, proteins, antibodies and hormones. \n\nห้องที่ต้องการ: Hematology Lab</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>เครื่องวัดความอิ่มตัวของออกซิเจน</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>เครื่องวัดความอิ่มตัวของออกซิเจนเป็นวิธีที่ใช้งานง่ายและมีประสิทธิภาพในการตรวจสอบความอิ่มตัวของออกซิเจนของผู้ป่วย </Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>ENT Workstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>Otorhinolaryngological workstation for a wide palette of Ear-Nose-Throat involved procedures.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>Thoracentesis device</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>Special USG guided device mainly used for thoracentesis procedures.</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>ผู้ช่วยศัลยแพทย์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>ผู้ช่วยศัลยแพทย์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>แพทย์ประจำห้องพร้อมผู้ช่วยในการผ่าตัดเฉพาะทาง </Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>การเปลี่ยนแปลงเกมที่สำคัญs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>แผนกอายุรกรรมไม่ได้ให้วิธีการผ่าตัดอีกต่อไป ตอนนี้คุณสามารถสร้างหน่วยขั้นตอนพิเศษใหม่เพื่อทำการตรวจและรักษาเฉพาะทางได้แล้ว </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>ตรวจ DLC บริการโรงพยาบาล! </Text>  </GameDBLocalizedString>
+            
+            
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                               <Text>เขตหวงห้าม</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    
