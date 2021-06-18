@@ -6,138 +6,139 @@
 
         <Contributors>
             <Name>Oxymoron Games</Name>
+	    <Name>Kittapas Diewpa</Name>
         </Contributors>
 
         <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
         <LocalizedStrings>
-            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>Department of Infectious Diseases DLC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>แผนกโรคติดต่อ DLC</Text>  </GameDBLocalizedString>
             
             <!-- Department and rooms-->
             <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
-            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>Infectious diseases</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>โรคติดต่อ</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>Isolation unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>Isolation unit is a separate ward used to isolate patients suffering from infectious diseases and to prevent spreading pathogens.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>DID office</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Infectious diseases office represents the outpatient clinical office for simple examinations and treatments. Staff requirements:\n1x Epidemiologist </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>Diagnostic unit at Infectious diseases department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Epidemiologist \n(Personnel based in On-call room)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>Cardiography unit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>แผนกแยกเดี่ยว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>แผยกแยกเดี่ยวเป็นแผนกเพื่อแยกตัวผู้ป่วยที่มีโรคติดต่อและเพื่อป้องกันการแพ่กระจายของเชื้อโรค</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>ห้อง DID</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>ห้องทำงานที่เกี่ยวกับโรคติดต่อทำหน้าที่่เป็นคลินิกผู้ป่วยนอกเพื่อนำมาตรวจและรักษา ต้องการบุคลากร:\n1x นักระบาดวิทยา </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>แผนกวินิจฉัย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>แผนกวินิจฉัยที่ตั้งอยู๋ในแผนกโรคติดต่อนั้นจะทำหน้าที่ตรวจร่างกายและรักษาผู้ป่วยในโรคพยาบาล \n\nMin. ต้องการบุคลากร: \n1x นักระบาดวิทยา \n(ประจำการอยู่ที่ห้องรอเรียก)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>แผนกหัวใจ</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>Biohazard area, entry only with protective face mask and gloves.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>พื้นที่อันตรายทางชีวภาพ กรุณาใส่หน้ากากป้องกันและถุงมือก่อนเข้า</Text>  </GameDBLocalizedString>
                                                                                                                 
             <!-- Hospitalization alias -->                                                                      
-            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>Isolation hospitalization</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>Hospitalize the patient at an isolation unit to prevent spread of contagious diseases and give them a high level of care.\n\nRequired room: Isolation ward</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>การเข้ารักษาตัวแบบแยกเดี่ยว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>นำคนไข้ที่รักษาตัวอยู๋โรงพยาบาลแยกเดี่ยวเพื่อป้องไม่ให้โรคแพร่ระบาดโดยต้องให้การดูแลสำคัญเป็นพิเศษ\n\nRequired room: Isolation ward</Text>  </GameDBLocalizedString>
                                                                                                                 
             <!-- SKILLS-->                                                                                      
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>Epidemiology</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Epidemiologists investigate the distribution of diseases and parasites to determine the cause, risk factors, progress, life cycle, or mode of transmission.</Text>	</GameDBLocalizedString> <!--todo description-->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>วิทยาการระบาด</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>นักระบาวิทยาจะคอยตรวจสอบและสืบสวนหาสาเหตุของโรคระบ่าด ทั้งศึกษาด้านความเสี่ยง วิวัฒนาการ วงจรชีวิต และการแพร่ระบาดของไวรัส</Text>	</GameDBLocalizedString> <!--todo description-->
                                                                                                                 
             <!-- Global Admin Events-->                                                                         
-            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>Days left: </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>วันที่เหลือ: </Text></GameDBLocalizedString>
                                                                                                                  
-            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>Epidemic outbreak!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>You haven't contained all infectious patients and as a result a part of your hospital got infected. Staff must now wear face masks and will work slowly!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>An infectious patient wasn't hospitalized in an isolation unit and as a result a part of your hospital has been infected. Staff must now wear face masks and will work slowly!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>เกิดการแพร่ระบาดของไวรัส!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>คุณไม่ได้กักตัวผู้ป่วยที่ติดเชื่อ ทำให้มีบางส่วนของโรงพยาบาลเกิดการติดเชิ้อ บุคลาการจำเป็นต้องใส่หน้ากากและทำให้การทำงานช้าลง</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>ผู้ป่วยที่ติดเชื้อไม่ได้รับการรักษาตัวในแผนกแยกเดี่ยวทำให้บางส่วนของโรงพยาบาลเกิดการติดเชื้อ บุคลากรจำเป็นต้องใส่หน้ากากและทำให้การทำงานช้าลง</Text></GameDBLocalizedString>
                                                                                                                 
             <!-- ============== -->                                                                             
             <!--EVENTS -->                                                                                      
             <!-- ============== -->                                                                             
-            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>An accident in an university lab released some very dangerous pathogens. All city hospitals should prepare their protective equipment and deal with new incoming patients very carefully. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>An outbreak of a highly dangerous disease has been reported in a favorite tourist destination. All returning citizens who are not feeling well should report to the nearest hospital immediately. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>Climate changes have caused exotic diseases to spread more and more often to local areas, especially during this time of the year. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>Yet another wave of the new coronavirus Covid-19 has hit the city. All hospitals and medical facilities should prepare for an enormous number of infected patients.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>ห้องทดลองที่มหาวิทยาลัยแห่งหนึ่งเกิดอุบัติเหตุทำให้ปล่อยเชื้อที่อันตรายออกมา โรงพยาบาลในเมืองทั้งหมดควรเตรียมพร้อมอุปกรณ์ป้องกันเพื่ออรับมือกับคนไข้รายใหม่อย่างระมัดระวัง</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>มีราบงานว่าเกิดการแพร่ระบ่าดของเชื้อที่อันตรายจากสถานที่ท่องเที่ยว ผู้ใดที่กำลังกลับมาจากสถาที่แห่งนั้นแล้วรู้สึกไม่สบายกรุณาไปยังโรงพยาบาลที่ใกล้ที่สุดทันที</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>สภาพอากาศแปรปรวนทำให้เกิดโรคแปลกประหลาดขึ้นและได้กระจายไปยังท้องถิ่น โดยเฉพาะอย่างยิ่งช่วงเวลานี้ในปีนี้</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>เกิดการระบาดของเชื้อไว้รัส COVID-19 ระลอกใหม่ในตัวเมือง โรงพยาบาลทุกที่ควรเตรียมตัวรับมือกับผู้ป่วยที่ติดเชื้อที่มากขึ้น</Text></GameDBLocalizedString>
                                                                                                                 
             <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
-            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>Daily news</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>All of your staff health has returned to normal. You survived the epidemic outbreak!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>ข่าวประจำวัน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>สุขภาพของบุคลากรในโรงพยาบาลกลับมาเป็นปกติ คุณเอาตัวรอดจากการแพร่ระบาดของเชื้อไวรัสได้!</Text>  </GameDBLocalizedString>
 
             <!-- RELATED FILE: StringTable[Language]Characters.xml -->
             <!-- Satisfaction modifiers -->
-            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>infected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>ติดเชื้อ</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Highly contagious!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>การแพร่ระบาดอยู๋ในระดับสูง!</Text>  </GameDBLocalizedString>
 
             <!--Doors-->
-            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>Biohazard door</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>Door with an oval window</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>Double biohazard door</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>Double door with oval windows</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>ประตูชีวภาพ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>ประตูที่มีกระจกเป็นรูปวงรี</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>ประตูชีวภาพ 2 บาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>ประตู 2 บานที่มีกระจกเป็นรูปวงรี</Text>  </GameDBLocalizedString>
 
             <!-- Objects-->
-            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Life monitor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>Mechanical ventilator</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>เครื่องวัดชีพจร</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>เครื่องช่วยหายใจ</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>Isolation wall</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>Isolation wall</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>Isolation wall cabinet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>กำแพงห้องแยกเดี่ยว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>กำแพงห้องแยกเดี่ยว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>ตู้ติดกำแพงห้องแยกเดี่ยว</Text>  </GameDBLocalizedString>
             <!-- Description for all three versions of isolation wall -->                                      
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>Provides protection against all diseases caused by pathogens that can be transmitted through the air.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>สามารถป้องกันโรคที่สามารถลอยอยู่ในอากาศได้</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>Sanitary equipment</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>Intended for isolation rooms to cover basic hygiene of patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>อุปกรณ์สุขภัณฑ์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>ถูกทำมาเพื่อห้องแยกเดี่ยวที่จะครอบคลุมสุขอนามัยของผู้ป่วย</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>Isolation AC</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>Air conditioning provides filtered fresh air and higher comfort for isolated patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>เครื่องปรับอากาศาสำหรับห้องแยกเดี่ยว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>เป็นเครื่องปรับอากาศที่จะกรองและให้อากาศที่ปลอดภัยห้กับผู้ป่วย</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>Sign - caution</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>Outbreak alert.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>ป้าย - คำเตือน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>แจ้งเตือนโรคระบาด</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>Sign - quarantine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>Authorized personnel only.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>ป้าย - กักตัว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>เฉพาะบุคลากรที่ได้รับอนุญาตเท่านั้น</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>Isolation air door</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>Negative airflow system is used to reduce the risk of airborne contamination of surrounding facilities.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>เครื่องหมุนเวียนอากาศสำหรับห้องแยกเดียว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>เครื่องหมุนเวียนอากาศจะทำหน้าที่ลดความเสี่ยงของเชื้อโรคที่อยู่ในอากาศภายในตัวอาคาร</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>Chartboard</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>Magnetic chartboard.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>Disinfectant tools</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>Disinfectant tools suitable for everyday use.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>Poster - Infections</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>Poster - Malaria</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>Bench - modern</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>Coffee table</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>Ambulance</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>New European-style ambulance that is ready to bring patients in the most severe medical conditions.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>Stretcher</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>กระดาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>กระดานแม่เหล็ก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>อุปกรณ์ทำลายเชื้อ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>อุปกรณ์ทำลายเชื้อเหมาะสำหรับการใช้ในชีวิตประจำวัน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>โปสเตอร์ - การติดเชื้อ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>โปสเตอร์ - ไข้มาลาเรีย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>โต้ะนั่ง - โมเดิร์น</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>โต๊ะกาแฟ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>รถพยาบาล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>รถพยาบาลสไตร์ยุโรปสมัยใหม่ที่พร้อมที่จะรับผู้ป่วยบาดเจ็บหนัก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>เปลหาม</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>Isolation unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>Infectious diseases department</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>แผนกห้องแยก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>แผลกที่จัดการเกี่ยวกับโรคติดต่อ</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>Templates of Infectious diseases department rooms</Text>  </GameDBLocalizedString>
 
             <!-- DIAGNOSES - MIGRATED -->
-            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>Influenza A</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>Hepatitis A</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>Hepatitis B</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>Cholera</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>Typhoid fever</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>Tuberculosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>Tularaemia</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>Pulmonary anthrax</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>Rat-bite fever</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>Cat-scratch disease</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>Pertussis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>Legionnaires disease</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>Typhus fever</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>American trypanosomias</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>Toxoplasmosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>Babesiosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>Lyme disease</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>Mumps</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>Tick-borne encephalitis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>Rabies</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>ไข้หวัดนก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>ไวรัสตับอักเสบ เอ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>ไวรัสตับอักเสบ บี</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>อหิวาตกโรค</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>ไข้ไทฟอยด์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>วัณโรค</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>โรคทูลาริเมีย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>โรคแอนแทรกซ์ในปอด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>ไข้หนูกัด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>โรคแมวข่วน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>โรคไอกรน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>โรคลีเจียนเน็ลล่า</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>ไข้รากสาดใหญ่</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>โรคชากาส</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>โรคท็อกโซพลาสโมซิส </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>โรคบาบีซิโอซิส</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>โรคลายม์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>คางทูม</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>วัคซีนไข้สมองอักเสบจากเห็บ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>โรคพิษสุนัขบ้า</Text>  </GameDBLocalizedString>
             
             <!--DIAGNOSES - NEW -->
-            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>Anaplasmosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Anaplasmosis is caused by bacteria Anaplasmosis phagocytophilum that is spread by ticks.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>Ehrlichiosis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Ehrlichiosis is a flu-like disease that is closely related to Anaplasmosis. It is also spread by ticks.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>Boutonneuse fever</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>Boutonneuse fever is a fever caused by rickettsial infection caused by Rickettsia conorii and it is transmitted by the dog tick. The disease occurrs mainly in the Mediterranean basin, Middle East, Indian subcontinent and Africa.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>Rocky Mountain spotted fever</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>Bacterial disease caused by Rickettsia rickettsii, spread by various species of ticks (american dog tick, rocky mountain wood tick, brown dog tick).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>โรคอะนาพลาสโมซิส</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>โรคอะนาพลาสโมซิสเกิดจากแบคทีเรียอนาพลาสโมซิส ฟาโกไซโทไฟลัมซึ่งแพร่กระจายผ่านเห็บ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>โรคเออร์ลิชิโอสิส</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>โรคเออร์ลิชิโอสิสเป็นโรคคล้ายไข้หวัดที่ใกล้เคียงกับโรคอะนาพลาสโมซิส สามารถแพร่กระจายผ่านเห็บได้</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>ไข้บูว์ทอนนิวส์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>ไข้บูว์ทอนนิวส์เกิดจากโรคติดเชื้อริกเก็ตเซียและสามารถแพร่กระจายผ่านเห็บของสุนัขได้ โรคเกิดขึ้นหลัก ๆ ภายในบริเวณเมดิเตอร์เรเนียน ตะวันออกกลาง อนุทวีปอินเดีย และแอฟริกา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>โรครอคกี้เมาเทน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>โรคนี้เกิดขึ้นจากเชื้อริกเก็ตเซีย สามารถแพร่กระจายผ่านเห็บได้</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>Colorado tick fever</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>Viral infection spread by Rocky Mountain wood tick, symptoms are very similar to Rocky Mountain spotted fever.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>Pacific Coast tick fever</Text>  </GameDBLocalizedString>
