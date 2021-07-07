@@ -6,32 +6,33 @@
 
         <Contributors>
             <Name>Oxymoron Games</Name>
+            <Name>AlexChen</Name>
         </Contributors>
 
         <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
         <LocalizedStrings>
-            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>感染性疾病科 DLC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>傳染性疾病 DLC</Text>  </GameDBLocalizedString>
             
             <!-- Department and rooms-->
             <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
-            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>感染性疾病</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>感染內科</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>隔離室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>隔離室是用來隔離患有感染性疾病病患的病房，同時避免病原體的散播。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>感染性疾病診間</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>感染性疾病診間是簡單檢查與治療的門診。最低員工需求：\n1x 流行病學家 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>負壓隔離病房</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>負壓隔離病房是用來隔離患有感染內科病患的病房，同時避免病原體的散播。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>感染內科診間</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>感染內科診間是簡單檢查與治療的門診。最低員工需求：\n1x 流行病學家 </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>檢查室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>感染性疾病科的診間提供住院病患檢查與治療程序。\n\n最低員工需求：\n1x 流行病學家 \n（待命室人員）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>心電圖間</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>感染內科的診間提供住院病患檢查與治療程序。\n\n最低員工需求：\n1x 流行病學家 \n（待命室人員）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>心臟檢查室</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>生物危害區域，必須穿戴面罩與手套才能進入。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>生物危害區域，必須穿戴防護口罩與手套才能進入。</Text>  </GameDBLocalizedString>
                                                                                                                 
             <!-- Hospitalization alias -->                                                                      
             <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>隔離住院治療</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>讓病患在隔離室中住院治療來避免傳染性疾病擴散，同時提供高級照護。\n\n需要房間：隔離病房</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>讓病患在負壓隔離病房中住院治療來避免傳染性疾病擴散，同時提供高級照護。\n\n需要房間：負壓隔離病房</Text>  </GameDBLocalizedString>
                                                                                                                 
             <!-- SKILLS-->                                                                                      
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>流行病學家</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>流行病學</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>流行病學家調查疾病與寄生蟲的分布來判斷其來源、風險、進度、生命週期或傳染途徑。</Text>	</GameDBLocalizedString> <!--todo description-->
                                                                                                                 
             <!-- Global Admin Events-->                                                                         
@@ -39,7 +40,7 @@
                                                                                                                  
             <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>流行病疫情爆發！</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>你沒有隔離所有具傳染力的病患，因此一部份的醫院受到感染。員工現在必須穿戴面罩，且工作速度下降。</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>一名具傳染力的病患住進了隔離室外的病房，因此一部份的醫院受到感染。員工現在必須穿戴面罩，且工作速度下降。</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>一名具傳染力的病患住進了負壓隔離病房外的病房，因此一部份的醫院受到感染。員工現在必須穿戴面罩，且工作速度下降。</Text></GameDBLocalizedString>
                                                                                                                 
             <!-- ============== -->                                                                             
             <!--EVENTS -->                                                                                      
@@ -57,7 +58,7 @@
             <!-- Satisfaction modifiers -->
             <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>感染者</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>傳染性很高！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>高傳染性！</Text>  </GameDBLocalizedString>
 
             <!--Doors-->
             <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>生物危害門</Text>  </GameDBLocalizedString>
@@ -66,8 +67,8 @@
             <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>雙重橢圓形窗戶門</Text>  </GameDBLocalizedString>
 
             <!-- Objects-->
-            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>生命監測器</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>機械呼吸器</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>生理監測器</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>機械式呼吸器</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>隔離牆</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>隔離牆</Text>  </GameDBLocalizedString>
@@ -76,7 +77,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>為所有由空氣傳播病原體所造成的疾病提供保護。</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>衛生器材</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>適用於隔離室，用來為病患提供基本的衛生。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>適用於負壓隔離病房，用來為病患提供基本的衛生。</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>隔離空調</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>空調為隔離病患提供經過過濾的新鮮空氣與更舒適的環境。</Text>  </GameDBLocalizedString>
@@ -102,12 +103,12 @@
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>新歐式救護車，能夠將重病病患送到醫院。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>擔架</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>隔離室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>感染性疾病</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>負壓隔離病房</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>感染內科</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>感染性疾病: 大型醫院</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>感染性疾病科房間樣本</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>感染內科房間樣本</Text>  </GameDBLocalizedString>
 
             <!-- DIAGNOSES - MIGRATED -->
             <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>A 型流感</Text>  </GameDBLocalizedString>
@@ -185,7 +186,7 @@
             <GameDBLocalizedString>      <LocID>DIA_026</LocID>                                                 <Text>溪谷熱</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_026_DESCRIPTION</LocID>                                     <Text>溪谷熱，又稱黴菌溪谷熱，這是一種由粗球黴菌造成的感染，它一般生存於美國西南、墨西哥、中與南美洲的土壤中。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_027</LocID>                                                 <Text>COVID-19</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>COVID-19 是新冠狀病毒  SARS-CoV-2 所造成的疾病，且能造成呼吸道感染。最初在 2019 年 12 月於中國武漢發現，此疾病散播至全球，並造成 1918 年西班牙流感後最嚴重的疫情。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>嚴重特殊傳染性肺炎(COVID-19)是新型冠狀病毒  SARS-CoV-2 所造成的疾病，且能造成呼吸道感染。最初在 2019 年 12 月於中國武漢發現，此疾病散播至全球，並造成 1918 年西班牙流感後最嚴重的疫情。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_028</LocID>                                                 <Text>中東呼吸綜合症</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_028_DESCRIPTION</LocID>                                     <Text>中東呼吸綜合症，又稱為 MERS，是一種傳染性很高的病毒呼吸道感染，由中東呼吸症候群冠狀病毒所造成。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_029</LocID>                                                 <Text>嚴重急性呼吸道症候群</Text>  </GameDBLocalizedString>
@@ -221,7 +222,7 @@
             <GameDBLocalizedString>      <LocID>DIA_044</LocID>                                                 <Text>急性 E 型肝炎</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_044_DESCRIPTION</LocID>                                     <Text>急性 E 型肝炎是一種由 E 型肝炎病毒所造成的肝臟發炎。傳播方式與 A 型肝炎相似，可是這些病毒並沒有關連。首案在 1995 年被發現，但首次發現此病毒是在 1983 年。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_045</LocID>                                                 <Text>H5N1 禽流感</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>A 型流感病毒 - H5N1 子類型，一種高致病性禽流感。唯一傳播至人類的途徑是從鳥類。首次在全球散播是於 2004 年。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>A 型流感病毒 - H5N1 亞型，一種高致病性禽流感。唯一傳播至人類的途徑是從鳥類。首次在全球散播是於 2004 年。</Text>  </GameDBLocalizedString>
 
             <!--MAIN SYMPTOMS - MIGRATED-->
             <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>偵測到 B 型流感</Text>  </GameDBLocalizedString>
@@ -246,12 +247,12 @@
             <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>偵測到狂犬病</Text>  </GameDBLocalizedString>
             
             <!--MAIN SYMPTOMS - NEW-->
-            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>偵測到邊蟲</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>較高的免疫球蛋白 G 指出嗜吞噬細胞無形體的存在。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>偵測到無形體</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>免疫球蛋白 G 升高指出嗜吞噬細胞無形體的存在。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED</LocID>                               <Text>偵測到埃立克體</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED_DESCRIPTION</LocID>                   <Text>PCR 偵測到特定埃立克體的獨特基因。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED</LocID>                         <Text>偵測到康氏立克次體</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>切片熒光化驗偵測到康氏立克次體抗體</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>免疫螢光分析偵測到康氏立克次體抗體</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED</LocID>                       <Text>偵測到立氏立克次體</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED_DESCRIPTION</LocID>           <Text>PCR 偵測到了立氏立克次體的存在。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED</LocID>                      <Text>偵測到科羅拉多壁蝨熱病毒抗體</Text>  </GameDBLocalizedString>
@@ -291,7 +292,7 @@
             <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT</LocID>                                 <Text>拉薩病毒存在</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT_DESCRIPTION</LocID>                     <Text>PCR 測試偵測到了拉薩病毒。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED</LocID>                                       <Text>偵測到馬堡病毒</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>RT-PC 偵測到了馬堡病毒的存在。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>RT-PCR 偵測到了馬堡病毒的存在。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED</LocID>                                 <Text>偵測到鉤端螺旋體</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED_DESCRIPTION</LocID>                     <Text>微生物培養證明了鉤端螺旋體的存在。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED</LocID>                               <Text>偵測到艱難梭菌</Text>  </GameDBLocalizedString>
@@ -345,56 +346,56 @@
 
             <!--TREATMENTS-->
             <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE</LocID>                                         <Text>去氧羥四環素</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>特殊的四環黴素抗生素治療，可用於對抗特定的細菌與寄生蟲。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>四環黴素類抗生素療程，可用於對抗特定的細菌與寄生蟲。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE</LocID>                                      <Text>靜脈注射去氧羥四環素</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>特殊的四環黴素抗生素治療，可用於對抗特定的細菌與寄生蟲。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 隔離室 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>四環黴素類抗生素療程，可用於對抗特定的細菌與寄生蟲。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 負壓隔離病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE</LocID>                                         <Text>甲氯環素</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>特殊的四環黴素抗生素治療，可用於對抗特定的細菌與寄生蟲。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>四環黴素類抗生素療程，可用於對抗特定的細菌與寄生蟲。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL</LocID>                                     <Text>氯黴素</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>特殊的抗生素，可用於對抗各種的細菌。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>廣譜抗生素，可用於對抗多種細菌。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>阿奇黴素</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>一種用來對抗各種細菌感染的抗生素。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>一種用來對抗多種細菌(非典型)感染的抗生素。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>肌肉注射抗生素</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>肌肉注射抗生素是透過注射大型肌肉來遞送藥物。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>肌肉注射抗生素是透過針劑注射至大型肌肉來遞送藥物。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>複雜抗病毒療法</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>複雜抗病毒療法一般用於沒有適用抗病毒藥劑的案例。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 隔離室 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>複雜抗病毒療法通常用於沒有可用單一抗病毒製劑療程可治療的個案。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 負壓隔離病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>實驗性血清</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>實驗性靜脈注射藥物血清可用來治療伊波拉出血熱。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 隔離室 / 急診室</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>反瘧疾藥物</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>包含各種可對抗瘧疾與相關疾病的抗生素、藥物和輔助物質。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>實驗性靜脈注射藥物血清可用來治療伊波拉出血熱。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 負壓隔離病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>抗瘧疾藥物</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>包含各種可對抗瘧疾與相關疾病的抗生素、藥物和輔助物質。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>靜脈注射被動免疫治療</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>靜脈注射特定抗體來對抗不同的病毒出血熱。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>靜脈注射特定抗體來對抗不同的病毒出血熱。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY</LocID>                                   <Text>反義療法</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>反義療法是一種治療基因病變或感染的療法，可用於合成可關閉特定基因的 RNA/DNA。n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>反義療法是一種治療基因病變或感染的療法，可用於合成可關閉特定基因的 RNA/DNA。n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN</LocID>                                          <Text>萬古黴素</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>一種靜脈注射抗生素，可用於治療不同的的細菌。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>一種靜脈注射抗生素，可用於治療不同的的細菌。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE</LocID>                                         <Text>氟康唑</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>特殊的抗黴菌藥物，可用於治療不同真菌造成的疾病。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>特殊的抗黴菌藥物，可用於治療不同真菌造成的疾病。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE</LocID>                                        <Text>硝唑尼特</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>一種用途廣泛的抗寄生蟲藥物，也是一種用途廣泛的抗並毒藥物。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>廣譜抗寄生蟲藥物，也是廣譜的抗病毒藥物。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR</LocID>                                         <Text>奧司他韋</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>一種抗並毒藥物，用於治療和避免 A 與 B 行流感。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 隔離室 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>又稱克流感，一種用於治療和避免 A 與 B 型流感的抗病毒藥物。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 負壓隔離病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN</LocID>                                       <Text>環丙沙星</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>一種用於治療各種不同細菌感染的抗生素。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>一種用於治療各種不同細菌感染的抗生素。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN</LocID>                                    <Text>靜脈注射環丙沙星</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>一種用於治療各種不同細菌感染的抗生素。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 隔離室 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>一種用於治療各種不同細菌感染的抗生素。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 負壓隔離病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE</LocID>                                     <Text>輔助療法</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>一種輔助性療法，包含各種症狀治療，主要是用於沒有特定療法的病毒疾病。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>狂犬病疫球蛋白</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>快效注射，能避免狂犬病病毒感染病患。往往用來讓被可能有狂犬病的動物所咬的病人能夠預防此疾病。\n\n需要房間：感染性疾病診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>一種輔助性療法，包含各種症狀治療，主要是用於沒有特定療法的病毒疾病。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>狂犬病免疫球蛋白</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>速效針劑，能避免狂犬病病毒感染病患。往往用來讓被可能有狂犬病的動物所咬的病人能夠預防此疾病。\n\n需要房間：感染內科診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X</LocID>                               <Text>干擾素 alpha-2b</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>非常特定的抗病毒療法，用來治療慢性 B 與 C 型肝炎。\n\n需要房間：診間 / 位於感染性疾病科的檢查室 + 普通病房 / 急診室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>非常特定的抗病毒療法，用來治療慢性 B 與 C 型肝炎。\n\n需要房間：診間 / 位於感染內科的檢查室 + 普通病房 / 急診室</Text>  </GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>一種使用帶有小型攝影機和燈光的彈性管線（內視鏡）從口部置入來檢視上消化道。\n\n需要房間：急診室 / 診間 / 位於一般外科的檢查室 / 內科 / 心臟科 / 感染性疾病科</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>將針頭刺入下背脊髓來採集少量腦脊液。\n\n需要房間：組織實驗室\n\n採樣：神經科 / 感染性疾病科\n\n需要器材：玻璃器材+醫用離心機+實驗室分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>收集病患糞便檢體來進行深入分析。\n\n需要房間：組織實驗室\n\n採樣：急診/一般手術/內科/加護病房 / 感染性疾病科\n\n需要器材：玻璃器材+糞便分析儀</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>測試病患聽力的聽力測試。\n\n需要房間：醫生診間 / 觀察室 / 急診室 / 診間 / 位於內科的檢查室 / 感染性疾病科 / 感染性疾病科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>一種使用帶有小型攝影機和燈光的彈性管線（內視鏡）從口部置入來檢視上消化道。\n\n需要房間：急診室 / 診間 / 位於一般外科的檢查室 / 內科 / 心臟科 / 感染內科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>將針頭刺入下背脊髓來採集少量腦脊液。\n\n需要房間：組織實驗室\n\n採樣：神經科 / 感染內科\n\n需要器材：玻璃器材+醫用離心機+實驗室分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>收集病患糞便檢體來進行深入分析。\n\n需要房間：組織實驗室\n\n採樣：急診/一般手術/內科/加護病房 / 感染內科\n\n需要器材：玻璃器材+糞便分析儀</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>測試病患聽力的聽力測試。\n\n需要房間：醫生診間 / 觀察室 / 急診室 / 診間 / 位於內科的檢查室 / 感染內科 / 感染內科</Text>  </GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>透過靜脈注射輸入包含抗體的血液產品。\n\n需要房間：急診室 / 診間 / 位於骨科的檢查室 / 神經科 / 感染性疾病科</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>抑制病毒感染的藥物。與抗生素不同，抗並毒藥物並不會直接摧毀病原體。\n\n需要房間：醫生診間 / 觀察室 / 急診室 / 診間 / 位於一般外科的檢查室 / 神經科 / 感染性疾病科</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>專門用於緩解腹瀉狀況的藥物，只能透過減少排便來緩解症狀，無法消除病因。 \n\n需求房間：醫生診間 / 觀察區 / 急救區 / 加護病房 / 診間 / 位於一般手術的檢查室 / 內科 / 感染性疾病科</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>一種用來治療各種寄生蟲感染的藥物。\n\n需求房間：醫生診間 / 觀察室 / 急救區 / 診間 / 位於內科的檢查室 / 感染性疾病科</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>一種解決鼻道鼻塞問題的液體製劑 \n\n需求房間: 診間 / 觀察區 / 診間/檢查室於一般內科部 / 心臟醫學部 / 感染性疾病科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>透過靜脈注射輸入包含抗體的血液產品。\n\n需要房間：急診室 / 診間 / 位於骨科的檢查室 / 神經科 / 感染內科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>抑制病毒感染的藥物。與抗生素不同，抗並毒藥物並不會直接摧毀病原體。\n\n需要房間：醫生診間 / 觀察室 / 急診室 / 診間 / 位於一般外科的檢查室 / 神經科 / 感染內科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>專門用於緩解腹瀉狀況的藥物，只能透過減少排便來緩解症狀，無法消除病因。 \n\n需求房間：醫生診間 / 觀察區 / 急救區 / 加護病房 / 診間 / 位於一般手術的檢查室 / 內科 / 感染內科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>一種用來治療各種寄生蟲感染的藥物。\n\n需求房間：醫生診間 / 觀察室 / 急救區 / 診間 / 位於內科的檢查室 / 感染內科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>一種解決鼻道鼻塞問題的液體製劑 \n\n需求房間: 診間 / 觀察區 / 診間/檢查室於一般內科部 / 心臟醫學部 / 感染內科</Text>  </GameDBLocalizedString>
 
             <!--new hematolab for the department-->
             <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>血液學實驗室</Text></GameDBLocalizedString>
