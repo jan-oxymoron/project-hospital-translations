@@ -1,15 +1,18 @@
 <Database>
-    <GameDBStringTable ID="LOC_TH_UI">
-        
-        <LanguageCode>th</LanguageCode>
+
+    <GameDBStringTable ID="LOC_TH_UI" >
+      
+        <LanguageCode >th</LanguageCode>
         <LanguageNameLocalized>Thai</LanguageNameLocalized>
 
         <Contributors>
             <Name>Sireethon</Name>
             <Name>Teenavut Liwanag</Name>
+            <Name>KanomWan</Name>
         </Contributors>
         
         <LocalizedStrings>
+  
             <!-- Menus -->
             <GameDBLocalizedString>      <LocID>QUIT</LocID>                                <Text>ออก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OK</LocID>                                  <Text>โอเค</Text>  </GameDBLocalizedString>
@@ -62,7 +65,7 @@
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_SAVE</LocID>     <Text>บันทึกเกม</Text>  </GameDBLocalizedString>
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD</LocID>     <Text>โหลดเกม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_SCENARIO</LocID>                       <Text>บันทึก scenario</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOAD_SCENARIO</LocID>                       <Text>โหลด scenarioโหลด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOAD_SCENARIO</LocID>                       <Text>โหลด scenario </Text>  </GameDBLocalizedString>
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>BACK_TO_GAME</LocID>        <Text>กลับสู่เกม</Text>  </GameDBLocalizedString>
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>EXIT_TO_MENU</LocID>        <Text>ออกไปหน้าเมนู</Text>  </GameDBLocalizedString>
 
@@ -71,7 +74,7 @@
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>MAP_EDITOR_LOAD_MAP</LocID> <Text>โหลดเกม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SAVE_PREFAB</LocID>                         <Text>Save prefab</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_LOG</LocID>        <Text>All log</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_LOG</LocID>        <Text>ค่าเป็นบันทึกทั้งหมด</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIFICATIONS_RESTORE_DEFAULTS</LocID>      <Text>คืนค่าเริ่มต้น</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>KEYBOARD_LAYOUT</LocID>                     <Text>แสดงการตั้งค่าคีย์บอร์ด</Text>  </GameDBLocalizedString>
@@ -96,14 +99,14 @@
             <GameDBLocalizedString>      <LocID>UI_ROOM_MISSING_EQUIPMENT</LocID>           <Text>อุปกรณ์หายไป</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UI_ROOM_INACCESSIBLE</LocID>                <Text>ไม่สามารถเข้าถึงได้</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UI_ROOM_INACCESSIBLE_PATIENTS</LocID>       <Text>(ไม่สามารถเข้าถึงได้สำหรับผู้ป่วย)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UI_ROOM_MISSING_STAFF</LocID>               <Text>(ไม่มีสตาฟ)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_MISSING_STAFF</LocID>               <Text>(ไม่มีพนักงาน)</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>UI_DEPARTMENT_CLOSED</LocID>                <Text>(แผนกปิด)</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_DAY</LocID>                   <Text>จำนวนงาน DAY: </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_NIGHT</LocID>                 <Text>จำนวนงาน NIGHT: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_DAY</LocID>                   <Text>จำนวนงาน กลางวัน: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_USAGE_NIGHT</LocID>                 <Text>จำนวนงาน กลางคืน: </Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>...ตรงถึงเช้า!!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE</LocID>            	<Text>...ไปยันเช้า!!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TEXT_FAST_TIME_SCALE_SKIP</LocID>        	<Text>กด ESC หรือคลิ๊กขวาเพื่อยกเลิก</Text>  </GameDBLocalizedString>
 
             <!-- Tooltips -->
@@ -114,7 +117,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_MAIN_MENU_BUTTON</LocID>            <Text>เมนูหลัก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TUTORIAL</LocID>                    <Text>สอนเล่น</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_STEP_ONE_HOUR</LocID>             <Text>ข้ามกลางคืน (สามารถกดยกเลิกโดยใช้ปุ่ม ESC)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_STEP_ONE_HOUR</LocID>             <Text>ข้ามกลางคืน (สามารถยกเลิกโดยการกดปุ่ม ESC)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_GAME_PAUSE</LocID>            	<Text>หยุดเกม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_SPEED_NORMAL</LocID>            	<Text>ความเร็วเกมปกติ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_TIMESCALE_SPEED_FAST4X</LocID>            	<Text>เพิ่มความเร็วเกม (4x)</Text>  </GameDBLocalizedString>
@@ -125,20 +128,20 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TOTAL_CURED_PATIENTS</LocID>       <Text>รักษาแล้ว/ คนไข้ทั้งหมด</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_WARNINGS</LocID>             		<Text>คำเตือนโรงพยาบาล</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>             	<Text>ชื่อเสียง\n(อัตราความสำเร็จ/ ความพึงพอใจของสตาฟและคนไข้)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_GAUGE_RATING</LocID>             	<Text>ชื่อเสียง\n(อัตราความสำเร็จ/ ความพึงพอใจของพนักงานและคนไข้)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE</LocID>                   <Text>ชื่อเสียง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>Influences amount of patients arriving to your hospital and some insurance payments</Text>  </GameDBLocalizedString>
-            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>Department prestige is an average satisfaction of staff and patients, plus overall treating efficiency.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DESCRIPTION</LocID>       <Text>ผลต่อจำนวนผู้ป่วยที่มาถึงโรงพยาบาลของคุณและเงินประกันบางส่วน</Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_PRESTIGE_DEPARTMENT_DESCRIPTION</LocID><Text>ชื่อเสียงของแผนกคือความพึงพอใจโดยเฉลี่ยของเจ้าหน้าที่และผู้ป่วยรวมทั้งประสิทธิภาพในการรักษาโดยรวม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_BUDGET_BALANCE</LocID>             <Text>เงินคงเหลือ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_TIME_CURRENT</LocID>             	<Text>สเกลเวลาตอนนี้</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_MANAGEMENT</LocID>             	<Text>เปิดการบริหารจัดการแผนก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CURRENT</LocID>             		<Text>เปิดการบริหารจัดการของแผนกนี้</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_OPEN_OVERVIEW</LocID>            <Text>Open overview department card</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_OPEN_OVERVIEW</LocID>            <Text>เปิดการ์ด/รายละเอียดภาพรวม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_HIDE</LocID>                           <Text>แสดง / ซ่อนตารางรายวัน</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>TOOLTIP_MANAGEMENT_OK</LocID>                       <Text>ทุกๆอย่าง OK</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_MANAGEMENT_MISSING_STAFF</LocID>            <Text>ไม่มีสตาฟที่ต้องการ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MANAGEMENT_OK</LocID>                       <Text>ทุกอย่างพร้อม</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MANAGEMENT_MISSING_STAFF</LocID>            <Text>ไม่มีพนักงานที่ต้องการ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_MANAGEMENT_MISSING_ROOMS</LocID>            <Text>ไม่มีห้องที่ต้องการ</Text>  </GameDBLocalizedString>
             
 
@@ -159,7 +162,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_OPEN_LOG</LocID>             			<Text>ปิดการแจ้งเตือน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_VIEW_CLOSE_LOG</LocID>             			<Text>ปิดการแจ้งเตือน</Text>  </GameDBLocalizedString>
                         
-            <GameDBLocalizedString>      <LocID>TOOLTIP_CENTER_CHARACTER</LocID>        	<Text>คลิ๊กที่รูปเพื่อเคลื่อนกล้องไปที่คนๆนั้น</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CENTER_CHARACTER</LocID>        	<Text>คลิ๊กที่รูปเพื่อเลื่อนกล้องไปที่คนๆนั้น</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>STAFF_BUSY</LocID>             	            <Text>บุคลากรกำลังวุ่น</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>STAFF_NOT_QUALIFIED</LocID>             	<Text>บุคลากรไม่ผ่านคุณสมบัติ</Text>  </GameDBLocalizedString>
@@ -173,8 +176,8 @@
             <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_NIGHT</LocID>        	    <Text>เวรดึกไม่มีพนักงาน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NO_FREE_BED</LocID>        	                <Text>ไม่มีเตียงว่างในวอร์ดรักษาผู้ป่วย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PATIENT_CAN_NOT_TALK</LocID>        	    <Text>คนไข้ไม่สามารถพูดได้</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ALREADY_HOSPITALIZED</LocID>        	    <Text>Patient is already hospitalized at higher or similar priority ward. You can try changing the department.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>REQUIRED_HOSPITALIZATION_UNAVAILABLE</LocID><Text>Hospitalization required for the treatment is not availableการนอนรักษาในโรงพยาบาล. You can try changing the department.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALREADY_HOSPITALIZED</LocID>        	    <Text>ผู้ป่วยถูกรักษาในโรงพยาบาลแล้วที่หอผู้ป่วยมีลำดับความสำคัญสูงกว่าหรือใกล้เคียงกัน คุณสามารถลองเปลี่ยนแผนก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>REQUIRED_HOSPITALIZATION_UNAVAILABLE</LocID><Text>ไม่สามารถรักษาในโรงพยาบาลได้ คุณสามารถลองเปลี่ยนแผนก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMERGENCY_NO_HOSPITALIZATION</LocID>        <Text>การดูแลรักษาขั้นนี้ไม่มีในแผนกฉุกเฉิน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNKNOWN</LocID>        	                    <Text>ไม่ทราบสาเหตุที่ไม่พร้อมใช้งาน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ONLY_CLINIC</LocID>        	                <Text>ที่คลินิกเท่านั้น</Text>  </GameDBLocalizedString>
@@ -197,11 +200,11 @@
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PLAYER_CONTROL</LocID>      <Text>ควบคุมโดยผู้เล่น</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SYMPTOMS_CURRENT</LocID>    <Text>อาการตอนนี้</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SYMPTOMS_HIDDEN</LocID>     <Text>ซ่อน</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_SYMPTOMS</LocID>             <Text>Shows number of hidden symptoms that patient does not know about. Blinking icon signals that one or more symptoms can cause collapse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_SYMPTOMS</LocID>             <Text>แสดงจำนวนอาการที่ซ่อนอยู่ที่ผู้ป่วยไม่ทราบ ไอคอนกะพริบเป็นสัญญาณว่าอาการอย่างน้อยหนึ่งอย่างอาจทำให้ยุบ/หายได้ไปได้</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>PLAYER_CONTROL</LocID>                      <Text>ควบคุมโดยผู้เล่น</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>AI_CONTROL</LocID>                          <Text>ควบคุมโดยแพทย์</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>FAVORITE</LocID>                            <Text>โปรดปราณ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FAVORITE</LocID>                            <Text>ชอบ</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>HIDDEN_SYMPTOM_1</LocID>                    <Text>อาการที่ซ่อนอยู่</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIDDEN_SYMPTOM_2_TO_4</LocID>               <Text>อาการที่ซ่อนอยู่</Text>  </GameDBLocalizedString>
@@ -224,7 +227,7 @@
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_LEVEL</LocID>               <Text>ระดับ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SKILLS</LocID>              <Text>ทักษะ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SPECIALIZATIONS</LocID>     <Text>ความเชี่ยวชาญ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SELECT_SPECIALIZATION_WARNING</LocID>       <Text>Selecting this will replace the current specialization and will set the skill level to 0%.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SELECT_SPECIALIZATION_WARNING</LocID>       <Text>การเลือกสิ่งนี้จะแทนที่ความเชี่ยวชาญปัจจุบันและจะตั้งระดับทักษะเป็น 0%.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_SUPERVISOR</LocID>          <Text>ผู้ควบคุม</Text>  </GameDBLocalizedString>
 
@@ -234,7 +237,7 @@
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENTS</LocID>            <Text>คนไข้</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_MOST_CRITICAL</LocID><Text>อาการหนักที่สุด</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_MOST_ANGRY</LocID>  <Text>โกรธที่สุด</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_MOST_HAPPY</LocID>  <Text>มีความสุกขที่สุด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_MOST_HAPPY</LocID>  <Text>มีความสุขที่สุด</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_STATISTICS</LocID>  <Text>สถิติ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_PATIENT_NEEDS</LocID>       <Text>ความต้องการ</Text>  </GameDBLocalizedString>
 
@@ -249,9 +252,9 @@
 
             <GameDBLocalizedString>      <LocID>LOCKED_BY_INSURANCE</LocID>                 <Text>ปลดล๊อคโดยการทำเควสของบริษัทประกัน</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES</LocID>           <Text>สตาฟ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY</LocID>       <Text>สตาฟ เช้า</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NIGHT</LocID>     <Text>สตาฟ กลางคืน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES</LocID>           <Text>พนักงาน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY</LocID>       <Text>พนักงาน เช้า</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_NIGHT</LocID>     <Text>พนักงาน กลางคืน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_DOCTOR</LocID><Text>หัวหน้าแพทย์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CHIEF_NURSE</LocID><Text>หัวหน้าพยาบาล</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_CERTAINTY</LocID> <Text>ความเชื่อมั่น</Text>  </GameDBLocalizedString>
@@ -278,9 +281,9 @@
             <GameDBLocalizedString>      <LocID>DESC_NONE</LocID>                   	<Text>ไม่มี</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NEGATIVE_NO</LocID>                    	<Text>ไม่</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DESC_ROOM_SIZE</LocID>                  <Text>ขนาดห้องเล็กสุด:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DESC_ROOM_EQUIPMENT</LocID>     		<Text>For required equipment click the room marker on the floor in management mode.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DESC_ROOM_LOCKED</LocID>     		    <Text>Unlocked by insurance company objectives.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>STAFF_LEVEL_DESCRIPTION</LocID>     	<Text>Determines which procedures the character can perform.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DESC_ROOM_EQUIPMENT</LocID>     		<Text>สำหรับอุปกรณ์ที่ต้องการ ให้คลิกเครื่องหมายบนพื้นห้องในโหมดการจัดการ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DESC_ROOM_LOCKED</LocID>     		    <Text>ปลดล็อคตามวัตถุประสงค์ของ บริษัท ประกันภัย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STAFF_LEVEL_DESCRIPTION</LocID>     	<Text>กำหนดโพรซีเดอร์ที่ตัวละครสามารถดำเนินการได้</Text>  </GameDBLocalizedString>
 
             <!-- Insuracne objectives -->
             <GameDBLocalizedString>      <LocID>TREATED_PATIENTS</LocID>                <Text>รักษาคนไข้ {1} คน</Text>  </GameDBLocalizedString>
@@ -303,7 +306,7 @@
             <GameDBLocalizedString>      <LocID>UNLOCK_DEPARTMENT_HOSPITALIZATION</LocID> <Text>การนอนรักษาพยาบาลที่ {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MONEY_GRANT</LocID>                     <Text> {1} เงินสนับสนุนจากรัฐ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MORE_MOBILE_PATIENTS</LocID>            <Text>มีจำนวนคนไข้คลินิกมากกว่า {1} ต่อวัน</Text>  </GameDBLocalizedString>
-            <!-- UPDATED --><GameDBLocalizedString><LocID>MORE_IMMOBILE_PATIENTS</LocID><Text>มีคนไข้จากรถพยาบามากกว่า {1} ต่อวัน</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString><LocID>MORE_IMMOBILE_PATIENTS</LocID><Text>มีคนไข้จากรถพยาบาลมากกว่า {1} ต่อวัน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>UNLOCK_AMBULANCES</LocID>               <Text>รถพยาบาล</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>YESTERDAY</LocID>        	                <Text>เมื่อวาน</Text>  </GameDBLocalizedString>
@@ -340,11 +343,11 @@
             
             <!-- Patient card -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_PATIENT</LocID>   <Text>คนไข้ทั่วไป / ควบคุมโดยผู้เล่น / คนไข้คนโปรด</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_EMPLOYEE</LocID>  <Text>Add employee to favorites - add character portrait to main panel. Up to 10 characters can be bookmarked.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_EMPLOYEE</LocID>  <Text>เพิ่มพนักงานในรายการโปรด - เพิ่มภาพตัวละครในแผงหลัก บุ๊กมาร์กได้สูงสุด 10 ตัวละคร</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_PERKS</LocID>                              <Text>ลักษณะที่ซ่อนอยู่</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>TOOLTIP_GO_TO_DOCTOR</LocID>                              <Text>เปิดการ์ดของแพทย์</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_CRITICAL_PATIENT</LocID>                          <Text>This is a patient in critical state. There's at least one symptom leading to a collapse.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CRITICAL_PATIENT</LocID>                          <Text>นี่คือผู้ป่วยที่อยู่ในสถานะวิกฤต มีอาการอย่างน้อยหนึ่งอาการที่นำไปสู่การทรุดลง</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_DIAGNOSIS_FINISHED_DIAGNOSIS</LocID>              <Text>แสดงประวัติการวินิจฉัย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DIAGNOSIS_PATIENT_BALANCE</LocID>                 <Text>เปิดการ์ดค่าใช้จ่ายของคนไข้</Text>  </GameDBLocalizedString>
@@ -400,7 +403,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIRE_LAB_SPECIALISTS</LocID>                      <Text>จ้างนักเทคนิค</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIRE_MAINTENANCE_WORKERS</LocID>                  <Text>จ้างแม่บ้าน</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_REFERRAL</LocID>                             <Text>From referral - a case for a specialized department</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_REFERRAL</LocID>                             <Text>จากการอ้างอิง - กรณีสำหรับแผนกเฉพาะ</Text>  </GameDBLocalizedString>
             
             <!-- Department card -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_HIRE_STAFF</LocID>                     <Text>จ้างเจ้าหน้าที่ใหม่</Text>  </GameDBLocalizedString>
@@ -413,7 +416,7 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_WARNINGS</LocID>           		      <Text>คำเตือนของแผนก</Text>  </GameDBLocalizedString>
                                                                                                          
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF_LIST</LocID>           	      <Text>เปิดตารางสตาฟของแผนก</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>Chief doctor adds daily bonus to the staff on respective departments. Choose wisely.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CHIEF_DOCTOR</LocID>           	      <Text>หัวหน้าแพทย์เพิ่มโบนัสรายวันให้กับพนักงานในแผนกต่างๆ เลือกได้ชาญฉลาด</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_RESTORE</LocID>              <Text>คืนค่าเริ่มต้น</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_CHART</LocID>                <Text>ดูกราฟ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_CERTAINTY_GAUGE</LocID>                <Text>เซ็ตค่าความมั่นใจซึ่งจะถูกใช้เพื่อคอนเฟิร์มการวินิจฉัย</Text>  </GameDBLocalizedString>
@@ -471,8 +474,8 @@
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_REMOVE_ADD</LocID>             <Text>เปิด / ปิด การรับคนไข้เข้ามา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_INSURANCE_COMPANY</LocID>      <Text>บริษัทประกัน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_DISEASES_PATIENTS</LocID>      <Text>จำนวนของคนไข้ที่ส่งมาต่อวัน\n จำนวนจะถูกลดลงถ้าโรงพยาบาลรักษาคนไข้ได้น้อยกว่า 70% ของคนไข้ทั้งหมด</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_TRAUMAS_PATIENTS</LocID>       <Text>Number of injured patients sent per day</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_PRICE_MODIFIER</LocID>         <Text>Cover cost modifier for patients sent by this insurance company</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_TRAUMAS_PATIENTS</LocID>       <Text>จำนวนผู้ป่วยที่ได้รับบาดเจ็บนำส่งต่อวัน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_PRICE_MODIFIER</LocID>         <Text>ครอบคลุมตัวปรับค่าใช้จ่ายสำหรับผู้ป่วยที่บริษัทประกันส่งมา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_OBJECTIVE</LocID>              <Text>เป้าหมาย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_PAYMENT</LocID>                <Text>$</Text>  </GameDBLocalizedString>
             
@@ -541,7 +544,7 @@
 
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STATUS</LocID>                          <Text>สถานะของแผนก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STATUS_OUTPATIENTS</LocID>              <Text>คนไข้ของคลินิก</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STATUS_HOSPITALIZATION</LocID>          <Text>การัักษาพยาบาล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STATUS_HOSPITALIZATION</LocID>          <Text>การักษาพยาบาล</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_EQUIPMENT</LocID>                       <Text>อุปกรณ์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_STAFF</LocID>                           <Text>สตาฟ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_DAY_SHIFT</LocID>                       <Text>สตาฟในเวรเช้า</Text>  </GameDBLocalizedString>
@@ -582,7 +585,7 @@
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO</LocID>                            <Text>เทคนิคหัวใจ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_CARDIO_DESCRIPTION</LocID>                <Text>นักเทคนิคที่ทำงานกับอุปกรณ์ในการตรวจที่เกี่ยวข้องกับ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG</LocID>                               <Text>USG เทค</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG_DESCRIPTION</LocID>                   <Text>Technologist that operates examination and treatment devices related to</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_USG_DESCRIPTION</LocID>                   <Text>นักเทคโนโลยีที่ดำเนินการตรวจสอบและอุปกรณ์การรักษาที่เกี่ยวข้องกับ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGEON</LocID>                                            <Text>ศัลยแพทย์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SURGEON_DESCRIPTION</LocID>                                <Text>แพทย์ในห้องเรียก, เฉพาะทางด้าน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST</LocID>                                   <Text>วิสัญญีแพทย์</Text>  </GameDBLocalizedString>
@@ -663,9 +666,9 @@
             <GameDBLocalizedString>      <LocID>TABLE_SYMPTOMS_COLLAPSE</LocID>             <Text>อาการทรุด</Text>  </GameDBLocalizedString>
 
             <!-- Popups -->
-            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_LEVEL</LocID>         <Text>Switch whether this message shows as a pop-up or only in the log.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_LEVEL</LocID>         <Text>สลับว่าข้อความนี้แสดงเป็นแบบป๊อปอัปหรือเฉพาะในบันทึก.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>POPUP</LocID>                               <Text>ป๊อปอัพ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LOG</LocID>                                 <Text>log</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOG</LocID>                                 <Text>บันทึก</Text>  </GameDBLocalizedString>
 
             <!-- Tutorial -->
             <GameDBLocalizedString>      <LocID>BUTTON_NEXT</LocID>                         <Text>ต่อไป</Text>  </GameDBLocalizedString>
@@ -726,21 +729,21 @@
             <!-- UPDATED --> <GameDBLocalizedString>      <LocID>DEAD_PATIENTS</LocID>      <Text>คนไข้เสียชีวิต / เสียเคส</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>STATISTICS_PROFIT</LocID>                   <Text>กำไรต่อวัน</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>คนไข้ (ทั้งหมดl/รักษาแล้ว)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>STATISTICS_PATIENTS</LocID>                 <Text>คนไข้ (ทั้งหมด/รักษาแล้ว)</Text>  </GameDBLocalizedString>
 
             <!-- ============= NEW, NEED TRANSLATING ================== -->
-            <!-- UPDATED_2018_10_28 --> <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID><Text>อีเว้นท์จะปลดล๊อคเมื่อคุณเปิดการนอนโรงพยาบาลในทุกๆแผนก หรือไม่อย่างงั้นมันจะไม่สามารถเกิดได้ในช่วงกลางคืน</Text>  </GameDBLocalizedString>
+            <!-- UPDATED_2018_10_28 --> <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_UNLOCK</LocID><Text>กิจกรรมจะปลดล๊อคเมื่อคุณเปิดการนอนโรงพยาบาลในทุกๆแผนก หรือไม่อย่างงั้นมันจะไม่สามารถเกิดได้ในช่วงกลางคืน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_INCREASE_LOAN</LocID>               <Text>เงินกู้ $20 000</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DECREASE_LOAN</LocID>               <Text>จ่ายคืน $20 000.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HIRING_AGENCY</LocID>                       <Text>จ้างเอเจนซี่</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_INSURANCE_HOSPITALIZED</LocID>   <Text>ประกันภัย (การนอนรักษา)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_WAGES_HOSPITALIZED</LocID>       <Text>ค่าจ้าง (การนอนรักษา)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_BUILDING</LocID>          <Text>สิ่งก่อสร้าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_EVENTS</LocID>            <Text>อีเว้นท์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_EVENTS</LocID>            <Text>กิจกรรม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_AMBULANCES</LocID>        <Text>รถพยาบาล</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MANAGEMENT_BUDGET_OTHER</LocID>             <Text>อื่นๆ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>GET_GREAT_INTERNS</LocID>                   <Text>Next {1} intern(s) available for hire will be great candidate(s)!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EVENT_BONUS</LocID>                         <Text>โบนัสจากอีเว้นท์:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GET_GREAT_INTERNS</LocID>                   <Text>ต่อไป {1} อินเทิร์น(s) สำหรับการจ้างผู้สมัครที่ดี(s)!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_BONUS</LocID>                         <Text>โบนัสจากกิจกรรม:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_DEPARTMENT_TOTAL_STAFF</LocID>      <Text>พนักงาน / ขีดจำกัดโดยรวม</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>MONEY_BONUS</LocID>                         <Text>งบโบนัส:</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SANDBOX</LocID>                             <Text>แซนด์บ๊อก</Text>  </GameDBLocalizedString>
@@ -810,17 +813,17 @@
             <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION</LocID>      <Text>แผนกประสาท</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64</LocID>                  <Text>พื้นที่ว่าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_64_DESCRIPTION</LocID>      <Text>แซนด์บ๊อก, 64 x 64</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96</LocID>                  <Text>พื้นที่ว่าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_A_96_DESCRIPTION</LocID>      <Text>แซนด์บ๊อก, 96 x 96</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64</LocID>                  <Text>พื้นที่ว่าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_64_DESCRIPTION</LocID>      <Text>แซนด์บ๊อก, 64 x 64</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96</LocID>                  <Text>พื้นที่ว่าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_B_96_DESCRIPTION</LocID>      <Text>แซนด์บ๊อก, 96 x 96</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64</LocID>                  <Text>พื้นที่ว่าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64_DESCRIPTION</LocID>      <Text>Sandbox, 64 x 64</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_64_DESCRIPTION</LocID>      <Text>แซนด์บ๊อก, 64 x 64</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96</LocID>                  <Text>พื้นที่ว่าง</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96_DESCRIPTION</LocID>      <Text>Sandbox, 96 x 96</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_C_96_DESCRIPTION</LocID>      <Text>แซนด์บ๊อก 96 x 96</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A</LocID>            <Text>คลินิก</Text>  </GameDBLocalizedString>
             <!-- UPDATED --><GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</LocID><Text>คลินิกฉุกเฉินเล็กๆ, 64 x 64</Text>  </GameDBLocalizedString>
@@ -846,14 +849,18 @@
             <GameDBLocalizedString>      <LocID>DAY_SUFFIX</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Day on main panel -->
 
             <GameDBLocalizedString>      <LocID>UI_ACHIEVEMENTS</LocID>                     <Text>ความสำเร็จ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>ออกไปที่เดสก์ท็อป</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXIT_TO_DESKTOP</LocID>                     <Text>ออกไปหน้าเดสก์ท็อป</Text>  </GameDBLocalizedString>
             
             <!-- UPDATED --><GameDBLocalizedString><LocID>TOOLTIP_SELECT_DEPARTMENT_TRANSPORTED</LocID><Text>ไม่สามารถเปลี่ยนแผนกได้ขณะที่คนไข้กำลังถูกเคลื่อนย้ายอยู่ กำลังทรุดตัวลง หรือกำลังถูกทำให้อาการคงที่</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>LANGUAGE</LocID>                            <Text>ภาษา</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>        	<Text>Only for diagnosed patientsสำหรับคนไข้ที่ถูกวินิจฉัยแล้วเท่านั้น, you can try to use TC Hospitalization instead.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ICU_ONLY_AFTER_DIAGNOSIS</LocID>        	<Text>เฉพาะสำหรับคนไข้ที่ถูกวินิจฉัยแล้วเท่านั้น, ลองใช้ TC Hospitalization แทนได้</Text>  </GameDBLocalizedString>
             
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INDIVIDUAL_OBJECTS</LocID>     <Text>ย้ายสิ่งของแต่ละชิ้น</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING================== -->
+        
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
