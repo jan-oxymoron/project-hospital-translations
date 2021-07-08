@@ -141,7 +141,7 @@
             <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN</LocID>                                 <Text>深色皮膚</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN_DESCRIPTION</LocID>                     <Text>皮膚異常發黑。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_NECROSIS</LocID>                                  <Text>壞死</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_NECROSIS_DESCRIPTION</LocID>                      <Text>組織因自己的酵素而提前死亡。會因為組織血流不足而造成。這可能由創傷、輻射或化學物質所造成。壞死並不能夠被逆轉。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS_DESCRIPTION</LocID>                      <Text>組織因自己的酵素而提前死亡。會因為組織血流不足而造成。這可能由創傷、輻射或化學物質所造成。壞死為不可逆細胞傷害。</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND</LocID>                             <Text>槍傷</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND_DESCRIPTION</LocID>                 <Text>槍械彈藥所造成的入口或出入創傷</Text>  </GameDBLocalizedString>
@@ -149,8 +149,8 @@
             <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND_DESCRIPTION</LocID>               <Text>由拋射物造成的入口或出入創傷。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND</LocID>                                <Text>戳刺傷</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND_DESCRIPTION</LocID>                    <Text>由利器造成的傷口。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND</LocID>                         <Text>穿通創傷</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND_DESCRIPTION</LocID>             <Text>被異物穿刺所造成的傷口。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND</LocID>                         <Text>穿通創</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND_DESCRIPTION</LocID>             <Text>也稱穿刺傷，被異物刺穿所造成的傷口。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND</LocID>                               <Text>爆炸傷</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND_DESCRIPTION</LocID>                   <Text>由爆炸造成的傷口。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND</LocID>                                <Text>灼傷</Text>  </GameDBLocalizedString>
@@ -284,7 +284,7 @@
             <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION</LocID>                      <Text>腹部外傷</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION_DESCRIPTION</LocID>          <Text>病患在腹部所受到的爆炸傷。 </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION</LocID>                          <Text>胸部外傷</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION_DESCRIPTION</LocID>              <Text>病患的胸部被爆炸擊中並受到大量傷害。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION_DESCRIPTION</LocID>              <Text>病患的胸部被爆炸波及並受到大量傷害。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND</LocID>                             <Text>輕微手部凍創</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND_DESCRIPTION</LocID>                 <Text>輕微的凍創，位於病患手部。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND</LocID>                           <Text>嚴重手部凍創</Text>  </GameDBLocalizedString>
@@ -326,19 +326,19 @@
             <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM</LocID>                                       <Text>抗毒血清</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM_DESCRIPTION</LocID>                           <Text>一種用來中和特定毒素的抗體治療。\n\n需要房間：診間 / 位於創傷醫學部的檢查室 / 急診室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN</LocID>                              <Text>高濃度氧氣</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN_DESCRIPTION</LocID>                  <Text>吸入高濃度氧氣的療程。\n\n需要房間：診間 / 檢查室 / 位於創傷醫學部的燒燙傷病房 / 急診室 / 急救區</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN_DESCRIPTION</LocID>                  <Text>吸入高濃度氧氣的醫療處置。\n\n需要房間：診間 / 檢查室 / 位於創傷醫學部的燒燙傷病房 / 急診室 / 急救區</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS</LocID>                                <Text>加溫靜脈注射液</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS_DESCRIPTION</LocID>                    <Text>被加溫至 38-45°C/100-113°F 的點滴液，用來改善失溫。\n\n需要房間：位於創傷醫學部的燒燙傷病房 / 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS_DESCRIPTION</LocID>                    <Text>被加溫至 38-45°C/100-113°F 的靜脈注射液，用來改善失溫。\n\n需要房間：位於創傷醫學部的燒燙傷病房 / 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING</LocID>                             <Text>保護性包紮</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING_DESCRIPTION</LocID>                 <Text>具保護性的繃帶包紮。\n\n需要房間：診間 / 檢查室 / 位於創傷醫學部的燒燙傷病房 / 急診室 / 急救區</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT</LocID>                                     <Text>清創手術</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>用來移除死亡組織的醫療程序。\n\n需要房間：診間 / 檢查室 / 位於創傷醫學部的燒燙傷病房 / 急診室 / 急救區</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT</LocID>                                 <Text>灼傷管理</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT_DESCRIPTION</LocID>                     <Text>一種用來治療各種灼傷的醫療程序。\n\n需要房間：診間 / 檢查室 / 位於創傷醫學部的燒燙傷病房 / 急診室 / 急救區</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>用來移除死亡組織的醫療處置。\n\n需要房間：診間 / 檢查室 / 位於創傷醫學部的燒燙傷病房 / 急診室 / 急救區</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT</LocID>                                 <Text>燒燙傷照護</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT_DESCRIPTION</LocID>                     <Text>一種用來治療各種燒傷、燙傷及灼傷的醫療處置。\n\n需要房間：診間 / 檢查室 / 位於創傷醫學部的燒燙傷病房 / 急診室 / 急救區</Text>	</GameDBLocalizedString>
 
             <!--SURGERIES-->
             <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY</LocID>                                     <Text>脾臟切除術</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY_DESCRIPTION</LocID>                         <Text>用來移除受損或受干擾脾臟的手術。\n\n需要房間：位於創傷醫學部的手術室 + 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY_DESCRIPTION</LocID>                         <Text>用來移除受損或受破裂脾臟的手術。\n\n需要房間：位於創傷醫學部的手術室 + 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY</LocID>                                    <Text>肝臟成形手術</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY_DESCRIPTION</LocID>                        <Text>用來治療部分或整個肝臟的手術。\n\n需要房間：位於創傷醫學部的手術室 + 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR</LocID>                      <Text>腸胃穿孔修復</Text>	</GameDBLocalizedString>
@@ -365,7 +365,7 @@
             <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX_DESCRIPTION</LocID>      <Text>用來修復骨頭的外傷手術程序。\n\n需要房間：位於創傷醫學部的手術室 + 急診室</Text>	</GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY</LocID>                                <Text>血管手術</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY_DESCRIPTION</LocID>                    <Text>用來逢合併修復受損動脈的手術。\n\n需要房間：位於創傷醫學部的手術室 + 急診室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY_DESCRIPTION</LocID>                    <Text>用來縫合併修復受損動脈的手術。\n\n需要房間：位於創傷醫學部的手術室 + 急診室</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X</LocID>                             <Text>肺部手術</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X_DESCRIPTION</LocID>                 <Text>用來修復或移除受損肺臟組織的肺部手術。\n\n需要房間：位於創傷醫學部的手術室 + 急診室</Text>	</GameDBLocalizedString>
 
