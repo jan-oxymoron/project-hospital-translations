@@ -6,6 +6,7 @@
         
         <Contributors>
             <Name>Oxymoron Games</Name>
+            <Name>AlexChen</Name>
         </Contributors>
 
         <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
@@ -48,7 +49,7 @@
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForAutopsy</LocID>              <Text>等待解剖</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToAutopsy</LocID>      <Text>已運送至解剖室</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>HOSPITALIZED_HavingAutopsy</LocID>                  <Text>解剖中</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeDisposed</LocID>            <Text>屍體可已被送至殯葬服務</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeDisposed</LocID>            <Text>大體可已被送至殯葬服務</Text>  </GameDBLocalizedString>
 
             <!-- New doctor states -->
             <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Training</LocID>                       <Text>訓練中</Text>  </GameDBLocalizedString>
@@ -60,7 +61,7 @@
             <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Training</LocID>                 <Text>訓練中</Text>  </GameDBLocalizedString>
 
             <!-- New janitor states -->                                                             
-            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AdminIdle</LocID>                     <Text>管理清潔工中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AdminIdle</LocID>                     <Text>管理工友中</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>JANITOR_STATE_GiftShopIdle</LocID>                  <Text>管理禮品店中</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>JANITOR_STATE_OverridenByProcedureScript</LocID>    <Text>目前工作：</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>JANITOR_STATE_Training</LocID>                      <Text>訓練中</Text>  </GameDBLocalizedString>            
@@ -72,11 +73,11 @@
             <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE_LOST_DESCRIPTION</LocID>    <Text>員工不再害怕病菌了！</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_SLOW_LOST_DESCRIPTION</LocID>          <Text>員工現在更有熱情且不會再緩慢地行走了！</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PERK_HEDONIST_LOST_DESCRIPTION</LocID>      <Text>員工學會控制自己的食慾！</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_LOST_DESCRIPTION</LocID>     <Text>員工發現了自己對工作的熱情並且不再感到憂鬱了！</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_LOST_DESCRIPTION</LocID>    <Text>員工的態度改善並且不再令病患感到厭煩！</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_LOST_DESCRIPTION</LocID>     <Text>員工發現新的工作熱忱，並且不再感到憂鬱了！</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_LOST_DESCRIPTION</LocID>    <Text>員工的態度改善了，現在他將不再會令病患感到不舒服！</Text></GameDBLocalizedString>
 
             <!-- New role description for doctor on Pathology-->
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_PATHOLOGY</LocID>         <Text>病理</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_PATHOLOGY</LocID>         <Text>病理學</Text>  </GameDBLocalizedString>
                                                                                             
             <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                   
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_PHARMACY</LocID>         <Text>藥局等待時間較長</Text>  </GameDBLocalizedString>
@@ -86,24 +87,24 @@
             <GameDBLocalizedString>      <LocID>NOTIF_LEAVING_PHARMACY_TEXT</LocID>         <Text>病患在藥局等太久了，他會到其他地方購買處方籤上的藥物。</Text>  </GameDBLocalizedString>
                                                                                             
             <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL</LocID>                   <Text>休息室已滿</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL_TEXT</LocID>              <Text>{1}的休息室已滿且一名並無法前來拜訪。試圖增加更多椅子。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL_TEXT</LocID>              <Text>{1}的休息室已滿，因此一位患者的訪客無法前來拜訪。請試圖增加更多椅子。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP</LocID>        <Text>禮品等待時間較長</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP_TEXT</LocID>   <Text>一名訪客在禮品店等太久了。嘗試雇用更多店員。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP_TEXT</LocID>   <Text>一名訪客在禮品店等太久了。請嘗試雇用更多店員。</Text>  </GameDBLocalizedString>
                                                                                             
             <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT</LocID>                  <Text>每日新聞</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_TEXT</LocID>             <Text>{1}</Text>  </GameDBLocalizedString>
                                                                                             
             <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED</LocID>            <Text>每日新聞</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED_TEXT</LocID>       <Text>病患數量和保險款項恢復正常。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED_TEXT</LocID>       <Text>病患數量和保險給付款項恢復正常。</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE</LocID>    <Text>太平間等待時間較長！</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE_TEXT</LocID><Text>最近過世的病患沒有可用的太平間桌子。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY</LocID>          <Text>病患正在病理室！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY_TEXT</LocID>     <Text>過世的病患已經被轉換至病理室。你可以將屍體送至殯葬服務或是透過解剖來瞭解問題出在哪裡、找出剩餘的症狀並在此過程中取得經驗值與金錢。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY</LocID>          <Text>病患正在太平間！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY_TEXT</LocID>     <Text>過世的病患已經被轉換至太平間。你可以將大體送至殯葬服務或是透過解剖來瞭解問題出在哪裡、找出剩餘的症狀並在此過程中取得經驗值與金錢。</Text>  </GameDBLocalizedString>
                                                                                             
             <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED</LocID>              <Text>解剖完成！</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED_TEXT</LocID>         <Text>解剖完成！你現在能夠使用病患卡中的按鈕將屍體送至殯葬服務。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED_TEXT</LocID>         <Text>解剖完成！你現在能夠使用病患卡中的按鈕將大體送至殯葬服務。</Text>  </GameDBLocalizedString>
                                                                                             
             <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED</LocID>             <Text>訓練完成！</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED_TEXT</LocID>        <Text>員工完成了{1}技能的訓練，等級提升{2}%。{3}</Text>  </GameDBLocalizedString>
@@ -119,23 +120,23 @@
 
             <!-- Note for translators: there's limited space in the UI for the names of the professions, so feel free to split them using a new line
                  (\n) like in the English version of the second text for each profession       -->
-            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST</LocID>              <Text>藥理師</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST_UI</LocID>           <Text>藥理師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST</LocID>              <Text>藥師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST_UI</LocID>           <Text>藥師</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR</LocID>            <Text>禮品店店員</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_UI</LocID>         <Text>禮品店\n店員</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_DESCRIPTION</LocID><Text>管理禮品店並向訪客出售禮品。</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER</LocID>             <Text>清潔工經理</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_UI</LocID>          <Text>清潔工\n經理</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_DESCRIPTION</LocID><Text>清潔工經理能提升清潔工的效率並讓你能夠指派他們去清理不同房間。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER</LocID>             <Text>工友主管</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_UI</LocID>          <Text>工友\n主管</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_DESCRIPTION</LocID><Text>工友主管能提升工友的效率並讓你能夠指派他們去清理不同房間。</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST</LocID>                 <Text>病理師</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST_UI</LocID>              <Text>病理師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST</LocID>                 <Text>病理醫師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST_UI</LocID>              <Text>病理醫師</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ASSIGNED_ROOMS</LocID>  <Text>指派房間</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_RESET_ASSIGNED_ROOMS</LocID>    <Text>重置指派房間</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>UI_ROOM_ASSIGNED_JANITORS</LocID>       <Text>指派清潔工： </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_ASSIGNED_JANITORS</LocID>       <Text>指派工友： </Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_VISITED_PATIENT</LocID> <Text>造訪病患</Text>  </GameDBLocalizedString>
 
@@ -160,16 +161,16 @@
             
             <!-- Patient card -->
             <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_PATHOLOGY</LocID>       <Text>無法轉移已死亡的病患</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_DISPOSE_OF_BODY</LocID>                   <Text>將屍體送至殯葬服務</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DISPOSE_OF_BODY</LocID>                   <Text>將大體送至殯葬服務</Text>  </GameDBLocalizedString>
                                                                                                   
             <!-- Building panel -->                                                               
             <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ADMINISTRATIVE</LocID>    <Text>行政部門房間樣本</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_PATHOLOGY</LocID>         <Text>病理部門房間樣本</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_PATHOLOGY</LocID>         <Text>解剖病理部房間樣本</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_ALLOWED</LocID>                    <Text>此房間不可雇用夜班員工</Text>  </GameDBLocalizedString>
                                                                                                   
-            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_ROOM_TO_CLEAN</LocID>              <Text>直接指派清潔工會清理的房間</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TOOLTIP_CANT_SELECT_ROOM_TO_CLEAN</LocID>         <Text>為行政部門雇用經理來指派清潔工至特定房間</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_ROOM_TO_CLEAN</LocID>              <Text>直接指派工友會清理的房間</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CANT_SELECT_ROOM_TO_CLEAN</LocID>         <Text>為行政部門雇用主管來指派工友至特定房間</Text>  </GameDBLocalizedString>
 
             <!-- DLC Tutorial and campaign level menu -->                                                 
             <!-- DLC Tutorial texts -->
@@ -186,28 +187,28 @@
             <GameDBLocalizedString>     <LocID>DLC_DPT_ADMINISTRATIVE</LocID>                                   <Text>行政部門</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>               <Text>藥理學</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID>   <Text>藥理師能夠向病患出售藥物並確保他們使用正確的劑量與指示。</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID>   <Text>藥師能夠向病患出售藥物並確保他們使用正確劑量與按照正確指示。</Text></GameDBLocalizedString>
             <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR</LocID>                            <Text>禮品店店員</Text></GameDBLocalizedString>
             <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR_DESCRIPTION</LocID>                <Text>禮品店店員會向來訪的住院病患家人與朋友出售禮品。</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER</LocID>                           <Text>經理</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER_DESCRIPTION</LocID>               <Text>若是為行政部門雇用經理，他將提升醫院清潔工的整體效率並讓你能夠指派清潔工至特定的房間。此原公會成為所有清潔工的管理員。</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER</LocID>                           <Text>管理學</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER_DESCRIPTION</LocID>               <Text>若是為行政部門雇用主管，他將提升醫院工友的整體效率並讓你能夠指派工友至特定的房間。此原公會成為所有工友的管理員。</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>     <LocID>DLC_DPT_PATHOLOGY</LocID>                                        <Text>病理部門</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_DPT_PATHOLOGY</LocID>                                        <Text>解剖病理部</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY</LocID>                             <Text>病理</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY_DESCRIPTION</LocID>                 <Text>病理師對疾病或創傷的起因與症狀有廣泛的瞭解，同時能夠讓你進行解剖。</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY</LocID>                             <Text>病理學</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY_DESCRIPTION</LocID>                 <Text>病理醫師對疾病或創傷的起因與症狀有廣泛的瞭解，同時能夠讓你進行解剖。</Text></GameDBLocalizedString>
 
             <!-- RELATED FILE: StringTable[Language]Characters.xml -->
-            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PHARMACIST</LocID>                      <Text>出售藥物</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PHARMACIST</LocID>                      <Text>藥品調劑</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_VENDOR</LocID>                          <Text>出售禮品</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>EMPL_ROLE_JANITOR_MANAGER</LocID>                 <Text>管理</Text>  </GameDBLocalizedString>
             
             <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
-            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY</LocID>                     <Text>藥局</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>         <Text>醫院藥局會向病患出售藥物。\n最低員工需求：1x 藥理師</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY</LocID>                     <Text>醫院藥局</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>         <Text>醫院藥局會向病患出售藥物。\n最低員工需求：1x 藥師</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN</LocID>                <Text>服務辦公室</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN_DESCRIPTION</LocID>    <Text>此房間將讓你能夠雇用一名經理來提升所有醫院清潔工的效率並讓你能夠指派他們去清理不同房間。\n最低員工需求：1x 清潔工經理</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN_DESCRIPTION</LocID>    <Text>此房間將讓你能夠雇用一名主管來提升所有醫院工友的效率，並讓你能夠指派他們去清理不同房間。\n最低員工需求：1x 工友主管</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE</LocID>                       <Text>休息室</Text></GameDBLocalizedString>
             <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE_DESCRIPTION</LocID>           <Text>訪客造訪住院病患時可以在這裡與其談話、坐下或放鬆。</Text></GameDBLocalizedString>
@@ -222,27 +223,27 @@
             <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CLASSROOM_DESCRIPTION</LocID>        <Text>員工可以在研究室裡訓練技能與專長。</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR</LocID>                 <Text>解剖室</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR_DESCRIPTION</LocID>     <Text>病理師可以在這裡透過解剖找出疾病和死因。\n最低員工需求：1x 待命病理師</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR_DESCRIPTION</LocID>     <Text>病理醫師可以在這裡透過解剖找出疾病和死因。\n最低員工需求：1x 待命病理師</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD</LocID>               <Text>冰櫃</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD_DESCRIPTION</LocID>   <Text>冰櫃可以在解剖前安全地存放屍體。</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD</LocID>               <Text>太平間</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD_DESCRIPTION</LocID>   <Text>太平間可以在解剖前安全地存放大體。</Text></GameDBLocalizedString>
 
             <!-- Objects-->
             <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS</LocID>                     <Text>藥局十字架</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_2</LocID>                   <Text>藥局十字架</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_DESCRIPTION</LocID>         <Text>給藥局的裝飾品。</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_1</LocID>                    <Text>玻璃標誌 - 建議</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_2</LocID>                    <Text>玻璃標誌 - 投放</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_1</LocID>                    <Text>玻璃標誌 - 藥事諮詢</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_2</LocID>                    <Text>玻璃標誌 - 結帳</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PC_WHITE</LocID>                           <Text>PC</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL</LocID>                    <Text>藥物櫃（大）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL</LocID>                   <Text>藥物櫃（小）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_GLASS</LocID>              <Text>藥物櫃（大）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL_GLASS</LocID>             <Text>藥物櫃（小）</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_DRAWERS</LocID>            <Text>抽屜藥物櫃</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_DESCRIPTION</LocID>             <Text>藥物櫃中裝有藥局出售的藥物。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL</LocID>                    <Text>藥櫃（大）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL</LocID>                   <Text>藥櫃（小）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_GLASS</LocID>              <Text>藥櫃（大）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL_GLASS</LocID>             <Text>藥櫃（小）</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_DRAWERS</LocID>            <Text>抽屜藥櫃</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_DESCRIPTION</LocID>             <Text>藥櫃中裝有藥局所出售的藥品。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE</LocID>               <Text>藥局桌</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_DRUGS</LocID>     	  <Text>櫃臺 - 投放</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_QUESTIONS</LocID>     <Text>櫃臺 - 建議</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_DRUGS</LocID>     	  <Text>櫃臺 - 結帳</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_QUESTIONS</LocID>     <Text>櫃臺 - 藥事諮詢</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_LEFT</LocID>                 <Text>櫃臺 - 左</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_RIGHT</LocID>                <Text>櫃臺 - 右</Text>  </GameDBLocalizedString>
 
@@ -252,7 +253,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PHARMACY</LocID>                           <Text>藥局</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY_OP</LocID>                       <Text>解剖室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_FREEZER</LocID>                            <Text>冰櫃</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_FREEZER</LocID>                            <Text>太平間</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_GIFTSHOP</LocID>                     <Text>禮品店</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAUNGE</LocID>                       <Text>休息室</Text>  </GameDBLocalizedString>
@@ -277,7 +278,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_STUDYROOM</LocID>                    <Text>研究室</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ADMIN</LocID>                        <Text>行政部門</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY</LocID>                    <Text>病理部門</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY</LocID>                    <Text>解剖病理部</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_WOOD</LocID>                         <Text>木椅</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DINING_TABLE_2</LocID>                     <Text>餐桌</Text>  </GameDBLocalizedString>
@@ -291,7 +292,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK</LocID>                        <Text>水果</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK_DESCRIPTION</LocID>            <Text>美味而健康的零食。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK</LocID>                        <Text>甜甜圈</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK_DESCRIPTION</LocID>            <Text>別讓心臟科醫生發現了。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK_DESCRIPTION</LocID>            <Text>別被心臟科醫生發現這個。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD</LocID>                    <Text>每日菜單</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD_DESCRIPTION</LocID>        <Text>今天吃什麼？</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_MEAL_COUNTER</LocID>                       <Text>餐點櫃臺</Text>  </GameDBLocalizedString>
@@ -301,22 +302,22 @@
             <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS</LocID>                      <Text>解剖器材</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS_DESCRIPTION</LocID>          <Text>解剖時使用的標準人體與病理器材。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2</LocID>                      <Text>工具桌 - 玻璃</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2_DESCRIPTION</LocID>          <Text>玻璃表面的工具桌，適合技術性用途，如：病理部門。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2_DESCRIPTION</LocID>          <Text>玻璃表面的工具桌，適合技術性用途，如：解剖病理部。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT</LocID>                             <Text>解剖天平</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT_DESCRIPTION</LocID>                 <Text>解剖天平是重要的病理器材。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP</LocID>                       <Text>殺菌燈</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP_DESCRIPTION</LocID>           <Text>殺菌燈能夠殺死房間中的微生物。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER</LocID>                         <Text>病理檢視器</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER_DESCRIPTION</LocID>             <Text>病理檢士氣能夠用來顯示解剖病患的全身 X 光影像。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER_DESCRIPTION</LocID>             <Text>病理檢視器能夠用來顯示解剖病患的全身 X 光影像。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS</LocID>                        <Text>不銹鋼櫃</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS_DESCRIPTION</LocID>            <Text>技術性的不銹鋼櫃。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS_DESCRIPTION</LocID>            <Text>技術不銹鋼櫃。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE</LocID>                  <Text>解剖桌</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE_DESCRIPTION</LocID>      <Text>站台式解剖桌，所有太平間的必備器材。</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER</LocID>              <Text>冰櫃</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_DESCRIPTION</LocID>  <Text>冰櫃是用來防止屍體腐化。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_DESCRIPTION</LocID>  <Text>冰櫃是用來防止大體腐化。</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED</LocID>                            <Text>太平間桌</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED_DESCRIPTION</LocID>                <Text>太平間桌是用來在解剖前後儲存屍體。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED_DESCRIPTION</LocID>                <Text>太平間桌是用來在解剖前後儲存大體。</Text>  </GameDBLocalizedString>
 
 
             <!-- Global Admin Events-->
@@ -356,11 +357,11 @@
 
             <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
             <GameDBLocalizedString>      <LocID>EXM_AUTOPSY</LocID>                               <Text>解剖</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY_DESCRIPTION</LocID>                   <Text>在死後檢查病患屍體來找出隱藏的症狀和死因。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY_DESCRIPTION</LocID>                   <Text>在死後檢查病患大體來找出隱藏的症狀和死因。</Text>  </GameDBLocalizedString>
 
             <!--PATHOLOGY and ADMIN ROOM PREFABS-->
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_AUTOPSY_ROOM_ABBR</LocID>                         <Text>解剖室</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_COLD_ROOM_ABBR</LocID>                            <Text>冰櫃</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_COLD_ROOM_ABBR</LocID>                            <Text>太平間</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_SMALL_ABBR</LocID>                                 <Text>藥局</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_LARGE_ABBR</LocID>                                 <Text>藥局</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GIFTSHOP_ABBR</LocID>                                       <Text>禮品店</Text>  </GameDBLocalizedString>
