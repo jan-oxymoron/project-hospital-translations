@@ -1,0 +1,379 @@
+<Database>
+    <GameDBStringTable ID="LOC_NL_DLC_ADMIN_PATHOLOGY">
+    
+        <LanguageCode>nl</LanguageCode>
+        <LanguageNameLocalized>Nederlands</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>             <Text>DLC Ziekenhuisdiensten</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACY_VISITED</LocID>            <Text>bezocht apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACY_LONG_WAIT</LocID>          <Text>lang gewacht bij apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GOT_GIFT</LocID>                    <Text>kreeg een geschenk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_DID_NOT_GET_GIFT</LocID>            <Text>kreeg geen geschenk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_VISIT_DID_NOT_ARRIVE</LocID>        <Text>kreeg geen bezoek (lounge was vol)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_HAD_VISITOR</LocID>                 <Text>kreeg bezoek</Text>  </GameDBLocalizedString>
+
+            <!-- Visitor states -->
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Spawned</LocID>           <Text>Gespawned</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_GoingToGiftShop</LocID>   <Text>Gaat naar de cadeauwinkel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_WaitingInGiftShop</LocID> <Text>Wacht in de cadeauwinkel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_BuyingGift</LocID>        <Text>Koopt een geschenk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_GoingToLounge</LocID>     <Text>Gaat naar de lounge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_WaitingInLounge</LocID>   <Text>Wacht in de lounge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Visiting</LocID>          <Text>Is op bezoek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Leaving</LocID>           <Text>Vertrekt na bezoek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>VISITOR_STATE_Idle</LocID>              <Text>Is vertrokken</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_SCHEDULE_VISITING_HOURS</LocID>     <Text>Bezoekuren</Text>  </GameDBLocalizedString>
+
+            <!-- Patient states -->
+            <GameDBLocalizedString>      <LocID>GoingToPharmacy</LocID>                 <Text>Gaat naar de apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GoingToPharmacyChair</LocID>            <Text>Gaat zitten in de apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingSittingInPharmacy</LocID>        <Text>Wacht in de apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WaitingStandingInPharmacy</LocID>       <Text>Wacht in de apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BuyingMedicine</LocID>                  <Text>Koopt geneesmiddelen</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DEAD</LocID>                                        <Text>Overleden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_OverridenByVisit</LocID>               <Text>Heeft bezoek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToMorgue</LocID>       <Text>vervoerd naar het mortuarium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForMorgueBed</LocID>            <Text>wacht op mortuariumtafel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingForAutopsy</LocID>              <Text>wacht op autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_BeingTransportedToAutopsy</LocID>      <Text>vervoerd voor autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_HavingAutopsy</LocID>                  <Text>ondergaat autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_WaitingToBeDisposed</LocID>            <Text>lichaam klaar voor versturing naar begrafenisonderneming</Text>  </GameDBLocalizedString>
+
+            <!-- New doctor states -->
+            <GameDBLocalizedString>      <LocID>DOCTOR_STATE_Training</LocID>                       <Text>Ondergaat training</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <!-- New nurse states -->                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_Training</LocID>                        <Text>Ondergaat training</Text>  </GameDBLocalizedString>
+
+            <!-- New technologist states -->
+            <GameDBLocalizedString>      <LocID>TECHNOLOGIST_STATE_Training</LocID>                 <Text>Ondergaat training</Text>  </GameDBLocalizedString>
+
+            <!-- New janitor states -->                                                             
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_AdminIdle</LocID>                     <Text>Chef van de conciërges</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_GiftShopIdle</LocID>                  <Text>Beheert de cadeauwinkel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_OverridenByProcedureScript</LocID>    <Text>Voert uit:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_STATE_Training</LocID>                      <Text>Ondergaat training</Text>  </GameDBLocalizedString>            
+
+            <!-- Unlearning negative perks texts -->
+            <GameDBLocalizedString>      <LocID>PERK_SLOW_LEARNER_LOST_DESCRIPTION</LocID>  <Text>Medewerker kan nu beter leren!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_ALCOHOLISM_LOST_DESCRIPTION</LocID>    <Text>Medewerker heeft ook geleerd dat alcohol geen problemen oplost!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DIRTY_FEET_LOST_DESCRIPTION</LocID>    <Text>Medewerker heeft ook geleerd hoe je schoenen schoonmaakt!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_GERMAPHOBE_LOST_DESCRIPTION</LocID>    <Text>Medewerker is niet meer bang voor bacteriën!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_SLOW_LOST_DESCRIPTION</LocID>          <Text>Medewerker is nu enthousiaster en loopt niet meer zo langzaam!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_HEDONIST_LOST_DESCRIPTION</LocID>      <Text>Medewerker heeft ook geleerd hoe je omgaat met een voedselobsessie!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_DEPRESSED_LOST_DESCRIPTION</LocID>     <Text>Medewerker barst weer van de passie voor het werk en heeft geen depressie meer!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERK_UNPLEASANT_LOST_DESCRIPTION</LocID>    <Text>Medewerker heeft een betere houding en zal vriendelijker zijn tegen patiënten!</Text></GameDBLocalizedString>
+
+            <!-- New role description for doctor on Pathology-->
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_EXM_TRT_PATHOLOGY</LocID>         <Text>Pathologie</Text>  </GameDBLocalizedString>
+                                                                                            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                   
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_PHARMACY</LocID>         <Text>Lange wachttijd in de apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_PHARMACY_TEXT</LocID>    <Text>Snel: een patiënt moet te lang wachten om geneesmiddelen te kopen. Ga naar de apotheek voor de patiënt vertrekt.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_LEAVING_PHARMACY</LocID>              <Text>Vertrokken uit apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LEAVING_PHARMACY_TEXT</LocID>         <Text>Patiënt moest te lang wachten in de apotheek en gaat het voorgeschreven geneesmiddel elders kopen.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL</LocID>                   <Text>Lounge vol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LOUNGE_FULL_TEXT</LocID>              <Text>De lounge in {1} is vol, waardoor een patiënt geen bezoeker kan ontvangen. Voeg meer stoelen voor bezoekers toe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP</LocID>        <Text>Lange wachttijd voor cadeau</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_IN_GIFT_SHOP_TEXT</LocID>   <Text>Een bezoeker moest te lang wachten in de cadeauwinkel. Neem meer verkopers aan.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT</LocID>                  <Text>Nieuws van de dag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_TEXT</LocID>             <Text>{1}</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED</LocID>            <Text>Nieuws van de dag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_ENDED_TEXT</LocID>       <Text>Patiëntenaantallen en verzekeringsuitbetalingen weer op normaal peil.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE</LocID>    <Text>Lange wachttijd voor mortuariumtafel!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_LONG_WAIT_FOR_MORGUE_TABLE_TEXT</LocID><Text>Er is geen mortuariumtafel voor de onlangs overleden patiënt.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY</LocID>          <Text>Patiënt op pathologieafdeling!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_ON_PATHOLOGY_TEXT</LocID>     <Text>Er is een overleden patiënt naar de pathologieafdeling gebracht. Je kunt het lichaam naar de begrafenisonderneming sturen of een autopsie uitvoeren om te ontdekken wat er verkeerd is gegaan, de resterende symptomen achterhalen en ervaringspunten en geld verdienen.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED</LocID>              <Text>Autopsie afgerond!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOPSY_FINISHED_TEXT</LocID>         <Text>De autopsie is afgerond. Je kunt het lichaam nu naar de begrafenisonderneming sturen via een knop op de patiëntenkaart.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED</LocID>             <Text>Training afgerond!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FINISHED_TEXT</LocID>        <Text>Medewerker is klaar met de training voor de vaardigheid {1} en heeft het niveau met {2}% verhoogd. {3}</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FULL</LocID>                 <Text>Studieruimte vol!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_TRAINING_FULL_TEXT</LocID>            <Text>Medewerker kan niet aan {1} werken omdat er te weinig stoelen vrij zijn in de studieruimte. De geplande training is geannuleerd.</Text>  </GameDBLocalizedString>
+                                                                                            
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_PHARMACY_FULL</LocID>             <Text>Apotheek te klein!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_PHARMACY_FULL_TEXT</LocID>        <Text>Er zijn te veel patiënten in of onderweg naar de apotheek. Sommigen moeten de geneesmiddelen nu elders ophalen. Breid de apotheek uit.</Text>  </GameDBLocalizedString>
+           
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <!-- LOGISTICS/MANAGEMENT, EMPLOYEES TABLE -->
+
+            <!-- Note for translators: there's limited space in the UI for the names of the professions, so feel free to split them using a new line
+                 (\n) like in the English version of the second text for each profession       -->
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST</LocID>              <Text>Farmacoloog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PHARMACOLOGIST_UI</LocID>           <Text>Farmacolo-\nloog</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR</LocID>            <Text>Cadeauwinkelverkoper</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_UI</LocID>         <Text>Cadeauwinkel-\nverkoper</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_GIFT_SHOP_VENDOR_DESCRIPTION</LocID><Text>Beheert de cadeauwinkel en verkoopt geschenken aan bezoekers.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER</LocID>             <Text>Chef conciërge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_UI</LocID>          <Text>Chef\nconciërge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_JANITOR_MANAGER_DESCRIPTION</LocID><Text>De chef van de conciërge vergroot de efficiëntie van conciërges en wijst ze toe voor het schoonmaken van individuele ruimtes.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST</LocID>                 <Text>Patholoog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGIST_UI</LocID>              <Text>Patho-\nloog</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ASSIGNED_ROOMS</LocID>  <Text>Toegewezen ruimtes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_RESET_ASSIGNED_ROOMS</LocID>    <Text>Toegewezen ruimtes resetten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UI_ROOM_ASSIGNED_JANITORS</LocID>       <Text>TOEGEWEZEN CONCIËRGES: </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_VISITED_PATIENT</LocID> <Text>Bezochte patiënt</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING</LocID>    <Text>Stuur een medewerker naar de studieruimte om aan deze vaardigheid te werken. De medewerker is {1} uur niet beschikbaar tijdens de training voor {2}. \nKosten: ${3}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING_NOT_EXIST</LocID>  <Text>Geen studieruimte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_SEND_TO_TRAINING_NO_SPACE</LocID>   <Text>Er zijn geen stoelen meer in de studieruimte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_TRAINING_SCHEDULED</LocID>  <Text>Training gepland</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_STAFF_IN_TRAINING</LocID>   <Text>Medewerker wordt getraind over {1}. Nog {2} uur.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_TABLE_DOCTORS_TRAINING</LocID>      <Text>Training</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_HEADING</LocID>          <Text>Geschiedenis autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_STATUS</LocID>           <Text>Status autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_HISTORY</LocID>          <Text>Geschiedenis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_AUTOPSY_REMOVE</LocID>           <Text>Uit geschiedenis verwijderen</Text>  </GameDBLocalizedString>
+
+            <!--Character card performing text-->
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_CONTROL_PROCEDURE_PHARMACY</LocID>      <Text>Verkoopt geneesmiddelen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_CONTROL_PROCEDURE_GIFT_SHOP</LocID>     <Text>Verkoopt geschenken</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DLC_PATHOLOGY_CONTROL_PROCEDURE_PATHOLOGY</LocID> <Text>Voert autopsie uit</Text>  </GameDBLocalizedString>
+            
+            <!-- Patient card -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_DEPARTMENT_PATHOLOGY</LocID>       <Text>Dode patiënten kunnen niet worden overgeplaatst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_DISPOSE_OF_BODY</LocID>                   <Text>Stuur het lichaam naar de begrafenisondernemer</Text>  </GameDBLocalizedString>
+                                                                                                  
+            <!-- Building panel -->                                                               
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_ADMINISTRATIVE</LocID>    <Text>Sjablonen van ruimtes van de administratieve afdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_PATHOLOGY</LocID>         <Text>Sjablonen van ruimtes van de pathologieafdeling</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_ALLOWED</LocID>                    <Text>Voor deze ruimte kun je geen nachtdienstpersoneel inhuren</Text>  </GameDBLocalizedString>
+                                                                                                  
+            <GameDBLocalizedString>      <LocID>TOOLTIP_SELECT_ROOM_TO_CLEAN</LocID>              <Text>Wijs direct ruimtes aan die deze conciërge zal schoonmaken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CANT_SELECT_ROOM_TO_CLEAN</LocID>         <Text>Huur een medewerker in voor de administratieve afdeling die conciërges kan toewijzen aan individuele ruimtes</Text>  </GameDBLocalizedString>
+
+            <!-- DLC Tutorial and campaign level menu -->                                                 
+            <!-- DLC Tutorial texts -->
+            <!-- DLC campaign level texts -->
+            
+            <!-- DLC  Achievements-->
+
+            <!-- Insurance objectives -->
+            
+            <!-- RELATED FILE: StringTable[Language]Names.xml -->
+            
+            <!-- RELATED FILE: StringTable[Language]Skills.xml -->
+            <!-- Departments -->
+            <GameDBLocalizedString>     <LocID>DLC_DPT_ADMINISTRATIVE</LocID>                                   <Text>Administratieve afdeling</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>               <Text>Farmacologie</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID>   <Text>Farmacologen verkopen geneesmiddelen aan je patiënten en zorgen voor de correcte dosis en gebruiksaanwijzing.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR</LocID>                            <Text>Cadeauwinkelverkoper</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_VENDOR_DESCRIPTION</LocID>                <Text>Cadeauwinkelverkopers verkopen geschenken aan familie en vrienden die patiënten bezoeken.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER</LocID>                           <Text>Manager</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_JANITOR_SPEC_MANAGER_DESCRIPTION</LocID>               <Text>Als je een manager inhuurt voor de Administratieve afdeling, verbetert hij of zij de algehele efficiëntie van alle conciërges in het ziekenhuis en kun je conciërges toewijzen aan individuele ruimtes. Deze medewerker is tevens de chef van alle conciërges.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_DPT_PATHOLOGY</LocID>                                        <Text>Afdeling Pathologie</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY</LocID>                             <Text>Pathologie</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_SKILL_DOC_SPEC_PATHOLOGY_DESCRIPTION</LocID>                 <Text>Pathologen weten veel over de oorzaken en gevolgen van ziektes of kwetsuren en stellen je in staat autopsies uit te voeren.</Text></GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_PHARMACIST</LocID>                      <Text>Verkoopt geneesmiddelen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_VENDOR</LocID>                          <Text>Verkoopt geschenken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_JANITOR_MANAGER</LocID>                 <Text>Management</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY</LocID>                     <Text>Apotheek</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>         <Text>De ziekenhuisapotheek verkoopt geneesmiddelen aan je patiënten. \nMin. bezetting: 1x farmacoloog</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN</LocID>                <Text>Dienstkantoor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_JANITOR_ADMIN_DESCRIPTION</LocID>    <Text>Met deze ruimte kun je een manager inhuren die de efficiëntie van conciërges in het ziekenhuis vergroot en ze toewijst aan het schoonmaken van individuele ruimtes. \nMin. bezetting: 1x chef conciërge</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE</LocID>                       <Text>Lounge</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_LOUNGE_DESCRIPTION</LocID>           <Text>Hier kunnen bezoekers patiënten treffen voor een ontspannen praatje.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_GIFT_SHOP</LocID>                    <Text>Cadeauwinkel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_GIFT_SHOP_DESCRIPTION</LocID>        <Text>Cadeauwinkels verkopen geschenken aan familie en vrienden die patiënten bezoeken. \nMin. bezetting: 1x cadeauwinkelverkoper</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CAFETERIA</LocID>                    <Text>Cafetaria</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CAFETERIA_DESCRIPTION</LocID>        <Text>De kantine van de medewerkers, waar ze maaltijden nuttigen.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CLASSROOM</LocID>                    <Text>Studieruimte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_CLASSROOM_DESCRIPTION</LocID>        <Text>Hier kunnen medewerkers werken aan hun vaardigheden en specialisaties.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR</LocID>                 <Text>Autopsieruimte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_OR_DESCRIPTION</LocID>     <Text>Hier kunnen pathologen autopsies uitvoeren om de ziektegeschiedenis in kaart te brengen en de doodsoorzaak te achterhalen. \nMin. bezetting: 1x patholoog in de dienstkamer</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD</LocID>               <Text>Koelruimte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_ROOM_TYPE_PATHOLOGY_WARD_DESCRIPTION</LocID>   <Text>In de koelruimte worden de lichamen bewaard voor en na de autopsie.</Text></GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS</LocID>                     <Text>Apothekerskruis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_2</LocID>                   <Text>Apothekerskruis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_CROSS_DESCRIPTION</LocID>         <Text>Apotheekbord ter versiering.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_1</LocID>                    <Text>Glazen bord - advies</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_SIGN_2</LocID>                    <Text>Glazen bord - afleveren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC_WHITE</LocID>                           <Text>Pc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL</LocID>                    <Text>Geneesmiddelenschap - hoog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL</LocID>                   <Text>Geneesmiddelenschap - klein</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_GLASS</LocID>              <Text>Geneesmiddelenschap - hoog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_SMALL_GLASS</LocID>             <Text>Geneesmiddelenschap - klein</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_TALL_DRAWERS</LocID>            <Text>Geneesmiddelenschap met laden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRUG_SHELF_DESCRIPTION</LocID>             <Text>Geneesmiddelenschappen bevatten geneesmiddelen die in de apotheek worden verkocht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE</LocID>               <Text>Apothekersbalie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_DRUGS</LocID>     	  <Text>Balie - afleveren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_MIDDLE_QUESTIONS</LocID>     <Text>Balie - advies</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_LEFT</LocID>                 <Text>Balie - links</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PHARMACY_DESK_RIGHT</LocID>                <Text>Balie - rechts</Text>  </GameDBLocalizedString>
+
+            <!-- override of the text from the base game -->
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>  <Text>Onmisbare apparatuur voor recepties en winkels. Met een pc erop heb je een werkplek.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PHARMACY</LocID>                           <Text>Apotheek</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY_OP</LocID>                       <Text>Autopsieruimte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_FREEZER</LocID>                            <Text>Koelruimte</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_GIFTSHOP</LocID>                     <Text>Cadeauwinkel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAUNGE</LocID>                       <Text>Lounge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGNBOARD</LocID>                          <Text>Uithangbord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TSHIRT_STAND</LocID>                       <Text>T-shirtkraam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GIFTSHOP_DESCRIPTION</LocID>               <Text>Geschenken die bezoekers kunnen kopen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NEWS_MAGAZINES</LocID>                     <Text>Tijdschriften</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BALLOONS</LocID>                           <Text>Ballonnen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_GLASS</LocID>                 <Text>Koffietafel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT</LocID>                              <Text>Vers fruit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_SHELF</LocID>                      <Text>Bloemenplank</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_VISITORS_SEATS</LocID>                  <Text>Bezoekersstoelen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_VISITORS_SEATS_DESCRIPTION</LocID>      <Text>Het aantal stoelen in de lounge bepaalt het maximale aantal bezoekers dat tegelijkertijd op de afdeling kan zijn.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_BEAMER_BEAMER</LocID>                      <Text>Videoprojector</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BEAMER_DESCRIPTION</LocID>       <Text>Een onmisbaar onderdeel van elk klaslokaal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BEAMER</LocID>                   <Text>Projectiescherm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SANDWICH</LocID>                           <Text>Smakelijke sandwiches</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SANDWICH_DESCRIPTION</LocID>               <Text>Een niet te versmaden lekkernij.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SERVICEOFFICE</LocID>                <Text>Dienstkantoor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CAFETERIA</LocID>                    <Text>Cafetaria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_STUDYROOM</LocID>                    <Text>Studieruimte</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ADMIN</LocID>                        <Text>Administratieve afdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_PATHOLOGY</LocID>                    <Text>Afdeling Pathologie</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_WOOD</LocID>                         <Text>Houten stoel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DINING_TABLE_2</LocID>                     <Text>Eettafel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CUTLERY</LocID>                    		  <Text>Bestek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CUTLERY_DESCRIPTION</LocID>                <Text>Mes, vork, lepel, zout, peper en servetten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_COUNTER</LocID>                  <Text>Cafetariabar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_COUNTER_DESCRIPTION</LocID>      <Text>Hier vind je allerlei etenswaren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_MACHINE_BIG</LocID>                 <Text>Koffiemachine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JUICE</LocID>                    		  <Text>Vruchtensappen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JUICE_DESCRIPTION</LocID>                  <Text>Sinaasappelsap en bosbessensap.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK</LocID>                        <Text>Fruit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRUIT_SNACK_DESCRIPTION</LocID>            <Text>Lekkere en gezonde tussendoortjes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK</LocID>                        <Text>Donuts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DONUT_SNACK_DESCRIPTION</LocID>            <Text>Niet tegen de cardiologen zeggen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD</LocID>                    <Text>Menu van de dag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAFETERIA_BOARD_DESCRIPTION</LocID>        <Text>Wat staat er vandaag op het menu?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_COUNTER</LocID>                       <Text>Lunchbar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_COUNTER_DESCRIPTION</LocID>           <Text>Een goede lunch voor je personeel. Vooral in gebruik rond het officiële lunchuur.</Text>  </GameDBLocalizedString>
+
+            <!--Pathology objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS</LocID>                      <Text>Autopsie-instrumenten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_AUTOPSY_INSTRUMENTS_DESCRIPTION</LocID>          <Text>Standaard pathologisch-anatomische instrumenten voor het uitvoeren van een autopsie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2</LocID>                      <Text>Instrumententafel - glas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMENTS_TABLE_2_DESCRIPTION</LocID>          <Text>Een instrumententafel met een blad van glas, geschikt voor technisch gebruik op bijvoorbeeld de afdeling Pathologie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT</LocID>                             <Text>Autopsieweegschaal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ORGAN_WEIGHT_DESCRIPTION</LocID>                 <Text>De weegschaal is een belangrijk instrument tijdens een autopsie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP</LocID>                       <Text>Bacteriedodende lamp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STERILIZATION_LAMP_DESCRIPTION</LocID>           <Text>De bacteriedodende lamp wordt gebruikt voor het bestrijden van alle microben in een ruimte.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER</LocID>                         <Text>Pathologieviewer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_VIEWER_DESCRIPTION</LocID>             <Text>De pathologieviewer wordt gebruikt voor het tonen van röntgenfoto's van het complete lichaam van de overleden patiënt op wie een autopsie is uitgevoerd.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS</LocID>                        <Text>Kast van roestvrij staal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_STAINLESS_DESCRIPTION</LocID>            <Text>Een technische kast van roestvrij staal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE</LocID>                  <Text>Autopsietafel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AUTOPSY_TABLE_DESCRIPTION</LocID>      <Text>Een autopsietafel die onontbeerlijk is in een mortuarium.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER</LocID>              <Text>Koelcellen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_DESCRIPTION</LocID>  <Text>Koelcellen worden gebruikt om de ontbinding van lichamen tegen te gaan.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED</LocID>                            <Text>Mortuariumtafel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PATHOLOGY_BED_DESCRIPTION</LocID>                <Text>Op de mortuariumtafel worden lichamen voor en na de autopsie veilig opgeslagen.</Text>  </GameDBLocalizedString>
+
+
+            <!-- Global Admin Events-->
+            <GameDBLocalizedString>     <LocID>DAYS_LEFT</LocID>                                  <Text>Resterende dagen: </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_RENOVATION</LocID>                 <Text>De renovatie van een kliniek in de buurt zorgt ervoor dat er {1}% extra patiënten komen naar {2}!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_RENOVATION_TEXT</LocID>            <Text>De renovatie van een kliniek in de buurt zorgt ervoor dat er {1}% extra patiënten komen naar {2}!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED</LocID>      <Text>De renovatie van een ziekenhuis in de buurt zorgt ervoor dat er {1}% extra patiënten zijn!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED_TEXT</LocID> <Text>De renovatie van een ziekenhuis in de buurt zorgt ervoor dat er {1}% extra patiënten zijn!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_HOLIDAY_SEASON</LocID>             <Text>Veel mensen zijn op vakantie. Per dagen zijn er {1}% minder patiënten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_HOLIDAY_SEASON_TEXT</LocID>        <Text>Het is vakantie. Veel mensen zijn de stad uit, waardoor er {1}% minder patiënten per dag zijn.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BAD_PRESS</LocID>                  <Text>Door een artikel in een plaatselijk roddelblad gaat {1}% van de patiënten naar een ander ziekenhuis.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BAD_PRESS_TEXT</LocID>             <Text>Door een vreselijk artikel over je ziekenhuis in een plaatselijk roddelblad gaat {1}% van de patiënten naar een ander ziekenhuis.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_INFLUENCER_VISIT</LocID>           <Text>Een beroemde influencer is behandeld in je ziekenhuis, wat voor een patiëntentoename van {1}% heeft gezorgd!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_INFLUENCER_VISIT_TEXT</LocID>      <Text>Door de publiciteit rond de behandeling van een beroemde influencer in je ziekenhuis is het aantal patiënten met {1}% gestegen!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FINANCIAL_CRISIS</LocID>           <Text>Door een financiële crisis betaalt de verzekering {1}% minder uit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FINANCIAL_CRISIS_TEXT</LocID>      <Text>Door een nationale financiële crisis betaalt de verzekering {1}% minder uit.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM</LocID>       <Text>Vanwege nieuw nationaal gezondheidsbeleid betaalt de verzekering {1}% meer uit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM_TEXT</LocID>  <Text>Vanwege de aanstaande landelijke verkiezingen betaalt de verzekering {1}% meer uit.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FLU_SEASON</LocID>                 <Text>De griep is weer in het land, wat leidt tot een patiëntentoename van {1}% in de kliniek.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_FLU_SEASON_TEXT</LocID>            <Text>Het slechte weer en de lage temperaturen leiden tot een patiëntentoename van {1}% in de kliniek.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BANK_HOLIDAYS</LocID>              <Text>De dagelijkse patiëntentoename bedraagt {1}%.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>     <LocID>DLC_WORLD_EVENT_BANK_HOLIDAYS_TEXT</LocID>         <Text>Als gevolg van de uit de hand gelopen viering van een nationale feestdag komen er veel patiënten binnen!</Text></GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>     <LocID>OPTIONS_ENABLE_WORLD_EVENTS</LocID>                <Text>Wereldgebeurtenissen inschakelen</Text></GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
+            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY</LocID>                               <Text>Autopsie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUTOPSY_DESCRIPTION</LocID>                   <Text>Onderzoek van het lichaam van een overleden patiënt om verborgen symptomen en de doodsoorzaak te achterhalen.</Text>  </GameDBLocalizedString>
+
+            <!--PATHOLOGY and ADMIN ROOM PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_AUTOPSY_ROOM_ABBR</LocID>                         <Text>Autopsieruimte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PATHOLOGY_COLD_ROOM_ABBR</LocID>                            <Text>Koelruimte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_SMALL_ABBR</LocID>                                 <Text>Apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_PHARMACY_LARGE_ABBR</LocID>                                 <Text>Apotheek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GIFTSHOP_ABBR</LocID>                                       <Text>Cadeauwinkel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SERVICE_OFFICE_ABBR</LocID>                                 <Text>Dienstkantoor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CAFETERIA_SMALL_ABBR</LocID>                                <Text>Cafetaria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CAFETERIA_LARGE_ABBR</LocID>                                <Text>Cafetaria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STUDY_ROOM_ABBR</LocID>                                     <Text>Studieruimte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_LOUNGE_ABBR</LocID>                                         <Text>Lounge</Text>  </GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>            <Text>Groot ziekenhuis</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

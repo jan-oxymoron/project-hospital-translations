@@ -1,0 +1,404 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_NL_DLC_INFECTIOUS_DISEASES">
+
+        <LanguageCode>nl</LanguageCode>
+        <LanguageNameLocalized>Nederlands</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>DLC Afdeling Besmettelijke Ziekten</Text>  </GameDBLocalizedString>
+            
+            <!-- Department and rooms-->
+            <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>Besmettelijke Ziekten</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>Isolatieafdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>De isolatieafdeling is een aparte afdeling waar patiënten kunnen worden behandeld die lijden aan besmettelijke ziekten zonder het risico van de verspreiding van pathogenen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>ABZ-kantoor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Het kantoor van de afdeling Besmettelijke Ziekten doet dienst als de polikliniek voor eenvoudige onderzoeken en behandelingen. Min. bezetting:\n1x epidemioloog </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Diagnostische eenheid</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>De diagnostische eenheid van de afdeling Besmettelijke Ziekten levert onderzoeks- en behandelingsprocedures voor patiënten. \n\nMin. bezetting: \n1x epidemioloog \n(Personeel in dienstkamer)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>Cardiografische eenheid</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>Biorisicoruimte. Alleen toegang met beschermend gezichtsmasker en handschoenen.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- Hospitalization alias -->                                                                      
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>Opname isolatieafdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>Neem de patiënt op in de isolatieafdeling om te voorkomen dat besmettelijke ziekten worden verspreid en om de best mogelijke zorg te verlenen.\n\nVereiste ruimte: isolatiezaal</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- SKILLS-->                                                                                      
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>Epidemiologie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Epidemiologen onderzoeken de distributie van ziekten en parasieten om de oorzaak, risicofactoren, voortgang, levenscyclus of overdrachtswijze te achterhalen.</Text>	</GameDBLocalizedString> <!--todo description-->
+                                                                                                                
+            <!-- Global Admin Events-->                                                                         
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>Resterende dagen: </Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>Epidemie-uitbraak!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>Je bent er niet in geslaagd alle besmettelijke patiënten af te zonderen en nu is je ziekenhuis deels geïnfecteerd. Het personeel moet nu mondkapjes dragen en werkt daardoor trager!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>Een besmettelijke patiënt is niet in een isolatieafdeling opgenomen en nu is je ziekenhuis deels geïnfecteerd. Het personeel moet nu mondkapjes dragen en werkt daardoor trager!</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- ============== -->                                                                             
+            <!--EVENTS -->                                                                                      
+            <!-- ============== -->                                                                             
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>Door een ongeluk in een universiteitslab zijn zeer gevaarlijke pathogenen vrijgekomen. Alle stadsziekenhuizen moeten beschermende uitrusting uit de kast halen en zeer zorgvuldig omgaan met nieuwe patiënten. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>Er is een zeer besmettelijke ziekte uitgebroken op een populaire toeristenbestemming. Alle terugkerende burgers die zich niet goed voelen, moeten zich direct melden bij het dichtstbijzijnde ziekenhuis. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>Door klimaatverandering komen exotische ziekten steeds vaker voor. Vooral in deze tijd van het jaar. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>De stad is getroffen door nog een golf van het nieuwe coronavirus COVID-19. Alle ziekenhuizen en medische instellingen moeten zich voorbereiden op een enorm aantal geïnfecteerde patiënten.</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>Nieuws van de dag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>Je personeel is weer gezond. Je hebt de epidemie-uitbraak overleefd!</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>besmet</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Zeer besmettelijk!</Text>  </GameDBLocalizedString>
+
+            <!--Doors-->
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>Biorisicodeur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>Deur met een ovalen venster</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>Dubbele biorisicodeur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>Dubbele deur met ovalen vensters</Text>  </GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Vitaliteitsmonitor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>Mechanische ventilator</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>Isolatiemuur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>Isolatiemuur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>Isolatiemuurkast</Text>  </GameDBLocalizedString>
+            <!-- Description for all three versions of isolation wall -->                                      
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>Biedt bescherming tegen alle pathogenen die ziekten verspreiden via de lucht.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>Hygiëne-uitrusting</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>Ter bevordering van de basale hygiëne van patiënten in isolatiezalen.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>Isolatie-airconditioning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>Airconditioning zorgt voor gefilterde frisse lucht en meer comfort voor geïsoleerde patiënten.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>Bord - Waarschuwing</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>Waarschuwing voor een uitbraak.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>Bord - Quarantaine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>Alleen voor geautoriseerd personeel.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>Isolatieluchtdeur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>Via een negatieve-luchtstroomsysteem wordt het risico van besmetting via de lucht van omringende faciliteiten beperkt.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>Magneetbord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>Een magnetisch planbord.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>Desinfecterende middelen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>Desinfecterende middelen die geschikt zijn voor alledaags gebruik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>Poster - Infecties</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>Poster - Malaria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>Tafel - Modern</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>Koffietafel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>Ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>Nieuwe, Europese ambulance die klaar is om patiënten te vervoeren onder de zwaarste medische omstandigheden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>Stretcher</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>Isolatieafdeling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>Besmettelijke Ziekten</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>Besmettelijke Ziekten: Groot ziekenhuis</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>Sjablonen van zalen van de afdeling Besmettelijke Ziekten</Text>  </GameDBLocalizedString>
+
+            <!-- DIAGNOSES - MIGRATED -->
+            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>Influenza A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>Hepatitis A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>Hepatitis B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>Cholera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>Buiktyfus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>Tuberculose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>Tularemie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>Longmiltvuur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>Rattenbeetziekte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>Kattenkrabziekte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>Kinkhoest</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>Veteranenziekte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>Vlektyfus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>Ziekte van Chagas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>Toxoplasmose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>Babesiosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>Lymeziekte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>Bof</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>Frühsommer-Meningoenzephalitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>Rabiës</Text>  </GameDBLocalizedString>
+            
+            <!--DIAGNOSES - NEW -->
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>Anaplasmose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Anaplasmose wordt veroorzaakt door de bacterie Anaplasmosis phagocytophilum, die wordt overgebracht door teken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>Ehrlichiose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Ehrlichiose is een griepachtige ziekte die nauw verwant is aan anaplasmose en ook wordt verspreidt door teken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>Fièvre boutonneuse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>Fièvre boutonneuse is een infectieziekte die wordt veroorzaakt door de bacterie Rickettsia conorii en wordt overgedragen door de hondenteek. De ziekte treedt voornamelijk op rond de Middellandse Zee, in het Midden-Oosten, op het Indiase subcontinent en in Afrika.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>Rocky Mountain spotted fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>Een infectieziekte die wordt veroorzaakt door Rickettsia rickettsii, een bacterie die wordt verspreid door verschillende soorten teken (Dermacentor variabilis, Dermacentor andersoni, Rhipicephalus sanguineus).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>Colorado-tekenkoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>Virusinfectie die wordt verspreid door de teek Dermacentor andersoni. De symptomen zijn vergelijkbaar met die van de Rocky Mountain spotted fever.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>Pacific Coast-tekenkoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006_DESCRIPTION</LocID>                                     <Text>Een bacteriële ziekte die wordt veroorzaakt door Rickettsia philipii, een bacterie die wordt overgedragen door de teek Dermacentor occidentalis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>Afrikaanse tekenkoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007_DESCRIPTION</LocID>                                     <Text>Afrikaanse tekenkoorts is een bacteriële infectie die wordt veroorzaakt door Rickettsia africae, een bacterie die wordt overgedragen door teken. De ziekte komt voor in Afrika onder de Sahara, het Caribisch Gebied en Oceanië.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008</LocID>                                                 <Text>Queensland-tekentyfus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>De etiologische verwekker van Queensland-tekentyfus is de bacterie Rickettsia australis. De ziekte komt alleen voor in het oosten van Australië, inclusief Tasmanië.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009</LocID>                                                 <Text>Flinders Island spotted fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009_DESCRIPTION</LocID>                                     <Text>Flinders Island spotted fever wordt veroorzaakt door Rickettsia honei. De ziekte doet zich voornamelijk voor in het zuidoosten en zuiden van Azië en in Australië.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>Japanse gevlekte koorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010_DESCRIPTION</LocID>                                     <Text>Japanse gevlekte koorts komt voornamelijk voor in de warme gebieden langs de kust van de Grote Oceaan in het zuidwesten en midden van Japan. De ziekte wordt veroorzaakt door Rickettsia japonica, een bacterie die wordt overgedragen via een tekenbeet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>TIBOLA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011_DESCRIPTION</LocID>                                     <Text>Een lymfadenopathie die wordt veroorzaakt door beten van teken die dragers zijn van de bacterie Rickettsia slovaca. De ziekte komt voor in Centraal-Europa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012</LocID>                                                 <Text>Rickettsialpox</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012_DESCRIPTION</LocID>                                     <Text>Rickettsialpox is een ziekte die wordt veroorzaakt door de bacterie Rickettsia akari, die wordt overgedragen door mijten die gewoonlijk op muizen leven.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013</LocID>                                                 <Text>Maltakoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013_DESCRIPTION</LocID>                                     <Text>Maltakoorts is een zeer besmettelijke ziekte die wordt veroorzaakt door bacteriën uit het geslacht Brucella en wordt verspreid door inname van ongepasteuriseerde melk of onvoldoende verhit vlees.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>Chikungunya</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014_DESCRIPTION</LocID>                                     <Text>Chikungunya is een virusinfectie die wordt verspreid via de beet van een geïnfecteerde mug. Er is geen vaccin.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015</LocID>                                                 <Text>Q-koorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015_DESCRIPTION</LocID>                                     <Text>Q-koorts is een ziekte die wordt veroorzaakt door de bacterie Coxiella burnetti, die verspreid wordt door verschillende dieren, zoals vee, schapen, geiten, katten en honden. De bacterie is een intracellulaire parasiet die groeit en zich voortplant binnen de cellen van de gastheer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016</LocID>                                                 <Text>Dengue</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016_DESCRIPTION</LocID>                                     <Text>Dengue, ook wel bekend als knokkelkoorts, is een tropische ziekte die wordt overgedragen via de beet van een geïnfecteerde mug. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017</LocID>                                                 <Text>Zikakoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017_DESCRIPTION</LocID>                                     <Text>Zikakoorts is een tropische ziekte die wordt veroorzaakt door het zikavirus en verspreid wordt door de denguemug. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018</LocID>                                                 <Text>Ebola</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018_DESCRIPTION</LocID>                                     <Text>Ebola is een dodelijke hemorragische virusziekte. De aandoening wordt veroorzaakt door het ebolavirus, dat wordt overgedragen via direct contact met geïnfecteerde lichaamssappen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019</LocID>                                                 <Text>Malaria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019_DESCRIPTION</LocID>                                     <Text>Malaria is een tropische infectieziekte die wordt veroorzaakt door parasieten van het geslacht Plasmodium. De aandoening wordt verspreid via beten door geïnfecteerde muggen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>Gele koorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020_DESCRIPTION</LocID>                                     <Text>Gele koorts is een tropische virusziekte die wordt verspreid via de beet van een geïnfecteerde vrouwelijke mug. De aandoening wordt veroorzaakt door het gelekoortsvirus, een RNA-virus van het geslacht Flaviviridae.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021</LocID>                                                 <Text>Westnijlziekte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021_DESCRIPTION</LocID>                                     <Text>Westnijlziekte is een infectie die wordt veroorzaakt door het westnijlvirus, dat wordt overgedragen door geïnfecteerde muggen. De meeste mensen ontwikkelen geen symptomen. Het virus werd in 1937 in Oeganda ontdekt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022</LocID>                                                 <Text>Lassakoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022_DESCRIPTION</LocID>                                     <Text>Deze hemorragische koorts wordt veroorzaakt door het lassavirus, dat wordt verspreid door de Afrikaanse veeltepelmuis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023</LocID>                                                 <Text>Marburgkoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023_DESCRIPTION</LocID>                                     <Text>Marburgkoorts is een ernstige aandoening die kan optreden bij mensen en niet-menselijke primaten en wordt veroorzaakt door twee marburgvirussen: het marburgvirus en het ravnvirus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024</LocID>                                                 <Text>Leptospirose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024_DESCRIPTION</LocID>                                     <Text>Leptospirose is een infectieziekte die wordt veroorzaakt door de bacterie Leptospira en meestal wordt overgedragen door knaagdieren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025</LocID>                                                 <Text>Colitis pseudomembranacea</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025_DESCRIPTION</LocID>                                     <Text>Colitis pseudomembranacea is een ontsteking die wordt veroorzaakt door toxineproducerende bacteriën en dodelijk kan zijn.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026</LocID>                                                 <Text>Coccidioidomycose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026_DESCRIPTION</LocID>                                     <Text>Coccidioidomycose of stofkoorts is een infectie die wordt veroorzaakt door de schimmel Coccidioides, die leeft in de bodem van de zuidwestelijke Verenigde Staten, Mexico en Midden- en Zuid-Amerika.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027</LocID>                                                 <Text>COVID-19</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>COVID-19 is de ziekte die wordt veroorzaakt door het virus SARS-CoV-2 en een luchtweginfectie kan veroorzaken. De ziekte werd in december 2019 voor het eerst vastgesteld in de Chinese stad Wuhan, waarna de aandoening zich wereldwijd verspreidde en de grootste pandemie veroorzaakte sinds de Spaanse griep van 1918.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028</LocID>                                                 <Text>MERS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028_DESCRIPTION</LocID>                                     <Text>MERS (Middle East respiratory syndrome) is een zeer besmettelijke virusaandoening die een luchtweginfectie veroorzaakt. Boosdoener is het MERS-coronavirus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029</LocID>                                                 <Text>SARS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029_DESCRIPTION</LocID>                                     <Text>SARS (Severe Acute Respiratory Syndrome) is een luchtweginfectie die wordt veroorzaakt door het SARS-coronavirus. De eerste uitbraak vond plaats in het zuiden van China, tussen november 2002 en juli 2003.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030</LocID>                                                 <Text>Cryptosporidiose aan de luchtwegen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030_DESCRIPTION</LocID>                                     <Text>Cryptosporidiose is een parasitaire ziekte die wordt veroorzaakt door de protozoa Cryptosporidium. De aandoening is van invloed op de luchtwegen en het maag-darmstelsel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031</LocID>                                                 <Text>Cryptosporidiose aan het maag-darmstelsel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031_DESCRIPTION</LocID>                                     <Text>Cryptosporidiose is een parasitaire ziekte die wordt veroorzaakt door de protozoa Cryptosporidium. De aandoening is van invloed op het maag-darmstelsel en de luchtwegen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032</LocID>                                                 <Text>Hantavirus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032_DESCRIPTION</LocID>                                     <Text>Het hantavirus veroorzaakt een ernstig longsyndroom. Het virus wordt verspreid door besmette knaagdieren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033</LocID>                                                 <Text>Norovirus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033_DESCRIPTION</LocID>                                     <Text>Het norovirus is een zeer besmettelijk virus dat diarree en overgeven veroorzaakt. Geïnfecteerde mensen kunnen miljarden norovirusdeeltjes afscheiden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>Rotavirus A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>Rotavirus A is zeer besmettelijk en veroorzaakt waterige diarree. Vaccinatie is de beste manier van preventie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>Melioidose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>Melioidose is een infectieziekte die wordt veroorzaakt door de bacterie Burkholderia pseudomallei, die wordt overgedragen door dieren, maar ook via besmette grond of water.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>Respiratoir syncytieel virus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036_DESCRIPTION</LocID>                                     <Text>RSV is een syncytieel virus dat ontstekingen aan de luchtwegen kan veroorzaken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037</LocID>                                                 <Text>Lymfatische choriomeningitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037_DESCRIPTION</LocID>                                     <Text>Lymfatische choriomeningitis is een virale infectieziekte, overgedragen door knaagdieren, die wordt veroorzaakt door het virus lymfocytische choriomeningitis. Dit virus wordt veelal verspreid door huismuizen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038</LocID>                                                 <Text>Builenpest</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038_DESCRIPTION</LocID>                                     <Text>De builenpest is een van de drie pestvormen die worden veroorzaakt door de bacterie Yersinia pestis. De builenpest wordt verspreid door geïnfecteerde vlooien die op kleine dieren leven. De bacterie veroorzaakt een ontsteking in lymfeklieren, die daardoor enorm opzwellen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039</LocID>                                                 <Text>Pestsepsis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039_DESCRIPTION</LocID>                                     <Text>Pestsepsis is een van de drie pestvormen die worden veroorzaakt door de bacterie Yersinia pestis. Pestsepsis wordt verspreid door geïnfecteerde vlooien die op kleine dieren leven. Deze zeldzaamste pestvorm zorgt gewoonlijk voor infectie via de bloedbaan.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040</LocID>                                                 <Text>Longpest</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040_DESCRIPTION</LocID>                                     <Text>Longpest is een van de drie pestvormen die worden veroorzaakt door de bacterie Yersinia pestis. Longpest wordt verspreid door geïnfecteerde vlooien die op kleine dieren leven. Deze pestvorm veroorzaakt een luchtwegeninfectie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041</LocID>                                                 <Text>Nipah-virusinfectie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041_DESCRIPTION</LocID>                                     <Text>Nipah-virusinfectie is een ernstige en potentieel dodelijke aandoening die wordt veroorzaakt door een RNA-virus van het geslacht Henipavirus. Het is van mens op mens overdraagbaar, maar ook van dier op mens.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042</LocID>                                                 <Text>Riftdalkoorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042_DESCRIPTION</LocID>                                     <Text>Riftdalkoorts is een virusziekte die wordt veroorzaakt door het riftdalkoortsvirus, dat wordt overgebracht via dierlijke lichaamssappen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043</LocID>                                                 <Text>Febris recurrens</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043_DESCRIPTION</LocID>                                     <Text>Febris recurrens is een besmettelijke vectorziekte die wordt veroorzaakt door een bacterie uit het geslacht Borelia en wordt overgedragen via beten van luizen of zachte teken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044</LocID>                                                 <Text>Acute hepatitis E</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044_DESCRIPTION</LocID>                                     <Text>Hepatitis E is een ontsteking van de lever die wordt veroorzaakt door het hepatitis E-virus. De wijze van besmetting is vergelijkbaar met die van hepatitis A, maar de virussen zijn niet gerelateerd. Het virus werd voor het eerst opgemerkt in 1955, maar pas in 1983 voor het eerst geïsoleerd.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045</LocID>                                                 <Text>Vogelgriep H5N1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>Het influenza A-virus subtype H5N1 is een aviair influenzavirus. Mensen kunnen de ziekte alleen krijgen via vogels. De eerste wereldwijde verspreiding werd vastgelegd in 2004.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS - MIGRATED-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>Influenza A gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_X</LocID>                              <Text>Hepatitis A – Positief</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_X</LocID>                              <Text>Hepatitis B – Positief</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>Vibrio cholerae gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>S. typhi gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>Tuberculose gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>F. tularensis gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>B. anthracis gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>Streptobacillus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>B. henselae gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>B. pertussis gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>Legionella gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>R. typhi gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>Trypanosoma gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>Toxoplasmose gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>Babesiosis gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>Borrelia-antilichamen gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>Oorspeekselklierinfectie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_X</LocID>                                      <Text>FSME gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>Rabiës gedetecteerd</Text>  </GameDBLocalizedString>
+            
+            <!--MAIN SYMPTOMS - NEW-->
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>Anaplasma gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>Een verhoogde hoeveelheid IgG duidt op de aanwezigheid van Anaplasma phagocytophilum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED</LocID>                               <Text>Ehrlichiose gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED_DESCRIPTION</LocID>                   <Text>Via polymerasekettingreactie zijn specifieke genen gedetecteerd die alleen voorkomen bij ehrlichiose.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED</LocID>                         <Text>Rickettsia conorii gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>Tijdens immunofluorescentieonderzoek van het biopt materiaal is de aanwezigheid van Rickettsia conorii-antilichamen aangetroffen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED</LocID>                       <Text>Rickettsia rickettsii gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED_DESCRIPTION</LocID>           <Text>Via polymerasekettingreactie is de aanwezigheid van Rickettsia rickettsii vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED</LocID>                      <Text>Coltivirus-antilichamen gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED_DESCRIPTION</LocID>          <Text>Middels een omgekeerde polymerasekettingreactie is de aanwezigheid van coltivirale antilichamen vastgesteld in rode bloedcellen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED</LocID>                        <Text>Rickettsia philipii gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED_DESCRIPTION</LocID>            <Text>Middels een polymerasekettingreactie is de aanwezigheid van Rickettsia philipii vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED</LocID>                         <Text>Rickettsia africae gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED_DESCRIPTION</LocID>             <Text>Middels een polymerasekettingreactie is de aanwezigheid van Rickettsia africae vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED</LocID>                       <Text>Rickettsia australis gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED_DESCRIPTION</LocID>           <Text>Middels een serologisch immunofluorescentieonderzoek is de aanwezigheid van Rickettsia australis vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED</LocID>                           <Text>Rickettsia honei gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED_DESCRIPTION</LocID>               <Text>Middels een serologisch onderzoek is een reactie vastgesteld op Rickettsia honei.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED</LocID>                        <Text>Rickettsia japonica gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED_DESCRIPTION</LocID>            <Text>Middels een polymerasekettingreactie is de aanwezigheid van Rickettsia japonica vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED</LocID>                         <Text>Rickettsia slovaca gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED_DESCRIPTION</LocID>             <Text>Middels een polymerasekettingreactie is de aanwezigheid van Rickettsia slovaca vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED</LocID>                           <Text>Rickettsia akari gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED_DESCRIPTION</LocID>               <Text>Middels een serologisch onderzoek is de aanwezigheid van Rickettsia akari vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED</LocID>                               <Text>Brucella bevestigd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED_DESCRIPTION</LocID>                   <Text>Middels een serologisch onderzoek is de aanwezigheid van Brucella bevestigd.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED</LocID>                                      <Text>Chikungunya-virus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED_DESCRIPTION</LocID>                          <Text>Middels een omgekeerde polymerasekettingreactie is de aanwezigheid van het chikungunya-virus vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED</LocID>                          <Text>Coxiella burnetii gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED_DESCRIPTION</LocID>              <Text>Middels een serologisch onderzoek zijn antilichamen gedetecteerd als respons tegen de bacterie Coxiella burnetii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED</LocID>                               <Text>Denguevirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED_DESCRIPTION</LocID>                   <Text>Middels een omgekeerde polymerasekettingreactie is het genoom van het denguevirus aangetroffen in het serummonster van de patiënt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED</LocID>                                 <Text>Zikavirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>Middels een omgekeerde polymerasekettingreactie is het zikavirus aangetroffen in de monsters van de patiënt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>Ebolavirus ontdekt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>Middels een ELISA-test is de aanwezigheid van het ebolavirus vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED</LocID>                                 <Text>Plasmodium gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED_DESCRIPTION</LocID>                     <Text>Middels een ELISA-test is de aanwezigheid vastgesteld van IgG- en IgM-antilichamen tegen malaria in het serummonster van de patiënt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS</LocID>                                  <Text>Gelekoortsvirus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS_DESCRIPTION</LocID>                      <Text>Middels een omgekeerde polymerasekettingreactie is in het monster van de patiënt de aanwezigheid aangetroffen van het genoom van het gelekoortsvirus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS</LocID>                                     <Text>Westnijlvirus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS_DESCRIPTION</LocID>                         <Text>Middels een ELISA-test is de aanwezigheid van antilichamen tegen het westnijlvirus vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT</LocID>                                 <Text>Lassavirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT_DESCRIPTION</LocID>                     <Text>Middels een polymerasekettingreactie is het lassavirus aangetroffen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED</LocID>                                       <Text>Marburgvirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>Middels een omgekeerde polymerasekettingreactie is de aanwezigheid van het marburgvirus vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED</LocID>                                 <Text>Leptospira gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED_DESCRIPTION</LocID>                     <Text>Middels een microbiële kweek is de aanwezigheid van leptospira bewezen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED</LocID>                               <Text>C. difficile gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED_DESCRIPTION</LocID>                   <Text>Middels een polymerasekettingreactie is de aanwezigheid vastgesteld van Clostridium difficile.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED</LocID>              <Text>Coccidioides gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED_DESCRIPTION</LocID>  <Text>Middels een serologische test zijn aan Coccidioides gerelateerde antilichamen aangetroffen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED</LocID>                                  <Text>2019-nCoV gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED_DESCRIPTION</LocID>                      <Text>Middels een serologische test is een immuunrespons tegen COVID-19 aangetroffen in de monsters van de patiënt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED</LocID>                                   <Text>MERS-CoV gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>Middels een omgekeerde polymerasekettingreactie is de aanwezigheid van het MERS-coronavirus in de monsters van de patiënt vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED</LocID>                                   <Text>SARS-CoV gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>Middels een omgekeerde polymerasekettingreactie is de aanwezigheid van het SARS-coronavirus in de monsters van de patiënt vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED</LocID>                            <Text>Cryptosporidium gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED_DESCRIPTION</LocID>                <Text>Middels een omgekeerde polymerasekettingreactie is Cryptosporidium gedetecteerd.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED</LocID>                            <Text>Oöcyst gedetecteerd in ontlasting</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED_DESCRIPTION</LocID>                <Text>De oöcyst van Cryptosporidium is aangetroffen in een stoelgangstaal van de patiënt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED</LocID>                                 <Text>Hantavirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>Middels een serologisch onderzoek zijn antilichamen aangetroffen die gerelateerd zijn aan het hantavirus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED</LocID>                                  <Text>Norovirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>Middels een polymerasekettingreactietest is de aanwezigheid van het norovirus vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED</LocID>                                <Text>Rotavirus A gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED_DESCRIPTION</LocID>                    <Text>Middels een omgekeerde polymerasekettingreactietest is de aanwezigheid van het rotavirus A vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED</LocID>                            <Text>B. pseudomallei gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED_DESCRIPTION</LocID>                <Text>Middels een microbiële kweek is de aanwezigheid van Burkholderia pseudomallei aangetoond.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT</LocID>                                        <Text>RSV gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT_DESCRIPTION</LocID>                            <Text>Middels een omgekeerde polymerasekettingreactietest is de aanwezigheid van het respiratoir syncytieel virus vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED</LocID>                                       <Text>Lymfatische choriomeningitis gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED_DESCRIPTION</LocID>                           <Text>Middels een hersenvochtanalyse zijn antilichamen aangetroffen die specifiek zijn voor lymfatische choriomeningitis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC</LocID>                                   <Text>Y. pestis – Builenpest</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC_DESCRIPTION</LocID>                       <Text>Middels een analyse van het biopt is een infectie vastgesteld met de builenpestvorm van Yersinia pestis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC</LocID>                                <Text>Y. pestis – Pestsepsis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC_DESCRIPTION</LocID>                    <Text>Middels een serologisch onderzoek is de sepsisvorm van Yersinia pestis ontdekt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC</LocID>                                 <Text>Y. pestis – Longpest</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC_DESCRIPTION</LocID>                     <Text>Middels een polymerasekettingreactietest is de aanwezigheid van antilichamen tegen de longpestvariant van Yersinia pestis vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED</LocID>                                <Text>Nipahvirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>Middels een omgekeerde polymerasekettingreactietest is de aanwezigheid van het nipahvirus vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED</LocID>                                  <Text>Riftdalvirus gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>Middels een serologisch ELISA-onderzoek is de aanwezigheid van antilichamen tegen het riftdalvirus aangetoond.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED</LocID>                             <Text>B. recurrentis gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED_DESCRIPTION</LocID>                 <Text>Middels een polymerasekettingreactietest is de aanwezigheid van het Borrelia recurrentis vastgesteld.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED</LocID>                                <Text>Hepatitis E gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED_DESCRIPTION</LocID>                    <Text>Middels een serologische test zijn aan het Influenza E-virus gerelateerde antilichamen aangetroffen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED</LocID>                                       <Text>H5N1 gedetecteerd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED_DESCRIPTION</LocID>                           <Text>Middels een omgekeerde polymerasekettingreactietest is de aanwezigheid van het H5N1 Influenza A-virus vastgesteld.</Text>  </GameDBLocalizedString>
+
+            <!-- SYMPTOMS -->
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER</LocID>                                   <Text>Hemorragische koorts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>Hemorragische koorts heeft gevolgen voor meerdere inwendige organen, beschadigt bloedvaten en beïnvloedt het zelfreguleringsmechanisme van het lichaam.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING</LocID>                                    <Text>Bloedverlies via lichaamsopeningen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING_DESCRIPTION</LocID>                        <Text>Acute bloeding via lichaamsopeningen zoals de neus, de mond, de ogen en/of de oren.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE</LocID>                                         <Text>Doxycycline</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>Speciale antibioticabehandeling uit de tetracyclinegroep waarmee specifieke bacteriën en parasieten worden bestreden. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE</LocID>                                      <Text>Intraveneuze doxycycline</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>Speciale antibioticabehandeling uit de tetracyclinegroep waarmee specifieke bacteriën en parasieten worden bestreden. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + isolatieafdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE</LocID>                                         <Text>Minocycline</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>Speciale antibioticabehandeling uit de tetracyclinegroep waarmee specifieke bacteriën en parasieten worden bestreden. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL</LocID>                                     <Text>Chlooramfenicol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>Speciale antibioticabehandeling waarmee verschillende bacteriële infecties worden bestreden. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>Azitromycine</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>Speciale antibioticabehandeling waarmee verschillende bacteriële infecties worden bestreden. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>Intramusculaire antibiotica</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>Intramusculaire antibiotica worden toegediend via een injectie in een dikke spier. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>Complexe antivirale therapie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>Complexe antivirale therapie wordt gebruikt in gevallen waarbij er geen gerichte antivirale middelen beschikbaar zijn. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + isolatieafdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>Experimenteel serum</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>Experimenteel intraveneus medisch serum dat ebola bestrijdt. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + isolatieafdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>Antimalariamedicatie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>Combinatie van verschillende antibiotica, geneesmiddelen en ondersteunende substanties die malaria en malariagerelateerde ziekten bestrijdt. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>Intraveneuze passieve immunotherapie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>Intraveneuze doses van specifieke antilichamen die gericht zijn tegen verschillende virale hemorragische koortsen. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY</LocID>                                   <Text>Antisensetherapie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>Antisensetherapie is een behandelvorm voor genetische aandoeningen of infecties waarbij het mogelijk is om een RNA-/DNA-streng te creëren die een specifiek gen uitschakelt. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN</LocID>                                          <Text>Vancomycine</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>Intraveneus toegediend antibioticum dat een aantal bacteriële infecties bestrijdt. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE</LocID>                                         <Text>Fluconazol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>Speciaal geneesmiddel voor de behandeling van verschillende ziekten die worden veroorzaakt door schimmels. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE</LocID>                                        <Text>Nitazoxanide</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>Breedspectrum antiparasitair geneesmiddel en tevens breedspectrum antivirusgeneesmiddel. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR</LocID>                                         <Text>Oseltamivir</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>Antiviraal geneesmiddel ter behandeling en preventie van Influenza A en B. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + isolatieafdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN</LocID>                                       <Text>Ciprofloxacine</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>Antibioticum waarmee een aantal bacteriële infecties wordt behandeld. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN</LocID>                                    <Text>Intraveneuze ciprofloxacine</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>Antibioticum waarmee een aantal bacteriële infecties wordt behandeld. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + isolatieafdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE</LocID>                                     <Text>Ondersteunende therapie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>De ondersteunende therapie bestaat uit een aantal symptoombehandelingen, met name voor virusziekten waarvoor er geen specifieke behandeling is. \n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>Rabiës immunoglobuline</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>Een snelwerkend shot om te voorkomen dat het rabiësvirus de patiënt infecteert. Wordt vaak preventief toegediend aan patiënten die zijn gebeten door een dier dat mogelijk rabiës heeft.\n\nVereiste ruimte: ABZ-kantoor / diagnostische eenheid + reguliere afdeling bij ABZ / ICU</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X</LocID>                               <Text>Interferon alpha-2b</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>Zeer specifiek antiviraal middel dat wereldwijd wordt gebruikt voor de behandeling van chronische vormen van hepatitis B en C. \n\nVereiste ruimte: kantoor / diagnostische eenheid ABZ / DID</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>Procedure waarbij een flexibele buis (endoscoop) met een kleine camera en een lichtbron aan het uitende in de mond wordt gebracht om het bovenste deel van het maag-darmstelsel te onderzoeken.\n\nVereiste ruimte: ICU / kantoor / diagnostische eenheid bij afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / afdeling Cardiologie / ABZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>Monsterafname van een kleine hoeveelheid hersenvocht door middel van punctie met een grote naald in het ruggenmergkanaal in de onderrug. \n\nVereiste ruimte: histologielab \n\nMonsterafname: afdeling Neurologie / ABZ \n\nBenodigde apparatuur: glaswerk + medische centrifuge + lab analyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>De procedure van de afname van ontlasting van een patiënt voor verdere analyse. \n\nVereiste ruimte: histologielab \n\nMonsterafname: afdeling Eerste Hulp / afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / ICU / ABZ \n\nBenodigde apparatuur: glaswerk + ontlastingsanalyzer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>Audiometrische tests om het gehoor van de patiënt te testen. \n\nVereiste ruimte: spreekkamer / observatieruimte / ICU / kantoor / diagnostische eenheid afdeling Eerste Hulp / ICU / afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / ABZ</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>Intraveneus toegediend, gezuiverd bloedproduct dat antilichamen bevat die de schadelijke antilichamen van de patiënt blokkeren. \n\nVereiste ruimte: ICU / kantoor / diagnostische eenheid afdeling Orthopedie / afdeling Neurologie / ABZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>Medicatie die virusinfecties bestrijdt. In tegenstelling tot antibiotica vernietigen antivirale geneesmiddelen de ziekteverwekker niet direct. \n\nVereiste ruimte: spreekkamer / observatieruimte / ICU / kantoor / diagnostische eenheid afdeling Algemene Chirurgie / afdeling Neurologie / ABZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>Geneesmiddel dat diarree stopt, de symptomen verlicht, maar de oorzaak niet wegneemt. Gewoonlijk door het afremmen van de stoelgang. \n\nVereiste ruimte: spreekkamer / observatieruimte / traumacentrum / ICU / kantoor / diagnostische eenheid afdeling Algemene Chirurgie / afdeling Interne Geneeskunde / ABZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>Geneesmiddelen die worden gebruikt om verschillende parasitaire infecties te behandelen. \n\nVereiste ruimte: spreekkamer / observatieruimte / traumacentrum / kantoor / diagnostische eenheid afdeling Interne Geneeskunde/ ABZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID> 					        <Text>Geneesmiddel dat de nasale weg helpt vrijmaken, verlichten van neusverstopping. \n\nVereiste ruimte: spreekkamer / observatieruimte / kantoor / diagnostische eenheid bij interne geneeskunde  / Cardiologie / ABZ </Text>  </GameDBLocalizedString>
+
+            <!--new hematolab for the department-->
+            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>Hematologielab</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    
