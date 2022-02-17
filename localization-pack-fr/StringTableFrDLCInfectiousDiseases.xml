@@ -1,0 +1,404 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_DLC_INFECTIOUS_DISEASES">
+
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>Contenu téléchargeable Service des Maladies Infectieuses</Text>  </GameDBLocalizedString>
+            
+            <!-- Department and rooms-->
+            <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>Maladies infectieuses</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>Unité de quarantaine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>L'unité de quarantaine est un service séparé utilisé pour isoler les patients souffrant de maladies infectieuses et pour empêcher la propagation des agents pathogènes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>Bureau du SMI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Le bureau des maladies infectieuses représente le bureau clinique de base pour examens et traitements simples.\n\nMin. Besoins en personnel : \n1x Épidémiologiste </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Unité de diagnostic</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>L'unité de diagnostic du service des maladies infectieuses fournit des procédures d'examen et de traitement aux patients hospitalisés.\n\nMin. Besoins en personnel : \n1x Épidémiologiste \n(Personnel basé dans une salle de veille)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>Unité de Cardiologie</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>Zone à risque biologique, entrez uniquement avec un masque facial et des gants de protection.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- Hospitalization alias -->                                                                      
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>Hospitalisation en isolement</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>Hospitalisez le patient dans une unité de quarantaine pour empêcher la propagation des maladies contagieuses et prodiguez-lui un haut niveau de soin.\n\nSalle requise : Salle d'isolement</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- SKILLS-->                                                                                      
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>Épidémiologie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Les épidémiologistes étudient la répartition des maladies et des parasites pour en déterminer la cause, les facteurs de risque, la progression, le cycle de vie ou le mode de transmission.</Text>	</GameDBLocalizedString> <!--todo description-->
+                                                                                                                
+            <!-- Global Admin Events-->                                                                         
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>Jours restants : </Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>Épidémie !</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>Vous n'avez pas réussi à contenir tous les patients infectieux et, par conséquent, une partie de votre hôpital a été contaminée. Le personnel doit maintenant porter des masques et travaillera lentement !</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>Un patient infectieux a été hospitalisé en dehors de l'unité de quarantaine et, par conséquent, une partie de votre hôpital a été contaminée. Le personnel doit maintenant porter des masques et travaillera lentement !</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- ============== -->                                                                             
+            <!--EVENTS -->                                                                                      
+            <!-- ============== -->                                                                             
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>Un accident survenu dans un laboratoire universitaire a libéré des agents pathogènes très dangereux. Tous les hôpitaux de la ville doivent préparer leurs équipements de protection et traiter très soigneusement les nouveaux patients. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>Une épidémie d'une maladie très dangereuse a été signalée dans une destination touristique prisée. Tous les citoyens qui ne se sentent pas bien doivent se rendre immédiatement à l'hôpital le plus proche. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>Les changements climatiques ont entraîné une propagation de plus en plus fréquente des maladies exotiques dans les régions, surtout à cette période de l'année. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>Une nouvelle vague du nouveau coronavirus Covid-19 a frappé la ville. Tous les hôpitaux et les établissements médicaux doivent se préparer à accueillir un nombre énorme de patients contaminés.</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>Infos quotidiennes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>La santé de tout votre personnel est revenue à la normale. Vous avez survécu à l'épidémie !</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>contaminé</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Hautement contagieux !</Text>  </GameDBLocalizedString>
+
+            <!--Doors-->
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>Porte anti risques biologiques</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>Porte avec une fenêtre ovale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>Double porte anti risques biologiques</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>Double porte avec fenêtres ovales</Text>  </GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Moniteur de vie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>Ventilateur mécanique</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>Mur d'isolement</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>Mur d'isolement</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>Armoire murale d'isolement</Text>  </GameDBLocalizedString>
+            <!-- Description for all three versions of isolation wall -->                                      
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>Offre une protection contre toutes les maladies causées par des agents pathogènes qui peuvent être transmis par l'air.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>Équipement sanitaire</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>Destiné aux chambres de quarantaine pour couvrir l'hygiène de base des patients.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>Climatisation de l'unité de quarantaine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>La climatisation permet de filtrer l'air frais et d'améliorer le confort des patients en quarantaine.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>Panneau : avertissement</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>Alerte épidémie.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>Panneau : quarantaine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>Personnel autorisé seulement.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>Porte d'aération de l'unité de quarantaine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>Le système de flux d'air négatif est utilisé pour réduire le risque de contamination des installations environnantes par l'air.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>Tableau de bord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>Tableau de bord magnétique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>Outils de désinfection</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>Outils de désinfection adaptés à un usage quotidien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>Poster sur les infections</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>Poster sur la malaria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>Banc : moderne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>Table basse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>Ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>Une nouvelle ambulance de style européen prête à transporter des patients dans les conditions médicales les plus graves.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>Brancard</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>Unité de quarantaine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>Maladies infectieuses</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>Maladies infectieuses: GRAND HÔPITAL</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>Modèles des salles du service des maladies infectieuses</Text>  </GameDBLocalizedString>
+
+            <!-- DIAGNOSES - MIGRATED -->
+            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>Grippe A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>Hépatite A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>Hépatite B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>Choléra classique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>Fièvre typhoïde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>Tuberculose pulmonaire</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>Tularémie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>Maladie du Charbon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>Fièvre par morsure de rat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>Maladie de la griffe du chat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>Coqueluche</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>Légionellose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>Typhus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>Trypanosomiase américaine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>Toxoplasmose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>Babésiose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>Maladie de Lyme</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>Oreillons</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>Encéphalite à tiques</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>Rage</Text>  </GameDBLocalizedString>
+            
+            <!--DIAGNOSES - NEW -->
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>Anaplasmose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>L'anaplasmose est causée par la bactérie Anaplasmosis phagocytophilum qui est propagée par les tiques.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>Ehrlichiose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>L'ehrlichiose est une maladie de type grippal qui est étroitement liée à l'anaplasmose. Elle est également transmise par les tiques.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>Fièvre boutonneuse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>La fièvre boutonneuse est une fièvre causée par une infection due à Rickettsia conorii et elle est transmise par la tique du chien. La maladie se déclare principalement dans le bassin méditerranéen, au Moyen-Orient, dans le sous-continent indien et en Afrique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>La fièvre boutonneuse des montagnes Rocheuses</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>Maladie bactérienne causée par Rickettsia rickettsii, propagée par diverses espèces de tiques (tique américaine du chien, tique des bois des montagnes rocheuses, tique brune du chien).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>Fièvre à tiques du Colorado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>Infection virale propagée par la tique des bois des montagnes Rocheuses, les symptômes sont très similaires à ceux de la fièvre boutonneuse des montagnes Rocheuses.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>Fièvre à tiques de la côte Pacifique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006_DESCRIPTION</LocID>                                     <Text>Maladie bactérienne causée par Rickettsia philipii, propagée par la tique de la côte Pacifique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>Fièvre des piqûres de tiques africaines</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007_DESCRIPTION</LocID>                                     <Text>La fièvre africaine des piqûres de tiques : la FAPT est une infection bactérienne causée par Rickettsia africae, propagée par les tiques. La maladie est présente en Afrique subsaharienne, dans les Caraïbes et en Océanie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008</LocID>                                                 <Text>Typhus à tiques du Queensland</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>L'agent étiologique du typhus de la tique du Queensland est la bactérie Rickettsia australis. La maladie n'est présente que dans l'est de l'Australie, y compris en Tasmanie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009</LocID>                                                 <Text>Fièvre boutonneuse de l'île Flinders</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009_DESCRIPTION</LocID>                                     <Text>La fièvre boutonneuse de l'île Flinders est causée par Rickettsia honei et la maladie se manifeste principalement en Asie du sud-est et du sud, ainsi qu'en Australie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>Fièvre boutonneuse japonaise</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010_DESCRIPTION</LocID>                                     <Text>La fièvre boutonneuse japonaise est principalement présente dans les zones chaudes le long de la côte Pacifique du sud-ouest et du centre du Japon. La maladie est causée par la Rickettsia japonica, transmise par une morsure de tique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>TIBOLA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011_DESCRIPTION</LocID>                                     <Text>La lymphadénopathie à tiques est une rickettsiose à tiques relativement courante en Europe centrale et causée par la Rickettsia slovaca.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012</LocID>                                                 <Text>Variole de Rickettsi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012_DESCRIPTION</LocID>                                     <Text>La variole de Rickettsi est une maladie infectieuse à transmission par les acariens causée par Rickettsia akari, qui se propage par des acariens vivant habituellement sur des souris domestiques.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013</LocID>                                                 <Text>Brucellose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013_DESCRIPTION</LocID>                                     <Text>La brucellose est une maladie très contagieuse causée par la bactérie de l'espèce Brucella et elle se propage par l'ingestion de lait non pasteurisé ou de viande insuffisamment cuite.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>Chikungunya</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014_DESCRIPTION</LocID>                                     <Text>L'infection par le virus du chikungunya se propage par la piqûre d'un moustique infecté. Il n'existe pas de vaccin.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015</LocID>                                                 <Text>Fièvre Q</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015_DESCRIPTION</LocID>                                     <Text>La fièvre Q est une maladie causée par Coxiella burnetti et elle est transmise par divers animaux comme les bovins, les moutons, les chèvres, les chats et les chiens. La bactérie est un parasite intracellulaire, capable de se développer et de se reproduire à l'intérieur des cellules de l'hôte.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016</LocID>                                                 <Text>Dengue</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016_DESCRIPTION</LocID>                                     <Text>La dengue est une maladie tropicale transmise par la piqûre d'un moustique infecté. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017</LocID>                                                 <Text>Fièvre Zika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017_DESCRIPTION</LocID>                                     <Text>La fièvre Zika est une maladie tropicale causée par le virus Zika et elle est propagée par les moustiques Aedes. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018</LocID>                                                 <Text>Ebola</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018_DESCRIPTION</LocID>                                     <Text>La maladie causée par le virus Ebola est une fièvre hémorragique virale mortelle. Elle est causée par des ébolavirus, qui se propagent par contact direct avec des liquides organiques infectés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019</LocID>                                                 <Text>Paludisme</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019_DESCRIPTION</LocID>                                     <Text>Le paludisme est une maladie infectieuse tropicale causée par des parasites du groupe du plasmodium. Elle se propage par les piqûres de moustiques infectés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>Fièvre jaune</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020_DESCRIPTION</LocID>                                     <Text>La fièvre jaune est une maladie virale tropicale qui se propage par la piqûre d'un moustique femelle infecté. Elle est causée par le virus de la fièvre jaune, virus à ARN enveloppé de la famille des Flaviridae.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021</LocID>                                                 <Text>Fièvre du Nil occidental</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021_DESCRIPTION</LocID>                                     <Text>La fièvre du Nil occidental est une infection causée par le virus du Nil occidental, la maladie est propagée par les moustiques infectés. La plupart des gens ne développent aucun symptôme. Le virus a été découvert en Ouganda en 1937.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022</LocID>                                                 <Text>Fièvre de Lassa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022_DESCRIPTION</LocID>                                     <Text>Également connue sous le nom de fièvre hémorragique de Lassa, elle est causée par le virus de Lassa qui se propage spécifiquement par les rats africains.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023</LocID>                                                 <Text>Marburg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023_DESCRIPTION</LocID>                                     <Text>La maladie à virus de Marburg est une maladie grave qui touche les humains et les primates non humains, causée par l'un des deux virus de Marburg : le virus de Marburg et le virus Ravn.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024</LocID>                                                 <Text>Leptospirose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024_DESCRIPTION</LocID>                                     <Text>La leptospirose est une infection du sang causée par la bactérie Leptospira et elle est généralement transmise par les rongeurs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025</LocID>                                                 <Text>Infection à C. difficile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025_DESCRIPTION</LocID>                                     <Text>L'infection à Clostridium difficile est causée par des bactéries productrices de toxines. Elle peut être mortelle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026</LocID>                                                 <Text>Fièvre de la vallée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026_DESCRIPTION</LocID>                                     <Text>La fièvre de la vallée, également appelée coccidioïdomycose, est une infection causée par le champignon Coccidioides qui vit dans le sol du sud-ouest des États-Unis, du Mexique et de l'Amérique centrale et du Sud.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027</LocID>                                                 <Text>COVID-19</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>COVID-19 est la maladie causée par le nouveau coronavirus SARS-CoV-2 et provoque une infection respiratoire. Identifiée pour la première fois à Wu-han, en Chine, en décembre 2019, la maladie s'est répandue dans le monde entier, provoquant la plus grande pandémie depuis la pandémie de grippe espagnole de 1918.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028</LocID>                                                 <Text>SRMO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028_DESCRIPTION</LocID>                                     <Text>SRMO : le syndrome respiratoire du Moyen-Orient, également connu sous le nom de grippe du chameau, est une infection respiratoire virale très contagieuse causée par le coronavirus SRMO.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029</LocID>                                                 <Text>SRAS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029_DESCRIPTION</LocID>                                     <Text>SRAS : le syndrome respiratoire aigu sévère est une maladie respiratoire virale causée par le coronavirus du SRAS. Le premier foyer est apparu dans le sud de la Chine entre novembre 2002 et juillet 2003.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030</LocID>                                                 <Text>Crypto respiratoire</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030_DESCRIPTION</LocID>                                     <Text>La cryptosporidiose est une maladie parasitaire causée par des protozoaires parasites appelés Cryptosporidium. Elle affecte le système respiratoire ainsi que le tube digestif.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031</LocID>                                                 <Text>Crypto intestinale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031_DESCRIPTION</LocID>                                     <Text>La cryptosporidiose est une maladie parasitaire causée par des protozoaires parasites appelés Cryptosporidium. Elle affecte le système digestif et le système respiratoire.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032</LocID>                                                 <Text>SPH</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032_DESCRIPTION</LocID>                                     <Text>SPH : le syndrome pulmonaire à hantavirus est une maladie respiratoire virale grave causée par les hantavirus propagés par les rongeurs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033</LocID>                                                 <Text>Norovirus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033_DESCRIPTION</LocID>                                     <Text>Le norovirus, également appelé gastroentérite d'hiver, est un virus très contagieux qui provoque des diarrhées et des vomissements. Les personnes infectées peuvent se débarrasser de milliards de particules de norovirus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>Rotavirus A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>Le rotavirus A est très contagieux et provoque une diarrhée aqueuse. La meilleure prévention est la vaccination.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>Mélioïdose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>La mélioïdose, également appelée maladie de Whitmore, est une maladie infectieuse causée par Burkholderia pseudomallei et elle est transmise à la fois par les animaux et par un sol ou une eau contaminés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>Virus respiratoire syncytial</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036_DESCRIPTION</LocID>                                     <Text>Le VRSH, également connu sous le nom d'orthopneumovirus humain, est un virus syncytial qui provoque des infections respiratoires.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037</LocID>                                                 <Text>Chorioméningite lymphocytaire</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037_DESCRIPTION</LocID>                                     <Text>La chorioméningite lymphocytaire est une maladie infectieuse transmise par les rongeurs, causée par le virus de la chorioméningite lymphocytaire, qui se propage généralement par les souris domestiques.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038</LocID>                                                 <Text>Peste bubonique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038_DESCRIPTION</LocID>                                     <Text>La peste bubonique est l'un des trois types de peste causés par la bactérie Yersinia pestis. La peste bubonique est propagée par des puces infectées vivant sur de petits animaux. Elle est spécifique dans son infection des ganglions lymphatiques, qui deviennent extrêmement gonflés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039</LocID>                                                 <Text>Peste septicémique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039_DESCRIPTION</LocID>                                     <Text>La peste septicémique est l'un des trois types de peste causés par la bactérie Yersinia pestis. La peste septicémique est propagée par des puces infectées vivant sur de petits animaux. C'est la plus rare des trois formes, qui infecte généralement le sang.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040</LocID>                                                 <Text>Peste pneumonique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040_DESCRIPTION</LocID>                                     <Text>La peste pneumonique est l'un des trois types de peste causés par la bactérie Yersinia pestis. Elle est propagée par des puces infectées vivant sur de petits animaux. La forme pneumonique provoque des infections pulmonaires.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041</LocID>                                                 <Text>Infection au virus Nipah</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041_DESCRIPTION</LocID>                                     <Text>L'infection par le virus Nipah est une maladie grave et potentiellement mortelle, causée par un virus à ARN du genre Henipavirus. Elle se propage entre les hommes et peut également se transmettre des animaux aux hommes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042</LocID>                                                 <Text>Fièvre de la vallée du Rift</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042_DESCRIPTION</LocID>                                     <Text>La fièvre de la vallée du Rift est une maladie virale, causée par le virus de la FVR, qui se transmet par les fluides corporels des animaux.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043</LocID>                                                 <Text>Fièvre récurrente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043_DESCRIPTION</LocID>                                     <Text>La fièvre récurrente est une maladie infectieuse à transmission vectorielle, causée par un groupe de bactéries du genre Borelia. Elle se transmet par des piqûres de poux ou de tiques à corps mou.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044</LocID>                                                 <Text>Hépatite E aiguë</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044_DESCRIPTION</LocID>                                     <Text>L'hépatite E est une inflammation du foie causée par le virus de l'hépatite E. La transmission est similaire à celle de l'hépatite A, mais les virus ne sont pas apparentés. Le premier cas a été enregistré en 1955, mais le virus a été isolé pour la première fois en 1983.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045</LocID>                                                 <Text>Grippe aviaire H5N1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>Le virus de la grippe A, sous-type H5N1 est une grippe aviaire hautement pathogène. Le seul mode de transmission à l'homme est celui des oiseaux. La première propagation mondiale a été enregistrée en 2004.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS - MIGRATED-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>Grippe A détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_X</LocID>                              <Text>Hépatite A positive</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_X</LocID>                              <Text>Hépatite B positive</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>Vibrion cholérique détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>Typhi S détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>Tuberculose détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>F. tularensis détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>Anthracis B détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>Streptobacillus détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>Henselae B détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>Pertussis B détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>Legionella détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>Typhi R détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>Trypanosome détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>Toxoplasmose détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>Babesios détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>Maladie de Lyme détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>Infection de la parotide</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_X</LocID>                                      <Text>TBE détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>Rage détectée</Text>  </GameDBLocalizedString>
+            
+            <!--MAIN SYMPTOMS - NEW-->
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>Anaplasme détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>Des taux élevés d'IgG indiquent la présence d'Anaplasma phagocytophilum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED</LocID>                               <Text>Ehrlichiose détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED_DESCRIPTION</LocID>                   <Text>Le test PCR a détecté des gènes spécifiques, uniques à l'Ehrlichiose.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED</LocID>                         <Text>Rickettsia conorii détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>Le test d'immunofluorescence dans le matériel bioptique a permis de détecter les anticorps de Rickettsia conorii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED</LocID>                       <Text>Rickettsia rickettsii détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED_DESCRIPTION</LocID>           <Text>Le test PCR a détecté la présence de Rickettsia rickettsii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED</LocID>                      <Text>Anticorps de coltivirus détectés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED_DESCRIPTION</LocID>          <Text>Le test RT-PCR a permis de découvrir des anticorps colviraux sur les globules rouges.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED</LocID>                        <Text>Rickettsia philipii détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED_DESCRIPTION</LocID>            <Text>Le test PCR a détecté la présence de Rickettsia philipii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED</LocID>                         <Text>Rickettsia africae détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED_DESCRIPTION</LocID>             <Text>Le test PCR a détecté la présence de Rickettsia africae.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED</LocID>                       <Text>Rickettsia australis détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED_DESCRIPTION</LocID>           <Text>L'immunofluorescence sérologique a permis de détecter la présence de Rickettsia australis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED</LocID>                           <Text>Rickettsia honei détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED_DESCRIPTION</LocID>               <Text>Des tests sérologiques ont permis de découvrir une réponse sur Rickettsia honei.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED</LocID>                        <Text>Rickettsia japonica détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED_DESCRIPTION</LocID>            <Text>Le test PCR a détecté la présence de Rickettsia japonica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED</LocID>                         <Text>Rickettsia slovaca détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED_DESCRIPTION</LocID>             <Text>Le test PCR a détecté la présence de Rickettsia slovaca.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED</LocID>                           <Text>Rickettsia akari détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED_DESCRIPTION</LocID>               <Text>Des tests sérologiques ont révélé la présence de Rickettsia akari.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED</LocID>                               <Text>Brucellose confirmée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED_DESCRIPTION</LocID>                   <Text>Des tests sérologiques ont confirmé la présence de Brucellose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED</LocID>                                      <Text>Virus CHIKV détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED_DESCRIPTION</LocID>                          <Text>Le test RT-PCR a détecté la présence du virus Chikungunya.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED</LocID>                          <Text>Coxiella burnetii détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED_DESCRIPTION</LocID>              <Text>Les tests sérologiques ont détecté une réponse d'anticorps sur la bactérie Coxiella burnetii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED</LocID>                               <Text>Virus de la dengue détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED_DESCRIPTION</LocID>                   <Text>Le test RT-PCR a permis de détecter le génome du virus de la dengue dans les échantillons de sérum des patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED</LocID>                                 <Text>Virus Zika détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>Le test RT-PCR a permis de détecter le virus Zika dans les échantillons des patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>Virus ebola découvert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>Le test ELISA a détecté le virus Ebola.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED</LocID>                                 <Text>Plasmodium détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED_DESCRIPTION</LocID>                     <Text>Le test ELISA a détecté des anticorps de classe IgG et IgM contre le paludisme dans l'échantillon de sérum du patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS</LocID>                                  <Text>Virus de la fièvre jaune</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS_DESCRIPTION</LocID>                      <Text>Le test RT-PCR a confirmé la présence du génome du virus de la fièvre jaune dans l'échantillon du patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS</LocID>                                     <Text>Virus du Nil occidental</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS_DESCRIPTION</LocID>                         <Text>Le test ELISA a permis de découvrir des anticorps contre le virus du Nil occidental.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT</LocID>                                 <Text>Virus Lassa présent</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT_DESCRIPTION</LocID>                     <Text>Le test PCR a permis de détecter le virus Lassa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED</LocID>                                       <Text>MARV détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>Le test RT-PCR a détecté la présence du virus de Marburg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED</LocID>                                 <Text>Leptospira détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED_DESCRIPTION</LocID>                     <Text>La culture microbienne a détecté la présence de leptospira.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED</LocID>                               <Text>C. difficile détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED_DESCRIPTION</LocID>                   <Text>Le diagnostic par PCR a détecté le Clostridium difficile.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED</LocID>              <Text>Coccidioides atb détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED_DESCRIPTION</LocID>  <Text>Les tests sérologiques ont permis de détecter des anticorps liés au Coccidioides.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED</LocID>                                  <Text>2019-nCoV détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED_DESCRIPTION</LocID>                      <Text>Les tests sérologiques ont confirmé la réponse immunologique au nouveau coronavirus 2019 à partir d'échantillons de patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED</LocID>                                   <Text>SRMO-CoV détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>Le test RT-PCR a permis d'identifier le coronavirus SRMO dans les échantillons des patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED</LocID>                                   <Text>SRAS-CoV détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>Le test RT-PCR a permis d'identifier le coronavirus SRAS dans les échantillons des patients.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED</LocID>                            <Text>Cryptosporidium détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED_DESCRIPTION</LocID>                <Text>Le test PCR a identifié le Cryptosporidium.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED</LocID>                            <Text>Oocyste détecté dans les selles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED_DESCRIPTION</LocID>                <Text>Oocyst de Cryptosporidium révélé dans l'échantillon de selles du patient.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED</LocID>                                 <Text>Hantavirus détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>Les tests sérologiques ont identifié des anticorps associés à l'hantavirus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED</LocID>                                  <Text>Norovirus détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>Le test PCR a permis de détecter le norovirus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED</LocID>                                <Text>Rotavirus A détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED_DESCRIPTION</LocID>                    <Text>Le test RT-PCR a permis de détecter le norovirus A.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED</LocID>                            <Text>B. pseudomallei détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED_DESCRIPTION</LocID>                <Text>La culture microbienne a confirmé la présence de Burkholderia pseudomallei.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT</LocID>                                        <Text>VRSH présent</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT_DESCRIPTION</LocID>                            <Text>Le test RT-PCR a permis de détecter la présence de virus respiratoire syncytial humain.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED</LocID>                                       <Text>Chorioméningite lymphocytaire détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED_DESCRIPTION</LocID>                           <Text>L'analyse du liquide céphalo-rachidien a détecté des anticorps du virus de la Chorioméningite lymphocytaire.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC</LocID>                                   <Text>Bacille Y. pestis : forme bubonique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC_DESCRIPTION</LocID>                       <Text>L'analyse du matériel bioptique a permis de détecter la forme bubonique de l'infection à Yersinia pestis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC</LocID>                                <Text>Bacille Y. pestis : forme septicémique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC_DESCRIPTION</LocID>                    <Text>Les tests sérologiques ont mis en évidence la forme septicémique de l'infection à Yersinia pestis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC</LocID>                                 <Text>Bacille Y. pestis : forme pneumonique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC_DESCRIPTION</LocID>                     <Text>Le test PCR a permis de détecter les anticorps contre le bacille Yersinia pestis, la forme pneumonique.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED</LocID>                                <Text>Virus Nipah détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>Le test RT-PCR a permis de détecter le virus Nipah.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED</LocID>                                  <Text>Virus de la FVR détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>ELISA : les tests sérologiques ont permis de détecter des anticorps contre le virus de la fièvre de la vallée du Rift.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED</LocID>                             <Text>Recurrentis B détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED_DESCRIPTION</LocID>                 <Text>Les tests PCR ont permis de détecter de détecter Borrelia recurrentis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED</LocID>                                <Text>Hépatite E détectée</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED_DESCRIPTION</LocID>                    <Text>Les tests sérologiques ont permis de détecter des anticorps liés au virus de l'hépatite E.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED</LocID>                                       <Text>H5N1 détecté</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED_DESCRIPTION</LocID>                           <Text>Le test RT-PCR a permis de détecter le virus de la grippe A H5N1.</Text>  </GameDBLocalizedString>
+
+            <!-- SYMPTOMS -->
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER</LocID>                                   <Text>Fièvre hémorragique</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>La fièvre hémorragique touche plusieurs organes internes, endommage les vaisseaux sanguins et affecte la capacité de l'organisme à s'autoréguler.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING</LocID>                                    <Text>Saignement des orifices</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING_DESCRIPTION</LocID>                        <Text>Hémorragie aiguë des orifices du corps comme le nez, la bouche, les yeux et/ou les oreilles.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE</LocID>                                         <Text>Doxycycline</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>Traitement antibiotique spécial à base de tétracycline utilisé pour combattre des bactéries et des parasites spécifiques. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE</LocID>                                      <Text>Doxycycline par voie intraveineuse</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>Traitement antibiotique spécial à base de tétracycline utilisé pour combattre des bactéries et des parasites spécifiques. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + unité de quarantaine du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE</LocID>                                         <Text>Minocycline</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>Traitement antibiotique spécial à base de tétracycline utilisé pour combattre des bactéries et des parasites spécifiques. \n\nSalle requise : Bureau du SMI / Unité de diagnostic du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL</LocID>                                     <Text>Chloramphénicol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>Antibiotique spécial utilisé dans un large spectre d'infections bactériennes. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>Azithromycine</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>Antibiotique utilisé pour combattre diverses infections bactériennes. \n\nSalle requise : Bureau du SMI / Unité de diagnostic du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>Antibiotiques par voie IM</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>Antibiotiques administrés par injection intramusculaire dans un grand muscle. \n\nSalle requise : Bureau du SMI / Unité de diagnostic du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>Thérapie antivirale complexe</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>La thérapie antivirale complexe est utilisée dans les cas où il n'y a pas d'antiviraux ciblés disponibles. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + unité de quarantaine du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>Sérum expérimental</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>Sérum expérimental de médicaments intraveineux qui traite la fièvre hémorragique d'Ebola. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + unité de quarantaine du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>Médicaments antipaludiques</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>Combinaison de divers antibiotiques, médicaments et substances de soutien pour lutter contre la malaria et les maladies liées à la malaria. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>Immunothérapie passive IV</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>Doses intraveineuses d'anticorps spécifiques ciblés contre différentes fièvres hémorragiques virales. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY</LocID>                                   <Text>Thérapie anti-sens</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>La thérapie anti-sens est une forme de traitement des maladies génétiques ou des infections : il est possible de synthétiser un brin d'ARN/ADN qui désactivera un gène spécifique. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN</LocID>                                          <Text>Vancomycine</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>Un antibiotique intraveineux qui traite un certain nombre d'infections bactériennes. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE</LocID>                                         <Text>Fluconazole</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>Médicament antifongique spécial utilisé pour traiter diverses maladies causées par des organismes fongiques. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE</LocID>                                        <Text>Nitazoxanide</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>Des médicaments antiparasitaires à large spectre et des médicaments antiviraux à large spectre. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR</LocID>                                         <Text>Oseltamivir</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>Médicaments antiviraux utilisés pour traiter et prévenir la grippe A et B. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + unité de quarantaine du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN</LocID>                                       <Text>Ciprofloxacine</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>Un antibiotique utilisé pour traiter un certain nombre d'infections bactériennes. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN</LocID>                                    <Text>Ciprofloxacine par voie intraveineuse</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>Antibiotique qui est utilisé pour traiter un certain nombre d'infections bactériennes. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + unité de quarantaine du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE</LocID>                                     <Text>Thérapie de soutien</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>La thérapie de soutien consiste en de nombreux traitements symptomatiques, principalement pour les maladies virales pour lesquelles il n'existe pas de traitement spécifique. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Service régulier du SMI / Unité de Soins intensifs</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>Immunoglobuline antirabique</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>Injection à action rapide empêche le virus de la rage d'infecter le patient. Souvent administrée à titre préventif aux patients qui ont été mordu par un animal susceptible d'avoir la rage. \n\nSalle requise : Bureau du SMI / Unité de diagnostic + Salle régulier du SMI / Unité des Soins intensifs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X</LocID>                               <Text>Interféron alpha-2b</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>Antiviral hautement spécifique utilisé dans le monde entier pour traiter les manifestations chroniques d'hépatite B et C. \n\nSalle requise : Bureau / Unité de diagnostic au SMI / Unité de Soins intensifs</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>Examen endoscopique permettant de visualiser l'intérieur du tube digestif haut. Réalisé à l'aide d'un fibroscope - tube flexible munie d'une minuscule caméra et d'une source de lumière.\n\nSalle requise : Unité des Soins intensifs / Bureau / Unité de diagnostic au dpt de Chirurgie générale / dpt de Médecine Interne / dpt de Cardiologie / SMI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>Le prélèvement de liquide céphalorachidien s'effectue en introduisant une aiguille dans le canal rachidien par le bas du dos, ce qui permet de drainer une petite quantité de liquide. \n\nSalle requise : laboratoire d'histologie \n\nPrélèvement : dpt de neurologie / SMI \n\nÉquipement requis : verrerie + centrifugeuse médicale + analyseur de laboratoire</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>Procédure de prélèvement d'un échantillon de selles du patient en vue d'une analyse. \n\nSalle requise : laboratoire d'histologie Prélèvement : dpt des urgences/dpt de chirurgie générale/dpt de médecine interne/Unité de soins intensifs / SMI \n\nÉquipement requis : verrerie + analyseur de selles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>Les tests audiométriques déterminent le niveau d'audition du patient. \n\nSalle requise : Bureau du docteur / Salle d'observation / Unité de Soins Intensifs / Bureau / Unité de diagnostic des urgences / Unité des Soins intensifs / dpt de chirurgie générale / dpt de médecine interne / SMI</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>Produit sanguin purifié administré par voie intraveineuse contenant des anticorps bloquant les anticorps nocifs du patient. \n\nSalle requise : Unité des Soins intensifs / Bureau / Unité de diagnostic au Département d'orthopédie / SMI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>Médicaments qui inhibent les infections virales. Contrairement aux antibiotiques, les médicaments antiviraux ne détruisent pas directement l'agent pathogène. \n\nSalle requise : Bureau du docteur / Salle d'observation / Unité de Soins Intensifs / Bureau / Unité de diagnostic au département de chirurgie générale / Département de neurologie / SMI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>Médicaments qui visent à soulager les symptômes, mais n'éliminent pas la cause. Ils agissent généralement en diminuant la fréquence des selles. \n\nSalle requise : Bureau du docteur / Salle d'observation / Centre de Trauma / Unité de Soins Intensifs / Bureau / Unité de diagnostic au département de chirurgie / Département de Médecine interne / SMI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>Les antiparasitaires luttent contre une large palette d'organismes parasites affectant les systèmes du corps humain. \n\nSalle requise : Bureau du docteur / Salle d'observation / Centre de Trauma / Bureau / Unité de diagnostic de Médecine interne / SMI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>	     <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>					            <Text>Médicaments qui aident à dégager la voie nasale, soulageant la congestion nasale. \n\nSalle requise : Bureau du docteur / Salle d'observation / Bureau / Unité de diagnostic de Médecine interne / Département de cardiologie / SMI</Text>	</GameDBLocalizedString>
+
+            <!--new hematolab for the department-->
+            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>Laboratoire d'hématologie</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

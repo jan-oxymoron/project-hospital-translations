@@ -1,0 +1,77 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_PATCH_1_1_23">
+    
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_NO_EMPLOYEE_LIMIT</LocID>                <Text>Désactiver la limite des employés (PC très rapide nécessaire)</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <!-- Old, wasn't translated in most languages -->                                    
+            <GameDBLocalizedString>      <LocID>OPTIONS_RUN_IN_BACKGORUND</LocID>                <Text>Exécuter en arrière-plan</Text>  </GameDBLocalizedString>
+
+            <!--New loading tips -->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_SELECTING_OBJ</LocID>                <Text>Sélectionner l'objet à récupérer avec la touche Maj.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_TAKING_OVER_PATIENTS</LocID>         <Text>Vous pouvez automatiquement reprendre le contrôle sur tous les patients de chaque département individuel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_SURGERY_PRIORITY</LocID>             <Text>Votre patient attend-il trop longtemps pour une opération ? Déplacez-le en haut de la liste !</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->                                   
+            <GameDBLocalizedString>       <LocID>CLOUD_SAVE</LocID>                              <Text>Sauvegarde dans le Cloud</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_EQUIPMENT_CLONE</LocID>        <Text>Sélectionner un objet à copier</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_DOORS_CLONE</LocID>            <Text>Sélectionner les portes à copier</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_WALLS_CLONE</LocID>            <Text>Sélectionner le mur à copier</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_HEADING</LocID>                   <Text>Opérations programmées dans le service : {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_SURGERY</LocID>                   <Text>Opération</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_PRIORITY</LocID>                  <Text>Priorité</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_CANCEL_PRIORITY</LocID>           <Text>Annuler la priorité</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_ORDER</LocID>                     <Text>Ordre</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_SURGERY_PRIORITY</LocID>                <Text>Définir la priorité la plus élevée pour cette opération (déplacer vers le haut)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_SURGERY_CANCEL_PRIORITY</LocID>         <Text>Annuler la priorité élevée pour cette opération</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_TABLE_SURGERIES</LocID>                 <Text>Gérer les opérations programmées du département actif</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_EQUIPMENT_CLONE</LocID>        <Text>Sélectionner un objet à copier (touche par défaut : i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_DOORS_CLONE</LocID>            <Text>Sélectionner les portes à copier (touche par défaut : i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_WALLS_CLONE</LocID>            <Text>Sélectionner un mur à copier (touche par défaut : i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_FLOORS_CLONE</LocID>           <Text>Sélectionner les sols à copier (touche par défaut : i)</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                         
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING</LocID>                <Text>Parking ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING_DESCRIPTION</LocID>    <Text>Zone de parking pour les ambulances. Ce préfabriqué remplace automatiquement l'actuel.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING_STRIPES</LocID>        <Text>Parking ambulance</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_UNLOADING</LocID>              <Text>Déchargement ambulance</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_UNLOADING_DESCRIPTION</LocID>  <Text>Zone de dépose pour les ambulances. Ce préfabriqué remplace automatiquement l'actuel.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AMBULANCES_OWNED</LocID>             <Text>impossible à modifier dans un hôpital avec des ambulances actives.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AMBULANCE_UNLOADING</LocID>          <Text>impossible à modifier lorsqu'une ambulance amène/reprend un patient.</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>PATIENT_IS_BEING_CALLED</LocID>                  <Text>Le patient suivant arrive</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <GameDBLocalizedString>      <LocID>SAT_MOD_EXPOSED_TO_OUTDOORS</LocID>              <Text>exposé à la météo</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST_DESCRIPTION_V2</LocID>          <Text>Médecin en salle d’appel, spécialisé en {1}.\n\nDisponible :\nDans ce département : {2}\nAux unités de soins intensifs : {3}</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <GameDBLocalizedString>      <LocID>GoingToStatLab</LocID>                           <Text>Va au labo</Text>  </GameDBLocalizedString>
+
+            <!--USG and ECG to Radiology department-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RADIO_CARDIO_UNIT</LocID>                             <Text>Unité de Cardiologie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RADIO_SONO_UNIT</LocID>                               <Text>Unité d'échographie</Text>	</GameDBLocalizedString>
+            <!-- PREFABS -->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_RAD_ABBR</LocID>                    <Text>Unité de Cardiologie - 6 x 6</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SONOGRAPHY_UNIT_RAD_ABBR</LocID>                        <Text>Unité d'échographie - 6 x 6</Text>	</GameDBLocalizedString>
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>

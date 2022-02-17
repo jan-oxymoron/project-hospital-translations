@@ -1,0 +1,24 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_PATCH_1_2_37">
+
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Texts that should have been sent for translation with Patch 23 -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING</LocID>         <Text>L'hospitalisation n'est pas opérationnelle</Text>  </GameDBLocalizedString>
+
+            <!-- {1} is name of a department (in nominative case) -->
+            <!-- "Assist at surgery" should match EMPL_ROLE_SURGERY_ASSIST from StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING_TEXT</LocID>    <Text>L'hospitalisation en {1} n'est pas opérationnelle car tous les rôles d'assistant en chirurgie en équipe de jour sont désactivés.</Text>  </GameDBLocalizedString>
+            
+            <!-- Echocardiography needs to match <LocID>EXM_ECHO</LocID> or <LocID>EXM_ECHO_DESCRIPTION</LocID> in StringTable[Language]Examinations.xml  -->
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_ARTERIES_BLOCKED_DESCRIPTION_V2</LocID>    <Text>L'échocardiographie a révélé un blocage de plusieurs artères cérébrales causé par un caillot.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    
