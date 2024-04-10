@@ -1,0 +1,24 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_PATCH_1_2_37">
+
+  <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>frankieorabona</Name>
+			<
+
+        <LocalizedStrings>
+            <!-- Texts that should have been sent for translation with Patch 23 -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING</LocID>         <Text>Il ricovero in ospedale non è funzionante</Text>  </GameDBLocalizedString>
+
+            <!-- {1} is name of a department (in nominative case) -->
+            <!-- "Assist at surgery" should match EMPL_ROLE_SURGERY_ASSIST from StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING_TEXT</LocID>    <Text>Il ricovero presso {1} non funziona, perché tutti gli assistenti del turno diurno sono disabilitati.</Text>  </GameDBLocalizedString>
+            
+            <!-- Echocardiography needs to match <LocID>EXM_ECHO</LocID> or <LocID>EXM_ECHO_DESCRIPTION</LocID> in StringTable[Language]Examinations.xml  -->
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_ARTERIES_BLOCKED_DESCRIPTION_V2</LocID>    <Text>L'ecocardiografia ha rivelato l'ostruzione di più arterie nel cervello a causa di coaguli di sangue.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    
