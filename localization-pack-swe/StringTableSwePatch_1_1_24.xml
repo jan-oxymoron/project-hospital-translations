@@ -1,8 +1,8 @@
 <Database>
     <GameDBStringTable ID="LOC_SWE_PATCH_1_1_24">
 
-        <LanguageCode>swe</LanguageCode>
-        <LanguageNameLocalized>Svenska</LanguageNameLocalized>
+        <LanguageCode>sv</LanguageCode>
+        <LanguageNameLocalized>Svenska (PH, Doctor Mode, Hospital Services)</LanguageNameLocalized>
 
         <Contributors>
             <Name>Oxymoron Games</Name>
@@ -14,72 +14,72 @@
 
             <!-- RELATED FILE: StringTable[Language]UI.xml -->
             <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>Ångra senaste</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>Går ej att ångra. Antingen har inget ändrats eller så går det inte att återställa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>Ångra ej möjligt. Antingen har inget ändrats eller så är förändringen oåterställbar.</Text>  </GameDBLocalizedString>
             
             <!-- ROOM TYPES -->
 
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>Dagkirurgisk enhet</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>En mottagning hos Internmedicinska som utför minimalinvasiva ingrepp. Patienten kan ofta gå hem samma dag, eller dagen efter.</Text>	</GameDBLocalizedString> <!--todo description-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>Interventionsrum</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>Ett rum unikt för Internmedicinska avdelningen som används till diverse minimalinvasiva kirurgiska ingrepp.</Text>	</GameDBLocalizedString> <!--todo description-->
             
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>Dagkirurgisk enhet</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>Interventionsrum</Text>	</GameDBLocalizedString>
 
             <!--PREFABS-->
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>Dagkirurgisk enhet - 8 x 6</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>Interventionsrum - 8 x 6</Text>	</GameDBLocalizedString>
 
             <!--diagnoses-->
 
             <!--ER-->
             <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>Influensa B</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>Influensa B orsakas av Influensa B-viruset, som är ansvarig för de årliga influensautbrotten hos människor.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>Influensa B orsakas av Influensa B-viruset som bidrar till säsongsbetonade influensautbrott hos människor.</Text>	</GameDBLocalizedString>
             <!--GS-->
             <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>HUS</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>Hemolytiskt uremiskt syndrom är det tillstånd när de små blokärlen i njurarna skada och inflammeras. I de flesta fallen ligger kolibakterier bakom insjuknade.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>Hemolytiskt uremiskt syndrom är en sjukdom där de minsta blodkärlen i njurarna skadas och blir inflammerade. Orsakas i de flesta fall av E. coli-bakterie.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>Infektion, Campylobacter</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>En infektion som vanligen orsakas av Campylobacter jejuni. Den smittar oftast via livsmedel.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>Campylobacterinfektion är en vanlig typ av infektion, ofta orsakad av typen Campylobacter jejuni. Spridning sker huvudsakligen via livsmedel.</Text>	</GameDBLocalizedString>
             <!--NE-->
             <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>FCF</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>Faryngokonjunktival feber är vanligen orsakat av Humant Mastadenovirus B, som ofta skapar mindre utbrott bland unga personer i kollektivt boende. Sjukdomen drabbar svalget (farynx) och ögonen.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>Farokonjunktival feber avser ett tillstånd som främst orsakas av humant mastadenovirus B. Sjukdomen ger upphov till mindre utbrott, främst bland unga personer i grupper eller kollektiv. Tillståndet påverkar svalg och ögon.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>Botulism</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>Botulism  är en ovanlig och potentiellt dödlig sjukdom orsakad av neurotoxiner producerade av bakterien Clostridium botulinum.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>Botulism är en sällsynt och potentiellt livshotande sjukdom orsakad av kraftiga toxiner producerade av bakterien Clostridium botulinum.</Text>	</GameDBLocalizedString>
             <!--IM-->
             <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>TIA</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>Transitorisk ischemisk attack liknar ett slaganfall, men varar inte mer än 24 timmar och ger inga permanenta fysiska men.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>Pleurit</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>Pleurit är en inflammation i hinnan som omger lungsäcken.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>Asbestlunga</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>Asbestlunga är ett tillstånd orsakat av damm och andra små partiklar utav asbests.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>Miliaria</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>Miliaria är en hudsjukdom som vanligen uppkommer i varma och fuktiga klimat.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>Transitorisk ischemisk attack liknar en stroke, men varar inte mer än ett dygn och orsakar inga permanenta men.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>Inflammation, lungsäck</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>Ett tillstånd där lungans omgivande hinnor, lungsäcken, har blivit inflammerade. Kallas även för Pleurit.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>Asbestos</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>Asbestos är ett tillstånd uppkommet genom inandning av mikroskopiska asbestfibrer som samlas i lungorna.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>Värmeutslag</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>Värmeutslag – eller miliaria – är en hudsjukdom där tilltäppta svettkörtlar orsakar ansamlingar av svett under huden. Uppkommer typiskt i varmt och fuktigt klimat.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>Förgiftning, ciguatera</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>Ciguateraförgiftning är en typ av matförgiftning orsakad av fiskkött som innehåller en viss typ av toxiner.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>Ciguatera är typ av matförgiftning till följd av förtäring av fisk innehållandes ciguatoxiner.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>Varansamling i lungsäcken</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>Ansamling av var i lungsäcken orsakat av en bakteriell infektion.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>Varansamling i lungsäcken orsakad av bakteriell infektion.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>Kylotorax</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>Kylotorax är ett tillstånd när tarmlymfa från tunntarmens lymfkanaler samlas i brösthålan.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>Pleuravätska</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>Pleuravätska är vätska i lungsäcken, som uppstår tillsammans med lunginflammation, bronkiektasi, eller lungabscess.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>Kolesteatom </Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>Kolesteatom är en godartad utväxt ofta orsakat av upprepade infektioner i mellanörat. \n\nÄven kallat pärlcysta.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Krupp</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>Krupp orsakas vanligen av ett virus och sällan av en bakterieinfektion. \n\nÄven kallat laryngotrakeobronkit.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>Kylotorax är ett tillstånd fär lymvätska har samlats i brösthålen.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>Vätska runt lungan<!--Parapneumonic effusion--></Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>Vätska runt lungan kan uppstå vid lunginflammation, kroniskt vidgade luftrör eller en varböld i lungan.<!--Parapneumonic effusion refers to a condition that arises as a result of pneumonia, bronchiectasis or a lung abscess.--></Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>Pärlcysta i örat</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>Pärlcysta, eller benröta, är en godartad hudtillväxt, ofta orsakad av upprepade infektioner i mellanörat.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Falsk krupp</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>Falsk krupp orsakas vanligen av virus, men det finns även bakteriella varianter.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>Näspolyp</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>Näspolyp är en godartad utväxt i näshålan.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>Menieres sjukdom</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>Menieres sjukdom är en sjukdom i innerörat som kännetecknas av plötslig yrsel utan känd orsak.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>ET</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>Essentiell trombocytemi är ett ovanligt tillstånd när kroppen producerar avsevärt fler blodplättar än nödvändigt.</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Dermatit, toxicodendron</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>Dermatit orsakat av kontakt med en växt från familjen Toxicodendron (t.ex. giftek, giftmurgröna, och giftsumak) som utsöndrar en irriterande olja kallad urushiol.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>Menieres sjukdom är ett tillstånd i innerörat som kännetecknas av yrsel utan annan påvisbar orsak.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>Essentiell trombocytemi </Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>Essentiell trombocytemi är ett ovanligt tillstånd där patienten har en ökad produktion av blodplättar.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Urushiol-dermatit</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>Urushiol-dermatit är en typ av eksem orsakat genom en allergisk reaktion till växtoljan urushiol, som kan uppstå vid kontakt med växter tillhörande släktet Toxicodendron, t.ex. giftek, giftsumak eller klättersumak.</Text>	</GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Hemothorax</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>Hemothorax är när blod samla i lungsäcken och är ofta orsakad av en skada i bröstet.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Blödning i lungsäcken</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>Blödning i lungsäcken, vanligen orsakat genom en skada mot bålen.</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>Luft i lungsäcken</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>Luft i lungsäcken uppstår vanligen i kliniska situationer såsom respirator, återupplivning, eller parallel med en lungsjukdom.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>Luft i lungsäcken uppstår främst i sjukhusmiljö, t.ex. under respiratorbehandling eller av återupplivning. Men kan även förekomma hos personer med lungsjukdom.</Text>	</GameDBLocalizedString>
 
             
             <!-- shared symptoms used at internal medicine-->
             <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>Vätska i lungsäcken</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>MRT har upptäckt pleuravätska i lungsäcken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>Magnetröntgen har upptäckt vätska i lungsäcken.</Text>  </GameDBLocalizedString>
             
                
             <!--main symptoms - INTERNAL MEDICINE-->
