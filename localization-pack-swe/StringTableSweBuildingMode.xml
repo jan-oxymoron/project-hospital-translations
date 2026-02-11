@@ -2,7 +2,7 @@
     <GameDBStringTable ID="LOC_SWE_BUILDING_MODE">
         
         <LanguageCode>swe</LanguageCode>
-        <LanguageNameLocalized>Svenska</LanguageNameLocalized>
+        <LanguageNameLocalized>Svenska (PH, Doctor Mode, Hospital Services)</LanguageNameLocalized>
 
         <Contributors>
             <Name>Christoffer Rydström</Name>
@@ -165,7 +165,7 @@
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM_DESCRIPTION</LocID>      <Text>Kärlsröntgen, även kallad angiografi, är en diagnostisk avbildningsmetod som visualiserar kroppens blodkärl och organ.\n\nPersonal: \n1x Tekniker - Radiologi</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM</LocID>               <Text>Observation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM_DESCRIPTION</LocID>   <Text>I observationsrummet kan många olika undersökningar utföras, patienten befinner sig även under medicinsk övervakning.\n\nPersonal: \n1x Läkare \n(Personalen arbetar från sitt jourrum)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM_DESCRIPTION</LocID>   <Text>En sal för patienter vars symtom eller sjukdom ännu inte har manifesterat. Här kan olika typer av undersökningar genomföras medan patienten hålls under medicinsk övervakning.\n\nPersonal: \n1x Läkare \n(Personalen arbetar från sitt jourrum)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC</LocID>      			                <Text>Toalett</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC_DESCRIPTION</LocID>      			    <Text>För de som fått en kallelse från naturen. \n\nPersonal: \nIngen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET</LocID>                   <Text>Städskrubb</Text>  </GameDBLocalizedString>
@@ -211,14 +211,14 @@
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM_DESCRIPTION</LocID>                  <Text>Allt läkarna behövs för att driva avdelningen finns här inne.\n\nPersonal: \n1x Läkare</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD</LocID>                            <Text>Sjuksal</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD_DESCRIPTION</LocID>                <Text>Sjuksal för inlagda patienter. \n\nPersonal: \n1x Läkare \n1x Sköterska \n(Personalen arbetar från sitt jourrum)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</LocID>              <Text>Lätt-IVA</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD_DESCRIPTION</LocID>  <Text>Ett mellanting mellan sjuksal och IVA, erbjuder intermediärvård för inlagda patienter med högre medeicinskt behov. \n\nPersonal: \n1x Läkare \n1x Sköterska \n(Personalen arbetar från sitt jourrum)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</LocID>              <Text>IMA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD_DESCRIPTION</LocID>  <Text>Intermediärvårdsavdelningen (IMA) är en sal som vårdar inlagda patienter med ett högre medicinskt behov. \n\nPersonal: \n1x Läkare \n1x Sköterska \n(Personalen arbetar från sitt jourrum)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT</LocID>                       <Text>IVA</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT_DESCRIPTION</LocID>           <Text>Ger den bästa vården för patienter i kritiskt läge och bevarandet av deras vitala funktioner. \n\nPersonal: \n1x Läkare \n1x Sköterska \n(Personalen arbetar från sitt jourrum)</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE</LocID>                <Text>Kirurgisk mottagning</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE_DESCRIPTION</LocID>    <Text>En kirurgisk mottagning diagnostiserar vanligtvis patienter inom öppenvården. \n\nPersonal: \n1x Läkare</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</LocID>              <Text>Internmedicinsk mottagning</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</LocID>              <Text>Internmed. mottagning</Text>   </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE_DESCRIPTION</LocID>  <Text>En internmedicinsk mottagning diagnostiserar vanligtvis patienter inom öppenvården. \n\nPersonal: \n1x Läkare</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE</LocID>                   <Text>Ortopedisk mottagning</Text>   </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE_DESCRIPTION</LocID>       <Text>En ortopedisk mottagning diagnostiserar vanligtvis patienter inom öppenvården. \n\nPersonal: \n1x Läkare</Text></GameDBLocalizedString>
@@ -312,7 +312,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_TV</LocID>                                   <Text>TV</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TV_DESCRIPTION</LocID>                       <Text>TV:n kan användas i personalrum, mottagningar, eller jourrum för att underhålla personal under deras fritid.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_RADIO</LocID>                                <Text>Radio</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RADIO_DESCRIPTION</LocID>                    <Text>TV:n kan användas i personalrum, mottagningar, eller jourrum för att underhålla personal under deras fritid.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIO_DESCRIPTION</LocID>                    <Text>Radion kan användas i personalrum, mottagningar, eller jourrum för att underhålla personal under deras fritid.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PRINTER</LocID>                              <Text>Skrivare</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PRINTER_DESCRIPTION</LocID>                  <Text>Skrivaren används till att skriva ut recept. Dokumentkorgen är ett billigare alternativ.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER</LocID>                         <Text>Dokument-\nkorg</Text>  </GameDBLocalizedString>
@@ -332,37 +332,37 @@
             <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP</LocID>                           <Text>Bordslampa</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP_DESCRIPTION</LocID>               <Text>En dekoration och ljuskälla.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST</LocID>                             <Text>Syntest</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST_DESCRIPTION</LocID>                 <Text>Obligatorisk väggmonterad utrustning för mottagningar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST_DESCRIPTION</LocID>                 <Text>Nödvändig väggmonterad utrustning för mottagningar.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER</LocID>                          <Text>Röntgentavla</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER_DESCRIPTION</LocID>              <Text>Röntgentavla för att undersöka slätröntgenbilder.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL</LocID>                   <Text>Panel slätröntgen</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL_DESCRIPTION</LocID>       <Text>Panel som kontrollerar slätröntgenmaskinen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET</LocID>                    <Text>Förvaringsskåp</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_DESCRIPTION</LocID>        <Text>Obligatorisk utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_DESCRIPTION</LocID>        <Text>Nödvändig utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL</LocID>               <Text>Väggmonterat förvaringsskåp</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL_DESCRIPTION</LocID>   <Text>Obligatorisk utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL_DESCRIPTION</LocID>   <Text>Nödvändig utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT</LocID>                  <Text>Reception vänster</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT_DESCRIPTION</LocID>      <Text>Obligatorisk utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT_DESCRIPTION</LocID>      <Text>Nödvändig utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE</LocID>                <Text>Reception mitten</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>    <Text>Obligatorisk utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>    <Text>Nödvändig utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT</LocID>                 <Text>Reception höger</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT_DESCRIPTION</LocID>     <Text>Obligatorisk utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT_DESCRIPTION</LocID>     <Text>Nödvändig utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK</LocID>                             <Text>Syrafast diskho</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK_DESCRIPTION</LocID>                 <Text>Obligatorisk utrustning för labb, används till att rengöra laboratorieglas.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE</LocID>                            <Text>Mikroskåp</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE_DESCRIPTION</LocID>                <Text>Mikroskåp är obligatorisk utrustning för labb. Används till att analysera mikrobiologiska odlingar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK_DESCRIPTION</LocID>                 <Text>Nödvändig utrustning för labb, används till att rengöra laboratorieglas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE</LocID>                            <Text>Mikroskop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE_DESCRIPTION</LocID>                <Text>Mikroskop är nödvändigt för vissa labb. Används till att analysera vävnadsprov och mikrobiologiska odlingar.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03</LocID>                         <Text>Smittförande avfall</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03_DESCRIPTION</LocID>             <Text>Soptunna för smittförande avfall och biologist material.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF</LocID>                            <Text>Labbhylla</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_DESCRIPTION</LocID>                <Text>En dekoration.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT</LocID>                        <Text>Labbglas</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT_DESCRIPTION</LocID>            <Text>Obligatorisk utrustning. Dessa provrör, bägare och petriskålar används till att preparera olika prover.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER</LocID>                  <Text>Blodanalysator</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER_DESCRIPTION</LocID>      <Text>Obligatorisk utrustning för labb. Används till att analysera flertalet olika typer av blodprov.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT_DESCRIPTION</LocID>            <Text>Nödvändig utrustning. Dessa provrör, bägare och petriskålar används till att preparera olika prover.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER</LocID>                  <Text>Blod-\nanalysator</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER_DESCRIPTION</LocID>      <Text>Nödvändig utrustning för hematologiskt labb. Används till att analysera flertalet olika typer av blodprov.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE</LocID>                      <Text>Ultracentrifug</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE_DESCRIPTION</LocID>          <Text>Obligatorisk utrustning för labb. Används till att preparera blodprover för olika test.</Text>  </GameDBLocalizedString>   
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE_DESCRIPTION</LocID>          <Text>Nödvändig utrustning för labb. Används till att preparera blodprover för olika test.</Text>  </GameDBLocalizedString>   
             <GameDBLocalizedString>      <LocID>OBJECT_RIA</LocID>              		            <Text>RIA</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RIA_DESCRIPTION</LocID>              		<Text>RIA, eller Radioimmunologisk analys, är obligatorisk utrustning för labb. Den mäter olika koncentrationer av antigener.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RIA_DESCRIPTION</LocID>              		<Text>RIA, eller Radioimmunologisk analys, är nödvändig utrustning för labb. Den mäter olika koncentrationer av antigener.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE</LocID>              		<Text>Provlagring</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE_DESCRIPTION</LocID>          <Text>Lagrar biologiska prover.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TREE</LocID>                                 <Text>Träd</Text>  </GameDBLocalizedString>
@@ -394,9 +394,9 @@
             <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN</LocID>                       <Text>Draperi</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN_DESCRIPTION</LocID>          	<Text>Dekoration som ger en lite avskildhet åt patienten.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL</LocID>               <Text>Högt förvaringsskåp</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_DESCRIPTION</LocID>   <Text>Obligatorisk utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_DESCRIPTION</LocID>   <Text>Nödvändig utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE</LocID>             <Text>Förv.skåp med hjul</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE_DESCRIPTION</LocID> <Text>Obligatorisk utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE_DESCRIPTION</LocID> <Text>Nödvändig utrustning för alla rum där undersökningar och behandlingar utförs.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION</LocID>             		<Text>Mobil arbetsstation</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION_DESCRIPTION</LocID> 		<Text>Den mobila arbetsstationen ger en mobil arbetsyta åt läkare i vissa rum.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL</LocID>             		<Text>Telemetri, vägg</Text>  </GameDBLocalizedString>
@@ -406,7 +406,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND</LocID>                          <Text>Dropp</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND_DESCRIPTION</LocID>              <Text>(Tillbehör)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS</LocID>                 <Text>Operations-\nljus</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS_DESCRIPTION</LocID>     <Text>Takmonterad operationsljus obligatorisk för varje operationssal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS_DESCRIPTION</LocID>     <Text>Takmonterad operationsljus nödvändigt för varje operationssal.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST</LocID>                             <Text>FAST ultraljud</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST_DESCRIPTION</LocID>                 <Text>"Fokuserad bedömning med sonografi i trauma" (förkortat FAST) är särskilt anpassad sonografisk utrustning för ultraljudsdiagnostik inom akutvården och IVA.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ANESTHETIC_MACHINE</LocID>                   <Text>Anestesi-\napparat </Text>  </GameDBLocalizedString>
@@ -414,7 +414,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_MONITORING_MACHINE</LocID>                   <Text>Telemetri, avancerad</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_MONITORING_MACHINE_DESCRIPTION</LocID>       <Text>En mer avancerad telemetrisk monitor som övervakar patientens vitala tecken.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LIFE_SUPPORT</LocID>                   		<Text>Livsstöd-\nsystem</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_SUPPORT_DESCRIPTION</LocID>       		<Text>Obligatorisk utrustning för IVA.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_SUPPORT_DESCRIPTION</LocID>       		<Text>Nödvändig utrustning för IVA.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILATOR_WALL</LocID>                   	<Text>Hjärtstartare, väggmonterad</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILATOR_WALL_DESCRIPTION</LocID>       	<Text>Väggmonterad hjärtstartare används till att återställa en normal hjärtrytm..</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_STAND_STAINLESS</LocID>                   	<Text>Avlastningsbord i rostfritt</Text>  </GameDBLocalizedString>
@@ -428,7 +428,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR</LocID>                <Text>Respirator</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DESCRIPTION</LocID>    <Text>Mekanisk ventilator som hjälper patienten att andas.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT2</LocID>                       <Text>Labbglas, små</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT2_DESCRIPTION</LocID>           <Text>Obligatorisk utrustning. Dessa provrör, bägare och petriskålar används till att preparera olika prover. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT2_DESCRIPTION</LocID>           <Text>Nödvändig utrustning. Dessa provrör, bägare och petriskålar används till att preparera olika prover. </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_CONTROL_PANEL</LocID>                	<Text>Panel för angiograf</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_CONTROL_PANEL_DESCRIPTION</LocID>    	<Text>Kontrollerar angiografen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_RADIOLOGY_VIEWER</LocID>                		<Text>Radiologisk monitor</Text>  </GameDBLocalizedString>
@@ -436,7 +436,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_IMAGING</LocID>                		<Text>Digital avbildning</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_IMAGING_DESCRIPTION</LocID>    		<Text>Digital avbildning i realtid under kirurgiska ingrepp.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_SUCTION_MACHINE</LocID>                		<Text>Kirurgisk sug</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_SUCTION_MACHINE_DESCRIPTION</LocID>   		<Text>Obligatorisk utrustning. Används till att suga upp vätskor under kirurgiska ingrepp.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SUCTION_MACHINE_DESCRIPTION</LocID>   		<Text>Nödvändig utrustning. Används till att suga upp vätskor under kirurgiska ingrepp.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_SURGERY_INSTRUMENTS</LocID>                	<Text>Kirurgiska instrument</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_SURGERY_INSTRUMENTS_DESCRIPTION</LocID>   	<Text>Kirurgiska instrument är ett måste för att ens kunna utföra ett kirurgisk ingrepp.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ELECTROCAUTERY_MACHINE</LocID>               <Text>Elektro-\nkauterisering</Text>  </GameDBLocalizedString>
@@ -452,7 +452,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DOUBLE</LocID>               <Text>Värmeskåp stort</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DOUBLE_DESCRIPTION</LocID>   <Text>Värmeskåpet värmer upp filtar samt intravenösa och kirurgiska vätskor.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_SCRUBBING_SINK</LocID>               		<Text>Kirurgiskt tvättställ</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBBING_SINK_DESCRIPTION</LocID>   		<Text>Kirurgiska tvättställ är obligatorisk utrustning som används före alla kirurgiska ingrepp.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBBING_SINK_DESCRIPTION</LocID>   		<Text>Kirurgiska tvättställ är nödvändig utrustning som används före alla kirurgiska ingrepp.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_TALL</LocID>               		<Text>Klädhylla hög</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_TALL_DESCRIPTION</LocID>   		<Text>På klädhyllan ligger särskilda arbetskläder och dräkter åt personalen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_04</LocID>                         <Text>Smittförande avfall</Text>  </GameDBLocalizedString>
@@ -490,19 +490,19 @@
             <GameDBLocalizedString>      <LocID>OBJECT_BUSH</LocID>                         		<Text>Buske</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_BUSH_DESCRIPTION</LocID>             		<Text>Dekoration för utomhusbruk</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ULTRASONOGRAPH</LocID>                       <Text>Sonograf</Text>     </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ULTRASONOGRAPH_DESCRIPTION</LocID>           <Text>Sonografen är obligatorisk utrustning för den Sonografiska enheten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRASONOGRAPH_DESCRIPTION</LocID>           <Text>Sonografen är nödvändig utrustning för den Sonografiska enheten.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DIALISIS</LocID>                         	<Text>Dialysmaskin</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DIALISIS_DESCRIPTION</LocID>             	<Text>Dialysmaskinen är obligatorisk utrustning för olika rum, kan användas för dialys eller plasmaferes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DIALISIS_DESCRIPTION</LocID>             	<Text>Dialysmaskinen är nödvändig utrustning för olika rum, kan användas för dialys eller plasmaferes.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ELECTROENCEPHALOGRAPH</LocID>                <Text>EEG</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROENCEPHALOGRAPH_DESCRIPTION</LocID>    <Text>Elektroencefalograf är obligatorisk utrustning som registrerar den elektriska aktiviteten i en persons hjärna.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROENCEPHALOGRAPH_DESCRIPTION</LocID>    <Text>Elektroencefalograf är nödvändig utrustning som registrerar den elektriska aktiviteten i en persons hjärna.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ELASTOGRAPH</LocID>                         	<Text>Elastograf</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_ELASTOGRAPH_DESCRIPTION</LocID>             	<Text>Elastografen är obligatorisk utrustning som används till att mäta elastiska egenskaper och stelheten i mjuk vävnad.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELASTOGRAPH_DESCRIPTION</LocID>             	<Text>Elastografen är nödvändig utrustning som används till att mäta elastiska egenskaper och stelheten i mjuk vävnad.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TABLE_SQUERE</LocID>                         <Text>Fyrkantigt bord</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TABLE_SQUERE_DESCRIPTION</LocID>             <Text>Litet bord att ställa olika saker på.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TABLE_EQUIPMENT</LocID>                      <Text>Verktygsbord</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TABLE_EQUIPMENT_DESCRIPTION</LocID>          <Text>Ett litet bord att placera utrustning och verktyg på.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_TONOMETER</LocID>                         	<Text>Tonometer</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_TONOMETER_DESCRIPTION</LocID>             	<Text>Tonometern är obligatorisk utrustning som mäter det intraokulära trycket, dvs. vätsketrycket inne i ögat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TONOMETER_DESCRIPTION</LocID>             	<Text>Tonometern är nödvändig utrustning som mäter det intraokulära trycket, dvs. vätsketrycket inne i ögat.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_AUDIOMETER</LocID>                         	<Text>Audiometer</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_AUDIOMETER_DESCRIPTION</LocID>             	<Text>Audiometer används till att mäta hörseln och avgöra på vilken nivå en persons hörsel fungerar.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_CRP_SCAN</LocID>                         	<Text>CRP-prov</Text>  </GameDBLocalizedString>
@@ -572,7 +572,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CORRIDOR</LocID>       			    <Text>Korridor</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CARDIOVASCULAR_UNIT</LocID>       		<Text>Kardiografisk enhet</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_OBSERVATION</LocID>       		<Text>Observation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIGH_PRIORITY</LocID>       			<Text>Lätt-IVA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIGH_PRIORITY</LocID>       			<Text>IMA</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ANGIOGRAPHY</LocID>       			    <Text>Angiografi</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MRI</LocID>       			            <Text>MRT</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DECALS_DESCRIPTION</LocID>       			<Text>Väggdekal.</Text>  </GameDBLocalizedString>
@@ -588,7 +588,7 @@
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DINING_TABLE</LocID>               <Text>Matbord</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DINING_TABLE_DESCRIPTION</LocID>   <Text>Stolar kan placeras vid matbordet. Detta är en plats där personalen kan äta sina måltider.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CAMP_BED</LocID>                   <Text>Brits</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CAMP_BED_DESCRIPTION</LocID>       <Text>Undersökningsbritsen är obligatorisk utrustning i flera olika mottagningar och enheter, de flesta undersökningar utförs här.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CAMP_BED_DESCRIPTION</LocID>       <Text>Undersökningsbritsen är nödvändig utrustning i flera olika mottagningar och enheter, de flesta undersökningar utförs här.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH</LocID>                      <Text>Bänk</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_DESCRIPTION</LocID>          <Text>Bänken utgör två sittplatser för patienter i väntrum eller vid receptionen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_SOFA</LocID>                       <Text>Soffa</Text>  </GameDBLocalizedString>
@@ -596,9 +596,9 @@
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DRESSING_SCREEN</LocID>            <Text>Ombytesskärm</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DRESSING_SCREEN_DESCRIPTION</LocID><Text>En dekoration.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK</LocID>                <Text>Skrivbord</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK_DESCRIPTION</LocID>    <Text>Skrivbord är obligatorisk utrustning i flera olika mottagningar och rum. Om en dator placeras ovanpå skapas en arbetsplats åt en anställd.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK_DESCRIPTION</LocID>    <Text>Skrivbord är nödvändig utrustning i flera olika mottagningar och rum. Om en dator placeras ovanpå skapas en arbetsplats åt en anställd.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_LAB_DESK</LocID>                   <Text>Laboratorie-\nbänk</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_LAB_DESK_DESCRIPTION</LocID>       <Text>Laboratoriebänken är obligatorisk utrustning i labb, de flesta instrument kan placeras ovanpå.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_LAB_DESK_DESCRIPTION</LocID>       <Text>Laboratoriebänken är nödvändig utrustning i labb, de flesta instrument kan placeras ovanpå.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BASIC_BED</LocID>                  <Text>Sjuksäng</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BASIC_BED_DESCRIPTION</LocID>      <Text>Enkel sjuksäng för inlagda patienter på slutenvården.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_MODERN_BED</LocID>                 <Text>Sjuksäng, modern</Text>  </GameDBLocalizedString>
@@ -606,16 +606,16 @@
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER</LocID>       			<Text>Sjukbår</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_DESCRIPTION</LocID>      <Text>En sjukbår transporterar sängliggande patienter.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OPERATING_TABLE</LocID>       		<Text>Operations-\nbord</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OPERATING_TABLE_DESCRIPTION</LocID><Text>Obligatorisk utrustning för alla operationssalar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OPERATING_TABLE_DESCRIPTION</LocID><Text>Nödvändig utrustning för alla operationssalar.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK2</LocID>               <Text>Skrivbord</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK2_DESCRIPTION</LocID>   <Text>Skrivbord är obligatorisk utrustning i flera olika mottagningar och rum. Om en dator placeras ovanpå skapas en arbetsplats åt en anställd.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK2_DESCRIPTION</LocID>   <Text>Skrivbord är nödvändig utrustning i flera olika mottagningar och rum. Om en dator placeras ovanpå skapas en arbetsplats åt en anställd.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OUTSIDE_BENCH</LocID>              <Text>Vädertålig bänk</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OUTSIDE_BENCH_DESCRIPTION</LocID>  <Text>Dekoration för utomhusbruk.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_01</LocID>               <Text>Ambulans</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_01_DESCRIPTION</LocID>   <Text>Köp en ambulans för att få tillgång till utmanande kritiska fall.</Text>  </GameDBLocalizedString>
            
             <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_XRAY</LocID>                          <Text>Röntgen-\smaskin</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_XRAY_DESCRIPTION</LocID>              <Text>Röntgenmaskiner är obligatorisk utrustning för slätröntgen. Kontrolleras via en panel, som måste placeras i samma rum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_XRAY_DESCRIPTION</LocID>              <Text>Röntgenmaskiner är nödvändig utrustning för slätröntgen. Kontrolleras via en panel, som måste placeras i samma rum.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_CT</LocID>                            <Text>DT</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_CT_DESCRIPTION</LocID>                <Text>Datortomografi är diagnostisk utrustning som skapar detaljerade bilder av interna organ, vävnader, och blodkärl.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_MRI</LocID>                           <Text>MRT</Text>  </GameDBLocalizedString>
@@ -684,8 +684,8 @@
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CLEANING_CLOSET_ABBR</LocID>             <Text>Städskrubb - 4 x 6</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_WARD_LARGE_ABBR</LocID>        <Text>Sjuksal - 12 x 6</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_WARD_SMALL_ABBR</LocID>        <Text>Sjuksal - 4 x 6</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_LARGE_ABBR</LocID>    <Text>Lätt-IVA - 12 x 6</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_SMALL_ABBR</LocID>    <Text>Lätt-IVA - 4 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_LARGE_ABBR</LocID>    <Text>IMA - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_SMALL_ABBR</LocID>    <Text>IMA - 4 x 6</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ICU_LARGE_ABBR</LocID>                   <Text>IVA - 16 x 6</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ICU_SMALL_ABBR</LocID>                   <Text>IVA - 8 x 6</Text>  </GameDBLocalizedString>
             
@@ -779,7 +779,7 @@
             <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_SMALL</LocID>                 	<Text>Gatlykta</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_SMALL_DESCRIPTION</LocID>     	<Text>Litet gatlykta, passar för gångar.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_INFO</LocID>             <Text>Reception mitten</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_INFO_DESCRIPTION</LocID> <Text>Obligatorisk utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_INFO_DESCRIPTION</LocID> <Text>Nödvändig utrustning för receptioner. Om en dator placeras ovanpå skapas en arbetsplats åt en sköterska specialiserad inom patientmottagning.</Text>  </GameDBLocalizedString>
 
             <!-- Same as PREFAB_OBJECT_XRAY, PREFAB_OBJECT_CT, PREFAB_OBJECT_MRI -->
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_X_RAY</LocID>                      <Text>Slätröntgen</Text>  </GameDBLocalizedString>
