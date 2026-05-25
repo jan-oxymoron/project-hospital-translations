@@ -96,11 +96,11 @@
             <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED</LocID>     <Text>Bokmärkt patient har nu diagnostiserats.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED_TEXT</LocID><Text><![CDATA[Bokmärkt patienten diagnostiserades med <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED</LocID>       <Text>Bokmärkt patient har nu blivit behandlad.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</LocID>  <Text>Bokmärkt patient har nu blivit behandlad och går nu hem.</Text>  </GameDBLocalizedString><!-- TODO check -->
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED</LocID>       <Text>Bokmärkt patient skrivs ut.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</LocID>  <Text>Bokmärkt patient har genomgått behandling och skrivs ut till hemmet.</Text>  </GameDBLocalizedString><!-- TODO check -->
 
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED</LocID> <Text>Ny symtom hittad</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</LocID><Text><![CDATA[Diagnostisk undersökning har upptäckt ny symtom hos bokmärkt patient:\n\n <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED</LocID> <Text>Ny symtom påvisad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</LocID><Text><![CDATA[Diagnostisk undersökning har påvisat ny symtom hos bokmärkt patient:\n\n <i>{1}</i>.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED</LocID> <Text>Ny dold symtom har uppkommit hos en övervakad patient.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</LocID><Text>Ny dold symtom har uppkommit hos en övervakad patient, detta kan bli farligt.</Text>  </GameDBLocalizedString>
@@ -119,7 +119,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_MONITORED_PATIENT_COLLAPSING_TEXT</LocID><Text>Övervakad har kollapsat! Din personal gör sitt bästa för att hålla dem vid liv.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID><Text>Ny dold symtom har uppkommit hos din patient.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Sköterska upptäckte {1} dold(a) symtom hos din patient, detta kan bli farligt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Sköterska fann {1} dold(a) symtom hos din patient, detta kan bli farligt.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND</LocID>  <Text>En ny dold symtom uppkom på en bokmärkt patient.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</LocID><Text>Sköterska fann {1} ny(a) dold(a) symtom på en bokmärkt patient, detta kan vara kritiskt.</Text>  </GameDBLocalizedString>
@@ -226,7 +226,7 @@
             
 			<!-- ============= NEW, NEED TRANSLATING ================== -->
            <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY</LocID>            <Text>Onödig kirurgi!</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>Kirurgerna kunde inte hitta de förväntade symtomerna under ingreppet! Patienten blev sannolikt feldiagnostiserad.\nEtt engångsbelopp på ${1} har betalats ut till patientens försäkringsbolag som ersättning.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>      <LocID>NOTIF_UNNECESSARY_SURGERY_TEXT</LocID>       <Text>Kirurgen kunde inte hitta förväntad symtom under ingreppet! Patienten blev sannolikt feldiagnostiserad.\nEtt engångsbelopp på ${1} har betalats ut till patientens försäkringsbolag som ersättning.</Text>  </GameDBLocalizedString>
 
            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE</LocID>                      <Text>Du förlorade ett fall!</Text>  </GameDBLocalizedString>
            <GameDBLocalizedString>      <LocID>NOTIF_LOST_CASE_TEXT</LocID>                 <Text>Patientens läge är kritiskt och trots läkarnas bästa försök får de inte situationen under kontroll. Patienten transporteras nu till ett bättre utrustat sjukhus.</Text>  </GameDBLocalizedString>
